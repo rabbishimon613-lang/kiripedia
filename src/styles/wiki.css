@@ -141,25 +141,6 @@ a.new, a.redlink { color: var(--color-link-red); }
   padding: 16px 32px 32px;
 }
 
-/* ---------- Article tabs ---------- */
-.article-tabs {
-  border-bottom: 1px solid var(--color-border-subtle);
-  padding: 0 32px;
-  display: flex;
-  gap: 0;
-  font-size: 13px;
-  background: var(--color-bg);
-}
-.article-tabs a {
-  padding: 10px 12px;
-  color: var(--color-link);
-  border-bottom: 2px solid transparent;
-}
-.article-tabs a.active {
-  color: var(--color-base);
-  border-bottom-color: var(--color-base);
-}
-
 /* ---------- Article body ---------- */
 .firstHeading {
   font-family: var(--font-serif);
@@ -385,12 +366,15 @@ sup.reference a:hover { text-decoration: underline; }
 }
 .banner-sidebar:empty { display: none; }
 
-/* Mobile floating banner — the AADS snippet brings its own position:fixed,
-   so the slot itself only needs to be hidden on desktop. */
+/* Mobile inline banner — sits at the top of the main content area
+   (where the article-tabs row used to live). Hidden on desktop. */
 .banner-mobile { display: none; }
 @media (max-width: 800px) {
   .banner-header { display: none; }
-  .banner-mobile { display: block; }
-  /* Reserve space at the bottom of the page so the floating banner doesn't cover the footer */
-  body { padding-bottom: 80px; }
+  .banner-mobile {
+    display: block;
+    border-bottom: 1px solid var(--color-border-subtle);
+    background: var(--color-bg-sidebar);
+    padding: 8px 12px;
+  }
 }

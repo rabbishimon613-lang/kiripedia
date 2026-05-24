@@ -4,13 +4,6 @@ import References from '../components/References.astro';
 const { title, subtitle, categories = [], stub = false } = Astro.props;
 ---
 <WikiLayout title={title}>
-  <div class="article-tabs">
-    <a href="#" class="active">Article</a>
-    <a href="#">Talk</a>
-    <a href="#" style="margin-left:auto">Read</a>
-    <a href="#">View source</a>
-    <a href="#">View history</a>
-  </div>
   <div class="wiki-content" data-pagefind-body>
     <h1 class="firstHeading" data-pagefind-meta="title">{title}</h1>
     {subtitle && <p class="subtitle">{subtitle}</p>}
