@@ -1,0 +1,49 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+---
+<WikiLayout title="Search">
+  <div class="wiki-content" data-pagefind-ignore>
+    <h1 class="firstHeading">Search results</h1>
+    <p class="subtitle" id="search-status">Loading search index…</p>
+
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <div id="search" style="margin-top:16px"></div>
+
+    <p style="margin-top:24px; font-size:13px; color:var(--color-base--subtle)">
+      Search covers article text only. To browse rather than search, see <a href="/special/all-pages">All pages</a>, the <a href="/sources">Source index</a>, or the topic categories in the sidebar.
+    </p>
+  </div>
+
+  <script type="module" is:inline>
+    const params = new URLSearchParams(window.location.search);
+    const initial = params.get('q') ?? '';
+
+    try {
+      const module = await import('/pagefind/pagefind-ui.js');
+      const PagefindUI = module.PagefindUI;
+      new PagefindUI({
+        element: '#search',
+        showImages: false,
+        showSubResults: true,
+        resetStyles: false,
+      });
+      document.getElementById('search-status').textContent = initial
+        ? `Showing results for “${initial}”`
+        : 'Type a query to search.';
+      if (initial) {
+        // Wait one frame for PagefindUI to wire its input, then set the query.
+        requestAnimationFrame(() => {
+          const input = document.querySelector('#search input');
+          if (input) {
+            input.value = initial;
+            input.dispatchEvent(new Event('input', { bubbles: true }));
+            input.focus();
+          }
+        });
+      }
+    } catch (err) {
+      document.getElementById('search-status').textContent =
+        'Search index not available. This usually means the site is running in dev mode — pagefind runs at build time. Try the live site at kiripedia.vercel.app.';
+    }
+  </script>
+</WikiLayout>

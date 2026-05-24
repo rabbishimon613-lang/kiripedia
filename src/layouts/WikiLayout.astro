@@ -26,7 +26,7 @@ const { title = 'KiriPedia' } = Astro.props;
   </header>
 
   <div class="wiki-shell">
-    <nav class="wiki-sidebar">
+    <nav class="wiki-sidebar" data-pagefind-ignore>
       <h3>Navigation</h3>
       <ul>
         <li><a href="/">Main page</a></li>
@@ -41,9 +41,7 @@ const { title = 'KiriPedia' } = Astro.props;
       <h3>Site map</h3>
       <ul>
         <li><a href="/sources">Source index</a></li>
-        <li><a href="/recent-changes">Recent changes</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="/help">Help</a></li>
       </ul>
       <h3>Tools</h3>
       <ul>
@@ -51,7 +49,7 @@ const { title = 'KiriPedia' } = Astro.props;
         <li><a href="/special/stubs">Stubs</a></li>
       </ul>
       <!-- Banner slot: desktop, bottom of left sidebar -->
-      <div class="banner-slot banner-sidebar" data-banner="sidebar">
+      <div data-pagefind-ignore class="banner-slot banner-sidebar" data-banner="sidebar">
         <!-- BEGIN AADS AD UNIT 2438715 (sidebar placement) -->
         <div style="width: 100%; margin: auto; position: relative; z-index: 99998;">
           <iframe data-aa='2438715' src='//acceptable.a-ads.com/2438715/?size=Adaptive'
@@ -63,11 +61,10 @@ const { title = 'KiriPedia' } = Astro.props;
 
     <main class="wiki-main">
       <slot />
-      <footer class="wiki-footer">
+      <footer class="wiki-footer" data-pagefind-ignore>
         <div>KiriPedia is an independent project. All content is derived from John Kiriakou's publicly available statements — interviews, podcast appearances, video appearances, and short-form video content. This is not a neutral encyclopedia — it is the world as he describes it.</div>
         <ul>
           <li><a href="/about">About</a></li>
-          <li><a href="/disclaimer">Disclaimer</a></li>
           <li><a href="/sources">Sources</a></li>
         </ul>
       </footer>
@@ -75,7 +72,7 @@ const { title = 'KiriPedia' } = Astro.props;
   </div>
 
   <!-- Banner slot: mobile, floating persistent at bottom of viewport -->
-  <div class="banner-slot banner-mobile" data-banner="mobile">
+  <div data-pagefind-ignore class="banner-slot banner-mobile" data-banner="mobile">
     <!-- BEGIN AADS AD UNIT 2438716 -->
     <div style="position: absolute; z-index: 99999">
       <input autocomplete="off" type="checkbox" id="aadsstickympkax4ik" hidden />

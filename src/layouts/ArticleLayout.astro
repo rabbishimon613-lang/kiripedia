@@ -11,8 +11,8 @@ const { title, subtitle, categories = [], stub = false } = Astro.props;
     <a href="#">View source</a>
     <a href="#">View history</a>
   </div>
-  <div class="wiki-content">
-    <h1 class="firstHeading">{title}</h1>
+  <div class="wiki-content" data-pagefind-body>
+    <h1 class="firstHeading" data-pagefind-meta="title">{title}</h1>
     {subtitle && <p class="subtitle">{subtitle}</p>}
     {stub && (
       <div class="stub-notice">
