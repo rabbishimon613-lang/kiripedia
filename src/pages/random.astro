@@ -1,0 +1,28 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('articles');
+const slugs = articles.map((a) => a.id.replace(/\.mdx?$/, ''));
+---
+<WikiLayout title="Random article">
+  <div class="wiki-content">
+    <article class="wiki-body" style="text-align:center; padding:60px 20px">
+      <p style="font-size:16px">Picking a random article…</p>
+      <p style="font-size:13px; color:var(--color-base--subtle); margin-top:20px">
+        If you are not redirected within a few seconds, <a id="fallback" href="/">return to the main page</a>.
+      </p>
+    </article>
+  </div>
+
+  <script is:inline define:vars={{ slugs }}>
+    (function () {
+      if (!Array.isArray(slugs) || slugs.length === 0) return;
+      const pick = slugs[Math.floor(Math.random() * slugs.length)];
+      const target = '/wiki/' + pick;
+      const fb = document.getElementById('fallback');
+      if (fb) fb.href = target;
+      window.location.replace(target);
+    })();
+  </script>
+</WikiLayout>

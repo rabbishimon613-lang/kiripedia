@@ -1,0 +1,54 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import { getCollection } from 'astro:content';
+
+const sources = await getCollection('sources');
+
+// Group by show, sort each group by date desc
+const byShow = new Map();
+for (const s of sources) {
+  const show = s.data.show ?? 'Unknown';
+  if (!byShow.has(show)) byShow.set(show, []);
+  byShow.get(show).push(s);
+}
+for (const arr of byShow.values()) {
+  arr.sort((a, b) => (b.data.date ?? '').localeCompare(a.data.date ?? ''));
+}
+const shows = [...byShow.keys()].sort();
+const total = sources.length;
+---
+<WikiLayout title="Source index">
+  <div class="wiki-content">
+    <h1 class="firstHeading">Source index</h1>
+    <p class="subtitle">Every public appearance by John Kiriakou ingested into KiriPedia</p>
+
+    <article class="wiki-body">
+      <p>
+        KiriPedia is built from publicly available recordings — podcast interviews, video interviews, livestreams, and short-form video appearances on platforms such as YouTube, TikTok, and Instagram. Every claim in every article cites a specific timestamp in one of the recordings listed here.
+      </p>
+
+      <p>
+        <strong>{total}</strong> source{total === 1 ? '' : 's'} ingested across <strong>{shows.length}</strong> show{shows.length === 1 ? '' : 's'}.
+      </p>
+
+      {shows.map((show) => (
+        <section style="margin-top:24px">
+          <h2>{show}</h2>
+          <ul style="list-style:none; padding:0; margin:0">
+            {byShow.get(show).map((s) => (
+              <li style="padding:8px 0; border-bottom:1px solid var(--color-border-subtle)">
+                <a href={`/sources/${s.id.replace(/\.md$/, '')}`}><strong>{s.data.title}</strong></a>
+                <div style="font-size:13px; color:var(--color-base--subtle); margin-top:2px">
+                  {s.data.date}
+                  {s.data.duration && <> · {s.data.duration}</>}
+                  {s.data.captionSource && <> · captions: {s.data.captionSource}</>}
+                  {s.data.url && <> · <a href={s.data.url} target="_blank" rel="noopener">YouTube</a></>}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </article>
+  </div>
+</WikiLayout>

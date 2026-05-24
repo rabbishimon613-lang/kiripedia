@@ -1,0 +1,59 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('articles');
+
+// Group alphabetically by first letter of the title
+const byLetter = new Map();
+for (const a of articles) {
+  const title = a.data.title;
+  const first = title.replace(/^["'(]/, '').charAt(0).toUpperCase();
+  const bucket = /[A-Z]/.test(first) ? first : '#';
+  if (!byLetter.has(bucket)) byLetter.set(bucket, []);
+  byLetter.get(bucket).push(a);
+}
+for (const arr of byLetter.values()) {
+  arr.sort((a, b) => a.data.title.localeCompare(b.data.title));
+}
+const letters = [...byLetter.keys()].sort((a, b) => {
+  if (a === '#') return -1;
+  if (b === '#') return 1;
+  return a.localeCompare(b);
+});
+
+const total = articles.length;
+const stubs = articles.filter((a) => a.data.stub).length;
+---
+<WikiLayout title="All pages">
+  <div class="wiki-content">
+    <h1 class="firstHeading">All pages</h1>
+    <p class="subtitle">Every article on KiriPedia, alphabetical</p>
+
+    <article class="wiki-body">
+      <p>
+        <strong>{total}</strong> total — {total - stubs} full article{total - stubs === 1 ? '' : 's'}, {stubs} <a href="/special/stubs">stub{stubs === 1 ? '' : 's'}</a>.
+      </p>
+
+      <p style="margin: 16px 0; padding: 8px 12px; background: var(--color-bg-sidebar); border: 1px solid var(--color-border-subtle); font-size: 14px;">
+        Jump to: {letters.map((l, i) => (
+          <>{i > 0 && ' · '}<a href={`#${l}`}>{l}</a></>
+        ))}
+      </p>
+
+      {letters.map((letter) => (
+        <section style="margin-top:18px">
+          <h2 id={letter} style="font-size:18px">{letter}</h2>
+          <ul style="columns:2; column-gap:24px; padding-left:20px; margin:0">
+            {byLetter.get(letter).map((a) => (
+              <li style="break-inside:avoid; padding:2px 0">
+                <a href={`/wiki/${a.id.replace(/\.mdx?$/, '')}`}>{a.data.title}</a>
+                {a.data.stub && <span style="font-size:11px; color:var(--color-base--subtle)"> · stub</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </article>
+  </div>
+</WikiLayout>
