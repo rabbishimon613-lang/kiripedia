@@ -8,27 +8,18 @@ const { title = 'KiriPedia' } = Astro.props;
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title} — KiriPedia</title>
-  <link rel="icon" href="/logo.svg" />
+  <link rel="icon" href="/logo.png" />
 </head>
 <body>
   <header class="wiki-header">
     <button class="menu-btn" aria-label="Menu">☰</button>
     <a href="/" class="logo-link">
-      <img src="/logo.svg" alt="KiriPedia" class="logo-img" />
+      <img src="/logo.png" alt="KiriPedia" class="logo-img" />
       <span class="wordmark">
         <span class="name">KiriPedia</span>
         <span class="tagline">The Free Encyclopedia of John Kiriakou's World</span>
       </span>
     </a>
-    <!-- Banner slot: desktop, immediately to the left of the search bar -->
-    <div class="banner-slot banner-header" data-banner="header">
-      <!-- BEGIN AADS AD UNIT 2438715 -->
-      <div style="width: 100%; margin: auto; position: relative; z-index: 99998;">
-        <iframe data-aa='2438715' src='//acceptable.a-ads.com/2438715/?size=Adaptive'
-                style='border:0; padding:0; width:100%; height:60px; overflow:hidden; display: block; margin: auto'></iframe>
-      </div>
-      <!-- END AADS AD UNIT 2438715 -->
-    </div>
     <form class="search" role="search" action="/search" method="get">
       <input type="search" name="q" placeholder="Search KiriPedia" />
     </form>

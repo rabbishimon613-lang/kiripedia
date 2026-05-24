@@ -83,8 +83,9 @@ a.new, a.redlink { color: var(--color-link-red); }
   letter-spacing: 0.5px;
 }
 .wiki-header .search {
-  flex: 0 1 360px;
-  max-width: 360px;
+  flex: 1;
+  max-width: 500px;
+  margin-left: auto;
 }
 .wiki-header .search input {
   width: 100%;
@@ -373,14 +374,8 @@ sup.reference a:hover { text-decoration: underline; }
 .banner-slot { font-size: 0; line-height: 0; }
 .banner-slot:not(:empty) { font-size: inherit; line-height: inherit; }
 
-/* Header banner — sits immediately to the left of the search bar on desktop */
-.banner-header {
-  margin-left: auto; /* pushes the banner+search group to the right edge */
-  flex: 0 0 auto;
-  width: 320px;
-  max-width: 320px;
-}
-.banner-header:empty { display: none; }
+/* Header banner slot is no longer used; kept here in case it's reintroduced later */
+.banner-header { display: none !important; }
 
 /* Sidebar banner — bottom of the left navigation, hidden on mobile (sidebar is hidden) */
 .banner-sidebar {
