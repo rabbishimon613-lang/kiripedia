@@ -10,7 +10,7 @@ KiriPedia is **John Kiriakou's mouth as a wiki**, not a neutral encyclopedia tha
 
 ### The five rules
 
-1. **Single-source canon.** If John didn't say it — in a public interview, podcast, video, book, or transcript — it doesn't go in. No filling in from Wikipedia, news reports, court documents, or general knowledge. Gaps are preserved as gaps.
+1. **Single-source canon.** If John didn't say it — in a publicly available interview, podcast appearance, video, livestream, or short-form video on platforms like YouTube, TikTok, Instagram, etc. — it doesn't go in. No filling in from Wikipedia, news reports, court documents, his books, or general knowledge. Gaps are preserved as gaps.
 
 2. **Mirror John's discretion.** When he uses an alias, refuses to name a country, or says "I can't say," the article does the same. *"In an unnamed Middle Eastern country."* *"An asset referred to only as Mahmud."* Editorial inference of redacted details is not allowed even when the answer seems obvious.
 
