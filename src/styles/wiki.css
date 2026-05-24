@@ -39,48 +39,55 @@ a.new, a.redlink { color: var(--color-link-red); }
 .wiki-header {
   border-bottom: 1px solid var(--color-border-subtle);
   background: var(--color-bg-header);
-  padding: 8px 16px;
+  padding: 14px 24px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 18px;
   position: sticky;
   top: 0;
   z-index: 10;
+  min-height: 76px;
 }
 .wiki-header .menu-btn {
   background: none;
   border: 1px solid transparent;
-  padding: 6px 10px;
+  padding: 8px 12px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1;
   border-radius: 2px;
+  color: var(--color-base);
 }
 .wiki-header .menu-btn:hover { background: #eaecf0; border-color: var(--color-border-subtle); }
 .wiki-header .logo-link {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   color: inherit;
 }
 .wiki-header .logo-link:hover { text-decoration: none; }
 .wiki-header .logo-img {
-  width: 50px;
-  height: 50px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
+  background: transparent;
+  display: block;
 }
 .wiki-header .wordmark {
   font-family: var(--font-serif);
   display: flex;
   flex-direction: column;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 .wiki-header .wordmark .name {
-  font-size: 22px;
+  font-size: 28px;
+  font-weight: normal;
 }
 .wiki-header .wordmark .tagline {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--color-base--subtle);
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
+  margin-top: 2px;
 }
 .wiki-header .search {
   flex: 1;
@@ -181,6 +188,28 @@ a.new, a.redlink { color: var(--color-link-red); }
   padding: 4px 16px;
   color: var(--color-base--subtle);
   font-style: italic;
+}
+.wiki-body table {
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-subtle);
+}
+.wiki-body table th,
+.wiki-body table td {
+  padding: 6px 12px;
+  border: 1px solid var(--color-border-subtle);
+  text-align: left;
+  vertical-align: top;
+}
+.wiki-body table th {
+  background: #eaecf0;
+  font-weight: bold;
+}
+.wiki-body table tr:nth-child(even) td {
+  background: #fafbfc;
 }
 
 /* ---------- Hatnote ---------- */
@@ -348,6 +377,28 @@ sup.reference a:hover { text-decoration: underline; }
   .wiki-sidebar { display: none; }
   .infobox { float: none; width: 100%; margin: 0 0 16px; }
   .mainpage-grid { grid-template-columns: 1fr; }
+
+  /* Header reflows on mobile: logo + wordmark on top row, search on the row below */
+  .wiki-header {
+    flex-wrap: wrap;
+    padding: 10px 14px;
+    gap: 10px;
+    min-height: 0;
+  }
+  .wiki-header .menu-btn { padding: 6px 8px; font-size: 22px; }
+  .wiki-header .logo-img { width: 48px; height: 48px; }
+  .wiki-header .wordmark .name { font-size: 20px; }
+  .wiki-header .wordmark .tagline { display: none; }
+  .wiki-header .search {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-left: 0;
+    order: 99;
+  }
+  .wiki-header .search input { font-size: 16px; /* prevents iOS auto-zoom */ }
+
+  /* Tables on mobile: allow horizontal scroll instead of breaking layout */
+  .wiki-body table { display: block; overflow-x: auto; max-width: 100%; }
 }
 
 /* ---------- Banner slots ---------- */

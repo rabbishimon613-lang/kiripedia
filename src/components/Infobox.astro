@@ -1,6 +1,15 @@
 ---
 const { title, image, imageCaption, data = {} } = Astro.props;
 const entries = Object.entries(data);
+
+// Convert inline Markdown link syntax [text](url) to HTML <a>, and *em* to <em>,
+// so authors can write infobox values naturally. Everything else passes through.
+function mdLite(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+}
 ---
 <aside class="infobox">
   <div class="infobox-title">{title}</div>
@@ -14,7 +23,7 @@ const entries = Object.entries(data);
     <table>
       <tbody>
         {entries.map(([k, v]) => (
-          <tr><th>{k}</th><td set:html={v} /></tr>
+          <tr><th>{k}</th><td set:html={mdLite(v)} /></tr>
         ))}
       </tbody>
     </table>
