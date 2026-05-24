@@ -359,18 +359,6 @@ sup.reference a:hover { text-decoration: underline; }
 }
 
 /* ---------- Stub notice ---------- */
-.stub-notice {
-  border: 1px solid var(--color-border-subtle);
-  background: var(--color-bg-sidebar);
-  padding: 10px;
-  margin: 16px 0;
-  font-style: italic;
-  font-size: 13px;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-.stub-notice::before { content: "✎"; font-size: 22px; color: var(--color-base--subtle); }
 
 @media (max-width: 800px) {
   .wiki-shell { grid-template-columns: 1fr; }

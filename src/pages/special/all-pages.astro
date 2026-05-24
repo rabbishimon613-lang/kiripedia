@@ -23,7 +23,6 @@ const letters = [...byLetter.keys()].sort((a, b) => {
 });
 
 const total = articles.length;
-const stubs = articles.filter((a) => a.data.stub).length;
 ---
 <WikiLayout title="All pages">
   <div class="wiki-content">
@@ -32,7 +31,7 @@ const stubs = articles.filter((a) => a.data.stub).length;
 
     <article class="wiki-body">
       <p>
-        <strong>{total}</strong> total — {total - stubs} full article{total - stubs === 1 ? '' : 's'}, {stubs} <a href="/special/stubs">stub{stubs === 1 ? '' : 's'}</a>.
+        <strong>{total}</strong> article{total === 1 ? '' : 's'} on KiriPedia.
       </p>
 
       <p style="margin: 16px 0; padding: 8px 12px; background: var(--color-bg-sidebar); border: 1px solid var(--color-border-subtle); font-size: 14px;">
@@ -48,7 +47,6 @@ const stubs = articles.filter((a) => a.data.stub).length;
             {byLetter.get(letter).map((a) => (
               <li style="break-inside:avoid; padding:2px 0">
                 <a href={`/wiki/${a.id.replace(/\.mdx?$/, '')}`}>{a.data.title}</a>
-                {a.data.stub && <span style="font-size:11px; color:var(--color-base--subtle)"> · stub</span>}
               </li>
             ))}
           </ul>

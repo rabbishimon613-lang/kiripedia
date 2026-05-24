@@ -1,0 +1,45 @@
+---
+slug: "2026-02-28-julian-dorey-meme-reaction"
+title: "John Kiriakou's LIVE REACTION to becoming a Meme"
+show: "Julian Dorey Clips"
+date: "2026-02-28"
+url: "https://youtube.com/watch?v=YN_CVvJ0oRg"
+videoId: "YN_CVvJ0oRg"
+duration: "8:28"
+captionSource: auto
+paragraphs: 17
+source_file: 20260228-YN_CVvJ0oRg.en-orig.vtt
+---
+[00:00] This some words I'm not allowed to say. This [ __ ] out here just saying straight cat, but it's real. And I'm I'm [ __ ] dying reading this. >> And I'm telling you, it happened literally overnight. >> Yeah. >> You're like the most famous guy on the internet now. I don't recognize your normal voice. It's killing me. >> I know, right? >> I don't know how this happened. It just happened. Like literally overnight. It just happened. Can we pull up the latest one that we
+
+[00:31] put up, Deie? Yeah. >> Let's get John's live reaction. So, when this was happening, when you and I did episodes 278 and 279 together, which was a year ago, >> I remember this was probably like an hour 20ome minutes into the first episode, and I remember this whole Lincoln thing coming up out of nowhere. My god, this is cool. He's a Lincoln collector. And then you look at me with a dead straight face, and you're like, yeah, I was trying to buy Lincoln's last turd. And I at the time we had Allessie in the studio and I'm I'm I'm like turning to Allessie like this this
+
+[01:01] [ __ ] get the series >> and then you're like oh yeah I was trying to buy it. So when this all started to break like Danny on on our editing team and and I were were looking at stuff I'm like you got to make the Lincoln [ __ ] star. So he he did. Let's run it. >> Can people see this Steve? >> Yeah. >> All right let's roll. >> Show museum. >> And it was a museum of circus freak shows from the 1800s and stuff that had been in these circus side shows. They have a shadow box hanging on the wall and there's a >> dried out turd. >> And it says it's >> Abraham Lincoln's final turd.
+
+[01:32] >> Come on. So it says on the card it said when he arrived at Ford's theater he had to drop a deuce. And so before he got seated he went to the men's room >> and he dropped a deuce in the chamber pod >> and then he went back to watch the play >> and he got shot. >> So he had the presence in mind >> and they say presence of mind >> for the sickness. >> Well, >> but there are a lot of linking clicks. I see an article in the Washington Post about 6 months later saying it's going out of business and they're going to auction everything off. So I told my wife, >> I'm buying that tur. >> She's like, >> "Oh, no you're not." >> I said, "Oh yes, I am. I'm buying that
+
+[02:05] tur." >> My wife and I actually have strong disagreements about this. I go to the auction and I >> I talk about at 1,200. It ends up going for 5 grand. So the guy that ended up buying it sends it to some company for a DNA sample. And what they found was it had like microscopic bits of a neco wafer in it. But NEC wafers weren't invented until 1880. >> It wasn't a [ __ ] It wasn't his. Some random guy's turn $5,000 for >> That is one of my better stories. Oh my
+
+[02:37] god. Are you familiar with Black Twitter at all? >> No. >> Oh, you're not? You need to familiarize yourself. They love you. Yo, this [ __ ] John crazy. Yo, this some words I'm not allowed to say. This [ __ ] out here just saying straight cat, but it's real. >> And I'm I'm [ __ ] dying reading this. >> And I'm telling you, it happened literally overnight. >> Yeah. >> And I don't understand why. >> I know you don't. I mean, you're like, for people that don't know you personally, which is pretty much
+
+[03:07] everyone out there listening, like you've lived this amazing life and done all all these incredible things or whatever, but it's always funny to talk to you like about content cuz you're like, "Oh, was that good?" I'm like, "Yeah, John, like 15 million views on something's really good." And you're like, "Okay." And you leave >> and we're just like, "You know what? You're happy as a clam. We'll keep it that way." >> And you know, some crazy stuff has happened since I saw you last. I've got this great friend, Tyrell Vanto, Jesse Vanto's son. Ty is one of the sweetest men I've ever I've ever met. He's just a
+
+[03:39] really good-hearted, kind guy. What's up, guys? Three quick things. Number one, if you have not already subscribed, please hit that subscribe button. It is a huge, huge help. Number two, if you'd like to join my Patreon for early uncensored releases of these episodes, you can join via the link in my description or my pin comment. And number three, if you'd like to join my clipping community for a chance to edit clips from the show and make money, you can join via the Discord link in my description below. And he calls me one night in July. And uh and he says uh he wrote a movie
+
+[04:13] and Tai's Tai's a Hollywood guy. He's he's done a lot in in film. He wrote this movie. I was like, "Oh, that's cool. Good for you." And he said, "Well, you know, it's going to be this is the story." I was like, "Yeah, that actually sounds like a compelling story line." And I'm thinking, "Why is he telling me this? I'm happy for him. He's going to write this movie." And he said, "Uh, you're going to be in my movie." And I said, "Oh, thank you. No, no, no. I'm not interested." I said, "Listen, I'll be stiff and uh unconvincing. I would be
+
+[04:43] a terrible actor. I've never acted before and I would wreck your movie." And he said, 'Well, I thought of that and I thought you've been you acted every day of your career when you were with the CIA. I said, 'Well, that's actually that's actually true. And he said, so I wrote the part specifically for you and you're going to be in the movie. So, I went to Mexico for the whole month of October. >> Wow. >> And we filmed this movie and I'm very proud to say that I am now a member of the Screen Actors Guild.
+
+[05:14] >> Oh, you're in SAG now. That's not suspicious at all. I'm a CIA guy in SAG. >> I'm also now a professional Hollywood actor. >> Were you Did you feel like you were good at it when you were doing it? I feel like you're a natural. >> No, I listen. Everybody around me, everybody else in the film was incredible. Like I would stand there just off camera watching them in awe of their ability to do this over and over and over again. scene. We would do each scene eight, 10, 12 times
+
+[05:45] >> and they were so good. And they've all been in stuff. They've all been in movies and TV series and all kinds of stuff. And then the star of the movie is a a a really great guy, very generous with his time and his advice. Uh Jeff Fehee, >> I really hit it off with him. He would stand just off camera and whisper directions to me and it made me like I guess believable enough that I didn't make an ass of myself in this movie. So we watched the first cut a
+
+[06:16] couple of Saturdays ago >> and I was like this movie's actually good. >> Like I would go to the theater to watch it. >> What's What's it about? It's about the richest guy in the world who's a cross between Elon Musk and um and uh Eric Prince and he has a son who has become his daughter and so they're estranged and he hasn't told anybody but he's dying of liver cancer
+
+[06:46] >> and so he invites the the country's preeminent lefty podcaster and the country's pre-minent righty podcaster to come and he's going to tell his story for the first time and then they sort of are competing with one another how they're going to shape the story. One falls apart, the other one gets it done and then I'm the director of the guy's security detail. Uh former CIA ops officer. >> Oh, right on Q. There you go. But you had to play a bit of a tough guy, right? >> Yeah, I had to play an [ __ ] The guy
+
+[07:17] was an [ __ ] >> and a liar. >> You couldn't play that? I was in a dumpster all night. That's another one is making the rounds. Do I smell like I've been with a woman >> and then the best is they switch it back and your voice like we later got divorced [ __ ] let Oh my god. Oh c. >> Oh well that's very good. I'm I'm glad you're in SAG now. So I just add it to the resume. Right. >> Last night I cast my votes for the SAG awards now. Now now called the actor
+
+[07:49] awards. >> Excellent. >> I took it very seriously. They they they send everybody there like, you know, 50 million people that are in the SAG, so it it's not like, you know, this was anything necessarily special. It was for me. So, they send you the list of nominees. They send you links to every one of the movies and the TV series. I watched every last one of them >> and I cast educated votes. >> Good for you, John. Someone's taking it seriously. They need your type in there. >> That's right. >> Thank you guys for watching the episode. If you haven't already, please hit that subscribe button and smash that like
+
+[08:20] button on the video. They're both a huge, huge help. And if you would like to follow me on Instagram and X, those links are in my description below.

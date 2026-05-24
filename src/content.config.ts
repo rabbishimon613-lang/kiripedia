@@ -10,7 +10,6 @@ const articles = defineCollection({
     summary: z.string().optional(),
     infobox: z.record(z.any()).optional(),
     updated: z.string().optional(),
-    stub: z.boolean().optional(),
   }),
 });
 

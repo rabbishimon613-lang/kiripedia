@@ -274,6 +274,67 @@ Format:
 
 ---
 
+---
+
+## From `2015-02-09-democracy-now-torture-report`, `2023-11-26-dalton-fischer-enhanced-interrogation`, and `2026-02-28-julian-dorey-meme-reaction`
+
+### People mentioned in passing
+
+- **khalid-sheikh-mohammed** (KSM) — extensively referenced; uncle of [Muhammad Atar](/wiki/muhammad-atar); statements obtained under torture inadmissible at trial
+  - `2023-11-26-dalton-fischer-enhanced-interrogation` @ 05:13, 08:54
+- **abd-al-rahim-al-nashiri** — among the detainees whose tortured statements are inadmissible at trial; one of the two prisoners on the destroyed waterboarding tapes alongside Abu Zubaydah
+  - `2023-11-26-dalton-fischer-enhanced-interrogation` @ 08:54
+- **brian-ross** — ABC News journalist who interviewed Kiriakou in December 2007. Pinned in multiple articles; promote if a future source includes his role in detail
+- **james-mitchell** — covered in [Mitchell and Jessen](/wiki/mitchell-and-jessen); Jim Mitchell's book mentioned as something Kiriakou has read
+  - `2023-11-26-dalton-fischer-enhanced-interrogation` @ 06:16
+- **bruce-jessen** — covered in [Mitchell and Jessen](/wiki/mitchell-and-jessen)
+- **jesse-vanto** — father of [Tyrell Vanto](/wiki/tyrell-vanto); the transcript names him explicitly but provides no biographical detail
+  - `2026-02-28-julian-dorey-meme-reaction` @ 03:07
+- **elon-musk** — invoked as one half of the composite billionaire character in the Tyrell Vanto film
+  - `2026-02-28-julian-dorey-meme-reaction` @ 06:16
+- **erik-prince** — the other half of the composite. Former [Blackwater](/wiki/blackwater) head; not yet directly discussed by Kiriakou in any ingested source
+  - `2026-02-28-julian-dorey-meme-reaction` @ 06:16
+- **senior-cia-officer-7th-floor** — the unnamed senior CIA officer who, in May 2002, advised Kiriakou to decline EIT certification ("you want to go to prison?"). Worth tracking if his identity is ever disclosed
+  - `2023-11-26-dalton-fischer-enhanced-interrogation` @ 01:32
+- **ctc-friend-eit-offer** — the unnamed Counterterrorism Center officer who offered Kiriakou EIT certification in the May 2002 cafeteria conversation
+  - `2023-11-26-dalton-fischer-enhanced-interrogation` @ 00:31
+- **the-14-eit-candidates** — the cohort of 14 CIA officers offered EIT certification in 2002; Kiriakou the only one to refuse in the end. Identities not disclosed.
+  - `2023-11-26-dalton-fischer-enhanced-interrogation` @ 02:03
+
+### Concepts mentioned once
+
+- **learned-helplessness** — Mitchell and Jessen's psychological theory underpinning EIT; covered briefly in [Walling](/wiki/walling) and [Mitchell and Jessen](/wiki/mitchell-and-jessen). Could be its own article if it recurs.
+  - `2023-11-26-dalton-fischer-enhanced-interrogation` @ 06:48
+- **oga-other-government-agency** — Guantanamo euphemism for the CIA; covered in [Guantanamo Bay](/wiki/guantanamo-bay)
+- **black-twitter** — the social-media subculture that adopted Kiriakou as a recurring subject in early 2026
+  - `2026-02-28-julian-dorey-meme-reaction` @ 02:37
+- **necco-wafers** — confection invented in 1880; the trace of these in the auctioned artifact disproved its attribution to Lincoln. Covered in [Lincoln's last turd](/wiki/lincolns-last-turd).
+  - `2026-02-28-julian-dorey-meme-reaction` @ 02:05
+- **tenet-prism-of-smoke-quote** — George Tenet's book contains a line (paraphrased by Kiriakou) that *"all major foreign policy decisions after 9/11 were viewed through the prism of smoke from the World Trade Center and the Pentagon."* Worth noting in any future [George Tenet](/wiki/george-tenet) article.
+  - `2023-11-26-dalton-fischer-enhanced-interrogation` @ 10:30
+
+### Places mentioned once
+
+- **lithuania-cia-black-site** — disclosed in the [Senate Torture Report](/wiki/senate-torture-report); operations details not specified
+- **romania-cia-black-site** — same
+- **poland-cia-black-site** — same
+- **thailand-cia-black-site** — same
+- **afghanistan-cia-black-sites** — major theatre of operations during the program. Could be its own article when more sources accumulate.
+- **mexico** — location of the October 2025 filming for the [Tyrell Vanto](/wiki/tyrell-vanto) production. Probably never needs its own article.
+- **fords-theatre** — historical context for the [Lincoln's last turd](/wiki/lincolns-last-turd) anecdote
+- **pennsylvania-circus-freak-show-museum** — the closed museum from which the Lincoln artifact was auctioned. Name not given in the source.
+
+### Operations / events mentioned once
+
+- **destruction-of-waterboarding-tapes** — Jose Rodriguez ordered the destruction of 92 tapes documenting the waterboarding of Abu Zubaydah and Abd al-Rahim al-Nashiri. Mentioned in the Dalton Fischer Part 1 cold open; could be a Tier A standalone article when more sources discuss it.
+  - `2023-11-12-dalton-fischer-kiriakou-part-1` @ 2:50:46
+- **lincoln-auction** — covered in [Lincoln's last turd](/wiki/lincolns-last-turd)
+- **kiriakou-acting-debut** — covered across [John Kiriakou](/wiki/john-kiriakou), [Tyrell Vanto](/wiki/tyrell-vanto), [Jeff Fahey](/wiki/jeff-fahey)
+- **kiriakou-2007-abc-news-interview** — December 10, 2007 interview with Brian Ross that triggered Kiriakou's subsequent Espionage Act prosecution. Pinned in multiple articles; could be its own event article if a future source describes the interview itself in detail.
+- **julian-dorey-episodes-278-279** — the original podcast appearances in which the Lincoln's-last-turd story was told, ~year before its 2026 viral spread. Not directly ingested as a KiriPedia source.
+
+---
+
 ## Part 2 teaser (not yet ingested)
 
 Pulled from the closing montage of Part 1; promote topics once Part 2 is ingested:

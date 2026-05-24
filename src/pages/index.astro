@@ -3,6 +3,48 @@ import WikiLayout from '../layouts/WikiLayout.astro';
 import { getCollection } from 'astro:content';
 const articles = await getCollection('articles');
 const count = articles.length;
+
+// ---------- Featured-article-of-the-day ----------
+// Pinned features take precedence until their `until` date (inclusive, UTC).
+// After all pins expire, a deterministic daily rotation kicks in: every UTC day
+// picks the same article for every visitor, but the pick changes day-over-day.
+//
+// Build-time render seeds today's pick based on the build date. Because Vercel
+// rebuilds on every git push (not necessarily daily), a small client-side script
+// re-runs the same logic at view time and rewrites the DOM if today's pick has
+// drifted from the baked-in one. So the page stays correct between rebuilds.
+const pinnedFeatured = [
+  { slug: 'hummus', until: '2026-05-27' }, // Hummus pinned through Wed May 27, 2026
+];
+
+const slugOf = (a) => a.id.replace(/\.mdx?$/, '');
+
+// The rotation pool: every non-stub article, alphabetised for stable ordering.
+const rotationPool = articles
+  .filter((a) => !a.data.stub)
+  .map(slugOf)
+  .sort();
+
+// Lightweight summary catalog the client script needs to repaint the box.
+const articleCatalog = articles.map((a) => ({
+  slug: slugOf(a),
+  title: a.data.title,
+  summary: a.data.summary ?? '',
+}));
+
+function pickFeatured(today /* "YYYY-MM-DD" */) {
+  for (const p of pinnedFeatured) {
+    if (today <= p.until) return p.slug;
+  }
+  const [y, m, d] = today.split('-').map(Number);
+  const dayNumber = Math.floor(Date.UTC(y, m - 1, d) / 86_400_000);
+  return rotationPool[dayNumber % rotationPool.length] ?? slugOf(articles[0]);
+}
+
+const today = new Date().toISOString().slice(0, 10);
+const initialSlug = pickFeatured(today);
+const initialArticle =
+  articles.find((a) => slugOf(a) === initialSlug) ?? articles[0];
 ---
 <WikiLayout title="Main Page">
   <div class="wiki-content">
@@ -16,10 +58,12 @@ const count = articles.length;
       <section class="mainpage-box tfa">
         <h2>From today's featured article</h2>
         <p style="float:left; margin-right:12px;">
-          <a href="/wiki/john-kiriakou"><img src="/logo.png" alt="" width="100" style="border:1px solid var(--color-border-subtle); padding:2px; background:#fff" /></a>
+          <a id="featured-thumb-link" href={`/wiki/${initialSlug}`}>
+            <img src="/logo.png" alt="" width="100" style="border:1px solid var(--color-border-subtle); padding:2px; background:transparent" />
+          </a>
         </p>
         <p>
-          <strong><a href="/wiki/john-kiriakou">John Kiriakou</a></strong> is a former CIA counterterrorism officer who, in 2007, became the first U.S. government official to publicly confirm that the Central Intelligence Agency used waterboarding on detainees, describing it on national television as torture. A career analyst and operations officer who once led counterterrorism efforts in Pakistan, he was later prosecuted under the Espionage Act for confirming the name of a covert officer to a journalist, and served 23 months in federal prison. He has since become a prolific commentator on intelligence, foreign policy, and the prosecution of whistleblowers. <a href="/wiki/john-kiriakou">(Full article…)</a>
+          <strong><a id="featured-title-link" href={`/wiki/${initialSlug}`}>{initialArticle.data.title}</a></strong> — <span id="featured-summary">{initialArticle.data.summary}</span> <a id="featured-full-link" href={`/wiki/${initialSlug}`}>(Full article…)</a>
         </p>
       </section>
 
@@ -56,8 +100,42 @@ const count = articles.length;
         <a href="/category/operations">Operations</a> ·
         <a href="/category/events">Events</a> ·
         <a href="/category/concepts">Concepts</a> ·
-        <a href="/category/cases">Cases</a>
+        <a href="/category/cases">Cases</a> ·
+        <a href="/category/places">Places</a>
       </p>
     </section>
   </div>
+
+  <!-- Client-side refresh of the featured article so the rotation stays correct
+       between Vercel builds. No-op if the build-time pick matches today's pick. -->
+  <script is:inline define:vars={{ pinnedFeatured, rotationPool, articleCatalog, initialSlug }}>
+    (function () {
+      function todayUTC() {
+        return new Date().toISOString().slice(0, 10);
+      }
+      function pickFeatured(today) {
+        for (const p of pinnedFeatured) {
+          if (today <= p.until) return p.slug;
+        }
+        const [y, m, d] = today.split('-').map(Number);
+        const dayNumber = Math.floor(Date.UTC(y, m - 1, d) / 86400000);
+        return rotationPool[dayNumber % rotationPool.length] ?? articleCatalog[0].slug;
+      }
+      const todaySlug = pickFeatured(todayUTC());
+      if (todaySlug === initialSlug) return;
+      const meta = articleCatalog.find((a) => a.slug === todaySlug);
+      if (!meta) return;
+      const titleLink = document.getElementById('featured-title-link');
+      const thumbLink = document.getElementById('featured-thumb-link');
+      const fullLink = document.getElementById('featured-full-link');
+      const summary = document.getElementById('featured-summary');
+      if (titleLink) {
+        titleLink.href = '/wiki/' + meta.slug;
+        titleLink.textContent = meta.title;
+      }
+      if (thumbLink) thumbLink.href = '/wiki/' + meta.slug;
+      if (fullLink) fullLink.href = '/wiki/' + meta.slug;
+      if (summary) summary.textContent = meta.summary;
+    })();
+  </script>
 </WikiLayout>
