@@ -83,9 +83,8 @@ a.new, a.redlink { color: var(--color-link-red); }
   letter-spacing: 0.5px;
 }
 .wiki-header .search {
-  flex: 1;
-  max-width: 500px;
-  margin-left: auto;
+  flex: 0 1 360px;
+  max-width: 360px;
 }
 .wiki-header .search input {
   width: 100%;
@@ -374,10 +373,12 @@ sup.reference a:hover { text-decoration: underline; }
 .banner-slot { font-size: 0; line-height: 0; }
 .banner-slot:not(:empty) { font-size: inherit; line-height: inherit; }
 
-/* Header banner — sits next to the search bar on desktop, hidden on mobile */
+/* Header banner — sits immediately to the left of the search bar on desktop */
 .banner-header {
-  margin-left: 12px;
-  flex-shrink: 0;
+  margin-left: auto; /* pushes the banner+search group to the right edge */
+  flex: 0 0 auto;
+  width: 320px;
+  max-width: 320px;
 }
 .banner-header:empty { display: none; }
 
@@ -389,24 +390,12 @@ sup.reference a:hover { text-decoration: underline; }
 }
 .banner-sidebar:empty { display: none; }
 
-/* Mobile floating banner — persistent at viewport bottom on small screens only */
-.banner-mobile {
-  display: none;
-}
+/* Mobile floating banner — the AADS snippet brings its own position:fixed,
+   so the slot itself only needs to be hidden on desktop. */
+.banner-mobile { display: none; }
 @media (max-width: 800px) {
   .banner-header { display: none; }
-  .banner-mobile:not(:empty) {
-    display: block;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    background: var(--color-bg);
-    border-top: 1px solid var(--color-border);
-    padding: 8px;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
-  }
-  /* Push body content up so the floating banner doesn't cover the footer */
-  body:has(.banner-mobile:not(:empty)) { padding-bottom: 80px; }
+  .banner-mobile { display: block; }
+  /* Reserve space at the bottom of the page so the floating banner doesn't cover the footer */
+  body { padding-bottom: 80px; }
 }
