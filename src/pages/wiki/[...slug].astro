@@ -1,0 +1,38 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import Infobox from '../../components/Infobox.astro';
+import Hatnote from '../../components/Hatnote.astro';
+import Cite from '../../components/Cite.astro';
+import { reset, add } from '../../lib/citations.mjs';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((a) => ({ params: { slug: a.id }, props: { article: a } }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+const cats = article.data.categories || (article.data.category ? [article.data.category] : []);
+
+// Pre-populate the per-page citation store by scanning the raw MDX for <Cite>
+// calls in order. This guarantees References has the full list regardless of
+// Astro's component evaluation order.
+reset(Astro.url.pathname);
+const citeRegex = /<Cite\s+s=["']([^"']+)["']\s+t=["']([^"']+)["']\s*\/>/g;
+let m;
+while ((m = citeRegex.exec(article.body)) !== null) {
+  add(Astro.url.pathname, { s: m[1], t: m[2] });
+}
+---
+<ArticleLayout title={article.data.title} subtitle={article.data.summary} categories={cats} stub={article.data.stub}>
+  {article.data.infobox && (
+    <Infobox
+      title={article.data.infobox.title || article.data.title}
+      image={article.data.infobox.image}
+      imageCaption={article.data.infobox.imageCaption}
+      data={article.data.infobox.data || {}}
+    />
+  )}
+  <Content components={{ Hatnote, Infobox, Cite }} />
+</ArticleLayout>

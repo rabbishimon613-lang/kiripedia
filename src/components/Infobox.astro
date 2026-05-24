@@ -1,0 +1,22 @@
+---
+const { title, image, imageCaption, data = {} } = Astro.props;
+const entries = Object.entries(data);
+---
+<aside class="infobox">
+  <div class="infobox-title">{title}</div>
+  {image && (
+    <div class="infobox-image">
+      <img src={image} alt={imageCaption || title} />
+      {imageCaption && <div style="font-size:12px;margin-top:4px;color:var(--color-base--subtle)">{imageCaption}</div>}
+    </div>
+  )}
+  {entries.length > 0 && (
+    <table>
+      <tbody>
+        {entries.map(([k, v]) => (
+          <tr><th>{k}</th><td set:html={v} /></tr>
+        ))}
+      </tbody>
+    </table>
+  )}
+</aside>

@@ -1,0 +1,6 @@
+---
+import { add } from '../lib/citations.mjs';
+const { s, t } = Astro.props;
+const n = add(Astro.url.pathname, { s, t });
+---
+<sup class="reference" id={`cite-ref-${n}`}><a href={`#cite-note-${n}`}>[{n}]</a></sup>

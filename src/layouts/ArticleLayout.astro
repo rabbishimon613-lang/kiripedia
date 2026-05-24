@@ -1,0 +1,33 @@
+---
+import WikiLayout from './WikiLayout.astro';
+import References from '../components/References.astro';
+const { title, subtitle, categories = [], stub = false } = Astro.props;
+---
+<WikiLayout title={title}>
+  <div class="article-tabs">
+    <a href="#" class="active">Article</a>
+    <a href="#">Talk</a>
+    <a href="#" style="margin-left:auto">Read</a>
+    <a href="#">View source</a>
+    <a href="#">View history</a>
+  </div>
+  <div class="wiki-content">
+    <h1 class="firstHeading">{title}</h1>
+    {subtitle && <p class="subtitle">{subtitle}</p>}
+    {stub && (
+      <div class="stub-notice">
+        This article is a <strong>stub</strong>. You can help KiriPedia by expanding it with material from Kiriakou's interviews, podcasts, or books.
+      </div>
+    )}
+    <article class="wiki-body">
+      <slot />
+    </article>
+    <References />
+    {categories.length > 0 && (
+      <div class="catlinks">
+        <span class="label">Categories:</span>
+        {categories.map((c) => <a href={`/category/${c.toLowerCase()}`}>{c}</a>)}
+      </div>
+    )}
+  </div>
+</WikiLayout>

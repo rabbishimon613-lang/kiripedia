@@ -1,0 +1,96 @@
+---
+import { getCollection } from 'astro:content';
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import { tsAnchor, tsToSeconds } from '../../lib/citations.mjs';
+
+export async function getStaticPaths() {
+  const sources = await getCollection('sources');
+  return sources.map((s) => ({ params: { slug: s.id.replace(/\.md$/, '') }, props: { source: s } }));
+}
+
+const { source } = Astro.props;
+const { data, body } = source;
+
+// Parse body into paragraphs keyed by [MM:SS] markers.
+const paraRegex = /^\[(\d{1,2}:\d{2}(?::\d{2})?)\]\s*(.+)$/;
+const paragraphs = [];
+for (const raw of body.split(/\n\s*\n/)) {
+  const line = raw.trim();
+  if (!line) continue;
+  const m = line.match(paraRegex);
+  if (m) paragraphs.push({ t: m[1], text: m[2] });
+  else paragraphs.push({ t: null, text: line });
+}
+
+const ytEmbed = data.videoId ? `https://www.youtube.com/embed/${data.videoId}` : null;
+---
+<WikiLayout title={data.title}>
+  <div class="wiki-content">
+    <h1 class="firstHeading">{data.title}</h1>
+    <p class="subtitle">{data.show} · {data.date} · {data.duration ?? ''}</p>
+
+    <aside class="infobox" style="float:right; width:320px;">
+      <div class="infobox-title">Source</div>
+      {ytEmbed && (
+        <div class="infobox-image">
+          <iframe
+            width="100%"
+            height="180"
+            src={ytEmbed}
+            title={data.title}
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      )}
+      <table>
+        <tbody>
+          <tr><th>Show</th><td>{data.show}</td></tr>
+          <tr><th>Date</th><td>{data.date}</td></tr>
+          {data.duration && <tr><th>Duration</th><td>{data.duration}</td></tr>}
+          <tr><th>Captions</th><td>{data.captionSource ?? 'unknown'}</td></tr>
+          <tr><th>Original</th><td><a href={data.url} target="_blank" rel="noopener">YouTube</a></td></tr>
+        </tbody>
+      </table>
+    </aside>
+
+    <div class="hatnote" style="padding-left:0">
+      This page is a transcript of a public appearance by John Kiriakou, used as a citable source for articles on KiriPedia. The transcript was auto-generated from the video's captions; minor errors may be present. Timestamps link directly into the video.
+    </div>
+
+    <article class="wiki-body transcript">
+      {paragraphs.map((p) => (
+        p.t ? (
+          <p id={tsAnchor(p.t)} class="transcript-para">
+            <a
+              class="ts"
+              href={data.videoId ? `https://www.youtube.com/watch?v=${data.videoId}&t=${tsToSeconds(p.t)}s` : '#'}
+              target="_blank"
+              rel="noopener"
+              title="Watch on YouTube at this timestamp"
+            >[{p.t}]</a>
+            {' '}{p.text}
+          </p>
+        ) : (
+          <p>{p.text}</p>
+        )
+      ))}
+    </article>
+  </div>
+</WikiLayout>
+
+<style>
+  .transcript-para { margin: 8px 0; padding: 4px 8px; border-left: 2px solid transparent; }
+  .transcript-para:target { background: #fdf6e3; border-left-color: #e6d8a8; }
+  .ts {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 12px;
+    color: var(--color-base--subtle);
+    text-decoration: none;
+    padding: 1px 4px;
+    background: var(--color-bg-sidebar);
+    border-radius: 2px;
+  }
+  .ts:hover { background: #eaecf0; text-decoration: none; }
+</style>

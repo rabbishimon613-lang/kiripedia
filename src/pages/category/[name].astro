@@ -1,0 +1,39 @@
+---
+import WikiLayout from '../../layouts/WikiLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const all = await getCollection('articles');
+  const cats = new Set();
+  for (const a of all) {
+    const list = a.data.categories || (a.data.category ? [a.data.category] : []);
+    list.forEach((c) => cats.add(c.toLowerCase()));
+  }
+  // ensure top-level categories always exist even if empty
+  ['people','agencies','operations','events','concepts','cases','places'].forEach((c) => cats.add(c));
+  return [...cats].map((name) => ({ params: { name } }));
+}
+
+const { name } = Astro.params;
+const articles = await getCollection('articles');
+const matching = articles.filter((a) => {
+  const list = a.data.categories || (a.data.category ? [a.data.category] : []);
+  return list.map((c) => c.toLowerCase()).includes(name);
+});
+const display = name.charAt(0).toUpperCase() + name.slice(1);
+---
+<WikiLayout title={`Category: ${display}`}>
+  <div class="wiki-content">
+    <h1 class="firstHeading">Category: {display}</h1>
+    <p class="subtitle">Articles in this category</p>
+    {matching.length === 0 ? (
+      <p><em>No articles yet in this category.</em></p>
+    ) : (
+      <ul>
+        {matching.map((a) => (
+          <li><a href={`/wiki/${a.id}`}>{a.data.title}</a>{a.data.summary && <> — <span style="color:var(--color-base--subtle)">{a.data.summary}</span></>}</li>
+        ))}
+      </ul>
+    )}
+  </div>
+</WikiLayout>

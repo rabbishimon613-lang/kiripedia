@@ -1,0 +1,63 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+import { getCollection } from 'astro:content';
+const articles = await getCollection('articles');
+const count = articles.length;
+---
+<WikiLayout title="Main Page">
+  <div class="wiki-content">
+    <div class="mainpage-welcome">
+      <h1>Welcome to <strong>KiriPedia</strong>,</h1>
+      <p>the free encyclopedia of the world as seen through John Kiriakou's eyes.</p>
+      <p style="margin-top:6px"><span class="count">{count.toLocaleString()}</span> articles drawn from his public interviews, podcasts, and books.</p>
+    </div>
+
+    <div class="mainpage-grid">
+      <section class="mainpage-box tfa">
+        <h2>From today's featured article</h2>
+        <p style="float:left; margin-right:12px;">
+          <a href="/wiki/john-kiriakou"><img src="/logo.svg" alt="" width="100" style="border:1px solid var(--color-border-subtle); padding:2px; background:#fff" /></a>
+        </p>
+        <p>
+          <strong><a href="/wiki/john-kiriakou">John Kiriakou</a></strong> is a former CIA counterterrorism officer who, in 2007, became the first U.S. government official to publicly confirm that the Central Intelligence Agency used waterboarding on detainees, describing it on national television as torture. A career analyst and operations officer who once led counterterrorism efforts in Pakistan, he was later prosecuted under the Espionage Act for confirming the name of a covert officer to a journalist, and served 23 months in federal prison. He has since become a prolific commentator on intelligence, foreign policy, and the prosecution of whistleblowers. <a href="/wiki/john-kiriakou">(Full article…)</a>
+        </p>
+      </section>
+
+      <section class="mainpage-box itn">
+        <h2>In the news (per Kiriakou)</h2>
+        <ul>
+          <li>Kiriakou comments on the latest covert operation reporting</li>
+          <li>Recent podcast appearance: <em>Political Misfits</em></li>
+          <li>New episode of <em>The Backstory</em></li>
+        </ul>
+        <p style="font-size:12px; color:var(--color-base--subtle)"><em>Placeholder — wire to most recent interview entries.</em></p>
+      </section>
+
+      <section class="mainpage-box dyk">
+        <h2>Did you know …</h2>
+        <ul>
+          <li>… that John Kiriakou refused to be trained in the CIA's "enhanced interrogation" program?</li>
+          <li>… that he was prosecuted under the same law used against Daniel Ellsberg and Edward Snowden?</li>
+          <li>… that he calls Brennan, Hayden, and Tenet "the architects" of the torture program?</li>
+        </ul>
+      </section>
+
+      <section class="mainpage-box otd">
+        <h2>On this day</h2>
+        <p><strong>December 10, 2007</strong> — Kiriakou's ABC News interview with Brian Ross airs, the first on-the-record confirmation by a U.S. official that the CIA waterboarded detainees.</p>
+      </section>
+    </div>
+
+    <section class="mainpage-box" style="margin-top:12px">
+      <h2>Browse by topic</h2>
+      <p>
+        <a href="/category/people">People</a> ·
+        <a href="/category/agencies">Agencies</a> ·
+        <a href="/category/operations">Operations</a> ·
+        <a href="/category/events">Events</a> ·
+        <a href="/category/concepts">Concepts</a> ·
+        <a href="/category/cases">Cases</a>
+      </p>
+    </section>
+  </div>
+</WikiLayout>
