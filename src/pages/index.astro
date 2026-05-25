@@ -152,6 +152,12 @@ function mdLite(s) {
 }
 
 // ---------- Did you know … ----------
+// Pool grows with every ingest. The whole pool is shipped to the client as
+// JSON; an inline script reshuffles and picks DYK_VISIBLE entries on every
+// page load, so the box looks different every time the user lands here.
+// SSR fallback: render a deterministic initial slice so no-JS / crawlers /
+// pre-hydration paint still show something.
+const DYK_VISIBLE = 5;
 const allDyk = [];
 for (const a of articles) {
   const items = a.data.dyk ?? [];
@@ -159,23 +165,26 @@ for (const a of articles) {
     allDyk.push({ text, slug: slugOf(a), title: a.data.title });
   }
 }
-// Pick 3 deterministically based on today's date so the page is stable across the day.
-function pickDyk(today, pool, count = 3) {
+// Initial SSR slice: rotate slowly across days so the static HTML isn't always
+// the same five (helps the seed-three-from-Google use case too).
+function initialDyk(today, pool, count) {
   if (pool.length === 0) return [];
   const [y, m, d] = today.split('-').map(Number);
   const seed = Math.floor(Date.UTC(y, m - 1, d) / 86_400_000);
-  const picked = [];
+  const out = [];
   const used = new Set();
   for (let i = 0; i < count && i < pool.length; i++) {
     let idx = (seed * 31 + i * 97) % pool.length;
-    // Skip if already picked (shouldn't happen often given the modular hash)
     while (used.has(idx)) idx = (idx + 1) % pool.length;
     used.add(idx);
-    picked.push(pool[idx]);
+    out.push(pool[idx]);
   }
-  return picked;
+  return out;
 }
-const todayDyk = pickDyk(today, allDyk, 3);
+const ssrDyk = initialDyk(today, allDyk, DYK_VISIBLE);
+// Pre-render each pool entry's HTML so the client doesn't need a markdown
+// parser; it just shuffles and swaps innerHTML.
+const dykPoolHtml = allDyk.map((d) => mdLite(d.text));
 
 // ---------- Today, formatted for display ----------
 const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -218,15 +227,38 @@ const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today
     <div class="mainpage-grid mainpage-grid-2" style="margin-top:12px">
       <section class="mainpage-box dyk">
         <h2>Did you know …</h2>
-        {todayDyk.length > 0 ? (
-          <ul>
-            {todayDyk.map((d) => (
+        {ssrDyk.length > 0 ? (
+          <ul id="dyk-list" data-visible={DYK_VISIBLE}>
+            {ssrDyk.map((d) => (
               <li set:html={mdLite(d.text)} />
             ))}
           </ul>
         ) : (
           <p><em>No Did-you-know entries yet. Add a <code>dyk:</code> array to any article's frontmatter to seed this section.</em></p>
         )}
+        <script type="application/json" id="dyk-pool" set:html={JSON.stringify(dykPoolHtml)} />
+        <script is:inline>
+          (function () {
+            var poolEl = document.getElementById('dyk-pool');
+            var listEl = document.getElementById('dyk-list');
+            if (!poolEl || !listEl) return;
+            var pool;
+            try { pool = JSON.parse(poolEl.textContent); } catch (e) { return; }
+            if (!Array.isArray(pool) || pool.length === 0) return;
+            var n = parseInt(listEl.getAttribute('data-visible'), 10) || 5;
+            // Fisher-Yates partial shuffle — Math.random per page load = fresh on every visit / refresh.
+            var idxs = [];
+            for (var i = 0; i < pool.length; i++) idxs.push(i);
+            var picks = Math.min(n, idxs.length);
+            for (var j = 0; j < picks; j++) {
+              var swap = j + Math.floor(Math.random() * (idxs.length - j));
+              var tmp = idxs[j]; idxs[j] = idxs[swap]; idxs[swap] = tmp;
+            }
+            var html = '';
+            for (var k = 0; k < picks; k++) html += '<li>' + pool[idxs[k]] + '</li>';
+            listEl.innerHTML = html;
+          })();
+        </script>
       </section>
 
       <section class="mainpage-box otd">

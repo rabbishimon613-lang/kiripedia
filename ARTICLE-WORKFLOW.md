@@ -245,3 +245,30 @@ The workflow's strength is its lack of moving parts. The transcripts are
 plain text, the tracker is plain markdown, the articles are plain MDX with
 explicit citations. Every step is auditable by reading a file. That property
 is worth preserving until it stops being free.
+
+## Homepage navigation: the `dyk:` rule
+
+The homepage *"Did you know …"* box is the site's primary navigation funnel
+out of the landing page. It is wired to a **per-visit shuffle** over the
+entire `dyk:` pool aggregated from every article's frontmatter — so the
+larger and richer that pool, the more discoverable the encyclopedia is.
+
+Rules, locked into the per-ingest playbook:
+
+1. **Every new article ships with `dyk:` array containing ≥2 entries.**
+2. **Every enrichment to an existing article appends ≥1 new `dyk:` entry.**
+3. **Each `dyk:` entry contains ≥2 internal `[wikilink](/wiki/slug)` anchors.**
+   The box is navigation, not trivia — every line is a launchpad.
+4. Voice: start with `… that …` (Wikipedia-style). End with a question mark.
+   Bold/italic for emphasis is fine; standard `mdLite` markdown is parsed.
+
+The selection engine (`src/pages/index.astro`):
+
+- Build emits the **full pool** as a `<script type="application/json">` blob
+  alongside an SSR fallback of 5 entries (deterministic by date for SEO).
+- An inline `<script>` Fisher-Yates-shuffles the pool on every page load and
+  swaps `innerHTML` of the `<ul>` — fresh five every refresh.
+- No build is needed to rotate; the rotation is per-visit-Math.random.
+
+Backfill bulk-seeder: `tools/seed-dyk-batch.mjs` (idempotent; adds entries
+only to articles that don't yet have a `dyk:` block).
