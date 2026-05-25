@@ -24,12 +24,34 @@ const MONTH_RX = MONTHS.join('|');
 // Patterns to flag (case-insensitive):
 //   "August 2nd, 1990", "August 2 1990", "the 2nd of August", "2nd of August 1990",
 //   "April 22 2000", "Sept 11", "9/11" (treat as special case for 2001-09-11)
+// Day must be 1-31 AND NOT be immediately followed by two more digits
+// (which would mean we're catching "August 1990" as "August 19").
+// Day must also not be a four-digit number.
+const DAY = '(?:3[01]|[12]?[0-9])(?!\\d{2})(?!\\d)';
 const PATTERNS = [
-  new RegExp(`\\b(${MONTH_RX})\\s+\\d{1,2}(st|nd|rd|th)?(,?\\s+\\d{4})?`, 'gi'),
-  new RegExp(`\\b\\d{1,2}(st|nd|rd|th)?\\s+of\\s+(${MONTH_RX})(,?\\s+\\d{4})?`, 'gi'),
+  // "August 2", "August 2nd", "August 2 1990", "August 2nd, 1990"
+  new RegExp(`\\b(${MONTH_RX})\\s+${DAY}(?:st|nd|rd|th)?(?:,?\\s+\\d{4})?`, 'gi'),
+  // "2nd of August", "the 2nd of August 1990"
+  new RegExp(`\\b${DAY}(?:st|nd|rd|th)?\\s+of\\s+(${MONTH_RX})(?:,?\\s+\\d{4})?`, 'gi'),
+  // 9/11 special
   /\b9[\/\-]11\b/gi,
+  // numeric M/D/Y
   /\b\d{1,2}\/\d{1,2}\/\d{2,4}\b/g,
 ];
+
+// Drop hits where the matched day is followed by two more digits — the
+// regex above tries to prevent this but JS lookaheads with quantifiers are
+// fragile, so we belt-and-suspenders here.
+function isClean(match, text, idx) {
+  // For "Month DD" form, find the DD and check the character that follows.
+  const m = match.match(/^(\w+)\s+(\d+)/);
+  if (m) {
+    const dayLen = m[2].length;
+    const after = text[idx + m[1].length + 1 + dayLen];
+    if (after && /\d/.test(after)) return false;
+  }
+  return true;
+}
 
 // Skip months that only refer to a season/general month with no day.
 function isSubstantive(match) {

@@ -376,3 +376,29 @@ For each day-precise hit Kiriakou utters:
 
 If Kiriakou says only "January 1993" or "spring of 1988" — date stays in
 prose, no `events:` entry.
+
+## Date-pointer index (separate from events:)
+
+The strict `events:` rule (day-precise + Kiriakou-uttered) governs what
+surfaces in the OTD calendar. But every date Kiriakou utters — including
+the ones too vague for `events:` (month-only, year-only, "spring of 1988")
+— is valuable as a searchable index for internal data mining.
+
+**Rule:** every date mention in a transcript is captured in a generated
+date-pointer index, regardless of precision. Nothing is thrown away.
+
+- `tools/find-dated-quotes.mjs` mines the transcripts (already exists).
+- A second tool, `tools/build-date-index.mjs`, runs the miner across all
+  sources and writes `public/date-index.json` — an array of:
+  `{ source, timestamp, match, precision, snippet }`.
+- `precision` is one of `day` | `month` | `year` | `vague`.
+- The artifact is committed and regenerated on every ingest.
+
+This is data, not content. The OTD calendar reads only the `events:`
+arrays. The date-pointer index is a separate lookup substrate — useful
+when an editor asks "did Kiriakou ever mention 1968?" or "what dates does
+he give in the Bidoun Waraq episode?"
+
+The per-ingest checklist gains one step:
+- `node tools/build-date-index.mjs` — runs after `find-dated-quotes`,
+  regenerates the JSON artifact.
