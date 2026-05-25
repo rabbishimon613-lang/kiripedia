@@ -10,6 +10,15 @@ const articles = defineCollection({
     summary: z.string().optional(),
     infobox: z.record(z.any()).optional(),
     updated: z.string().optional(),
+    // Auto-aggregated into the homepage "On this day" and /on-this-day page
+    events: z.array(z.object({
+      date: z.union([z.string(), z.date()]).transform((d) =>
+        d instanceof Date ? d.toISOString().slice(0, 10) : d
+      ),
+      description: z.string(),
+    })).optional(),
+    // Auto-aggregated into the homepage "Did you know …" pool
+    dyk: z.array(z.string()).optional(),
   }),
 });
 

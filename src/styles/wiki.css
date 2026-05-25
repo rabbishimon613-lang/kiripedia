@@ -306,6 +306,25 @@ a.new, a.redlink { color: var(--color-link-red); }
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
+/* 3-box layout: featured article full-width on top, DYK + OTD side-by-side below */
+.mainpage-grid.mainpage-grid-3 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "tfa tfa"
+    "dyk otd";
+}
+.mainpage-grid.mainpage-grid-3 .tfa { grid-area: tfa; }
+.mainpage-grid.mainpage-grid-3 .dyk { grid-area: dyk; }
+.mainpage-grid.mainpage-grid-3 .otd { grid-area: otd; }
+@media (max-width: 800px) {
+  .mainpage-grid.mainpage-grid-3 {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "tfa"
+      "dyk"
+      "otd";
+  }
+}
 .mainpage-box {
   border: 1px solid var(--color-border-subtle);
   padding: 12px;

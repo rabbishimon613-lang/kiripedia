@@ -4,33 +4,16 @@ import { getCollection } from 'astro:content';
 const articles = await getCollection('articles');
 const count = articles.length;
 
+const slugOf = (a) => a.id.replace(/\.mdx?$/, '');
+
 // ---------- Featured-article-of-the-day ----------
 // Pinned features take precedence until their `until` date (inclusive, UTC).
 // After all pins expire, a deterministic daily rotation kicks in: every UTC day
 // picks the same article for every visitor, but the pick changes day-over-day.
-//
-// Build-time render seeds today's pick based on the build date. Because Vercel
-// rebuilds on every git push (not necessarily daily), a small client-side script
-// re-runs the same logic at view time and rewrites the DOM if today's pick has
-// drifted from the baked-in one. So the page stays correct between rebuilds.
 const pinnedFeatured = [
   { slug: 'hummus', until: '2026-05-27' }, // Hummus pinned through Wed May 27, 2026
 ];
-
-const slugOf = (a) => a.id.replace(/\.mdx?$/, '');
-
-// The rotation pool: every non-stub article, alphabetised for stable ordering.
-const rotationPool = articles
-  .filter((a) => !a.data.stub)
-  .map(slugOf)
-  .sort();
-
-// Lightweight summary catalog the client script needs to repaint the box.
-const articleCatalog = articles.map((a) => ({
-  slug: slugOf(a),
-  title: a.data.title,
-  summary: a.data.summary ?? '',
-}));
+const rotationPool = articles.map(slugOf).sort();
 
 function pickFeatured(today /* "YYYY-MM-DD" */) {
   for (const p of pinnedFeatured) {
@@ -42,9 +25,92 @@ function pickFeatured(today /* "YYYY-MM-DD" */) {
 }
 
 const today = new Date().toISOString().slice(0, 10);
+const todayMD = today.slice(5);
 const initialSlug = pickFeatured(today);
 const initialArticle =
   articles.find((a) => slugOf(a) === initialSlug) ?? articles[0];
+const initialImage = initialArticle.data.infobox?.image ?? '/logo.png';
+
+// Lightweight catalog the client script uses to repaint the featured box.
+const articleCatalog = articles.map((a) => ({
+  slug: slugOf(a),
+  title: a.data.title,
+  summary: a.data.summary ?? '',
+  image: a.data.infobox?.image ?? '/logo.png',
+}));
+
+// ---------- On this day ----------
+// Aggregate every article's `events` array. Each event becomes
+// { date, mmdd, year, description, article_slug, article_title }.
+// We render today's matches (sorted newest year first), with a fallback
+// message if none.
+const allEvents = [];
+for (const a of articles) {
+  const evs = a.data.events ?? [];
+  for (const e of evs) {
+    const parts = e.date.split('-'); // YYYY, YYYY-MM, or YYYY-MM-DD
+    const year = parts[0];
+    const month = parts[1] ?? '';
+    const day = parts[2] ?? '';
+    const mmdd = month && day ? `${month}-${day}` : null;
+    allEvents.push({
+      date: e.date,
+      year,
+      mmdd,
+      month_only: !day && month ? `${year}-${month}` : null,
+      description: e.description,
+      slug: slugOf(a),
+      title: a.data.title,
+    });
+  }
+}
+// Today's events: exact MM-DD matches first; fall back to month-only entries
+// for the current month if no day-precise match exists.
+let todayEvents = allEvents.filter((e) => e.mmdd === todayMD);
+if (todayEvents.length === 0) {
+  todayEvents = allEvents.filter((e) =>
+    e.month_only && e.month_only.slice(5) === todayMD.slice(0, 2)
+  );
+}
+todayEvents.sort((a, b) => Number(b.year) - Number(a.year));
+
+// Inline Markdown renderer for event descriptions (same shape as Infobox)
+function mdLite(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+}
+
+// ---------- Did you know … ----------
+const allDyk = [];
+for (const a of articles) {
+  const items = a.data.dyk ?? [];
+  for (const text of items) {
+    allDyk.push({ text, slug: slugOf(a), title: a.data.title });
+  }
+}
+// Pick 3 deterministically based on today's date so the page is stable across the day.
+function pickDyk(today, pool, count = 3) {
+  if (pool.length === 0) return [];
+  const [y, m, d] = today.split('-').map(Number);
+  const seed = Math.floor(Date.UTC(y, m - 1, d) / 86_400_000);
+  const picked = [];
+  const used = new Set();
+  for (let i = 0; i < count && i < pool.length; i++) {
+    let idx = (seed * 31 + i * 97) % pool.length;
+    // Skip if already picked (shouldn't happen often given the modular hash)
+    while (used.has(idx)) idx = (idx + 1) % pool.length;
+    used.add(idx);
+    picked.push(pool[idx]);
+  }
+  return picked;
+}
+const todayDyk = pickDyk(today, allDyk, 3);
+
+// ---------- Today, formatted for display ----------
+const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today.slice(8,10))}`;
 ---
 <WikiLayout title="Main Page">
   <div class="wiki-content">
@@ -54,12 +120,12 @@ const initialArticle =
       <p style="margin-top:6px"><span class="count">{count.toLocaleString()}</span> articles drawn from his publicly available interviews, podcasts, and short-form video appearances.</p>
     </div>
 
-    <div class="mainpage-grid">
+    <div class="mainpage-grid mainpage-grid-3">
       <section class="mainpage-box tfa">
         <h2>From today's featured article</h2>
         <p style="float:left; margin-right:12px;">
           <a id="featured-thumb-link" href={`/wiki/${initialSlug}`}>
-            <img src="/logo.png" alt="" width="100" style="border:1px solid var(--color-border-subtle); padding:2px; background:transparent" />
+            <img id="featured-thumb-img" src={initialImage} alt="" width="120" style="border:1px solid var(--color-border-subtle); padding:2px; background:transparent; max-height:160px; object-fit:cover" />
           </a>
         </p>
         <p>
@@ -67,28 +133,34 @@ const initialArticle =
         </p>
       </section>
 
-      <section class="mainpage-box itn">
-        <h2>In the news (per Kiriakou)</h2>
-        <ul>
-          <li>Kiriakou comments on the latest covert operation reporting</li>
-          <li>Recent podcast appearance: <em>Political Misfits</em></li>
-          <li>New episode of <em>The Backstory</em></li>
-        </ul>
-        <p style="font-size:12px; color:var(--color-base--subtle)"><em>Placeholder — wire to most recent interview entries.</em></p>
-      </section>
-
       <section class="mainpage-box dyk">
         <h2>Did you know …</h2>
-        <ul>
-          <li>… that John Kiriakou refused to be trained in the CIA's "enhanced interrogation" program?</li>
-          <li>… that he was prosecuted under the same law used against Daniel Ellsberg and Edward Snowden?</li>
-          <li>… that he calls Brennan, Hayden, and Tenet "the architects" of the torture program?</li>
-        </ul>
+        {todayDyk.length > 0 ? (
+          <ul>
+            {todayDyk.map((d) => (
+              <li set:html={mdLite(d.text)} />
+            ))}
+          </ul>
+        ) : (
+          <p><em>No Did-you-know entries yet. Add a <code>dyk:</code> array to any article's frontmatter to seed this section.</em></p>
+        )}
       </section>
 
       <section class="mainpage-box otd">
-        <h2>On this day</h2>
-        <p><strong>December 10, 2007</strong> — Kiriakou's ABC News interview with Brian Ross airs, the first on-the-record confirmation by a U.S. official that the CIA waterboarded detainees.</p>
+        <h2>On this day — {todayDisplay}</h2>
+        {todayEvents.length > 0 ? (
+          <ul>
+            {todayEvents.map((e) => (
+              <li>
+                <strong>{e.year}</strong> — <span set:html={mdLite(e.description)} /> {' '}
+                <a href={`/wiki/${e.slug}`} style="font-size:12px; color:var(--color-base--subtle)">[{e.title}]</a>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p><em>No events recorded for today in KiriPedia's corpus yet. See the <a href="/on-this-day">full year-spanning calendar</a> for what we do have.</em></p>
+        )}
+        <p style="font-size:12px; margin-top:8px"><a href="/on-this-day">Browse the full calendar →</a></p>
       </section>
     </div>
 
@@ -127,6 +199,7 @@ const initialArticle =
       if (!meta) return;
       const titleLink = document.getElementById('featured-title-link');
       const thumbLink = document.getElementById('featured-thumb-link');
+      const thumbImg = document.getElementById('featured-thumb-img');
       const fullLink = document.getElementById('featured-full-link');
       const summary = document.getElementById('featured-summary');
       if (titleLink) {
@@ -134,6 +207,7 @@ const initialArticle =
         titleLink.textContent = meta.title;
       }
       if (thumbLink) thumbLink.href = '/wiki/' + meta.slug;
+      if (thumbImg) thumbImg.src = meta.image;
       if (fullLink) fullLink.href = '/wiki/' + meta.slug;
       if (summary) summary.textContent = meta.summary;
     })();

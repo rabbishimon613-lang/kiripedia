@@ -1,0 +1,113 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('articles');
+const slugOf = (a) => a.id.replace(/\.mdx?$/, '');
+
+// Pull every event out of every article, with its source article meta.
+const events = [];
+for (const a of articles) {
+  for (const e of a.data.events ?? []) {
+    const parts = e.date.split('-');
+    const year = parts[0];
+    const month = parts[1] ?? '00';
+    const day = parts[2] ?? '00';
+    events.push({
+      date: e.date,
+      year,
+      month,
+      day,
+      mmdd: parts[2] ? `${month}-${day}` : `${month}-00`,
+      description: e.description,
+      slug: slugOf(a),
+      title: a.data.title,
+    });
+  }
+}
+
+// Group by month-day, then sort each day's entries by year (newest first).
+const byMonth = {};
+for (const e of events) {
+  const m = Number(e.month) || 0;
+  if (!byMonth[m]) byMonth[m] = {};
+  if (!byMonth[m][e.day]) byMonth[m][e.day] = [];
+  byMonth[m][e.day].push(e);
+}
+for (const m of Object.keys(byMonth)) {
+  for (const d of Object.keys(byMonth[m])) {
+    byMonth[m][d].sort((a, b) => Number(b.year) - Number(a.year));
+  }
+}
+
+const monthNames = [
+  '', 'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December'
+];
+const monthOrder = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].filter((m) => byMonth[m]);
+const today = new Date().toISOString().slice(0, 10);
+const todayMD = today.slice(5);
+
+function mdLite(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+}
+---
+<WikiLayout title="On this day">
+  <div class="wiki-content">
+    <h1 class="firstHeading">On this day</h1>
+    <p class="subtitle">Every dated event in KiriPedia's source corpus, organized by calendar day</p>
+
+    <article class="wiki-body">
+      <p>
+        This page aggregates every event with a known date that has been mentioned anywhere in KiriPedia's source corpus. Entries are grouped by calendar day; click any article title to read the surrounding context.
+      </p>
+
+      <p style="font-size:13px; color:var(--color-base--subtle)">
+        New events appear here automatically as articles are added or updated — each event lives in its source article's frontmatter under an <code>events:</code> array.
+      </p>
+
+      <p style="margin: 16px 0; padding: 8px 12px; background: var(--color-bg-sidebar); border: 1px solid var(--color-border-subtle); font-size: 14px;">
+        Jump to: {monthOrder.map((m, i) => (
+          <>{i > 0 && ' · '}<a href={`#m-${m}`}>{monthNames[m]}</a></>
+        ))}
+      </p>
+
+      {monthOrder.map((m) => {
+        const days = Object.keys(byMonth[m]).sort((a, b) => Number(a) - Number(b));
+        return (
+          <section style="margin-top:28px">
+            <h2 id={`m-${m}`} style="font-size:20px">{monthNames[m]}</h2>
+            {days.map((d) => {
+              const dayKey = `${String(m).padStart(2, '0')}-${d}`;
+              const isToday = dayKey === todayMD;
+              const dayLabel = d === '00' ? `${monthNames[m]} (month, day unknown)` : `${monthNames[m]} ${Number(d)}`;
+              return (
+                <div style={`margin-top:14px; padding:8px 10px; ${isToday ? 'background:#fff3d6; border-left:3px solid #d4a017;' : 'border-left:3px solid var(--color-border-subtle);'}`}>
+                  <div style="font-weight:bold; margin-bottom:4px">
+                    {dayLabel}
+                    {isToday && <span style="margin-left:8px; font-size:11px; color:#8a6500; font-weight:normal">— TODAY</span>}
+                  </div>
+                  <ul style="margin:0; padding-left:20px">
+                    {byMonth[m][d].map((e) => (
+                      <li style="margin:2px 0">
+                        <strong>{e.year}</strong> — <span set:html={mdLite(e.description)} /> {' '}
+                        <a href={`/wiki/${e.slug}`} style="font-size:12px; color:var(--color-base--subtle)">[{e.title}]</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </section>
+        );
+      })}
+
+      {events.length === 0 && (
+        <p><em>No dated events recorded in any article yet.</em></p>
+      )}
+    </article>
+  </div>
+</WikiLayout>
