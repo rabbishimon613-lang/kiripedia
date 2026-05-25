@@ -335,6 +335,126 @@ Format:
 
 ---
 
+## From `2025-08-31-dalton-fischer-mossad-blackwater`
+
+### People mentioned in passing
+
+- **eric-holder** — Obama-era U.S. Attorney General; per Kiriakou, told [John Brennan](/wiki/john-brennan) that his people did not believe Kiriakou had committed espionage; Brennan instructed him to charge Kiriakou anyway *"and make him defend himself."*
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 49:10
+- **jim-clapper** — listed by Kiriakou among Brennan's *"cronies"* on the hot seat (alongside [Jim Comey](/wiki/james-comey) and Hillary Clinton).
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 50:10
+- **james-comey** — same listing. Already pinned in [Tier C from earlier ingests](#). Worth promoting once a future source treats him substantively.
+- **rick-pavitt** — named alongside Tenet, McLaughlin, Morell, and Rodriguez among the senior CIA figures of the post-9/11 period responsible for *"a lot of crimes that were committed in the name of national security"*; distinct in Kiriakou's framing from [John Brennan](/wiki/john-brennan).
+  - `2026-01-16-julian-dorey-french-intelligence` @ 33:50
+- **sasha-baron-cohen** — comedian; engaged Kiriakou as a Middle-East consultant for *Bruno*; pulled out of filming Jordan terrorism scene after being intercepted on arrival at Amman airport by the King of Jordan; was beaten by yeshiva students at the Western Wall in Jerusalem.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:07:54, 1:11:32, 1:18:53
+- **king-abdullah-of-jordan** — met Sasha Baron Cohen at the Amman airport on arrival ("Sasha Baron Cohen, I am your biggest fan") despite the production's insistence that Jordanian intelligence be kept in the dark.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:15:42
+- **jonathan-pollard-counterparty** — the former [Mossad](/wiki/mossad) director Kiriakou debated on his first Piers Morgan appearance; subject of the *"chuckling"* observation.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:11:01
+- **frank-church** — chair of the 1975 Senate Select Committee on Intelligence (the [Church Committee](#)); ordered CIA preservation of [MK-Ultra](/wiki/mk-ultra) documentation. Could be its own Tier A article.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 2:13:12
+- **matt-taibbi** — independent journalist; cited positively as an example of a writer able to maintain independence from the U.S. media establishment via Substack.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:45:10
+- **ellen-nakashima** and **joby-warrick** — *Washington Post* reporters Kiriakou trusts; the only two named WaPo journalists in his short list of trusted mainstream correspondents.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:47:13
+- **jason-leopold** — already promoted to Tier A.
+- **bashar-al-assad** — Syrian president; subject of Kerry's *"my dear friend"* / *"we rode motorcycles together down to the Golan Heights"* recurring public references.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:51:38
+- **angelo-sans** — Kiriakou's father's seventh-grade best friend (Newcastle, PA); later a Las Vegas taxi driver; remembered without prompting by [Joe Biden](/wiki/joe-biden) fifteen years after a single conversation.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:57:55
+- **doc-scarell** (Dr. Scarell) — Kiriakou's 10th-grade speech and debate teacher; his father's childhood best friend in Pennsylvania; lost an eye at age nine in a BB-gun accident in which Kiriakou's father carried him to the nearest house. Credited by Kiriakou as the principal source of his subsequent speaking ability.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 4:07:21, 4:09:31
+- **brad-davis** — actor; star of the 1978 film *Midnight Express*. Kiriakou's selected reading-aloud passage in Dr. Scarell's class — the prison-beating scene — won the teacher's slow clap.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 4:08:57
+- **mary-travers** of Peter Paul and Mary — Kerry gave the eulogy at her funeral; her photograph was on his Senate-office credenza alongside the [John Lennon](#) photo and the shadow-box of (original) medals.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:54:13
+- **donald-rumsfeld** — Secretary of Defense at the time of [Cofer Black](/wiki/cofer-black)'s Camp David *"flies on eyeballs"* commitment; the alternative pick Bush did not choose for operational lead of the early Afghanistan effort.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:38:27
+- **michael-jordan** — basketball player; central to Kiriakou's recruitment of the port director (the *"Engineers Ball"* asset) via a personally autographed basketball in lucite.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 2:36:21
+- **john-mclaughlin** and **michael-morell** — CIA Deputy Directors of the period; named in Kiriakou's distinction-from-Brennan list.
+  - `2026-01-16-julian-dorey-french-intelligence` @ 33:50
+
+### Concepts mentioned once
+
+- **the-manchurian-candidate** — 1959 Richard Condon novel; 1962 John Frankenheimer film; the cultural event that accelerated [MK-Ultra](/wiki/mk-ultra) funding in the mid-1950s.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 2:11:07
+- **hawala** (halala) — informal Islamic-world money-transfer system; widely used for terrorist-group financing; Kiriakou tested it personally Dubai → Bethesda, Maryland; the Dubai chief of police maintains a *"beat the soles of your feet with a baseball bat / give us your ledgers daily"* arrangement with operators.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:03:35, 3:06:16
+- **the-mad-minute** — protocol for the first sixty seconds of any operational meeting: four standard questions in immediate succession. Already pinned in [Surveillance detection route](/wiki/surveillance-detection-route) — could become a standalone Tier A article.
+  - `2023-11-12-dalton-fischer-kiriakou-part-1` @ 2:12:00
+- **package-is-moving** — VIP-movement protective-detail call-out; used by Kiriakou as a tell for senior visitor presence in his Yemen encounter with [Steve Kappes](/wiki/steve-kappes).
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:22:25
+- **the-saudi-three-princes** — three Saudi princes whose names and personal cell phone numbers were in [Abu Zubaydah](/wiki/abu-zubaydah)'s address book at the time of capture; the Saudis killed all three at the agency's request ("one dies on the operating table while getting bariatric bypass surgery; one is killed in a one-car accident on the Riyadh-to-Jeddah Highway; one goes camping in the desert and dies of thirst").
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:30:19
+- **the-bahrain-50k-cash-gift** — the Bahraini Amir's customary departure gift to U.S. embassy officers — usually a Rolex — was, on one occasion, a cigar box containing \$50,000 in cash; counted in the presence of witnesses and sent to the U.S. Treasury per the \$25 ceiling rule.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 4:02:36, 4:03:38
+- **the-engineers-ball-asset** — Kiriakou's recruitment of the director of an unnamed port via a Michael-Jordan-autographed basketball, with no money exchanged and no manifest vulnerability beyond fandom. Could be a standalone tradecraft-anecdote article.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 2:34:44, 2:37:23
+- **olympic-shooter-recruiter** — Kiriakou's unnamed CIA colleague (former Baltimore deputy sheriff and CIA calligrapher; 1984 Olympic shooting team member) who on his first operational tour recruited a foreign-government asset during a single afternoon's shooting outing — pitching unobserved in the middle of a 200-dollar bubble-gum trick shot.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 8:20, 10:29
+- **the-walk-in-hypnosis-fraud** — multi-day London CIA hypnosis operation on a walk-in who confabulated a 17 November–style assassination witness account; license plate (genuine — stolen vehicle) extracted by hypnotist; later confessed to fabrication when his recorded *"two voices"* tape was spectroscopically traced to him alone with his hand over his mouth; his motive was Mayo Clinic cancer treatment for his wife.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:56:34 – 2:09:35
+- **burst-transmission** — clandestine equipment trick: bedroom furniture given to a recruited asset to take home contains a hidden transmitter; reports typed onto a chip, hit a hidden button, tenth-of-a-second burst to CIA HQ — too brief to be triangulated.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 2:23:37, 2:24:08
+- **star-on-the-wall-of-honor** — anonymous stars at CIA headquarters commemorating personnel killed in action; no name attached. The reason public casualty figures for [Special Activities Division](/wiki/special-activities-division) work cannot be calculated externally.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:33:09
+- **breaking-cover** — the formal moment in the [asset acquisition cycle](/wiki/asset-acquisition-cycle) when a case officer admits to the recruited subject that he is CIA. Worth a standalone article.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 2:21:32
+- **the-201-file** — internal CIA personnel record. Erik Prince had one as a NOC. Worth a standalone article.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:00:32
+- **noc-non-official-cover** — CIA officer category operating without diplomatic cover. Worth a standalone article.
+- **coinbase-opens-books** — cryptocurrency exchange now provides U.S. government with access to its books to avoid implication in terrorist-financing and money-laundering cases.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:07:52
+
+### Places mentioned once
+
+- **bahrain** — already implicit in [David Ransom](/wiki/david-ransom) and the [Admiral Crowe](/wiki/admiral-crowe) handshake incident. The full Bahrain article is overdue. The bugged Kiriakou home, the 15-year-old beaten to death by police, the \$50,000 cash gift — all hang here.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:59:28 – 4:03:38
+- **niceville-florida** — Billy Wall's retirement town. Covered in [Billy Wall](/wiki/billy-wall).
+- **dubai-monitoring-facility** — Siemens-built underground CCTV operations center; German-supplied cameras; full-country coverage; touring access granted to Kiriakou as a Senate investigator.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:02:00, 3:02:32, 3:03:03
+- **golan-heights** — site of John Kerry's motorcycle ride with Bashar al-Assad (per Kerry).
+- **falls-church-virginia** — site of the [Falls Church mosque](/wiki/falls-church-mosque) where Kiriakou met al-Awlaki in 1993; CIA Arabic-language field-trip destination including the Quran-only store on a strip mall and a shish-kebab restaurant with a no-English rule.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 3:25:05
+- **damascus-telephone-book** — Library of Congress holding; Kiriakou used it to find retired PFLP, DFLP, PFLP-GC, and Abu Nidal organization fighters for Sasha Baron Cohen's *Bruno* Amman shoot.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:12:34
+
+### Events / Operations
+
+- **the-bruno-amman-shoot** — Sasha Baron Cohen's failed 2008 attempt to film a Polaroid-of-anal-sex provocation with four retired PFLP/DFLP/Abu Nidal fighters in an Amman hotel room; the Jordanian intelligence service identified the operation before the team had cleared customs. Could be its own standalone tradecraft article.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:08:24 – 1:18:21
+- **operation-omega** — JSOC / Delta / SEAL Team 6 / CIA joint program of the post-9/11 period referenced in passing; Kiriakou says it was after his time.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:33:40
+- **black-september-1968** — Palestinian terrorist group; attempted to overthrow the Jordanian monarchy by force, fought to the steps of the palace; the foundational event that drove Jordanian intelligence to its current strength.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:20:58
+- **the-romanian-silver-mine-op** — Kiriakou private-intelligence engagement: predicted the winner of Romanian municipal elections via Orthodox LinkedIn contacts on behalf of a mining company that needed the village atop the mine relocated rather than blocked.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 56:22 – 57:24
+- **the-omani-oil-field-engagement** — Kiriakou private-intelligence engagement: brokered an Omani-military operation to push al-Qaeda back from a 99-year-lease oil field on the Yemen border.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 57:55 – 58:58
+- **the-cypriot-billionaire-engagement** — Kiriakou private-intelligence engagement: dug up the criminal record of a London-based Greek-Cypriot fiancé trying to marry into the billionaire's only daughter's inheritance.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 53:17 – 55:21
+
+### Podcast and media appearances
+
+- **piers-morgan-show** — Kiriakou's recurring U.S./UK media venue; locus of his debate with the former [Mossad](/wiki/mossad) director, of his Gaza-genocide round-table with Jack Posobiec and two progressive podcasters, and of his typical Scott Horton appearances.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 2:55:12, 3:11:32, 1:48:14
+- **deprogram-podcast** — Kiriakou's new (Sept 2025) daily podcast cohosted with [Ted Rall](/wiki/ted-rall).
+- **deep-focus-with-john-kiriakou** — Kiriakou's new longer-form interview podcast. First scheduled guest: [Roger Waters](/wiki/roger-waters).
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 4:11:34
+- **scott-horton** — co-panelist with Kiriakou on Piers Morgan; characterized as a *"serious intellectual"* fill-in.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:48:14
+- **sean-ryan-show** / **shawn-ryan-show** — Kiriakou and the interviewer discuss the Sean Ryan / al-Qaeda guest / Russia-nuclear-material incident as a likely contemporary instance of CIA media plant.
+  - `2025-08-31-dalton-fischer-mossad-blackwater` @ 1:40:32 – 1:42:35
+
+### Anecdotes worth their own articles eventually
+
+- **lincoln-collection** — Kiriakou is a Lincoln-material collector. Mostly covered by [Lincoln's last turd](/wiki/lincolns-last-turd) but his broader Lincoln collecting is worth its own article when more material surfaces.
+- **shortwave-radio-childhood** — Kiriakou's $1,000 1978 shortwave base unit and forty-foot antenna behind the family house in New Castle, PA. Already mentioned briefly in the [John Kiriakou](/wiki/john-kiriakou) article.
+
+---
+
 ## Part 2 teaser (not yet ingested)
 
 Pulled from the closing montage of Part 1; promote topics once Part 2 is ingested:
