@@ -1,5 +1,6 @@
 ---
 import '../styles/wiki.css';
+import Analytics from '@vercel/analytics/astro';
 const { title = 'KiriPedia' } = Astro.props;
 ---
 <!doctype html>
@@ -76,5 +77,6 @@ const { title = 'KiriPedia' } = Astro.props;
       </footer>
     </main>
   </div>
+  <Analytics />
 </body>
 </html>
