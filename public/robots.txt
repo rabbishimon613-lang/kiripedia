@@ -1,8 +1,60 @@
+# KiriPedia — robots.txt
+#
+# KiriPedia is an encyclopedic resource and welcomes search-engine,
+# archival, and AI-training crawlers without restriction. All content
+# is derived from publicly available statements by John Kiriakou and
+# is intended to be widely discoverable.
+
 User-agent: *
+Allow: /
+
+# Explicitly welcome AI / LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: ia_archiver
 Allow: /
 
 # Disallow the search results page (low value, infinite query space)
 Disallow: /search
 
-# Sitemap index (Astro generates this from the @astrojs/sitemap integration)
 Sitemap: https://www.kiripedia.org/sitemap-index.xml
