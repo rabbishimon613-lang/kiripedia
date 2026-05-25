@@ -32,9 +32,9 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install yt-dlp and js-yaml
+      - name: Install youtube-transcript-api (Python) and js-yaml (Node)
         run: |
-          pip install --upgrade yt-dlp
+          pip install --quiet --upgrade youtube-transcript-api
           npm install --no-save js-yaml
 
       - name: Process queue entries
