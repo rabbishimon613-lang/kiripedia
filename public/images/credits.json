@@ -1,6 +1,205 @@
 {
-  "hummus": {"file": "/images/hummus.jpg", "source_article": "Hummus\n", "artist": "Beyrouthhh at English Wikipedia\n", "license": "CC BY 3.0\n", "via": "Wikimedia Commons"},
-  "jeff-fahey": {"file": "/images/jeff-fahey.png", "source_article": "Jeff_Fahey\n", "artist": "Sasha Gusov\n", "license": "Attribution\n", "via": "Wikimedia Commons"},
-  "john-brennan": {"file": "/images/john-brennan.jpg", "source_article": "John_O._Brennan\n", "artist": "U.S Government employee\n", "license": "Public domain\n", "via": "Wikimedia Commons"},
-  "jose-rodriguez": {"file": "/images/jose-rodriguez.jpg", "source_article": "Jose_Rodriguez_(intelligence_officer)\n", "artist": "Central Intelligence Agency\n", "license": "Public domain\n", "via": "Wikimedia Commons"},
-  "lincolns-last-turd": {"file": "/images/lincolns-last-turd.jpg", "source_article": "Ford%27s_Theatre\n", "artist": "ajay_suresh\n", "license": "CC BY 4.0\n", "via": "Wikimedia Commons"}
+  "abu-zubaydah": {
+    "file": "/images/abu-zubaydah.jpg",
+    "source_article": "Abu_Zubaydah",
+    "artist": "United States Department of Defense",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "asset-acquisition-cycle": {
+    "file": "/images/asset-acquisition-cycle.jpg",
+    "source_article": "Espionage",
+    "artist": "AnonymousUnknown author",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "benazir-bhutto": {
+    "file": "/images/benazir-bhutto.jpg",
+    "source_article": "Benazir_Bhutto",
+    "artist": "Unknown",
+    "license": "CC BY-SA 4.0",
+    "via": "Wikimedia Commons"
+  },
+  "bill-casey": {
+    "file": "/images/bill-casey.jpg",
+    "source_article": "William_J._Casey",
+    "artist": "Michael Evans",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "bob-cia-hr": {
+    "file": "/images/bob-cia-hr.png",
+    "source_article": "Central_Intelligence_Agency",
+    "artist": "United States Federal government",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "cia-national-resources-division": {
+    "file": "/images/cia-national-resources-division.png",
+    "source_article": "Central_Intelligence_Agency",
+    "artist": "United States Federal government",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "cia-political-psychology-division": {
+    "file": "/images/cia-political-psychology-division.png",
+    "source_article": "Central_Intelligence_Agency",
+    "artist": "United States Federal government",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "cia": {
+    "file": "/images/cia.png",
+    "source_article": "Central_Intelligence_Agency",
+    "artist": "United States Federal government",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "cold-cell": {
+    "file": "/images/cold-cell.jpg",
+    "source_article": "Solitary_confinement",
+    "artist": "Édouard Hue (User:EdouardHue)",
+    "license": "CC BY-SA 3.0",
+    "via": "Wikimedia Commons"
+  },
+  "david-ransom": {
+    "file": "/images/david-ransom.png",
+    "source_article": "United_States_Department_of_State",
+    "artist": "United States Department of State",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "dgse": {
+    "file": "/images/dgse.png",
+    "source_article": "Directorate-General_for_External_Security",
+    "artist": "Ministère des Armées / Vector graphic : Futurhit12",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "five-eyes": {
+    "file": "/images/five-eyes.png",
+    "source_article": "Five_Eyes",
+    "artist": "Applysense",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "guantanamo-bay": {
+    "file": "/images/guantanamo-bay.jpg",
+    "source_article": "Guantanamo_Bay_detention_camp",
+    "artist": "A. Pessin",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "gust-avrakotos": {
+    "file": "/images/gust-avrakotos.jpg",
+    "source_article": "Gust_Avrakotos",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "hummus": {
+    "file": "/images/hummus.jpg",
+    "source_article": "Hummus",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "jeff-fahey": {
+    "file": "/images/jeff-fahey.png",
+    "source_article": "Jeff_Fahey",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "john-brennan": {
+    "file": "/images/john-brennan.jpg",
+    "source_article": "John_O._Brennan",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "john-kiriakou": {
+    "file": "/images/john-kiriakou.jpg",
+    "source_article": "John_Kiriakou",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "jose-rodriguez": {
+    "file": "/images/jose-rodriguez.jpg",
+    "source_article": "Jose_Rodriguez_(intelligence_officer)",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "lincolns-last-turd": {
+    "file": "/images/lincolns-last-turd.jpg",
+    "source_article": "Ford%27s_Theatre",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "mahmud": {
+    "file": "/images/mahmud.png",
+    "source_article": "Al-Qaeda",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "mount-weather": {
+    "file": "/images/mount-weather.jpg",
+    "source_article": "Mount_Weather_Emergency_Operations_Center",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "muhammad-atar": {
+    "file": "/images/muhammad-atar.jpg",
+    "source_article": "Ammar_al-Baluchi",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "revolutionary-organization-17-november": {
+    "file": "/images/revolutionary-organization-17-november.png",
+    "source_article": "Revolutionary_Organization_17_November",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "richard-welch": {
+    "file": "/images/richard-welch.jpg",
+    "source_article": "Richard_Welch",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "sleep-deprivation": {
+    "file": "/images/sleep-deprivation.png",
+    "source_article": "Sleep_deprivation",
+    "artist": "RCraig09",
+    "license": "CC BY-SA 4.0",
+    "via": "Wikimedia Commons"
+  },
+  "soylent-green-cable-easter-egg": {
+    "file": "/images/soylent-green-cable-easter-egg.jpg",
+    "source_article": "Soylent_Green",
+    "artist": "Unknown",
+    "license": "See Wikimedia Commons",
+    "via": "Wikimedia Commons"
+  },
+  "strawberry-fields": {
+    "file": "/images/strawberry-fields.jpg",
+    "source_article": "Guantanamo_Bay",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "surveillance-detection-route": {
+    "file": "/images/surveillance-detection-route.jpeg",
+    "source_article": "Surveillance",
+    "artist": "Paweł Zdziarski",
+    "license": "CC BY 2.5",
+    "via": "Wikimedia Commons"
+  }
+}

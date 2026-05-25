@@ -3,6 +3,9 @@
 # Each article slug maps to a Wikipedia article title; we pull that page's
 # lead image, save it as public/images/<slug>.<ext>, and record attribution
 # in public/images/credits.json.
+#
+# Idempotent: skips re-downloading images that already exist, but ALWAYS
+# rebuilds credits.json from scratch so partial runs leave clean metadata.
 
 set -uo pipefail
 
@@ -56,32 +59,67 @@ MAPPING=(
   "welch-45=M1911_pistol"
 )
 
-echo "{" > "$CREDITS"
-first=true
+# Collect entries in a temp dir, assemble JSON at the end.
+TMP=$(mktemp -d)
+trap "rm -rf $TMP" EXIT
+
 got=0
 miss=0
+
+fetch_credit() {
+  local thumb="$1"
+  local url_basename="${thumb##*/}"
+  local file_for_meta="$url_basename"
+  if [[ "$thumb" == *"/thumb/"* ]]; then
+    file_for_meta=$(echo "$thumb" | sed -E 's|.*/thumb/[^/]+/[^/]+/([^/]+)/.*|\1|')
+  fi
+
+  local meta_json
+  meta_json=$(curl -sL -A "KiriPedia/1.0" "https://commons.wikimedia.org/w/api.php?action=query&titles=File:${file_for_meta}&prop=imageinfo&iiprop=extmetadata&format=json" 2>/dev/null)
+  local artist license
+  artist=$(echo "$meta_json" | jq -r '.. | objects | .Artist?.value // empty' 2>/dev/null | head -1 | sed -E 's/<[^>]+>//g' | tr -d '\n' | head -c 200)
+  license=$(echo "$meta_json" | jq -r '.. | objects | .LicenseShortName?.value // empty' 2>/dev/null | head -1 | tr -d '\n')
+  [ -z "$artist" ] && artist="Unknown"
+  [ -z "$license" ] && license="See Wikimedia Commons"
+  echo "$artist|||$license"
+}
 
 for entry in "${MAPPING[@]}"; do
   slug="${entry%%=*}"
   title="${entry#*=}"
 
-  # Throttle to avoid Wikipedia rate-limiting
   sleep 1.2
 
-  # If the image already exists from a prior partial run, skip
-  if ls "$DEST/$slug".* >/dev/null 2>&1; then
-    echo "→ $slug (already downloaded, skipping)"
+  # If image already exists, just rebuild the credits entry from Wikipedia/Commons.
+  existing=$(ls "$DEST/$slug".* 2>/dev/null | head -1)
+  if [ -n "$existing" ]; then
+    ext="${existing##*.}"
+    # Re-derive the thumb URL so we can fetch up-to-date Commons metadata.
+    json=$(curl -sL -A "KiriPedia/1.0" "https://en.wikipedia.org/api/rest_v1/page/summary/$title" 2>/dev/null)
+    thumb=$(echo "$json" | jq -r '.originalimage.source // .thumbnail.source // empty' 2>/dev/null)
+    if [ -z "$thumb" ] || [ "$thumb" = "null" ]; then
+      echo "→ $slug (image present, credit unavailable)"
+      printf '{"file":"/images/%s.%s","source_article":%s,"artist":"Unknown","license":"See Wikimedia Commons","via":"Wikimedia Commons"}' \
+        "$slug" "$ext" "$(echo "$title" | jq -Rs .)" > "$TMP/$slug.json"
+      got=$((got + 1))
+      continue
+    fi
+    IFS='|||' read -r artist _ _ license <<< "$(fetch_credit "$thumb")"
+    printf '{"file":"/images/%s.%s","source_article":%s,"artist":%s,"license":%s,"via":"Wikimedia Commons"}' \
+      "$slug" "$ext" "$(echo "$title" | jq -Rs .)" "$(echo "$artist" | jq -Rs .)" "$(echo "$license" | jq -Rs .)" > "$TMP/$slug.json"
+    echo "→ $slug.$ext (credit refreshed: $license)"
+    got=$((got + 1))
     continue
   fi
 
-  # 1. Hit Wikipedia summary endpoint (retry once on failure)
+  # No image yet — fetch from Wikipedia (with one retry on empty response)
   json=$(curl -sL -A "KiriPedia/1.0" "https://en.wikipedia.org/api/rest_v1/page/summary/$title" 2>/dev/null)
-  thumb_check=$(echo "$json" | jq -r '.originalimage.source // .thumbnail.source // empty' 2>/dev/null)
-  if [ -z "$thumb_check" ] || [ "$thumb_check" = "null" ]; then
-    sleep 1
-    json=$(curl -sL -A "KiriPedia/1.0" "https://en.wikipedia.org/api/rest_v1/page/summary/$title" 2>/dev/null)
-  fi
   thumb=$(echo "$json" | jq -r '.originalimage.source // .thumbnail.source // empty' 2>/dev/null)
+  if [ -z "$thumb" ] || [ "$thumb" = "null" ]; then
+    sleep 2
+    json=$(curl -sL -A "KiriPedia/1.0" "https://en.wikipedia.org/api/rest_v1/page/summary/$title" 2>/dev/null)
+    thumb=$(echo "$json" | jq -r '.originalimage.source // .thumbnail.source // empty' 2>/dev/null)
+  fi
 
   if [ -z "$thumb" ] || [ "$thumb" = "null" ]; then
     echo "✗ $slug ($title) — no lead image"
@@ -89,47 +127,35 @@ for entry in "${MAPPING[@]}"; do
     continue
   fi
 
-  # 2. Derive filename and download
   url_basename="${thumb##*/}"
-  # Strip resize prefix if it's a thumbnail URL like ".../thumb/a/bc/Foo.jpg/300px-Foo.jpg"
-  file_for_meta="$url_basename"
-  if [[ "$thumb" == *"/thumb/"* ]]; then
-    file_for_meta=$(echo "$thumb" | sed -E 's|.*/thumb/[^/]+/[^/]+/([^/]+)/.*|\1|')
-  fi
-
   ext=$(echo "${url_basename##*.}" | tr '[:upper:]' '[:lower:]')
   out="$DEST/$slug.$ext"
   curl -sL -A "KiriPedia/1.0" -o "$out" "$thumb"
-
   if [ ! -s "$out" ]; then
     echo "✗ $slug — download empty"
     miss=$((miss + 1))
     continue
   fi
 
-  # 3. Fetch Commons file metadata for attribution
-  meta_json=$(curl -sL -A "KiriPedia/1.0" "https://commons.wikimedia.org/w/api.php?action=query&titles=File:${file_for_meta}&prop=imageinfo&iiprop=extmetadata&format=json" 2>/dev/null)
-  artist=$(echo "$meta_json" | jq -r '.. | objects | .Artist?.value // empty' 2>/dev/null | head -1 | sed -E 's/<[^>]+>//g' | tr -d '\n' | head -c 200)
-  license=$(echo "$meta_json" | jq -r '.. | objects | .LicenseShortName?.value // empty' 2>/dev/null | head -1 | tr -d '\n')
-
-  if [ -z "$artist" ]; then artist="Unknown"; fi
-  if [ -z "$license" ]; then license="See Wikimedia Commons"; fi
-
-  if [ "$first" = false ]; then echo "," >> "$CREDITS"; fi
-  first=false
-  # JSON-escape artist
-  artist_esc=$(echo "$artist" | jq -Rs .)
-  license_esc=$(echo "$license" | jq -Rs .)
-  title_esc=$(echo "$title" | jq -Rs .)
-  printf '  "%s": {"file": "/images/%s.%s", "source_article": %s, "artist": %s, "license": %s, "via": "Wikimedia Commons"}' \
-    "$slug" "$slug" "$ext" "$title_esc" "$artist_esc" "$license_esc" >> "$CREDITS"
-
+  IFS='|||' read -r artist _ _ license <<< "$(fetch_credit "$thumb")"
+  printf '{"file":"/images/%s.%s","source_article":%s,"artist":%s,"license":%s,"via":"Wikimedia Commons"}' \
+    "$slug" "$ext" "$(echo "$title" | jq -Rs .)" "$(echo "$artist" | jq -Rs .)" "$(echo "$license" | jq -Rs .)" > "$TMP/$slug.json"
   echo "✓ $slug.$ext ($license)"
   got=$((got + 1))
 done
 
+# Assemble credits.json
+echo "{" > "$CREDITS"
+first=true
+for f in "$TMP"/*.json; do
+  [ -e "$f" ] || continue
+  slug=$(basename "$f" .json)
+  if [ "$first" = false ]; then echo "," >> "$CREDITS"; fi
+  first=false
+  printf '  "%s": %s' "$slug" "$(cat "$f")" >> "$CREDITS"
+done
 echo "" >> "$CREDITS"
 echo "}" >> "$CREDITS"
 
 echo
-echo "Summary: $got images fetched, $miss missing"
+echo "Summary: $got entries in credits.json, $miss missing images"

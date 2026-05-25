@@ -1,5 +1,5 @@
 ---
-const { title, image, imageCaption, data = {} } = Astro.props;
+const { title, image, imageCaption, imageCredit, data = {} } = Astro.props;
 const entries = Object.entries(data);
 
 // Convert inline Markdown link syntax [text](url) to HTML <a>, and *em* to <em>,
@@ -13,10 +13,15 @@ function mdLite(s) {
 ---
 <aside class="infobox">
   <div class="infobox-title">{title}</div>
-  {image && (
+  {image ? (
     <div class="infobox-image">
-      <img src={image} alt={imageCaption || title} />
-      {imageCaption && <div style="font-size:12px;margin-top:4px;color:var(--color-base--subtle)">{imageCaption}</div>}
+      <img src={image} alt={imageCaption || title} loading="lazy" />
+      {imageCaption && <div class="infobox-image-caption">{imageCaption}</div>}
+      {imageCredit && <div class="infobox-image-credit">{imageCredit}</div>}
+    </div>
+  ) : (
+    <div class="infobox-image infobox-image-missing">
+      <span>[no image]</span>
     </div>
   )}
   {entries.length > 0 && (

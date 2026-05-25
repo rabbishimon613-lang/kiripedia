@@ -31,6 +31,7 @@ while ((m = citeRegex.exec(article.body)) !== null) {
       title={article.data.infobox.title || article.data.title}
       image={article.data.infobox.image}
       imageCaption={article.data.infobox.imageCaption}
+      imageCredit={article.data.infobox.imageCredit}
       data={article.data.infobox.data || {}}
     />
   )}

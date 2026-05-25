@@ -244,7 +244,30 @@ a.new, a.redlink { color: var(--color-link-red); }
   text-align: center;
   padding: 8px;
 }
-.infobox .infobox-image img { max-width: 100%; height: auto; }
+.infobox .infobox-image img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+.infobox .infobox-image-caption {
+  font-size: 12px;
+  margin-top: 6px;
+  color: var(--color-base--subtle);
+  line-height: 1.4;
+}
+.infobox .infobox-image-credit {
+  font-size: 10px;
+  margin-top: 4px;
+  color: var(--color-base--subtle);
+  line-height: 1.3;
+  font-style: italic;
+  opacity: 0.85;
+}
+.infobox .infobox-image-missing {
+  background: repeating-linear-gradient(45deg, #f5f5f5, #f5f5f5 8px, #fafafa 8px, #fafafa 16px);
+  border: 1px dashed var(--color-border-subtle);
+  color: var(--color-base--subtle);
+  text-align: center;
+  padding: 32px 12px;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
 .infobox table {
   width: 100%;
   border-collapse: collapse;
