@@ -1,6 +1,0 @@
-url: https://www.youtube.com/watch?v=5_FDZozJ9zE
-# This is the Julian Dorey #249 we already ingested. Reusing it as the
-# end-to-end smoke test — the Action should fetch the transcript and try
-# to commit to src/content/sources/, where it will collide with the
-# existing file. That collision (or successful overwrite) is the signal
-# the pipeline ran end-to-end. We'll clean up after.
