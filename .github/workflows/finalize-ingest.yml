@@ -1,0 +1,81 @@
+name: finalize-ingest
+
+# Triggers when articles are committed. Runs the mechanical post-write
+# tooling (date-index, image fetcher, audits) and commits derived
+# artifacts back. If the audits fail, opens an issue so Claude (via the
+# phone) has a clear failure to read.
+
+on:
+  push:
+    paths:
+      - 'src/content/articles/**.mdx'
+      - 'tools/fetch-images.sh'
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    # Don't loop: skip when our own bot pushed.
+    if: github.event.head_commit.author.email != 'ingest-bot@kiripedia.org'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.INGEST_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Audit frontmatter (HARD FAIL)
+        run: node tools/audit-frontmatter.mjs
+
+      - name: Audit wikilinks (HARD FAIL)
+        run: node tools/audit-wikilinks.mjs
+
+      - name: Build date index
+        run: node tools/build-date-index.mjs
+
+      - name: Fetch images for new slugs
+        run: bash tools/fetch-images.sh || true
+
+      - name: Wire images into frontmatter
+        run: node tools/wire-images.mjs || true
+
+      - name: Commit derived artifacts
+        env:
+          GIT_USER_NAME: 'KiriPedia Ingest Bot'
+          GIT_USER_EMAIL: 'ingest-bot@kiripedia.org'
+        run: |
+          git config user.name "$GIT_USER_NAME"
+          git config user.email "$GIT_USER_EMAIL"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "auto: date-index + images + audits"
+            git push
+          else
+            echo "no derived artifacts to commit"
+          fi
+
+      - name: On failure, open an issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.INGEST_TOKEN }}
+          script: |
+            const commit = context.sha.slice(0, 7);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Finalize-ingest failed on ${commit}`,
+              body: `The post-write pipeline failed after commit \`${commit}\`.\n\nSee the [Actions log](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.\n\nMost likely cause: audit-frontmatter or audit-wikilinks caught a bug. Read the failing step's log, then fix via the GitHub Connector.`,
+              labels: ['ingest-failure'],
+            });

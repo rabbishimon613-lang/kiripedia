@@ -1,0 +1,65 @@
+name: fetch-transcript
+
+# Triggers when a queue entry lands in _ingest/queue/*.yml — fetches the
+# YouTube captions, normalizes them, writes the source markdown, removes
+# the queue entry, and commits back to main. The Claude phone client only
+# has to drop a tiny YAML file and wait.
+
+on:
+  push:
+    paths:
+      - '_ingest/queue/**.yml'
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.INGEST_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python (for yt-dlp)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install yt-dlp and js-yaml
+        run: |
+          pip install --upgrade yt-dlp
+          npm install --no-save js-yaml
+
+      - name: Process queue entries
+        env:
+          GIT_USER_NAME: 'KiriPedia Ingest Bot'
+          GIT_USER_EMAIL: 'ingest-bot@kiripedia.org'
+        run: |
+          set -euo pipefail
+          git config user.name "$GIT_USER_NAME"
+          git config user.email "$GIT_USER_EMAIL"
+
+          mkdir -p src/content/sources sources/raw
+
+          for queue in _ingest/queue/*.yml; do
+            [ -f "$queue" ] || continue
+            echo "=== Processing $queue ==="
+            node tools/ingest-from-queue.mjs "$queue"
+          done
+
+      - name: Push results
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "transcript: fetched via ingest queue"
+            git push
+          else
+            echo "nothing to commit"
+          fi
