@@ -315,3 +315,19 @@ For every new ingest:
   - [ ] Every `events:` description contains ≥1 internal wikilink
 - [ ] `npm run build` clean
 - [ ] Commit, push
+
+## Image discipline (per-ingest)
+
+Every new article in an ingest gets one line in `tools/fetch-images.sh`'s
+`MAPPING=()` array — an obvious Wikipedia title best-guess. We accept silent
+misses; Wikipedia returns "no lead image" for ~30% of titles and the script
+just moves on. No verification round, no per-article research.
+
+Per-ingest workflow:
+
+1. Add the new slugs' mappings to `tools/fetch-images.sh` (best-guess Wikipedia titles).
+2. `bash tools/fetch-images.sh` — re-fetches the misses, regenerates credits.json.
+3. `node tools/wire-images.mjs` — wires `image:` frontmatter for anything newly present.
+4. Commit + push as part of the ingest commit.
+
+Adds ~10 seconds per ingest. Tokenless.
