@@ -402,3 +402,29 @@ he give in the Bidoun Waraq episode?"
 The per-ingest checklist gains one step:
 - `node tools/build-date-index.mjs` — runs after `find-dated-quotes`,
   regenerates the JSON artifact.
+
+## Wikilink integrity (locked into the build)
+
+`tools/audit-wikilinks.mjs` runs at the front of `npm run build` and
+**exits non-zero on any HIGH-confidence bug**, breaking the build before
+Vercel can deploy. The check that matters: visible text that looks like a
+person's name pointing to a different person's article (the
+"Leon Panetta → jose-rodriguez" pattern that hit prod).
+
+What the audit categorizes:
+
+- **HIGH-confidence bugs** (fails the build): visible text is a person's
+  name (2–4 capitalized words, no common-noun tokens) AND the target slug
+  is a People-category article whose title doesn't contain any of the
+  visible-text tokens.
+- **Suspicious** (informational): visible text doesn't slugify to the
+  target — usually intentional aliasing like
+  `[Central Intelligence Agency](/wiki/cia)`. Reviewed manually.
+- **Dead links** (informational): target slug has no article. Fix by
+  unlinking, creating the article, or pointing elsewhere.
+
+The bug check is **the only hard fail**; aliasing is a feature, not a bug.
+
+Per-ingest checklist gains one step:
+- `node tools/audit-wikilinks.mjs` — run as soon as articles are drafted,
+  before commit. Build will block if any HIGH-confidence bug remains.
