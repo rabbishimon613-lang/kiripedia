@@ -455,6 +455,55 @@ Format:
 
 ---
 
+## From `2025-11-19-julian-dorey-vault-7`
+
+### People mentioned in passing
+
+- **spiro-agnew** — former U.S. Vice President; mentioned by Kiriakou ("we sent a vice president of the United States to prison — yeah, that was Spiro Agnew, they got the Greek guy")
+  - `2025-11-19-julian-dorey-vault-7` @ 01:36
+- **tom-massie** — Kentucky congressman; named by Kiriakou as exemplary independent thinker
+  - `2025-11-19-julian-dorey-vault-7` @ 09:58
+- **marjorie-taylor-greene** — Georgia congresswoman; Kiriakou says he initially mocked her ("Jewish space lasers") but now agrees with her *"like 80% of the time"*
+  - `2025-11-19-julian-dorey-vault-7` @ 09:27
+- **rand-paul** — Kentucky senator; named in the independent-thinker grouping
+- **bernie-sanders** — Vermont senator; named in the same grouping
+- **saikat-chakrabarti** — Democratic primary challenger to Nancy Pelosi; Kiriakou met him at the San Francisco Film Festival ~2016
+  - `2025-11-19-julian-dorey-vault-7` @ 11:00
+- **bert-thacker** — Kiriakou's personal friend; Indian-American; two-time Jeopardy champion; former Republican congressional candidate in Southern California
+  - `2025-11-19-julian-dorey-vault-7` @ 11:32
+- **tip-oneill** — Massachusetts speaker of the U.S. House under Reagan; cited as model of legislative cooperation now lost
+  - `2025-11-19-julian-dorey-vault-7` @ 08:25
+- **mack-mclarty-buddy-greek-american-general-counsel** — unnamed Greek-American CIA general counsel attorney from Farrell, PA; his in-laws had Kiriakou's father as best man at their wedding; took Kiriakou's report of the Bob Dole campaign-finance crime
+  - `2025-11-19-julian-dorey-vault-7` @ 30:40
+- **mike-yagley** — Julian Dorey's previous interviewee; cited by Dorey (not Kiriakou) for the Fort Bragg cellphone-metadata → Lafarge Syria cover-op disclosure
+  - `2025-11-19-julian-dorey-vault-7` @ 45:49
+
+### Concepts mentioned
+
+- **butts-and-seats-contracts** — covered in [Arrais Corporation](/wiki/arrais-corporation); deserves its own article if more sources discuss the general category
+  - `2025-11-19-julian-dorey-vault-7` @ 51:35
+- **lafarge-concrete-syria-cover-op** — alleged U.S. special-forces operation using Lafarge concrete cover; surfaced by Mike Yagley's metadata work. Kiriakou did not confirm.
+  - `2025-11-19-julian-dorey-vault-7` @ 45:49
+- **operational-vetting** — formal name for the NSA-intercept-based asset verification technique; covered in [Asset acquisition cycle](/wiki/asset-acquisition-cycle)
+- **foia-terrorist** — Pentagon-spokesman label for [Jason Leopold](/wiki/jason-leopold); covered there
+- **deputy-director-cia-innovation** — unnamed Kiriakou CIA classmate, computer-tech enthusiast since the early 1990s, now in this role
+  - `2025-11-19-julian-dorey-vault-7` @ 37:26
+
+### Places mentioned
+
+- **bluffdale-nsa-facility** — promoted to its own article
+- **balochistan-drone-base** — promoted to its own article
+- **farrell-pennsylvania** — Kiriakou's actual hometown (the FBI agent's joke recital of his bio identifies him as born in Farrell)
+- **tysons-corner-virginia** — Arrais Corporation's base; covered in that article
+
+### Events / Operations
+
+- **2025-india-pakistan-statement-incident** — Kiriakou's November 2025 Indian-media remark; produced death threats + PTI apology demand + his email reply. Covered in [Imran Khan](/wiki/imran-khan)
+- **tesla-trillion-dollar-package** — Elon Musk's compensation arrangement of late 2025; Kiriakou invokes it as evidence of his "men becoming countries" framing
+- **fort-bragg-metadata-to-lafarge-syria** — Mike Yagley's open-source-tracking demonstration
+
+---
+
 ## Part 2 teaser (not yet ingested)
 
 Pulled from the closing montage of Part 1; promote topics once Part 2 is ingested:
