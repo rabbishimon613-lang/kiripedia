@@ -504,6 +504,86 @@ Format:
 
 ---
 
+## From `2025-10-10-joe-rogan-experience-2392`
+
+### People mentioned in passing
+
+- **bob-trout** — Plato Cacheras's partner on Kiriakou's defense team; the "southern gentleman" attorney who told Kiriakou *"if you were my own brother I would beg you to take this deal"*
+  - `2025-10-10-joe-rogan-experience-2392` @ 58:26
+- **peter-strzok** — promoted to Tier A; one of the two FBI agents who interrogated Kiriakou in January 2012 at the Washington Field Office
+  - `2025-10-10-joe-rogan-experience-2392` @ 50:03
+- **brian-ross** — ABC News reporter whose December 2007 phone call to Kiriakou ultimately triggered the on-record waterboarding confirmation; pinned in multiple existing articles
+- **robert-mueller** — FBI Director who withdrew Bureau personnel from the Abu Zubaydah secret site and from the host country on August 1, 2002, anticipating what the CIA primacy transfer would mean
+  - `2025-10-10-joe-rogan-experience-2392` @ 26:37
+- **ed-martin** — U.S. Pardon Attorney to whom the Kiriakou pardon letter was delivered
+  - `2025-10-10-joe-rogan-experience-2392` @ 1:26:58
+- **john-ratcliffe** — current CIA Director; has stated no objection to a Kiriakou presidential pardon
+  - `2025-10-10-joe-rogan-experience-2392` @ 1:27:30
+- **tulsi-gabbard** — current Director of National Intelligence; has stated no objection to a Kiriakou presidential pardon
+- **doug-diesson** — pardon-letter signatory; described by Kiriakou as a friend of President Trump
+- **sid-miller** — Texas Agriculture Commissioner; pardon-letter signatory
+- **ken-higgian** — head of the Trump-administration transition team; pardon-letter signatory
+- **dr-phil** — confirmed second-letter pardon signatory
+- **judge-andrew-napolitano** — pardon-letter signatory; long-time Kiriakou friend
+- **tucker-carlson** — pardon-letter signatory; "sweetest guy in the world and a great supporter of mine"
+- **harvey-silverglate** — Harvard law professor; author of *Three Felonies a Day*
+  - `2025-10-10-joe-rogan-experience-2392` @ 35:29
+- **plato-kiriakou-psychiatrist-steve** — unnamed CIA psychiatrist who was also a U.S. Army Brigadier General; same men's group and church as Kiriakou; warned him *"buddy, you know they call you the human rights guy behind your back"*
+  - `2025-10-10-joe-rogan-experience-2392` @ 07:50
+- **the-fainting-secretary** — unnamed CIA secretary who fainted during an Abu Zubaydah torture session and curtailed her assignment; covered in [Enhanced interrogation techniques](/wiki/enhanced-interrogation)
+- **pete-bonanno** — boss of the Bonanno crime family; Kiriakou's cellblock neighbor at FCI Loretto; the inmate who told Kiriakou *"from today you're with the Italians"* — covered in [FCI Loretto](/wiki/fci-loretto)
+- **mark-lanzelotti** — Philadelphia mafia inmate at FCI Loretto who pre-briefed the Italian inmates that Kiriakou was a CIA guy not an FBI rat; covered in [FCI Loretto](/wiki/fci-loretto)
+- **itamar-ben-gvir** and **bezalel-smotrich** — Israeli cabinet ministers with anti-Arab hate-crime felony convictions; brought into Netanyahu's coalition government to keep them quiet
+  - `2025-10-10-joe-rogan-experience-2392` @ 1:54:05
+- **the-iraqi-imam-cellmate** — unnamed Kurdish-speaking inmate at FCI Loretto; charged with terrorism for translating a Stinger-missile bill of sale; the subject of the guards' first attempt to provoke an incident between him and Kiriakou; covered in [FCI Loretto](/wiki/fci-loretto)
+- **the-taliban-spokesman** — second guard-orchestrated incident attempt at FCI Loretto; transferred to New Jersey four days after the failed approach; covered in [FCI Loretto](/wiki/fci-loretto)
+- **the-australian-arsonist-cellmate** — Kiriakou's actual cellmate at FCI Loretto; arranged the introductions that led to the Iraqi imam setup attempt
+- **brad-parscale** — operative who won a \$6 million contract to train ChatGPT to be more pro-Israel (reported in *Reason*)
+  - `2025-10-10-joe-rogan-experience-2392` @ 1:59:48
+- **ellis** — current CIA Deputy Director; recently named himself acting general counsel; Kiriakou's analysis supportive
+  - `2025-10-10-joe-rogan-experience-2392` @ 2:08:08
+- **carey-lake** — currently testifying on Capitol Hill in favor of Voice of America; Kiriakou disagrees with the perceived need
+- **christopher-steele** — author of the Trump-Russia dossier; Kiriakou worked with him on a London CIA operation approximately 25–26 years earlier
+  - `2025-10-10-joe-rogan-experience-2392` @ 1:32:42
+- **timothy-weiner** — author of agency-failure books; cited by Kiriakou as the source for what little public history exists of CIA successes (which by nature remain secret)
+
+### Concepts mentioned
+
+- **three-felonies-a-day** — Harvey Silverglate book; argues that overregulation/overcriminalization causes the average American to commit three federal felonies daily through normal business
+  - `2025-10-10-joe-rogan-experience-2392` @ 35:29
+- **the-eastern-district-of-virginia-espionage-court** — informal name for the federal district court hearing all post-2009 espionage prosecutions; per Kiriakou and his OJ-Simpson-jury-consultant, juror pool is structurally CIA/FBI/DoD/IC-contractor and unfavorable to whistleblower defendants
+  - `2025-10-10-joe-rogan-experience-2392` @ 59:29
+- **route-82-bridge-plot-cleveland** — FBI-informant-supplied-explosives entrapment of three drunken bar patrons; resulting sentences 20, 18, and 15 years
+  - `2025-10-10-joe-rogan-experience-2392` @ 1:31:09
+- **whitmer-kidnapping-plot** — 14-person conspiracy charge in which Kiriakou notes 12 of the 14 were FBI personnel or informants
+  - `2025-10-10-joe-rogan-experience-2392` @ 1:30:38
+- **january-6-fbi-presence** — Kiriakou cites the latest publicly acknowledged figure of approximately 270 FBI agents present at the Capitol on January 6, 2021
+  - `2025-10-10-joe-rogan-experience-2392` @ 1:35:53
+- **midnight-climax** — covered in [MK-Ultra](/wiki/mk-ultra); the LSD-dosed-by-prostitutes safe house operation
+- **the-fbi-thursday-arrest-protocol** — federal-arraignment scheduling pattern that places an arrestee in the D.C. jail Thursday through Sunday under physical pressure before Monday arraignment; Kiriakou narrowly avoided this by demanding his attorney
+  - `2025-10-10-joe-rogan-experience-2392` @ 49:32
+- **intelligence-identities-protection-act-of-1982** — the statute under which Kiriakou and Sharon Scranage were prosecuted
+- **kiriakou-letter-from-loretto** — Kiriakou's open letter from FCI Loretto, published by Arianna Huffington at *Huffington Post*; produced the Jake Tapper interview and the Iraqi-imam-setup national press coverage
+- **far-foreign-agents-registration-act** — Kiriakou's reference point for why AIPAC's exemption from registration is anomalous
+
+### Places mentioned
+
+- **fci-loretto** — promoted to its own article
+- **pont-saint-esprit** — covered in [MK-Ultra](/wiki/mk-ultra) under the Pont-Saint-Esprit bakery incident
+- **haight-ashbury-free-clinic** — covered in [MK-Ultra](/wiki/mk-ultra)
+- **university-of-salamanca** — Kiriakou's post-prison adjunct-professor position; teaches history-of-terrorism graduate course
+- **institute-for-policy-studies** — Kiriakou's first post-prison employer (Washington think tank; salary self-fundraised)
+
+### Events / Operations
+
+- **the-2014-senate-torture-report-release** — released six weeks before Kiriakou's prison release; covered in [Senate Torture Report](/wiki/senate-torture-report) and [John McCain](/wiki/john-mccain)
+- **the-2008-obama-dasht-i-leili-promise** — covered in [Dasht-i-Leili massacre](/wiki/dasht-i-leili-massacre)
+- **kiriakou-pension-confiscation** — covered in [John Kiriakou](/wiki/john-kiriakou) and [John McCain](/wiki/john-mccain)
+- **the-greek-eu-whistleblower-law** — Greek-government-commissioned, Kiriakou-drafted whistleblower-protection law subsequently adopted across the EU; covered in [John Kiriakou](/wiki/john-kiriakou)
+- **2008-abu-dhabi-chamber-of-commerce-contract** — Kiriakou-as-foreign-agent FAR registration; \$30K for six op-eds; mentioned in passing as comparison to AIPAC's non-registration
+
+---
+
 ## Part 2 teaser (not yet ingested)
 
 Pulled from the closing montage of Part 1; promote topics once Part 2 is ingested:
