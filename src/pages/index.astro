@@ -133,8 +133,9 @@ for (const a of articles) {
     });
   }
 }
-// Today's events: exact MM-DD matches first; fall back to month-only entries
-// for the current month if no day-precise match exists.
+// SSR fallback: today exact > today month > newest 4 — so the box renders
+// something for SEO / no-JS visitors even on days with no exact hit.
+const OTD_VISIBLE = 4;
 let todayEvents = allEvents.filter((e) => e.mmdd === todayMD);
 if (todayEvents.length === 0) {
   todayEvents = allEvents.filter((e) =>
@@ -142,6 +143,29 @@ if (todayEvents.length === 0) {
   );
 }
 todayEvents.sort((a, b) => Number(b.year) - Number(a.year));
+if (todayEvents.length === 0) {
+  todayEvents = allEvents
+    .filter((e) => e.mmdd)
+    .sort((a, b) => Number(b.year) - Number(a.year))
+    .slice(0, OTD_VISIBLE);
+} else {
+  todayEvents = todayEvents.slice(0, OTD_VISIBLE);
+}
+
+// Whole-pool serialization for the client-side OTD picker. Each entry
+// carries mmdd so the client can run the same fallback chain we run here:
+//   1. exact MM-DD match for today
+//   2. ±3-day window around today
+//   3. same month
+//   4. random anywhere in the year
+// Shuffled per visit (Math.random) so the box stays fresh on refresh.
+const otdPool = allEvents.map((e) => ({
+  mmdd: e.mmdd,
+  year: e.year,
+  html: mdLite(e.description),
+  slug: e.slug,
+  title: e.title,
+}));
 
 // Inline Markdown renderer for event descriptions (same shape as Infobox)
 function mdLite(s) {
@@ -264,7 +288,7 @@ const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today
       <section class="mainpage-box otd">
         <h2>On this day — {todayDisplay}</h2>
         {todayEvents.length > 0 ? (
-          <ul>
+          <ul id="otd-list" data-visible={OTD_VISIBLE} data-today={todayMD}>
             {todayEvents.map((e) => (
               <li>
                 <strong>{e.year}</strong> — <span set:html={mdLite(e.description)} /> {' '}
@@ -275,6 +299,62 @@ const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today
         ) : (
           <p><em>No events recorded for today in KiriPedia's corpus yet. See the <a href="/on-this-day">full year-spanning calendar</a> for what we do have.</em></p>
         )}
+        <script type="application/json" id="otd-pool" set:html={JSON.stringify(otdPool)} />
+        <script is:inline>
+          (function () {
+            var poolEl = document.getElementById('otd-pool');
+            var listEl = document.getElementById('otd-list');
+            if (!poolEl || !listEl) return;
+            var pool;
+            try { pool = JSON.parse(poolEl.textContent); } catch (e) { return; }
+            if (!Array.isArray(pool) || pool.length === 0) return;
+            var n = parseInt(listEl.getAttribute('data-visible'), 10) || 4;
+            var today = listEl.getAttribute('data-today') || '';
+            // Compute day-of-year distance, looping the year, between two MM-DD strings.
+            function distanceMMDD(a, b) {
+              if (!a || !b) return 999;
+              var am = parseInt(a.slice(0,2),10), ad = parseInt(a.slice(3,5),10);
+              var bm = parseInt(b.slice(0,2),10), bd = parseInt(b.slice(3,5),10);
+              if (isNaN(am)||isNaN(bm)) return 999;
+              // Approximate day-of-year (good enough for window matching)
+              var cum = [0,31,59,90,120,151,181,212,243,273,304,334];
+              var ad2 = cum[am-1] + ad, bd2 = cum[bm-1] + bd;
+              var d = Math.abs(ad2 - bd2);
+              return Math.min(d, 366 - d);
+            }
+            // Fallback chain.
+            function pickPool() {
+              var exact = pool.filter(function (e) { return e.mmdd === today; });
+              if (exact.length >= n) return exact;
+              var window3 = pool.filter(function (e) { return distanceMMDD(e.mmdd, today) <= 3; });
+              if (window3.length >= n) return window3;
+              var sameMonth = pool.filter(function (e) { return e.mmdd && e.mmdd.slice(0,2) === today.slice(0,2); });
+              if (sameMonth.length >= n) return sameMonth;
+              return pool.filter(function (e) { return e.mmdd; });
+            }
+            var src = pickPool();
+            if (src.length === 0) return;
+            // Fisher-Yates partial shuffle.
+            var idxs = [];
+            for (var i = 0; i < src.length; i++) idxs.push(i);
+            var picks = Math.min(n, idxs.length);
+            for (var j = 0; j < picks; j++) {
+              var swap = j + Math.floor(Math.random() * (idxs.length - j));
+              var tmp = idxs[j]; idxs[j] = idxs[swap]; idxs[swap] = tmp;
+            }
+            // Newest year first within the visible slice (Wikipedia style).
+            var chosen = [];
+            for (var k = 0; k < picks; k++) chosen.push(src[idxs[k]]);
+            chosen.sort(function (a, b) { return Number(b.year) - Number(a.year); });
+            var html = '';
+            for (var m = 0; m < chosen.length; m++) {
+              var e = chosen[m];
+              html += '<li><strong>' + e.year + '</strong> — ' + e.html +
+                      ' <a href="/wiki/' + e.slug + '" style="font-size:12px; color:var(--color-base--subtle)">[' + e.title + ']</a></li>';
+            }
+            listEl.innerHTML = html;
+          })();
+        </script>
         <p style="font-size:12px; margin-top:8px"><a href="/on-this-day">Browse the full calendar →</a></p>
       </section>
     </div>

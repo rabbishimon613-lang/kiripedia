@@ -272,3 +272,46 @@ The selection engine (`src/pages/index.astro`):
 
 Backfill bulk-seeder: `tools/seed-dyk-batch.mjs` (idempotent; adds entries
 only to articles that don't yet have a `dyk:` block).
+
+## Homepage navigation: the `events:` rule
+
+The homepage *"On this day — {date}"* box is the second of the two primary
+navigation funnels (alongside the [DYK rule](#homepage-navigation-the-dyk-rule)).
+
+Engine (`src/pages/index.astro`):
+
+- Build emits the full events pool as a `<script type="application/json">` blob.
+- An inline `<script>` runs a four-tier fallback on every page load:
+  1. exact MM-DD match for today
+  2. ±3-day window
+  3. same calendar month
+  4. anywhere in the year
+  …then Fisher-Yates-shuffles and shows 4 entries (newest year first within the slice).
+- **The box is never empty.** Always shows links out of the homepage.
+
+Rules, locked into the per-ingest playbook:
+
+1. **Every article with a datable event ships with an `events:` array.**
+   Date precision: `YYYY`, `YYYY-MM`, or `YYYY-MM-DD` — use the most precise
+   Kiriakou provides. If he says "spring of 1988", `1988-04` is acceptable.
+2. **Every event description contains ≥1 internal `[wikilink](/wiki/slug)` anchor.**
+3. Voice: encyclopedic past-tense narration. Year is rendered separately in
+   bold; do not repeat it in the description.
+
+Backfill bulk-seeder: `tools/seed-events-batch.mjs` (idempotent).
+
+## Per-ingest checklist (locked in)
+
+For every new ingest:
+
+- [ ] Probe → captions → normalize → frontmatter
+- [ ] Read transcript in full
+- [ ] Write Tier A articles
+- [ ] Enrich existing articles with new material
+- [ ] Per article, before commit:
+  - [ ] ≥2 `dyk:` entries on every new article; +1 on every enriched article
+  - [ ] Every `dyk:` entry contains ≥2 internal wikilinks
+  - [ ] Every datable claim becomes an `events:` entry with the most precise date Kiriakou provides
+  - [ ] Every `events:` description contains ≥1 internal wikilink
+- [ ] `npm run build` clean
+- [ ] Commit, push
