@@ -25,7 +25,13 @@ while ((m = citeRegex.exec(article.body)) !== null) {
   add(Astro.url.pathname, { s: m[1], t: m[2] });
 }
 ---
-<ArticleLayout title={article.data.title} subtitle={article.data.summary} categories={cats}>
+<ArticleLayout
+  title={article.data.title}
+  subtitle={article.data.summary}
+  categories={cats}
+  image={article.data.infobox?.image}
+  slug={article.id.replace(/\.mdx?$/, '')}
+>
   {article.data.infobox && (
     <Infobox
       title={article.data.infobox.title || article.data.title}

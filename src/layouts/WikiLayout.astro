@@ -1,15 +1,33 @@
 ---
 import '../styles/wiki.css';
 import Analytics from '@vercel/analytics/astro';
-const { title = 'KiriPedia' } = Astro.props;
+import SEO from '../components/SEO.astro';
+const { title, description, image, type } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{title} — KiriPedia</title>
+  <SEO title={title} description={description} image={image} type={type} />
   <link rel="icon" href="/logo.png" />
+  <link rel="apple-touch-icon" href="/logo.png" />
+  <link rel="alternate" type="application/rss+xml" title="KiriPedia — recent articles" href="/rss.xml" />
+
+  {/* Site-wide structured data: WebSite with SearchAction (gets sitelinks search box in Google) */}
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "KiriPedia",
+    "alternateName": "Kiripedia",
+    "url": "https://kiripedia.org",
+    "description": "The free encyclopedia of the world as seen through John Kiriakou's eyes.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://kiripedia.org/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  })} />
 </head>
 <body>
   <header class="wiki-header">
@@ -17,7 +35,7 @@ const { title = 'KiriPedia' } = Astro.props;
     <a href="/" class="logo-link">
       <img src="/logo.png" alt="KiriPedia" class="logo-img" />
       <span class="wordmark">
-        <span class="name">KiriPedia</span>
+        <span class="name">Kiripedia</span>
         <span class="tagline">The Free Encyclopedia of John Kiriakou's World</span>
       </span>
     </a>

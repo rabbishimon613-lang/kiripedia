@@ -1,10 +1,93 @@
 ---
 import WikiLayout from './WikiLayout.astro';
 import References from '../components/References.astro';
-const { title, subtitle, categories = [] } = Astro.props;
+const { title, subtitle, categories = [], image, slug } = Astro.props;
+
+const SITE = 'https://kiripedia.org';
+const articleURL = slug ? `${SITE}/wiki/${slug}` : undefined;
+const isPerson = categories.includes('People');
+
+// JSON-LD: Article (or Person, if it's a person article) — for rich-result eligibility.
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": subtitle ?? undefined,
+  "image": image ? (image.startsWith('http') ? image : `${SITE}${image}`) : `${SITE}/og.png`,
+  "url": articleURL,
+  "inLanguage": "en",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "KiriPedia",
+    "url": SITE,
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KiriPedia",
+    "logo": { "@type": "ImageObject", "url": `${SITE}/logo.png` },
+  },
+};
+
+const personSchema = isPerson ? {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": title,
+  "description": subtitle ?? undefined,
+  "image": image ? (image.startsWith('http') ? image : `${SITE}${image}`) : undefined,
+  "url": articleURL,
+} : null;
+
+// Breadcrumbs: Main page › Category › Article
+const primaryCategory = categories[0];
+const breadcrumbItems = [
+  { "@type": "ListItem", position: 1, name: "Main page", item: `${SITE}/` },
+];
+if (primaryCategory) {
+  breadcrumbItems.push({
+    "@type": "ListItem",
+    position: 2,
+    name: primaryCategory,
+    item: `${SITE}/category/${primaryCategory.toLowerCase()}`,
+  });
+  breadcrumbItems.push({
+    "@type": "ListItem",
+    position: 3,
+    name: title,
+    item: articleURL,
+  });
+} else {
+  breadcrumbItems.push({
+    "@type": "ListItem",
+    position: 2,
+    name: title,
+    item: articleURL,
+  });
+}
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: breadcrumbItems,
+};
 ---
-<WikiLayout title={title}>
+<WikiLayout title={title} description={subtitle} image={image}>
   <div class="wiki-content" data-pagefind-body>
+    {/* JSON-LD structured data — Google reads these anywhere in the HTML */}
+    <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    {personSchema && <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />}
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    {/* Visible breadcrumb nav */}
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Main page</a>
+      {primaryCategory && (
+        <>
+          <span class="sep">›</span>
+          <a href={`/category/${primaryCategory.toLowerCase()}`}>{primaryCategory}</a>
+        </>
+      )}
+      <span class="sep">›</span>
+      <span class="current">{title}</span>
+    </nav>
+
     <h1 class="firstHeading" data-pagefind-meta="title">{title}</h1>
     {subtitle && <p class="subtitle">{subtitle}</p>}
     <article class="wiki-body">

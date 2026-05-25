@@ -1,0 +1,41 @@
+---
+// SEO meta tags + canonical URL + Open Graph + Twitter Card.
+// Imported into WikiLayout.astro so every page on the site gets it.
+
+const SITE = 'https://kiripedia.org';
+const DEFAULT_DESCRIPTION =
+  "The free encyclopedia of the world as seen through John Kiriakou's eyes. Drawn entirely from his publicly available interviews, podcasts, and short-form video appearances.";
+const DEFAULT_OG_IMAGE = `${SITE}/og.png`;
+
+const {
+  title,
+  description = DEFAULT_DESCRIPTION,
+  image = DEFAULT_OG_IMAGE,
+  type = 'article',
+  pathname = Astro.url.pathname,
+} = Astro.props;
+
+const fullTitle = title ? `${title} — KiriPedia` : 'KiriPedia';
+const canonical = `${SITE}${pathname}`;
+const imageURL = image.startsWith('http') ? image : `${SITE}${image}`;
+---
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+
+<!-- Open Graph -->
+<meta property="og:type" content={type} />
+<meta property="og:site_name" content="KiriPedia" />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={imageURL} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageURL} />
