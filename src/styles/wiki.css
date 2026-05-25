@@ -301,6 +301,41 @@ a.new, a.redlink { color: var(--color-link-red); }
 .mainpage-welcome p { margin: 0; font-size: 14px; }
 .mainpage-welcome .count { color: var(--color-link); }
 
+/* ---------- Cool-numbers stats strip ---------- */
+.stats-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 1px;
+  margin: 14px 0 4px;
+  border: 1px solid var(--color-border-subtle);
+  background: var(--color-border-subtle);
+}
+.stats-strip .stat {
+  background: var(--color-bg);
+  padding: 12px 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.stats-strip .stat-num {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--color-link);
+  line-height: 1.1;
+}
+.stats-strip .stat-label {
+  font-size: 11px;
+  color: var(--color-base--subtle);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 800px) {
+  .stats-strip { grid-template-columns: repeat(3, 1fr); }
+  .stats-strip .stat-num { font-size: 18px; }
+}
+
 .mainpage-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

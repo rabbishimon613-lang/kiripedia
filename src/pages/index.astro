@@ -2,9 +2,76 @@
 import WikiLayout from '../layouts/WikiLayout.astro';
 import { getCollection } from 'astro:content';
 const articles = await getCollection('articles');
+const sources = await getCollection('sources');
 const count = articles.length;
 
 const slugOf = (a) => a.id.replace(/\.mdx?$/, '');
+
+// ---------- Cool numbers strip ----------
+// Computed at build time so it always stays in sync with the corpus.
+
+// Sum total transcript duration across all source recordings.
+function parseDuration(d) {
+  if (!d) return 0;
+  const parts = String(d).split(':').map(Number);
+  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+  if (parts.length === 2) return parts[0] * 60 + parts[1];
+  return parts[0] || 0;
+}
+const totalSourceSeconds = sources.reduce(
+  (acc, s) => acc + parseDuration(s.data.duration),
+  0
+);
+const totalSourceHours = Math.round(totalSourceSeconds / 3600);
+
+// Approximate word count: sum of MDX body lengths divided by avg word length (5.1).
+// Pagefind reports its own number; this is the corpus measurement.
+const totalWords = articles.reduce(
+  (acc, a) => acc + Math.round((a.body ?? '').length / 5.5),
+  0
+);
+
+// Count people, agencies, places by primary category (or first category).
+function categoryOf(a) {
+  const cats = a.data.categories ?? (a.data.category ? [a.data.category] : []);
+  return cats[0] ?? null;
+}
+const counts = {};
+for (const a of articles) {
+  const c = categoryOf(a);
+  if (!c) continue;
+  counts[c] = (counts[c] ?? 0) + 1;
+}
+const peopleCount = counts.People ?? 0;
+const placesCount = counts.Places ?? 0;
+const conceptsCount = counts.Concepts ?? 0;
+const agenciesCount = counts.Agencies ?? 0;
+
+// Count distinct countries mentioned via wiki-style links to known country slugs.
+// A small curated list — anything else gets ignored. Avoids false positives.
+const COUNTRY_SLUGS = new Set([
+  'afghanistan','pakistan','iran','iraq','yemen','saudi-arabia','israel',
+  'jordan','lebanon','libya','syria','egypt','cuba','united-arab-emirates',
+  'bahrain','indonesia','greece','russia','china','north-korea','cambodia',
+  'thailand','india','romania','kuwait','mexico','spain','united-kingdom',
+  'france','germany','poland','lithuania','vietnam','korea',
+  'south-korea','dubai',
+]);
+const countryMentions = new Set();
+for (const a of articles) {
+  const body = a.body ?? '';
+  for (const m of body.matchAll(/\(\/wiki\/([a-z0-9-]+)\)/g)) {
+    if (COUNTRY_SLUGS.has(m[1])) countryMentions.add(m[1]);
+  }
+}
+const countriesCount = countryMentions.size;
+
+// Citation count — every <Cite s=... /> in every article body.
+let citationsCount = 0;
+for (const a of articles) {
+  const body = a.body ?? '';
+  citationsCount += (body.match(/<Cite\s+s=/g) ?? []).length;
+}
 
 // ---------- Featured-article-of-the-day ----------
 // Pinned features take precedence until their `until` date (inclusive, UTC).
@@ -117,7 +184,20 @@ const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today
     <div class="mainpage-welcome">
       <h1>Welcome to <strong>KiriPedia</strong>,</h1>
       <p>the free encyclopedia of the world as seen through John Kiriakou's eyes.</p>
-      <p style="margin-top:6px"><span class="count">{count.toLocaleString()}</span> articles drawn from his publicly available interviews, podcasts, and short-form video appearances.</p>
+      <p style="margin-top:6px">Drawn from his publicly available interviews, podcasts, and short-form video appearances.</p>
+    </div>
+
+    <div class="stats-strip">
+      <div class="stat"><span class="stat-num">{count.toLocaleString()}</span><span class="stat-label">articles</span></div>
+      <div class="stat"><span class="stat-num">{totalWords.toLocaleString()}</span><span class="stat-label">words written</span></div>
+      <div class="stat"><span class="stat-num">{sources.length}</span><span class="stat-label">source recordings</span></div>
+      <div class="stat"><span class="stat-num">{totalSourceHours}</span><span class="stat-label">hours transcribed</span></div>
+      <div class="stat"><span class="stat-num">{citationsCount.toLocaleString()}</span><span class="stat-label">cited timestamps</span></div>
+      <div class="stat"><span class="stat-num">{peopleCount}</span><span class="stat-label">people</span></div>
+      <div class="stat"><span class="stat-num">{countriesCount}</span><span class="stat-label">countries</span></div>
+      <div class="stat"><span class="stat-num">{agenciesCount}</span><span class="stat-label">agencies</span></div>
+      <div class="stat"><span class="stat-num">{placesCount}</span><span class="stat-label">places</span></div>
+      <div class="stat"><span class="stat-num">{conceptsCount}</span><span class="stat-label">concepts</span></div>
     </div>
 
     <div class="mainpage-grid mainpage-grid-3">
