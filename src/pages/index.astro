@@ -185,37 +185,37 @@ const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today
   <div class="wiki-content">
     <div class="mainpage-welcome">
       <h1>Welcome to <strong>KiriPedia</strong>,</h1>
-      <p>the free encyclopedia of the world as seen through John Kiriakou's eyes.</p>
-      <p style="margin-top:6px">Drawn from his publicly available interviews, podcasts, and short-form video appearances.</p>
+      <p>the free encyclopedia of the world as seen through John Kiriakou's eyes — drawn entirely from his publicly available interviews, podcasts, and short-form video appearances.</p>
+      <p class="mainpage-stats">
+        <strong>{count.toLocaleString()}</strong> articles ({peopleCount} <a href="/category/people">people</a>, {organizationsCount} <a href="/category/organizations">organizations</a>, {placesCount} <a href="/category/places">places</a>, {programsCount} <a href="/category/programs">programs</a>, {tradecraftCount} <a href="/category/tradecraft">tradecraft</a>, {eventsCount} <a href="/category/events">events</a>), anchored to <strong>{citationsCount.toLocaleString()}</strong> cited timestamps across <strong>{sources.length}</strong> <a href="/sources">source recordings</a> totaling {totalSourceHours} hours of transcribed video and {totalWords.toLocaleString()} words written.
+      </p>
     </div>
 
-    <div class="stats-strip">
-      <div class="stat"><span class="stat-num">{count.toLocaleString()}</span><span class="stat-label">articles</span></div>
-      <div class="stat"><span class="stat-num">{totalWords.toLocaleString()}</span><span class="stat-label">words written</span></div>
-      <div class="stat"><span class="stat-num">{sources.length}</span><span class="stat-label">source recordings</span></div>
-      <div class="stat"><span class="stat-num">{totalSourceHours}</span><span class="stat-label">hours transcribed</span></div>
-      <div class="stat"><span class="stat-num">{citationsCount.toLocaleString()}</span><span class="stat-label">cited timestamps</span></div>
-      <div class="stat"><span class="stat-num">{peopleCount}</span><span class="stat-label">people</span></div>
-      <div class="stat"><span class="stat-num">{organizationsCount}</span><span class="stat-label">organizations</span></div>
-      <div class="stat"><span class="stat-num">{placesCount}</span><span class="stat-label">places</span></div>
-      <div class="stat"><span class="stat-num">{programsCount}</span><span class="stat-label">programs</span></div>
-      <div class="stat"><span class="stat-num">{tradecraftCount}</span><span class="stat-label">tradecraft</span></div>
-      <div class="stat"><span class="stat-num">{eventsCount}</span><span class="stat-label">events</span></div>
-    </div>
+    <section class="mainpage-box tfa" style="margin-top:12px">
+      <h2>From today's featured article</h2>
+      <p style="float:left; margin-right:12px;">
+        <a id="featured-thumb-link" href={`/wiki/${initialSlug}`}>
+          <img id="featured-thumb-img" src={initialImage} alt="" width="120" style="border:1px solid var(--color-border-subtle); padding:2px; background:transparent; max-height:160px; object-fit:cover" />
+        </a>
+      </p>
+      <p>
+        <strong><a id="featured-title-link" href={`/wiki/${initialSlug}`}>{initialArticle.data.title}</a></strong> — <span id="featured-summary">{initialArticle.data.summary}</span> <a id="featured-full-link" href={`/wiki/${initialSlug}`}>(Full article…)</a>
+      </p>
+    </section>
 
-    <div class="mainpage-grid mainpage-grid-3">
-      <section class="mainpage-box tfa">
-        <h2>From today's featured article</h2>
-        <p style="float:left; margin-right:12px;">
-          <a id="featured-thumb-link" href={`/wiki/${initialSlug}`}>
-            <img id="featured-thumb-img" src={initialImage} alt="" width="120" style="border:1px solid var(--color-border-subtle); padding:2px; background:transparent; max-height:160px; object-fit:cover" />
-          </a>
-        </p>
-        <p>
-          <strong><a id="featured-title-link" href={`/wiki/${initialSlug}`}>{initialArticle.data.title}</a></strong> — <span id="featured-summary">{initialArticle.data.summary}</span> <a id="featured-full-link" href={`/wiki/${initialSlug}`}>(Full article…)</a>
-        </p>
-      </section>
+    <section class="mainpage-box" style="margin-top:12px">
+      <h2>Browse by topic</h2>
+      <p>
+        <a href="/category/people">People</a> ·
+        <a href="/category/organizations">Organizations</a> ·
+        <a href="/category/places">Places</a> ·
+        <a href="/category/programs">Programs</a> ·
+        <a href="/category/tradecraft">Tradecraft</a> ·
+        <a href="/category/events">Events</a>
+      </p>
+    </section>
 
+    <div class="mainpage-grid mainpage-grid-2" style="margin-top:12px">
       <section class="mainpage-box dyk">
         <h2>Did you know …</h2>
         {todayDyk.length > 0 ? (
@@ -246,18 +246,6 @@ const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today
         <p style="font-size:12px; margin-top:8px"><a href="/on-this-day">Browse the full calendar →</a></p>
       </section>
     </div>
-
-    <section class="mainpage-box" style="margin-top:12px">
-      <h2>Browse by topic</h2>
-      <p>
-        <a href="/category/people">People</a> ·
-        <a href="/category/organizations">Organizations</a> ·
-        <a href="/category/places">Places</a> ·
-        <a href="/category/programs">Programs</a> ·
-        <a href="/category/tradecraft">Tradecraft</a> ·
-        <a href="/category/events">Events</a>
-      </p>
-    </section>
   </div>
 
   <!-- Client-side refresh of the featured article so the rotation stays correct

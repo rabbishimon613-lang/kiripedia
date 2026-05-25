@@ -372,6 +372,15 @@ a.new, a.redlink { color: var(--color-link-red); }
 }
 .mainpage-welcome p { margin: 0; font-size: 14px; }
 .mainpage-welcome .count { color: var(--color-link); }
+.mainpage-welcome .mainpage-stats {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--color-base--subtle);
+  line-height: 1.55;
+}
+.mainpage-welcome .mainpage-stats strong {
+  color: var(--color-base);
+}
 
 /* ---------- Cool-numbers stats strip ---------- */
 .stats-strip {
@@ -413,7 +422,7 @@ a.new, a.redlink { color: var(--color-link-red); }
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
-/* 3-box layout: featured article full-width on top, DYK + OTD side-by-side below */
+/* 3-box layout (legacy — TFA full-width, DYK + OTD side-by-side) */
 .mainpage-grid.mainpage-grid-3 {
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -426,11 +435,16 @@ a.new, a.redlink { color: var(--color-link-red); }
 @media (max-width: 800px) {
   .mainpage-grid.mainpage-grid-3 {
     grid-template-columns: 1fr;
-    grid-template-areas:
-      "tfa"
-      "dyk"
-      "otd";
+    grid-template-areas: "tfa" "dyk" "otd";
   }
+}
+
+/* 2-column layout for DYK + OTD when TFA + Browse sit above as their own blocks */
+.mainpage-grid.mainpage-grid-2 {
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 800px) {
+  .mainpage-grid.mainpage-grid-2 { grid-template-columns: 1fr; }
 }
 .mainpage-box {
   border: 1px solid var(--color-border-subtle);
