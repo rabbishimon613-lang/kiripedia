@@ -13,7 +13,7 @@ const { title = 'KiriPedia' } = Astro.props;
 </head>
 <body>
   <header class="wiki-header">
-    <button class="menu-btn" aria-label="Menu">☰</button>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="wiki-sidebar">☰</button>
     <a href="/" class="logo-link">
       <img src="/logo.png" alt="KiriPedia" class="logo-img" />
       <span class="wordmark">
@@ -27,7 +27,8 @@ const { title = 'KiriPedia' } = Astro.props;
   </header>
 
   <div class="wiki-shell">
-    <nav class="wiki-sidebar" data-pagefind-ignore>
+    <div class="sidebar-backdrop" aria-hidden="true"></div>
+    <nav class="wiki-sidebar" id="wiki-sidebar" data-pagefind-ignore>
       <h3>Navigation</h3>
       <ul>
         <li><a href="/">Main page</a></li>
@@ -78,5 +79,37 @@ const { title = 'KiriPedia' } = Astro.props;
     </main>
   </div>
   <Analytics />
+  <script is:inline>
+    // Mobile sidebar toggle
+    (function () {
+      var btn = document.querySelector('.menu-btn');
+      var sidebar = document.getElementById('wiki-sidebar');
+      var backdrop = document.querySelector('.sidebar-backdrop');
+      if (!btn || !sidebar) return;
+      function setOpen(open) {
+        sidebar.classList.toggle('open', open);
+        if (backdrop) backdrop.classList.toggle('open', open);
+        document.body.classList.toggle('sidebar-locked', open);
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      }
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        setOpen(!sidebar.classList.contains('open'));
+      });
+      if (backdrop) backdrop.addEventListener('click', function () { setOpen(false); });
+      // Close on Escape
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') setOpen(false);
+      });
+      // Close on link click inside the sidebar
+      sidebar.addEventListener('click', function (e) {
+        var target = e.target;
+        while (target && target !== sidebar) {
+          if (target.tagName === 'A') { setOpen(false); break; }
+          target = target.parentElement;
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
