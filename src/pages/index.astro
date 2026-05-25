@@ -133,39 +133,30 @@ for (const a of articles) {
     });
   }
 }
-// SSR fallback: today exact > today month > newest 4 — so the box renders
-// something for SEO / no-JS visitors even on days with no exact hit.
+// STRICT: same-month-and-day matches only. No fallback to ±N days, no
+// month-only fishing, no anywhere-in-the-year. "On this day" must mean on
+// this day — anything else is a lie dressed as content. If today has no
+// matches, the box renders an honest empty state pointing to the calendar.
+// Per-visit client shuffle still happens when today has >OTD_VISIBLE
+// matches (rare now, common as the corpus grows).
 const OTD_VISIBLE = 4;
-let todayEvents = allEvents.filter((e) => e.mmdd === todayMD);
-if (todayEvents.length === 0) {
-  todayEvents = allEvents.filter((e) =>
-    e.month_only && e.month_only.slice(5) === todayMD.slice(0, 2)
-  );
-}
-todayEvents.sort((a, b) => Number(b.year) - Number(a.year));
-if (todayEvents.length === 0) {
-  todayEvents = allEvents
-    .filter((e) => e.mmdd)
-    .sort((a, b) => Number(b.year) - Number(a.year))
-    .slice(0, OTD_VISIBLE);
-} else {
-  todayEvents = todayEvents.slice(0, OTD_VISIBLE);
-}
+let todayEvents = allEvents
+  .filter((e) => e.mmdd === todayMD)
+  .sort((a, b) => Number(b.year) - Number(a.year))
+  .slice(0, OTD_VISIBLE);
 
-// Whole-pool serialization for the client-side OTD picker. Each entry
-// carries mmdd so the client can run the same fallback chain we run here:
-//   1. exact MM-DD match for today
-//   2. ±3-day window around today
-//   3. same month
-//   4. random anywhere in the year
-// Shuffled per visit (Math.random) so the box stays fresh on refresh.
-const otdPool = allEvents.map((e) => ({
-  mmdd: e.mmdd,
-  year: e.year,
-  html: mdLite(e.description),
-  slug: e.slug,
-  title: e.title,
-}));
+// Pool serialization for the client picker. Only day-precise events qualify
+// for the OTD box; month-only and year-only entries live in /on-this-day's
+// month sections, not here.
+const otdPool = allEvents
+  .filter((e) => e.mmdd)
+  .map((e) => ({
+    mmdd: e.mmdd,
+    year: e.year,
+    html: mdLite(e.description),
+    slug: e.slug,
+    title: e.title,
+  }));
 
 // Inline Markdown renderer for event descriptions (same shape as Infobox)
 function mdLite(s) {
@@ -310,29 +301,9 @@ const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today
             if (!Array.isArray(pool) || pool.length === 0) return;
             var n = parseInt(listEl.getAttribute('data-visible'), 10) || 4;
             var today = listEl.getAttribute('data-today') || '';
-            // Compute day-of-year distance, looping the year, between two MM-DD strings.
-            function distanceMMDD(a, b) {
-              if (!a || !b) return 999;
-              var am = parseInt(a.slice(0,2),10), ad = parseInt(a.slice(3,5),10);
-              var bm = parseInt(b.slice(0,2),10), bd = parseInt(b.slice(3,5),10);
-              if (isNaN(am)||isNaN(bm)) return 999;
-              // Approximate day-of-year (good enough for window matching)
-              var cum = [0,31,59,90,120,151,181,212,243,273,304,334];
-              var ad2 = cum[am-1] + ad, bd2 = cum[bm-1] + bd;
-              var d = Math.abs(ad2 - bd2);
-              return Math.min(d, 366 - d);
-            }
-            // Fallback chain.
-            function pickPool() {
-              var exact = pool.filter(function (e) { return e.mmdd === today; });
-              if (exact.length >= n) return exact;
-              var window3 = pool.filter(function (e) { return distanceMMDD(e.mmdd, today) <= 3; });
-              if (window3.length >= n) return window3;
-              var sameMonth = pool.filter(function (e) { return e.mmdd && e.mmdd.slice(0,2) === today.slice(0,2); });
-              if (sameMonth.length >= n) return sameMonth;
-              return pool.filter(function (e) { return e.mmdd; });
-            }
-            var src = pickPool();
+            // STRICT: same-day matches only. No fallback chain. If today has
+            // nothing the box stays as the SSR-rendered empty state.
+            var src = pool.filter(function (e) { return e.mmdd === today; });
             if (src.length === 0) return;
             // Fisher-Yates partial shuffle.
             var idxs = [];

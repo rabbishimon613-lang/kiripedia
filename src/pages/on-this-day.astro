@@ -56,40 +56,14 @@ function mdLite(s) {
     .replace(/\*([^*]+)\*/g, '<em>$1</em>');
 }
 
-// SSR fallback for the "Today" callout: same four-tier chain as the homepage
-// OTD box. Render up to 6 entries (newest year first).
+// STRICT: same-day matches only. No fallback. If today has nothing the
+// callout is suppressed entirely — "On this day" must mean on this day.
 const TODAY_VISIBLE = 6;
-function ssrTodayPool() {
-  const exact = events.filter((e) => e.mmdd === todayMD);
-  if (exact.length > 0) return { tier: 'today', items: exact };
-  const cum = [0,31,59,90,120,151,181,212,243,273,304,334];
-  function doy(mmdd) {
-    if (!mmdd || mmdd.endsWith('-00')) return -1;
-    const mm = Number(mmdd.slice(0,2)), dd = Number(mmdd.slice(3,5));
-    if (!mm || !dd) return -1;
-    return cum[mm-1] + dd;
-  }
-  const tdoy = doy(todayMD);
-  const week = events.filter((e) => {
-    const d = doy(e.mmdd); if (d < 0) return false;
-    const diff = Math.abs(d - tdoy);
-    return Math.min(diff, 366 - diff) <= 3;
-  });
-  if (week.length > 0) return { tier: 'thisweek', items: week };
-  const sameMonth = events.filter((e) => e.mmdd && e.mmdd.slice(0,2) === todayMD.slice(0,2));
-  if (sameMonth.length > 0) return { tier: 'thismonth', items: sameMonth };
-  return { tier: 'anytime', items: events.filter((e) => e.mmdd && !e.mmdd.endsWith('-00')) };
-}
-const todayBlock = ssrTodayPool();
-const todayBlockSlice = [...todayBlock.items]
+const todayBlockSlice = events
+  .filter((e) => e.mmdd === todayMD)
   .sort((a, b) => Number(b.year) - Number(a.year))
   .slice(0, TODAY_VISIBLE);
-const tierLabel = {
-  today: `Events on ${todayDisplay}`,
-  thisweek: `Events around this week`,
-  thismonth: `Events in ${monthNames[Number(todayMD.slice(0,2))]}`,
-  anytime: `From the calendar`,
-}[todayBlock.tier];
+const tierLabel = `Events on ${todayDisplay}`;
 
 // Pool serialization for the client-side per-visit shuffle. The Today callout
 // reshuffles on every page load using the same 4-tier fallback the homepage
@@ -109,7 +83,7 @@ const calendarPool = events.map((e) => ({
     <p class="subtitle">Every dated event in KiriPedia's source corpus, organized by calendar day</p>
 
     <article class="wiki-body">
-      {events.length > 0 && (
+      {todayBlockSlice.length > 0 && (
         <section id="today-callout" data-today={todayMD} data-visible={TODAY_VISIBLE} style="margin: 8px 0 24px; padding: 14px 16px; background: #fff8e1; border-left: 4px solid #d4a017;">
           <h2 id="today-callout-h" style="margin:0 0 8px; font-size:18px">{tierLabel}</h2>
           <ul id="today-callout-list" style="margin:0; padding-left:20px">
@@ -183,43 +157,12 @@ const calendarPool = events.map((e) => ({
           try { pool = JSON.parse(poolEl.textContent); } catch (e) { return; }
           if (!Array.isArray(pool) || pool.length === 0) return;
 
-          // ---- Reshuffle the Today callout using the 4-tier fallback ----
+          // ---- Reshuffle the Today callout (strict same-day matches only) ----
           if (calloutEl && calloutBox) {
             var today = calloutBox.getAttribute('data-today') || '';
             var n = parseInt(calloutBox.getAttribute('data-visible'), 10) || 6;
-            var cum = [0,31,59,90,120,151,181,212,243,273,304,334];
-            function doy(mmdd) {
-              if (!mmdd || mmdd.indexOf('-00') !== -1 && mmdd.length === 5) return -1;
-              var mm = parseInt(mmdd.slice(0,2),10), dd = parseInt(mmdd.slice(3,5),10);
-              if (!mm || !dd) return -1;
-              return cum[mm-1] + dd;
-            }
-            var tdoy = doy(today);
-            var exact = pool.filter(function (e) { return e.mmdd === today; });
-            var src, tier;
-            if (exact.length > 0) { src = exact; tier = 'today'; }
-            else {
-              var week = pool.filter(function (e) {
-                var d = doy(e.mmdd); if (d < 0) return false;
-                var diff = Math.abs(d - tdoy);
-                return Math.min(diff, 366 - diff) <= 3;
-              });
-              if (week.length > 0) { src = week; tier = 'thisweek'; }
-              else {
-                var sameMonth = pool.filter(function (e) { return e.mmdd && e.mmdd.slice(0,2) === today.slice(0,2); });
-                if (sameMonth.length > 0) { src = sameMonth; tier = 'thismonth'; }
-                else { src = pool.filter(function (e) { return e.mmdd && e.mmdd.indexOf('-00') === -1; }); tier = 'anytime'; }
-              }
-            }
-            // Update title to match tier (in case SSR tier differs from client tier after data changes — defensive)
-            var monthNames = ['','January','February','March','April','May','June','July','August','September','October','November','December'];
-            var tnames = {
-              today: 'Events on ' + monthNames[parseInt(today.slice(0,2),10)] + ' ' + parseInt(today.slice(3,5),10),
-              thisweek: 'Events around this week',
-              thismonth: 'Events in ' + monthNames[parseInt(today.slice(0,2),10)],
-              anytime: 'From the calendar',
-            };
-            if (titleEl && tnames[tier]) titleEl.textContent = tnames[tier];
+            var src = pool.filter(function (e) { return e.mmdd === today; });
+            if (src.length === 0) return;
             // Fisher-Yates partial shuffle.
             var idxs = []; for (var i = 0; i < src.length; i++) idxs.push(i);
             var picks = Math.min(n, idxs.length);
