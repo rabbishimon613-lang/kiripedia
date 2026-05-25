@@ -58,9 +58,9 @@ function fetchCaptions(vid) {
     console.log('installing youtube-transcript-api…');
     execSync(`pip install --quiet --user youtube-transcript-api`, { stdio: 'inherit' });
   }
-  // Updated API: YouTubeTranscriptApi must be instantiated (>= 1.0.0).
+  // Modern API only (youtube-transcript-api >= 1.0.0).
   const py = `
-import json, sys
+import json, sys, traceback
 from youtube_transcript_api import YouTubeTranscriptApi
 try:
     api = YouTubeTranscriptApi()
@@ -68,13 +68,8 @@ try:
     snippets = [{"text": s.text, "start": s.start, "duration": s.duration} for s in transcript.snippets]
     print(json.dumps(snippets))
 except Exception as e:
-    # Fallback for legacy API (< 1.0.0).
-    try:
-        snippets = YouTubeTranscriptApi.get_transcript("${vid}", languages=["en", "en-US", "en-GB"])
-        print(json.dumps(snippets))
-    except Exception as e2:
-        print(f"ERROR: {e2}", file=sys.stderr)
-        sys.exit(2)
+    traceback.print_exc(file=sys.stderr)
+    sys.exit(2)
 `;
   return JSON.parse(execSync(`python3 -c '${py.replace(/'/g, "'\\''")}'`, { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 }));
 }
