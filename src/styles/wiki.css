@@ -95,6 +95,60 @@ a.new, a.redlink { color: var(--color-link-red); }
   flex: 1;
   max-width: 500px;
   margin-left: auto;
+  position: relative;
+}
+
+/* ---------- Header typeahead dropdown ---------- */
+.search-suggest {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+.search-suggest .ss-item {
+  display: block;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--color-border-subtle);
+  text-decoration: none;
+  color: inherit;
+}
+.search-suggest .ss-item:last-child { border-bottom: none; }
+.search-suggest .ss-item:hover,
+.search-suggest .ss-item.selected {
+  background: var(--color-bg-sidebar);
+}
+.search-suggest .ss-title {
+  font-weight: bold;
+  color: var(--color-link);
+  font-size: 14px;
+}
+.search-suggest .ss-excerpt {
+  font-size: 12px;
+  color: var(--color-base--subtle);
+  margin-top: 2px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.search-suggest .ss-excerpt mark {
+  background: #fdf6a8;
+  color: inherit;
+  padding: 0 1px;
+}
+.search-suggest .ss-empty {
+  padding: 12px;
+  font-size: 13px;
+  color: var(--color-base--subtle);
+  text-align: center;
 }
 .wiki-header .search input {
   width: 100%;

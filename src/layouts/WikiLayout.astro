@@ -40,8 +40,9 @@ const { title, description, image, type } = Astro.props;
         <span class="tagline">The Free Encyclopedia of John Kiriakou's World</span>
       </span>
     </a>
-    <form class="search" role="search" action="/search" method="get">
-      <input type="search" name="q" placeholder="Search KiriPedia" />
+    <form class="search" role="search" action="/search" method="get" autocomplete="off">
+      <input type="search" name="q" id="header-search-input" placeholder="Search KiriPedia" autocomplete="off" />
+      <div id="header-search-suggest" class="search-suggest" hidden></div>
     </form>
   </header>
 
@@ -98,6 +99,113 @@ const { title, description, image, type } = Astro.props;
     </main>
   </div>
   <Analytics />
+
+  {/* Header search typeahead — lazy-loads pagefind on first focus and shows
+      live suggestions as you type. Wikipedia-style: title + short description,
+      arrow-key navigation, Enter to navigate. */}
+  <script is:inline>
+    (function () {
+      var input = document.getElementById('header-search-input');
+      var box = document.getElementById('header-search-suggest');
+      if (!input || !box) return;
+
+      var pagefindPromise = null;
+      function loadPagefind() {
+        if (!pagefindPromise) {
+          pagefindPromise = import('/pagefind/pagefind.js').then(function (mod) {
+            mod.init && mod.init();
+            return mod;
+          }).catch(function () { return null; });
+        }
+        return pagefindPromise;
+      }
+
+      var selectedIdx = -1;
+      var currentResults = [];
+      var debounceTimer = null;
+
+      function close() {
+        box.hidden = true;
+        box.innerHTML = '';
+        selectedIdx = -1;
+        currentResults = [];
+      }
+
+      function render(results) {
+        currentResults = results;
+        if (!results.length) {
+          box.innerHTML = '<div class="ss-empty">No matches</div>';
+          box.hidden = false;
+          return;
+        }
+        box.innerHTML = results.map(function (r, i) {
+          var safeTitle = (r.meta && r.meta.title) ? r.meta.title : r.url;
+          var excerpt = r.excerpt || '';
+          return (
+            '<a class="ss-item' + (i === selectedIdx ? ' selected' : '') +
+            '" href="' + r.url + '" data-idx="' + i + '">' +
+              '<div class="ss-title">' + safeTitle + '</div>' +
+              '<div class="ss-excerpt">' + excerpt + '</div>' +
+            '</a>'
+          );
+        }).join('');
+        box.hidden = false;
+      }
+
+      async function runSearch(q) {
+        var pf = await loadPagefind();
+        if (!pf) { close(); return; }
+        try {
+          var search = await pf.search(q);
+          var top = search.results.slice(0, 7);
+          var data = await Promise.all(top.map(function (r) { return r.data(); }));
+          render(data);
+        } catch (err) {
+          close();
+        }
+      }
+
+      input.addEventListener('input', function () {
+        var q = input.value.trim();
+        if (debounceTimer) clearTimeout(debounceTimer);
+        if (q.length < 2) { close(); return; }
+        debounceTimer = setTimeout(function () { runSearch(q); }, 130);
+      });
+
+      input.addEventListener('focus', function () {
+        loadPagefind(); // warm the cache
+        if (input.value.trim().length >= 2) runSearch(input.value.trim());
+      });
+
+      input.addEventListener('keydown', function (e) {
+        if (box.hidden || !currentResults.length) {
+          if (e.key === 'Escape') input.blur();
+          return;
+        }
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          selectedIdx = (selectedIdx + 1) % currentResults.length;
+          render(currentResults);
+        } else if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          selectedIdx = (selectedIdx - 1 + currentResults.length) % currentResults.length;
+          render(currentResults);
+        } else if (e.key === 'Enter' && selectedIdx >= 0) {
+          e.preventDefault();
+          window.location.href = currentResults[selectedIdx].url;
+        } else if (e.key === 'Escape') {
+          close();
+          input.blur();
+        }
+      });
+
+      // Click outside closes the dropdown
+      document.addEventListener('click', function (e) {
+        if (!input.parentElement.contains(e.target)) close();
+      });
+    })();
+  </script>
+
   <script is:inline>
     // Mobile sidebar toggle
     (function () {

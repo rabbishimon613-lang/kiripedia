@@ -14,36 +14,43 @@ import WikiLayout from '../layouts/WikiLayout.astro';
     </p>
   </div>
 
-  <script type="module" is:inline>
-    const params = new URLSearchParams(window.location.search);
-    const initial = params.get('q') ?? '';
+  {/* Load pagefind UI via plain <script src>, the pattern pagefind itself
+      recommends. Avoids the dynamic-import fragility we hit before. */}
+  <script src="/pagefind/pagefind-ui.js" is:inline></script>
+  <script is:inline>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var initial = params.get('q') || '';
+      var status = document.getElementById('search-status');
 
-    try {
-      const module = await import('/pagefind/pagefind-ui.js');
-      const PagefindUI = module.PagefindUI;
+      if (typeof PagefindUI === 'undefined') {
+        status.textContent =
+          'Search index not available. (If you are viewing this on the live site, please refresh — the index may still be loading.)';
+        return;
+      }
+
       new PagefindUI({
         element: '#search',
         showImages: false,
         showSubResults: true,
         resetStyles: false,
       });
-      document.getElementById('search-status').textContent = initial
-        ? `Showing results for “${initial}”`
+
+      status.textContent = initial
+        ? 'Showing results for “' + initial + '”'
         : 'Type a query to search.';
+
       if (initial) {
-        // Wait one frame for PagefindUI to wire its input, then set the query.
-        requestAnimationFrame(() => {
-          const input = document.querySelector('#search input');
+        // Wait a tick for PagefindUI to wire its input, then prefill.
+        setTimeout(function () {
+          var input = document.querySelector('#search input');
           if (input) {
             input.value = initial;
             input.dispatchEvent(new Event('input', { bubbles: true }));
             input.focus();
           }
-        });
+        }, 50);
       }
-    } catch (err) {
-      document.getElementById('search-status').textContent =
-        'Search index not available. This usually means the site is running in dev mode — pagefind runs at build time. Try the live site at kiripedia.vercel.app.';
-    }
+    })();
   </script>
 </WikiLayout>
