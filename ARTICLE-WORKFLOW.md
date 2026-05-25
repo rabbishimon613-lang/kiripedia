@@ -331,3 +331,48 @@ Per-ingest workflow:
 4. Commit + push as part of the ingest commit.
 
 Adds ~10 seconds per ingest. Tokenless.
+
+## STRICT events: rule (locked in, no exceptions)
+
+`events:` array entries MUST satisfy both:
+
+1. **YYYY-MM-DD precision.** No `YYYY-MM`, no `YYYY`. Month-only and
+   year-only dates are not "on this day" content — they live in article prose.
+2. **The date must come from Kiriakou's mouth.** No external lookups —
+   not Wikipedia, not news archives, not court filings. If he doesn't utter
+   the day, the event doesn't get an `events:` entry.
+
+This applies to all future ingests and supersedes any earlier permissive
+wording.
+
+### Surfaces enforce it
+
+- Homepage OTD box: strict `mmdd === today` filter, no fallback chain.
+- `/on-this-day` page: defensively filters out anything not matching
+  `^\d{4}-\d{2}-\d{2}$` so a slip-up in seeding doesn't pollute the calendar.
+- Empty box on an empty day is the correct behavior.
+
+### Tools
+
+- `tools/audit-events.mjs` — lists every events entry grouped by precision.
+- `tools/strip-imprecise-events.mjs` — removes any non-day-precise entries
+  from frontmatter. Idempotent; rebuilds `events:` blocks cleanly.
+- `tools/find-dated-quotes.mjs [source-slug-substring]` — mines all source
+  transcripts for date-precise mentions Kiriakou utters; outputs
+  `[timestamp] [match] [snippet]` so the editor can decide which events to
+  add. The ONLY canon-compliant way to grow the OTD pool.
+
+### Per-ingest checklist addition
+
+After writing articles for a new ingest, run:
+
+```
+node tools/find-dated-quotes.mjs <source-slug>
+```
+
+For each day-precise hit Kiriakou utters:
+- If the event already has an article → add an `events:` entry.
+- If not → add to tracker for later promotion.
+
+If Kiriakou says only "January 1993" or "spring of 1988" — date stays in
+prose, no `events:` entry.

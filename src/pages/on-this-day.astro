@@ -5,20 +5,21 @@ import { getCollection } from 'astro:content';
 const articles = await getCollection('articles');
 const slugOf = (a) => a.id.replace(/\.mdx?$/, '');
 
-// Pull every event out of every article, with its source article meta.
+// Pull every day-precise event out of every article. Per the doctrine in
+// ARTICLE-WORKFLOW.md: events: entries are YYYY-MM-DD only. Month-only or
+// year-only events are filtered out defensively here in case any slip in.
 const events = [];
 for (const a of articles) {
   for (const e of a.data.events ?? []) {
-    const parts = e.date.split('-');
-    const year = parts[0];
-    const month = parts[1] ?? '00';
-    const day = parts[2] ?? '00';
+    const d = String(e.date);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) continue;
+    const [year, month, day] = d.split('-');
     events.push({
-      date: e.date,
+      date: d,
       year,
       month,
       day,
-      mmdd: parts[2] ? `${month}-${day}` : `${month}-00`,
+      mmdd: `${month}-${day}`,
       description: e.description,
       slug: slugOf(a),
       title: a.data.title,
@@ -119,7 +120,7 @@ const calendarPool = events.map((e) => ({
             {days.map((d) => {
               const dayKey = `${String(m).padStart(2, '0')}-${d}`;
               const isToday = dayKey === todayMD;
-              const dayLabel = d === '00' ? `${monthNames[m]} (month, day unknown)` : `${monthNames[m]} ${Number(d)}`;
+              const dayLabel = `${monthNames[m]} ${Number(d)}`;
               return (
                 <div style={`margin-top:14px; padding:8px 10px; ${isToday ? 'background:#fff3d6; border-left:3px solid #d4a017;' : 'border-left:3px solid var(--color-border-subtle);'}`}>
                   <div style="font-weight:bold; margin-bottom:4px">
