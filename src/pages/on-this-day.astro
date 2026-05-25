@@ -47,6 +47,7 @@ const monthNames = [
 const monthOrder = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].filter((m) => byMonth[m]);
 const today = new Date().toISOString().slice(0, 10);
 const todayMD = today.slice(5);
+const todayDisplay = `${monthNames[Number(today.slice(5,7))]} ${Number(today.slice(8,10))}`;
 
 function mdLite(s) {
   if (s == null) return '';
@@ -54,6 +55,53 @@ function mdLite(s) {
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
     .replace(/\*([^*]+)\*/g, '<em>$1</em>');
 }
+
+// SSR fallback for the "Today" callout: same four-tier chain as the homepage
+// OTD box. Render up to 6 entries (newest year first).
+const TODAY_VISIBLE = 6;
+function ssrTodayPool() {
+  const exact = events.filter((e) => e.mmdd === todayMD);
+  if (exact.length > 0) return { tier: 'today', items: exact };
+  const cum = [0,31,59,90,120,151,181,212,243,273,304,334];
+  function doy(mmdd) {
+    if (!mmdd || mmdd.endsWith('-00')) return -1;
+    const mm = Number(mmdd.slice(0,2)), dd = Number(mmdd.slice(3,5));
+    if (!mm || !dd) return -1;
+    return cum[mm-1] + dd;
+  }
+  const tdoy = doy(todayMD);
+  const week = events.filter((e) => {
+    const d = doy(e.mmdd); if (d < 0) return false;
+    const diff = Math.abs(d - tdoy);
+    return Math.min(diff, 366 - diff) <= 3;
+  });
+  if (week.length > 0) return { tier: 'thisweek', items: week };
+  const sameMonth = events.filter((e) => e.mmdd && e.mmdd.slice(0,2) === todayMD.slice(0,2));
+  if (sameMonth.length > 0) return { tier: 'thismonth', items: sameMonth };
+  return { tier: 'anytime', items: events.filter((e) => e.mmdd && !e.mmdd.endsWith('-00')) };
+}
+const todayBlock = ssrTodayPool();
+const todayBlockSlice = [...todayBlock.items]
+  .sort((a, b) => Number(b.year) - Number(a.year))
+  .slice(0, TODAY_VISIBLE);
+const tierLabel = {
+  today: `Events on ${todayDisplay}`,
+  thisweek: `Events around this week`,
+  thismonth: `Events in ${monthNames[Number(todayMD.slice(0,2))]}`,
+  anytime: `From the calendar`,
+}[todayBlock.tier];
+
+// Pool serialization for the client-side per-visit shuffle. The Today callout
+// reshuffles on every page load using the same 4-tier fallback the homepage
+// uses, and each per-day entry list also reshuffles internally so revisits
+// don't show the exact same order.
+const calendarPool = events.map((e) => ({
+  mmdd: e.mmdd,
+  year: e.year,
+  html: mdLite(e.description),
+  slug: e.slug,
+  title: e.title,
+}));
 ---
 <WikiLayout title="On this day">
   <div class="wiki-content">
@@ -61,12 +109,26 @@ function mdLite(s) {
     <p class="subtitle">Every dated event in KiriPedia's source corpus, organized by calendar day</p>
 
     <article class="wiki-body">
+      {events.length > 0 && (
+        <section id="today-callout" data-today={todayMD} data-visible={TODAY_VISIBLE} style="margin: 8px 0 24px; padding: 14px 16px; background: #fff8e1; border-left: 4px solid #d4a017;">
+          <h2 id="today-callout-h" style="margin:0 0 8px; font-size:18px">{tierLabel}</h2>
+          <ul id="today-callout-list" style="margin:0; padding-left:20px">
+            {todayBlockSlice.map((e) => (
+              <li style="margin:3px 0">
+                <strong>{e.year}</strong> — <span set:html={mdLite(e.description)} /> {' '}
+                <a href={`/wiki/${e.slug}`} style="font-size:12px; color:var(--color-base--subtle)">[{e.title}]</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <p>
         This page aggregates every event with a known date that has been mentioned anywhere in KiriPedia's source corpus. Entries are grouped by calendar day; click any article title to read the surrounding context.
       </p>
 
       <p style="font-size:13px; color:var(--color-base--subtle)">
-        New events appear here automatically as articles are added or updated — each event lives in its source article's frontmatter under an <code>events:</code> array.
+        New events appear here automatically as articles are added or updated — each event lives in its source article's frontmatter under an <code>events:</code> array. The callout above and the order of entries within each day reshuffle on every page load.
       </p>
 
       <p style="margin: 16px 0; padding: 8px 12px; background: var(--color-bg-sidebar); border: 1px solid var(--color-border-subtle); font-size: 14px;">
@@ -108,6 +170,110 @@ function mdLite(s) {
       {events.length === 0 && (
         <p><em>No dated events recorded in any article yet.</em></p>
       )}
+
+      <script type="application/json" id="otd-calendar-pool" set:html={JSON.stringify(calendarPool)} />
+      <script is:inline>
+        (function () {
+          var poolEl = document.getElementById('otd-calendar-pool');
+          var calloutEl = document.getElementById('today-callout-list');
+          var calloutBox = document.getElementById('today-callout');
+          var titleEl = document.getElementById('today-callout-h');
+          if (!poolEl) return;
+          var pool;
+          try { pool = JSON.parse(poolEl.textContent); } catch (e) { return; }
+          if (!Array.isArray(pool) || pool.length === 0) return;
+
+          // ---- Reshuffle the Today callout using the 4-tier fallback ----
+          if (calloutEl && calloutBox) {
+            var today = calloutBox.getAttribute('data-today') || '';
+            var n = parseInt(calloutBox.getAttribute('data-visible'), 10) || 6;
+            var cum = [0,31,59,90,120,151,181,212,243,273,304,334];
+            function doy(mmdd) {
+              if (!mmdd || mmdd.indexOf('-00') !== -1 && mmdd.length === 5) return -1;
+              var mm = parseInt(mmdd.slice(0,2),10), dd = parseInt(mmdd.slice(3,5),10);
+              if (!mm || !dd) return -1;
+              return cum[mm-1] + dd;
+            }
+            var tdoy = doy(today);
+            var exact = pool.filter(function (e) { return e.mmdd === today; });
+            var src, tier;
+            if (exact.length > 0) { src = exact; tier = 'today'; }
+            else {
+              var week = pool.filter(function (e) {
+                var d = doy(e.mmdd); if (d < 0) return false;
+                var diff = Math.abs(d - tdoy);
+                return Math.min(diff, 366 - diff) <= 3;
+              });
+              if (week.length > 0) { src = week; tier = 'thisweek'; }
+              else {
+                var sameMonth = pool.filter(function (e) { return e.mmdd && e.mmdd.slice(0,2) === today.slice(0,2); });
+                if (sameMonth.length > 0) { src = sameMonth; tier = 'thismonth'; }
+                else { src = pool.filter(function (e) { return e.mmdd && e.mmdd.indexOf('-00') === -1; }); tier = 'anytime'; }
+              }
+            }
+            // Update title to match tier (in case SSR tier differs from client tier after data changes — defensive)
+            var monthNames = ['','January','February','March','April','May','June','July','August','September','October','November','December'];
+            var tnames = {
+              today: 'Events on ' + monthNames[parseInt(today.slice(0,2),10)] + ' ' + parseInt(today.slice(3,5),10),
+              thisweek: 'Events around this week',
+              thismonth: 'Events in ' + monthNames[parseInt(today.slice(0,2),10)],
+              anytime: 'From the calendar',
+            };
+            if (titleEl && tnames[tier]) titleEl.textContent = tnames[tier];
+            // Fisher-Yates partial shuffle.
+            var idxs = []; for (var i = 0; i < src.length; i++) idxs.push(i);
+            var picks = Math.min(n, idxs.length);
+            for (var j = 0; j < picks; j++) {
+              var swap = j + Math.floor(Math.random() * (idxs.length - j));
+              var tmp = idxs[j]; idxs[j] = idxs[swap]; idxs[swap] = tmp;
+            }
+            var chosen = [];
+            for (var k = 0; k < picks; k++) chosen.push(src[idxs[k]]);
+            chosen.sort(function (a, b) { return Number(b.year) - Number(a.year); });
+            var html = '';
+            for (var m = 0; m < chosen.length; m++) {
+              var e = chosen[m];
+              html += '<li style="margin:3px 0"><strong>' + e.year + '</strong> — ' + e.html +
+                      ' <a href="/wiki/' + e.slug + '" style="font-size:12px; color:var(--color-base--subtle)">[' + e.title + ']</a></li>';
+            }
+            calloutEl.innerHTML = html;
+          }
+
+          // ---- Reshuffle multi-entry days within the month-grouped listing.
+          // Each day's <ul> already has the same DOM shape; we just permute
+          // its <li> children on load. Year-desc is preserved within the
+          // shuffle for visual stability (entries with the same year swap).
+          var dayLists = document.querySelectorAll('section[id^="m-"] ~ * ul, section ul');
+          // Find each day's list more precisely: any <ul> that contains >=2 <li>
+          // inside the month sections.
+          var monthSections = document.querySelectorAll('section h2[id^="m-"]');
+          monthSections.forEach(function (h2) {
+            var section = h2.parentElement;
+            var lists = section.querySelectorAll('ul');
+            lists.forEach(function (ul) {
+              var items = Array.prototype.slice.call(ul.children);
+              if (items.length < 2) return;
+              // Group by year; shuffle groups; flatten back.
+              var byYear = {};
+              items.forEach(function (li) {
+                var y = (li.querySelector('strong') || {}).textContent || '?';
+                (byYear[y] = byYear[y] || []).push(li);
+              });
+              var years = Object.keys(byYear).sort(function (a, b) { return Number(b) - Number(a); });
+              // Shuffle within each year group only — preserves year ordering.
+              years.forEach(function (y) {
+                var group = byYear[y];
+                for (var i = group.length - 1; i > 0; i--) {
+                  var s = Math.floor(Math.random() * (i + 1));
+                  var t = group[i]; group[i] = group[s]; group[s] = t;
+                }
+              });
+              ul.innerHTML = '';
+              years.forEach(function (y) { byYear[y].forEach(function (li) { ul.appendChild(li); }); });
+            });
+          });
+        })();
+      </script>
     </article>
   </div>
 </WikiLayout>
