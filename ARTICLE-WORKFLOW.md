@@ -428,3 +428,84 @@ The bug check is **the only hard fail**; aliasing is a feature, not a bug.
 Per-ingest checklist gains one step:
 - `node tools/audit-wikilinks.mjs` — run as soon as articles are drafted,
   before commit. Build will block if any HIGH-confidence bug remains.
+
+## Token-optimized ingest workflow
+
+The expensive thing about an ingest is reading the same 50k-token
+transcript multiple times. The fix is to read it once, externalize the
+structure into a topic map, then write articles from the map.
+
+### Step 1 — read once, produce a topic map
+
+Read the full normalized transcript in one pass. Produce a markdown
+topic map keyed by timestamp ranges:
+
+```
+1:54:30–2:13:25  Giuliani pardon arc
+  articles to write/enrich:
+    - rudy-giuliani  (new)
+    - bernie-kerik   (new, brief)
+    - bruce-fine     (new)
+    - noelle-dunphy  (new, brief)
+    - robert-maclean (new, brief)
+  key cites: [1:54:30] [1:55:32] [1:57:38] [1:58:42] [2:02:54] [2:08:13]
+  quotes to preserve verbatim:
+    - "anybody know where the pisser is"
+    - "Rudy is not very good by 2 o'clock"
+    - "criminal — criminal"
+```
+
+The map is the only place transcript context lives during the writing
+phase. Articles are written from the map, with targeted Read calls into
+the transcript only when a specific quote needs to be confirmed.
+
+### Step 2 — bulk-write via the scaffolder
+
+Draft all articles for the ingest as a single JSON spec, pass to:
+
+```
+node tools/scaffold-articles.mjs <spec.json>
+```
+
+The scaffolder handles all YAML escaping, all boilerplate (`import Cite`,
+`## See also`, blank lines), and enforces the rules:
+- DYK >= 2 per new article, each with >= 2 wikilinks
+- Every events: date is YYYY-MM-DD with a wikilinked description
+- Body must contain >= 1 `<Cite />` tag
+- Refuses to overwrite an existing article (unless `skip_if_exists: false`)
+
+Saves ~30% of MDX-boilerplate tokens per article, and kills the YAML
+escape class entirely.
+
+### Step 3 — build hooks catch the rest
+
+`npm run build` chain now runs in order:
+1. `tools/audit-frontmatter.mjs` — catches YAML escape bugs (`\$`,
+   unquoted-value-with-colon, generic parse errors). Points at file:line
+   instead of dumping a js-yaml stack trace.
+2. `tools/audit-wikilinks.mjs` — catches person-name-pointing-at-wrong-
+   person bugs (the Leon-Panetta-→-Jose-Rodriguez class).
+3. `astro build` + `pagefind`.
+
+Build fails on any HIGH-confidence issue from steps 1 or 2. Vercel won't
+deploy garbage.
+
+### Step 4 — finalize
+
+```
+node tools/build-date-index.mjs    # regenerate public/date-index.json
+bash tools/fetch-images.sh         # any new slugs get wiki-trusted images
+node tools/wire-images.mjs          # wire newly-fetched images into frontmatter
+git add -A && git commit -m "..."
+git push
+```
+
+### Token savings per ingest (rough)
+
+| Old pattern | New pattern | Saves |
+|---|---|---|
+| Re-read transcript chunks 3-4× | Read once → topic map | 15k–25k |
+| Per-article MDX with boilerplate | JSON spec to scaffolder | 8k–12k |
+| YAML retry cycles on `\$` etc | Lint catches at file:line | 1k–4k |
+| Per-write linter echoes | Single bulk-write tool call | 5k–10k |
+| **Total** | | **~30k–50k per ingest** |
