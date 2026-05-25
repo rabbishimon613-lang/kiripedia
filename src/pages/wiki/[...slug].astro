@@ -31,6 +31,8 @@ while ((m = citeRegex.exec(article.body)) !== null) {
   categories={cats}
   image={article.data.infobox?.image}
   slug={article.id.replace(/\.mdx?$/, '')}
+  infobox={article.data.infobox}
+  updated={article.data.updated}
 >
   {article.data.infobox && (
     <Infobox

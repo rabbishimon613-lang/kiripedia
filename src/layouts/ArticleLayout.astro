@@ -1,21 +1,39 @@
 ---
 import WikiLayout from './WikiLayout.astro';
 import References from '../components/References.astro';
-const { title, subtitle, categories = [], image, slug } = Astro.props;
+const {
+  title, subtitle, categories = [], image, slug,
+  infobox, updated, datePublished,
+} = Astro.props;
 
 const SITE = 'https://www.kiripedia.org';
 const articleURL = slug ? `${SITE}/wiki/${slug}` : undefined;
 const isPerson = categories.includes('People');
+const primaryCategory = categories[0];
+const imageURL = image
+  ? (image.startsWith('http') ? image : `${SITE}${image}`)
+  : `${SITE}/og.png`;
 
-// JSON-LD: Article (or Person, if it's a person article) — for rich-result eligibility.
+// JSON-LD: Article — enriched with mainEntityOfPage, dateModified, articleSection,
+// keywords (from categories), so Google can categorize the page properly.
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": title,
   "description": subtitle ?? undefined,
-  "image": image ? (image.startsWith('http') ? image : `${SITE}${image}`) : `${SITE}/og.png`,
+  "image": imageURL,
   "url": articleURL,
+  "mainEntityOfPage": articleURL,
   "inLanguage": "en",
+  "articleSection": primaryCategory,
+  "keywords": categories.join(', '),
+  "datePublished": datePublished ?? '2025-01-01',
+  "dateModified": updated ?? new Date().toISOString().slice(0, 10),
+  "author": {
+    "@type": "Organization",
+    "name": "KiriPedia",
+    "url": SITE,
+  },
   "isPartOf": {
     "@type": "WebSite",
     "name": "KiriPedia",
@@ -28,17 +46,31 @@ const articleSchema = {
   },
 };
 
+// Person schema for People-category articles. Pull jobTitle from the
+// infobox if there's a Position/Role/Title-style key. Canon-safe: only
+// uses what the article author already put in the infobox; no external
+// data lookups.
+function jobTitleFromInfobox(box) {
+  if (!box?.data) return undefined;
+  const candidateKeys = ['Position', 'Role', 'Title', 'Job title', 'Occupation', 'Vocation', 'Function'];
+  for (const k of candidateKeys) {
+    if (box.data[k]) return String(box.data[k]).replace(/\[(.+?)\]\(.+?\)/g, '$1');
+  }
+  return undefined;
+}
+
 const personSchema = isPerson ? {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": title,
   "description": subtitle ?? undefined,
-  "image": image ? (image.startsWith('http') ? image : `${SITE}${image}`) : undefined,
+  "image": image ? imageURL : undefined,
   "url": articleURL,
+  "jobTitle": jobTitleFromInfobox(infobox),
+  "mainEntityOfPage": articleURL,
 } : null;
 
 // Breadcrumbs: Main page › Category › Article
-const primaryCategory = categories[0];
 const breadcrumbItems = [
   { "@type": "ListItem", position: 1, name: "Main page", item: `${SITE}/` },
 ];

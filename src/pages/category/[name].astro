@@ -21,11 +21,38 @@ const matching = articles.filter((a) => {
   return list.map((c) => c.toLowerCase()).includes(name);
 });
 const display = name.charAt(0).toUpperCase() + name.slice(1);
+const SITE = 'https://www.kiripedia.org';
+
+// CollectionPage + ItemList JSON-LD so Google understands this is a list
+// page indexing N articles, not just a leaf doc.
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": `Category: ${display}`,
+  "description": `All KiriPedia articles in the ${display} category — sourced exclusively from John Kiriakou's public interviews and podcast appearances.`,
+  "url": `${SITE}/category/${name}`,
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "KiriPedia", "url": SITE },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": matching.length,
+    "itemListElement": matching.map((a, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "url": `${SITE}/wiki/${a.id.replace(/\.mdx?$/, '')}`,
+      "name": a.data.title,
+    })),
+  },
+};
 ---
-<WikiLayout title={`Category: ${display}`}>
+<WikiLayout
+  title={`Category: ${display}`}
+  description={`${matching.length} KiriPedia articles in the ${display} category.`}
+>
   <div class="wiki-content">
+    <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
     <h1 class="firstHeading">Category: {display}</h1>
-    <p class="subtitle">Articles in this category</p>
+    <p class="subtitle">{matching.length} articles in this category</p>
     {matching.length === 0 ? (
       <p><em>No articles yet in this category.</em></p>
     ) : (

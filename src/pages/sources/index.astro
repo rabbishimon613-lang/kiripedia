@@ -16,9 +16,35 @@ for (const arr of byShow.values()) {
 }
 const shows = [...byShow.keys()].sort();
 const total = sources.length;
+
+const SITE = 'https://www.kiripedia.org';
+const sortedAll = [...sources].sort((a, b) => (b.data.date ?? '').localeCompare(a.data.date ?? ''));
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "KiriPedia source index",
+  "description": `Index of ${total} public appearances by John Kiriakou ingested into KiriPedia, across ${shows.length} shows.`,
+  "url": `${SITE}/sources`,
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "KiriPedia", "url": SITE },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": total,
+    "itemListElement": sortedAll.map((s, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "url": `${SITE}/sources/${s.id.replace(/\.md$/, '')}`,
+      "name": s.data.title,
+    })),
+  },
+};
 ---
-<WikiLayout title="Source index">
+<WikiLayout
+  title="Source index"
+  description={`${total} John Kiriakou interviews across ${shows.length} shows, every one with full annotated transcript and citable timestamps.`}
+>
   <div class="wiki-content">
+    <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
     <h1 class="firstHeading">Source index</h1>
     <p class="subtitle">Every public appearance by John Kiriakou ingested into KiriPedia</p>
 

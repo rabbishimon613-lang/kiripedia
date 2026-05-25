@@ -23,10 +23,71 @@ for (const raw of body.split(/\n\s*\n/)) {
 }
 
 const ytEmbed = data.videoId ? `https://www.youtube.com/embed/${data.videoId}` : null;
+
+// ---------- SEO: VideoObject schema ----------
+const SITE = 'https://www.kiripedia.org';
+const pageURL = `${SITE}/sources/${source.id.replace(/\.md$/, '')}`;
+
+// Duration mm:ss or hh:mm:ss → ISO 8601 PTnHnMnS for schema.org
+function toISO8601Duration(s) {
+  if (!s) return undefined;
+  const parts = String(s).split(':').map(Number);
+  let h = 0, m = 0, sec = 0;
+  if (parts.length === 3) [h, m, sec] = parts;
+  else if (parts.length === 2) [m, sec] = parts;
+  else sec = parts[0] || 0;
+  return `PT${h}H${m}M${sec}S`;
+}
+
+const videoSchema = data.videoId ? {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": data.title,
+  "description": `John Kiriakou interview on ${data.show}, ${data.date}. Annotated transcript with deep-linked timestamps available on KiriPedia.`,
+  "thumbnailUrl": [
+    `https://i.ytimg.com/vi/${data.videoId}/maxresdefault.jpg`,
+    `https://i.ytimg.com/vi/${data.videoId}/hqdefault.jpg`,
+  ],
+  "uploadDate": data.date,
+  "duration": toISO8601Duration(data.duration),
+  "contentUrl": data.url,
+  "embedUrl": ytEmbed,
+  "publisher": {
+    "@type": "Organization",
+    "name": data.show,
+  },
+  "transcript": pageURL,
+  "isAccessibleForFree": true,
+  "inLanguage": "en",
+} : null;
+
+// Schema.org Article wrapping the transcript itself (so Google understands
+// this page is an annotated transcript of the video above, not the video).
+const transcriptSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": `Transcript: ${data.title}`,
+  "datePublished": data.date,
+  "inLanguage": "en",
+  "url": pageURL,
+  "isPartOf": { "@type": "WebSite", "name": "KiriPedia", "url": SITE },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KiriPedia",
+    "logo": { "@type": "ImageObject", "url": `${SITE}/logo.png` },
+  },
+  ...(data.videoId && { "video": videoSchema }),
+};
 ---
-<WikiLayout title={data.title}>
-  <div class="wiki-content">
-    <h1 class="firstHeading">{data.title}</h1>
+<WikiLayout
+  title={data.title}
+  description={`Annotated transcript of John Kiriakou on ${data.show}, ${data.date}. Click any timestamp to jump into the YouTube video at that point.`}
+  type="article"
+>
+  <div class="wiki-content" data-pagefind-body>
+    {videoSchema && <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />}
+    <script type="application/ld+json" set:html={JSON.stringify(transcriptSchema)} />
+    <h1 class="firstHeading" data-pagefind-meta="title">{data.title}</h1>
     <p class="subtitle">{data.show} · {data.date} · {data.duration ?? ''}</p>
 
     <aside class="infobox" style="float:right; width:320px;">
