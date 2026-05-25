@@ -54,4 +54,4 @@ Allow: /
 User-agent: ia_archiver
 Allow: /
 
-Sitemap: https://kiripedia.org/sitemap-index.xml
+Sitemap: https://www.kiripedia.org/sitemap-index.xml

@@ -3,7 +3,7 @@ import WikiLayout from './WikiLayout.astro';
 import References from '../components/References.astro';
 const { title, subtitle, categories = [], image, slug } = Astro.props;
 
-const SITE = 'https://kiripedia.org';
+const SITE = 'https://www.kiripedia.org';
 const articleURL = slug ? `${SITE}/wiki/${slug}` : undefined;
 const isPerson = categories.includes('People');
 

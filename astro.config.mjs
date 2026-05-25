@@ -3,7 +3,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://kiripedia.org',
+  site: 'https://www.kiripedia.org',
   integrations: [
     mdx(),
     sitemap({
@@ -16,7 +16,7 @@ export default defineConfig({
         if (item.url.includes('/wiki/')) {
           item.priority = 0.8;
           item.changefreq = 'monthly';
-        } else if (item.url.endsWith('kiripedia.org/')) {
+        } else if (item.url.endsWith('www.kiripedia.org/')) {
           item.priority = 1.0;
           item.changefreq = 'daily';
         } else if (item.url.includes('/on-this-day') || item.url.includes('/sources')) {
