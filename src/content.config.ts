@@ -5,7 +5,7 @@ const articles = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/articles' }),
   schema: z.object({
     title: z.string(),
-    category: z.enum(['People', 'Organizations', 'Places', 'Programs', 'Tradecraft', 'Events']).optional(),
+    category: z.enum(['People', 'Organizations', 'Places', 'Programs', 'Procedures', 'Events']).optional(),
     categories: z.array(z.string()).optional(),
     summary: z.string().optional(),
     infobox: z.record(z.any()).optional(),

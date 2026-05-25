@@ -125,19 +125,19 @@ const MAP = {
   'vault-7': ['Programs'],
 
   // === Tradecraft (techniques, doctrines, laws, abstract methods) ===
-  'asset-acquisition-cycle': ['Tradecraft'],
-  'cold-cell': ['Tradecraft'],
-  'executive-order-12333': ['Tradecraft'],
-  'hummus': ['Tradecraft'],
-  'operating-directive': ['Tradecraft'],
-  'pick-the-man-principle': ['Tradecraft'],
-  'sleep-deprivation': ['Tradecraft'],
-  'soylent-green-cable-easter-egg': ['Tradecraft'],
-  'surveillance-detection-route': ['Tradecraft'],
-  'ticking-time-bomb': ['Tradecraft'],
-  'title-10-vs-title-50': ['Tradecraft'],
-  'walling': ['Tradecraft'],
-  'welch-45': ['Tradecraft'],
+  'asset-acquisition-cycle': ['Procedures'],
+  'cold-cell': ['Procedures'],
+  'executive-order-12333': ['Procedures'],
+  'hummus': ['Procedures'],
+  'operating-directive': ['Procedures'],
+  'pick-the-man-principle': ['Procedures'],
+  'sleep-deprivation': ['Procedures'],
+  'soylent-green-cable-easter-egg': ['Procedures'],
+  'surveillance-detection-route': ['Procedures'],
+  'ticking-time-bomb': ['Procedures'],
+  'title-10-vs-title-50': ['Procedures'],
+  'walling': ['Procedures'],
+  'welch-45': ['Procedures'],
 
   // === Events (singular dated occurrences) ===
   'bojinka-plot': ['Events'],
@@ -181,7 +181,7 @@ for (const file of files) {
 
 console.log(`\nRecategorized: ${tally.changed} articles\n`);
 console.log('New category counts:');
-const order = ['People', 'Organizations', 'Places', 'Programs', 'Tradecraft', 'Events'];
+const order = ['People', 'Organizations', 'Places', 'Programs', 'Procedures', 'Events'];
 for (const c of order) {
   console.log(`  ${(newCategoryCounts[c] ?? 0).toString().padStart(3)}  ${c}`);
 }

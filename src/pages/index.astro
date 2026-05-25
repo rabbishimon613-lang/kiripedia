@@ -46,7 +46,7 @@ const peopleCount = counts.People ?? 0;
 const placesCount = counts.Places ?? 0;
 const organizationsCount = counts.Organizations ?? 0;
 const programsCount = counts.Programs ?? 0;
-const tradecraftCount = counts.Tradecraft ?? 0;
+const proceduresCount = counts.Procedures ?? 0;
 const eventsCount = counts.Events ?? 0;
 
 // Count distinct countries mentioned via wiki-style links to known country slugs.
@@ -187,7 +187,7 @@ const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today
       <h1>Welcome to <strong>KiriPedia</strong>,</h1>
       <p>the free encyclopedia of the world as seen through John Kiriakou's eyes — drawn entirely from his publicly available interviews, podcasts, and short-form video appearances.</p>
       <p class="mainpage-stats">
-        <strong>{count.toLocaleString()}</strong> articles ({peopleCount} <a href="/category/people">people</a>, {organizationsCount} <a href="/category/organizations">organizations</a>, {placesCount} <a href="/category/places">places</a>, {programsCount} <a href="/category/programs">programs</a>, {tradecraftCount} <a href="/category/tradecraft">tradecraft</a>, {eventsCount} <a href="/category/events">events</a>), anchored to <strong>{citationsCount.toLocaleString()}</strong> cited timestamps across <strong>{sources.length}</strong> <a href="/sources">source recordings</a> totaling {totalSourceHours} hours of transcribed video and {totalWords.toLocaleString()} words written.
+        <strong>{count.toLocaleString()}</strong> articles ({peopleCount} <a href="/category/people">people</a>, {organizationsCount} <a href="/category/organizations">organizations</a>, {placesCount} <a href="/category/places">places</a>, {programsCount} <a href="/category/programs">programs</a>, {proceduresCount} <a href="/category/procedures">procedures</a>, {eventsCount} <a href="/category/events">events</a>), anchored to <strong>{citationsCount.toLocaleString()}</strong> cited timestamps across <strong>{sources.length}</strong> <a href="/sources">source recordings</a> totaling {totalSourceHours} hours of transcribed video and {totalWords.toLocaleString()} words written.
       </p>
     </div>
 
@@ -210,7 +210,7 @@ const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today
         <a href="/category/organizations">Organizations</a> ·
         <a href="/category/places">Places</a> ·
         <a href="/category/programs">Programs</a> ·
-        <a href="/category/tradecraft">Tradecraft</a> ·
+        <a href="/category/procedures">Procedures</a> ·
         <a href="/category/events">Events</a>
       </p>
     </section>
