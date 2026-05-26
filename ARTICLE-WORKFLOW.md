@@ -590,3 +590,22 @@ both creates AND enrichments in a single tool call.
 strips them from the main transcript into a sidecar `.sponsors.md` file.
 Preserved for audit, not part of the canon corpus. Saves ~3k–5k tokens
 of transcript-read cost per 3-hour podcast.
+
+## Show-name canonicalization (locked in)
+
+Hosts publish across multiple channels — Julian Dorey alone runs at least
+four (`Julian Dorey Podcast`, `Julian Dorey Clips`, `Julian Dorey Daily`,
+`Julian Dorey Live`). From KiriPedia's perspective these are all the same
+editorial show and must collapse into one `/sources` group.
+
+Per-ingest check (run as the last step before commit):
+```
+node tools/show-aliases.mjs --fix
+```
+
+The alias map in `tools/show-aliases.mjs` is the source of truth. When a
+new host appears for the first time, add their canonical name + any known
+channel variants to the ALIASES array. Future ingests then auto-canonicalize.
+
+This is part of the per-ingest checklist now. If a Julian Dorey clip
+slipped through showing as a different show name, the audit catches it.
