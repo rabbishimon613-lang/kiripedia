@@ -101,7 +101,11 @@ const breadcrumbSchema = {
   itemListElement: breadcrumbItems,
 };
 ---
-<WikiLayout title={title} description={subtitle} image={image}>
+<WikiLayout
+  title={title}
+  description={subtitle ? `Per John Kiriakou: ${subtitle}` : `John Kiriakou's account of ${title}.`}
+  image={image}
+>
   <div class="wiki-content" data-pagefind-body>
     {/* JSON-LD structured data — Google reads these anywhere in the HTML */}
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
