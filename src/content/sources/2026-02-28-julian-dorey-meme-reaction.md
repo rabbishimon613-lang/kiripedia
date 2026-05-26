@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-28-julian-dorey-meme-reaction"
 title: "John Kiriakou's LIVE REACTION to becoming a Meme"
-show: "Julian Dorey Clips"
+show: "Julian Dorey Podcast"
 date: "2026-02-28"
 url: "https://youtube.com/watch?v=YN_CVvJ0oRg"
 videoId: "YN_CVvJ0oRg"

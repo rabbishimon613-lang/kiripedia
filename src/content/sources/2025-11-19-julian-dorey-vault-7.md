@@ -1,7 +1,7 @@
 ---
 slug: "2025-11-19-julian-dorey-vault-7"
 title: "CIA Spy Explains 'Vault 7'"
-show: "Julian Dorey Daily"
+show: "Julian Dorey Podcast"
 date: "2025-11-19"
 url: "https://youtube.com/watch?v=ERXIM8oTMxM"
 videoId: "ERXIM8oTMxM"

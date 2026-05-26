@@ -1,7 +1,7 @@
 ---
 slug: 2026-01-16-julian-dorey-french-intelligence
 title: "CIA Spy: French Intelligence Was Basically Serial Killers"
-show: Julian Dorey Daily
+show: "Julian Dorey Podcast"
 date: 2026-01-16
 url: https://youtube.com/watch?v=hxndFp3NmTM
 videoId: hxndFp3NmTM
