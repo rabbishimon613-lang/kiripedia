@@ -509,3 +509,84 @@ git push
 | YAML retry cycles on `\$` etc | Lint catches at file:line | 1k–4k |
 | Per-write linter echoes | Single bulk-write tool call | 5k–10k |
 | **Total** | | **~30k–50k per ingest** |
+
+## Slim-pipeline v2: subagent outliner + scaffolder shorthand
+
+Three optimizations layered on top of the slim pipeline to cut main-context
+token cost by ~50% without quality loss:
+
+### 1. Subagent outliner (the big one)
+
+For ingests from a desktop/Mac Claude Code session, the transcript-reading
+work is offloaded to an isolated Agent subagent. The subagent reads the
+full ~30k-token transcript in its own context window (subscription-billed
+but isolated), produces a structured outline at
+`src/content/sources/.outlines/<slug>.outline.md`, then exits. The main
+session reads only the outline (~3k–5k tokens) and does targeted re-reads
+of the raw transcript for specific quote confirmation.
+
+Tooling:
+- `tools/OUTLINE-PROMPT.md` — the binding prompt template for the subagent
+- `tools/validate-outline.mjs <outline> <source>` — validates the outline:
+  every verbatim quote must appear in the source, segment timestamps must
+  be in range. Hard fail on quality bugs.
+
+Per-ingest workflow when subagents are available:
+1. Normalize transcript → source markdown
+2. Spawn Agent subagent with the OUTLINE-PROMPT.md template
+3. Subagent validates its own output via `validate-outline.mjs`
+4. Main session reads the outline only
+5. Topic-map / scope confirm with user (now reading outline, not transcript)
+6. Bulk JSON spec → scaffolder
+7. Finalize per usual
+
+Phone-flow ingests (claude.ai connector) can't spawn subagents, so the
+user pastes the transcript directly into chat and the writing context
+absorbs it — the outline shortcut doesn't apply there.
+
+### 2. Citation shorthand: `<Cite t="..." />`
+
+The scaffolder accepts a top-level `_defaults.source_slug` (or per-spec
+`_source_slug`) and rewrites any `<Cite t="..." />` in article bodies to
+`<Cite s="<source_slug>" t="..." />` on write. The spec stops repeating
+the slug — typically saves ~1k–2k tokens per ingest.
+
+Spec format (top-level):
+
+```json
+{
+  "_defaults": { "source_slug": "2026-05-04-cleared-hot-446-cost-of-truth" },
+  "articles": {
+    "slug-a": { ..., "body": "Text <Cite t=\"1:23\" />..." },
+    "slug-b": { ... }
+  }
+}
+```
+
+### 3. Scaffolder enrich mode
+
+For enriching existing articles (the most common cross-ingest pattern),
+the spec entry sets `_enrich: true` and provides only the patches:
+
+```json
+{
+  "gust-avrakotos": {
+    "_enrich": true,
+    "dyk_append": ["… that …?"],
+    "events_append": [{ "date": "2026-05-04", "description": "…" }],
+    "body_append": "## New section\n\nNew prose…"
+  }
+}
+```
+
+The scaffolder rewrites in place: dyk/events appended to existing arrays,
+body inserted before the `## See also` block. One spec file now handles
+both creates AND enrichments in a single tool call.
+
+### 4. Sponsor stripping
+
+`tools/normalize-vtt.mjs` now detects sponsor/ad reads via known patterns
+(brought to you by, use code, today's sponsor, common brand names) and
+strips them from the main transcript into a sidecar `.sponsors.md` file.
+Preserved for audit, not part of the canon corpus. Saves ~3k–5k tokens
+of transcript-read cost per 3-hour podcast.

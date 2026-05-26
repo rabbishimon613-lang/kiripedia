@@ -103,17 +103,103 @@ function renderSeeAlso(slugs) {
 }
 
 // ---- Body assembly --------------------------------------------------------
-function assembleArticle(spec, slug) {
+// If a top-level `source_slug` is on the spec OR `_source_slug` is on the
+// individual entry, every `<Cite t="..." />` in the body without an s=
+// attribute is rewritten to `<Cite s="<source_slug>" t="..." />`. Saves
+// ~50% on per-citation token cost in the spec.
+function expandCiteShorthand(body, sourceSlug) {
+  if (!sourceSlug) return body;
+  return body.replace(
+    /<Cite\s+t=(["'])([^"']+?)\1\s*\/>/g,
+    `<Cite s="${sourceSlug}" t=$1$2$1 />`
+  );
+}
+
+function assembleArticle(spec, slug, defaults) {
+  const sourceSlug = spec._source_slug || defaults?.source_slug;
   const fm = yamlFrontmatter(spec, slug);
   const imports = [`import Cite from '../../components/Cite.astro';`];
   if (spec.hatnote) imports.push(`import Hatnote from '../../components/Hatnote.astro';`);
 
   const parts = [fm, '', imports.join('\n'), ''];
   if (spec.hatnote) parts.push(`<Hatnote>${spec.hatnote}</Hatnote>`, '');
-  parts.push(spec.body.trim());
+  parts.push(expandCiteShorthand(spec.body.trim(), sourceSlug));
   parts.push(renderSeeAlso(spec.see_also));
 
   return parts.join('\n').replace(/\n{3,}/g, '\n\n').trim() + '\n';
+}
+
+// ---- Enrichment mode ------------------------------------------------------
+// An enrichment spec is `{ _enrich: true, body_append, dyk_append, events_append, frontmatter_patch }`.
+// It modifies an existing article without rewriting it from scratch.
+function enrichArticle(slug, spec, defaults) {
+  const path = `${articlesDir}/${slug}.mdx`;
+  if (!existsSync(path)) { return { err: `enrich target not found: ${slug}` }; }
+  const sourceSlug = spec._source_slug || defaults?.source_slug;
+  const raw = readFileSync(path, 'utf8');
+  const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n/);
+  if (!fmMatch) return { err: `no frontmatter: ${slug}` };
+
+  // Patch frontmatter via line-rewriting (preserves manual formatting).
+  let fmRaw = fmMatch[1];
+  const lines = fmRaw.split('\n');
+
+  // Append to dyk: array if present and dyk_append is set.
+  if (spec.dyk_append?.length) {
+    let dykIdx = lines.findIndex(l => /^dyk:/.test(l));
+    if (dykIdx === -1) {
+      lines.push('dyk:');
+      for (const d of spec.dyk_append) lines.push(`  - ${yqs(d)}`);
+    } else {
+      // Find end of dyk: block (next non-indented line)
+      let i = dykIdx + 1;
+      while (i < lines.length && (lines[i].startsWith('  ') || lines[i] === '')) i++;
+      lines.splice(i, 0, ...spec.dyk_append.map(d => `  - ${yqs(d)}`));
+    }
+  }
+
+  // Append to events: array (must be YYYY-MM-DD per doctrine).
+  if (spec.events_append?.length) {
+    for (const e of spec.events_append) {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(String(e.date))) {
+        return { err: `${slug}: events_append date must be YYYY-MM-DD: ${e.date}` };
+      }
+    }
+    let evIdx = lines.findIndex(l => /^events:/.test(l));
+    if (evIdx === -1) {
+      lines.push('events:');
+      for (const e of spec.events_append) {
+        lines.push(`  - date: ${yqs(e.date)}`);
+        lines.push(`    description: ${yqs(e.description)}`);
+      }
+    } else {
+      let i = evIdx + 1;
+      while (i < lines.length && (lines[i].startsWith('  ') || lines[i] === '')) i++;
+      const block = [];
+      for (const e of spec.events_append) {
+        block.push(`  - date: ${yqs(e.date)}`);
+        block.push(`    description: ${yqs(e.description)}`);
+      }
+      lines.splice(i, 0, ...block);
+    }
+  }
+  fmRaw = lines.join('\n');
+
+  // Body: append the new section before any `## See also` block, otherwise at end.
+  let body = raw.slice(fmMatch[0].length);
+  if (spec.body_append) {
+    const expanded = expandCiteShorthand(spec.body_append.trim(), sourceSlug);
+    const seeAlsoIdx = body.search(/^## See also/m);
+    if (seeAlsoIdx >= 0) {
+      body = body.slice(0, seeAlsoIdx).trimEnd() + '\n\n' + expanded + '\n\n' + body.slice(seeAlsoIdx);
+    } else {
+      body = body.trimEnd() + '\n\n' + expanded + '\n';
+    }
+  }
+
+  const next = `---\n${fmRaw}\n---\n${body}`;
+  writeFileSync(path, next);
+  return { ok: true };
 }
 
 // ---- Validation -----------------------------------------------------------
@@ -143,8 +229,8 @@ function validate(slug, spec) {
       if (linkCount < 1) errs.push(`events[${i}] description has no wikilinks (rule: >=1)`);
     }
   }
-  // Body should have at least one citation.
-  if (!/<Cite\s+s=/.test(spec.body)) errs.push('body has no <Cite /> tags');
+  // Body should have at least one citation. Accept both shorthand and full form.
+  if (!/<Cite\s+(s|t)=/.test(spec.body)) errs.push('body has no <Cite /> tags');
   return errs;
 }
 
@@ -155,13 +241,32 @@ if (!arg) {
   process.exit(2);
 }
 const raw = arg === '-' ? readFileSync(0, 'utf8') : readFileSync(arg, 'utf8');
-const specs = JSON.parse(raw);
+const parsed = JSON.parse(raw);
+// Two spec shapes accepted:
+//   1. flat: { slug: spec, ... }
+//   2. with defaults: { _defaults: { source_slug, ... }, articles: { slug: spec, ... } }
+const defaults = parsed._defaults || {};
+const specs = parsed.articles || (() => {
+  // strip any leading `_` keys to get the bare article map
+  const out = {};
+  for (const [k, v] of Object.entries(parsed)) if (!k.startsWith('_')) out[k] = v;
+  return out;
+})();
 
-let written = 0, skipped = 0, failed = 0;
+let written = 0, enriched = 0, skipped = 0, failed = 0;
 for (const [slug, spec] of Object.entries(specs)) {
+  // Enrichment path
+  if (spec._enrich) {
+    const r = enrichArticle(slug, spec, defaults);
+    if (r.err) { console.error(`✗ ${slug} (enrich): ${r.err}`); failed++; }
+    else { console.log(`~ ${slug} (enriched)`); enriched++; }
+    continue;
+  }
+
+  // Create path
   const path = `${articlesDir}/${slug}.mdx`;
   if (existsSync(path) && spec.skip_if_exists !== false) {
-    console.log(`= ${slug} (exists, skipping; set skip_if_exists:false to overwrite)`);
+    console.log(`= ${slug} (exists, skipping; use _enrich:true to extend, or skip_if_exists:false to overwrite)`);
     skipped++;
     continue;
   }
@@ -172,7 +277,7 @@ for (const [slug, spec] of Object.entries(specs)) {
     continue;
   }
   try {
-    const content = assembleArticle(spec, slug);
+    const content = assembleArticle(spec, slug, defaults);
     writeFileSync(path, content);
     console.log(`+ ${slug}`);
     written++;
@@ -182,5 +287,5 @@ for (const [slug, spec] of Object.entries(specs)) {
   }
 }
 
-console.log(`\nWrote ${written}, skipped ${skipped}, failed ${failed}.`);
+console.log(`\nWrote ${written}, enriched ${enriched}, skipped ${skipped}, failed ${failed}.`);
 if (failed > 0) process.exit(1);

@@ -76,6 +76,52 @@ for (const line of kept) {
 }
 if (cur) paragraphs.push(cur);
 
+// --- Sponsor / ad detection (strips mid-roll reads from main body) -------
+// Sponsors are NEVER canon material; they bloat the transcript without
+// adding signal. We detect a paragraph as a sponsor-start if it matches
+// a known pattern, then continue marking until we see a topic-shift
+// signal (a question, name, or a "back to the show" / "anyway" marker).
+const SPONSOR_START_PATTERNS = [
+  /today'?s (episode|show|segment) (is brought to you by|sponsor)/i,
+  /brought to you by ([A-Z][a-zA-Z]+|black rifle|brunt|quince|helix|manscaped|aura|liquid iv|athletic greens|ag1|hims|hers|betterhelp|magic mind|cash app|stamps\.com|squarespace|shopify|surfshark|nordvpn|expressvpn)/i,
+  /use (code|promo code|the code) [\w'-]+/i,
+  /go to ([\w.-]+\.com|www\.[\w.-]+) (slash|\/) ?[\w-]+/i,
+  /(discount|off your first|free trial|free shipping|sign up at|head to|visit)\s+[\w.-]+/i,
+  /^this episode is sponsored by/i,
+  /^a (huge|big) thank you to (our|today'?s) sponsor/i,
+];
+const SPONSOR_END_PATTERNS = [
+  /back to (the|our) (show|episode|conversation|interview)/i,
+  /\b(anyway|alright|okay)[,.]?\s+(so|let'?s|back to)/i,
+  /^\s*(now|so) back to/i,
+  /\bthat'?s all I got\b/i,
+];
+const sponsorParagraphs = [];
+const mainParagraphs = [];
+let inSponsor = false;
+let sponsorRunLen = 0;
+for (const p of paragraphs) {
+  const text = p.text;
+  if (!inSponsor) {
+    if (SPONSOR_START_PATTERNS.some((rx) => rx.test(text))) {
+      inSponsor = true;
+      sponsorRunLen = 1;
+      sponsorParagraphs.push(p);
+      continue;
+    }
+    mainParagraphs.push(p);
+  } else {
+    sponsorParagraphs.push(p);
+    sponsorRunLen++;
+    // Exit conditions: explicit "back to the show" / "anyway", OR after
+    // ~12 paragraphs (6 minutes max for a single mid-roll).
+    if (SPONSOR_END_PATTERNS.some((rx) => rx.test(text)) || sponsorRunLen >= 12) {
+      inSponsor = false;
+      sponsorRunLen = 0;
+    }
+  }
+}
+
 // --- Light cleanup -------------------------------------------------------
 const clean = (s) => s
   .replace(/\s+/g, ' ')
@@ -95,18 +141,30 @@ const fmLines = ['---'];
 // Always quote values to avoid YAML pitfalls (colons, special chars, dates).
 for (const [k, v] of Object.entries(meta)) fmLines.push(`${k}: ${JSON.stringify(String(v))}`);
 fmLines.push(`captionSource: auto`);
-fmLines.push(`paragraphs: ${paragraphs.length}`);
+fmLines.push(`paragraphs: ${mainParagraphs.length}`);
+fmLines.push(`sponsor_paragraphs_stripped: ${sponsorParagraphs.length}`);
 fmLines.push(`source_file: ${basename(inFile)}`);
 fmLines.push('---', '');
 
-const body = paragraphs.map((p) => `[${mmss(p.start)}] ${clean(p.text)}`).join('\n\n');
+const body = mainParagraphs.map((p) => `[${mmss(p.start)}] ${clean(p.text)}`).join('\n\n');
 
 writeFileSync(outFile, fmLines.join('\n') + body + '\n');
+
+// Also dump stripped sponsor content to a sidecar file for audit.
+if (sponsorParagraphs.length > 0) {
+  const sponsorPath = outFile.replace(/\.md$/, '.sponsors.md');
+  const sponsorBody = '# Stripped sponsor / ad reads\n\n' +
+    'These paragraphs were detected as sponsor reads and excluded from the main transcript.\n' +
+    'Preserved here for audit; not part of the canon corpus.\n\n' +
+    sponsorParagraphs.map((p) => `[${mmss(p.start)}] ${clean(p.text)}`).join('\n\n');
+  writeFileSync(sponsorPath, sponsorBody + '\n');
+}
 
 // --- Report --------------------------------------------------------------
 const rawSize = raw.length;
 const outSize = body.length;
 console.log(`Cues parsed:     ${cues.length}`);
+console.log(`Sponsors stripped: ${sponsorParagraphs.length} paragraph(s)`);
 console.log(`After dedupe:    ${kept.length}`);
 console.log(`Paragraphs:      ${paragraphs.length}`);
 console.log(`Raw VTT:         ${(rawSize / 1024).toFixed(1)} KB`);
