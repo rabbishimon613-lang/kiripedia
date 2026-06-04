@@ -285,6 +285,12 @@ MAPPING=(
   "welch-45=M1911_pistol"
   "walling=Wall"
   "ticking-time-bomb=Ticking_time_bomb_scenario"
+  "church-committee=Church_Committee"
+  "pike-committee=Pike_Committee"
+  "thomas-massie=Thomas_Massie"
+  "gerald-post=Jerrold_M._Post"
+  "francis-gary-powers=Francis_Gary_Powers"
+  "joe-wilson=Joseph_C._Wilson"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.
