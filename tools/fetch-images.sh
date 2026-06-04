@@ -291,6 +291,9 @@ MAPPING=(
   "gerald-post=Jerrold_M._Post"
   "francis-gary-powers=Francis_Gary_Powers"
   "joe-wilson=Joseph_C._Wilson"
+  "brian-ross=Brian_Ross_(journalist)"
+  "mi6=Secret_Intelligence_Service"
+  "extraordinary-rendition=Extraordinary_rendition"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.
