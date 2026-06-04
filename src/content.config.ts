@@ -23,7 +23,7 @@ const articles = defineCollection({
 });
 
 const sources = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/sources' }),
+  loader: glob({ pattern: ['**/*.md', '!**/*.sponsors.md'], base: './src/content/sources' }),
   schema: z.object({
     slug: z.string(),
     title: z.string(),

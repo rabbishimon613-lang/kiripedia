@@ -15,6 +15,13 @@ CREDITS="$DEST/credits.json"
 
 # slug=wikipedia_title (URL-encoded as needed)
 MAPPING=(
+  "sacha-baron-cohen=Sacha_Baron_Cohen"
+  "eli-cohen=Eli_Cohen"
+  "ghislaine-maxwell=Ghislaine_Maxwell"
+  "robert-maxwell=Robert_Maxwell"
+  "doing-time-like-a-spy=John_Kiriakou"
+  "peter-mandelson=Peter_Mandelson"
+  "below-worlds-end=John_Kiriakou"
   "abu-zubaydah=Abu_Zubaydah"
   "asset-acquisition-cycle=Espionage"
   "benazir-bhutto=Benazir_Bhutto"
