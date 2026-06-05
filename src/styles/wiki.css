@@ -592,31 +592,3 @@ body.sidebar-locked {
   .wiki-body table { display: block; overflow-x: auto; max-width: 100%; }
 }
 
-/* ---------- Banner slots ---------- */
-/* Empty slots collapse to nothing; once filled the slot reveals itself. */
-.banner-slot { font-size: 0; line-height: 0; }
-.banner-slot:not(:empty) { font-size: inherit; line-height: inherit; }
-
-/* Header banner slot is no longer used; kept here in case it's reintroduced later */
-.banner-header { display: none !important; }
-
-/* Sidebar banner — bottom of the left navigation, hidden on mobile (sidebar is hidden) */
-.banner-sidebar {
-  margin-top: 24px;
-  padding-top: 16px;
-  border-top: 1px solid var(--color-border-subtle);
-}
-.banner-sidebar:empty { display: none; }
-
-/* Mobile inline banner — sits at the top of the main content area
-   (where the article-tabs row used to live). Hidden on desktop. */
-.banner-mobile { display: none; }
-@media (max-width: 800px) {
-  .banner-header { display: none; }
-  .banner-mobile {
-    display: block;
-    border-bottom: 1px solid var(--color-border-subtle);
-    background: var(--color-bg-sidebar);
-    padding: 8px 12px;
-  }
-}
