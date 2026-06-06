@@ -1,14 +1,17 @@
 name: KiriPedia X auto-poster
 
 # Posts ONE item per run via headless browser (free, cookie auth).
-# 5 slots/day at ~9a, 12p, 3p, 6p, 9p ET (EDT = UTC-4).
+# 8 slots/day, every 3 hours (EDT = UTC-4).
 on:
   schedule:
-    - cron: '0 13 * * *'   # 9:00 ET
-    - cron: '0 16 * * *'   # 12:00 ET
-    - cron: '0 19 * * *'   # 15:00 ET
-    - cron: '0 22 * * *'   # 18:00 ET
-    - cron: '0 1 * * *'    # 21:00 ET (prev day UTC)
+    - cron: '0 0 * * *'    # 8:00 PM ET
+    - cron: '0 3 * * *'    # 11:00 PM ET
+    - cron: '0 6 * * *'    # 2:00 AM ET
+    - cron: '0 9 * * *'    # 5:00 AM ET
+    - cron: '0 12 * * *'   # 8:00 AM ET
+    - cron: '0 15 * * *'   # 11:00 AM ET
+    - cron: '0 18 * * *'   # 2:00 PM ET
+    - cron: '0 21 * * *'   # 5:00 PM ET
   workflow_dispatch:
     inputs:
       dry_run:
