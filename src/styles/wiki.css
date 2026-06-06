@@ -450,6 +450,9 @@ a.new, a.redlink { color: var(--color-link-red); }
   border: 1px solid var(--color-border-subtle);
   padding: 12px;
   background: var(--color-bg);
+  /* Contain the floated featured-article thumbnail so a tall image in a
+     short-text article can't spill out the bottom of the box. */
+  display: flow-root;
 }
 .mainpage-box h2 {
   font-family: var(--font-serif);

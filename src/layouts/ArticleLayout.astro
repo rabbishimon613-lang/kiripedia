@@ -100,6 +100,31 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: breadcrumbItems,
 };
+
+// FAQPage schema. We build one genuine Q&A pair from the article summary —
+// "Who is X?" for people, "What is X?" otherwise — answered by the summary.
+// Conservative on purpose: DYKs are self-contained trivia, not clean
+// question/answer pairs, so we don't force them into FAQ markup.
+function stripMarkdown(s) {
+  if (!s) return '';
+  return String(s)
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // [text](url) -> text
+    .replace(/[*_`]/g, '')                    // emphasis marks
+    .trim();
+}
+const faqAnswer = stripMarkdown(subtitle);
+const faqSchema = faqAnswer ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": `${isPerson ? 'Who is' : 'What is'} ${title}?`,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": `Per John Kiriakou: ${faqAnswer}`,
+    },
+  }],
+} : null;
 ---
 <WikiLayout
   title={title}
@@ -111,6 +136,7 @@ const breadcrumbSchema = {
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     {personSchema && <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />}
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
     {/* Visible breadcrumb nav */}
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="/">Main page</a>
