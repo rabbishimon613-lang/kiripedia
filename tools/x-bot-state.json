@@ -9,7 +9,8 @@
     "dyk:sebastian-gorka:0",
     "quote:sandy-grimes:1",
     "dyk:jeffrey-epstein:2",
-    "quote:asset-acquisition-cycle:12"
+    "quote:asset-acquisition-cycle:12",
+    "dyk:federal-torture-act:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -289,10 +290,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }

@@ -1,19 +1,20 @@
-name: KiriPedia X queue generator
+name: KiriPedia X auto-poster
 
-# Generates a fresh batch of ready-to-paste posts every 2 days into
-# tools/x-queue.md. Buffer free holds ~10 queued/channel; at 5 posts/day
-# that's ~2 days of runway, so we refill every 2 days.
-#
-# When you later fund X pay-per-use, switch to direct posting by running
-# `node tools/x-poster.mjs` (no --batch) on a per-slot schedule instead.
+# Posts ONE item per run via headless browser (free, cookie auth).
+# 5 slots/day at ~9a, 12p, 3p, 6p, 9p ET (EDT = UTC-4).
 on:
   schedule:
-    - cron: '0 13 */2 * *'   # every 2 days, 9:00 ET
+    - cron: '0 13 * * *'   # 9:00 ET
+    - cron: '0 16 * * *'   # 12:00 ET
+    - cron: '0 19 * * *'   # 15:00 ET
+    - cron: '0 22 * * *'   # 18:00 ET
+    - cron: '0 1 * * *'    # 21:00 ET (prev day UTC)
   workflow_dispatch:
     inputs:
-      count:
-        description: 'How many posts to generate'
-        default: '10'
+      dry_run:
+        description: 'Dry run (print only, do not post)'
+        type: boolean
+        default: false
 
 concurrency:
   group: x-poster
@@ -23,20 +24,37 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  post:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with:
-          node-version: 20
+        with: { node-version: 20 }
       - run: npm ci
-      - name: Generate batch
-        run: node tools/x-poster.mjs --batch ${{ inputs.count || '10' }}
-      - name: Commit queue + state
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Post (or dry-run)
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            node tools/x-poster.mjs --dry-run
+          else
+            node tools/x-poster.mjs --browser
+          fi
+      - name: Upload error screenshot (on failure)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: x-browser-error
+          path: tools/x-browser-error.png
+          if-no-files-found: ignore
+      - name: Commit updated state
+        if: ${{ inputs.dry_run != true }}
         run: |
           git config user.name "kiripedia-bot"
           git config user.email "bot@kiripedia.org"
-          git add tools/x-queue.md tools/x-bot-state.json
-          git diff --staged --quiet || git commit -m "x-bot: refresh post queue [skip ci]"
+          git add tools/x-bot-state.json
+          git diff --staged --quiet || git commit -m "x-bot: update post state [skip ci]"
           git push
