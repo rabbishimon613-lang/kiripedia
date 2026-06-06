@@ -209,6 +209,47 @@ async function postTweet(text) {
 }
 const enc = (s) => encodeURIComponent(s).replace(/[!*'()]/g, (c) => '%' + c.charCodeAt(0).toString(16).toUpperCase());
 
+// ---------- X posting via headless browser (free, cookie auth) ----------
+// Uses the account's web-session cookies (auth_token + ct0) — no API, no credits.
+// Set GitHub secrets X_AUTH_TOKEN and X_CT0 (export from a logged-in browser).
+async function postViaBrowser(text) {
+  const authToken = process.env.X_AUTH_TOKEN, ct0 = process.env.X_CT0;
+  if (!authToken || !ct0) throw new Error('Missing X_AUTH_TOKEN / X_CT0 cookies');
+  const { chromium } = await import('playwright');
+  const browser = await chromium.launch();
+  const ctx = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
+    viewport: { width: 1280, height: 900 },
+  });
+  await ctx.addCookies([
+    { name: 'auth_token', value: authToken, domain: '.x.com', path: '/', httpOnly: true, secure: true },
+    { name: 'ct0', value: ct0, domain: '.x.com', path: '/', secure: true },
+  ]);
+  const page = await ctx.newPage();
+  try {
+    await page.goto('https://x.com/home', { waitUntil: 'domcontentloaded', timeout: 45000 });
+    // Confirm we're logged in: the compose box / tweet textarea should be reachable.
+    const composer = page.locator('[data-testid="tweetTextarea_0"]');
+    await composer.waitFor({ state: 'visible', timeout: 20000 }).catch(async () => {
+      // fall back to the dedicated compose route
+      await page.goto('https://x.com/compose/post', { waitUntil: 'domcontentloaded', timeout: 45000 });
+      await composer.waitFor({ state: 'visible', timeout: 20000 });
+    });
+    await composer.click();
+    await composer.fill(text);
+    await page.waitForTimeout(1000);
+    // Post button (works for both inline and modal composer)
+    const btn = page.locator('[data-testid="tweetButtonInline"], [data-testid="tweetButton"]').first();
+    await btn.click({ timeout: 15000 });
+    await page.waitForTimeout(4000);
+    await browser.close();
+  } catch (e) {
+    await page.screenshot({ path: ROOT + 'tools/x-browser-error.png' }).catch(() => {});
+    await browser.close();
+    throw new Error('Browser post failed: ' + e.message);
+  }
+}
+
 // ---------- main ----------
 (async function main() {
   const articles = loadArticles();
@@ -271,10 +312,12 @@ const enc = (s) => encodeURIComponent(s).replace(/[!*'()]/g, (c) => '%' + c.char
     return; // don't mutate state in dry-run
   }
 
-  await postTweet(tweet);
+  const useBrowser = process.argv.includes('--browser');
+  if (useBrowser) await postViaBrowser(tweet);
+  else await postTweet(tweet);
   state.posted.push(item.id);
   if (item.type === 'new') state.queue = state.queue.filter((q) => q.slug !== item.slug);
   state.lastTypes = [...(state.lastTypes || []), item.type].slice(-5);
   saveState(state);
-  console.log(`Posted [${item.type}]: ${tweet}`);
+  console.log(`Posted [${item.type}] via ${useBrowser ? 'browser' : 'api'}: ${tweet}`);
 })().catch((e) => { console.error(e.message); process.exit(1); });
