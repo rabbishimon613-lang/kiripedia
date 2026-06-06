@@ -11,7 +11,8 @@
     "dyk:jeffrey-epstein:2",
     "quote:asset-acquisition-cycle:12",
     "dyk:federal-torture-act:0",
-    "quote:norman-schwarzkopf:4"
+    "quote:norman-schwarzkopf:4",
+    "dyk:richard-helms:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -218,7 +219,6 @@
     "pflp",
     "pick-the-man-principle",
     "pike-committee",
-    "plato-cacheras",
     "plato-cacheris",
     "prince-muhammad-bin-naif",
     "principals-committee-meeting",
@@ -291,10 +291,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
