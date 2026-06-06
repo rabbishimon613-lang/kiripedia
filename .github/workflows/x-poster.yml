@@ -1,0 +1,54 @@
+name: KiriPedia X auto-poster
+
+# Time-driven only: posts run on this schedule, never on push/ingest.
+# 5 slots/day at ~9a, 12p, 3p, 6p, 9p ET (EDT = UTC-4).
+on:
+  schedule:
+    - cron: '0 13 * * *'   # 9:00 ET
+    - cron: '0 16 * * *'   # 12:00 ET
+    - cron: '0 19 * * *'   # 15:00 ET
+    - cron: '0 22 * * *'   # 18:00 ET
+    - cron: '0 1 * * *'    # 21:00 ET (prev day UTC)
+  workflow_dispatch:        # manual trigger for testing
+    inputs:
+      dry_run:
+        description: 'Dry run (print only, do not post)'
+        type: boolean
+        default: false
+
+concurrency:
+  group: x-poster
+  cancel-in-progress: false
+
+permissions:
+  contents: write           # to commit the updated state file
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - name: Post (or dry-run)
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            node tools/x-poster.mjs --dry-run
+          else
+            node tools/x-poster.mjs
+          fi
+      - name: Commit updated state
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "kiripedia-bot"
+          git config user.email "bot@kiripedia.org"
+          git add tools/x-bot-state.json
+          git diff --staged --quiet || git commit -m "x-bot: update post state [skip ci]"
+          git push
