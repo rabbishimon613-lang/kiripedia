@@ -1223,5 +1223,33 @@
     "artist": "US Government",
     "license": "Public domain",
     "via": "Wikimedia Commons"
+  },
+  "iran-contra": {
+    "file": "/images/iran-contra.jpg",
+    "source_article": "Iran–Contra_affair",
+    "artist": "White House Photographic Office",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "tora-bora": {
+    "file": "/images/tora-bora.jpg",
+    "source_article": "Tora_Bora",
+    "artist": "US Air Force",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
+  },
+  "aipac": {
+    "file": "/images/aipac.jpg",
+    "source_article": "American_Israel_Public_Affairs_Committee",
+    "artist": "See Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "via": "Wikimedia Commons"
+  },
+  "fisa": {
+    "file": "/images/fisa.png",
+    "source_article": "Foreign_Intelligence_Surveillance_Act",
+    "artist": "US Government",
+    "license": "Public domain",
+    "via": "Wikimedia Commons"
   }
 }
