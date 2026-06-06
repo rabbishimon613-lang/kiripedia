@@ -82,7 +82,10 @@ for (const a of articles) {
 const pinnedFeatured = [
   { slug: 'hummus', until: '2026-05-27' }, // Hummus pinned through Wed May 27, 2026
 ];
-const rotationPool = articles.map(slugOf).sort();
+// Only articles that actually have an infobox image are eligible to be
+// featured — we never want the logo placeholder in the featured slot.
+const featurable = articles.filter((a) => a.data.infobox?.image);
+const rotationPool = featurable.map(slugOf).sort();
 
 function pickFeatured(today /* "YYYY-MM-DD" */) {
   for (const p of pinnedFeatured) {
@@ -90,18 +93,19 @@ function pickFeatured(today /* "YYYY-MM-DD" */) {
   }
   const [y, m, d] = today.split('-').map(Number);
   const dayNumber = Math.floor(Date.UTC(y, m - 1, d) / 86_400_000);
-  return rotationPool[dayNumber % rotationPool.length] ?? slugOf(articles[0]);
+  return rotationPool[dayNumber % rotationPool.length] ?? slugOf(featurable[0]);
 }
 
 const today = new Date().toISOString().slice(0, 10);
 const todayMD = today.slice(5);
 const initialSlug = pickFeatured(today);
 const initialArticle =
-  articles.find((a) => slugOf(a) === initialSlug) ?? articles[0];
+  articles.find((a) => slugOf(a) === initialSlug) ?? featurable[0];
 const initialImage = initialArticle.data.infobox?.image ?? '/logo.png';
 
 // Lightweight catalog the client script uses to repaint the featured box.
-const articleCatalog = articles.map((a) => ({
+// Restricted to featurable (image-having) articles for the same reason.
+const articleCatalog = featurable.map((a) => ({
   slug: slugOf(a),
   title: a.data.title,
   summary: a.data.summary ?? '',
