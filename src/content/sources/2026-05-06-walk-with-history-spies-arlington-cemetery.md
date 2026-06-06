@@ -1,0 +1,107 @@
+---
+slug: "2026-05-06-walk-with-history-spies-arlington-cemetery"
+title: "Former CIA, John Kiriakou, finds the Spies Buried in Arlington"
+show: "Walk With History"
+date: "2026-05-06"
+url: "https://www.youtube.com/watch?v=ajGvcmcdVJ4"
+videoId: "ajGvcmcdVJ4"
+duration: "23:46"
+captionSource: auto
+paragraphs: 48
+source_file: caps_ajGvcmcdVJ4.en.vtt
+---
+[00:00] So, John, introduce yourself. Let's get some background. &gt;&gt; You bet. I'm John Kiriakou. I'm a former CIA officer. &gt;&gt; [music] &gt;&gt; Join me today on Walk With History as [music] we walk through Arlington National Cemetery with John Kiriakou and
+
+[00:30] honor the spies of the CIA. [music] &gt;&gt; Former Chief of Counterterrorism Operations in Pakistan after 9/11. And then I went on to be the Chief Investigator on the Senate Foreign Relations Committee. I'm also the author of a series of books on cemeteries beginning with Remains of
+
+[01:00] the Day, A Definitive Guide to Washington D.C.'s Historic Cemeteries. Cemeteries give me a real sense of inner peace as well as a constant and ongoing history lesson. Everybody has a story. Everybody. And it's up to the rest of us to remember those stories and to teach others about them.
+
+[01:30] [music] &gt;&gt; We're at the grave of Major General William J. Donovan, U.S. Army World War I Medal of Honor. He is one of the Medal of Honor recipients who got the gold leaf [music] embossed of his grave. As we know, Audie Murphy didn't do that. But Why is this one important to you?
+
+[02:00] Why is he important to you? &gt;&gt; General Bill Donovan, also known as Wild Bill Donovan, &gt;&gt; Yes. &gt;&gt; was the very first director of the Central Intelligence Agency. General Donovan is a legendary figure at the CIA, not just because he was the first director, but because of the way he took on the Washington powers that be to make the CIA what it eventually became. General Donovan was a bitter rival of
+
+[02:30] FBI Director J. Edgar Hoover. &gt;&gt; Mhm. &gt;&gt; And when President Truman endorsed the National Security Act of 1947, which created both the CIA and the National Security Council, Hoover let it be known all across Capitol Hill that he was opposed to the passage of the act. He said that there was no reason to have a CIA, that if there was a reason to
+
+[03:00] have a CIA, he would head both the CIA and the FBI. So, what President Truman did was he called Hoover into the Oval [music] Office and told him, "You're misreading this bill. The bill would create the CIA, but as as a division of the FBI. That was a lie. And of course, Truman knew it was a lie, but Hoover believed him. And so, Hoover
+
+[03:30] withdrew his objections. The CIA was created, and Donovan, who had been not just a major general, not just a war hero from the First World War, but very, very well connected [music] on Wall Street, and had been a former OSS officer during the Second World War, he was the natural [music] person to take over leadership. &gt;&gt; He is considered the father of American [music] intelligence. &gt;&gt; Sure is. &gt;&gt; Because I'm here with a former spy.
+
+[04:00] I would like [music] to do the honors, sir. &gt;&gt; That is wonderful. Thank you. &gt;&gt; What an honor it is to be here to honor a great American like Bill Donovan. [music] &gt;&gt; Yes, it is.
+
+[04:30] &gt;&gt; So, when I was a brand new analyst at the CIA, I had only been on the job about 2 months. And I was right [music] invited to go to an offsite weekend away with a group of six or seven other analysts. And it was at a hotel in Annapolis, Maryland. The night of our big dinner, General Vernon Walters was the the guest of honor and the speaker. So, we all knew, of course, who General Walters was. He was the Deputy Director of the CIA. He was Ambassador to Germany. He was Ambassador to the United
+
+[05:00] Nations. He was a bonafide war hero. But, most importantly of all, he was occasionally the secret envoy from President Johnson or later President Nixon to dictators around the world. Well, everybody was intimidated just to be in his honor. And so, there were no questions. So, I raised my hand. I said, "General Walters, in all the missions that you carried
+
+[05:30] out, were you ever afraid for your safety?" And he said, "No. No. Well, once." &gt;&gt; [laughter] &gt;&gt; And I said, "Really? What were the circumstances?" And he said, "Nixon called him into the Oval Office and told him, 'I want you to go to Cuba and meet with Fidel because Nixon wanted to make peace with Cuba." And he said, "Don't tell Kissinger." So, he got on a plane, &gt;&gt; Uh-huh. &gt;&gt; flew to Cuba,
+
+[06:00] and he's sitting there at Fidel's house having lunch and he thought to himself, "Fidel could poison me and literally nobody in the world knows that I'm here except Nixon." And he said, "I wouldn't trust Nixon to call my wife and say, 'Hey, I sent him to to Cuba.'" And he said, "But I looked at Fidel and I thought, 'I can take this scrawny son of a bitch.'" &gt;&gt; [laughter] &gt;&gt; You probably could take him, but then
+
+[06:30] you got to get out of the country. &gt;&gt; Yeah. He was very [laughter] big, very muscular, very tough man. &gt;&gt; Well, awesome. Would you like to leave a flag here for him? &gt;&gt; Oh, you have more flags? &gt;&gt; Of course I do. &gt;&gt; What a wonderful thing. &gt;&gt; This is my &gt;&gt; I'd really like to leave one for Dick Welch. &gt;&gt; Yep. &gt;&gt; Dick Welch, what a story. &gt;&gt; I'll save one for him. &gt;&gt; Thank [clears throat] you.
+
+[07:00] Richard Welch was the CIA station chief in Athens, [music] Greece. He had only arrived in Athens 6 weeks before his death. On the evening of December 23rd, 1975, he attended the ambassador's Christmas party. He and his wife then got back in the car and their driver took them back to their
+
+[07:30] house in the close-in suburb of Psychico, kind of the Beverly Hills of Athens. But his name had been outed &gt;&gt; Mhm. &gt;&gt; in the Greek press even before he had arrived in Greece. Well, the mid-1970s were the days before electronic gates, and so the driver pulled up to the to the gate that closed off the driveway [music] so that he could open the gate. When he did that, two men got out of a car across the street, leaving another man and woman in
+
+[08:00] the car. One of them shouted, "Richard Welch, [music] get out of the car." in Greek. Both Dick and Mrs. Welch got out of the car. The driver ran for his life. And one of the men said, "Richard Welch, you have been found guilty of crimes against the Greek people, and you have been sentenced to death." and shot him three times in the chest with a .45 caliber caliber semi-automatic handgun that became known as the Welch .45 because it was used in 18 more assassinations.
+
+[08:30] &gt;&gt; Wow. &gt;&gt; It turned out that Welch was killed by a new terrorist group. He was their first victim. It was called Revolutionary Organization 17 [music] November. It was a an ardent communist group, Stalinist group, and it was very, [music] very violent in its orientation. They ended up murdering 28 people, Greeks, Turks, four Americans, including two US defense attachés, um Bill Nordeen and George Tsantes,
+
+[09:00] uh and a technical an Air Force technical sergeant, Ron Stewart. They killed the Minister of of finance, they killed the Minister of Communications, they killed the Governor of the Central Bank, the Turkish Ambassador, the Turkish Deputy Ambassador, all for communism. &gt;&gt; What happened? &gt;&gt; promised Mrs. Welch that we would not stop looking for her husband's killers. And we finally caught them in 2002. &gt;&gt; Wow.
+
+[09:30] &gt;&gt; All of them. And the two shooters were sentenced to 1,765 years in prison, where they remain in Athens. &gt;&gt; That's awesome. I said, does he have a star on the wall? &gt;&gt; Yeah, he does. He have it He has a star on the CIA's Wall of Honor in the lobby of the old headquarters building. &gt;&gt; Did you want a plaque for him? &gt;&gt; I'd love it. Thank you. Well, Dick and Dick loved Greece. &gt;&gt; He died for his country. &gt;&gt; Greece and he spoke Greek and he had a
+
+[10:00] degree in in classics. He spoke ancient Greek. And they killed him just after he arrived. &gt;&gt; He's died for his country. &gt;&gt; Yes, he did.
+
+[10:30] Francis Gary Powers recipient of the Silver Star, but that's not what he's famous for. He's famous for flying a U-2 spy plane over the Soviet Union and and being the only U-2 pilot to be shot down. The conventional wisdom was when a U-2 pilot would be shot down, it hadn't happened at that point, you were kind of expected to go down with the plane. And frankly,
+
+[11:00] those things flew so high, we weren't sure somebody could survive a parachute ejection from that from that height. Um but he was shot down over the Soviet Union and and survived and was taken prisoner. It says right here on the stone, prisoner of war, Cold War CIA. Uh he was working for the CIA, of course. [music] At first, when he went down,
+
+[11:30] President Eisenhower denied that the US even had a spy plane like the U-2. And then when Powers was paraded before the Soviet media, the president was forced to say, "Okay, yes, we're spying on the Soviet Union. Yes, we have a U-2, and yes, he's our pilot. We would like him back, please." Um it was very contentious, as you might imagine. And finally, he was returned to the United States, but not to a hero's welcome. There were a lot of people
+
+[12:00] in the uh in the country at the time who believed that he should have gone down with the plane, and that he had embarrassed the United States [music] by being taken alive. I always believed that was grotesquely unfair. But when he returned to the United States, he had great difficulty finding a job. Nobody wanted to hire him. He had become [music] infamous for being shot down. He was finally hired by a television station in uh Southern
+
+[12:30] California as the &gt;&gt; [music] &gt;&gt; traffic helicopter pilot. And even more unfortunately, he was killed in a helicopter crash while reporting on the traffic. &gt;&gt; Yes. August 1st, [music] 1977. Uh about 15 days before Elvis. &gt;&gt; Right. 15 days before Elvis. That's true. &gt;&gt; Would you like to leave a flag here for him? &gt;&gt; I would love to. I think he deserved it.
+
+[13:00] &gt;&gt; Well, he's amongst heroes like he should be. &gt;&gt; That's right. He is exactly where he belongs. &gt;&gt; Yep. &gt;&gt; [music] &gt;&gt; Pierce Brothers Mortuary. And uh you know on September 11th
+
+[13:30] 2001, we were all there at headquarters. He was standing 10 ft away from me and the director of CTC, the Counterterrorism Center, stood up on a desk and said, "Today we are at war. We're all going to have to play our part and not all of us are going to make it home." He said, "If you don't want to fight that fight, leave now and no one will think less of you." Nobody budged. Mike was one of the first ones to go to Afghanistan
+
+[14:00] &gt;&gt; [music] &gt;&gt; and he was the very first CIA officer to be killed in action after the 9/11 attacks. He was killed in northern Afghanistan. He was He was doing security at a makeshift prison in an abandoned fort where we had captured hundreds of of al-Qaeda and Taliban prisoners and there was an uprising. And and the prisoners broke out of their holding area and started running toward him.
+
+[14:30] He unloaded his gun, killed as many people as he could, and they finally got to him and they beat him to death. &gt;&gt; What a hero. &gt;&gt; A great hero. His kids were little at the time. Yep. So he also [music] has a star on the CIA's Wall of Honor. &gt;&gt; That's amazing. Well, last flag.
+
+[15:00] &gt;&gt; Yeah, let's do that. &gt;&gt; Oh, wait. I &gt;&gt; Marine Corps. &gt;&gt; Mike volunteered over and over and over again and they just wouldn't take me. And finally I ran into a a mutual friend of of ours, Mike's and mine.
+
+[15:30] And I said, "Billy, where you been?" And he said, [music] "Afghanistan." I said, "What are you doing in Afghanistan?" And he says, "I've been killing people. What do you think I've been doing?" And I was like, "Oh my god, that's [music] why they haven't sent me." Because I was volunteering as an interpreter cuz I spoke Arabic. And they weren't They weren't interrogating anybody. They were just killing them.
+
+[16:00] &gt;&gt; Lieutenant Colonel William Friedman and his wife Elizabeth Friedman did not work for the CIA. Because they were doing their cool things before the CIA was created. During the Second World War they were almost single-handedly responsible for breaking
+
+[16:30] the Nazi encryption code. &gt;&gt; Yeah. &gt;&gt; And &gt;&gt; The Enigma. &gt;&gt; was so successful that it led to the founding of NSA. The National Security Agency. &gt;&gt; Yeah, they were big into cryptology and writing books about it and ciphers. &gt;&gt; Puzzles, [music] ciphers, ciphers. &gt;&gt; Yeah. And yeah, they helped break Enigma. &gt;&gt; You know how they started it? &gt;&gt; How? &gt;&gt; They started it
+
+[17:00] They got a sheet with the encryption. It was just numbers. &gt;&gt; Mhm. &gt;&gt; But they knew that the Germans ended every communication with Heil Hitler. &gt;&gt; Yes. &gt;&gt; Sometimes it was shortened just to HH. So every cable would end HH. Some would spell it out Heil Hitler. So, they already had the H, the E, the I, the L, the T, the R. And then, if [music] you have the T and the E, you can get the H, if you didn't already have the H. And and they just
+
+[17:30] did it one letter at a time from there until they broke the code. &gt;&gt; It's like putting a puzzle together. &gt;&gt; Yep. &gt;&gt; Awesome. &gt;&gt; Bill Buckley was the CIA station chief in Beirut, Lebanon during the most
+
+[18:00] dangerous period in Lebanese history, 1985. He um was in the army, fought in Korea, left the army, joined the CIA, quit the CIA, went back to the military, fought in Vietnam, and then rejoined the CIA again. He had never married. He had no children. And because he had no dependents, he was deemed to be the perfect person to go to the most dangerous place in the world at
+
+[18:30] the time, Beirut. So, in the spring of 1985, he woke up to go to work one morning, and he made several terrible mistakes. Things that he was trained to never do. He gave his driver the day off. He had set a pattern in his movements where he left the apartment every day at the same time. So, what we were able to reconstruct from that from that day was he was a
+
+[19:00] great lover of jazz. And he dragged one of the speakers from his stereo system to the to the bathroom door so he could listen to jazz while he was taking a shower. He got dressed. The belt that he put on had a beacon in it. Just in case he was to be kidnapped, the beacon would begin pinging. He got dressed, made a cup of coffee, and then got in the elevator to go to the parking garage under the the
+
+[19:30] building. A woman got in from one of the lower floors and she said, "Good morning, Dan." And he said good morning to her and they chatted about their day. They were well-known to each other. But then another floor down, a young Lebanese man got in. And [music] neither one of them recognized him. He was carrying a satchel and it looked like it had something heavy in it, the woman said. She got out on the first floor.
+
+[20:00] He went down along with the young [music] man into the parking garage. As soon as he stepped off the elevator, the man took something out of the bag. It was probably a rock and hit him in the back of the head and knocked him out. The first thing he did was he took Bill Buckley's belt off and left it there in the garage. We always thought they had inside help at the at the embassy. They kidnapped him and they immediately began torturing him.
+
+[20:30] After a couple of months, they sent us a they sent a VHS tape [music] to the American Embassy in Athens and it was of a torture session. And he was crying, sobbing, begging them to stop. He would read these statements condemning the US government, condemning the CIA, um saying that the CIA was working for Israel, that kind of thing. And then the tape cut off. A couple months pass
+
+[21:00] and they send a second tape to the US Embassy in Rome. In that, he's just babbling incoherently. He's been severely beaten. He's clearly afraid. He's drooling from his mouth. And then, a little longer later, they sent another third tape to the American Embassy in Athens where they're executing him. We found his body on the side of the road in
+
+[21:30] in Beirut. And we were able to we were able to figure out that he had been kidnapped, tortured, and murdered by a group called Islamic Jihad. Islamic Jihad was a radical unauthorized offshoot of the Palestine Liberation Organization. So, we went to the PLO and we said, "We want these guys, and we want them now." The PLO snatched them, would not turn them over, but shot them both in the head.
+
+[22:00] And that's how we left. So, now, Bill Buckley is here alone, but resting among heroes. [music] That's exactly where he belongs. &gt;&gt; And he has a star on the wall? &gt;&gt; And he has a star on the wall. Many books have been written about Bill Buckley and that terrible terrible case. When I first was going through the interview process at the CIA, I went to the office of
+
+[22:30] uh OIA, the office of imagery analysis. That's what it was called back then. And there were these big maps of the world, and it they had little circles where the uh where the satellites were taking photos. Well, you couldn't even see Lebanon because it was just covered in circles. You couldn't even see where it was. And I said, I said, "Wow, what's up with Lebanon?" And they said, "Bill Buckley." And I said, "Oh, of course." Of course it is.
+
+[23:00] &gt;&gt; That's an honor, John. &gt;&gt; [music] &gt;&gt; But for us, this was so important of honoring others. &gt;&gt; It mostly was. &gt;&gt; People who gave all, and we remember them, and we tell their story. This place [music] is for you.
+
+[23:30] Arlington is for you. So thank you, John, for spending the day with me. &gt;&gt; Until my next walk with history.
