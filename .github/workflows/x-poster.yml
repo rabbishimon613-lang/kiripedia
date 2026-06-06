@@ -1,30 +1,29 @@
-name: KiriPedia X auto-poster
+name: KiriPedia X queue generator
 
-# Time-driven only: posts run on this schedule, never on push/ingest.
-# 5 slots/day at ~9a, 12p, 3p, 6p, 9p ET (EDT = UTC-4).
+# Generates a fresh batch of ready-to-paste posts every 2 days into
+# tools/x-queue.md. Buffer free holds ~10 queued/channel; at 5 posts/day
+# that's ~2 days of runway, so we refill every 2 days.
+#
+# When you later fund X pay-per-use, switch to direct posting by running
+# `node tools/x-poster.mjs` (no --batch) on a per-slot schedule instead.
 on:
   schedule:
-    - cron: '0 13 * * *'   # 9:00 ET
-    - cron: '0 16 * * *'   # 12:00 ET
-    - cron: '0 19 * * *'   # 15:00 ET
-    - cron: '0 22 * * *'   # 18:00 ET
-    - cron: '0 1 * * *'    # 21:00 ET (prev day UTC)
-  workflow_dispatch:        # manual trigger for testing
+    - cron: '0 13 */2 * *'   # every 2 days, 9:00 ET
+  workflow_dispatch:
     inputs:
-      dry_run:
-        description: 'Dry run (print only, do not post)'
-        type: boolean
-        default: false
+      count:
+        description: 'How many posts to generate'
+        default: '10'
 
 concurrency:
   group: x-poster
   cancel-in-progress: false
 
 permissions:
-  contents: write           # to commit the updated state file
+  contents: write
 
 jobs:
-  post:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -32,23 +31,12 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-      - name: Post (or dry-run)
-        env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-        run: |
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
-            node tools/x-poster.mjs --dry-run
-          else
-            node tools/x-poster.mjs
-          fi
-      - name: Commit updated state
-        if: ${{ inputs.dry_run != true }}
+      - name: Generate batch
+        run: node tools/x-poster.mjs --batch ${{ inputs.count || '10' }}
+      - name: Commit queue + state
         run: |
           git config user.name "kiripedia-bot"
           git config user.email "bot@kiripedia.org"
-          git add tools/x-bot-state.json
-          git diff --staged --quiet || git commit -m "x-bot: update post state [skip ci]"
+          git add tools/x-queue.md tools/x-bot-state.json
+          git diff --staged --quiet || git commit -m "x-bot: refresh post queue [skip ci]"
           git push

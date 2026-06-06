@@ -25,8 +25,12 @@ import yaml from 'js-yaml';
 const ROOT = new URL('..', import.meta.url).pathname;
 const ARTICLES = ROOT + 'src/content/articles';
 const STATE_PATH = ROOT + 'tools/x-bot-state.json';
+const QUEUE_PATH = ROOT + 'tools/x-queue.md';
 const SITE = 'https://www.kiripedia.org';
 const DRY = process.argv.includes('--dry-run');
+const BATCH_ARG = process.argv.find((a) => a.startsWith('--batch'));
+const BATCH_N = BATCH_ARG ? (parseInt(process.argv[process.argv.indexOf(BATCH_ARG) + 1]) || 10) : 0;
+const MAX_NEW_PER_BATCH = 2; // don't let a big ingest dominate a batch
 
 const FRESHNESS_DAYS = 14;        // new-article queue entries older than this expire
 const MAX_TWEET = 280;
@@ -88,11 +92,12 @@ function quotePool(articles) {
     const seen = new Set();
     matches.forEach((q, i) => {
       const inner = q.slice(1, -1).trim();
-      // Reject slug-like junk: must read like a sentence (>=5 words, has spaces,
-      // not a bare token of word-chars/hyphens/digits).
+      // Quality gates so we only surface clean, standalone quotes:
       const words = inner.split(/\s+/);
-      if (words.length < 5) return;
-      if (/^[\w/.-]+$/.test(inner)) return;
+      if (words.length < 5) return;                 // long enough to stand alone
+      if (/^[\w/.-]+$/.test(inner)) return;          // not a bare slug-like token
+      if (!/^[A-Z"']/.test(inner)) return;           // starts a sentence (caps)
+      if (!/[.!?]$/.test(inner)) return;             // ends a sentence (no lead-ins/colons)
       if (seen.has(inner)) return;
       seen.add(inner);
       const attrib = a.title === 'John Kiriakou'
@@ -222,6 +227,37 @@ const enc = (s) => encodeURIComponent(s).replace(/[!*'()]/g, (c) => '%' + c.char
   // expire stale queue entries
   state.queue = (state.queue || []).filter((q) => daysSince(q.added) <= FRESHNESS_DAYS);
 
+  // ----- BATCH MODE: generate N ready-to-paste posts into tools/x-queue.md -----
+  if (BATCH_N > 0) {
+    const picks = [];
+    let newCount = 0;
+    for (let i = 0; i < BATCH_N; i++) {
+      const it = pickItem(state, articles);
+      if (!it) break;
+      if (it.type === 'new' && newCount >= MAX_NEW_PER_BATCH) {
+        // mark posted so we don't keep re-picking it this batch, but skip it
+        state.posted.push(it.id);
+        i--; continue;
+      }
+      if (it.type === 'new') { newCount++; state.queue = state.queue.filter((q) => q.slug !== it.slug); }
+      picks.push(it);
+      state.posted.push(it.id);
+      state.lastTypes = [...(state.lastTypes || []), it.type].slice(-5);
+    }
+    const stamp = new Date().toISOString().slice(0, 10);
+    let md = `# KiriPedia X queue — generated ${stamp}\n\n`;
+    md += `Paste these into Buffer (5/day). Each block is one post.\n\n`;
+    picks.forEach((it, n) => {
+      md += `## ${n + 1}. [${it.type}]\n\n${it.text}\n${url(it.slug)}\n\n`;
+    });
+    if (DRY) { console.log(md); return; }
+    writeFileSync(QUEUE_PATH, md);
+    saveState(state);
+    console.log(`Wrote ${picks.length} posts to tools/x-queue.md`);
+    return;
+  }
+
+  // ----- SINGLE LIVE POST (used when posting via the X API directly) -----
   const item = pickItem(state, articles);
   if (!item) { console.log('Nothing to post.'); saveState(state); return; }
 
