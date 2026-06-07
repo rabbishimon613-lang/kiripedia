@@ -13,7 +13,8 @@
     "dyk:federal-torture-act:0",
     "quote:norman-schwarzkopf:4",
     "dyk:richard-helms:1",
-    "new:abu-nidal-disruption"
+    "new:abu-nidal-disruption",
+    "dyk:cia:5"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -319,10 +320,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
