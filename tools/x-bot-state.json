@@ -19,7 +19,8 @@
     "new:double-agent-marriott-trap",
     "dyk:robert-hanssen:2",
     "quote:john-kerry:1",
-    "dyk:john-kiriakou:58"
+    "dyk:john-kiriakou:58",
+    "new:hypnosis-operation-walk-in"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -304,10 +305,6 @@
   ],
   "queue": [
     {
-      "slug": "hypnosis-operation-walk-in",
-      "added": "2026-06-07T08:39:15.797Z"
-    },
-    {
       "slug": "kuwait-invasion-intelligence",
       "added": "2026-06-07T08:39:15.797Z"
     },
@@ -321,10 +318,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
