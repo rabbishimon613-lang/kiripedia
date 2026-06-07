@@ -17,7 +17,8 @@
     "dyk:cia:5",
     "quote:abu-zubaydah:24",
     "new:double-agent-marriott-trap",
-    "dyk:robert-hanssen:2"
+    "dyk:robert-hanssen:2",
+    "quote:john-kerry:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -319,10 +320,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
