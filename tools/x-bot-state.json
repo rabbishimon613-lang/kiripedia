@@ -14,7 +14,8 @@
     "quote:norman-schwarzkopf:4",
     "dyk:richard-helms:1",
     "new:abu-nidal-disruption",
-    "dyk:cia:5"
+    "dyk:cia:5",
+    "quote:abu-zubaydah:24"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -320,10 +321,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
