@@ -15,7 +15,8 @@
     "dyk:richard-helms:1",
     "new:abu-nidal-disruption",
     "dyk:cia:5",
-    "quote:abu-zubaydah:24"
+    "quote:abu-zubaydah:24",
+    "new:double-agent-marriott-trap"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -300,10 +301,6 @@
   ],
   "queue": [
     {
-      "slug": "double-agent-marriott-trap",
-      "added": "2026-06-07T08:39:15.797Z"
-    },
-    {
       "slug": "hypnosis-operation-walk-in",
       "added": "2026-06-07T08:39:15.797Z"
     },
@@ -321,10 +318,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
