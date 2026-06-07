@@ -16,7 +16,8 @@
     "new:abu-nidal-disruption",
     "dyk:cia:5",
     "quote:abu-zubaydah:24",
-    "new:double-agent-marriott-trap"
+    "new:double-agent-marriott-trap",
+    "dyk:robert-hanssen:2"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -318,10 +319,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
