@@ -22,7 +22,8 @@
     "dyk:john-kiriakou:58",
     "new:hypnosis-operation-walk-in",
     "dyk:edward-snowden:1",
-    "new:kuwait-invasion-intelligence"
+    "new:kuwait-invasion-intelligence",
+    "quote:john-kiriakou:22"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -316,10 +317,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "new",
     "dyk",
-    "new"
+    "new",
+    "quote"
   ]
 }
