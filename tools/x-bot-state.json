@@ -24,7 +24,8 @@
     "dyk:edward-snowden:1",
     "new:kuwait-invasion-intelligence",
     "quote:john-kiriakou:22",
-    "dyk:rudy-giuliani:1"
+    "dyk:rudy-giuliani:1",
+    "quote:iran-12-day-war:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -318,10 +319,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
