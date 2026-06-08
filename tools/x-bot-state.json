@@ -26,7 +26,8 @@
     "quote:john-kiriakou:22",
     "dyk:rudy-giuliani:1",
     "quote:iran-12-day-war:0",
-    "new:private-intelligence"
+    "new:private-intelligence",
+    "otd:stephen-saunders:2000-06-08"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -316,10 +317,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "otd"
   ]
 }
