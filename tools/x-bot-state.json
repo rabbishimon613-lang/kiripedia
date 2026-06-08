@@ -25,7 +25,8 @@
     "new:kuwait-invasion-intelligence",
     "quote:john-kiriakou:22",
     "dyk:rudy-giuliani:1",
-    "quote:iran-12-day-war:0"
+    "quote:iran-12-day-war:0",
+    "new:private-intelligence"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -310,19 +311,15 @@
   ],
   "queue": [
     {
-      "slug": "private-intelligence",
-      "added": "2026-06-07T08:39:15.797Z"
-    },
-    {
       "slug": "taliban-origin-benazir",
       "added": "2026-06-07T08:39:15.797Z"
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
