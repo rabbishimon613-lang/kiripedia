@@ -32,7 +32,8 @@
     "new:taliban-origin-benazir",
     "quote:jeff-fahey:1",
     "dyk:lincolns-last-turd:0",
-    "quote:robert-maxwell:0"
+    "quote:robert-maxwell:0",
+    "dyk:tom-drake:3"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -317,10 +318,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "new",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
