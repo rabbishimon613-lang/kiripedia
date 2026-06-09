@@ -31,7 +31,8 @@
     "dyk:cia-drug-facilitation:1",
     "new:taliban-origin-benazir",
     "quote:jeff-fahey:1",
-    "dyk:lincolns-last-turd:0"
+    "dyk:lincolns-last-turd:0",
+    "quote:robert-maxwell:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -316,10 +317,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "otd",
     "dyk",
     "new",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
