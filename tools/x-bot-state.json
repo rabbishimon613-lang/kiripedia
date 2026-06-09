@@ -29,7 +29,8 @@
     "new:private-intelligence",
     "otd:stephen-saunders:2000-06-08",
     "dyk:cia-drug-facilitation:1",
-    "new:taliban-origin-benazir"
+    "new:taliban-origin-benazir",
+    "quote:jeff-fahey:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -314,10 +315,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "new",
     "otd",
     "dyk",
-    "new"
+    "new",
+    "quote"
   ]
 }
