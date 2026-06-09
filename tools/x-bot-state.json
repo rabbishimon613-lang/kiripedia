@@ -28,7 +28,8 @@
     "quote:iran-12-day-war:0",
     "new:private-intelligence",
     "otd:stephen-saunders:2000-06-08",
-    "dyk:cia-drug-facilitation:1"
+    "dyk:cia-drug-facilitation:1",
+    "new:taliban-origin-benazir"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -311,17 +312,12 @@
     "yemen-arrest",
     "yemen"
   ],
-  "queue": [
-    {
-      "slug": "taliban-origin-benazir",
-      "added": "2026-06-07T08:39:15.797Z"
-    }
-  ],
+  "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "otd",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
