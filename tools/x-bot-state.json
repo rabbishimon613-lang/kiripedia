@@ -42,7 +42,8 @@
     "dyk:cia:1",
     "quote:jeffrey-epstein:16",
     "dyk:andres-serrano:0",
-    "quote:robert-hanssen:0"
+    "quote:robert-hanssen:0",
+    "dyk:jose-rodriguez:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -327,10 +328,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
