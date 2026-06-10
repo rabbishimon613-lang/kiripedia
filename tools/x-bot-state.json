@@ -36,7 +36,8 @@
     "dyk:tom-drake:3",
     "quote:revolutionary-organization-17-november:1",
     "dyk:john-brennan:0",
-    "quote:abu-zubaydah:27"
+    "quote:abu-zubaydah:27",
+    "dyk:peter-strzok:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -321,10 +322,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
