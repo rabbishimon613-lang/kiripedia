@@ -38,7 +38,8 @@
     "dyk:john-brennan:0",
     "quote:abu-zubaydah:27",
     "dyk:peter-strzok:1",
-    "quote:havana-syndrome:0"
+    "quote:havana-syndrome:0",
+    "dyk:cia:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -323,10 +324,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
