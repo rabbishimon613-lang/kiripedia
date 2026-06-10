@@ -40,7 +40,8 @@
     "dyk:peter-strzok:1",
     "quote:havana-syndrome:0",
     "dyk:cia:1",
-    "quote:jeffrey-epstein:16"
+    "quote:jeffrey-epstein:16",
+    "dyk:andres-serrano:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -325,10 +326,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
