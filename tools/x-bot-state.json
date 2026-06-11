@@ -45,7 +45,8 @@
     "quote:robert-hanssen:0",
     "dyk:jose-rodriguez:0",
     "quote:benazir-bhutto:0",
-    "dyk:enhanced-interrogation:1"
+    "dyk:enhanced-interrogation:1",
+    "quote:john-kiriakou:125"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -330,10 +331,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
