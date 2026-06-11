@@ -47,7 +47,8 @@
     "quote:benazir-bhutto:0",
     "dyk:enhanced-interrogation:1",
     "quote:john-kiriakou:125",
-    "dyk:john-kiriakou:64"
+    "dyk:john-kiriakou:64",
+    "quote:ticking-time-bomb:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -332,10 +333,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
