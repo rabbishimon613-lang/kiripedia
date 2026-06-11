@@ -48,7 +48,8 @@
     "dyk:enhanced-interrogation:1",
     "quote:john-kiriakou:125",
     "dyk:john-kiriakou:64",
-    "quote:ticking-time-bomb:1"
+    "quote:ticking-time-bomb:1",
+    "dyk:camp-david-final-talks:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -333,10 +334,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
