@@ -49,7 +49,8 @@
     "quote:john-kiriakou:125",
     "dyk:john-kiriakou:64",
     "quote:ticking-time-bomb:1",
-    "dyk:camp-david-final-talks:1"
+    "dyk:camp-david-final-talks:1",
+    "quote:jeffrey-epstein:7"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -334,10 +335,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
