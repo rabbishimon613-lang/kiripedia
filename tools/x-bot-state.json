@@ -54,7 +54,8 @@
     "dyk:sandy-grimes:1",
     "quote:enhanced-interrogation:23",
     "dyk:doing-time-like-a-spy:2",
-    "quote:kuwait-invasion-intelligence:6"
+    "quote:kuwait-invasion-intelligence:6",
+    "dyk:kompromat:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -339,10 +340,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
