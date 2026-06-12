@@ -52,7 +52,8 @@
     "dyk:camp-david-final-talks:1",
     "quote:jeffrey-epstein:7",
     "dyk:sandy-grimes:1",
-    "quote:enhanced-interrogation:23"
+    "quote:enhanced-interrogation:23",
+    "dyk:doing-time-like-a-spy:2"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -337,10 +338,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
