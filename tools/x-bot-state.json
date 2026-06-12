@@ -53,7 +53,8 @@
     "quote:jeffrey-epstein:7",
     "dyk:sandy-grimes:1",
     "quote:enhanced-interrogation:23",
-    "dyk:doing-time-like-a-spy:2"
+    "dyk:doing-time-like-a-spy:2",
+    "quote:kuwait-invasion-intelligence:6"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -338,10 +339,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
