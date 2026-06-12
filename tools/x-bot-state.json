@@ -56,7 +56,8 @@
     "dyk:doing-time-like-a-spy:2",
     "quote:kuwait-invasion-intelligence:6",
     "dyk:kompromat:1",
-    "quote:anwar-al-awlaki:2"
+    "quote:anwar-al-awlaki:2",
+    "dyk:enhanced-interrogation:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -341,10 +342,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
