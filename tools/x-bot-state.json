@@ -57,7 +57,8 @@
     "quote:kuwait-invasion-intelligence:6",
     "dyk:kompromat:1",
     "quote:anwar-al-awlaki:2",
-    "dyk:enhanced-interrogation:0"
+    "dyk:enhanced-interrogation:0",
+    "quote:admiral-crowe:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -342,10 +343,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
