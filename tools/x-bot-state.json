@@ -60,7 +60,8 @@
     "dyk:enhanced-interrogation:0",
     "quote:admiral-crowe:0",
     "dyk:federal-whistleblower-protection-act:0",
-    "quote:william-webster:1"
+    "quote:william-webster:1",
+    "dyk:espionage-act:2"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -345,10 +346,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
