@@ -67,7 +67,8 @@
     "quote:mk-ultra:5",
     "dyk:john-kiriakou:6",
     "quote:surveillance-detection-route:0",
-    "dyk:thomas-massie:1"
+    "dyk:thomas-massie:1",
+    "quote:afghan-heroin-policy:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -352,10 +353,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
