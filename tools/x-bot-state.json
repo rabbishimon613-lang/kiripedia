@@ -62,7 +62,8 @@
     "dyk:federal-whistleblower-protection-act:0",
     "quote:william-webster:1",
     "dyk:espionage-act:2",
-    "quote:john-brennan:5"
+    "quote:john-brennan:5",
+    "dyk:vault-7:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -347,10 +348,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
