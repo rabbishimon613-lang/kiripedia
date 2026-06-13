@@ -64,7 +64,8 @@
     "dyk:espionage-act:2",
     "quote:john-brennan:5",
     "dyk:vault-7:1",
-    "quote:mk-ultra:5"
+    "quote:mk-ultra:5",
+    "dyk:john-kiriakou:6"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -349,10 +350,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
