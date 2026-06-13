@@ -1,9 +1,10 @@
 ---
 import WikiLayout from './WikiLayout.astro';
 import References from '../components/References.astro';
+import TOC from '../components/TOC.astro';
 const {
   title, subtitle, categories = [], image, slug,
-  infobox, updated, datePublished,
+  infobox, updated, datePublished, headings = [],
 } = Astro.props;
 
 const SITE = 'https://www.kiripedia.org';
@@ -153,6 +154,7 @@ const faqSchema = faqAnswer ? {
     <h1 class="firstHeading" data-pagefind-meta="title">{title}</h1>
     {subtitle && <p class="subtitle">{subtitle}</p>}
     <article class="wiki-body">
+      <TOC headings={headings} />
       <slot />
     </article>
     <References />

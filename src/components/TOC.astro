@@ -1,0 +1,131 @@
+---
+// Wikipedia-style Table of Contents. Hidden automatically for short
+// articles (< 3 top-level headings) — same behavior as MediaWiki's
+// default __NOTOC__ threshold.
+const { headings = [] } = Astro.props;
+
+// Keep H2 + H3 only. H1 is the article title; H4+ is too noisy.
+const items = headings.filter((h) => h.depth === 2 || h.depth === 3);
+
+const showTOC = items.filter((h) => h.depth === 2).length >= 3;
+---
+{showTOC && (
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading" class="toc-title">Contents</h2>
+    <ol class="toc-list">
+      {(() => {
+        // Build a nested list: each H2 carries its own H3 children.
+        const out = [];
+        let currentH2 = null;
+        for (const h of items) {
+          if (h.depth === 2) {
+            currentH2 = { ...h, children: [] };
+            out.push(currentH2);
+          } else if (h.depth === 3 && currentH2) {
+            currentH2.children.push(h);
+          }
+        }
+        return out.map((h2, i) => (
+          <li class="toc-h2">
+            <a href={`#${h2.slug}`}>
+              <span class="toc-num">{i + 1}</span>
+              <span class="toc-text">{h2.text}</span>
+            </a>
+            {h2.children.length > 0 && (
+              <ol class="toc-children">
+                {h2.children.map((h3, j) => (
+                  <li class="toc-h3">
+                    <a href={`#${h3.slug}`}>
+                      <span class="toc-num">{i + 1}.{j + 1}</span>
+                      <span class="toc-text">{h3.text}</span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            )}
+          </li>
+        ));
+      })()}
+    </ol>
+  </nav>
+)}
+
+<script is:inline>
+  // Move the TOC to its Wikipedia-correct position: immediately before
+  // the first H2 in the article body. We render it as the first child of
+  // .wiki-body for SSR simplicity, then reposition on the client once the
+  // rest of the article (including the H2s) has been parsed.
+  document.addEventListener('DOMContentLoaded', () => {
+    const toc = document.querySelector('.wiki-body > .toc');
+    if (!toc) return;
+    const firstH2 = toc.parentElement.querySelector(':scope > h2');
+    if (firstH2) firstH2.parentElement.insertBefore(toc, firstH2);
+  });
+</script>
+
+<style>
+  .toc {
+    background: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    padding: 0.7em 1em 0.7em 1em;
+    margin: 1em 0 1.2em 0;
+    display: table;
+    font-size: 95%;
+    max-width: min(38em, 100%);
+    box-sizing: border-box;
+  }
+
+  .toc-title {
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0 0 0.3em 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+  }
+
+  .toc-list,
+  .toc-children {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .toc-children {
+    margin-left: 1.5em;
+  }
+
+  .toc-list li,
+  .toc-children li {
+    margin: 0.15em 0;
+  }
+
+  .toc a {
+    color: #0645ad;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .toc a:hover {
+    text-decoration: underline;
+  }
+
+  .toc-num {
+    display: inline-block;
+    min-width: 2.2em;
+    color: #54595d;
+    margin-right: 0.4em;
+  }
+
+  .toc-h3 .toc-num {
+    min-width: 3.2em;
+  }
+
+  @media (max-width: 600px) {
+    .toc {
+      display: block;
+      max-width: 100%;
+    }
+  }
+</style>

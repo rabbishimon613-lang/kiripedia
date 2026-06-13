@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const { Content } = await render(article);
+const { Content, headings } = await render(article);
 const cats = article.data.categories || (article.data.category ? [article.data.category] : []);
 
 // Pre-populate the per-page citation store by scanning the raw MDX for <Cite>
@@ -33,6 +33,7 @@ while ((m = citeRegex.exec(article.body)) !== null) {
   slug={article.id.replace(/\.mdx?$/, '')}
   infobox={article.data.infobox}
   updated={article.data.updated}
+  headings={headings}
 >
   {article.data.infobox && (
     <Infobox
