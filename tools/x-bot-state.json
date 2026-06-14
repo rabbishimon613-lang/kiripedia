@@ -74,7 +74,8 @@
     "dyk:asset-acquisition-cycle:1",
     "quote:moral-injury:1",
     "dyk:maher-arar:1",
-    "quote:fci-loretto:6"
+    "quote:fci-loretto:6",
+    "dyk:bin-laden-tora-bora-escape:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -359,10 +360,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
