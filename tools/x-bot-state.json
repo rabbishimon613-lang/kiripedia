@@ -70,7 +70,8 @@
     "dyk:thomas-massie:1",
     "quote:afghan-heroin-policy:0",
     "dyk:sleep-deprivation:0",
-    "quote:mike-baker:0"
+    "quote:mike-baker:0",
+    "dyk:asset-acquisition-cycle:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -355,10 +356,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
