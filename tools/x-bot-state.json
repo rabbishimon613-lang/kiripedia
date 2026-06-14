@@ -71,7 +71,8 @@
     "quote:afghan-heroin-policy:0",
     "dyk:sleep-deprivation:0",
     "quote:mike-baker:0",
-    "dyk:asset-acquisition-cycle:1"
+    "dyk:asset-acquisition-cycle:1",
+    "quote:moral-injury:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -356,10 +357,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
