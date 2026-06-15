@@ -80,7 +80,8 @@
     "dyk:pervez-musharraf:0",
     "quote:abu-zubaydah:4",
     "dyk:sheikh-saad-al-abdullah:0",
-    "quote:mohamedou-ould-slahi:0"
+    "quote:mohamedou-ould-slahi:0",
+    "dyk:kuwait-oil-fires:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -365,10 +366,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
