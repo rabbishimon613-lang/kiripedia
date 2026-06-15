@@ -81,7 +81,8 @@
     "quote:abu-zubaydah:4",
     "dyk:sheikh-saad-al-abdullah:0",
     "quote:mohamedou-ould-slahi:0",
-    "dyk:kuwait-oil-fires:0"
+    "dyk:kuwait-oil-fires:0",
+    "quote:intelligence-identities-protection-act:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -366,10 +367,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
