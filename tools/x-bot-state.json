@@ -78,7 +78,8 @@
     "dyk:bin-laden-tora-bora-escape:1",
     "quote:senate-torture-report:0",
     "dyk:pervez-musharraf:0",
-    "quote:abu-zubaydah:4"
+    "quote:abu-zubaydah:4",
+    "dyk:sheikh-saad-al-abdullah:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -363,10 +364,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
