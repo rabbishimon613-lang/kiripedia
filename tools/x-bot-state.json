@@ -90,7 +90,8 @@
     "dyk:qala-i-jangi-uprising:0",
     "quote:john-kiriakou:63",
     "dyk:john-kiriakou:25",
-    "quote:sebastian-gorka:1"
+    "quote:sebastian-gorka:1",
+    "dyk:enhanced-interrogation:9"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -375,10 +376,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
