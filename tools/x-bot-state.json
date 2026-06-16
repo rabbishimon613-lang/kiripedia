@@ -88,7 +88,8 @@
     "dyk:lie-detection:1",
     "quote:tuesday-morning-kill-list:1",
     "dyk:qala-i-jangi-uprising:0",
-    "quote:john-kiriakou:63"
+    "quote:john-kiriakou:63",
+    "dyk:john-kiriakou:25"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -373,10 +374,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
