@@ -96,7 +96,8 @@
     "dyk:moral-injury:1",
     "quote:john-kiriakou:123",
     "dyk:joe-wilson:0",
-    "quote:curveball:4"
+    "quote:curveball:4",
+    "dyk:john-kiriakou:39"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -381,10 +382,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
