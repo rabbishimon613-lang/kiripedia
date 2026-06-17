@@ -98,7 +98,8 @@
     "dyk:joe-wilson:0",
     "quote:curveball:4",
     "dyk:john-kiriakou:39",
-    "quote:erik-prince:0"
+    "quote:erik-prince:0",
+    "dyk:mike-hayden:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -383,10 +384,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
