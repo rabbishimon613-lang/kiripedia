@@ -94,7 +94,8 @@
     "dyk:enhanced-interrogation:9",
     "quote:giuliani-pardon-solicitation:2",
     "dyk:moral-injury:1",
-    "quote:john-kiriakou:123"
+    "quote:john-kiriakou:123",
+    "dyk:joe-wilson:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -379,10 +380,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
