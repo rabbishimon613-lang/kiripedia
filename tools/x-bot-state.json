@@ -93,7 +93,8 @@
     "quote:sebastian-gorka:1",
     "dyk:enhanced-interrogation:9",
     "quote:giuliani-pardon-solicitation:2",
-    "dyk:moral-injury:1"
+    "dyk:moral-injury:1",
+    "quote:john-kiriakou:123"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -378,10 +379,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
