@@ -105,7 +105,8 @@
     "quote:yemen:0",
     "dyk:dick-cheney:1",
     "quote:kompromat:1",
-    "dyk:ruby-ridge:1"
+    "dyk:ruby-ridge:1",
+    "quote:gerald-bull:3"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -390,10 +391,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
