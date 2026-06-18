@@ -108,7 +108,8 @@
     "dyk:ruby-ridge:1",
     "quote:gerald-bull:3",
     "dyk:stephen-saunders:0",
-    "quote:john-kiriakou:62"
+    "quote:john-kiriakou:62",
+    "dyk:cofer-black:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -393,10 +394,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
