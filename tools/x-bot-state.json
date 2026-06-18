@@ -102,7 +102,8 @@
     "dyk:mike-hayden:1",
     "quote:saud-nasir-al-sabah:0",
     "dyk:extraordinary-rendition:1",
-    "quote:yemen:0"
+    "quote:yemen:0",
+    "dyk:dick-cheney:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -387,10 +388,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
