@@ -113,7 +113,8 @@
     "quote:principals-committee-meeting:6",
     "dyk:cia:32",
     "quote:john-kiriakou:42",
-    "dyk:gerald-post:0"
+    "dyk:gerald-post:0",
+    "quote:the-farm:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -398,10 +399,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
