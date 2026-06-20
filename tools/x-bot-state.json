@@ -118,7 +118,8 @@
     "dyk:isi:1",
     "quote:jeffrey-epstein:0",
     "dyk:one-time-pad:1",
-    "quote:john-kiriakou:0"
+    "quote:john-kiriakou:0",
+    "dyk:cofer-black:2"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -403,10 +404,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
