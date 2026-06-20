@@ -117,7 +117,8 @@
     "quote:the-farm:0",
     "dyk:isi:1",
     "quote:jeffrey-epstein:0",
-    "dyk:one-time-pad:1"
+    "dyk:one-time-pad:1",
+    "quote:john-kiriakou:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -402,10 +403,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
