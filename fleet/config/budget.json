@@ -1,0 +1,54 @@
+{
+  "_comment": "Daily caps. Tracked in ledger/usage.jsonl. Trawlers hard-stop when their cap is hit; processing plant warns and asks Harbor Master to confirm before continuing past cap.",
+
+  "at_sea": {
+    "youtube_trawler": {
+      "max_runs_per_day": 4,
+      "max_yt_dlp_probes_per_run": 200,
+      "fleet_calls_per_run": 0,
+      "_note": "Title-based filtering in find-new-kiriakou-videos.mjs is rule-based, not LLM. No fleet calls happen at sea for YouTube — pure cost savings."
+    },
+    "web_trawler": {
+      "max_runs_per_day": 2,
+      "max_search_calls_per_run": 10,
+      "fleet_calls_per_run": 20,
+      "worker_for_triage": "worker_fast",
+      "_note": "Web results need LLM triage because titles are messier. worker_fast (Groq Llama 3.3) only."
+    }
+  },
+
+  "at_dock": {
+    "filleting": {
+      "worker": "worker_longcontext",
+      "per_video_budget_estimate_tokens": 30000,
+      "_note": "One long-context call per video to segment transcript into topic-coherent passages."
+    },
+    "deboning": {
+      "worker": "worker_reasoning",
+      "per_segment_budget_estimate_tokens": 4000,
+      "_note": "One reasoning call per segment to extract claims with verbatim quotes + timestamps."
+    },
+    "canning": {
+      "worker": "worker_reasoning",
+      "per_article_patch_budget_estimate_tokens": 6000,
+      "_note": "Drafts the article diff against existing markdown. Few-shot prompted from sample KiriPedia articles."
+    }
+  },
+
+  "tripwires": {
+    "daily_fleet_calls_warn_at": 500,
+    "daily_fleet_calls_hard_stop_at": 1500,
+    "_note": "Harbor Master must surface warning to user; hard stop pauses plant until user confirms."
+  },
+
+  "escalation_to_opus": {
+    "_note": "These ALWAYS bypass auto-merge and surface to Opus (you, in a separate chat). Token-cheap because volume is tiny.",
+    "triggers": [
+      "Claim labeled CONTRADICTION-WITH-PRIOR",
+      "Claim about Kiriakou himself (biographical)",
+      "Claim that touches doctrine rule #3 edge cases (see [[feedback_kiripedia_doctrine]] and [[feedback_kiripedia_voice_calibration]])",
+      "Claim about Chabad as victim (see [[project_chabad_tracker_doctrine]] — these must be excluded from the DB)",
+      "Source from a channel NOT on grounds.youtube.trusted_channels — needs Opus pass on whether to add the channel"
+    ]
+  }
+}

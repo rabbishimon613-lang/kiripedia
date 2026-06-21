@@ -7,3 +7,15 @@ dist
 .claude/
 .vercel/
 .vercel
+
+# The pixel-office is a separate git repo (forked upstream).
+# Its static build output at public/office/ IS committed.
+/office/
+
+# Botnet runtime state — never commit the SQLite store or quarantine dumps.
+botnet/data/
+botnet/quarantine/
+
+# Working scratch from prior ingest sessions.
+codex articles/
+sonnet writeups/

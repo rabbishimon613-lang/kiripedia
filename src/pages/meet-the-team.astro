@@ -1,0 +1,239 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+import { BOTS } from '../data/team.mjs';
+
+// Group bots by role for the roster description list.
+const byRole = {};
+for (const b of BOTS) (byRole[b.role] ??= []).push(b);
+const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Extraction',
+                   'Verification', 'Publishing', 'Steady-State', 'Cohesion'];
+---
+<WikiLayout
+  title="Meet the team"
+  description="The autonomous editorial bureau that builds KiriPedia — fourteen bots, each with one job."
+>
+  <div class="wiki-content">
+    <h1 class="firstHeading">Meet the team</h1>
+    <p class="subtitle">The autonomous editorial bureau that builds KiriPedia, with no human in the loop</p>
+
+    <article class="wiki-body">
+      <div class="hatnote" style="padding-left:0">
+        Every article on KiriPedia is written, cited, and edited by this autonomous workforce. The bureau runs continuously on a public GitHub repository and commits its work back to the wiki without supervision. This page shows the office in real time.
+      </div>
+
+      <p>
+        <strong>KiriPedia</strong> is built by a small editorial bureau of specialized software agents. Each agent does one part of the job — discovering new <a href="/wiki/john-kiriakou">John Kiriakou</a> appearances, transcribing them, extracting verifiable claims, checking those claims against the source transcripts, and merging the surviving claims into the right article. The pixel office below shows every agent at its desk, walking between desks when work is being handed off.
+      </p>
+
+      <p>
+        Nothing on the site is published until the <em>Grounding Reviewer</em> confirms that the underlying quote really appears in the cited transcript at the cited timestamp. Claims that fail the check are quarantined permanently rather than escalated to a human — the bureau is, by design, completely unsupervised.
+      </p>
+
+      <h2 id="the-office">The office</h2>
+
+      <figure class="office-figure" style="margin:0 0 18px;border:1px solid var(--color-border);background:var(--color-bg-infobox);padding:8px;max-width:100%;">
+        <iframe
+          src="/office/index.html?embed=1"
+          title="KiriPedia editorial bureau — live pixel office"
+          loading="lazy"
+          class="office-iframe"
+          style="width:100%;aspect-ratio:21/21;border:0;display:block;background:#1a1a1a;min-height:560px;"
+        ></iframe>
+        <figcaption>
+          The bureau at work. Each desk belongs to one named agent. Hover any character in the office for its current activity. Outgoing handoffs animate as short walks between desks. The office refreshes every fifteen seconds from the same snapshot file the activity log reads.
+        </figcaption>
+      </figure>
+
+      <h2 id="activity-log">Activity log</h2>
+
+      <p>
+        Recent events from the bureau, newest first. Timestamps are shown in Eastern Time. The log refreshes every fifteen seconds.
+      </p>
+
+      <div class="log-wrap">
+        <table id="mtt-log" class="wiki-log">
+          <thead>
+            <tr><th>Time</th><th>Agent</th><th>Action</th></tr>
+          </thead>
+          <tbody>
+            <tr><td colspan="3" class="log-empty">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="roster">The full roster</h2>
+
+      <p>
+        Fourteen agents across nine roles. During the initial backfill of John Kiriakou's existing public appearances — roughly fifteen thousand clips spanning two decades — the discovery, triage, transcription, cataloging, and review desks are constantly busy. The steady-state pool (Deepener, Cross-Source Enricher, Article Weaver) takes over once the backfill is drained and keeps the bureau busy refining existing articles.
+      </p>
+
+      {roleOrder.filter(r => byRole[r]).map(role => (
+        <section class="role-section">
+          <h3>{role}</h3>
+          <dl class="role-dl">
+            {byRole[role].map(b => (
+              <>
+                <dt>
+                  <span class="role-dot" style={`background:${b.color}`}></span>
+                  {b.name}
+                </dt>
+                <dd>{b.description}</dd>
+              </>
+            ))}
+          </dl>
+        </section>
+      ))}
+
+      <h2 id="how-it-runs">How the bureau runs</h2>
+
+      <p>
+        The bureau operates as a pipeline of cron jobs running on a public GitHub repository. Discovery fires every six hours; triage and the full ingest cycle fire every fifteen minutes; the Article Weaver runs once a day. All language-model work is done by free worker models (Cerebras and Groq, via key rotation); all verification is done by deterministic code, not by AI judgment.
+      </p>
+
+      <p>
+        Truth lives in a single SQLite database that all agents read and write. Only the <em>WikiProject Coordinator</em> ever touches the git repository, which means there are never merge conflicts between agents and the wiki is always in a coherent state. Claims that fail the grounding check enter a quarantine table that is never cleared and never reviewed — quarantine, by deliberate design, is a dead letter, not an inbox.
+      </p>
+
+      <p>
+        For the underlying article-writing methodology — citation format, doctrine, source acceptance rules — see <a href="/about">About KiriPedia</a>. For the index of every transcript the bureau has consumed, see the <a href="/sources">Source index</a>.
+      </p>
+    </article>
+  </div>
+
+  <script is:inline>
+    // Activity log — polls the same snapshot file the office iframe reads.
+    (function () {
+      var tbody = document.querySelector('#mtt-log tbody');
+      if (!tbody) return;
+      var seen = new Set();
+      var log = [];
+      function fmtTime(ts) {
+        try {
+          // Accept ISO 8601 ("2026-06-21T15:00:00Z") and SQLite default ("2026-06-21 15:00:00").
+          var iso = /T/.test(ts) ? ts : ts.replace(' ', 'T') + 'Z';
+          var d = new Date(iso);
+          if (isNaN(d.getTime())) return ts;
+          return d.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour12: false });
+        } catch (e) { return ts; }
+      }
+      function esc(s) { return String(s).replace(/[&<>"']/g, function (c) {
+        return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
+      }); }
+      function render() {
+        if (log.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="3" class="log-empty">No activity yet. The bureau is quiet.</td></tr>';
+          return;
+        }
+        tbody.innerHTML = log.map(function (e) {
+          return '<tr><td class="log-time">' + fmtTime(e.ts) + '</td>' +
+                 '<td class="log-who">' + esc(e.who) + '</td>' +
+                 '<td class="log-action">' + esc(e.action) + '</td></tr>';
+        }).join('');
+      }
+      function tick() {
+        fetch('/botnet-snapshot.json', { cache: 'no-store' }).then(function (r) {
+          if (!r.ok) throw new Error('no snapshot');
+          return r.json();
+        }).then(function (snap) {
+          (snap.bots || []).forEach(function (b) {
+            if (!b.ts) return;
+            var key = b.ts + '::' + b.key + '::' + b.action;
+            if (seen.has(key)) return;
+            seen.add(key);
+            log.unshift({ ts: b.ts, who: b.label || b.key, action: b.action });
+          });
+          if (log.length > 100) log.length = 100;
+          render();
+        }).catch(function () { /* network blip */ });
+      }
+      tick();
+      setInterval(tick, 15000);
+    })();
+  </script>
+
+  <style is:global>
+    .office-figure {
+      margin: 0 0 18px;
+      border: 1px solid var(--color-border);
+      background: var(--color-bg-infobox);
+      padding: 8px;
+      max-width: 100%;
+    }
+    .office-iframe {
+      width: 100%;
+      height: 640px;
+      border: 0;
+      display: block;
+      background: #1a1a1a;
+    }
+    @media (max-width: 720px) {
+      .office-iframe { height: 480px; }
+    }
+    .office-figure figcaption {
+      font-size: 12px;
+      color: var(--color-base--subtle);
+      margin-top: 8px;
+      line-height: 1.45;
+      text-align: center;
+    }
+
+    .log-wrap {
+      border: 1px solid var(--color-border);
+      background: var(--color-bg-infobox);
+      max-height: 360px;
+      overflow-y: auto;
+      margin-bottom: 18px;
+    }
+    table.wiki-log { width: 100%; border-collapse: collapse; font-size: 13px; }
+    table.wiki-log thead th {
+      position: sticky; top: 0;
+      background: var(--color-bg-sidebar);
+      border-bottom: 1px solid var(--color-border);
+      text-align: left; padding: 6px 10px;
+      font-weight: 600; color: var(--color-base);
+    }
+    table.wiki-log td {
+      padding: 5px 10px;
+      border-bottom: 1px solid var(--color-border-subtle);
+      vertical-align: top;
+    }
+    table.wiki-log td.log-time {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: var(--color-base--subtle);
+      white-space: nowrap; width: 90px;
+    }
+    table.wiki-log td.log-who { font-weight: 600; white-space: nowrap; width: 240px; }
+    table.wiki-log td.log-action { color: var(--color-base); }
+    table.wiki-log td.log-empty {
+      text-align: center; color: var(--color-base--subtle);
+      font-style: italic; padding: 20px;
+    }
+
+    .role-section { margin: 18px 0; }
+    .role-section h3 {
+      font-size: 16px;
+      border-bottom: 1px solid var(--color-border-subtle);
+      padding-bottom: 4px; margin-bottom: 10px;
+    }
+    .role-dl {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      gap: 6px 16px; margin: 0;
+    }
+    .role-dl dt {
+      font-weight: 600; color: var(--color-base);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .role-dl dd { margin: 0 0 6px; color: var(--color-base); }
+    .role-dot {
+      display: inline-block; width: 10px; height: 10px;
+      border-radius: 50%;
+      border: 1px solid var(--color-base--subtle);
+      flex-shrink: 0;
+    }
+    @media (max-width: 720px) {
+      .role-dl { grid-template-columns: 1fr; }
+      table.wiki-log td.log-who { width: auto; }
+    }
+  </style>
+</WikiLayout>

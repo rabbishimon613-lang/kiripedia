@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-06-21T15:00:00Z",
+  "bots": [
+    { "key": "recent_changes", "label": "Recent Changes Bot",             "action": "Polling YouTube Data API across the eighteen trusted channels for new Kiriakou appearances", "handoff_to": null,           "ts": "2026-06-21 14:58:12" },
+    { "key": "npp",            "label": "New Page Patroller",             "action": "Triaging fourteen new leads — distinguishing on-corpus interviews from off-corpus news clips",  "handoff_to": "source_auth",  "ts": "2026-06-21 14:59:30" },
+    { "key": "source_auth",    "label": "Source Authentication Clerk",    "action": "idle",                                                                                          "handoff_to": null,           "ts": "2026-06-21 14:42:05" },
+    { "key": "scribe_1",       "label": "Scribe (First Desk)",            "action": "Pulling auto-captions for the Julian Dorey 287 interview and normalizing the VTT to paragraph-timestamped markdown", "handoff_to": "cataloger_1", "ts": "2026-06-21 14:59:55" },
+    { "key": "scribe_2",       "label": "Scribe (Second Desk)",           "action": "Pulling auto-captions for the Daniel Davis Deep Dive episode and stripping the sponsor read",   "handoff_to": "cataloger_2",  "ts": "2026-06-21 14:59:50" },
+    { "key": "scribe_3",       "label": "Scribe (Third Desk)",            "action": "Normalizing VTT cues for the Judging Freedom episode on the 2009 release",                       "handoff_to": "cataloger_1",  "ts": "2026-06-21 14:59:42" },
+    { "key": "cataloger_1",    "label": "Cataloger-Editor (First Desk)",  "action": "Extracting atomic claims from the Daniel Davis Deep Dive episode on the 2002 Pakistan operation, segment three of seven", "handoff_to": "reviewer", "ts": "2026-06-21 14:59:48" },
+    { "key": "cataloger_2",    "label": "Cataloger-Editor (Second Desk)", "action": "Routing claims about Cofer Black and the rendition program to existing articles",                "handoff_to": "reviewer",     "ts": "2026-06-21 14:59:46" },
+    { "key": "reviewer",       "label": "Grounding Reviewer",             "action": "Running the verbatim grep, citation roundtrip, and channel provenance layers across forty-two pending claims", "handoff_to": "coordinator", "ts": "2026-06-21 14:59:50" },
+    { "key": "coordinator",    "label": "WikiProject Coordinator",        "action": "idle",                                                                                          "handoff_to": null,           "ts": "2026-06-21 14:55:11" },
+    { "key": "indexer",        "label": "Indexer",                        "action": "idle",                                                                                          "handoff_to": null,           "ts": "2026-06-21 14:55:14" },
+    { "key": "deepener",       "label": "Transcript Deepener",            "action": "idle",                                                                                          "handoff_to": null,           "ts": "2026-06-21 14:30:00" },
+    { "key": "enricher",       "label": "Cross-Source Enricher",          "action": "idle",                                                                                          "handoff_to": null,           "ts": "2026-06-21 14:32:00" },
+    { "key": "weaver",         "label": "Article Weaver",                 "action": "idle",                                                                                          "handoff_to": null,           "ts": "2026-06-21 10:00:00" }
+  ],
+  "last_cycle": {
+    "id": 412,
+    "started_at": "2026-06-21 14:55:00",
+    "ended_at": "2026-06-21 14:55:48",
+    "claims_merged": 31,
+    "articles_touched": 9,
+    "commit_sha": "a7c3f12",
+    "status": "committed"
+  },
+  "counts": {
+    "leads_pending": 14,
+    "triaged_on": 8,
+    "transcribed": 3,
+    "catalogued": 2,
+    "published": 1247,
+    "quarantined_claims": 89,
+    "quarantined_clips": 7
+  }
+}

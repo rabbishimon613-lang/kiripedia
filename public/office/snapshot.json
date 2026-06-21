@@ -1,0 +1,53 @@
+{
+  "ts": "2026-06-21T02:01:59.731Z",
+  "bots": {
+    "recent_changes": {
+      "status": "idle",
+      "action": null,
+      "target": null,
+      "handoff_to": null
+    },
+    "npp": {
+      "status": "working",
+      "action": "reviewing the new entry",
+      "target": null,
+      "handoff_to": null
+    },
+    "source_auth": {
+      "status": "idle",
+      "action": null,
+      "target": null,
+      "handoff_to": null
+    },
+    "transcription": {
+      "status": "idle",
+      "action": null,
+      "target": null,
+      "handoff_to": null
+    },
+    "stub_sorter": {
+      "status": "idle",
+      "action": null,
+      "target": null,
+      "handoff_to": null
+    },
+    "citation": {
+      "status": "working",
+      "action": "verifying quote in source",
+      "target": null,
+      "handoff_to": null
+    },
+    "editor": {
+      "status": "idle",
+      "action": null,
+      "target": null,
+      "handoff_to": null
+    },
+    "coordinator": {
+      "status": "idle",
+      "action": null,
+      "target": null,
+      "handoff_to": null
+    }
+  }
+}
