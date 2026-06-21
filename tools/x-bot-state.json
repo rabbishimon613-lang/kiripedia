@@ -129,7 +129,8 @@
     "quote:jeffrey-epstein:5",
     "dyk:harold-james-nicholson:1",
     "quote:john-brennan:26",
-    "dyk:valerie-plame:0"
+    "dyk:valerie-plame:0",
+    "quote:john-kiriakou:25"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -414,10 +415,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
