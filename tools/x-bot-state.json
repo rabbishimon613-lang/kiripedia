@@ -130,7 +130,8 @@
     "dyk:harold-james-nicholson:1",
     "quote:john-brennan:26",
     "dyk:valerie-plame:0",
-    "quote:john-kiriakou:25"
+    "quote:john-kiriakou:25",
+    "dyk:bojinka-plot:3"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -415,10 +416,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
