@@ -126,7 +126,8 @@
     "dyk:mohammed-atef:0",
     "quote:john-kiriakou:128",
     "dyk:robert-hanssen:3",
-    "quote:jeffrey-epstein:5"
+    "quote:jeffrey-epstein:5",
+    "dyk:harold-james-nicholson:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -411,10 +412,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
