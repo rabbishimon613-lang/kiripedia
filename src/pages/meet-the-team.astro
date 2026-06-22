@@ -31,11 +31,10 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
 
       <h2 id="the-office">The office</h2>
 
-      <figure class="office-figure" style="margin:0 0 18px;border:1px solid var(--color-border);background:var(--color-bg-infobox);padding:8px;max-width:100%;">
+      <figure id="mtt-office-figure" class="office-figure" style="margin:0 0 18px;border:1px solid var(--color-border);background:var(--color-bg-infobox);padding:8px;max-width:100%;">
         <iframe
           src="/office/index.html?embed=1"
           title="KiriPedia editorial bureau — live pixel office"
-          loading="lazy"
           class="office-iframe"
           style="width:100%;aspect-ratio:21/21;border:0;display:block;background:#1a1a1a;min-height:560px;"
         ></iframe>
@@ -51,15 +50,11 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       </p>
 
       <div class="log-wrap">
-        <table id="mtt-log" class="wiki-log">
-          <thead>
-            <tr><th>Time</th><th>Agent</th><th>Action</th></tr>
-          </thead>
-          <tbody>
-            <tr><td colspan="3" class="log-empty">Loading…</td></tr>
-          </tbody>
-        </table>
+        <div id="mtt-log" class="wiki-log-feed">
+          <div class="log-empty">Loading…</div>
+        </div>
       </div>
+      <div id="mtt-log-footer" class="log-footer">Last poll — · next in —</div>
 
       <h2 id="roster">The full roster</h2>
 
@@ -103,13 +98,16 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
   <script is:inline>
     // Activity log — polls the same snapshot file the office iframe reads.
     (function () {
-      var tbody = document.querySelector('#mtt-log tbody');
-      if (!tbody) return;
+      var feed = document.getElementById('mtt-log');
+      var footer = document.getElementById('mtt-log-footer');
+      if (!feed) return;
       var seen = new Set();
       var log = [];
+      var POLL_MS = 15000;
+      var lastPoll = 0;
+      var firstRender = true;
       function fmtTime(ts) {
         try {
-          // Accept ISO 8601 ("2026-06-21T15:00:00Z") and SQLite default ("2026-06-21 15:00:00").
           var iso = /T/.test(ts) ? ts : ts.replace(' ', 'T') + 'Z';
           var d = new Date(iso);
           if (isNaN(d.getTime())) return ts;
@@ -119,35 +117,109 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       function esc(s) { return String(s).replace(/[&<>"']/g, function (c) {
         return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
       }); }
-      function render() {
+      function statusOf(action) {
+        if (!action) return 'idle';
+        var a = String(action).trim().toLowerCase();
+        if (a === '' || a === 'idle') return 'idle';
+        return 'working';
+      }
+      function rowHTML(e, flash) {
+        var status = statusOf(e.action);
+        var actionText = e.action && String(e.action).trim() ? e.action : 'idle';
+        return '<div class="log-row' + (flash ? ' log-flash' : '') + '">' +
+          '<span class="log-dot status-' + status + '">●</span>' +
+          '<span class="log-time">' + fmtTime(e.ts) + '</span>' +
+          '<span class="log-who">' + esc(e.who) + '</span>' +
+          '<span class="log-arrow">·</span>' +
+          '<span class="log-action">' + esc(actionText) + '</span>' +
+          '</div>';
+      }
+      function render(newCount) {
         if (log.length === 0) {
-          tbody.innerHTML = '<tr><td colspan="3" class="log-empty">No activity yet. The bureau is quiet.</td></tr>';
+          feed.innerHTML = '<div class="log-empty">No activity yet. The bureau is quiet.</div>';
           return;
         }
-        tbody.innerHTML = log.map(function (e) {
-          return '<tr><td class="log-time">' + fmtTime(e.ts) + '</td>' +
-                 '<td class="log-who">' + esc(e.who) + '</td>' +
-                 '<td class="log-action">' + esc(e.action) + '</td></tr>';
-        }).join('');
+        var html = '';
+        for (var i = 0; i < log.length; i++) {
+          var flash = !firstRender && i < newCount;
+          html += rowHTML(log[i], flash);
+        }
+        feed.innerHTML = html;
+        firstRender = false;
       }
       function tick() {
+        lastPoll = Date.now();
         fetch('/botnet-snapshot.json', { cache: 'no-store' }).then(function (r) {
           if (!r.ok) throw new Error('no snapshot');
           return r.json();
         }).then(function (snap) {
+          var added = 0;
           (snap.bots || []).forEach(function (b) {
             if (!b.ts) return;
             var key = b.ts + '::' + b.key + '::' + b.action;
             if (seen.has(key)) return;
             seen.add(key);
             log.unshift({ ts: b.ts, who: b.label || b.key, action: b.action });
+            added++;
           });
           if (log.length > 100) log.length = 100;
-          render();
+          render(added);
         }).catch(function () { /* network blip */ });
       }
+      function updateFooter() {
+        if (!footer || !lastPoll) return;
+        var ago = Math.max(0, Math.floor((Date.now() - lastPoll) / 1000));
+        var next = Math.max(0, Math.floor(POLL_MS / 1000 - ago));
+        footer.textContent = 'Last poll ' + ago + 's ago · next in ' + next + 's';
+      }
       tick();
-      setInterval(tick, 15000);
+      setInterval(tick, POLL_MS);
+      setInterval(updateFooter, 1000);
+    })();
+
+    // Mobile tap-to-fullscreen overlay for the office iframe.
+    (function () {
+      if (!window.matchMedia || !window.matchMedia('(pointer: coarse)').matches) return;
+      var figure = document.getElementById('mtt-office-figure');
+      if (!figure) return;
+      // A click guard at figure level intercepts the tap before it reaches the iframe.
+      var guard = document.createElement('div');
+      guard.className = 'mtt-tap-guard';
+      guard.setAttribute('aria-label', 'Open office fullscreen');
+      figure.style.position = 'relative';
+      figure.appendChild(guard);
+      guard.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        openOverlay();
+      });
+      function openOverlay() {
+        if (document.getElementById('mtt-office-overlay')) return;
+        var overlay = document.createElement('div');
+        overlay.id = 'mtt-office-overlay';
+        overlay.className = 'mtt-office-overlay';
+        var ifr = document.createElement('iframe');
+        ifr.src = '/office/index.html?embed=1&fullscreen=1';
+        ifr.title = 'KiriPedia editorial bureau — fullscreen';
+        ifr.className = 'mtt-office-overlay-iframe';
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'mtt-office-overlay-close';
+        btn.setAttribute('aria-label', 'Close fullscreen');
+        btn.textContent = '×';
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          overlay.parentNode && overlay.parentNode.removeChild(overlay);
+          document.documentElement.style.overflow = '';
+          document.body.style.overflow = '';
+        });
+        overlay.appendChild(ifr);
+        overlay.appendChild(btn);
+        document.body.appendChild(overlay);
+        document.documentElement.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden';
+      }
     })();
   </script>
 
@@ -182,31 +254,102 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       background: var(--color-bg-infobox);
       max-height: 360px;
       overflow-y: auto;
-      margin-bottom: 18px;
+      margin-bottom: 4px;
     }
-    table.wiki-log { width: 100%; border-collapse: collapse; font-size: 13px; }
-    table.wiki-log thead th {
-      position: sticky; top: 0;
-      background: var(--color-bg-sidebar);
-      border-bottom: 1px solid var(--color-border);
-      text-align: left; padding: 6px 10px;
-      font-weight: 600; color: var(--color-base);
-    }
-    table.wiki-log td {
-      padding: 5px 10px;
+    .wiki-log-feed { font-size: 13px; }
+    .wiki-log-feed .log-row {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      padding: 4px 10px;
       border-bottom: 1px solid var(--color-border-subtle);
-      vertical-align: top;
+      background: transparent;
+      transition: background-color 2s linear;
     }
-    table.wiki-log td.log-time {
+    .wiki-log-feed .log-row.log-flash { background: #fff3a8; transition: none; }
+    .wiki-log-feed .log-dot {
+      flex: 0 0 auto;
+      font-size: 10px;
+      line-height: 1;
+    }
+    .wiki-log-feed .log-dot.status-working { color: var(--color-success, #0a8754); }
+    .wiki-log-feed .log-dot.status-idle { color: var(--color-base--subtle, #999); }
+    .wiki-log-feed .log-time {
+      flex: 0 0 auto;
       font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
       color: var(--color-base--subtle);
-      white-space: nowrap; width: 90px;
+      white-space: nowrap;
     }
-    table.wiki-log td.log-who { font-weight: 600; white-space: nowrap; width: 240px; }
-    table.wiki-log td.log-action { color: var(--color-base); }
-    table.wiki-log td.log-empty {
-      text-align: center; color: var(--color-base--subtle);
-      font-style: italic; padding: 20px;
+    .wiki-log-feed .log-who {
+      flex: 0 0 auto;
+      font-weight: 600;
+      color: var(--color-base);
+      white-space: nowrap;
+    }
+    .wiki-log-feed .log-arrow {
+      flex: 0 0 auto;
+      color: var(--color-base--subtle);
+    }
+    .wiki-log-feed .log-action {
+      flex: 1 1 auto;
+      color: var(--color-base);
+      word-break: break-word;
+    }
+    .wiki-log-feed .log-empty {
+      text-align: center;
+      color: var(--color-base--subtle);
+      font-style: italic;
+      padding: 20px;
+    }
+    .log-footer {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      color: var(--color-base--subtle);
+      margin: 0 0 18px;
+      padding: 2px 2px;
+    }
+
+    /* Mobile tap-to-fullscreen */
+    .mtt-tap-guard {
+      position: absolute;
+      inset: 8px;
+      z-index: 5;
+      cursor: pointer;
+      background: transparent;
+    }
+    .mtt-office-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: #1a1a1a;
+    }
+    .mtt-office-overlay-iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+      background: #1a1a1a;
+    }
+    .mtt-office-overlay-close {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 44px;
+      height: 44px;
+      min-width: 44px;
+      min-height: 44px;
+      border: 1px solid rgba(255,255,255,0.7);
+      background: rgba(0,0,0,0.55);
+      color: #fff;
+      font-family: sans-serif;
+      font-size: 26px;
+      line-height: 1;
+      padding: 0;
+      border-radius: 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .role-section { margin: 18px 0; }
@@ -233,7 +376,7 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
     }
     @media (max-width: 720px) {
       .role-dl { grid-template-columns: 1fr; }
-      table.wiki-log td.log-who { width: auto; }
+      .wiki-log-feed .log-row { flex-wrap: wrap; }
     }
   </style>
 </WikiLayout>
