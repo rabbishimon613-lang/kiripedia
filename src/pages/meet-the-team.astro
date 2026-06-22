@@ -156,6 +156,8 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
           var added = 0;
           (snap.bots || []).forEach(function (b) {
             if (!b.ts) return;
+            var act = b.action ? String(b.action).trim() : '';
+            if (!act || act.toLowerCase() === 'idle') return;
             var key = b.ts + '::' + b.key + '::' + b.action;
             if (seen.has(key)) return;
             seen.add(key);
