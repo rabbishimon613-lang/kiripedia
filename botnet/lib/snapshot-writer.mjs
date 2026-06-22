@@ -77,7 +77,14 @@ const bots = BOT_KEYS.map((key) => {
   let handoff = null;
   if (last) {
     if (last.event === 'start')   action = last.detail || 'working';
-    else if (last.event === 'finish')  action = `Done: ${last.detail || ''}`;
+    else if (last.event === 'finish') {
+      action = `Done: ${last.detail || ''}`;
+      // Workers carry the handoff target on finish events via handoff_to.
+      // Accept that path so the office animates the baton-pass.
+      if (last.handoff_to) {
+        handoff = workerToBotKey(last.handoff_to, last.handoff_to) || last.handoff_to;
+      }
+    }
     else if (last.event === 'handoff') {
       handoff = workerToBotKey(last.handoff_to, last.handoff_to) || last.handoff_to;
       action = `Handoff to ${LABELS[handoff] || handoff}`;

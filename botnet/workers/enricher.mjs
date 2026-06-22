@@ -1,0 +1,186 @@
+#!/usr/bin/env node
+// Cross-Source Enricher. Picks the most orphaned article (fewest incoming
+// wikilinks from peer articles) and proposes:
+//   1. Wikilinks in peer articles where this topic is mentioned but un-linked.
+//   2. A "## See also" block in the target.
+//
+// LLM-optional: skips cleanly if no Cerebras/Groq keys.
+//
+// Run: node botnet/workers/enricher.mjs [--batch N]
+
+import { execSync } from 'node:child_process';
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { logActivity } from '../lib/db.mjs';
+import { worker_reasoning } from '../lib/fleet-client.mjs';
+
+const HERE = dirname(fileURLToPath(import.meta.url));
+const REPO_ROOT = join(HERE, '..', '..');
+const ARTICLES_DIR = join(REPO_ROOT, 'src', 'content', 'articles');
+
+const args = process.argv.slice(2);
+const WORKER = args[args.indexOf('--worker') + 1] || 'enricher';
+const ROLE = 'enricher';
+const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
+
+function shellQuote(s) {
+  return `'${s.replace(/'/g, "'\\''")}'`;
+}
+
+function incomingLinks(slug) {
+  try {
+    const out = execSync(
+      `grep -rl ${shellQuote(`](/wiki/${slug})`)} ${shellQuote(ARTICLES_DIR)} || true`,
+      { encoding: 'utf8' }
+    );
+    return out.split('\n').filter(Boolean).length;
+  } catch {
+    return 0;
+  }
+}
+
+function pickArticle() {
+  const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.mdx'));
+  let best = null;
+  let bestScore = Infinity;
+  for (const f of files) {
+    const slug = f.replace(/\.mdx$/, '');
+    const links = incomingLinks(slug);
+    if (links < bestScore) {
+      bestScore = links;
+      best = { slug, path: join(ARTICLES_DIR, f), incoming: links };
+    }
+  }
+  return best;
+}
+
+const SYSTEM = `You are the Cross-Source Enricher for KiriPedia.
+
+You receive ONE target article slug + body, plus a list of peer article excerpts that mention the topic but don't link to it. Your job:
+1. For each peer mention, return the verbatim phrase to wikilink and the link target.
+2. Optionally suggest 3-8 related slugs for a "## See also" section in the target.
+
+Doctrine: only wikilink phrases that unambiguously refer to the target topic. Never invent slugs. Never modify wording beyond wrapping with [text](/wiki/slug).`;
+
+const SCHEMA = {
+  type: 'object',
+  additionalProperties: false,
+  required: ['wikilinks', 'see_also'],
+  properties: {
+    wikilinks: {
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        required: ['peer_slug', 'anchor', 'target_slug'],
+        properties: {
+          peer_slug: { type: 'string', pattern: '^[a-z0-9-]+$' },
+          anchor: { type: 'string', minLength: 2, maxLength: 120 },
+          target_slug: { type: 'string', pattern: '^[a-z0-9-]+$' },
+        },
+      },
+    },
+    see_also: {
+      type: 'array',
+      items: { type: 'string', pattern: '^[a-z0-9-]+$' },
+    },
+  },
+};
+
+async function run() {
+  logActivity({ worker: WORKER, role: ROLE, event: 'start',
+                detail: 'Scanning for orphan articles' });
+
+  const pick = pickArticle();
+  if (!pick) {
+    logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+                  detail: 'No articles found', handoffTo: 'coordinator' });
+    return;
+  }
+  console.log(`[${WORKER}] picked ${pick.slug} (incoming=${pick.incoming})`);
+
+  // Gather peer mentions: grep article files for terms from the slug.
+  const term = pick.slug.replace(/-/g, ' ');
+  let mentions = '';
+  try {
+    mentions = execSync(
+      `grep -rln --include='*.mdx' ${shellQuote(term)} ${shellQuote(ARTICLES_DIR)} | head -30 || true`,
+      { encoding: 'utf8' }
+    );
+  } catch { /* non-fatal */ }
+  const peerFiles = mentions.split('\n').filter(Boolean).filter(f => !f.endsWith(`${pick.slug}.mdx`));
+
+  if (peerFiles.length === 0) {
+    logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+                  detail: `No peer mentions for ${pick.slug}`,
+                  refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
+    return;
+  }
+
+  let body;
+  try { body = readFileSync(pick.path, 'utf8'); } catch {
+    logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+                  detail: `Read failed for ${pick.slug}`, handoffTo: 'coordinator' });
+    return;
+  }
+
+  const peerExcerpts = peerFiles.slice(0, 8).map(p => {
+    const slug = p.split('/').pop().replace(/\.mdx$/, '');
+    try {
+      const txt = readFileSync(p, 'utf8').slice(0, 2000);
+      return `=== ${slug} ===\n${txt}`;
+    } catch { return ''; }
+  }).filter(Boolean).join('\n\n');
+
+  let result;
+  try {
+    result = await worker_reasoning({
+      system: SYSTEM,
+      user: `TARGET ARTICLE (${pick.slug}):\n\n${body.slice(0, 6000)}\n\nPEER EXCERPTS:\n\n${peerExcerpts.slice(0, 10_000)}`,
+      schema: SCHEMA,
+      maxTokens: 2500,
+    });
+  } catch (err) {
+    console.warn(`[${WORKER}] LLM unavailable (${err.message.slice(0, 120)}); skipping enrich pass`);
+    logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+                  detail: `Skipped ${pick.slug} (no LLM)`,
+                  refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
+    return;
+  }
+
+  // Apply wikilinks to peer files, idempotently.
+  let linkAdds = 0;
+  for (const wl of (result.wikilinks || [])) {
+    const peerPath = join(ARTICLES_DIR, `${wl.peer_slug}.mdx`);
+    let peer;
+    try { peer = readFileSync(peerPath, 'utf8'); } catch { continue; }
+    if (peer.includes(`](/wiki/${wl.target_slug})`)) continue;
+    const at = peer.indexOf(wl.anchor);
+    if (at < 0) continue;
+    const before = peer.slice(0, at);
+    const after = peer.slice(at + wl.anchor.length);
+    // Avoid linking inside an existing markdown link.
+    if (/\[[^\]]*$/.test(before)) continue;
+    peer = before + `[${wl.anchor}](/wiki/${wl.target_slug})` + after;
+    writeFileSync(peerPath, peer);
+    linkAdds++;
+  }
+
+  // See also block.
+  const seeAlso = (result.see_also || []).filter(s => s !== pick.slug);
+  if (seeAlso.length > 0 && !body.includes('## See also')) {
+    const lines = seeAlso.map(s => `- [${s.replace(/-/g, ' ')}](/wiki/${s})`).join('\n');
+    body = body.trimEnd() + `\n\n## See also\n\n${lines}\n`;
+    writeFileSync(pick.path, body);
+  }
+
+  logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+                detail: `${linkAdds} wikilinks, ${seeAlso.length} see-also for ${pick.slug}`,
+                refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
+  console.log(`[${WORKER}] ${pick.slug}: +${linkAdds} wikilinks, +${seeAlso.length} see-also`);
+}
+
+for (let i = 0; i < BATCH; i++) {
+  await run();
+}

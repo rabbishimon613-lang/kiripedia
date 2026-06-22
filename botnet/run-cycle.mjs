@@ -47,6 +47,9 @@ run('Cataloger-Editor (2/2)', `node ${W('cataloger-editor')} --worker cataloger-
 run('Reviewer', `node ${W('reviewer')}`);
 run('Coordinator', `node ${W('coordinator')}${PUSH ? ' --push' : ''}`);
 run('Indexer', `node ${W('indexer')}`);
+run('Deepener', `node ${W('deepener')} --batch 1`);
+run('Enricher', `node ${W('enricher')} --batch 1`);
+run('Weaver', `node ${W('weaver')} --batch 1`);
 run('Snapshot writer', `node ${LIB('snapshot-writer')}`);
 
 console.log('\n=== cycle complete ===');
