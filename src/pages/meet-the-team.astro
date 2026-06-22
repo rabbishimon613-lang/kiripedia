@@ -46,7 +46,7 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       <h2 id="activity-log">Activity log</h2>
 
       <p>
-        Recent events from the bureau, newest first, idle desks omitted. Timestamps are shown in 24-hour format as recorded by the bureau. The log refreshes every fifteen seconds.
+        Recent events from the bureau, newest first. Timestamps are shown in Eastern Time. The log refreshes every fifteen seconds.
       </p>
 
       <div class="log-wrap">
@@ -108,19 +108,10 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       var firstRender = true;
       function fmtTime(ts) {
         try {
-          if (!ts) return '';
-          var s = String(ts);
-          // ISO with T and Z → parse as UTC, render in local 24h.
-          if (/T/.test(s) && /Z|[+-]\d\d:?\d\d$/.test(s)) {
-            var d = new Date(s);
-            if (!isNaN(d.getTime())) {
-              return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
-            }
-          }
-          // Otherwise: snapshot string is already 24h "YYYY-MM-DD HH:MM:SS" — extract literally.
-          var m = s.match(/(\d{2}):(\d{2}):(\d{2})/);
-          if (m) return m[1] + ':' + m[2] + ':' + m[3];
-          return s;
+          var iso = /T/.test(ts) ? ts : ts.replace(' ', 'T') + 'Z';
+          var d = new Date(iso);
+          if (isNaN(d.getTime())) return ts;
+          return d.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour12: false });
         } catch (e) { return ts; }
       }
       function esc(s) { return String(s).replace(/[&<>"']/g, function (c) {
@@ -165,8 +156,6 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
           var added = 0;
           (snap.bots || []).forEach(function (b) {
             if (!b.ts) return;
-            // Action-only feed: skip idle bots entirely. Going-idle is not an event.
-            if (statusOf(b.action) !== 'working') return;
             var key = b.ts + '::' + b.key + '::' + b.action;
             if (seen.has(key)) return;
             seen.add(key);
@@ -188,28 +177,49 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       setInterval(updateFooter, 1000);
     })();
 
-    // Mobile tap to open office in a new tab. Avoids the iframe-in-iframe race
-    // that stalled the overlay on iOS Safari.
+    // Mobile tap-to-fullscreen overlay for the office iframe.
     (function () {
       if (!window.matchMedia || !window.matchMedia('(pointer: coarse)').matches) return;
       var figure = document.getElementById('mtt-office-figure');
       if (!figure) return;
-
+      // A click guard at figure level intercepts the tap before it reaches the iframe.
       var guard = document.createElement('div');
       guard.className = 'mtt-tap-guard';
-      guard.setAttribute('aria-label', 'Open office in new tab');
+      guard.setAttribute('aria-label', 'Open office fullscreen');
       figure.style.position = 'relative';
       figure.appendChild(guard);
-
-      var moved = false;
-      guard.addEventListener('touchstart', function () { moved = false; }, { passive: true });
-      guard.addEventListener('touchmove', function () { moved = true; }, { passive: true });
       guard.addEventListener('click', function (e) {
-        if (moved) return;
         e.preventDefault();
         e.stopPropagation();
-        window.open('/office/index.html?embed=1', '_blank');
+        openOverlay();
       });
+      function openOverlay() {
+        if (document.getElementById('mtt-office-overlay')) return;
+        var overlay = document.createElement('div');
+        overlay.id = 'mtt-office-overlay';
+        overlay.className = 'mtt-office-overlay';
+        var ifr = document.createElement('iframe');
+        ifr.src = '/office/index.html?embed=1&fullscreen=1';
+        ifr.title = 'KiriPedia editorial bureau — fullscreen';
+        ifr.className = 'mtt-office-overlay-iframe';
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'mtt-office-overlay-close';
+        btn.setAttribute('aria-label', 'Close fullscreen');
+        btn.textContent = '×';
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          overlay.parentNode && overlay.parentNode.removeChild(overlay);
+          document.documentElement.style.overflow = '';
+          document.body.style.overflow = '';
+        });
+        overlay.appendChild(ifr);
+        overlay.appendChild(btn);
+        document.body.appendChild(overlay);
+        document.documentElement.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden';
+      }
     })();
   </script>
 
@@ -299,13 +309,47 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       padding: 2px 2px;
     }
 
-    /* Mobile tap guard — opens office in a new tab */
+    /* Mobile tap-to-fullscreen */
     .mtt-tap-guard {
       position: absolute;
       inset: 8px;
       z-index: 5;
       cursor: pointer;
       background: transparent;
+    }
+    .mtt-office-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: #1a1a1a;
+    }
+    .mtt-office-overlay-iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+      background: #1a1a1a;
+    }
+    .mtt-office-overlay-close {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 44px;
+      height: 44px;
+      min-width: 44px;
+      min-height: 44px;
+      border: 1px solid rgba(255,255,255,0.7);
+      background: rgba(0,0,0,0.55);
+      color: #fff;
+      font-family: sans-serif;
+      font-size: 26px;
+      line-height: 1;
+      padding: 0;
+      border-radius: 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .role-section { margin: 18px 0; }
