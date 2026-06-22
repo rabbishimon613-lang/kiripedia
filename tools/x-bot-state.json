@@ -134,7 +134,8 @@
     "dyk:bojinka-plot:3",
     "quote:john-kiriakou:143",
     "dyk:eli-cohen:1",
-    "quote:peter-strzok:0"
+    "quote:peter-strzok:0",
+    "dyk:safe-housekeeper:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -419,10 +420,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
