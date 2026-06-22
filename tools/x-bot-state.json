@@ -136,7 +136,8 @@
     "dyk:eli-cohen:1",
     "quote:peter-strzok:0",
     "dyk:safe-housekeeper:0",
-    "quote:andres-serrano:2"
+    "quote:andres-serrano:2",
+    "dyk:gerald-post:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -421,10 +422,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
