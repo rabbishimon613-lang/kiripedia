@@ -138,7 +138,8 @@
     "dyk:safe-housekeeper:0",
     "quote:andres-serrano:2",
     "dyk:gerald-post:1",
-    "quote:ghislaine-maxwell:1"
+    "quote:ghislaine-maxwell:1",
+    "dyk:robert-maxwell:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -423,10 +424,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
