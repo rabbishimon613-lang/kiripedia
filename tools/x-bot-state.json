@@ -147,7 +147,8 @@
     "quote:dashti-leyli:1",
     "dyk:fort-chapman:0",
     "quote:dasht-i-leili-massacre:1",
-    "dyk:john-kiriakou:34"
+    "dyk:john-kiriakou:34",
+    "quote:john-brennan:8"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -432,10 +433,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
