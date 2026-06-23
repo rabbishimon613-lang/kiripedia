@@ -1,48 +1,239 @@
 {
-  "generated_at": "2026-06-23T03:42:24.077Z",
-  "window_min": 100000,
-  "scanned": 5,
-  "violation_count": 2,
+  "generated_at": "2026-06-23T03:45:49.415Z",
+  "window_min": 30,
+  "scanned": 50,
+  "violation_count": 18,
   "violations": [
     {
-      "slug": "john-kiriakou",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 33,
-          "samples": [
-            "Kiriakou told",
-            "Kiriakou told",
-            "Kiriakou described"
-          ]
-        },
-        {
-          "kind": "he-recalls",
-          "count": 3,
-          "samples": [
-            "He noted",
-            "He noted",
-            "He notes"
-          ]
-        },
-        {
-          "kind": "allegedly",
-          "count": 2,
-          "samples": [
-            "reportedly",
-            "reportedly"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "leonie-brinkema",
+      "slug": "sleep-deprivation",
       "findings": [
         {
           "kind": "kiriakou-said",
           "count": 1,
           "samples": [
             "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sleeper-agent",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 3,
+          "samples": [
+            "Kiriakou described",
+            "Kiriakou recalled",
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sociopathic-tendencies",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou described",
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "taliban-origin-benazir",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou noted"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "the-farm",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou states"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "thin-thread-stellar-wind",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou says"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "thomas-massie",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tuesday-morning-kill-list",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tyrell-vanto",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou stated"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vault-7",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou said"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "waco-siege",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou said",
+            "Kiriakou said"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "waterboarding",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 4,
+          "samples": [
+            "Kiriakou said",
+            "Kiriakou said",
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yemen-arrest",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou described",
+            "Kiriakou explained"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "david-rockefeller-bahrain",
+      "findings": [
+        {
+          "kind": "he-recalls",
+          "count": 1,
+          "samples": [
+            "He explained"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "diesel-therapy",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "doing-time-like-a-spy",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou told",
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "double-agent-capture",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 3,
+          "samples": [
+            "Kiriakou said",
+            "Kiriakou said",
+            "Kiriakou said"
+          ]
+        },
+        {
+          "kind": "he-recalls",
+          "count": 1,
+          "samples": [
+            "He noted"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "double-agent-marriott-trap",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou told",
+            "Kiriakou said"
           ]
         }
       ]
