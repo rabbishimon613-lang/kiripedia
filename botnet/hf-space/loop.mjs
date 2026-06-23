@@ -37,10 +37,10 @@ createServer((req, res) => {
   res.writeHead(404).end();
 }).listen(PORT, () => console.log(`[loop] health on :${PORT}`));
 
-function git(args) {
+function git(args, { quiet = false } = {}) {
   const r = spawnSync('git', args, { cwd: REPO, encoding: 'utf8' });
-  if (r.status !== 0) console.error(`[loop] git ${args.join(' ')} failed: ${r.stderr?.trim()}`);
-  return r.status === 0;
+  if (r.status !== 0 && !quiet) console.error(`[loop] git ${args.join(' ')} failed: ${r.stderr?.trim()}`);
+  return { ok: r.status === 0, stdout: r.stdout || '', stderr: r.stderr || '' };
 }
 
 function syncToRemote() {
@@ -53,10 +53,29 @@ function syncToRemote() {
     // otherwise fetch/reset will fail until manual intervention.
     spawnSync('sh', ['-c', 'rm -f .git/index.lock .git/refs/**/*.lock .git/HEAD.lock'], { cwd: REPO });
   }
-  if (!git(['fetch', '--depth', '1', 'origin', BRANCH])) return false;
-  if (!git(['reset', '--hard', `origin/${BRANCH}`])) return false;
+  if (!git(['fetch', '--depth', '1', 'origin', BRANCH]).ok) return false;
+  if (!git(['reset', '--hard', `origin/${BRANCH}`]).ok) return false;
   git(['clean', '-fd']);
   return true;
+}
+
+function pushSnapshot() {
+  // After every cycle, commit and push the snapshot if it changed. Cycle
+  // workers handle their own commits for article/source changes; the
+  // snapshot file is owned by this loop.
+  git(['add', 'public/botnet-snapshot.json']);
+  const staged = git(['diff', '--staged', '--quiet'], { quiet: true });
+  if (staged.ok) return; // no diff
+  if (!git(['commit', '-m', 'botnet: update snapshot [skip ci]']).ok) return;
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    if (git(['push', 'origin', BRANCH]).ok) {
+      console.log(`[loop] snapshot pushed (attempt ${attempt})`);
+      return;
+    }
+    console.log(`[loop] snapshot push rejected (attempt ${attempt}); rebasing`);
+    git(['pull', '--rebase', '--autostash', 'origin', BRANCH], { quiet: true });
+  }
+  console.error('[loop] snapshot push failed after 5 attempts');
 }
 
 function runCycle() {
@@ -98,6 +117,7 @@ function runCycle() {
         state.lastCycleStatus = 'sync failed';
       } else {
         await runCycle();
+        pushSnapshot();
       }
     } catch (err) {
       console.error('[loop] cycle threw', err);
