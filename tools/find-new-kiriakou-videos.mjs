@@ -53,11 +53,23 @@ const QUERIES = [
 
 const candidates = new Map(); // videoId → {id, title, durationSec, uploader, date, queryFound}
 
+// Bypass SABR / bot-check on cloud-IP egress (HF Space etc) by pinning the
+// extractor to mweb + skipping streaming manifests we don't need.
+const YTDLP_ARGS = [
+  '--extractor-args', '"youtube:player_client=mweb;skip=hls,dash"',
+  '--sleep-requests', '2',
+  '--no-warnings',
+].join(' ');
+
 for (const q of QUERIES) {
-  const cmd = `yt-dlp --print "%(id)s|%(title)s|%(duration)s|%(uploader)s|%(upload_date)s" "ytsearch${LIMIT}:${q}" 2>/dev/null`;
+  const cmd = `yt-dlp ${YTDLP_ARGS} --print "%(id)s|%(title)s|%(duration)s|%(uploader)s|%(upload_date)s" "ytsearch${LIMIT}:${q}" 2>&1`;
   let out;
   try { out = execSync(cmd, { encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 }); }
-  catch (e) { console.warn(`  search failed: ${q}`); continue; }
+  catch (e) {
+    const tail = (e.stdout || e.stderr || e.message || '').toString().trim().split('\n').slice(-2).join(' | ');
+    console.warn(`  search failed: ${q} :: ${tail}`);
+    continue;
+  }
   for (const line of out.split('\n').filter(Boolean)) {
     const [id, title, dur, uploader, date] = line.split('|');
     if (!id || !title) continue;
