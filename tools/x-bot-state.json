@@ -143,7 +143,8 @@
     "quote:john-kiriakou:85",
     "dyk:john-kiriakou:35",
     "quote:jfk-assassination:0",
-    "dyk:john-kiriakou:46"
+    "dyk:john-kiriakou:46",
+    "quote:dashti-leyli:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -428,10 +429,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
