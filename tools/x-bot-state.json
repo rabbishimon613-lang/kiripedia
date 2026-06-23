@@ -142,7 +142,8 @@
     "dyk:robert-maxwell:0",
     "quote:john-kiriakou:85",
     "dyk:john-kiriakou:35",
-    "quote:jfk-assassination:0"
+    "quote:jfk-assassination:0",
+    "dyk:john-kiriakou:46"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -427,10 +428,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
