@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T03:34:52.983Z",
+  "generated_at": "2026-06-23T03:41:04.070Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,48 +62,48 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-23 03:33:34"
+      "ts": "2026-06-23 03:39:55"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-23 03:33:34"
+      "ts": "2026-06-23 03:39:56"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: ",
       "handoff_to": null,
-      "ts": "2026-06-23 03:33:41"
+      "ts": "2026-06-23 03:40:00"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: No gap for bernie-kerik",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:34:17"
+      "ts": "2026-06-23 03:40:28"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "action": "Done: No peer mentions for admiral-crowe",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:34:27"
+      "ts": "2026-06-23 03:40:37"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: No weaveable articles found",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:34:52"
+      "ts": "2026-06-23 03:41:03"
     }
   ],
   "last_cycle": {
-    "id": 3,
-    "started_at": "2026-06-23 03:33:34",
-    "ended_at": "2026-06-23 03:33:34",
+    "id": 4,
+    "started_at": "2026-06-23 03:39:56",
+    "ended_at": "2026-06-23 03:39:56",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
