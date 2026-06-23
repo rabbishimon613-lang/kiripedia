@@ -26,17 +26,27 @@ const args = process.argv.slice(2);
 const SKIP_DISCOVERY = args.includes('--skip-discovery');
 const PUSH = args.includes('--push');
 
-function run(label, cmd) {
+let leadsFound = 0;
+
+function run(label, cmd, { capture = false } = {}) {
   console.log(`\n=== ${label} ===`);
   try {
+    if (capture) {
+      const out = execSync(cmd, { encoding: 'utf8' });
+      process.stdout.write(out);
+      return out;
+    }
     execSync(cmd, { stdio: 'inherit' });
   } catch (err) {
     console.error(`[run-cycle] ${label} exited ${err.status}; continuing`);
   }
+  return '';
 }
 
 if (!SKIP_DISCOVERY) {
-  run('Recent Changes', `node ${W('recent-changes')}`);
+  const rcOut = run('Recent Changes', `node ${W('recent-changes')}`, { capture: true });
+  const m = rcOut.match(/(\d+)\s+new\s+leads?/i);
+  if (m) leadsFound = parseInt(m[1], 10) || 0;
   run('NPP triage', `node ${W('npp')}`);
 }
 run('Scribe pool (1/3)', `node ${W('scribe')} --worker scribe-1 --batch 1`);
@@ -47,9 +57,15 @@ run('Cataloger-Editor (2/2)', `node ${W('cataloger-editor')} --worker cataloger-
 run('Reviewer', `node ${W('reviewer')}`);
 run('Coordinator', `node ${W('coordinator')}${PUSH ? ' --push' : ''}`);
 run('Indexer', `node ${W('indexer')}`);
-run('Deepener', `node ${W('deepener')} --batch 1`);
-run('Enricher', `node ${W('enricher')} --batch 1`);
-run('Weaver', `node ${W('weaver')} --batch 1`);
+
+// Backlog mode: when discovery is enabled and finds nothing new, the team
+// pivots to mining the existing corpus harder. Otherwise default backlog pace.
+const backlogMode = !SKIP_DISCOVERY && leadsFound === 0;
+const backlogBatch = backlogMode ? 5 : 3;
+if (backlogMode) console.log(`\n[run-cycle] no new leads — backlog mode (batch=${backlogBatch})`);
+run('Deepener', `node ${W('deepener')} --batch ${backlogBatch}`);
+run('Enricher', `node ${W('enricher')} --batch ${backlogBatch}`);
+run('Weaver', `node ${W('weaver')} --batch ${backlogBatch}`);
 run('Snapshot writer', `node ${LIB('snapshot-writer')}`);
 
 console.log('\n=== cycle complete ===');

@@ -27,7 +27,7 @@ jobs:
         env:
           CEREBRAS_KEYS: ${{ secrets.CEREBRAS_KEYS }}
           GROQ_KEYS: ${{ secrets.GROQ_KEYS }}
-        run: node botnet/run-cycle.mjs --skip-discovery
+        run: node botnet/run-cycle.mjs
       - name: Commit snapshot
         run: |
           git config user.name "kiripedia-bot"
