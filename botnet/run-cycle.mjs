@@ -23,7 +23,10 @@ const W = (name) => join(HERE, 'workers', `${name}.mjs`);
 const LIB = (name) => join(HERE, 'lib', `${name}.mjs`);
 
 const args = process.argv.slice(2);
-const SKIP_DISCOVERY = args.includes('--skip-discovery');
+// Discovery is off by default. The team works the existing 88h corpus
+// (~798k transcript words) until we hit our 500k woven-prose goal.
+// Re-enable per cycle with `--with-discovery` once acquisition is solved.
+const SKIP_DISCOVERY = !args.includes('--with-discovery');
 const PUSH = args.includes('--push');
 
 let discoveryOk = false;
