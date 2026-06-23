@@ -26,6 +26,7 @@ const args = process.argv.slice(2);
 const SKIP_DISCOVERY = args.includes('--skip-discovery');
 const PUSH = args.includes('--push');
 
+let discoveryOk = false;
 let leadsFound = 0;
 
 function run(label, cmd, { capture = false } = {}) {
@@ -34,19 +35,25 @@ function run(label, cmd, { capture = false } = {}) {
     if (capture) {
       const out = execSync(cmd, { encoding: 'utf8' });
       process.stdout.write(out);
-      return out;
+      return { ok: true, out };
     }
     execSync(cmd, { stdio: 'inherit' });
+    return { ok: true, out: '' };
   } catch (err) {
     console.error(`[run-cycle] ${label} exited ${err.status}; continuing`);
+    return { ok: false, out: '' };
   }
-  return '';
 }
 
 if (!SKIP_DISCOVERY) {
-  const rcOut = run('Recent Changes', `node ${W('recent-changes')}`, { capture: true });
-  const m = rcOut.match(/(\d+)\s+new\s+leads?/i);
-  if (m) leadsFound = parseInt(m[1], 10) || 0;
+  const rc = run('Recent Changes', `node ${W('recent-changes')}`, { capture: true });
+  if (rc.ok) {
+    const m = rc.out.match(/(\d+)\s+new\s+leads?/i);
+    if (m) {
+      discoveryOk = true;
+      leadsFound = parseInt(m[1], 10) || 0;
+    }
+  }
   run('NPP triage', `node ${W('npp')}`);
 }
 run('Scribe pool (1/3)', `node ${W('scribe')} --worker scribe-1 --batch 1`);
@@ -60,7 +67,7 @@ run('Indexer', `node ${W('indexer')}`);
 
 // Backlog mode: when discovery is enabled and finds nothing new, the team
 // pivots to mining the existing corpus harder. Otherwise default backlog pace.
-const backlogMode = !SKIP_DISCOVERY && leadsFound === 0;
+const backlogMode = !SKIP_DISCOVERY && discoveryOk && leadsFound === 0;
 const backlogBatch = backlogMode ? 5 : 3;
 if (backlogMode) console.log(`\n[run-cycle] no new leads — backlog mode (batch=${backlogBatch})`);
 run('Deepener', `node ${W('deepener')} --batch ${backlogBatch}`);
