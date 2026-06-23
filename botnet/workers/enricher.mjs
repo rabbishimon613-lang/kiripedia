@@ -9,7 +9,7 @@
 // Run: node botnet/workers/enricher.mjs [--batch N]
 
 import { execSync } from 'node:child_process';
-import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { readdirSync, readFileSync, statSync, utimesSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
@@ -40,19 +40,25 @@ function incomingLinks(slug) {
   }
 }
 
-function pickArticle() {
+const COOLDOWN_MS = 2 * 60 * 60 * 1000; // 2h
+
+function pickArticle(exclude = new Set()) {
+  const now = Date.now();
   const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.mdx'));
-  let best = null;
-  let bestScore = Infinity;
+  const candidates = [];
   for (const f of files) {
     const slug = f.replace(/\.mdx$/, '');
+    if (exclude.has(slug)) continue;
+    const path = join(ARTICLES_DIR, f);
+    let mtime;
+    try { mtime = statSync(path).mtimeMs; } catch { continue; }
+    if (now - mtime < COOLDOWN_MS) continue;
     const links = incomingLinks(slug);
-    if (links < bestScore) {
-      bestScore = links;
-      best = { slug, path: join(ARTICLES_DIR, f), incoming: links };
-    }
+    candidates.push({ slug, path, incoming: links });
   }
-  return best;
+  // Most-orphan first, alphabetical tie-break to avoid always picking the same.
+  candidates.sort((a, b) => a.incoming - b.incoming || a.slug.localeCompare(b.slug));
+  return candidates[0] || null;
 }
 
 const SYSTEM = `You are the Cross-Source Enricher for KiriPedia.
@@ -88,16 +94,9 @@ const SCHEMA = {
   },
 };
 
-async function run() {
+async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: 'Scanning for orphan articles' });
-
-  const pick = pickArticle();
-  if (!pick) {
-    logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: 'No articles found', handoffTo: 'coordinator' });
-    return;
-  }
+                detail: `Enriching ${pick.slug}` });
   console.log(`[${WORKER}] picked ${pick.slug} (incoming=${pick.incoming})`);
 
   // Gather peer mentions: grep article files for terms from the slug.
@@ -112,6 +111,9 @@ async function run() {
   const peerFiles = mentions.split('\n').filter(Boolean).filter(f => !f.endsWith(`${pick.slug}.mdx`));
 
   if (peerFiles.length === 0) {
+    // Bump mtime so the cooldown filter rotates this article out next cycle
+    // instead of re-picking the same dead-end.
+    try { const n = new Date(); utimesSync(pick.path, n, n); } catch {}
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
                   detail: `No peer mentions for ${pick.slug}`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
@@ -181,6 +183,17 @@ async function run() {
   console.log(`[${WORKER}] ${pick.slug}: +${linkAdds} wikilinks, +${seeAlso.length} see-also`);
 }
 
+const touched = new Set();
 for (let i = 0; i < BATCH; i++) {
-  await run();
+  const pick = pickArticle(touched);
+  if (!pick) {
+    if (i === 0) {
+      logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+                    detail: 'No orphan candidates available (all on cooldown)',
+                    handoffTo: 'coordinator' });
+    }
+    break;
+  }
+  touched.add(pick.slug);
+  await run(pick);
 }

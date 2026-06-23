@@ -68,14 +68,20 @@ run('Reviewer', `node ${W('reviewer')}`);
 run('Coordinator', `node ${W('coordinator')}${PUSH ? ' --push' : ''}`);
 run('Indexer', `node ${W('indexer')}`);
 
-// Backlog mode: when discovery is enabled and finds nothing new, the team
-// pivots to mining the existing corpus harder. Otherwise default backlog pace.
+// Inward-focus mode (current default per project decision 2026-06-22):
+// discovery is off, team mines the existing 88h corpus to weave the 279
+// articles up to ~1800w each (Wikipedia C-class). Batches cranked higher
+// because the picker cooldown (2h deepener/enricher, 4h weaver) prevents
+// any single article from being touched more than once per cycle.
+const inwardMode = SKIP_DISCOVERY;
 const backlogMode = !SKIP_DISCOVERY && discoveryOk && leadsFound === 0;
-const backlogBatch = backlogMode ? 5 : 3;
-if (backlogMode) console.log(`\n[run-cycle] no new leads — backlog mode (batch=${backlogBatch})`);
-run('Deepener', `node ${W('deepener')} --batch ${backlogBatch}`);
-run('Enricher', `node ${W('enricher')} --batch ${backlogBatch}`);
-run('Weaver', `node ${W('weaver')} --batch ${backlogBatch}`);
+const miningBatch = inwardMode ? 10 : backlogMode ? 5 : 3;
+if (inwardMode) console.log(`\n[run-cycle] inward mode (mining batch=${miningBatch})`);
+else if (backlogMode) console.log(`\n[run-cycle] no new leads — backlog mode (batch=${miningBatch})`);
+run('Deepener', `node ${W('deepener')} --batch ${miningBatch}`);
+run('Enricher', `node ${W('enricher')} --batch ${miningBatch}`);
+run('Weaver', `node ${W('weaver')} --batch ${miningBatch}`);
+run('Mouth Sentry', `node ${W('mouth-sentry')}`);
 run('Snapshot writer', `node ${LIB('snapshot-writer')}`);
 
 console.log('\n=== cycle complete ===');

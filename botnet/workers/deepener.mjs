@@ -57,24 +57,31 @@ function citeCount(body) {
   return m ? m.length : 0;
 }
 
-function pickArticle() {
+const COOLDOWN_MS = 2 * 60 * 60 * 1000; // 2h — don't re-touch within this window
+
+function pickArticle(exclude = new Set()) {
+  const now = Date.now();
   const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.mdx'));
-  let best = null;
-  let bestDelta = -Infinity;
+  const candidates = [];
   for (const f of files) {
     const slug = f.replace(/\.mdx$/, '');
+    if (exclude.has(slug)) continue;
     const path = join(ARTICLES_DIR, f);
-    let body;
-    try { body = readFileSync(path, 'utf8'); } catch { continue; }
+    let body, mtime;
+    try {
+      body = readFileSync(path, 'utf8');
+      mtime = statSync(path).mtimeMs;
+    } catch { continue; }
+    if (now - mtime < COOLDOWN_MS) continue; // recently touched, skip
     const mentions = mentionCount(slug);
     const cites = citeCount(body);
     const delta = mentions - cites;
-    if (delta > bestDelta) {
-      bestDelta = delta;
-      best = { slug, path, body, mentions, cites, delta };
-    }
+    if (delta <= 0) continue; // no gap to fill
+    candidates.push({ slug, path, body, mentions, cites, delta });
   }
-  return best;
+  // Highest delta first; tie-break on fewer existing cites (more under-cited).
+  candidates.sort((a, b) => b.delta - a.delta || a.cites - b.cites);
+  return candidates[0] || null;
 }
 
 const SYSTEM = `You are the Transcript Deepener for KiriPedia, a Wikipedia-style wiki of John Kiriakou's video appearances.
@@ -104,24 +111,10 @@ const SCHEMA = {
   },
 };
 
-async function run() {
+async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: 'Scanning articles for citation gaps' });
-
-  const pick = pickArticle();
-  if (!pick) {
-    logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: 'No articles found', handoffTo: 'coordinator' });
-    return;
-  }
+                detail: `Deepening ${pick.slug}` });
   console.log(`[${WORKER}] picked ${pick.slug} (mentions=${pick.mentions}, cites=${pick.cites}, delta=${pick.delta})`);
-
-  if (pick.delta <= 0) {
-    logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `No gap for ${pick.slug}`, refKind: 'article', refId: pick.slug,
-                  handoffTo: 'coordinator' });
-    return;
-  }
 
   // Pull a handful of supporting excerpts for the LLM.
   const slugTerm = pick.slug.split('-').filter(t => t.length >= 4)[0] || pick.slug;
@@ -171,6 +164,17 @@ async function run() {
   console.log(`[${WORKER}] ${pick.slug}: +${added} cites`);
 }
 
+const touched = new Set();
 for (let i = 0; i < BATCH; i++) {
-  await run();
+  const pick = pickArticle(touched);
+  if (!pick) {
+    if (i === 0) {
+      logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+                    detail: 'No gap candidates available (all on cooldown or zero-delta)',
+                    handoffTo: 'coordinator' });
+    }
+    break;
+  }
+  touched.add(pick.slug);
+  await run(pick);
 }

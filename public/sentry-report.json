@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-06-23T03:42:24.077Z",
+  "window_min": 100000,
+  "scanned": 5,
+  "violation_count": 2,
+  "violations": [
+    {
+      "slug": "john-kiriakou",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 33,
+          "samples": [
+            "Kiriakou told",
+            "Kiriakou told",
+            "Kiriakou described"
+          ]
+        },
+        {
+          "kind": "he-recalls",
+          "count": 3,
+          "samples": [
+            "He noted",
+            "He noted",
+            "He notes"
+          ]
+        },
+        {
+          "kind": "allegedly",
+          "count": 2,
+          "samples": [
+            "reportedly",
+            "reportedly"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leonie-brinkema",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    }
+  ]
+}
