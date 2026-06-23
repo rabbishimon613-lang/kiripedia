@@ -25,6 +25,8 @@ const WORKER = args[args.indexOf('--worker') + 1] || 'enricher';
 const ROLE = 'enricher';
 const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
 
+const humanize = s => s.replace(/-\d{4}$/, '').split('-').map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
+
 function shellQuote(s) {
   return `'${s.replace(/'/g, "'\\''")}'`;
 }
@@ -93,7 +95,7 @@ const SCHEMA = {
 
 async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Enriching ${pick.slug}` });
+                detail: `Seeing who ${humanize(pick.slug)} knows around here.` });
   console.log(`[${WORKER}] picked ${pick.slug} (incoming=${pick.incoming})`);
 
   // Gather peer mentions: grep article files for terms from the slug.
@@ -109,7 +111,7 @@ async function run(pick) {
 
   if (peerFiles.length === 0) {
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `No peer mentions for ${pick.slug}`,
+                  detail: `${humanize(pick.slug)} doesn't come up anywhere else yet.`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
     return;
   }
@@ -117,7 +119,7 @@ async function run(pick) {
   let body;
   try { body = readFileSync(pick.path, 'utf8'); } catch {
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Read failed for ${pick.slug}`, handoffTo: 'coordinator' });
+                  detail: `Couldn't open ${humanize(pick.slug)} — file's stuck.`, handoffTo: 'coordinator' });
     return;
   }
 
@@ -140,7 +142,7 @@ async function run(pick) {
   } catch (err) {
     console.warn(`[${WORKER}] LLM unavailable (${err.message.slice(0, 120)}); skipping enrich pass`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Skipped ${pick.slug} (no LLM)`,
+                  detail: `Pausing on ${humanize(pick.slug)} until the phone line clears.`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
     return;
   }
@@ -172,7 +174,7 @@ async function run(pick) {
   }
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `${linkAdds} wikilinks, ${seeAlso.length} see-also for ${pick.slug}`,
+                detail: `Cross-linked ${humanize(pick.slug)} to ${linkAdds} other folks, added ${seeAlso.length} "see also."`,
                 refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
   console.log(`[${WORKER}] ${pick.slug}: +${linkAdds} wikilinks, +${seeAlso.length} see-also`);
 }
@@ -183,7 +185,7 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: 'No orphan candidates available (all on cooldown)',
+                    detail: "Everybody's already introduced. Walking back to my desk.",
                     handoffTo: 'coordinator' });
     }
     break;

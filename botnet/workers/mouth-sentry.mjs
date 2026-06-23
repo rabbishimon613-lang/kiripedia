@@ -70,7 +70,7 @@ function scanFile(path) {
 }
 
 logActivity({ worker: WORKER, role: ROLE, event: 'start',
-              detail: `Scanning articles touched in last ${WINDOW_MIN}min` });
+              detail: `Reading through whatever the others changed in the last ${WINDOW_MIN} minutes.` });
 
 const now = Date.now();
 const cutoff = now - WINDOW_MIN * 60 * 1000;
@@ -105,5 +105,5 @@ writeFileSync(REPORT_PATH, JSON.stringify({
 const totalIssues = violations.reduce((acc, v) => acc + v.findings.reduce((a, f) => a + f.count, 0), 0);
 
 logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-              detail: `Scanned ${scanned.length}, ${violations.length} articles with ${totalIssues} issues` });
+              detail: `Went through ${scanned.length}. ${violations.length} of them need a word about their tone (${totalIssues} things to fix).` });
 console.log(`[${WORKER}] scanned ${scanned.length} recent articles; ${violations.length} flagged (${totalIssues} total issues)`);

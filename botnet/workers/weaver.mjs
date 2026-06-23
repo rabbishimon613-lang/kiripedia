@@ -25,6 +25,8 @@ const args = process.argv.slice(2);
 const WORKER = args[args.indexOf('--worker') + 1] || 'weaver';
 const ROLE = 'weaver';
 const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
+
+const humanize = s => s.replace(/-\d{4}$/, '').split('-').map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
 // Lowered from 8 → 1: with ~798k transcript words spread across ~63
 // transcripts, even a single grep hit means there's corpus material to draw
 // on. The old threshold rejected most stubs from ever being woven.
@@ -98,13 +100,13 @@ const SCHEMA = {
 
 async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Weaving ${pick.slug}` });
+                detail: `Working up the entry for ${humanize(pick.slug)}.` });
   console.log(`[${WORKER}] picked ${pick.slug} (size=${pick.size}b, mentions=${pick.mentions})`);
 
   let orig;
   try { orig = readFileSync(pick.path, 'utf8'); } catch {
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Read failed for ${pick.slug}`, handoffTo: 'coordinator' });
+                  detail: `Can't get the draft for ${humanize(pick.slug)} open.`, handoffTo: 'coordinator' });
     return;
   }
 
@@ -134,7 +136,7 @@ async function run(pick) {
   } catch (err) {
     console.warn(`[${WORKER}] LLM unavailable (${err.message.slice(0, 120)}); skipping weave`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Skipped ${pick.slug} (no LLM)`,
+                  detail: `Putting ${humanize(pick.slug)} back in the inbox for now.`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
     return;
   }
@@ -143,7 +145,7 @@ async function run(pick) {
   if (newBody.length < body.length) {
     console.warn(`[${WORKER}] weave produced shorter body (${newBody.length} < ${body.length}); skipping write`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Weave rejected for ${pick.slug} (shrunk)`,
+                  detail: `Threw out my draft of ${humanize(pick.slug)} — came out shorter than I started.`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
     return;
   }
@@ -151,7 +153,7 @@ async function run(pick) {
   writeFileSync(pick.path, frontmatter + newBody + '\n');
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `Wove ${pick.slug} (${body.length} → ${newBody.length} chars)`,
+                detail: `Finished ${humanize(pick.slug)}. Grew it from ${body.length} to ${newBody.length} characters.`,
                 refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
   console.log(`[${WORKER}] ${pick.slug}: ${body.length} → ${newBody.length} chars`);
 }
@@ -162,7 +164,7 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: 'No stub candidates available (all on cooldown or above weaver threshold)',
+                    detail: 'No half-finished pages on my desk. Nice.',
                     handoffTo: 'coordinator' });
     }
     break;

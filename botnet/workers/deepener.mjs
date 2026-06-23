@@ -30,6 +30,9 @@ const WORKER = args[args.indexOf('--worker') + 1] || 'deepener';
 const ROLE = 'deepener';
 const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
 
+// Title-cased phrase for log voice. "abu-zubaydah-capture" → "Abu Zubaydah Capture".
+const humanize = s => s.replace(/-\d{4}$/, '').split('-').map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
+
 function shellQuote(s) {
   return `'${s.replace(/'/g, "'\\''")}'`;
 }
@@ -112,7 +115,7 @@ const SCHEMA = {
 
 async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Deepening ${pick.slug}` });
+                detail: `Sitting down with ${humanize(pick.slug)}.` });
   console.log(`[${WORKER}] picked ${pick.slug} (mentions=${pick.mentions}, cites=${pick.cites}, delta=${pick.delta})`);
 
   // Pull a handful of supporting excerpts for the LLM.
@@ -136,7 +139,7 @@ async function run(pick) {
   } catch (err) {
     console.warn(`[${WORKER}] LLM unavailable (${err.message.slice(0, 120)}); skipping deepen pass`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Skipped ${pick.slug} (no LLM)`, refKind: 'article', refId: pick.slug,
+                  detail: `Set ${humanize(pick.slug)} aside — pen ran dry.`, refKind: 'article', refId: pick.slug,
                   handoffTo: 'coordinator' });
     return;
   }
@@ -158,7 +161,7 @@ async function run(pick) {
   }
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `${added} cites added to ${pick.slug}`,
+                detail: `Pinned ${added} new footnotes onto ${humanize(pick.slug)}.`,
                 refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
   console.log(`[${WORKER}] ${pick.slug}: +${added} cites`);
 }
@@ -169,7 +172,7 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: 'No gap candidates available (all on cooldown or zero-delta)',
+                    detail: 'Everything looks well-cited today. Tea break.',
                     handoffTo: 'coordinator' });
     }
     break;

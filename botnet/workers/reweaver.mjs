@@ -36,6 +36,8 @@ const COOLDOWN_SEC = 14 * 24 * 60 * 60; // 14d — heavy rewrites don't re-stage
 const MIN_SIZE = 4000;   // ~800 words
 const MAX_SIZE = 12500;  // ~2500 words
 
+const humanize = s => s.replace(/-\d{4}$/, '').split('-').map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
+
 function shellQuote(s) {
   return `'${s.replace(/'/g, "'\\''")}'`;
 }
@@ -109,7 +111,7 @@ const SCHEMA = {
 
 async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Reweaving ${pick.slug} (size=${pick.size}b, rag=${pick.score}, cites=${pick.cites})` });
+                detail: `Reworking ${humanize(pick.slug)} — feels choppy.` });
   console.log(`[${WORKER}] picked ${pick.slug} (size=${pick.size}b, rag=${pick.score}, cites=${pick.cites})`);
 
   const fmMatch = pick.body.match(/^---\n[\s\S]*?\n---\n/);
@@ -140,7 +142,7 @@ async function run(pick) {
   } catch (err) {
     console.warn(`[${WORKER}] LLM unavailable (${err.message.slice(0, 120)}); skipping reweave`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Skipped ${pick.slug} (no LLM)`, handoffTo: 'coordinator' });
+                  detail: `Pinning ${humanize(pick.slug)} back on the corkboard. Not the moment.`, handoffTo: 'coordinator' });
     return;
   }
 
@@ -152,14 +154,14 @@ async function run(pick) {
   if (missing.length > 0) {
     console.warn(`[${WORKER}] reweave dropped ${missing.length}/${inputCites.length} citations; rejecting`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Reweave rejected for ${pick.slug} (lost ${missing.length} cites)`,
+                  detail: `Threw out my pass on ${humanize(pick.slug)} — I dropped ${missing.length} footnotes. Unacceptable.`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
     return;
   }
   if (newBody.length < body.length * 1.1) {
     console.warn(`[${WORKER}] reweave didn't grow body enough (${body.length} → ${newBody.length}); rejecting`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Reweave rejected for ${pick.slug} (insufficient growth)`,
+                  detail: `Walked back from ${humanize(pick.slug)}. My version wasn't actually better.`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
     return;
   }
@@ -167,7 +169,7 @@ async function run(pick) {
   writeFileSync(pick.path, frontmatter + newBody + '\n');
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `Rewove ${pick.slug} (${body.length} → ${newBody.length} chars, ${inputCites.length} cites preserved)`,
+                detail: `${humanize(pick.slug)} reads cleanly now. Kept every footnote.`,
                 refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
   console.log(`[${WORKER}] ${pick.slug}: ${body.length} → ${newBody.length} chars, ${inputCites.length} cites preserved`);
 }
@@ -178,7 +180,7 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: 'No rag-pile candidates (all on cooldown or below threshold)',
+                    detail: "Nothing on my desk is bothering me. Rare.",
                     handoffTo: 'coordinator' });
     }
     break;

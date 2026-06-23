@@ -32,6 +32,8 @@ const ROLE = 'prospector';
 const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
 const COOLDOWN_SEC = 6 * 60 * 60; // 6h per transcript
 
+const humanize = s => s.replace(/-\d{4}$/, '').split('-').map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
+
 function shellQuote(s) {
   return `'${s.replace(/'/g, "'\\''")}'`;
 }
@@ -132,7 +134,7 @@ function appendProposals(sourceSlug, proposals) {
 
 async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Prospecting ${pick.slug} (${pick.words}w, ${pick.cites} cites)` });
+                detail: `Going through the ${humanize(pick.slug)} transcript for anything new.` });
   console.log(`[${WORKER}] picked ${pick.slug} (words=${pick.words}, cites=${pick.cites})`);
 
   const slugs = knownSlugs();
@@ -149,7 +151,7 @@ async function run(pick) {
   } catch (err) {
     console.warn(`[${WORKER}] LLM unavailable (${err.message.slice(0, 120)}); skipping prospect`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Skipped ${pick.slug} (no LLM)`, handoffTo: 'coordinator' });
+                  detail: `Bookmarking ${humanize(pick.slug)} for later.`, handoffTo: 'coordinator' });
     return;
   }
 
@@ -159,7 +161,7 @@ async function run(pick) {
   const total = appendProposals(pick.slug, validProposals);
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `${validProposals.length} proposals from ${pick.slug} (queue total: ${total})`,
+                detail: `Pulled ${validProposals.length} fresh leads out of ${humanize(pick.slug)}. ${total} sitting in the tray.`,
                 refKind: 'source', refId: pick.slug, handoffTo: 'coordinator' });
   console.log(`[${WORKER}] ${pick.slug}: +${validProposals.length} proposals (queue: ${total})`);
 }
@@ -170,7 +172,7 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: 'No prospectable transcripts (all on cooldown)',
+                    detail: 'Read everything in the pile. Waiting for fresh tape.',
                     handoffTo: 'coordinator' });
     }
     break;
