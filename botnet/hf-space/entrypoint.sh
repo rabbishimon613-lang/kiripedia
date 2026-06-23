@@ -5,7 +5,7 @@ set -eu
 : "${CEREBRAS_KEYS:?CEREBRAS_KEYS secret missing}"
 : "${GROQ_KEYS:?GROQ_KEYS secret missing}"
 
-REPO_URL="${REPO_URL:-https://github.com/projectmamad48/KiriPedia.git}"
+REPO_URL="${REPO_URL:-https://github.com/rabbishimon613-lang/kiripedia.git}"
 REPO_BRANCH="${REPO_BRANCH:-main}"
 WORK_DIR="/app/repo"
 

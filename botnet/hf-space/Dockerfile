@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-ARG REPO_URL=https://github.com/projectmamad48/KiriPedia.git
+ARG REPO_URL=https://github.com/rabbishimon613-lang/kiripedia.git
 ARG REPO_BRANCH=main
 ENV REPO_URL=${REPO_URL} REPO_BRANCH=${REPO_BRANCH}
 
