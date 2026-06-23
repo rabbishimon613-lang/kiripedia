@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T03:50:57.488Z",
+  "generated_at": "2026-06-23T03:58:02.150Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,55 +62,69 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-23 03:50:52"
+      "ts": "2026-06-23 03:56:01"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-23 03:50:53"
+      "ts": "2026-06-23 03:56:01"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: ",
       "handoff_to": null,
-      "ts": "2026-06-23 03:50:57"
+      "ts": "2026-06-23 03:56:09"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: No gap candidates available (all on cooldown or zero-delta)",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:50:57"
+      "ts": "2026-06-23 03:56:35"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: No orphan candidates available (all on cooldown)",
+      "action": "Done: No peer mentions for black-cube",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:50:57"
+      "ts": "2026-06-23 03:57:48"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
-      "action": "Done: No weaveable candidates available (all on cooldown)",
+      "action": "Done: No stub candidates available (all on cooldown or above weaver threshold)",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:50:57"
+      "ts": "2026-06-23 03:57:59"
+    },
+    {
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "action": "Done: Skipped bojinka-plot (no LLM)",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-23 03:58:01"
+    },
+    {
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "action": "Done: Skipped 2026-04-14-deep-focus-iran-war-media-bias (no LLM)",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-23 03:56:15"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "action": "Done: Scanned 50, 18 articles with 31 issues",
       "handoff_to": null,
-      "ts": "2026-06-23 03:50:57"
+      "ts": "2026-06-23 03:58:01"
     }
   ],
   "last_cycle": {
-    "id": 2,
-    "started_at": "2026-06-23 03:50:53",
-    "ended_at": "2026-06-23 03:50:53",
+    "id": 3,
+    "started_at": "2026-06-23 03:56:01",
+    "ended_at": "2026-06-23 03:56:01",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
