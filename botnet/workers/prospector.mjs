@@ -134,7 +134,7 @@ function appendProposals(sourceSlug, proposals) {
 
 async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Going through the ${humanize(pick.slug)} transcript for anything new.` });
+                detail: `Opened the ${humanize(pick.slug)} transcript — hunting for unmined claims.` });
   console.log(`[${WORKER}] picked ${pick.slug} (words=${pick.words}, cites=${pick.cites})`);
 
   const slugs = knownSlugs();
@@ -151,7 +151,7 @@ async function run(pick) {
   } catch (err) {
     console.warn(`[${WORKER}] LLM unavailable (${err.message.slice(0, 120)}); skipping prospect`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Bookmarking ${humanize(pick.slug)} for later.`, handoffTo: 'coordinator' });
+                  detail: `Set the ${humanize(pick.slug)} transcript aside — keys are jammed.`, handoffTo: 'coordinator' });
     return;
   }
 
@@ -172,7 +172,7 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: 'Read everything in the pile. Waiting for fresh tape.',
+                    detail: 'Reviewed every transcript on the shelf — all mined this round.',
                     handoffTo: 'coordinator' });
     }
     break;

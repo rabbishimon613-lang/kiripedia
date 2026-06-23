@@ -95,7 +95,7 @@ const SCHEMA = {
 
 async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Seeing who ${humanize(pick.slug)} knows around here.` });
+                detail: `Opened ${humanize(pick.slug)} — looking for peer articles to cross-link.` });
   console.log(`[${WORKER}] picked ${pick.slug} (incoming=${pick.incoming})`);
 
   // Gather peer mentions: grep article files for terms from the slug.
@@ -111,7 +111,7 @@ async function run(pick) {
 
   if (peerFiles.length === 0) {
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `${humanize(pick.slug)} doesn't come up anywhere else yet.`,
+                  detail: `Searched the shelf for ${humanize(pick.slug)} — it's a true orphan so far.`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
     return;
   }
@@ -185,7 +185,7 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: "Everybody's already introduced. Walking back to my desk.",
+                    detail: 'Reviewed every article — all are well-introduced this round.',
                     handoffTo: 'coordinator' });
     }
     break;

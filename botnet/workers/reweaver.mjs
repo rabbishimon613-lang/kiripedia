@@ -111,7 +111,7 @@ const SCHEMA = {
 
 async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Reworking ${humanize(pick.slug)} — feels choppy.` });
+                detail: `Opened ${humanize(pick.slug)} — the prose reads choppy, rewriting.` });
   console.log(`[${WORKER}] picked ${pick.slug} (size=${pick.size}b, rag=${pick.score}, cites=${pick.cites})`);
 
   const fmMatch = pick.body.match(/^---\n[\s\S]*?\n---\n/);
@@ -180,7 +180,7 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: "Nothing on my desk is bothering me. Rare.",
+                    detail: 'Reviewed every medium article — none read raggy this round.',
                     handoffTo: 'coordinator' });
     }
     break;

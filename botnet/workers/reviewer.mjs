@@ -39,13 +39,13 @@ const pending = db.prepare(`
 `).all(BATCH);
 
 if (pending.length === 0) {
-  logActivity({ worker: WORKER, role: ROLE, event: 'idle', detail: 'no pending claims' });
+  logActivity({ worker: WORKER, role: ROLE, event: 'idle', detail: 'Checked the claim queue — empty, all caught up.' });
   console.log('[reviewer] no pending claims.');
   process.exit(0);
 }
 
 logActivity({ worker: WORKER, role: ROLE, event: 'start',
-              detail: `Reviewing ${pending.length} claims` });
+              detail: `Working through ${pending.length} pending claims.` });
 
 const updatePass = db.prepare(`
   UPDATE claims SET status=?, confidence=?, review_notes=?, reviewed_at=datetime('now')
@@ -82,6 +82,6 @@ for (const claim of pending) {
 }
 
 logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-              detail: `pass=${passed} low=${low} quar=${quarantined}`,
+              detail: `Passed ${passed} claims, weak-passed ${low}, quarantined ${quarantined}.`,
               handoffTo: 'coordinator' });
 console.log(`[${WORKER}] pass=${passed} low=${low} quarantined=${quarantined}`);

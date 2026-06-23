@@ -39,7 +39,7 @@ function makeSlug(clip) {
 
 async function scribeOne(clip) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Pulling ${clip.video_id}`, refKind: 'clip', refId: clip.video_id });
+                detail: `Pulling captions for clip ${clip.video_id}.`, refKind: 'clip', refId: clip.video_id });
 
   const ymd = clip.upload_date || new Date().toISOString().slice(0, 10).replace(/-/g, '');
   const rawStem = `${ymd}-${clip.video_id}`;
@@ -128,7 +128,7 @@ async function scribeOne(clip) {
     .run(slug, sourcePath.replace(REPO_ROOT + '/', ''), clip.video_id);
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `Transcribed ${slug}`, refKind: 'clip', refId: clip.video_id,
+                detail: `Transcribed clip ${slug}.`, refKind: 'clip', refId: clip.video_id,
                 handoffTo: 'cataloger' });
   return true;
 }

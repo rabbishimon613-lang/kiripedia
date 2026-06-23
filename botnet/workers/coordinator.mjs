@@ -30,7 +30,7 @@ const DRY = args.includes('--dry-run');
 const WORKER = 'coordinator';
 const ROLE = 'coordinator';
 
-logActivity({ worker: WORKER, role: ROLE, event: 'start', detail: 'cycle begin' });
+logActivity({ worker: WORKER, role: ROLE, event: 'start', detail: 'Collecting passed claims for filing.' });
 
 const cycle = db.prepare(`INSERT INTO cycles DEFAULT VALUES`).run();
 const cycleId = cycle.lastInsertRowid;
@@ -47,7 +47,7 @@ const claims = db.prepare(`
 if (claims.length === 0) {
   db.prepare(`UPDATE cycles SET ended_at=datetime('now'), status='committed', claims_merged=0 WHERE id=?`)
     .run(cycleId);
-  logActivity({ worker: WORKER, role: ROLE, event: 'idle', detail: 'no passed claims' });
+  logActivity({ worker: WORKER, role: ROLE, event: 'idle', detail: 'Checked the inbox — no passed claims waiting to file.' });
   console.log('[coordinator] no claims to merge.');
   process.exit(0);
 }
@@ -187,5 +187,5 @@ db.prepare(`UPDATE cycles SET ended_at=datetime('now'), status='committed',
   .run(totalMerged, touchedArticles.size, sha, cycleId);
 
 logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-              detail: `merged=${totalMerged} articles=${touchedArticles.size} sha=${sha?.slice(0,7) || 'nochange'}` });
+              detail: `Filed ${totalMerged} claims into ${touchedArticles.size} articles${sha ? ' (commit ' + sha.slice(0,7) + ').' : ' — no commit needed.'}` });
 console.log(`[coordinator] merged ${totalMerged} claims into ${touchedArticles.size} articles. sha=${sha?.slice(0,7) || '(no change)'}`);

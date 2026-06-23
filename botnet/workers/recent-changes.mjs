@@ -20,7 +20,7 @@ const ROLE = 'recent-changes';
 const args = process.argv.slice(2);
 const LIMIT = parseInt(args[args.indexOf('--limit') + 1]) || 40;
 
-logActivity({ worker: WORKER, role: ROLE, event: 'start', detail: `Polling YouTube, limit=${LIMIT}` });
+logActivity({ worker: WORKER, role: ROLE, event: 'start', detail: `Polling YouTube for new Kiriakou videos (up to ${LIMIT}).` });
 
 let raw;
 try {
@@ -31,7 +31,7 @@ try {
   });
 } catch (err) {
   console.error('[recent-changes] finder failed:', err.message);
-  logActivity({ worker: WORKER, role: ROLE, event: 'finish', detail: 'finder failed' });
+  logActivity({ worker: WORKER, role: ROLE, event: 'finish', detail: 'YouTube poll failed — couldn\'t reach the site.' });
   process.exit(1);
 }
 
@@ -74,6 +74,6 @@ for (const m of raw.matchAll(VIDEO_ID_RE)) {
 
 logActivity({
   worker: WORKER, role: ROLE, event: 'finish',
-  detail: `Saw ${seen.size}, added ${added} new leads`,
+  detail: `Saw ${seen.size} videos on YouTube, kept ${added} new leads.`,
 });
 console.log(`[recent-changes] saw ${seen.size} videos, ${added} new leads written.`);

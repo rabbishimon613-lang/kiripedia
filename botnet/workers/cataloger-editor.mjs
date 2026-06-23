@@ -137,7 +137,7 @@ async function catalogOne(clip) {
   const existingSlugSet = existingSlugs();
 
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Cataloging ${clip.slug}`, refKind: 'clip', refId: clip.video_id });
+                detail: `Cataloging the ${clip.slug} transcript for atomic claims.`, refKind: 'clip', refId: clip.video_id });
 
   // Split into segments by character budget, on paragraph boundaries.
   const segments = [];
@@ -168,7 +168,7 @@ async function catalogOne(clip) {
     .run(clip.video_id);
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `${totalClaims} claims from ${clip.slug}`,
+                detail: `Extracted ${totalClaims} claims from ${clip.slug}.`,
                 refKind: 'clip', refId: clip.video_id, handoffTo: 'reviewer' });
   return totalClaims;
 }

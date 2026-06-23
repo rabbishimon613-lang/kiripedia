@@ -100,7 +100,7 @@ const SCHEMA = {
 
 async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Working up the entry for ${humanize(pick.slug)}.` });
+                detail: `Pulled up ${humanize(pick.slug)} — drafting it from the transcripts.` });
   console.log(`[${WORKER}] picked ${pick.slug} (size=${pick.size}b, mentions=${pick.mentions})`);
 
   let orig;
@@ -164,7 +164,7 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: 'No half-finished pages on my desk. Nice.',
+                    detail: 'Checked every stub — they all got drafted this round.',
                     handoffTo: 'coordinator' });
     }
     break;

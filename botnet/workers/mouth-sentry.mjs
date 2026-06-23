@@ -70,7 +70,7 @@ function scanFile(path) {
 }
 
 logActivity({ worker: WORKER, role: ROLE, event: 'start',
-              detail: `Reading through whatever the others changed in the last ${WINDOW_MIN} minutes.` });
+              detail: `Auditing every article touched in the last ${WINDOW_MIN} minutes.` });
 
 const now = Date.now();
 const cutoff = now - WINDOW_MIN * 60 * 1000;

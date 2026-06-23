@@ -12,16 +12,19 @@ const REPO_ROOT = join(HERE, '..', '..');
 
 const WORKER = 'indexer';
 const ROLE = 'indexer';
-logActivity({ worker: WORKER, role: ROLE, event: 'start' });
+logActivity({ worker: WORKER, role: ROLE, event: 'start', detail: 'Rebuilding the date and mentions indexes.' });
 
 const tools = ['build-date-index.mjs', 'build-mentions-index.mjs'];
+let okCount = 0;
 for (const t of tools) {
   try {
     execSync(`node tools/${t}`, { cwd: REPO_ROOT, stdio: 'pipe' });
+    okCount++;
     console.log(`[indexer] ran ${t}`);
   } catch (err) {
     console.error(`[indexer] ${t} failed:`, err.stderr?.toString() || err.message);
   }
 }
 
-logActivity({ worker: WORKER, role: ROLE, event: 'finish' });
+logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+              detail: `Rebuilt ${okCount} of ${tools.length} indexes.` });

@@ -44,7 +44,7 @@ async function triageOne(clip) {
   return verdict;
 }
 
-logActivity({ worker: WORKER, role: ROLE, event: 'start', detail: `Triaging up to ${BATCH}` });
+logActivity({ worker: WORKER, role: ROLE, event: 'start', detail: `Triaging up to ${BATCH} new clips.` });
 
 let on = 0, off = 0, errors = 0;
 for (let i = 0; i < BATCH; i++) {
@@ -72,5 +72,6 @@ for (let i = 0; i < BATCH; i++) {
   }
 }
 
-logActivity({ worker: WORKER, role: ROLE, event: 'finish', detail: `on=${on} off=${off} err=${errors}` });
+logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+              detail: on + off + errors === 0 ? 'Checked the lead queue — no new clips today.' : `Marked ${on} on-topic, ${off} off-topic${errors ? `, ${errors} erred` : ''}.` });
 console.log(`[npp] on=${on} off=${off} err=${errors}`);

@@ -115,7 +115,7 @@ const SCHEMA = {
 
 async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Sitting down with ${humanize(pick.slug)}.` });
+                detail: `Opened ${humanize(pick.slug)} — looking for facts that need footnotes.` });
   console.log(`[${WORKER}] picked ${pick.slug} (mentions=${pick.mentions}, cites=${pick.cites}, delta=${pick.delta})`);
 
   // Pull a handful of supporting excerpts for the LLM.
@@ -172,7 +172,7 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: 'Everything looks well-cited today. Tea break.',
+                    detail: 'Swept the article shelf — every gap was already filled this round.',
                     handoffTo: 'coordinator' });
     }
     break;
