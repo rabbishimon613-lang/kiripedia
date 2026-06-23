@@ -38,6 +38,11 @@ install_deps() {
   npm install --omit=dev && return 0
   return 1
 }
+# Self-update yt-dlp on every boot. YouTube breaks the extractor monthly;
+# the pinned baseline in the image may already be stale by the time the
+# container starts. Failure here is non-fatal — pinned version still works.
+yt-dlp -U 2>/dev/null || echo "[entrypoint] yt-dlp self-update skipped"
+
 ATTEMPT=0
 until install_deps; do
   ATTEMPT=$((ATTEMPT + 1))
