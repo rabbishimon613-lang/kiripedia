@@ -3,8 +3,10 @@ name: KiriPedia botnet cycle
 # Runs one full botnet pipeline cycle and commits the updated
 # public/botnet-snapshot.json so /meet-the-team reflects real activity.
 on:
-  schedule:
-    - cron: '*/10 * * * *'
+  # Scheduled cron disabled — HF Space (zerocool69/kiripedia) runs the loop
+  # continuously now. Workflow_dispatch kept for manual one-off runs.
+  # schedule:
+  #   - cron: '*/10 * * * *'
   workflow_dispatch:
 
 concurrency:
