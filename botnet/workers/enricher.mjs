@@ -14,6 +14,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
 import { worker_reasoning } from '../lib/fleet-client.mjs';
+import { lastWorked, markWorked } from '../lib/last-worked.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -40,23 +41,19 @@ function incomingLinks(slug) {
   }
 }
 
-const COOLDOWN_MS = 2 * 60 * 60 * 1000; // 2h
+const COOLDOWN_SEC = 2 * 60 * 60; // 2h
 
 function pickArticle(exclude = new Set()) {
-  const now = Date.now();
+  const nowSec = Math.floor(Date.now() / 1000);
   const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.mdx'));
   const candidates = [];
   for (const f of files) {
     const slug = f.replace(/\.mdx$/, '');
     if (exclude.has(slug)) continue;
-    const path = join(ARTICLES_DIR, f);
-    let mtime;
-    try { mtime = statSync(path).mtimeMs; } catch { continue; }
-    if (now - mtime < COOLDOWN_MS) continue;
+    if (nowSec - lastWorked(slug, ROLE) < COOLDOWN_SEC) continue;
     const links = incomingLinks(slug);
-    candidates.push({ slug, path, incoming: links });
+    candidates.push({ slug, path: join(ARTICLES_DIR, f), incoming: links });
   }
-  // Most-orphan first, alphabetical tie-break to avoid always picking the same.
   candidates.sort((a, b) => a.incoming - b.incoming || a.slug.localeCompare(b.slug));
   return candidates[0] || null;
 }
@@ -111,9 +108,6 @@ async function run(pick) {
   const peerFiles = mentions.split('\n').filter(Boolean).filter(f => !f.endsWith(`${pick.slug}.mdx`));
 
   if (peerFiles.length === 0) {
-    // Bump mtime so the cooldown filter rotates this article out next cycle
-    // instead of re-picking the same dead-end.
-    try { const n = new Date(); utimesSync(pick.path, n, n); } catch {}
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
                   detail: `No peer mentions for ${pick.slug}`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
@@ -195,5 +189,6 @@ for (let i = 0; i < BATCH; i++) {
     break;
   }
   touched.add(pick.slug);
+  markWorked(pick.slug, ROLE);
   await run(pick);
 }

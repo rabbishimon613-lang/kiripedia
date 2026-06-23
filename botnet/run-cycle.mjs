@@ -78,9 +78,11 @@ const backlogMode = !SKIP_DISCOVERY && discoveryOk && leadsFound === 0;
 const miningBatch = inwardMode ? 10 : backlogMode ? 5 : 3;
 if (inwardMode) console.log(`\n[run-cycle] inward mode (mining batch=${miningBatch})`);
 else if (backlogMode) console.log(`\n[run-cycle] no new leads — backlog mode (batch=${miningBatch})`);
+run('Prospector', `node ${W('prospector')} --batch 2`);
 run('Deepener', `node ${W('deepener')} --batch ${miningBatch}`);
 run('Enricher', `node ${W('enricher')} --batch ${miningBatch}`);
 run('Weaver', `node ${W('weaver')} --batch ${miningBatch}`);
+run('Reweaver', `node ${W('reweaver')} --batch 3`);
 run('Mouth Sentry', `node ${W('mouth-sentry')}`);
 run('Snapshot writer', `node ${LIB('snapshot-writer')}`);
 

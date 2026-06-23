@@ -14,6 +14,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
 import { worker_longcontext } from '../lib/fleet-client.mjs';
+import { lastWorked, markWorked } from '../lib/last-worked.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -28,7 +29,10 @@ const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
 // transcripts, even a single grep hit means there's corpus material to draw
 // on. The old threshold rejected most stubs from ever being woven.
 const MENTION_THRESHOLD = 1;
-const COOLDOWN_MS = 4 * 60 * 60 * 1000; // 4h — weaves are heavy, longer cooldown
+const COOLDOWN_SEC = 4 * 60 * 60; // 4h — weaves are heavy, longer cooldown
+// Per panel verdict: Weaver scoped to true stubs only; Reweaver owns the
+// 800-2500w "pile of rags" band.
+const MAX_SIZE = parseInt(process.env.WEAVER_MAX_SIZE) || 4000; // ~800 words
 
 function shellQuote(s) {
   return `'${s.replace(/'/g, "'\\''")}'`;
@@ -52,25 +56,22 @@ function mentionCount(slug) {
 }
 
 function pickArticle(exclude = new Set()) {
-  const now = Date.now();
+  const nowSec = Math.floor(Date.now() / 1000);
   const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.mdx'));
   const candidates = [];
   for (const f of files) {
     const slug = f.replace(/\.mdx$/, '');
     if (exclude.has(slug)) continue;
+    if (nowSec - lastWorked(slug, ROLE) < COOLDOWN_SEC) continue;
     const path = join(ARTICLES_DIR, f);
-    let size, mtime;
-    try {
-      const st = statSync(path);
-      size = st.size;
-      mtime = st.mtimeMs;
-    } catch { continue; }
-    if (now - mtime < COOLDOWN_MS) continue;
+    let size;
+    try { size = statSync(path).size; } catch { continue; }
+    if (size > MAX_SIZE) continue; // Reweaver's territory
     const mentions = mentionCount(slug);
     if (mentions < MENTION_THRESHOLD) continue;
     candidates.push({ slug, path, size, mentions });
   }
-  // Smallest article first (biggest growth potential); high mention count breaks ties.
+  // Smallest stub first (biggest growth potential); high mention count breaks ties.
   candidates.sort((a, b) => a.size - b.size || b.mentions - a.mentions);
   return candidates[0] || null;
 }
@@ -141,9 +142,6 @@ async function run(pick) {
   const newBody = (result.body || '').trim();
   if (newBody.length < body.length) {
     console.warn(`[${WORKER}] weave produced shorter body (${newBody.length} < ${body.length}); skipping write`);
-    // Bump mtime so cooldown filter rotates this article out — otherwise
-    // the same stub gets picked next cycle and shrinks again.
-    try { const n = new Date(); utimesSync(pick.path, n, n); } catch {}
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
                   detail: `Weave rejected for ${pick.slug} (shrunk)`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
@@ -164,11 +162,12 @@ for (let i = 0; i < BATCH; i++) {
   if (!pick) {
     if (i === 0) {
       logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                    detail: 'No weaveable candidates available (all on cooldown)',
+                    detail: 'No stub candidates available (all on cooldown or above weaver threshold)',
                     handoffTo: 'coordinator' });
     }
     break;
   }
   touched.add(pick.slug);
+  markWorked(pick.slug, ROLE);
   await run(pick);
 }

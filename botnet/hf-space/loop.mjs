@@ -63,10 +63,15 @@ function pushSnapshot() {
   // After every cycle, commit and push the snapshot if it changed. Cycle
   // workers handle their own commits for article/source changes; the
   // snapshot file is owned by this loop.
-  // Add files individually so a missing sentry-report (e.g. first run before
-  // mouth-sentry has executed) doesn't abort staging the snapshot.
+  // Add files individually so a missing artifact (e.g. first run before a
+  // worker has executed) doesn't abort staging.
   git(['add', 'public/botnet-snapshot.json'], { quiet: true });
   git(['add', 'public/sentry-report.json'], { quiet: true });
+  git(['add', 'public/prospector-queue.json'], { quiet: true });
+  // Also push the article body changes made by weaver/reweaver and the
+  // shared last-worked cooldown state so it survives container restarts.
+  git(['add', 'src/content/articles/'], { quiet: true });
+  git(['add', 'botnet/state/last-worked.json'], { quiet: true });
   const staged = git(['diff', '--staged', '--quiet'], { quiet: true });
   if (staged.ok) return; // no diff
   if (!git(['commit', '-m', 'botnet: update snapshot [skip ci]']).ok) return;

@@ -18,6 +18,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
 import { worker_reasoning } from '../lib/fleet-client.mjs';
+import { lastWorked, markWorked } from '../lib/last-worked.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -57,29 +58,27 @@ function citeCount(body) {
   return m ? m.length : 0;
 }
 
-const COOLDOWN_MS = 2 * 60 * 60 * 1000; // 2h — don't re-touch within this window
+const COOLDOWN_SEC = 2 * 60 * 60; // 2h — don't re-touch within this window
+// Use a sidecar JSON instead of file mtime, because mtime is "clone time"
+// after an HF Space cold-start and would lock out every article.
 
 function pickArticle(exclude = new Set()) {
-  const now = Date.now();
+  const nowSec = Math.floor(Date.now() / 1000);
   const files = readdirSync(ARTICLES_DIR).filter(f => f.endsWith('.mdx'));
   const candidates = [];
   for (const f of files) {
     const slug = f.replace(/\.mdx$/, '');
     if (exclude.has(slug)) continue;
+    if (nowSec - lastWorked(slug, ROLE) < COOLDOWN_SEC) continue;
     const path = join(ARTICLES_DIR, f);
-    let body, mtime;
-    try {
-      body = readFileSync(path, 'utf8');
-      mtime = statSync(path).mtimeMs;
-    } catch { continue; }
-    if (now - mtime < COOLDOWN_MS) continue; // recently touched, skip
+    let body;
+    try { body = readFileSync(path, 'utf8'); } catch { continue; }
     const mentions = mentionCount(slug);
     const cites = citeCount(body);
     const delta = mentions - cites;
     if (delta <= 0) continue; // no gap to fill
     candidates.push({ slug, path, body, mentions, cites, delta });
   }
-  // Highest delta first; tie-break on fewer existing cites (more under-cited).
   candidates.sort((a, b) => b.delta - a.delta || a.cites - b.cites);
   return candidates[0] || null;
 }
@@ -176,5 +175,6 @@ for (let i = 0; i < BATCH; i++) {
     break;
   }
   touched.add(pick.slug);
+  markWorked(pick.slug, ROLE);
   await run(pick);
 }

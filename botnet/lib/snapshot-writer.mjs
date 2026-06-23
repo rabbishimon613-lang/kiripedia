@@ -23,7 +23,7 @@ const BOT_KEYS = [
   'cataloger_1', 'cataloger_2',
   'reviewer', 'coordinator', 'indexer',
   'deepener', 'enricher', 'weaver',
-  'mouth_sentry',
+  'reweaver', 'prospector', 'mouth_sentry',
 ];
 const LABELS = {
   recent_changes: 'Recent Changes Bot',
@@ -40,6 +40,8 @@ const LABELS = {
   deepener: 'Transcript Deepener',
   enricher: 'Cross-Source Enricher',
   weaver: 'Article Weaver',
+  reweaver: 'Tapestry Reweaver',
+  prospector: 'Transcript Prospector',
   mouth_sentry: 'Mouth Sentry',
 };
 // Worker name (from db.activity.role / worker fields) → bot key it occupies.
