@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-23T01:49:41.489Z",
+  "generated_at": "2026-06-23T01:55:27.216Z",
   "bots": [
     {
       "key": "recent_changes",
       "label": "Recent Changes Bot",
       "action": "Done: Saw 0, added 0 new leads",
       "handoff_to": null,
-      "ts": "2026-06-23 01:48:58"
+      "ts": "2026-06-23 01:54:43"
     },
     {
       "key": "npp",
       "label": "New Page Patroller",
       "action": "Done: on=0 off=0 err=0",
       "handoff_to": null,
-      "ts": "2026-06-23 01:48:58"
+      "ts": "2026-06-23 01:54:43"
     },
     {
       "key": "source_auth",
@@ -62,48 +62,48 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-23 01:48:59"
+      "ts": "2026-06-23 01:54:43"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-23 01:48:59"
+      "ts": "2026-06-23 01:54:43"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: ",
       "handoff_to": null,
-      "ts": "2026-06-23 01:49:01"
+      "ts": "2026-06-23 01:54:45"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: No gap for bernie-kerik",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 01:49:18"
+      "ts": "2026-06-23 01:55:04"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "action": "Done: No peer mentions for admiral-crowe",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 01:49:23"
+      "ts": "2026-06-23 01:55:08"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: No weaveable articles found",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 01:49:41"
+      "ts": "2026-06-23 01:55:27"
     }
   ],
   "last_cycle": {
-    "id": 1,
-    "started_at": "2026-06-23 01:48:59",
-    "ended_at": "2026-06-23 01:48:59",
+    "id": 2,
+    "started_at": "2026-06-23 01:54:43",
+    "ended_at": "2026-06-23 01:54:43",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
