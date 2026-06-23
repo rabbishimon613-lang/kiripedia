@@ -29,7 +29,6 @@ fi
 cd "$WORK_DIR"
 git config user.name  "kiripedia-bot"
 git config user.email "bot@kiripedia.org"
-git remote set-url origin "$REPO_URL"
 
 # npm install with retry; native deps (better-sqlite3 etc) sometimes flake
 # on first install. Don't let a transient failure crash-loop the container.

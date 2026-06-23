@@ -48,6 +48,11 @@ function syncToRemote() {
   // since our last cycle; if we tried to push from our stale base we'd hit
   // non-fast-forward forever. Snapshot/article state lives in the repo, so
   // remote is canonical — local diff between cycles is throwaway.
+  if (state.stuck) {
+    // Previous cycle was SIGKILLed mid-git op. Clean stale locks before fetch,
+    // otherwise fetch/reset will fail until manual intervention.
+    spawnSync('sh', ['-c', 'rm -f .git/index.lock .git/refs/**/*.lock .git/HEAD.lock'], { cwd: REPO });
+  }
   if (!git(['fetch', '--depth', '1', 'origin', BRANCH])) return false;
   if (!git(['reset', '--hard', `origin/${BRANCH}`])) return false;
   git(['clean', '-fd']);
@@ -59,27 +64,29 @@ function runCycle() {
     const t0 = Date.now();
     const child = spawn('node', [CYCLE, '--push'], { cwd: REPO, stdio: 'inherit' });
     let killed = false;
+    let settled = false;
+    const finish = (status) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(watchdog);
+      state.cycles += 1;
+      state.lastCycleAt = new Date().toISOString();
+      state.lastCycleMs = Date.now() - t0;
+      state.stuck = killed;
+      state.lastCycleStatus = status;
+      console.log(`[loop] cycle ${state.cycles} done in ${Math.round(state.lastCycleMs / 1000)}s (${status})`);
+      resolve();
+    };
     const watchdog = setTimeout(() => {
       killed = true;
       console.error(`[loop] cycle ${state.cycles + 1} exceeded ${CYCLE_TIMEOUT_MS}ms — killing`);
       try { child.kill('SIGKILL'); } catch {}
     }, CYCLE_TIMEOUT_MS);
     child.on('exit', (code) => {
-      clearTimeout(watchdog);
-      state.cycles += 1;
-      state.lastCycleAt = new Date().toISOString();
-      state.lastCycleMs = Date.now() - t0;
-      state.stuck = killed;
-      state.lastCycleStatus = killed ? 'killed (timeout)' : code === 0 ? 'ok' : `exit ${code}`;
-      console.log(`[loop] cycle ${state.cycles} done in ${Math.round(state.lastCycleMs / 1000)}s (${state.lastCycleStatus})`);
-      resolve();
+      finish(killed ? 'killed (timeout)' : code === 0 ? 'ok' : `exit ${code}`);
     });
     child.on('error', (err) => {
-      clearTimeout(watchdog);
-      state.cycles += 1;
-      state.lastCycleAt = new Date().toISOString();
-      state.lastCycleStatus = `spawn error: ${err.message}`;
-      resolve();
+      finish(`spawn error: ${err.message}`);
     });
   });
 }
