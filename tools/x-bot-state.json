@@ -155,7 +155,8 @@
     "new:afghan-languages",
     "quote:wesley-clark:0",
     "new:afghan-war-logs",
-    "quote:curveball:3"
+    "quote:curveball:3",
+    "new:bill-barr"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -490,10 +491,6 @@
   ],
   "queue": [
     {
-      "slug": "bill-barr",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "cia-car-hacking",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -683,10 +680,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "quote",
     "new",
-    "quote"
+    "quote",
+    "new"
   ]
 }
