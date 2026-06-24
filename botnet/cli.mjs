@@ -5,6 +5,7 @@
 //   node botnet/cli.mjs status                Show queue counts
 //   node botnet/cli.mjs quarantine [N]        Show recent quarantine entries
 //   node botnet/cli.mjs reset                 DANGER: wipe the DB
+//   node botnet/cli.mjs forever [...flags]    Start the nonstop supervisor
 
 import { execSync } from 'node:child_process';
 import { unlinkSync, existsSync } from 'node:fs';
@@ -57,6 +58,14 @@ switch (cmd) {
     for (const r of rows) {
       console.log(`#${r.id} [${r.kind}] ${r.reason_code} — ${r.reason_detail?.slice(0,120) ?? ''}`);
     }
+    break;
+  }
+  case 'forever': {
+    // Exec the supervisor in-process so Ctrl-C works as expected.
+    const runner = join(HERE, 'run-forever.mjs');
+    const { spawnSync } = await import('node:child_process');
+    const result = spawnSync('node', [runner, ...args], { stdio: 'inherit' });
+    process.exit(result.status ?? 0);
     break;
   }
   case 'reset': {

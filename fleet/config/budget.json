@@ -1,19 +1,21 @@
 {
-  "_comment": "Daily caps. Tracked in ledger/usage.jsonl. Trawlers hard-stop when their cap is hit; processing plant warns and asks Harbor Master to confirm before continuing past cap.",
+  "_comment": "Daily caps — updated 2026-06-23 after ledger audit. The OLD budget.json tracked the harbor-master fleet (filleting/deboning/canning). The NEW botnet uses workers in botnet/workers/. Caps below apply to BOTH codepaths; the tripwires are the ones that matter.",
+
+  "_context": "As of 2026-06-23: team runs 24/7 on HF Space (zerocool69/kiripedia). GH Actions cron is disabled (schedule: block commented out in botnet-cycle.yml). Only workflow_dispatch remains for manual one-offs. finalize-ingest.yml and x-poster.yml (8 slots/day) are still active on GH Actions.",
 
   "at_sea": {
     "youtube_trawler": {
       "max_runs_per_day": 4,
       "max_yt_dlp_probes_per_run": 200,
       "fleet_calls_per_run": 0,
-      "_note": "Title-based filtering in find-new-kiriakou-videos.mjs is rule-based, not LLM. No fleet calls happen at sea for YouTube — pure cost savings."
+      "_note": "Title-based filtering is rule-based, not LLM. No fleet calls at sea."
     },
     "web_trawler": {
       "max_runs_per_day": 2,
       "max_search_calls_per_run": 10,
       "fleet_calls_per_run": 20,
       "worker_for_triage": "worker_fast",
-      "_note": "Web results need LLM triage because titles are messier. worker_fast (Groq Llama 3.3) only."
+      "_note": "Web results need LLM triage. worker_fast (Groq Llama 3.1-8b) only."
     }
   },
 
@@ -21,34 +23,74 @@
     "filleting": {
       "worker": "worker_longcontext",
       "per_video_budget_estimate_tokens": 30000,
-      "_note": "One long-context call per video to segment transcript into topic-coherent passages."
+      "_note": "Legacy harbor-master label; new botnet equivalent is scribe.mjs (Groq)."
     },
     "deboning": {
       "worker": "worker_reasoning",
       "per_segment_budget_estimate_tokens": 4000,
-      "_note": "One reasoning call per segment to extract claims with verbatim quotes + timestamps."
+      "_note": "Legacy label; new equivalent is cataloger-editor.mjs (Cerebras)."
     },
     "canning": {
       "worker": "worker_reasoning",
       "per_article_patch_budget_estimate_tokens": 6000,
-      "_note": "Drafts the article diff against existing markdown. Few-shot prompted from sample KiriPedia articles."
+      "_note": "Legacy label; new equivalent is coordinator.mjs (Cerebras)."
     }
   },
 
+  "new_botnet_roles": {
+    "_note": "Estimated per-cycle LLM call counts based on role design. Actual call volume is near-zero today because discovery is dead (6 leads in DB, all at 'lead' status, none reach cataloger/reviewer).",
+    "scribe":            { "worker": "worker_longcontext", "est_calls_per_clip": 1, "token_budget": 30000 },
+    "cataloger_editor":  { "worker": "worker_reasoning",   "est_calls_per_clip": 3, "token_budget": 4000  },
+    "reviewer":          { "worker": "worker_reasoning",   "est_calls_per_claim": 1, "token_budget": 2000 },
+    "coordinator":       { "worker": "worker_reasoning",   "est_calls_per_claim": 1, "token_budget": 6000 },
+    "deepener":          { "worker": "worker_reasoning",   "est_calls_per_article_per_cycle": 1, "token_budget": 8000 },
+    "enricher":          { "worker": "worker_reasoning",   "est_calls_per_article_per_cycle": 1, "token_budget": 4000 },
+    "weaver":            { "worker": "worker_longcontext", "est_calls_per_article_per_cycle": 1, "token_budget": 8000 },
+    "prospector":        { "worker": "worker_fast",        "est_calls_per_cycle": 5, "token_budget": 1000 },
+    "npp":               { "worker": "worker_fast",        "est_calls_per_lead": 1, "token_budget": 500  },
+    "mouth_sentry":      { "worker": "worker_fast",        "est_calls_per_article": 1, "token_budget": 1000 }
+  },
+
   "tripwires": {
-    "daily_fleet_calls_warn_at": 500,
-    "daily_fleet_calls_hard_stop_at": 1500,
-    "_note": "Harbor Master must surface warning to user; hard stop pauses plant until user confirms."
+    "daily_fleet_calls_warn_at": 200,
+    "daily_fleet_calls_hard_stop_at": 800,
+    "_rationale": "Old limits (500/1500) were set for the harbor-master plan with 14 parallel bots. Current team is running 24/7 but with near-zero actual LLM calls (discovery dead, pipeline starved). Realistic limit for steady state (post-fix): ~50-100 LLM calls/day for enhancement workers on existing 279 articles. Backfill surge (once Channel Crawler is live): up to 800/day using 4 Cerebras keys + 2 Groq keys in rotation.",
+    "free_tier_capacity": {
+      "cerebras_per_key_per_day": "~1000 calls (rate-limit inference; no published daily cap, empirical)",
+      "groq_llama70b_per_key_per_day": "~1000 calls (empirical; hard limit not published for free tier)",
+      "groq_llama8b_per_key_per_day": "~2000 calls",
+      "kiripedia_keys": "4 Cerebras + 2 Groq = ~6000 Cerebras calls/day + ~4000 Groq calls/day theoretical ceiling before rotation exhaustion"
+    }
   },
 
   "escalation_to_opus": {
-    "_note": "These ALWAYS bypass auto-merge and surface to Opus (you, in a separate chat). Token-cheap because volume is tiny.",
+    "_note": "Airlocked per BOTNET-HANDOFF §4. These quarantine with reason; nobody is paged. No Opus spend in steady state.",
     "triggers": [
       "Claim labeled CONTRADICTION-WITH-PRIOR",
-      "Claim about Kiriakou himself (biographical)",
-      "Claim that touches doctrine rule #3 edge cases (see [[feedback_kiripedia_doctrine]] and [[feedback_kiripedia_voice_calibration]])",
-      "Claim about Chabad as victim (see [[project_chabad_tracker_doctrine]] — these must be excluded from the DB)",
-      "Source from a channel NOT on grounds.youtube.trusted_channels — needs Opus pass on whether to add the channel"
+      "Claim about Kiriakou himself (biographical) — is_about_kiriakou_himself:true",
+      "Claim that touches doctrine rule #3 edge cases",
+      "Source from a channel NOT on grounds.json — needs human approval",
+      "confidence < 50"
     ]
+  },
+
+  "phase_projections": {
+    "phase_1_channel_crawler_live": {
+      "daily_clips_ingested": "50-150 during backfill (15k clip backlog / ~4 months)",
+      "llm_calls_per_clip": 5,
+      "daily_llm_calls": "250-750",
+      "free_tier_coverage": "yes — 4 Cerebras + 2 Groq keys cover this comfortably"
+    },
+    "phase_2_passage_level_plus_embedder": {
+      "one_time_embedding_backfill": "63 sources × ~20 passages/source = ~1260 passages × bge-small locally = $0 (CPU on HF Space)",
+      "incremental_per_clip": "~20 passages × local model = $0",
+      "daily_llm_calls_added": "~10-30 (Re-Reader + Contradiction Scout)"
+    },
+    "phase_3_editorial_discipline": {
+      "daily_llm_calls_added": "~20-50 (Discretion Warden + First/Third Splitter + Diff Sentinel + Shape Auditor + MoS Enforcer + Promotion Committee)",
+      "total_daily_calls_peak": "~500-800",
+      "free_tier_coverage": "tight but achievable with 4 Cerebras + 2 Groq in rotation"
+    },
+    "when_free_tier_breaks": "When backlog throughput exceeds ~1000 clips/day AND all 18 roles fire every cycle. Estimate: never, because John does not produce content that fast. Steady-state (post-backfill) is <10 clips/week = ~50 LLM calls/day. Free forever."
   }
 }

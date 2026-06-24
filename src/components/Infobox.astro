@@ -20,7 +20,7 @@ function mdLite(s) {
       {imageCredit && <div class="infobox-image-credit">{imageCredit}</div>}
     </div>
   ) : (
-    <div class="infobox-image infobox-image-missing">
+    <div class="infobox-image infobox-image-missing" aria-hidden="true">
       <span>[no image]</span>
     </div>
   )}

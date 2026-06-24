@@ -58,7 +58,7 @@ const collectionSchema = {
     ) : (
       <ul>
         {matching.map((a) => (
-          <li><a href={`/wiki/${a.id}`}>{a.data.title}</a>{a.data.summary && <> — <span style="color:var(--color-base--subtle)">{a.data.summary}</span></>}</li>
+          <li><a href={`/wiki/${a.id.replace(/\.mdx?$/, '')}`}>{a.data.title}</a>{a.data.summary && <> — <span style="color:var(--color-base--subtle)">{a.data.summary}</span></>}</li>
         ))}
       </ul>
     )}

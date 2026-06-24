@@ -10,8 +10,8 @@
 //   GROQ_KEYS=key1,key2,key3
 // Rotated round-robin per process; on 429/5xx we hop to the next key.
 
-const CEREBRAS_KEYS = (process.env.CEREBRAS_KEYS || '').split(',').filter(Boolean);
-const GROQ_KEYS = (process.env.GROQ_KEYS || '').split(',').filter(Boolean);
+const CEREBRAS_KEYS = (process.env.CEREBRAS_KEYS || process.env.CEREBRAS_API_KEYS || '').split(',').filter(Boolean);
+const GROQ_KEYS = (process.env.GROQ_KEYS || process.env.GROQ_API_KEYS || '').split(',').filter(Boolean);
 
 if (CEREBRAS_KEYS.length === 0) console.warn('[fleet] WARN: no CEREBRAS_KEYS in env');
 if (GROQ_KEYS.length === 0) console.warn('[fleet] WARN: no GROQ_KEYS in env');

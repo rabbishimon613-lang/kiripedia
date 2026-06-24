@@ -3,9 +3,8 @@ import WikiLayout from '../layouts/WikiLayout.astro';
 import { getCollection } from 'astro:content';
 const articles = await getCollection('articles');
 const slugOf = (a) => a.id.replace(/\.mdx?$/, '');
-const randomSlug =
-  articles[Math.floor(Math.random() * articles.length)] &&
-  slugOf(articles[Math.floor(Math.random() * articles.length)]);
+const randomArticle = articles[Math.floor(Math.random() * articles.length)];
+const randomSlug = randomArticle ? slugOf(randomArticle) : null;
 ---
 <WikiLayout
   title="Page not found"
