@@ -1,53 +1,18 @@
 {
-  "generated_at": "2026-06-24T02:31:59.807Z",
+  "generated_at": "2026-06-24T03:12:00.574Z",
   "window_min": 30,
-  "scanned": 45,
-  "violation_count": 7,
+  "scanned": 24,
+  "violation_count": 13,
   "violations": [
     {
-      "slug": "edward-snowden",
+      "slug": "aipac",
       "findings": [
         {
           "kind": "kiriakou-said",
-          "count": 2,
+          "count": 3,
           "samples": [
-            "Kiriakou noted",
-            "Kiriakou said"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "john-brennan-tuesday-morning-kill-list",
-      "findings": [
-        {
-          "kind": "is-said-to",
-          "count": 1,
-          "samples": [
-            "is said to"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "carlos-the-jackal",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou described"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "anwar-al-awlaki",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
+            "Kiriakou described",
+            "Kiriakou stated",
             "Kiriakou stated"
           ]
         }
@@ -58,7 +23,7 @@
       "findings": [
         {
           "kind": "kiriakou-said",
-          "count": 36,
+          "count": 38,
           "samples": [
             "Kiriakou said",
             "Kiriakou described",
@@ -84,11 +49,66 @@
       ]
     },
     {
+      "slug": "edward-snowden",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou noted",
+            "Kiriakou said"
+          ]
+        },
+        {
+          "kind": "allegedly",
+          "count": 5,
+          "samples": [
+            "allegedly",
+            "allegedly",
+            "allegedly"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "enhanced-interrogation",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 6,
+          "samples": [
+            "Kiriakou recalled",
+            "Kiriakou described",
+            "Kiriakou described"
+          ]
+        },
+        {
+          "kind": "he-recalls",
+          "count": 1,
+          "samples": [
+            "He noted"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "iran-contra",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou stated"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "iran-nuclear-assessment",
       "findings": [
         {
           "kind": "kiriakou-said",
-          "count": 15,
+          "count": 17,
           "samples": [
             "Kiriakou stated",
             "Kiriakou described",
@@ -107,15 +127,131 @@
       ]
     },
     {
-      "slug": "mk-ultra",
+      "slug": "israeli-false-flags",
       "findings": [
         {
           "kind": "kiriakou-said",
-          "count": 5,
+          "count": 1,
           "samples": [
-            "Kiriakou described",
-            "Kiriakou described",
             "Kiriakou stated"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "israeli-nuclear-program",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 3,
+          "samples": [
+            "Kiriakou said",
+            "Kiriakou described",
+            "Kiriakou noted"
+          ]
+        },
+        {
+          "kind": "according-to-kiriakou",
+          "count": 1,
+          "samples": [
+            "according to Kiriakou"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "john-brennan",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 8,
+          "samples": [
+            "Kiriakou describes",
+            "Kiriakou described",
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "john-kiriakou",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 34,
+          "samples": [
+            "Kiriakou told",
+            "Kiriakou told",
+            "Kiriakou described"
+          ]
+        },
+        {
+          "kind": "he-recalls",
+          "count": 3,
+          "samples": [
+            "He noted",
+            "He noted",
+            "He notes"
+          ]
+        },
+        {
+          "kind": "allegedly",
+          "count": 2,
+          "samples": [
+            "reportedly",
+            "reportedly"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jose-rodriguez",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou stated"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nsa",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou stated"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jfk-assassination",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 22,
+          "samples": [
+            "Kiriakou stated",
+            "Kiriakou described",
+            "Kiriakou noted"
+          ]
+        },
+        {
+          "kind": "according-to-kiriakou",
+          "count": 1,
+          "samples": [
+            "According to Kiriakou"
+          ]
+        },
+        {
+          "kind": "allegedly",
+          "count": 1,
+          "samples": [
+            "reportedly"
           ]
         }
       ]

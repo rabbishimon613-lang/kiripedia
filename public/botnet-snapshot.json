@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T02:50:34.212Z",
+  "generated_at": "2026-06-24T03:12:00.434Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -13,7 +13,7 @@
       "label": "New Page Patroller",
       "action": "Done: Checked the lead queue — no new clips today.",
       "handoff_to": null,
-      "ts": "2026-06-24 02:50:00"
+      "ts": "2026-06-24 03:12:00"
     },
     {
       "key": "source_auth",
@@ -62,35 +62,35 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-24 02:50:17"
+      "ts": "2026-06-24 03:12:00"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "Collecting passed claims for filing.",
       "handoff_to": null,
-      "ts": "2026-06-24 02:50:09"
+      "ts": "2026-06-24 03:12:00"
     },
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "Done: Rebuilt 2 of 2 indexes.",
+      "action": "Rebuilding the date and mentions indexes.",
       "handoff_to": null,
-      "ts": "2026-06-24 02:47:58"
+      "ts": "2026-06-24 03:12:00"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
-      "action": "Done: Swept the article shelf — every gap was already filled this round.",
-      "handoff_to": "coordinator",
-      "ts": "2026-06-24 02:50:07"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Drone Base Balochistan — it's a true orphan so far.",
-      "handoff_to": "coordinator",
-      "ts": "2026-06-24 02:50:32"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "weaver",
@@ -102,40 +102,40 @@
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Pinning Surveillance Detection Route back on the corkboard. Not the moment.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-24 03:11:28"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript aside — keys are jammed.",
+      "action": "Done: Set the 2025 04 16 The Dr Phil Podcast Top Secrets The Cia Torture Whistleblower John Ki transcript aside — keys are jammed.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-24 02:47:43"
+      "ts": "2026-06-24 03:11:20"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
-      "action": "idle",
+      "action": "Done: Went through 24. 13 of them need a word about their tone (159 things to fix).",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-24 03:11:14"
     }
   ],
   "last_cycle": {
-    "id": 35,
-    "started_at": "2026-06-24 02:50:09",
-    "ended_at": "2026-06-24 02:50:09",
+    "id": 40,
+    "started_at": "2026-06-24 03:12:00",
+    "ended_at": null,
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
-    "status": "failed"
+    "status": "running"
   },
   "counts": {
     "leads_pending": 1,
     "triaged_on": 0,
     "transcribed": 0,
-    "catalogued": 14,
-    "published": 4,
+    "catalogued": 13,
+    "published": 5,
     "quarantined_claims": 163,
     "quarantined_clips": 0
   }

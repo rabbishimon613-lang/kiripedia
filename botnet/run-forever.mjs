@@ -19,6 +19,7 @@
 //   mining    — deepener/enricher/weaver     (round-robin, ~20 min)
 //   weaver2   — reweaver                     (every 45 min)
 //   prospect  — prospector                   (every 30 min)
+//   calendar  — calendar-keeper (OTD filler) (every 25 min, no fleet)
 //   sentry    — mouth-sentry                 (every hour)
 //   snapshot  — snapshot writer              (every 5 min)
 //
@@ -280,6 +281,17 @@ defineLane({
   cmd: () => ({ bin: 'node', args: [W('catch-importer'), '--auto-trust'] }),
 });
 
+// Office: probe LLM provider/key health and refresh routing state.
+// Cheap, just tiny test calls. Keeps the broker honest.
+defineLane({
+  name: 'office',
+  burnsFleet: false,
+  intervalMs: 10 * 60 * 1000,
+  jitterMs: 45 * 1000,
+  timeoutMs: 3 * 60 * 1000,
+  cmd: () => ({ bin: 'node', args: [W('office-manager')] }),
+});
+
 // Triage: NPP on fresh leads. Cheap worker_fast calls.
 defineLane({
   name: 'triage',
@@ -372,6 +384,18 @@ defineLane({
   intervalMs: 30 * 60 * 1000,
   jitterMs: 2 * 60 * 1000,
   cmd: () => ({ bin: 'node', args: [W('prospector'), '--batch', '2'] }),
+});
+
+// Calendar-keeper — fill the "On this day" page from source transcripts and
+// source publication dates. Pure regex + sqlite; no LLM. Proposes
+// events_append claims that the reviewer and coordinator merge normally.
+defineLane({
+  name: 'calendar',
+  intervalMs: 25 * 60 * 1000,
+  jitterMs: 90 * 1000,
+  timeoutMs: 5 * 60 * 1000,
+  burnsFleet: false,
+  cmd: () => ({ bin: 'node', args: [W('calendar-keeper')] }),
 });
 
 // Sentry — mouth-sentry QA pass.
