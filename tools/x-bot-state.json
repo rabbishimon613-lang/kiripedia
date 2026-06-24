@@ -153,7 +153,8 @@
     "quote:fci-loretto:3",
     "dyk:gust-avrakotos:1",
     "new:afghan-languages",
-    "quote:wesley-clark:0"
+    "quote:wesley-clark:0",
+    "new:afghan-war-logs"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -488,10 +489,6 @@
   ],
   "queue": [
     {
-      "slug": "afghan-war-logs",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "bill-barr",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -685,10 +682,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "new",
-    "quote"
+    "quote",
+    "new"
   ]
 }
