@@ -152,7 +152,8 @@
     "dyk:daniel-hail:0",
     "quote:fci-loretto:3",
     "dyk:gust-avrakotos:1",
-    "new:afghan-languages"
+    "new:afghan-languages",
+    "quote:wesley-clark:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -684,10 +685,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "new"
+    "new",
+    "quote"
   ]
 }
