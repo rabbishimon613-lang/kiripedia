@@ -154,7 +154,8 @@
     "dyk:gust-avrakotos:1",
     "new:afghan-languages",
     "quote:wesley-clark:0",
-    "new:afghan-war-logs"
+    "new:afghan-war-logs",
+    "quote:curveball:3"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -682,10 +683,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "new",
     "quote",
-    "new"
+    "new",
+    "quote"
   ]
 }
