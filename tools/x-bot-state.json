@@ -151,7 +151,8 @@
     "quote:john-brennan:8",
     "dyk:daniel-hail:0",
     "quote:fci-loretto:3",
-    "dyk:gust-avrakotos:1"
+    "dyk:gust-avrakotos:1",
+    "new:afghan-languages"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -486,10 +487,6 @@
   ],
   "queue": [
     {
-      "slug": "afghan-languages",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "afghan-war-logs",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -687,10 +684,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
