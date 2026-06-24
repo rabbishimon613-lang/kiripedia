@@ -148,7 +148,8 @@
     "dyk:fort-chapman:0",
     "quote:dasht-i-leili-massacre:1",
     "dyk:john-kiriakou:34",
-    "quote:john-brennan:8"
+    "quote:john-brennan:8",
+    "dyk:daniel-hail:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -159,6 +160,8 @@
     "access-agent",
     "admiral-crowe",
     "afghan-heroin-policy",
+    "afghan-languages",
+    "afghan-war-logs",
     "ahmed-chalabi",
     "ahmed-khatib",
     "ai-weiwei",
@@ -179,6 +182,7 @@
     "below-worlds-end",
     "benazir-bhutto",
     "bernie-kerik",
+    "bill-barr",
     "bill-buckley",
     "bill-casey",
     "bill-richardson",
@@ -197,17 +201,23 @@
     "carlos-the-jackal",
     "church-committee",
     "cia-cable-priority-levels",
+    "cia-car-hacking",
     "cia-drug-facilitation",
     "cia-insiders-guide-to-lying-and-lie-detection",
     "cia-insiders-guide-to-surveillance",
     "cia-national-resources-division",
     "cia-political-psychology-division",
+    "cia-smart-tv-surveillance",
     "cia",
     "cofer-black",
     "cold-cell",
     "cori-bush",
     "critical-analytic-thinking",
     "curveball",
+    "daniel-domscheit-berg",
+    "daniel-ellsberg",
+    "daniel-hail",
+    "daniel-hale",
     "dasht-i-leili-massacre",
     "dashti-leyli",
     "david-petraeus",
@@ -223,20 +233,26 @@
     "drone-base-balochistan",
     "edward-snowden",
     "eli-cohen",
+    "elizabeth-rouser",
     "enhanced-interrogation",
     "eric-oneill",
+    "eric-swallwell-fbi-documents",
     "erik-prince",
     "espionage-act",
     "executive-order-12333",
     "extraordinary-rendition",
     "falls-church-mosque",
+    "fbi-arrest-strategies",
+    "fbi",
     "fci-loretto",
     "federal-torture-act",
     "federal-whistleblower-protection-act",
     "fisa",
     "five-eyes",
     "fort-chapman",
+    "fort-gordon",
     "francis-gary-powers",
+    "gail-slater",
     "gay-diplomat-operation",
     "general-dostum",
     "george-habash",
@@ -247,6 +263,7 @@
     "gina-haspel",
     "giuliani-pardon-solicitation",
     "glenn-symington-act",
+    "government-accountability-project",
     "government-metadata-purchase",
     "ground-branch",
     "grs-global-response-staff",
@@ -263,13 +280,17 @@
     "hummus",
     "hussein-kamel",
     "hypnosis-operation-walk-in",
+    "ilhan-omar",
     "imran-khan",
     "in-q-tel",
+    "intelligence-agencies",
     "intelligence-identities-protection-act",
+    "intercept",
     "iran-12-day-war",
     "iran-contra",
     "iran-nuclear-assessment",
     "isi",
+    "israeli-false-flags",
     "israeli-nuclear-program",
     "jamaal-bowman",
     "james-angleton",
@@ -283,6 +304,7 @@
     "jim-pavitt",
     "joe-biden",
     "joe-wilson",
+    "john-brennan-tuesday-morning-kill-list",
     "john-brennan",
     "john-kerry",
     "john-kiriakou",
@@ -297,6 +319,7 @@
     "josh-shapiro",
     "joshua-schulte",
     "karl-rove",
+    "katherine-gun",
     "ken-dilanian",
     "khaled-el-masri",
     "khaled-mashal",
@@ -307,11 +330,14 @@
     "kuwait-liberation-day",
     "kuwait-oil-fires",
     "learned-helplessness",
+    "lebanon-israeli-conflict",
+    "lee-zeldon",
     "leon-panetta",
     "leonie-brinkema",
     "lie-detection",
     "lincolns-last-turd",
     "louis-farrakhan",
+    "lynn-buchanan",
     "mack-mclarty",
     "mad-minute",
     "maduro-capture",
@@ -320,8 +346,10 @@
     "mahmud",
     "mark-mcdougall",
     "martha-kesler",
+    "mass-surveillance",
     "matthew-cole",
     "mek",
+    "mexican-9-month-work-visas",
     "mi6",
     "michael-hastings",
     "mike-baker",
@@ -329,6 +357,8 @@
     "mike-mastrovito",
     "mike-scheuer",
     "mike-spann",
+    "military-ethics",
+    "miranda-rights",
     "mitchell-and-jessen",
     "mk-ultra",
     "mohamedou-ould-slahi",
@@ -340,17 +370,23 @@
     "muhammad-atar",
     "national-endowment-for-democracy",
     "national-intelligence-council",
+    "national-security-agency",
+    "national-security-vs-civil-liberties",
     "ninth-circuit-contractor-ruling-2025",
     "noelle-dunphy",
     "non-personal-communication",
     "norman-schwarzkopf",
+    "nsa-surveillance",
+    "nsa",
     "one-time-pad",
     "operating-directive",
     "operation-midnight-climax",
     "operation-mockingbird",
     "palantir",
+    "pam-bondi",
     "patriot-act",
     "pervez-musharraf",
+    "pete-hoekstra",
     "pete-seeger",
     "peter-mandelson",
     "peter-strzok",
@@ -360,9 +396,12 @@
     "pick-the-man-principle",
     "pike-committee",
     "plato-cacheris",
+    "plus-972",
+    "presidents-daily-brief",
     "prince-muhammad-bin-naif",
     "principals-committee-meeting",
     "private-intelligence",
+    "project-stargate",
     "qala-i-jangi-uprising",
     "ramzi-bin-al-shibh",
     "revolutionary-organization-17-november",
@@ -376,6 +415,7 @@
     "roger-waters",
     "ruby-ridge",
     "rudy-giuliani",
+    "russell-targ",
     "sacha-baron-cohen",
     "saddam-hussein",
     "safe-housekeeper",
@@ -386,6 +426,7 @@
     "scholar-in-residence-program",
     "sebastian-gorka",
     "section-702",
+    "senate-foreign-relations-committee",
     "senate-torture-report",
     "senior-executive-service",
     "sharon-scranage",
@@ -401,10 +442,14 @@
     "steve-kappes",
     "strawberry-fields",
     "surveillance-detection-route",
+    "sweat-lodge",
     "taliban-origin-benazir",
     "ted-rall",
+    "terry-aubry",
     "the-farm",
+    "the-reluctant-spy",
     "thin-thread-stellar-wind",
+    "thin-thread",
     "thomas-massie",
     "three-felonies-a-day",
     "three-saudi-princes",
@@ -413,17 +458,23 @@
     "tom-drake",
     "tora-bora",
     "trita-parsi",
+    "trump-dni-replacement",
+    "trump",
     "tuesday-morning-kill-list",
+    "tulsi-gabbard",
     "tyrell-vanto",
     "uday-hussein",
+    "us-military-venture-capital",
     "valerie-plame",
     "vault-7",
     "vernon-walters",
     "waco-siege",
     "walling",
     "waterboarding",
+    "watermark",
     "welch-45",
     "wesley-clark",
+    "whistleblower-protection-act",
     "william-donovan",
     "william-friedman",
     "william-webster",
@@ -431,12 +482,213 @@
     "yemen-arrest",
     "yemen"
   ],
-  "queue": [],
+  "queue": [
+    {
+      "slug": "afghan-languages",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "afghan-war-logs",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "bill-barr",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "cia-car-hacking",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "cia-smart-tv-surveillance",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "daniel-domscheit-berg",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "daniel-ellsberg",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "daniel-hail",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "daniel-hale",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "elizabeth-rouser",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "eric-swallwell-fbi-documents",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "fbi-arrest-strategies",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "fbi",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "fort-gordon",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "gail-slater",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "government-accountability-project",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "ilhan-omar",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "intelligence-agencies",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "intercept",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "israeli-false-flags",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "john-brennan-tuesday-morning-kill-list",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "katherine-gun",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "lebanon-israeli-conflict",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "lee-zeldon",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "lynn-buchanan",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "mass-surveillance",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "mexican-9-month-work-visas",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "military-ethics",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "miranda-rights",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "national-security-agency",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "national-security-vs-civil-liberties",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "nsa-surveillance",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "nsa",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "pam-bondi",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "pete-hoekstra",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "plus-972",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "presidents-daily-brief",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "project-stargate",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "russell-targ",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "senate-foreign-relations-committee",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "sweat-lodge",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "terry-aubry",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "the-reluctant-spy",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "thin-thread",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "trump-dni-replacement",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "trump",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "tulsi-gabbard",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "us-military-venture-capital",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "watermark",
+      "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "whistleblower-protection-act",
+      "added": "2026-06-24T03:34:57.975Z"
+    }
+  ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
