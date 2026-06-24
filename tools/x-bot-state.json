@@ -149,7 +149,8 @@
     "quote:dasht-i-leili-massacre:1",
     "dyk:john-kiriakou:34",
     "quote:john-brennan:8",
-    "dyk:daniel-hail:0"
+    "dyk:daniel-hail:0",
+    "quote:fci-loretto:3"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -685,10 +686,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
