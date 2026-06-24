@@ -150,7 +150,8 @@
     "dyk:john-kiriakou:34",
     "quote:john-brennan:8",
     "dyk:daniel-hail:0",
-    "quote:fci-loretto:3"
+    "quote:fci-loretto:3",
+    "dyk:gust-avrakotos:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -686,10 +687,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
