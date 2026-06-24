@@ -1,0 +1,48 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[39:54] with the US president um or any US president over the last few years. Um I mean the the the at least with the case with the with Trump, uh he's been surrounded by people who are promoting a obviously someone else's agenda. Even Tucker mentioned it the other day. He said that on a personal level he visited Trump uh he paid a visit to Trump in Washington. It was a Monday or Tuesday right before the war was about to start cuz he could tell the war was about to start. He wanted to talk him out of it.
+
+[40:25] And then even when the war started, Tucker said he tried contacting Trump, and they just wouldn't give it give him Trump on the phone. They told him, "Look, forget about it. He's just locked up in that room, and they're showing him all these polls that are giving him all these numbers that there's a 9 to 10 chance that he's going to win the war." So, uh You know what? Let me Let me comment on that if I may because I have a little bit of inside information I can pass on. So, I have a friend who works in the Republican National Committee. And he told me more than a month ago
+
+[40:58] that the internal secret Republican National Committee polls show what he called a bloodbath against the Republicans. That was before the war. >> War. Donald Trump Talking about the midterms. rolled the dice. He was mention he would The midterms. It's the midterms, okay. Yes, the midterms. Donald Trump rolled the dice thinking, "If I can collapse this Iranian government, I'm going to be a hero, and the polls are
+
+[41:29] going to jump up for the Republicans, and it's going to be, you know, it's going to be a historic advantage and a historic turnaround for the Republican Party." Well, exactly the opposite has happened. Now, the polls are so dire because we're bogged down in a war that we can't possibly win. Now, instead of losing 15 seats and flipping control to the Democrats, Oh, it's control of the House of Representatives, they're looking at
+
+[42:00] 40 to 50 seats. Yeah, overall. And now for the first time they're looking at losing the Senate as well. So, this was a disaster and a terrible, terrible decision. So, uh Americans need to understand that opposing this war, am I right to say this, is not about left versus right? If you're a Republican and you're opposing this war, doesn't make you a left Democrat, doesn't make you a liberal. It's about interventionists versus non-interventionists, right? It's about
+
+[42:32] America first, not Israel first. >> Yes, that's exactly right. We're having this very odd realignment politically in the United States right now, Suzy, where members of the progressive left and members of the Make America Great Again, the MAGA right, are coming together on this issue because neither one of them want war. Who would have thought? This is unprecedented in American history. It's like the communists and the fascists joining forces Yes. uh to
+
+[43:04] to oppose war. I mean, I'm I'm exaggerating a little bit, of course, because progressives aren't communists and MAGAs aren't fascists, most of them aren't. So, it's it's astounding to me that the Republican and Democratic Party leaderships have not realized that they're losing their own people on this issue. The American people don't want war. We had decades of uninterrupted wars
+
+[43:34] that we ended up losing in the end. We're bankrupt as a country, our roads are our airports look like they belong in the third world. We have bridges that are falling into the rivers below them, and I want to know why the Chinese have trains that go 500 km an hour, and I have to go on a train I could walk faster than some of the trains that we have in the United States. Man, the money the money Why do the Chinese get all these things? Because the Exactly, they don't on war.
+
+[44:06] And the money you spend on all these wars you could have had free health care for everyone and the best the best education system and no homeless people no vets being homeless all these veterans being homeless that's shameful shameful. Um It is and and we have we have veterans every literally every single day committing suicide many of them committing suicide in the parking lots of the Veterans Administration hospitals that refuse to treat them for
+
+[44:36] post-traumatic stress disorder. Very sad. It's something like as many as six a day kill themselves in the Veterans Administration hospital parking lots. Yeah. Well, the lobbyists don't care about that neither does AIPAC. John I wanted I wanted to I wanted to touch also on Lebanon. You know that is that that is my fatherland. So there's Lebanon is also very very worse on the situation there. Yes, there
+
+[45:07] is the supposed ceasefire signed back in the end of 2024. Israel never kept up to to its terms of the ceasefire. They never stopped bombing South Lebanon. Since then until February 28th, they had killed through their attacks and their their bombings hundreds of Lebanese civilians. They never stopped also using what do you say white phosphorus which Amnesty International uh deems it's it's I mean it's not a legal
+
+[45:39] means of war. It causes long-term injuries severe burns and destruction of farmland. We know why they doing that since people are not deserting South Lebanon. They [snorts] want to destroy their livelihood so that they do end up deserting South Lebanon and the latest is that Israel has issued what do you say a directive that 53 villages and towns of South Lebanon needed to be evacuated. And the sad truth of the matter is, as we speak, 300,000 Lebanese from South Lebanon have
+
+[56:02] seen the most high-level visits we've ever seen in the matter of I don't know, we haven't seen them maybe ever in even in the span of a year. We've had the Greek Defense Minister visit Cyprus March 3rd with the top grad brass of the Greek Army to coordinate their defense planning with the Cypriot counterparts. March 5th, the UK Defense Minister visits Cyprus to meet with his uh Cypriot counterpart. Uh March 6th, Friday, the President of the I President of the Republic of Cyprus met with MI6 Chief Alex Younger at the Presidential
+
+[56:33] Palace. And on Monday, March 9th, Mac Emmanuel Macron and Greek Prime Minister Kyriakos Mitsotakis visited Cyprus for consultations. Just your word on what's happening and why. As bad a policy as this is, the NATO militaries and even more broadly the European Union militaries feel compelled to at least
+
+[57:05] have the appearance of being supportive of Israel and the United States. And so, behind closed doors, they probably sighed deeply and said, >> [sighs] >> "Well, let's send a frigate or two frigates or a battleship or a hospital ship and at least make it look like we're trying to do our part." I think that's that's what it comes down to. Um
+
+[57:35] which is funny to me because the Spanish Prime Minister made some of the strongest anti-war statements out there. And the next thing you know, they're sending a frigate. >> The next day he's sending the frigate out there. >> Exactly. You said something a minute ago that I think deserves a little bit of exploration. There was this statement recently about Turkey being the next big enemy of Israel that Israel is going to have to confront. But Turkey's a NATO country.
+
+[58:06] So, what happens if Israel attacks Turkey? The United States has to come in on the side of Turkey. They have to invoke Article 5 of NATO. >> It's Will they? They have to invoke Article Article 5 of NATO. They're they're obligated by treaty to come in on the side of Turkey and fight against Israel. Okay. >> Now, will they is an entirely different question. Yeah, because let's not forget who >> didn't Mhm.
+
+[58:37] Of course. And if they didn't, and I think that they wouldn't No, that would be the end of NATO. Yeah. John, I know I said that was the last question, but I'm getting another question in by my producer, and he's right. I need to ask you because it's like if someone would know, John would know being he was in this in the Secret Service. Because here in Cyprus we've always wanted to know To the best of your ability, are there nuclear weapons being stored in the British bases in Cyprus?
+
+[59:10] That's a great question. I don't know. But I would I would guess >> Bible, you don't know? Um Pardon me? Bible, you don't know? >> Or kisses >> Bible, I don't know. No, I I honestly honestly, as God is my witness, I don't know. Um I don't even know where the American nuclear weapons uh are based. The those are highly guarded secrets in the ministries of defense. Um I would guess probably yes.
+
+[59:42] But I don't know. Okay. John, as always, my friend, thank you for your honesty. Good to see you. And for helping us understand what's really happening behind the headlines. Thank you. It's an ugly situation out there. Thanks for having me. Yeah. We'll hope to speak to you again soon, my friend. I look forward to it. Bye-bye. Thank you for watching. A small request on my part. The channel is so close to 10,000
+
+[1:00:12] subscribers. I need your help to get us there. It just takes 2 seconds. Just subs- hit subscribe and tap the bell. That's the best way to support Unfiltered with Sam. This is uh the only English-language uh woman- uh led geopolitical interview platform broadcasting from the Eastern Mediterranean. So, subscribe, share, and help this voice uh reach further. From here in Cyprus, this is Unfiltered with Sam. Until next time.
+
+[1:00:46] >> [music] [music]

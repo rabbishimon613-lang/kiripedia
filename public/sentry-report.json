@@ -1,86 +1,36 @@
 {
-  "generated_at": "2026-06-23T03:58:01.686Z",
+  "generated_at": "2026-06-24T02:31:59.807Z",
   "window_min": 30,
-  "scanned": 50,
-  "violation_count": 18,
+  "scanned": 45,
+  "violation_count": 7,
   "violations": [
     {
-      "slug": "sleep-deprivation",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou described"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "sleeper-agent",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 3,
-          "samples": [
-            "Kiriakou described",
-            "Kiriakou recalled",
-            "Kiriakou described"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "sociopathic-tendencies",
+      "slug": "edward-snowden",
       "findings": [
         {
           "kind": "kiriakou-said",
           "count": 2,
           "samples": [
-            "Kiriakou described",
-            "Kiriakou described"
+            "Kiriakou noted",
+            "Kiriakou said"
           ]
         }
       ]
     },
     {
-      "slug": "taliban-origin-benazir",
+      "slug": "john-brennan-tuesday-morning-kill-list",
       "findings": [
         {
-          "kind": "kiriakou-said",
+          "kind": "is-said-to",
           "count": 1,
           "samples": [
-            "Kiriakou noted"
+            "is said to"
           ]
         }
       ]
     },
     {
-      "slug": "the-farm",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou states"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "thin-thread-stellar-wind",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou says"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "thomas-massie",
+      "slug": "carlos-the-jackal",
       "findings": [
         {
           "kind": "kiriakou-said",
@@ -92,19 +42,7 @@
       ]
     },
     {
-      "slug": "tuesday-morning-kill-list",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou described"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "tyrell-vanto",
+      "slug": "anwar-al-awlaki",
       "findings": [
         {
           "kind": "kiriakou-said",
@@ -116,124 +54,68 @@
       ]
     },
     {
-      "slug": "vault-7",
+      "slug": "cia",
       "findings": [
         {
           "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou said"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "waco-siege",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 2,
+          "count": 36,
           "samples": [
             "Kiriakou said",
-            "Kiriakou said"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "waterboarding",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 4,
-          "samples": [
-            "Kiriakou said",
-            "Kiriakou said",
-            "Kiriakou described"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "yemen-arrest",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 2,
-          "samples": [
             "Kiriakou described",
-            "Kiriakou explained"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "david-rockefeller-bahrain",
-      "findings": [
-        {
-          "kind": "he-recalls",
-          "count": 1,
-          "samples": [
-            "He explained"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "diesel-therapy",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou described"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "doing-time-like-a-spy",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 2,
-          "samples": [
-            "Kiriakou told",
-            "Kiriakou described"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "double-agent-capture",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 3,
-          "samples": [
-            "Kiriakou said",
-            "Kiriakou said",
-            "Kiriakou said"
+            "Kiriakou stated"
           ]
         },
         {
           "kind": "he-recalls",
+          "count": 4,
+          "samples": [
+            "He noted",
+            "he noted",
+            "He noted"
+          ]
+        },
+        {
+          "kind": "allegedly",
           "count": 1,
           "samples": [
+            "reportedly"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "iran-nuclear-assessment",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 15,
+          "samples": [
+            "Kiriakou stated",
+            "Kiriakou described",
+            "Kiriakou described"
+          ]
+        },
+        {
+          "kind": "he-recalls",
+          "count": 3,
+          "samples": [
+            "He noted",
+            "He noted",
             "He noted"
           ]
         }
       ]
     },
     {
-      "slug": "double-agent-marriott-trap",
+      "slug": "mk-ultra",
       "findings": [
         {
           "kind": "kiriakou-said",
-          "count": 2,
+          "count": 5,
           "samples": [
-            "Kiriakou told",
-            "Kiriakou said"
+            "Kiriakou described",
+            "Kiriakou described",
+            "Kiriakou stated"
           ]
         }
       ]

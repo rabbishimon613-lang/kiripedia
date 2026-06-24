@@ -1,0 +1,14 @@
+{"ts":"2026-06-24T02:30:29.622Z","role":"reasoning","event":"fail","model":"groq:gpt-oss-20b","status":413,"msg":"{\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-20b` in organization `org_01ktftpf30fn3smm035p9pes2k` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 10348,"}
+{"ts":"2026-06-24T02:30:29.622Z","role":"reasoning","event":"try","model":"groq:llama-4-scout"}
+{"ts":"2026-06-24T02:30:29.919Z","role":"reasoning","event":"ok","model":"groq:llama-4-scout"}
+{"ts":"2026-06-24T02:30:29.919Z","role":"reasoning","event":"try","model":"groq:gpt-oss-120b"}
+{"ts":"2026-06-24T02:30:30.084Z","role":"reasoning","event":"fail","model":"groq:gpt-oss-120b","status":413,"msg":"{\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01ktftpf30fn3smm035p9pes2k` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9516,"}
+{"ts":"2026-06-24T02:30:30.084Z","role":"reasoning","event":"try","model":"groq:llama-4-scout"}
+{"ts":"2026-06-24T02:30:30.323Z","role":"reasoning","event":"fail","model":"groq:llama-4-scout","status":429,"msg":"{\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01ktftqp1me1g9bh7qeh6y0596` service tier `on_demand` on tokens per minute (TPM): Limi"}
+{"ts":"2026-06-24T02:30:30.324Z","role":"reasoning","event":"try","model":"cerebras:qwen-3-coder"}
+{"ts":"2026-06-24T02:30:30.459Z","role":"reasoning","event":"fail","model":"cerebras:qwen-3-coder","status":404,"msg":"{\"message\":\"Model qwen-3-coder-480b does not exist or you do not have access to it.\",\"type\":\"not_found_error\",\"param\":\"model\",\"code\":\"model_not_found\"}"}
+{"ts":"2026-06-24T02:30:33.249Z","role":"reasoning","event":"ok","model":"groq:llama-4-scout"}
+{"ts":"2026-06-24T02:30:33.249Z","role":"reasoning","event":"try","model":"groq:gpt-oss-120b"}
+{"ts":"2026-06-24T02:30:33.377Z","role":"reasoning","event":"fail","model":"groq:gpt-oss-120b","status":429,"msg":"{\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ktftmz1ce5fbmjhvkb35t5vy` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3078, Req"}
+{"ts":"2026-06-24T02:30:33.377Z","role":"reasoning","event":"try","model":"groq:gpt-oss-20b"}
+{"ts":"2026-06-24T02:30:37.256Z","role":"reasoning","event":"ok","model":"groq:gpt-oss-20b"}

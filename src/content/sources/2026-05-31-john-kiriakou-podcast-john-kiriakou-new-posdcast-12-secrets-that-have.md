@@ -1,5 +1,5 @@
 ---
-duration: 3759
+duration: "1:02:39"
 videoId: kbsiT-LgFJg
 url: "https://www.youtube.com/watch?v=kbsiT-LgFJg"
 date: 2026-05-31

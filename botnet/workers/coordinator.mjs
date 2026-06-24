@@ -137,9 +137,15 @@ for (const [videoId, grp] of byClip) {
   try {
     execSync(`node ${SCAFFOLDER} ${specPath}`, { cwd: REPO_ROOT, encoding: 'utf8', stdio: 'pipe' });
   } catch (err) {
-    console.error(`[coordinator] scaffolder failed for ${grp.slug}:`, err.stderr?.toString() || err.message);
-    db.prepare(`UPDATE cycles SET ended_at=datetime('now'), status='failed' WHERE id=?`).run(cycleId);
-    process.exit(2);
+    const reason = (err.stderr?.toString() || err.message).split('\n')[0].slice(0, 240);
+    console.error(`[coordinator] scaffolder failed for ${grp.slug}: ${reason} — quarantining and continuing`);
+    // Quarantine this clip's pending claims so we don't choke on them next cycle.
+    const quarantineClaim = db.prepare(`UPDATE claims SET status='quarantined', review_notes=COALESCE(review_notes,'') || ' [coord:scaffold_fail:' || ? || ']' WHERE id=?`);
+    const tx = db.transaction(() => {
+      for (const [, a] of grp.articles) for (const id of a.claimIds) quarantineClaim.run(reason.slice(0, 80), id);
+    });
+    tx();
+    continue;
   }
 
   // Mark claims merged for this clip.

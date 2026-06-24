@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T03:58:02.150Z",
+  "generated_at": "2026-06-24T02:50:34.212Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -11,9 +11,9 @@
     {
       "key": "npp",
       "label": "New Page Patroller",
-      "action": "idle",
+      "action": "Done: Checked the lead queue — no new clips today.",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-24 02:50:00"
     },
     {
       "key": "source_auth",
@@ -62,81 +62,81 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-23 03:56:01"
+      "ts": "2026-06-24 02:50:17"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
-      "action": "idle",
+      "action": "Collecting passed claims for filing.",
       "handoff_to": null,
-      "ts": "2026-06-23 03:56:01"
+      "ts": "2026-06-24 02:50:09"
     },
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "Done: ",
+      "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-06-23 03:56:09"
+      "ts": "2026-06-24 02:47:58"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
-      "action": "Done: No gap candidates available (all on cooldown or zero-delta)",
+      "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:56:35"
+      "ts": "2026-06-24 02:50:07"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: No peer mentions for black-cube",
+      "action": "Done: Searched the shelf for Drone Base Balochistan — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:57:48"
+      "ts": "2026-06-24 02:50:32"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
-      "action": "Done: No stub candidates available (all on cooldown or above weaver threshold)",
-      "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:57:59"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Skipped bojinka-plot (no LLM)",
-      "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:58:01"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Skipped 2026-04-14-deep-focus-iran-war-media-bias (no LLM)",
+      "action": "Done: Set the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript aside — keys are jammed.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-23 03:56:15"
+      "ts": "2026-06-24 02:47:43"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
-      "action": "Done: Scanned 50, 18 articles with 31 issues",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-23 03:58:01"
+      "ts": null
     }
   ],
   "last_cycle": {
-    "id": 3,
-    "started_at": "2026-06-23 03:56:01",
-    "ended_at": "2026-06-23 03:56:01",
+    "id": 35,
+    "started_at": "2026-06-24 02:50:09",
+    "ended_at": "2026-06-24 02:50:09",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
-    "status": "committed"
+    "status": "failed"
   },
   "counts": {
-    "leads_pending": 0,
+    "leads_pending": 1,
     "triaged_on": 0,
     "transcribed": 0,
-    "catalogued": 0,
-    "published": 0,
-    "quarantined_claims": 0,
+    "catalogued": 14,
+    "published": 4,
+    "quarantined_claims": 163,
     "quarantined_clips": 0
   }
 }

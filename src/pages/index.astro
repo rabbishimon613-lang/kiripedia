@@ -1,9 +1,32 @@
 ---
 import WikiLayout from '../layouts/WikiLayout.astro';
 import { getCollection } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 const articles = await getCollection('articles');
 const sources = await getCollection('sources');
 const count = articles.length;
+
+// ---------- "Updated" timestamp ----------
+// Live build-time stamp. Astro static rebuilds on every coordinator push, so
+// this advances with the corpus. We pick the max of (most-recent article
+// mtime, build time) — the article-mtime branch handles the common case
+// where a push edits content; the build-time branch covers schema-only
+// rebuilds where no .mdx changed but the site was redeployed.
+const articlesDir = fileURLToPath(new URL('../content/articles/', import.meta.url));
+let latestContentMs = 0;
+try {
+  for (const entry of fs.readdirSync(articlesDir)) {
+    if (!entry.endsWith('.mdx') && !entry.endsWith('.md')) continue;
+    const m = fs.statSync(path.join(articlesDir, entry)).mtimeMs;
+    if (m > latestContentMs) latestContentMs = m;
+  }
+} catch {
+  // If the directory walk fails for any reason, fall through to build time.
+}
+const updatedMs = Math.max(latestContentMs, Date.now());
+const updatedIso = new Date(updatedMs).toISOString();
 
 const slugOf = (a) => a.id.replace(/\.mdx?$/, '');
 
@@ -217,6 +240,35 @@ const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today
       <p class="mainpage-stats">
         <strong>{count.toLocaleString()}</strong> articles ({peopleCount} <a href="/category/people">people</a>, {organizationsCount} <a href="/category/organizations">organizations</a>, {placesCount} <a href="/category/places">places</a>, {programsCount} <a href="/category/programs">programs</a>, {proceduresCount} <a href="/category/procedures">procedures</a>, {eventsCount} <a href="/category/events">events</a>), anchored to <strong>{citationsCount.toLocaleString()}</strong> cited timestamps across <strong>{sources.length}</strong> <a href="/sources">source recordings</a> totaling {totalSourceHours} hours of transcribed video and {totalWords.toLocaleString()} words written.
       </p>
+      <p class="mainpage-updated" style="font-size:12px; color:var(--color-base--subtle); margin-top:4px">
+        Updated <time id="mainpage-updated-time" datetime={updatedIso}>{updatedIso.replace('T', ' ').slice(0, 16)} UTC</time>
+      </p>
+      <script is:inline>
+        (function () {
+          var el = document.getElementById('mainpage-updated-time');
+          if (!el) return;
+          var iso = el.getAttribute('datetime');
+          if (!iso) return;
+          var then = Date.parse(iso);
+          if (isNaN(then)) return;
+          function fmt() {
+            var diff = Math.max(0, (Date.now() - then) / 1000);
+            if (diff < 45) return 'just now';
+            if (diff < 90) return 'a minute ago';
+            var m = Math.round(diff / 60);
+            if (m < 45) return m + ' minutes ago';
+            if (m < 90) return 'an hour ago';
+            var h = Math.round(m / 60);
+            if (h < 24) return h + ' hours ago';
+            var d = Math.round(h / 24);
+            if (d < 2) return 'yesterday';
+            if (d < 30) return d + ' days ago';
+            // Fall back to the absolute stamp for older builds.
+            return iso.replace('T', ' ').slice(0, 16) + ' UTC';
+          }
+          el.textContent = fmt();
+        })();
+      </script>
     </div>
 
     <section class="mainpage-box tfa" style="margin-top:12px">
