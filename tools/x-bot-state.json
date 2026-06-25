@@ -158,7 +158,8 @@
     "quote:curveball:3",
     "new:bill-barr",
     "dyk:military-ethics:0",
-    "new:cia-car-hacking"
+    "new:cia-car-hacking",
+    "dyk:fbi-arrest-strategies:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -678,10 +679,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "new",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
