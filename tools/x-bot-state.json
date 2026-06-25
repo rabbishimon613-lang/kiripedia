@@ -161,7 +161,8 @@
     "new:cia-car-hacking",
     "dyk:fbi-arrest-strategies:1",
     "new:cia-smart-tv-surveillance",
-    "dyk:jfk-assassination:2"
+    "dyk:jfk-assassination:2",
+    "quote:john-kiriakou:52"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -677,10 +678,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
