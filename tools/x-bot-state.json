@@ -156,7 +156,8 @@
     "quote:wesley-clark:0",
     "new:afghan-war-logs",
     "quote:curveball:3",
-    "new:bill-barr"
+    "new:bill-barr",
+    "dyk:military-ethics:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -680,10 +681,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "new",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
