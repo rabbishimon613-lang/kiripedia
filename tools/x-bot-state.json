@@ -157,7 +157,8 @@
     "new:afghan-war-logs",
     "quote:curveball:3",
     "new:bill-barr",
-    "dyk:military-ethics:0"
+    "dyk:military-ethics:0",
+    "new:cia-car-hacking"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -492,10 +493,6 @@
   ],
   "queue": [
     {
-      "slug": "cia-car-hacking",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "cia-smart-tv-surveillance",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -681,10 +678,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
