@@ -163,7 +163,8 @@
     "new:cia-smart-tv-surveillance",
     "dyk:jfk-assassination:2",
     "quote:john-kiriakou:52",
-    "dyk:katherine-gun:0"
+    "dyk:katherine-gun:0",
+    "quote:operating-directive:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -679,10 +680,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
