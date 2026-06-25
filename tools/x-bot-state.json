@@ -160,7 +160,8 @@
     "dyk:military-ethics:0",
     "new:cia-car-hacking",
     "dyk:fbi-arrest-strategies:1",
-    "new:cia-smart-tv-surveillance"
+    "new:cia-smart-tv-surveillance",
+    "dyk:jfk-assassination:2"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -676,10 +677,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
