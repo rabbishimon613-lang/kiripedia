@@ -166,7 +166,8 @@
     "dyk:katherine-gun:0",
     "quote:operating-directive:1",
     "dyk:william-donovan:1",
-    "quote:section-702:5"
+    "quote:section-702:5",
+    "new:daniel-domscheit-berg"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -501,10 +502,6 @@
   ],
   "queue": [
     {
-      "slug": "daniel-domscheit-berg",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "daniel-ellsberg",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -682,10 +679,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
