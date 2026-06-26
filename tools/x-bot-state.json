@@ -171,7 +171,8 @@
     "quote:sacha-baron-cohen:6",
     "dyk:cia-insiders-guide-to-surveillance:0",
     "quote:cia:22",
-    "new:daniel-ellsberg"
+    "new:daniel-ellsberg",
+    "dyk:joe-wilson:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -679,10 +680,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
