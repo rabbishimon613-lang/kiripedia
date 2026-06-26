@@ -1283,3 +1283,13 @@
 {"ts":"2026-06-24T03:12:00.637Z","lane":"plant","event":"done","step":"scribe-3","code":0,"ms":144}
 {"ts":"2026-06-24T03:12:01.520Z","lane":"calendar","event":"done","step":null,"code":0,"ms":1384}
 {"ts":"2026-06-26T03:10:27.223Z","lane":"plant","event":"done","step":"scribe-3","code":0,"ms":79}
+{"ts":"2026-06-26T03:30:19.075Z","lane":"plant2","event":"start","step":"cat-1","bin":"node","args":["/Volumes/EOS_DIGITAL/KiriPedia/botnet/workers/cataloger-editor.mjs","--worker","cataloger-1","--batch","1"]}
+{"ts":"2026-06-26T03:30:19.236Z","lane":"plant2","event":"done","step":"cat-1","code":0,"ms":159}
+{"ts":"2026-06-26T03:30:19.236Z","lane":"plant2","event":"start","step":"cat-2","bin":"node","args":["/Volumes/EOS_DIGITAL/KiriPedia/botnet/workers/cataloger-editor.mjs","--worker","cataloger-2","--batch","1"]}
+{"ts":"2026-06-26T03:30:19.441Z","lane":"plant2","event":"done","step":"cat-2","code":0,"ms":73}
+{"ts":"2026-06-26T03:30:24.443Z","lane":"plant","event":"start","step":"scribe-1","bin":"node","args":["/Volumes/EOS_DIGITAL/KiriPedia/botnet/workers/scribe.mjs","--worker","scribe-1","--batch","1"]}
+{"ts":"2026-06-26T03:30:24.722Z","lane":"plant","event":"done","step":"scribe-1","code":0,"ms":279}
+{"ts":"2026-06-26T03:30:24.722Z","lane":"plant","event":"start","step":"scribe-2","bin":"node","args":["/Volumes/EOS_DIGITAL/KiriPedia/botnet/workers/scribe.mjs","--worker","scribe-2","--batch","1"]}
+{"ts":"2026-06-26T03:30:25.052Z","lane":"plant","event":"done","step":"scribe-2","code":0,"ms":79}
+{"ts":"2026-06-26T03:30:25.107Z","lane":"plant","event":"start","step":"scribe-3","bin":"node","args":["/Volumes/EOS_DIGITAL/KiriPedia/botnet/workers/scribe.mjs","--worker","scribe-3","--batch","1"]}
+{"ts":"2026-06-26T03:30:25.443Z","lane":"plant","event":"done","step":"scribe-3","code":0,"ms":76}

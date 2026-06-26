@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T03:23:24.786Z",
+  "generated_at": "2026-06-26T03:28:24.917Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -11,9 +11,9 @@
     {
       "key": "npp",
       "label": "New Page Patroller",
-      "action": "idle",
+      "action": "Done: Checked the lead queue — no new clips today.",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-26 03:27:35"
     },
     {
       "key": "source_auth",
@@ -62,21 +62,21 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-26 03:22:45"
+      "ts": "2026-06-26 03:27:31"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-26 03:25:45"
     },
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "idle",
+      "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-26 03:27:11"
     },
     {
       "key": "deepener",
@@ -109,19 +109,145 @@
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Set the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript aside — keys are jammed.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-26 03:27:29"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
-      "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix).",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-26 03:18:59"
+      "ts": null
     }
   ],
   "recent_events": [
+    {
+      "ts": "2026-06-26 03:28:01",
+      "key": "calendar-keeper",
+      "label": "calendar-keeper",
+      "event": "finish",
+      "action": "Done: Marked 0 air-dates on the calendar."
+    },
+    {
+      "ts": "2026-06-26 03:28:01",
+      "key": "calendar-keeper",
+      "label": "calendar-keeper",
+      "event": "finish",
+      "action": "Done: Pinned 0 dates to the corkboard from 0 sources."
+    },
+    {
+      "ts": "2026-06-26 03:28:01",
+      "key": "calendar-keeper",
+      "label": "calendar-keeper",
+      "event": "start",
+      "action": "Walking the calendar across 17 sources."
+    },
+    {
+      "ts": "2026-06-26 03:27:56",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "finish",
+      "action": "Done: Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23."
+    },
+    {
+      "ts": "2026-06-26 03:27:56",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "start",
+      "action": "Draining fleet/catch into clips (auto-trust=true)."
+    },
+    {
+      "ts": "2026-06-26 03:27:35",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "finish",
+      "action": "Done: Checked the lead queue — no new clips today."
+    },
+    {
+      "ts": "2026-06-26 03:27:35",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
+    },
+    {
+      "ts": "2026-06-26 03:27:33",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "finish",
+      "action": "Done: Checked the lead queue — no new clips today."
+    },
+    {
+      "ts": "2026-06-26 03:27:33",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
+    },
+    {
+      "ts": "2026-06-26 03:27:29",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "finish",
+      "action": "Done: Set the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript aside — keys are jammed."
+    },
+    {
+      "ts": "2026-06-26 03:27:29",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "start",
+      "action": "Opened the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript — hunting for unmined claims."
+    },
+    {
+      "ts": "2026-06-26 03:27:26",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "finish",
+      "action": "Done: Set the 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2 transcript aside — keys are jammed."
+    },
+    {
+      "ts": "2026-06-26 03:27:25",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "start",
+      "action": "Opened the 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2 transcript — hunting for unmined claims."
+    },
+    {
+      "ts": "2026-06-26 03:27:11",
+      "key": "indexer",
+      "label": "Indexer",
+      "event": "finish",
+      "action": "Done: Rebuilt 2 of 2 indexes."
+    },
+    {
+      "ts": "2026-06-26 03:27:07",
+      "key": "indexer",
+      "label": "Indexer",
+      "event": "start",
+      "action": "Rebuilding the date and mentions indexes."
+    },
+    {
+      "ts": "2026-06-26 03:25:45",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
+      "event": "start",
+      "action": "Collecting passed claims for filing."
+    },
+    {
+      "ts": "2026-06-26 03:24:24",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "finish",
+      "action": "Done: Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23."
+    },
+    {
+      "ts": "2026-06-26 03:24:24",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "start",
+      "action": "Draining fleet/catch into clips (auto-trust=true)."
+    },
     {
       "ts": "2026-06-26 03:18:59",
       "key": "mouth_sentry",
@@ -205,138 +331,12 @@
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Mount Weather — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-26 03:15:18",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Mount Weather — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-26 03:15:13",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Mahmud — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-26 03:15:13",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Mahmud — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-26 03:15:07",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Hypnosis Operation Walk In — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-26 03:15:07",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Hypnosis Operation Walk In — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-26 03:15:01",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Double Agent Marriott Trap — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-26 03:15:01",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Double Agent Marriott Trap — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-26 03:14:56",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Admiral Crowe — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-26 03:14:56",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Admiral Crowe — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-26 03:14:49",
-      "key": "deepener",
-      "label": "Transcript Deepener",
-      "event": "finish",
-      "action": "Done: Swept the article shelf — every gap was already filled this round."
-    },
-    {
-      "ts": "2026-06-26 03:14:24",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "finish",
-      "action": "Done: Set the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript aside — keys are jammed."
-    },
-    {
-      "ts": "2026-06-26 03:14:20",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "start",
-      "action": "Opened the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript — hunting for unmined claims."
-    },
-    {
-      "ts": "2026-06-26 03:14:17",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "finish",
-      "action": "Done: Set the 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2 transcript aside — keys are jammed."
-    },
-    {
-      "ts": "2026-06-26 03:14:17",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "start",
-      "action": "Opened the 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2 transcript — hunting for unmined claims."
-    },
-    {
-      "ts": "2026-06-26 03:13:58",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "finish",
-      "action": "Done: Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23."
-    },
-    {
-      "ts": "2026-06-26 03:13:58",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "start",
-      "action": "Draining fleet/catch into clips (auto-trust=true)."
-    },
-    {
-      "ts": "2026-06-26 03:13:53",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
-      "event": "start",
-      "action": "Collecting passed claims for filing."
-    },
-    {
-      "ts": "2026-06-26 03:13:42",
-      "key": "mouth_sentry",
-      "label": "Mouth Sentry",
-      "event": "finish",
-      "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix)."
     }
   ],
   "last_cycle": {
-    "id": 425,
-    "started_at": "2026-06-26 03:13:53",
-    "ended_at": "2026-06-26 03:13:53",
+    "id": 426,
+    "started_at": "2026-06-26 03:25:45",
+    "ended_at": "2026-06-26 03:25:45",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
