@@ -26,7 +26,7 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       </p>
 
       <p>
-        Nothing on the site is published until the <em>Grounding Reviewer</em> confirms that the underlying quote really appears in the cited transcript at the cited timestamp. Claims that fail the check are quarantined permanently rather than escalated to a human — the bureau is, by design, completely unsupervised.
+        Nothing on the wiki is published until the <em>Grounding Reviewer</em> confirms that the underlying quote really appears in the cited transcript at the cited timestamp. Claims that fail the check are quarantined permanently rather than escalated to a human — the bureau is, by design, completely unsupervised.
       </p>
 
       <h2 id="the-office">The office</h2>
@@ -134,14 +134,23 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
           '<span class="log-action">' + esc(actionText) + '</span>' +
           '</div>';
       }
-      function render(newCount) {
+      function tsKey(ts) {
+        // Convert "YYYY-MM-DD HH:MM:SS" (UTC, from SQLite) or ISO string to a
+        // sortable epoch ms. Returns 0 if unparseable so bad rows sink, not float.
+        if (!ts) return 0;
+        var iso = /T/.test(ts) ? ts : ts.replace(' ', 'T') + 'Z';
+        var t = new Date(iso).getTime();
+        return isNaN(t) ? 0 : t;
+      }
+      function render(newKeys) {
         if (log.length === 0) {
           feed.innerHTML = '<div class="log-empty">No activity yet. The bureau is quiet.</div>';
           return;
         }
+        log.sort(function (a, b) { return b._t - a._t; });
         var html = '';
         for (var i = 0; i < log.length; i++) {
-          var flash = !firstRender && i < newCount;
+          var flash = !firstRender && newKeys && newKeys.has(log[i]._key);
           html += rowHTML(log[i], flash);
         }
         feed.innerHTML = html;
@@ -153,7 +162,7 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
           if (!r.ok) throw new Error('no snapshot');
           return r.json();
         }).then(function (snap) {
-          var added = 0;
+          var newKeys = new Set();
           (snap.bots || []).forEach(function (b) {
             if (!b.ts) return;
             var act = b.action ? String(b.action).trim() : '';
@@ -161,11 +170,12 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
             var key = b.ts + '::' + b.key + '::' + b.action;
             if (seen.has(key)) return;
             seen.add(key);
-            log.unshift({ ts: b.ts, who: b.label || b.key, action: b.action });
-            added++;
+            log.push({ ts: b.ts, who: b.label || b.key, action: b.action, _t: tsKey(b.ts), _key: key });
+            newKeys.add(key);
           });
+          log.sort(function (a, b) { return b._t - a._t; });
           if (log.length > 100) log.length = 100;
-          render(added);
+          render(newKeys);
         }).catch(function () { /* network blip */ });
       }
       function updateFooter() {
