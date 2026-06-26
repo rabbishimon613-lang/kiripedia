@@ -164,7 +164,8 @@
     "dyk:jfk-assassination:2",
     "quote:john-kiriakou:52",
     "dyk:katherine-gun:0",
-    "quote:operating-directive:1"
+    "quote:operating-directive:1",
+    "dyk:william-donovan:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -680,10 +681,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
