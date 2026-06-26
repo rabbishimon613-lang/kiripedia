@@ -168,7 +168,8 @@
     "dyk:william-donovan:1",
     "quote:section-702:5",
     "new:daniel-domscheit-berg",
-    "quote:sacha-baron-cohen:6"
+    "quote:sacha-baron-cohen:6",
+    "dyk:cia-insiders-guide-to-surveillance:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -680,10 +681,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "new",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
