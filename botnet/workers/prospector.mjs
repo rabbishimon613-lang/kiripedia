@@ -19,6 +19,8 @@ import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
 import { worker_reasoning } from '../lib/fleet-client.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
+import { arg, intArg } from '../lib/argv.mjs';
+import { marchingOrdersFor } from '../lib/marching-orders.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -26,11 +28,10 @@ const ARTICLES_DIR = join(REPO_ROOT, 'src', 'content', 'articles');
 const SOURCES_DIR = join(REPO_ROOT, 'src', 'content', 'sources');
 const QUEUE_PATH = join(REPO_ROOT, 'public', 'prospector-queue.json');
 
-const args = process.argv.slice(2);
-const WORKER = args[args.indexOf('--worker') + 1] || 'prospector';
+const WORKER = arg('--worker', 'prospector-1');
 const ROLE = 'prospector';
-const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
-const COOLDOWN_SEC = 6 * 60 * 60; // 6h per transcript
+const BATCH = intArg('--batch', 1);
+const COOLDOWN_SEC = 60 * 60; // 1h — June–July push: re-prospect aggressively
 
 const humanize = s => s.replace(/-\d{4}$/, '').split('-').map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
 
@@ -77,7 +78,9 @@ function pickSource(exclude = new Set()) {
   return candidates[0] || null;
 }
 
-const SYSTEM = `You are the Prospector for KiriPedia.
+const SYSTEM = `${marchingOrdersFor('prospector')}
+
+You are the Prospector for KiriPedia.
 
 You receive ONE transcript (a public Kiriakou podcast/interview) and a list of existing article slugs. Identify the 1-5 most substantive standalone topics in this transcript where Kiriakou is the primary witness or commentator AND that aren't yet captured by an existing slug.
 

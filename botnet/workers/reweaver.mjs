@@ -22,17 +22,21 @@ import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
 import { worker_longcontext } from '../lib/fleet-client.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
+import { arg, intArg } from '../lib/argv.mjs';
+import { marchingOrdersFor } from '../lib/marching-orders.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
 const ARTICLES_DIR = join(REPO_ROOT, 'src', 'content', 'articles');
 const SOURCES_DIR = join(REPO_ROOT, 'src', 'content', 'sources');
 
-const args = process.argv.slice(2);
-const WORKER = args[args.indexOf('--worker') + 1] || 'reweaver';
+const WORKER = arg('--worker', 'reweaver-1');
 const ROLE = 'reweaver';
-const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
-const COOLDOWN_SEC = 14 * 24 * 60 * 60; // 14d — heavy rewrites don't re-stage
+const BATCH = intArg('--batch', 1);
+// June–July push: cut from 14d to 6h. The corkboard is the inbox, not a
+// holding pen — if an article picked up new enrichments since its last weave
+// it deserves another pass.
+const COOLDOWN_SEC = 6 * 60 * 60;
 const MIN_SIZE = 4000;   // ~800 words
 const MAX_SIZE = 12500;  // ~2500 words
 
@@ -85,7 +89,9 @@ function pickArticle(exclude = new Set()) {
   return candidates[0] || null;
 }
 
-const SYSTEM = `You are the Reweaver for KiriPedia, a Wikipedia-style wiki of John Kiriakou's video appearances.
+const SYSTEM = `${marchingOrdersFor('reweaver')}
+
+You are the Reweaver for KiriPedia, a Wikipedia-style wiki of John Kiriakou's video appearances.
 
 You receive ONE article body that has been heavily enriched and is now a pile of bullet lists, micro-sections, and disjointed prose. Rewrite it into a unified narrative tapestry of 1200-2200 words in encyclopedic third-person voice.
 

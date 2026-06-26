@@ -10,15 +10,40 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { db, claimNextClip, releaseClip, logActivity, quarantine } from '../lib/db.mjs';
 import { worker_reasoning } from '../lib/fleet-client.mjs';
+import { arg, intArg } from '../lib/argv.mjs';
+import { marchingOrdersFor } from '../lib/marching-orders.mjs';
+import { lastWorked, markWorked } from '../lib/last-worked.mjs';
+
+// June–July push: when no transcribed clips are waiting, walk the oldest
+// already-catalogued clip and do a SECOND-PASS extraction. The first pass
+// is biased toward headline claims; a second pass with the marching-orders
+// directive surfaces hedges, asides, throwaway names — the long tail.
+function pickSecondPassClip() {
+  const cooldown = 7 * 24 * 60 * 60; // 7d per clip
+  const nowSec = Math.floor(Date.now() / 1000);
+  const rows = db.prepare(`
+    SELECT video_id, slug FROM clips
+    WHERE status='catalogued' AND worker IS NULL
+    ORDER BY upload_date ASC NULLS LAST
+    LIMIT 50
+  `).all();
+  for (const r of rows) {
+    const key = `clip:${r.video_id}`;
+    if (nowSec - lastWorked(key, 'cataloger-pass2') < cooldown) continue;
+    db.prepare(`UPDATE clips SET worker=?, worker_since=datetime('now') WHERE video_id=?`).run(WORKER, r.video_id);
+    markWorked(key, 'cataloger-pass2', nowSec);
+    return db.prepare(`SELECT * FROM clips WHERE video_id=?`).get(r.video_id);
+  }
+  return null;
+}
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
 const ARTICLES_DIR = join(REPO_ROOT, 'src', 'content', 'articles');
 
-const args = process.argv.slice(2);
-const WORKER = args[args.indexOf('--worker') + 1] || 'cataloger-1';
+const WORKER = arg('--worker', 'cataloger-1');
 const ROLE = 'cataloger';
-const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 2;
+const BATCH = intArg('--batch', 2);
 const SEGMENT_CHARS = 18_000; // ~5k tokens; Cerebras handles up to 128k but smaller = better extraction
 
 // Existing article slugs — used to bias routing toward enrichment over new-article creation.
@@ -58,7 +83,9 @@ const CLAIM_SCHEMA = {
   },
 };
 
-const SYSTEM = `You are the Cataloger-Editor for KiriPedia, a Wikipedia-style wiki of John Kiriakou's publicly available video appearances.
+const SYSTEM = `${marchingOrdersFor('cataloger')}
+
+You are the Cataloger-Editor for KiriPedia, a Wikipedia-style wiki of John Kiriakou's publicly available video appearances.
 
 Your job: read a transcript segment and emit ATOMIC CLAIMS. Each claim has:
   - quote: VERBATIM text from the transcript (copy-paste from the segment; do NOT paraphrase, do NOT clean up)
@@ -128,7 +155,7 @@ async function catalogSegment({ slug, segment, segmentIdx, existingSlugSet, vide
   return added;
 }
 
-async function catalogOne(clip) {
+async function catalogOne(clip, { isSecondPass = false } = {}) {
   const sourcePath = join(REPO_ROOT, clip.source_path);
   const text = readFileSync(sourcePath, 'utf8');
 
@@ -137,7 +164,10 @@ async function catalogOne(clip) {
   const existingSlugSet = existingSlugs();
 
   logActivity({ worker: WORKER, role: ROLE, event: 'start',
-                detail: `Cataloging the ${clip.slug} transcript for atomic claims.`, refKind: 'clip', refId: clip.video_id });
+                detail: isSecondPass
+                  ? `Second-pass walk through ${clip.slug} — hunting hedges and asides the first read missed.`
+                  : `Cataloging the ${clip.slug} transcript for atomic claims.`,
+                refKind: 'clip', refId: clip.video_id });
 
   // Split into segments by character budget, on paragraph boundaries.
   const segments = [];
@@ -164,26 +194,39 @@ async function catalogOne(clip) {
     totalClaims += added;
   }
 
-  db.prepare(`UPDATE clips SET status='catalogued', worker=NULL, worker_since=NULL WHERE video_id=?`)
-    .run(clip.video_id);
+  // Second-pass keeps status='catalogued'; first pass advances it.
+  if (isSecondPass) {
+    db.prepare(`UPDATE clips SET worker=NULL, worker_since=NULL WHERE video_id=?`).run(clip.video_id);
+  } else {
+    db.prepare(`UPDATE clips SET status='catalogued', worker=NULL, worker_since=NULL WHERE video_id=?`)
+      .run(clip.video_id);
+  }
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `Extracted ${totalClaims} claims from ${clip.slug}.`,
+                detail: isSecondPass
+                  ? `Second pass on ${clip.slug}: ${totalClaims} additional claims surfaced.`
+                  : `Extracted ${totalClaims} claims from ${clip.slug}.`,
                 refKind: 'clip', refId: clip.video_id, handoffTo: 'reviewer' });
   return totalClaims;
 }
 
-let ok = 0, fail = 0;
+let ok = 0, fail = 0, secondPass = 0;
 for (let i = 0; i < BATCH; i++) {
-  const clip = claimNextClip({ status: 'transcribed', worker: WORKER });
+  let clip = claimNextClip({ status: 'transcribed', worker: WORKER });
+  let isSecondPass = false;
+  if (!clip) {
+    clip = pickSecondPassClip();
+    if (clip) isSecondPass = true;
+  }
   if (!clip) break;
   try {
-    await catalogOne(clip);
+    await catalogOne(clip, { isSecondPass });
     ok++;
+    if (isSecondPass) secondPass++;
   } catch (err) {
     console.error(`[${WORKER}] error:`, err.message);
-    releaseClip(clip.video_id); // retry later
+    releaseClip(clip.video_id, isSecondPass ? { newStatus: 'catalogued' } : undefined);
     fail++;
   }
 }
-console.log(`[${WORKER}] catalogued=${ok} failed=${fail}`);
+console.log(`[${WORKER}] catalogued=${ok} (second-pass=${secondPass}) failed=${fail}`);

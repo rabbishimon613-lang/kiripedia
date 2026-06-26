@@ -19,16 +19,17 @@ import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
 import { worker_reasoning } from '../lib/fleet-client.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
+import { arg, intArg } from '../lib/argv.mjs';
+import { marchingOrdersFor } from '../lib/marching-orders.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
 const ARTICLES_DIR = join(REPO_ROOT, 'src', 'content', 'articles');
 const SOURCES_DIR = join(REPO_ROOT, 'src', 'content', 'sources');
 
-const args = process.argv.slice(2);
-const WORKER = args[args.indexOf('--worker') + 1] || 'deepener';
+const WORKER = arg('--worker', 'deepener-1');
 const ROLE = 'deepener';
-const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
+const BATCH = intArg('--batch', 1);
 
 // Title-cased phrase for log voice. "abu-zubaydah-capture" → "Abu Zubaydah Capture".
 const humanize = s => s.replace(/-\d{4}$/, '').split('-').map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
@@ -61,7 +62,7 @@ function citeCount(body) {
   return m ? m.length : 0;
 }
 
-const COOLDOWN_SEC = 2 * 60 * 60; // 2h — don't re-touch within this window
+const COOLDOWN_SEC = 30 * 60; // 30m — June–July push: shelf must be walked often
 // Use a sidecar JSON instead of file mtime, because mtime is "clone time"
 // after an HF Space cold-start and would lock out every article.
 
@@ -86,7 +87,9 @@ function pickArticle(exclude = new Set()) {
   return candidates[0] || null;
 }
 
-const SYSTEM = `You are the Transcript Deepener for KiriPedia, a Wikipedia-style wiki of John Kiriakou's video appearances.
+const SYSTEM = `${marchingOrdersFor('deepener')}
+
+You are the Transcript Deepener for KiriPedia, a Wikipedia-style wiki of John Kiriakou's video appearances.
 
 You receive ONE article body and a list of corpus excerpts (with source slug + timestamp). Your job: identify substantive uncited claims in the article that the excerpts support, and emit a list of citation insertions. Each insertion: the exact substring of the article to anchor on, plus the <Cite s="..." t="..."/> tag to place immediately after it.
 

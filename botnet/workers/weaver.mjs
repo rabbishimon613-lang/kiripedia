@@ -15,23 +15,24 @@ import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
 import { worker_longcontext } from '../lib/fleet-client.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
+import { arg, intArg } from '../lib/argv.mjs';
+import { marchingOrdersFor } from '../lib/marching-orders.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
 const ARTICLES_DIR = join(REPO_ROOT, 'src', 'content', 'articles');
 const SOURCES_DIR = join(REPO_ROOT, 'src', 'content', 'sources');
 
-const args = process.argv.slice(2);
-const WORKER = args[args.indexOf('--worker') + 1] || 'weaver';
+const WORKER = arg('--worker', 'weaver-1');
 const ROLE = 'weaver';
-const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
+const BATCH = intArg('--batch', 1);
 
 const humanize = s => s.replace(/-\d{4}$/, '').split('-').map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
 // Lowered from 8 → 1: with ~798k transcript words spread across ~63
 // transcripts, even a single grep hit means there's corpus material to draw
 // on. The old threshold rejected most stubs from ever being woven.
 const MENTION_THRESHOLD = 1;
-const COOLDOWN_SEC = 4 * 60 * 60; // 4h — weaves are heavy, longer cooldown
+const COOLDOWN_SEC = 60 * 60; // 1h — June–July push, every stub deserves another shot
 // Per panel verdict: Weaver scoped to true stubs only; Reweaver owns the
 // 800-2500w "pile of rags" band.
 const MAX_SIZE = parseInt(process.env.WEAVER_MAX_SIZE) || 4000; // ~800 words
@@ -78,7 +79,9 @@ function pickArticle(exclude = new Set()) {
   return candidates[0] || null;
 }
 
-const SYSTEM = `You are the Article Weaver for KiriPedia, a Wikipedia-style wiki of John Kiriakou's video appearances.
+const SYSTEM = `${marchingOrdersFor('weaver')}
+
+You are the Article Weaver for KiriPedia, a Wikipedia-style wiki of John Kiriakou's video appearances.
 
 You receive ONE article stub plus rich corpus excerpts. Rewrite the article into Wikipedia-style sectional narrative using ONLY material grounded in the excerpts.
 

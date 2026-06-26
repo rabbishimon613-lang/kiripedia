@@ -75,23 +75,45 @@ async function withRotation({ keys, nextFn, attempts = 3, callFn }) {
 
 // --- Public API -------------------------------------------------------------
 
-// Cerebras qwen-3-coder-480b — reasoning, structured output, ~2k tokens/sec
+// Reasoning worker — tries Cerebras qwen-3-coder first, falls back to Groq
+// gpt-oss-120b if Cerebras 404s or all keys fail. The office-manager probes
+// showed Cerebras returning 404 for qwen-3-coder while every Groq model stays
+// up; without this fallback every reasoning-using worker (cataloger, deepener,
+// enricher, weaver, mouth-sentry) silently exits.
 export async function worker_reasoning({ system, user, schema, maxTokens = 4096 }) {
-  return withRotation({
-    keys: CEREBRAS_KEYS,
-    nextFn: nextCerebras,
-    callFn: (key) => callOpenAICompat({
-      url: 'https://api.cerebras.ai/v1/chat/completions',
-      key,
-      model: 'qwen-3-coder-480b',
-      messages: [
-        { role: 'system', content: system },
-        { role: 'user', content: user },
-      ],
-      jsonSchema: schema,
-      maxTokens,
-    }),
-  });
+  const messages = [
+    { role: 'system', content: system },
+    { role: 'user', content: user },
+  ];
+  try {
+    return await withRotation({
+      keys: CEREBRAS_KEYS,
+      nextFn: nextCerebras,
+      callFn: (key) => callOpenAICompat({
+        url: 'https://api.cerebras.ai/v1/chat/completions',
+        key,
+        model: 'qwen-3-coder-480b',
+        messages,
+        jsonSchema: schema,
+        maxTokens,
+      }),
+    });
+  } catch (err) {
+    // Cerebras down or model retired — hop the rails to Groq.
+    if (GROQ_KEYS.length === 0) throw err;
+    return withRotation({
+      keys: GROQ_KEYS,
+      nextFn: nextGroq,
+      callFn: (key) => callOpenAICompat({
+        url: 'https://api.groq.com/openai/v1/chat/completions',
+        key,
+        model: 'openai/gpt-oss-120b',
+        messages,
+        jsonSchema: schema,
+        maxTokens,
+      }),
+    });
+  }
 }
 
 // Groq llama-3.3-70b-versatile — 128k context, for whole transcripts

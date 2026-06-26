@@ -15,15 +15,16 @@ import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
 import { worker_reasoning } from '../lib/fleet-client.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
+import { arg, intArg } from '../lib/argv.mjs';
+import { marchingOrdersFor } from '../lib/marching-orders.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
 const ARTICLES_DIR = join(REPO_ROOT, 'src', 'content', 'articles');
 
-const args = process.argv.slice(2);
-const WORKER = args[args.indexOf('--worker') + 1] || 'enricher';
+const WORKER = arg('--worker', 'enricher-1');
 const ROLE = 'enricher';
-const BATCH = parseInt(args[args.indexOf('--batch') + 1]) || 1;
+const BATCH = intArg('--batch', 1);
 
 const humanize = s => s.replace(/-\d{4}$/, '').split('-').map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
 
@@ -43,7 +44,7 @@ function incomingLinks(slug) {
   }
 }
 
-const COOLDOWN_SEC = 2 * 60 * 60; // 2h
+const COOLDOWN_SEC = 30 * 60; // 30m — June–July push: shelf must be walked often
 
 function pickArticle(exclude = new Set()) {
   const nowSec = Math.floor(Date.now() / 1000);
@@ -60,7 +61,9 @@ function pickArticle(exclude = new Set()) {
   return candidates[0] || null;
 }
 
-const SYSTEM = `You are the Cross-Source Enricher for KiriPedia.
+const SYSTEM = `${marchingOrdersFor('enricher')}
+
+You are the Cross-Source Enricher for KiriPedia.
 
 You receive ONE target article slug + body, plus a list of peer article excerpts that mention the topic but don't link to it. Your job:
 1. For each peer mention, return the verbatim phrase to wikilink and the link target.

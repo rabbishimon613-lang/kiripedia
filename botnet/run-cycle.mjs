@@ -62,8 +62,11 @@ if (!SKIP_DISCOVERY) {
 run('Scribe pool (1/3)', `node ${W('scribe')} --worker scribe-1 --batch 1`);
 run('Scribe pool (2/3)', `node ${W('scribe')} --worker scribe-2 --batch 1`);
 run('Scribe pool (3/3)', `node ${W('scribe')} --worker scribe-3 --batch 1`);
-run('Cataloger-Editor (1/2)', `node ${W('cataloger-editor')} --worker cataloger-1 --batch 1`);
-run('Cataloger-Editor (2/2)', `node ${W('cataloger-editor')} --worker cataloger-2 --batch 1`);
+// Second-pass mode unlocks the cataloger when no transcribed clips wait:
+// it re-walks already-catalogued clips hunting for missed claims. Bigger
+// batch because each call is small.
+run('Cataloger-Editor (1/2)', `node ${W('cataloger-editor')} --worker cataloger-1 --batch 5`);
+run('Cataloger-Editor (2/2)', `node ${W('cataloger-editor')} --worker cataloger-2 --batch 5`);
 run('Reviewer', `node ${W('reviewer')}`);
 run('Coordinator', `node ${W('coordinator')}${PUSH ? ' --push' : ''}`);
 run('Indexer', `node ${W('indexer')}`);
@@ -75,14 +78,17 @@ run('Indexer', `node ${W('indexer')}`);
 // any single article from being touched more than once per cycle.
 const inwardMode = SKIP_DISCOVERY;
 const backlogMode = !SKIP_DISCOVERY && discoveryOk && leadsFound === 0;
-const miningBatch = inwardMode ? 10 : backlogMode ? 5 : 3;
+// June–July push: batch sizes upped sharply. The steady-state crew now owns
+// the cycle, and cooldowns were cut from hours to ~30m, so the picker has
+// real candidate sets again.
+const miningBatch = inwardMode ? 30 : backlogMode ? 15 : 5;
 if (inwardMode) console.log(`\n[run-cycle] inward mode (mining batch=${miningBatch})`);
 else if (backlogMode) console.log(`\n[run-cycle] no new leads — backlog mode (batch=${miningBatch})`);
-run('Prospector', `node ${W('prospector')} --batch 2`);
-run('Deepener', `node ${W('deepener')} --batch ${miningBatch}`);
-run('Enricher', `node ${W('enricher')} --batch ${miningBatch}`);
-run('Weaver', `node ${W('weaver')} --batch ${miningBatch}`);
-run('Reweaver', `node ${W('reweaver')} --batch 3`);
+run('Prospector', `node ${W('prospector')} --worker prospector-1 --batch 5`);
+run('Deepener', `node ${W('deepener')} --worker deepener-1 --batch ${miningBatch}`);
+run('Enricher', `node ${W('enricher')} --worker enricher-1 --batch ${miningBatch}`);
+run('Weaver', `node ${W('weaver')} --worker weaver-1 --batch ${miningBatch}`);
+run('Reweaver', `node ${W('reweaver')} --worker reweaver-1 --batch 10`);
 run('Mouth Sentry', `node ${W('mouth-sentry')}`);
 run('Snapshot writer', `node ${LIB('snapshot-writer')}`);
 

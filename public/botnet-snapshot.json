@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T03:48:25.445Z",
+  "generated_at": "2026-06-26T04:23:26.381Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -11,9 +11,9 @@
     {
       "key": "npp",
       "label": "New Page Patroller",
-      "action": "Done: Checked the lead queue — no new clips today.",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-26 03:47:55"
+      "ts": null
     },
     {
       "key": "source_auth",
@@ -62,14 +62,14 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-26 03:47:37"
+      "ts": "2026-06-26 04:22:53"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-26 03:44:35"
+      "ts": null
     },
     {
       "key": "indexer",
@@ -81,37 +81,37 @@
     {
       "key": "deepener",
       "label": "Transcript Deepener",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Swept the article shelf — every gap was already filled this round.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-26 04:19:36"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Searched the shelf for Afghan War Logs — it's a true orphan so far.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-26 04:20:05"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Checked every stub — they all got drafted this round.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-26 04:20:40"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Pinning George Tenet back on the corkboard. Not the moment.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-26 04:19:45"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript aside — keys are jammed.",
-      "handoff_to": "coordinator",
-      "ts": "2026-06-26 03:45:28"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "mouth_sentry",
@@ -123,220 +123,220 @@
   ],
   "recent_events": [
     {
-      "ts": "2026-06-26 03:47:55",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "finish",
-      "action": "Done: Checked the lead queue — no new clips today."
-    },
-    {
-      "ts": "2026-06-26 03:47:55",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "start",
-      "action": "Triaging up to 20 new clips."
-    },
-    {
-      "ts": "2026-06-26 03:47:53",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "finish",
-      "action": "Done: Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23."
-    },
-    {
-      "ts": "2026-06-26 03:47:53",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "start",
-      "action": "Draining fleet/catch into clips (auto-trust=true)."
-    },
-    {
-      "ts": "2026-06-26 03:46:51",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "finish",
-      "action": "Done: Checked the lead queue — no new clips today."
-    },
-    {
-      "ts": "2026-06-26 03:46:51",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "start",
-      "action": "Triaging up to 20 new clips."
-    },
-    {
-      "ts": "2026-06-26 03:45:28",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "finish",
-      "action": "Done: Set the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript aside — keys are jammed."
-    },
-    {
-      "ts": "2026-06-26 03:45:28",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "start",
-      "action": "Opened the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript — hunting for unmined claims."
-    },
-    {
-      "ts": "2026-06-26 03:45:26",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "finish",
-      "action": "Done: Set the 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing transcript aside — keys are jammed."
-    },
-    {
-      "ts": "2026-06-26 03:45:22",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "start",
-      "action": "Opened the 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing transcript — hunting for unmined claims."
-    },
-    {
-      "ts": "2026-06-26 03:44:39",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "finish",
-      "action": "Done: Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23."
-    },
-    {
-      "ts": "2026-06-26 03:44:39",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "start",
-      "action": "Draining fleet/catch into clips (auto-trust=true)."
-    },
-    {
-      "ts": "2026-06-26 03:44:35",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
-      "event": "start",
-      "action": "Collecting passed claims for filing."
-    },
-    {
-      "ts": "2026-06-26 03:40:04",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
-      "event": "start",
-      "action": "Collecting passed claims for filing."
-    },
-    {
-      "ts": "2026-06-26 03:40:03",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Checked every stub — they all got drafted this round."
-    },
-    {
-      "ts": "2026-06-26 03:40:00",
+      "ts": "2026-06-26 04:20:43",
       "key": "office-manager-1",
       "label": "office-manager-1",
       "event": "finish",
       "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
     },
     {
-      "ts": "2026-06-26 03:39:52",
+      "ts": "2026-06-26 04:20:40",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Checked every stub — they all got drafted this round."
+    },
+    {
+      "ts": "2026-06-26 04:20:31",
       "key": "office-manager-1",
       "label": "office-manager-1",
       "event": "start",
       "action": "Probing LLM providers, refreshing routing table."
     },
     {
-      "ts": "2026-06-26 03:39:30",
+      "ts": "2026-06-26 04:20:05",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Afghan War Logs — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-26 03:39:30",
+      "ts": "2026-06-26 04:20:05",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Afghan War Logs — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-26 03:39:25",
+      "ts": "2026-06-26 04:19:59",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Afghan Languages — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-26 03:39:25",
+      "ts": "2026-06-26 04:19:59",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Afghan Languages — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-26 03:39:20",
+      "ts": "2026-06-26 04:19:53",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Abu Nidal Disruption — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-26 03:39:20",
+      "ts": "2026-06-26 04:19:53",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Abu Nidal Disruption — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-26 03:39:15",
+      "ts": "2026-06-26 04:19:48",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Abdul Rashid Dostum — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-26 03:39:15",
+      "ts": "2026-06-26 04:19:48",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Abdul Rashid Dostum — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-26 03:39:10",
+      "ts": "2026-06-26 04:19:45",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Pinning George Tenet back on the corkboard. Not the moment."
+    },
+    {
+      "ts": "2026-06-26 04:19:43",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened George Tenet — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-26 04:19:43",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Pinning Bojinka Plot back on the corkboard. Not the moment."
+    },
+    {
+      "ts": "2026-06-26 04:19:43",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Bojinka Plot — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-26 04:19:43",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Pinning Tom Drake back on the corkboard. Not the moment."
+    },
+    {
+      "ts": "2026-06-26 04:19:42",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Trita Parsi — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-26 03:39:10",
+      "ts": "2026-06-26 04:19:42",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Trita Parsi — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-26 03:39:04",
+      "ts": "2026-06-26 04:19:41",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Tom Drake — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-26 04:19:41",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Pinning Surveillance Detection Route back on the corkboard. Not the moment."
+    },
+    {
+      "ts": "2026-06-26 04:19:41",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Surveillance Detection Route — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-26 04:19:41",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Pinning Edward Snowden back on the corkboard. Not the moment."
+    },
+    {
+      "ts": "2026-06-26 04:19:41",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Edward Snowden — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-26 04:19:41",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Pinning Cofer Black back on the corkboard. Not the moment."
+    },
+    {
+      "ts": "2026-06-26 04:19:40",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Cofer Black — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-26 04:19:36",
       "key": "deepener",
       "label": "Transcript Deepener",
       "event": "finish",
       "action": "Done: Swept the article shelf — every gap was already filled this round."
     },
     {
-      "ts": "2026-06-26 03:38:50",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
+      "ts": "2026-06-26 04:18:24",
+      "key": "npp",
+      "label": "New Page Patroller",
       "event": "finish",
-      "action": "Done: Pinning Brian Ross back on the corkboard. Not the moment."
+      "action": "Done: Checked the lead queue — no new clips today."
     },
     {
-      "ts": "2026-06-26 03:38:46",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
+      "ts": "2026-06-26 04:18:24",
+      "key": "npp",
+      "label": "New Page Patroller",
       "event": "start",
-      "action": "Opened Brian Ross — the prose reads choppy, rewriting."
+      "action": "Triaging up to 20 new clips."
+    },
+    {
+      "ts": "2026-06-26 04:18:20",
+      "key": "calendar-keeper",
+      "label": "calendar-keeper",
+      "event": "finish",
+      "action": "Done: Marked 0 air-dates on the calendar."
+    },
+    {
+      "ts": "2026-06-26 04:18:20",
+      "key": "calendar-keeper",
+      "label": "calendar-keeper",
+      "event": "finish",
+      "action": "Done: Pinned 0 dates to the corkboard from 0 sources."
     }
   ],
   "last_cycle": {
-    "id": 429,
-    "started_at": "2026-06-26 03:44:35",
-    "ended_at": "2026-06-26 03:44:35",
+    "id": 433,
+    "started_at": "2026-06-26 04:13:40",
+    "ended_at": "2026-06-26 04:13:40",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
