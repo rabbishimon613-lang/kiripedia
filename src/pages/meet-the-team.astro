@@ -45,6 +45,11 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
 
       <h2 id="activity-log">Activity log</h2>
 
+      <div id="mtt-orders-banner" class="orders-banner" style="display:none">
+        <span class="orders-date" id="mtt-orders-date"></span>
+        <span class="orders-text" id="mtt-orders-text"></span>
+      </div>
+
       <p>
         Recent events from the bureau, newest first. Timestamps are shown in Eastern Time. The log refreshes every fifteen seconds.
       </p>
@@ -55,6 +60,49 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
         </div>
       </div>
       <div id="mtt-log-footer" class="log-footer">Last poll — · next in —</div>
+
+      <h2 id="words-written">Words written</h2>
+
+      <div id="mtt-words-box" class="words-box">
+        <div class="words-today-row">
+          <span class="words-today-label">Today</span>
+          <span id="mtt-words-today" class="words-today-count">—</span>
+          <span class="words-today-unit">words</span>
+        </div>
+        <div id="mtt-words-chart" class="words-chart" aria-label="Words written last 7 days">
+          <div class="words-chart-bars" id="mtt-bars"></div>
+          <div class="words-chart-labels" id="mtt-labels"></div>
+        </div>
+      </div>
+
+      <h2 id="key-health">Key health</h2>
+
+      <div id="mtt-keys-box" class="keys-box">
+        <div class="keys-probe-row">
+          <span class="keys-probe-label">Last probe</span>
+          <span id="mtt-probe-time" class="keys-probe-time">—</span>
+        </div>
+        <div id="mtt-provider-grid" class="provider-grid"></div>
+        <div class="keys-stats-row">
+          <span class="keys-stat"><span id="mtt-calls-today" class="keys-stat-val">—</span> calls today</span>
+          <span class="keys-stat-sep">·</span>
+          <span class="keys-stat"><span id="mtt-cost-today" class="keys-stat-val">—</span> est. cost</span>
+          <span class="keys-stat-sep">·</span>
+          <span class="keys-stat"><span id="mtt-dead-keys" class="keys-stat-val">—</span> dead keys</span>
+        </div>
+      </div>
+
+      <h2 id="pardon">Pardon and support</h2>
+
+      <p>
+        John Kiriakou served twenty-three months in federal prison following his 2012 prosecution under the <a href="/wiki/espionage-act">Espionage Act</a>. As a convicted federal felon he continues to be barred from voting, from exercising his Second Amendment right to keep and bear arms, and from receiving the federal pension he had earned over his fourteen years at the <a href="/wiki/cia">Central Intelligence Agency</a>. A presidential pardon would restore all three. Readers who wish to petition for a pardon on his behalf may do so by contacting their elected federal representatives.
+      </p>
+
+      <p>
+        Readers who wish to support the continued work of KiriPedia — further article writing, ongoing refinement of existing articles, ingestion of new source material, and hosting costs — may send Bitcoin contributions to the following address:
+      </p>
+
+      <pre class="btc-address">bc1q0xcvzfrzmw482scntfq8l0mex90vfmyy05c83c</pre>
 
       <h2 id="roster">The full roster</h2>
 
@@ -96,6 +144,120 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
   </div>
 
   <script is:inline>
+    // Words-written widget — reads words_today + words_7d from the same snapshot.
+    (function () {
+      var todayEl = document.getElementById('mtt-words-today');
+      var barsEl  = document.getElementById('mtt-bars');
+      var labelsEl = document.getElementById('mtt-labels');
+      if (!todayEl || !barsEl) return;
+      var DAY_ABBR = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+      function renderWords(snap) {
+        var today = snap.words_today || 0;
+        todayEl.textContent = today.toLocaleString();
+        var days = snap.words_7d || [];
+        if (!days.length) return;
+        var max = Math.max(1, Math.max.apply(null, days.map(function(d){return d.words;})));
+        var barsHtml = '', labelsHtml = '';
+        for (var i = 0; i < days.length; i++) {
+          var d = days[i];
+          var pct = Math.round((d.words / max) * 100);
+          var isToday = (i === days.length - 1);
+          barsHtml += '<div class="wc-bar-wrap' + (isToday ? ' wc-today' : '') + '" title="' + d.date + ': ' + d.words.toLocaleString() + ' words">' +
+            '<div class="wc-bar" style="height:' + pct + '%"></div>' +
+            '</div>';
+          var dayName = DAY_ABBR[new Date(d.date + 'T12:00:00Z').getUTCDay()];
+          labelsHtml += '<span class="wc-label' + (isToday ? ' wc-today-label' : '') + '">' + dayName + '</span>';
+        }
+        barsEl.innerHTML = barsHtml;
+        labelsEl.innerHTML = labelsHtml;
+      }
+      function fetchWords() {
+        fetch('/botnet-snapshot.json', { cache: 'no-store' }).then(function(r){
+          if (!r.ok) return;
+          return r.json();
+        }).then(function(snap) {
+          if (!snap) return;
+          if (snap.words_7d) renderWords(snap);
+          if (window._renderOrders) window._renderOrders(snap);
+          if (window._renderKeys) window._renderKeys(snap);
+        }).catch(function(){});
+      }
+      fetchWords();
+      setInterval(fetchWords, 15000);
+    })();
+
+    // Key health widget — reads office_state from the snapshot.
+    (function () {
+      var gridEl    = document.getElementById('mtt-provider-grid');
+      var probeEl   = document.getElementById('mtt-probe-time');
+      var callsEl   = document.getElementById('mtt-calls-today');
+      var costEl    = document.getElementById('mtt-cost-today');
+      var deadEl    = document.getElementById('mtt-dead-keys');
+      if (!gridEl) return;
+      var PRETTY = {
+        'groq:gpt-oss-120b':    'GPT-OSS 120B',
+        'groq:gpt-oss-20b':     'GPT-OSS 20B',
+        'groq:llama-4-scout':   'Llama 4 Scout',
+        'groq:llama-3.3-70b':   'Llama 3.3 70B',
+        'cerebras:qwen-3-coder':'Qwen-3 Coder',
+      };
+      function fmtProbeTime(iso) {
+        try {
+          var d = new Date(iso);
+          if (isNaN(d)) return iso;
+          var ago = Math.floor((Date.now() - d) / 60000);
+          return ago < 2 ? 'just now' : ago + 'm ago';
+        } catch { return iso; }
+      }
+      function renderKeys(snap) {
+        var os = snap.office_state;
+        if (!os) return;
+        var results = (os.last_probe && os.last_probe.results) || [];
+        if (probeEl && os.last_probe) probeEl.textContent = fmtProbeTime(os.last_probe.at);
+        if (callsEl) callsEl.textContent = (os.calls_today || 0).toLocaleString();
+        if (costEl)  costEl.textContent  = os.cost_today < 0.01
+          ? '<$0.01'
+          : '$' + os.cost_today.toFixed(3);
+        if (deadEl)  deadEl.textContent  = (os.dead_keys || 0);
+        var html = '';
+        for (var i = 0; i < results.length; i++) {
+          var r = results[i];
+          var ok = r.status === 'ok';
+          var label = PRETTY[r.id] || r.id;
+          var provider = r.id.split(':')[0];
+          html += '<div class="provider-row">' +
+            '<span class="provider-dot ' + (ok ? 'prov-ok' : 'prov-fail') + '">●</span>' +
+            '<span class="provider-name">' + label + '</span>' +
+            '<span class="provider-tag">' + provider + '</span>' +
+            '<span class="provider-status ' + (ok ? 'prov-ok' : 'prov-fail') + '">' + (ok ? 'up' : 'down') + '</span>' +
+            ((!ok && r.code) ? '<span class="provider-code">' + r.code + '</span>' : '') +
+            '</div>';
+        }
+        gridEl.innerHTML = html || '<span class="keys-empty">No probe data yet.</span>';
+      }
+      window._renderKeys = renderKeys;
+    })();
+
+    // Orders of the Day banner — reads orders_today from the snapshot.
+    (function () {
+      var banner = document.getElementById('mtt-orders-banner');
+      var dateEl = document.getElementById('mtt-orders-date');
+      var textEl = document.getElementById('mtt-orders-text');
+      if (!banner) return;
+      function renderOrders(snap) {
+        var o = snap.orders_today;
+        if (!o) return;
+        var pct = Math.round((o.total_words / o.goal) * 100);
+        dateEl.textContent = 'Orders · ' + o.date + ' · ' + o.total_words.toLocaleString() + ' / ' + o.goal.toLocaleString() + ' words (' + pct + '%)';
+        // Shorten the directive to the first sentence for the banner
+        var short = (o.directive || '').split(/\.\s/)[0].replace(/^TODAY'S ORDERS \([^)]+\):\s*/i, '');
+        textEl.textContent = short + '.';
+        banner.style.display = '';
+      }
+      // Piggyback on the snapshot fetch — called after the snapshot loads
+      window._renderOrders = renderOrders;
+    })();
+
     // Activity log — polls the same snapshot file the office iframe reads.
     (function () {
       var feed = document.getElementById('mtt-log');
@@ -353,6 +515,202 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+
+    /* Key health widget */
+    .keys-box {
+      border: 1px solid var(--color-border);
+      background: var(--color-bg-infobox);
+      padding: 12px 16px 10px;
+      margin-bottom: 18px;
+      max-width: 480px;
+    }
+    .keys-probe-row {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+    .keys-probe-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: var(--color-base--subtle);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .keys-probe-time {
+      font-size: 11px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: var(--color-base--subtle);
+    }
+    .provider-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      margin-bottom: 10px;
+    }
+    .provider-row {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 13px;
+      padding: 2px 0;
+      border-bottom: 1px solid var(--color-border-subtle);
+    }
+    .provider-row:last-child { border-bottom: none; }
+    .provider-dot { font-size: 10px; flex: 0 0 auto; }
+    .prov-ok  { color: var(--color-success, #0a8754); }
+    .prov-fail { color: #c00; }
+    .provider-name {
+      flex: 1;
+      font-weight: 600;
+      color: var(--color-base);
+      white-space: nowrap;
+    }
+    .provider-tag {
+      flex: 0 0 auto;
+      font-size: 10px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: var(--color-base--subtle);
+      background: var(--color-bg-sidebar, #f0f0f0);
+      padding: 1px 5px;
+      border-radius: 2px;
+    }
+    .provider-status {
+      flex: 0 0 auto;
+      font-size: 11px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .provider-code {
+      flex: 0 0 auto;
+      font-size: 10px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: #c00;
+    }
+    .keys-stats-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: var(--color-base--subtle);
+    }
+    .keys-stat-val {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-weight: 700;
+      color: var(--color-base);
+    }
+    .keys-stat-sep { color: var(--color-border); }
+    .keys-empty {
+      font-style: italic;
+      color: var(--color-base--subtle);
+      font-size: 13px;
+    }
+    .btc-address {
+      background: var(--color-bg-sidebar);
+      border: 1px solid var(--color-border-subtle);
+      padding: 10px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+
+    /* Orders of the Day banner */
+    .orders-banner {
+      border-left: 3px solid var(--color-success, #0a8754);
+      background: var(--color-bg-infobox);
+      padding: 8px 12px;
+      margin-bottom: 12px;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .orders-date {
+      display: block;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      color: var(--color-base--subtle);
+      margin-bottom: 3px;
+    }
+    .orders-text {
+      color: var(--color-base);
+    }
+
+    /* Words written widget */
+    .words-box {
+      border: 1px solid var(--color-border);
+      background: var(--color-bg-infobox);
+      padding: 14px 16px 10px;
+      margin-bottom: 18px;
+      max-width: 480px;
+    }
+    .words-today-row {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .words-today-label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--color-base--subtle);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .words-today-count {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--color-base);
+      line-height: 1;
+    }
+    .words-today-unit {
+      font-size: 13px;
+      color: var(--color-base--subtle);
+    }
+    .words-chart {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .words-chart-bars {
+      display: flex;
+      align-items: flex-end;
+      gap: 4px;
+      height: 56px;
+    }
+    .wc-bar-wrap {
+      flex: 1;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+    }
+    .wc-bar {
+      width: 100%;
+      background: var(--color-base--subtle, #aaa);
+      border-radius: 2px 2px 0 0;
+      min-height: 2px;
+      transition: height .3s ease;
+    }
+    .wc-bar-wrap.wc-today .wc-bar {
+      background: var(--color-success, #0a8754);
+    }
+    .words-chart-labels {
+      display: flex;
+      gap: 4px;
+    }
+    .wc-label {
+      flex: 1;
+      text-align: center;
+      font-size: 10px;
+      color: var(--color-base--subtle);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .wc-label.wc-today-label {
+      color: var(--color-success, #0a8754);
+      font-weight: 700;
     }
 
     .role-section { margin: 18px 0; }

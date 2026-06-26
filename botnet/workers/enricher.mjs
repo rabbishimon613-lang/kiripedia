@@ -13,7 +13,7 @@ import { readdirSync, readFileSync, statSync, utimesSync, writeFileSync } from '
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
-import { worker_reasoning } from '../lib/fleet-client.mjs';
+import { worker_reasoning, worker_longcontext } from '../lib/fleet-client.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
 import { arg, intArg } from '../lib/argv.mjs';
 import { marchingOrdersFor } from '../lib/marching-orders.mjs';
@@ -136,14 +136,23 @@ async function run(pick) {
 
   let result;
   try {
-    result = await worker_reasoning({
-      system: SYSTEM,
-      user: `TARGET ARTICLE (${pick.slug}):\n\n${body.slice(0, 6000)}\n\nPEER EXCERPTS:\n\n${peerExcerpts.slice(0, 10_000)}`,
-      schema: SCHEMA,
-      maxTokens: 2500,
-    });
+    try {
+      result = await worker_reasoning({
+        system: SYSTEM,
+        user: `TARGET ARTICLE (${pick.slug}):\n\n${body.slice(0, 6000)}\n\nPEER EXCERPTS:\n\n${peerExcerpts.slice(0, 10_000)}`,
+        schema: SCHEMA,
+        maxTokens: 2500,
+      });
+    } catch {
+      result = await worker_longcontext({
+        system: SYSTEM,
+        user: `TARGET ARTICLE (${pick.slug}):\n\n${body.slice(0, 6000)}\n\nPEER EXCERPTS:\n\n${peerExcerpts.slice(0, 10_000)}`,
+        schema: SCHEMA,
+        maxTokens: 2500,
+      });
+    }
   } catch (err) {
-    console.warn(`[${WORKER}] LLM unavailable (${err.message.slice(0, 120)}); skipping enrich pass`);
+    console.warn(`[${WORKER}] all LLM paths failed (${err.message.slice(0, 120)}); skipping`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
                   detail: `Pausing on ${humanize(pick.slug)} until the phone line clears.`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });

@@ -3,7 +3,7 @@
 //
 // Run: node botnet/lib/snapshot-writer.mjs
 
-import { writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { db } from './db.mjs';
@@ -119,13 +119,37 @@ const counts = {
 // page-level activity log on /meet-the-team — independent of the per-bot
 // office snapshot, so multiple consecutive events from the same worker
 // each get their own row.
+// Patterns that indicate a finish event produced zero real work.
+// These clutter the visible activity log without conveying progress.
+const NULL_RESULT = [
+  /imported 0 new.*0 existing/i,
+  /marked 0 air-?dates/i,
+  /pinned 0 dates/i,
+  /0 jumped to/i,
+  /no new clips today/i,
+  /no passed claims waiting/i,
+  /empty, all caught up/i,
+  /every gap was already filled/i,
+  /they all got drafted this round/i,
+  /none read raggy this round/i,
+  /^0\b/,
+  /skipped \d+\.\s*$/i,
+];
+function isNullResult(detail) {
+  if (!detail) return true;
+  return NULL_RESULT.some(re => re.test(detail));
+}
+
 const recentEvents = db.prepare(`
   SELECT ts, worker, role, event, detail, handoff_to
   FROM activity
   WHERE event != 'idle'
   ORDER BY ts DESC, id DESC
-  LIMIT 30
-`).all().map((r) => {
+  LIMIT 120
+`).all().reduce((acc, r) => {
+  if (acc.length >= 30) return acc;
+  // Drop finish events that report zero real work
+  if (r.event === 'finish' && isNullResult(r.detail)) return acc;
   const botKey = workerToBotKey(r.worker, r.role);
   let action = r.detail || r.event;
   if (r.event === 'finish') action = `Done: ${r.detail || ''}`;
@@ -133,14 +157,66 @@ const recentEvents = db.prepare(`
     const target = workerToBotKey(r.handoff_to, r.handoff_to) || r.handoff_to;
     action = `Handoff to ${LABELS[target] || target || ''}`;
   }
-  return {
+  acc.push({
     ts: r.ts,
     key: botKey || r.worker,
     label: LABELS[botKey] || r.worker,
     event: r.event,
     action,
-  };
-});
+  });
+  return acc;
+}, []);
+
+// Words written per day for the last 7 days (merged claims, word count from claim_text).
+// Word count approximation: number of whitespace-separated tokens.
+const wordsByDay = db.prepare(`
+  SELECT date(reviewed_at) AS day,
+         SUM(LENGTH(TRIM(claim_text)) - LENGTH(REPLACE(TRIM(claim_text), ' ', '')) + 1) AS words
+  FROM claims
+  WHERE status = 'merged'
+    AND reviewed_at >= date('now', '-6 days')
+  GROUP BY day
+  ORDER BY day ASC
+`).all();
+
+// Build a dense 7-entry array (oldest → today), filling missing days with 0.
+const wordsMap = {};
+for (const r of wordsByDay) wordsMap[r.day] = r.words || 0;
+const words7d = [];
+for (let i = 6; i >= 0; i--) {
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() - i);
+  const key = d.toISOString().slice(0, 10);
+  words7d.push({ date: key, words: wordsMap[key] || 0 });
+}
+const wordsToday = words7d[words7d.length - 1].words;
+
+// Office manager state — provider health, calls today, cost today
+const OFFICE_STATE_PATH = join(REPO_ROOT, 'botnet', 'data', 'office-state.json');
+let officeState = null;
+try {
+  if (existsSync(OFFICE_STATE_PATH)) {
+    const raw = JSON.parse(readFileSync(OFFICE_STATE_PATH, 'utf8'));
+    officeState = {
+      day: raw.day,
+      last_probe: raw.last_probe,
+      calls_today: raw.calls_today || 0,
+      cost_today: raw.cost_today || 0,
+      dead_keys: Object.keys(raw.dead_keys || {}).length,
+    };
+  }
+} catch {}
+
+// Daily orders from the orders-of-day worker
+const ORDERS_PATH = join(REPO_ROOT, 'botnet', 'state', 'orders-today.json');
+let ordersToday = null;
+try {
+  if (existsSync(ORDERS_PATH)) {
+    const o = JSON.parse(readFileSync(ORDERS_PATH, 'utf8'));
+    const today = new Date().toISOString().slice(0, 10);
+    if (o.date === today) ordersToday = o;
+  }
+} catch {}
 
 const snapshot = {
   generated_at: new Date().toISOString(),
@@ -148,6 +224,10 @@ const snapshot = {
   recent_events: recentEvents,
   last_cycle: lastCycle,
   counts,
+  words_today: wordsToday,
+  words_7d: words7d,
+  orders_today: ordersToday,
+  office_state: officeState,
 };
 
 mkdirSync(dirname(OUT_PATH), { recursive: true });

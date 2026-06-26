@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T04:27:37.272Z",
+  "generated_at": "2026-06-26T05:25:17.912Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -11,9 +11,9 @@
     {
       "key": "npp",
       "label": "New Page Patroller",
-      "action": "Done: Checked the lead queue — no new clips today.",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-26 04:27:25"
+      "ts": null
     },
     {
       "key": "source_auth",
@@ -62,21 +62,21 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-26 04:26:39"
+      "ts": null
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-26 04:24:35"
+      "ts": null
     },
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "Done: Rebuilt 2 of 2 indexes.",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-26 04:26:07"
+      "ts": null
     },
     {
       "key": "deepener",
@@ -88,9 +88,9 @@
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Asel Al Ghabandi — it's a true orphan so far.",
-      "handoff_to": "coordinator",
-      "ts": "2026-06-26 04:24:57"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "weaver",
@@ -123,11 +123,88 @@
   ],
   "recent_events": [
     {
-      "ts": "2026-06-26 04:27:25",
+      "ts": "2026-06-26 05:09:07",
+      "key": "orders-of-day",
+      "label": "orders-of-day",
+      "event": "finish",
+      "action": "Done: Bureau at 217,904/500,000 words. Gap: 282,096. Top targets: 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2, 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle , 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing."
+    },
+    {
+      "ts": "2026-06-26 04:36:44",
       "key": "npp",
       "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
+    },
+    {
+      "ts": "2026-06-26 04:35:12",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "start",
+      "action": "Draining fleet/catch into clips (auto-trust=true)."
+    },
+    {
+      "ts": "2026-06-26 04:31:30",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
       "event": "finish",
-      "action": "Done: Checked the lead queue — no new clips today."
+      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
+    },
+    {
+      "ts": "2026-06-26 04:31:25",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
+      "event": "start",
+      "action": "Probing LLM providers, refreshing routing table."
+    },
+    {
+      "ts": "2026-06-26 04:28:25",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "finish",
+      "action": "Done: Set the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript aside — keys are jammed."
+    },
+    {
+      "ts": "2026-06-26 04:28:24",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "start",
+      "action": "Opened the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript — hunting for unmined claims."
+    },
+    {
+      "ts": "2026-06-26 04:28:22",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "finish",
+      "action": "Done: Set the 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2 transcript aside — keys are jammed."
+    },
+    {
+      "ts": "2026-06-26 04:28:21",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "start",
+      "action": "Opened the 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2 transcript — hunting for unmined claims."
+    },
+    {
+      "ts": "2026-06-26 04:28:10",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "start",
+      "action": "Draining fleet/catch into clips (auto-trust=true)."
+    },
+    {
+      "ts": "2026-06-26 04:28:09",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
+      "event": "start",
+      "action": "Collecting passed claims for filing."
+    },
+    {
+      "ts": "2026-06-26 04:28:03",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
     },
     {
       "ts": "2026-06-26 04:27:25",
@@ -149,13 +226,6 @@
       "label": "Indexer",
       "event": "start",
       "action": "Rebuilding the date and mentions indexes."
-    },
-    {
-      "ts": "2026-06-26 04:25:36",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "finish",
-      "action": "Done: Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23."
     },
     {
       "ts": "2026-06-26 04:25:36",
@@ -186,20 +256,6 @@
       "action": "Collecting passed claims for filing."
     },
     {
-      "ts": "2026-06-26 04:23:35",
-      "key": "calendar-keeper",
-      "label": "calendar-keeper",
-      "event": "finish",
-      "action": "Done: Marked 0 air-dates on the calendar."
-    },
-    {
-      "ts": "2026-06-26 04:23:35",
-      "key": "calendar-keeper",
-      "label": "calendar-keeper",
-      "event": "finish",
-      "action": "Done: Pinned 0 dates to the corkboard from 0 sources."
-    },
-    {
       "ts": "2026-06-26 04:23:34",
       "key": "calendar-keeper",
       "label": "calendar-keeper",
@@ -212,13 +268,6 @@
       "label": "office-manager-1",
       "event": "finish",
       "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
-    },
-    {
-      "ts": "2026-06-26 04:20:40",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Checked every stub — they all got drafted this round."
     },
     {
       "ts": "2026-06-26 04:20:31",
@@ -282,61 +331,12 @@
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Abdul Rashid Dostum — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-26 04:19:45",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning George Tenet back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-06-26 04:19:43",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened George Tenet — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-06-26 04:19:43",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Bojinka Plot back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-06-26 04:19:43",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Bojinka Plot — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-06-26 04:19:43",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Tom Drake back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-06-26 04:19:42",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Trita Parsi — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-26 04:19:42",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Trita Parsi — looking for peer articles to cross-link."
     }
   ],
   "last_cycle": {
-    "id": 434,
-    "started_at": "2026-06-26 04:24:35",
-    "ended_at": "2026-06-26 04:24:35",
+    "id": 435,
+    "started_at": "2026-06-26 04:28:09",
+    "ended_at": "2026-06-26 04:28:09",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -350,5 +350,160 @@
     "published": 18,
     "quarantined_claims": 163,
     "quarantined_clips": 0
+  },
+  "words_today": 0,
+  "words_7d": [
+    {
+      "date": "2026-06-20",
+      "words": 0
+    },
+    {
+      "date": "2026-06-21",
+      "words": 0
+    },
+    {
+      "date": "2026-06-22",
+      "words": 0
+    },
+    {
+      "date": "2026-06-23",
+      "words": 0
+    },
+    {
+      "date": "2026-06-24",
+      "words": 917
+    },
+    {
+      "date": "2026-06-25",
+      "words": 0
+    },
+    {
+      "date": "2026-06-26",
+      "words": 0
+    }
+  ],
+  "orders_today": {
+    "date": "2026-06-26",
+    "generated_at": "2026-06-26T05:09:07.537Z",
+    "goal": 500000,
+    "total_words": 217904,
+    "gap": 282096,
+    "days_at_2k_per_day": 142,
+    "priority_transcripts": [
+      "2026-05-25-john-kiriakou-podcast-cia-john-kiriakou-new-posdcast-2",
+      "2025-06-17-mario-nawfal-ex-cia-agent-john-kiriakou-on-israel-iran-mossad-middle-",
+      "2024-12-10-jon-leon-guerrero-john-kiriakou-enhanced-techniques-whistleblowing",
+      "2025-01-19-eyes-wide-open-i-conor-ryan-ex-cia-spy-john-kiriakou-hunting-terroris",
+      "2025-06-01-austin-and-matt-11-inside-the-cia-whistleblowers-war-crimes-and-blind",
+      "2021-05-12-howie-hawkins-greensocialist-notes-23-whistleblowers-with-john-kiriak",
+      "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki",
+      "2026-02-26-bidoun-waraq-invasion-kuwait-intelligence",
+      "2025-09-11-wisenuts-cia-whistleblower-john-kiriakou-exposes-truths-about-911-jfk",
+      "2026-02-18-barracks-media-inc-john-kiriakou-whistleblower-inside-the-cia-s-tortu",
+      "2026-04-14-deep-focus-iran-war-media-bias",
+      "2026-05-05-deep-focus-cop-bank-robber-paul-ogden",
+      "2026-04-27-deep-focus-moral-injury-john-acosta",
+      "2025-12-11-deep-focus-jack-barsky-kgb",
+      "2026-04-03-chris-hedges-report-iran-state-sponsor-terrorism",
+      "2025-09-04-dr-phil-podcast-pardon-him-already",
+      "2018-06-20-rdap-dan-facing-40-years-espionage",
+      "2026-02-14-okeefe-media-cia-operations",
+      "2026-01-29-bidoun-waraq-how-cia-runs-world",
+      "2026-02-19-mad-that-podcast-cia-spy-9-11"
+    ],
+    "growth_articles": [
+      "jamaal-bowman",
+      "mike-baker",
+      "trita-parsi",
+      "falls-church-mosque",
+      "peter-thiel",
+      "cori-bush",
+      "mack-mclarty",
+      "mohammed-atef",
+      "uday-hussein",
+      "robert-maxwell",
+      "ken-dilanian",
+      "mort-halperin",
+      "robert-maclean",
+      "qala-i-jangi-uprising",
+      "noelle-dunphy",
+      "hassan-nasrallah",
+      "ali-hassan-al-majid",
+      "mark-mcdougall",
+      "josh-shapiro",
+      "mike-scheuer"
+    ],
+    "thin_articles": [
+      "watermark",
+      "daniel-hail",
+      "gail-slater",
+      "miranda-rights",
+      "terry-aubry",
+      "bill-barr",
+      "intelligence-agencies",
+      "lee-zeldon",
+      "military-ethics",
+      "plus-972",
+      "nsa-surveillance",
+      "pete-hoekstra",
+      "tulsi-gabbard",
+      "mass-surveillance",
+      "thin-thread",
+      "elizabeth-rouser",
+      "fort-gordon",
+      "sweat-lodge",
+      "lynn-buchanan",
+      "presidents-daily-brief"
+    ],
+    "under_served_transcripts": [
+      "2026-01-29-bidoun-waraq-how-cia-runs-world",
+      "2026-02-26-bidoun-waraq-invasion-kuwait-intelligence",
+      "2025-09-11-wisenuts-cia-whistleblower-john-kiriakou-exposes-truths-about-911-jfk",
+      "2026-05-25-john-kiriakou-podcast-cia-john-kiriakou-new-posdcast-2",
+      "2025-06-17-mario-nawfal-ex-cia-agent-john-kiriakou-on-israel-iran-mossad-middle-",
+      "2026-02-19-mad-that-podcast-cia-spy-9-11",
+      "2024-12-10-jon-leon-guerrero-john-kiriakou-enhanced-techniques-whistleblowing",
+      "2025-01-19-eyes-wide-open-i-conor-ryan-ex-cia-spy-john-kiriakou-hunting-terroris",
+      "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
+      "2025-06-01-austin-and-matt-11-inside-the-cia-whistleblowers-war-crimes-and-blind"
+    ],
+    "directive": "TODAY'S ORDERS (2026-06-26): The bureau is at 217,904 words — 282,096 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
+  },
+  "office_state": {
+    "day": "2026-06-26",
+    "last_probe": {
+      "at": "2026-06-26T04:31:30.973Z",
+      "results": [
+        {
+          "id": "groq:gpt-oss-120b",
+          "status": "ok",
+          "sample": "ok"
+        },
+        {
+          "id": "groq:gpt-oss-20b",
+          "status": "ok",
+          "sample": "ok"
+        },
+        {
+          "id": "groq:llama-4-scout",
+          "status": "ok",
+          "sample": "ok"
+        },
+        {
+          "id": "groq:llama-3.3-70b",
+          "status": "ok",
+          "sample": "ok"
+        },
+        {
+          "id": "cerebras:qwen-3-coder",
+          "status": "fail",
+          "code": 404,
+          "msg": "HTTP 404: {\"message\":\"Model qwen-3-coder-480b does not exist or you do not have access to it.\",\"type\":\"not_found_error\","
+        }
+      ]
+    },
+    "calls_today": 4,
+    "cost_today": 0.00009955000000000001,
+    "dead_keys": 0
   }
 }

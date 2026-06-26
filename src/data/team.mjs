@@ -17,7 +17,7 @@ export const BOTS = [
     role: 'Discovery',
     color: '#36c',
     chair: { col: 2, row: 2 },
-    description: 'Polls YouTube and podcast feeds every six hours, looking for new uploads on channels that have hosted John Kiriakou before. No LLM — pure rule-based filtering. Hands new leads to the Patroller.',
+    description: 'Watches YouTube and podcast feeds every six hours for anything new on channels where John has appeared before. No AI involved — just a methodical checklist, flagging new uploads and passing them along.',
     handoffTo: 'npp',
   },
   {
@@ -27,7 +27,7 @@ export const BOTS = [
     role: 'Triage',
     color: '#5a9',
     chair: { col: 2, row: 5 },
-    description: 'Triages every new lead: is John actually speaking in this video, or is it a news clip about him? Off-corpus leads are archived; on-corpus leads move to vetting. Runs every fifteen minutes.',
+    description: 'Reviews every new video that comes in and asks a simple question: is John actually speaking in this one, or is it just a news report about him? Interviews and appearances move forward; everything else is quietly set aside.',
     handoffTo: 'source-auth',
   },
   {
@@ -37,7 +37,7 @@ export const BOTS = [
     role: 'Vetting',
     color: '#888',
     chair: { col: 2, row: 8 },
-    description: 'When a clip appears on a channel never seen before, the Clerk verifies the venue is legitimate — a real long-form interview show, not a reupload farm — and adds it to the trusted list of fishing grounds.',
+    description: 'When a video comes from a channel the bureau has never encountered before, this desk checks whether it is a real interview show or just someone re-uploading other people\'s content. Genuine venues get added to the trusted list; impersonators are turned away.',
     handoffTo: 'scribe-1',
   },
 
@@ -49,7 +49,7 @@ export const BOTS = [
     role: 'Transcription',
     color: '#b85',
     chair: { col: 7, row: 2 },
-    description: 'Pulls the original audio with yt-dlp, fetches the English auto-captions, normalizes the VTT into a paragraph-timestamped source file, and strips sponsor reads to a sidecar. One of three parallel scribes.',
+    description: 'Downloads the video, pulls the captions, and turns them into a clean, timestamped transcript — cutting out sponsor segments so the research copy contains only John speaking. One of three scribes working in parallel.',
     handoffTo: 'cataloger-1',
   },
   {
@@ -59,7 +59,7 @@ export const BOTS = [
     role: 'Transcription',
     color: '#b85',
     chair: { col: 11, row: 2 },
-    description: 'Second of the three transcribers. Transcription is the slowest stage in the pipeline, so the workload is spread across three parallel desks pulling captions in parallel.',
+    description: 'Does the same job as the first scribe — clean transcripts in, research-ready copy out. Transcription is the slowest part of the whole operation, so three desks share the load to keep the pipeline moving.',
     handoffTo: 'cataloger-2',
   },
   {
@@ -69,7 +69,7 @@ export const BOTS = [
     role: 'Transcription',
     color: '#b85',
     chair: { col: 15, row: 2 },
-    description: 'Third of the three transcribers. Captions in, normalized source markdown out. No LLM use — entirely deterministic plumbing.',
+    description: 'The third transcription desk. Like its two counterparts, it takes raw captions and produces a clean, structured transcript. No AI judgment involved — this is mechanical, reliable work done the same way every time.',
     handoffTo: 'cataloger-1',
   },
 
@@ -81,7 +81,7 @@ export const BOTS = [
     role: 'Claim Extraction',
     color: '#963',
     chair: { col: 8, row: 5 },
-    description: 'Reads the freshly normalized transcript in segments and extracts atomic claims: one verbatim quote, one timestamp, one target article slug, one MDX patch. Routes each claim to the right article in one structured LLM call.',
+    description: 'Reads through a finished transcript and pulls out every factual claim worth keeping — noting the exact quote, the timestamp it came from, and which article on the wiki it belongs in. One of two catalogers working side by side.',
     handoffTo: 'reviewer',
   },
   {
@@ -91,7 +91,7 @@ export const BOTS = [
     role: 'Claim Extraction',
     color: '#963',
     chair: { col: 12, row: 5 },
-    description: 'Second cataloger desk. The merged Cataloger-Editor role does what was previously two separate stages — claim extraction and article routing — in one Cerebras call, halving the LLM cost on the hottest path.',
+    description: 'The second cataloging desk, handling transcripts in parallel with the first. It does the same work — extracting claims, noting sources, deciding which article each one belongs to — so the bureau can process two transcripts at once.',
     handoffTo: 'reviewer',
   },
 
@@ -103,7 +103,7 @@ export const BOTS = [
     role: 'Verification',
     color: '#a36',
     chair: { col: 8, row: 8 },
-    description: 'Runs every proposed claim through the grounding stack: verbatim quote must appear in the source VTT; timestamp must round-trip to a real cue; channel must be on the trusted list; voice contamination is forbidden; biographical claims about Kiriakou himself quarantine forever.',
+    description: 'The bureau\'s fact-checker. Before anything reaches the wiki, this desk confirms that the quoted words actually appear in the transcript at the stated timestamp, that the source is on the trusted channel list, and that the claim is about a subject John is discussing — not a personal claim about John himself. Anything that fails goes into permanent quarantine.',
     handoffTo: 'coordinator',
   },
   {
@@ -113,7 +113,7 @@ export const BOTS = [
     role: 'Publishing',
     color: '#36c',
     chair: { col: 12, row: 8 },
-    description: 'The only writer in the bureau. Collects every passed claim from the truth store, groups them by article, runs the scaffolder, audits the result, and commits the changes to git. Runs sequentially — never in parallel — to keep the repo from racing with itself.',
+    description: 'The only member of the bureau that actually writes to the wiki. It gathers all the claims that have cleared review, sorts them by article, drafts the additions, and commits everything to the repository. It works alone and in sequence — never two instances at once — so there are no conflicts and the wiki is always in a clean state.',
     handoffTo: 'indexer',
   },
 
@@ -125,7 +125,7 @@ export const BOTS = [
     role: 'Steady-State',
     color: '#693',
     chair: { col: 19, row: 2 },
-    description: 'Re-mines existing transcripts with stricter prompts to catch the subtler claims that the first pass missed — hedges, asides, throwaway names. Quiet during backfill; busy afterwards.',
+    description: 'Goes back through transcripts that have already been cataloged and reads them again more carefully — listening for the offhand remarks, the names dropped in passing, the qualifications buried in a long answer. The first pass catches the obvious; this desk catches what the first pass missed.',
     handoffTo: 'reviewer',
   },
   {
@@ -135,7 +135,7 @@ export const BOTS = [
     role: 'Steady-State',
     color: '#693',
     chair: { col: 19, row: 5 },
-    description: 'For every article, checks the mentions index: does each cross-source mention of this subject have a citation here? Drafts enrichment patches to close the gaps.',
+    description: 'Looks across the full body of sources and asks: every time a subject comes up in a different interview, does the article about that subject know about it? When it finds a gap — a mention with no corresponding citation — it drafts the addition.',
     handoffTo: 'reviewer',
   },
   {
@@ -145,7 +145,7 @@ export const BOTS = [
     role: 'Cohesion',
     color: '#c63',
     chair: { col: 19, row: 8 },
-    description: 'Once a day, picks the article most cluttered with stub sections from cumulative enrichment, and reweaves it into a coherent encyclopedic tapestry under a small spine of headers. Preserves every quote and citation verbatim.',
+    description: 'As claims accumulate, articles can become long lists of loosely connected fragments. Once a day, this desk selects the most cluttered article and rewrites its structure — turning scattered additions into a coherent narrative with clear sections. Every quote and citation is preserved exactly; only the shape of the piece changes.',
     handoffTo: 'coordinator',
   },
   {
@@ -155,7 +155,7 @@ export const BOTS = [
     role: 'Publishing',
     color: '#888',
     chair: { col: 16, row: 8 },
-    description: 'After each cycle, rebuilds the search index, the date-pointer index, and the mentions graph. Pure code, runs in seconds.',
+    description: 'After every publishing cycle, updates the search index and the internal map of who mentions what across the whole wiki. Fast, quiet, runs in seconds.',
     handoffTo: null,
   },
 ];

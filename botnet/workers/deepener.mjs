@@ -17,7 +17,7 @@ import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
-import { worker_reasoning } from '../lib/fleet-client.mjs';
+import { worker_reasoning, worker_longcontext } from '../lib/fleet-client.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
 import { arg, intArg } from '../lib/argv.mjs';
 import { marchingOrdersFor } from '../lib/marching-orders.mjs';
@@ -133,16 +133,25 @@ async function run(pick) {
 
   let result;
   try {
-    result = await worker_reasoning({
-      system: SYSTEM,
-      user: `ARTICLE (${pick.slug}):\n\n${pick.body.slice(0, 12_000)}\n\nCORPUS EXCERPTS (sample):\n\n${excerpts.slice(0, 8_000)}`,
-      schema: SCHEMA,
-      maxTokens: 3000,
-    });
+    try {
+      result = await worker_reasoning({
+        system: SYSTEM,
+        user: `ARTICLE (${pick.slug}):\n\n${pick.body.slice(0, 12_000)}\n\nCORPUS EXCERPTS (sample):\n\n${excerpts.slice(0, 8_000)}`,
+        schema: SCHEMA,
+        maxTokens: 3000,
+      });
+    } catch {
+      result = await worker_longcontext({
+        system: SYSTEM,
+        user: `ARTICLE (${pick.slug}):\n\n${pick.body.slice(0, 12_000)}\n\nCORPUS EXCERPTS (sample):\n\n${excerpts.slice(0, 8_000)}`,
+        schema: SCHEMA,
+        maxTokens: 3000,
+      });
+    }
   } catch (err) {
-    console.warn(`[${WORKER}] LLM unavailable (${err.message.slice(0, 120)}); skipping deepen pass`);
+    console.warn(`[${WORKER}] all LLM paths failed (${err.message.slice(0, 120)}); skipping`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Set ${humanize(pick.slug)} aside — pen ran dry.`, refKind: 'article', refId: pick.slug,
+                  detail: `Set ${humanize(pick.slug)} aside — will retry next cycle.`, refKind: 'article', refId: pick.slug,
                   handoffTo: 'coordinator' });
     return;
   }

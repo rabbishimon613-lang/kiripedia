@@ -48,6 +48,23 @@ function run(label, cmd, { capture = false } = {}) {
   }
 }
 
+// Orders of the Day — re-compute daily targets on first cycle of the day.
+// Checks whether the orders file exists and is dated today; if not, regenerates.
+{
+  const { existsSync, readFileSync } = await import('node:fs');
+  const { join } = await import('node:path');
+  const ordersPath = join(HERE, 'state', 'orders-today.json');
+  const today = new Date().toISOString().slice(0, 10);
+  let needsOrders = true;
+  try {
+    if (existsSync(ordersPath)) {
+      const o = JSON.parse(readFileSync(ordersPath, 'utf8'));
+      if (o.date === today) needsOrders = false;
+    }
+  } catch {}
+  if (needsOrders) run('Orders of the Day', `node ${W('orders-of-day')}`);
+}
+
 if (!SKIP_DISCOVERY) {
   const rc = run('Recent Changes', `node ${W('recent-changes')}`, { capture: true });
   if (rc.ok) {

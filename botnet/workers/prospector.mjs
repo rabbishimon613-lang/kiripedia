@@ -17,7 +17,7 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { logActivity } from '../lib/db.mjs';
-import { worker_reasoning } from '../lib/fleet-client.mjs';
+import { worker_reasoning, worker_longcontext } from '../lib/fleet-client.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
 import { arg, intArg } from '../lib/argv.mjs';
 import { marchingOrdersFor } from '../lib/marching-orders.mjs';
@@ -145,16 +145,27 @@ async function run(pick) {
 
   let result;
   try {
-    result = await worker_reasoning({
-      system: SYSTEM,
-      user: `TRANSCRIPT (${pick.slug}):\n\n${pick.body.slice(0, 30_000)}\n\nEXISTING SLUGS:\n${slugList.slice(0, 12_000)}`,
-      schema: SCHEMA,
-      maxTokens: 2500,
-    });
+    // Try reasoning model first; fall through to long-context if it fails
+    // (transcripts can exceed reasoning model context windows).
+    try {
+      result = await worker_reasoning({
+        system: SYSTEM,
+        user: `TRANSCRIPT (${pick.slug}):\n\n${pick.body.slice(0, 30_000)}\n\nEXISTING SLUGS:\n${slugList.slice(0, 12_000)}`,
+        schema: SCHEMA,
+        maxTokens: 2500,
+      });
+    } catch {
+      result = await worker_longcontext({
+        system: SYSTEM,
+        user: `TRANSCRIPT (${pick.slug}):\n\n${pick.body.slice(0, 50_000)}\n\nEXISTING SLUGS:\n${slugList.slice(0, 12_000)}`,
+        schema: SCHEMA,
+        maxTokens: 2500,
+      });
+    }
   } catch (err) {
-    console.warn(`[${WORKER}] LLM unavailable (${err.message.slice(0, 120)}); skipping prospect`);
+    console.warn(`[${WORKER}] all LLM paths failed (${err.message.slice(0, 120)}); skipping`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                  detail: `Set the ${humanize(pick.slug)} transcript aside — keys are jammed.`, handoffTo: 'coordinator' });
+                  detail: `Set the ${humanize(pick.slug)} transcript aside — will retry next cycle.`, handoffTo: 'coordinator' });
     return;
   }
 

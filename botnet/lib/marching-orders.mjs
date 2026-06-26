@@ -9,6 +9,7 @@ import { fileURLToPath } from 'node:url';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const PATH = join(HERE, '..', '..', 'MARCHING-ORDERS.md');
+const ORDERS_PATH = join(HERE, '..', 'state', 'orders-today.json');
 
 let cached;
 function load() {
@@ -16,6 +17,27 @@ function load() {
   try { cached = existsSync(PATH) ? readFileSync(PATH, 'utf8') : ''; }
   catch { cached = ''; }
   return cached;
+}
+
+let ordersCache;
+function loadOrders() {
+  if (ordersCache !== undefined) return ordersCache;
+  try { ordersCache = existsSync(ORDERS_PATH) ? JSON.parse(readFileSync(ORDERS_PATH, 'utf8')) : null; }
+  catch { ordersCache = null; }
+  return ordersCache;
+}
+
+function todayOrdersBlock() {
+  const o = loadOrders();
+  if (!o) return '';
+  const today = new Date().toISOString().slice(0, 10);
+  if (o.date !== today) return ''; // stale, don't inject
+  const lines = [o.directive];
+  if (o.priority_transcripts?.length)
+    lines.push(`TOP TRANSCRIPT TARGETS TODAY: ${o.priority_transcripts.slice(0, 8).join(', ')}`);
+  if (o.growth_articles?.length)
+    lines.push(`ARTICLES NEEDING GROWTH: ${o.growth_articles.slice(0, 8).join(', ')}`);
+  return lines.join('\n');
 }
 
 const STANDING = `STANDING DIRECTIVE (June–July 2026): Mine the existing transcript corpus. Do not look for new sources. Deepen articles, weave the piles of enrichment into prose, and pull cross-source corroborations into articles whenever the same story appears in multiple transcripts. New articles are encouraged when the source material is already in hand.`;
@@ -32,8 +54,9 @@ const ROLE_SNIPPETS = {
 
 export function marchingOrdersFor(role) {
   const snippet = ROLE_SNIPPETS[role] || '';
-  if (!snippet) return STANDING;
-  return `${STANDING}\n\nFOR YOUR ROLE: ${snippet}`;
+  const daily = todayOrdersBlock();
+  const base = snippet ? `${STANDING}\n\nFOR YOUR ROLE: ${snippet}` : STANDING;
+  return daily ? `${base}\n\n${daily}` : base;
 }
 
 export function fullMarchingOrders() {

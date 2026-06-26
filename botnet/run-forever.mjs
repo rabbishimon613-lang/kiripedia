@@ -386,6 +386,23 @@ defineLane({
   cmd: () => ({ bin: 'node', args: [W('prospector'), '--batch', '2'] }),
 });
 
+// Orders of the Day — fires once per day at 2am UTC. Reads corpus state,
+// calculates the gap to 500k words, and writes today's priority targets to
+// botnet/state/orders-today.json so every worker has specific marching orders.
+defineLane({
+  name: 'orders',
+  intervalMs: 24 * 60 * 60 * 1000, // once a day
+  jitterMs: 0,
+  burnsFleet: false,
+  // Fire at 2am UTC: compute delay from now to next 2am.
+  initialDelayMs: (() => {
+    const now = new Date();
+    const next2am = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + (now.getUTCHours() >= 2 ? 1 : 0), 2, 0, 0, 0));
+    return Math.max(0, next2am.getTime() - now.getTime());
+  })(),
+  cmd: () => ({ bin: 'node', args: [W('orders-of-day')] }),
+});
+
 // Calendar-keeper — fill the "On this day" page from source transcripts and
 // source publication dates. Pure regex + sqlite; no LLM. Proposes
 // events_append claims that the reviewer and coordinator merge normally.
