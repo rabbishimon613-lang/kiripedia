@@ -170,7 +170,8 @@
     "new:daniel-domscheit-berg",
     "quote:sacha-baron-cohen:6",
     "dyk:cia-insiders-guide-to-surveillance:0",
-    "quote:cia:22"
+    "quote:cia:22",
+    "new:daniel-ellsberg"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -505,10 +506,6 @@
   ],
   "queue": [
     {
-      "slug": "daniel-ellsberg",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "daniel-hail",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -682,10 +679,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
