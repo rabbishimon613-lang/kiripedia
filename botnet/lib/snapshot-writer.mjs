@@ -115,9 +115,37 @@ const counts = {
   quarantined_clips: db.prepare(`SELECT COUNT(*) AS n FROM quarantine WHERE kind='clip'`).get().n,
 };
 
+// Last 30 actions across the whole bureau, newest first. Drives the
+// page-level activity log on /meet-the-team — independent of the per-bot
+// office snapshot, so multiple consecutive events from the same worker
+// each get their own row.
+const recentEvents = db.prepare(`
+  SELECT ts, worker, role, event, detail, handoff_to
+  FROM activity
+  WHERE event != 'idle'
+  ORDER BY ts DESC, id DESC
+  LIMIT 30
+`).all().map((r) => {
+  const botKey = workerToBotKey(r.worker, r.role);
+  let action = r.detail || r.event;
+  if (r.event === 'finish') action = `Done: ${r.detail || ''}`;
+  else if (r.event === 'handoff') {
+    const target = workerToBotKey(r.handoff_to, r.handoff_to) || r.handoff_to;
+    action = `Handoff to ${LABELS[target] || target || ''}`;
+  }
+  return {
+    ts: r.ts,
+    key: botKey || r.worker,
+    label: LABELS[botKey] || r.worker,
+    event: r.event,
+    action,
+  };
+});
+
 const snapshot = {
   generated_at: new Date().toISOString(),
   bots,
+  recent_events: recentEvents,
   last_cycle: lastCycle,
   counts,
 };

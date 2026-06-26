@@ -101,8 +101,9 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       var feed = document.getElementById('mtt-log');
       var footer = document.getElementById('mtt-log-footer');
       if (!feed) return;
-      var seen = new Set();
-      var log = [];
+      var MAX_ROWS = 30;
+      var lastSig = '';
+      var lastKnown = new Set();
       var POLL_MS = 15000;
       var lastPoll = 0;
       var firstRender = true;
@@ -134,24 +135,17 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
           '<span class="log-action">' + esc(actionText) + '</span>' +
           '</div>';
       }
-      function tsKey(ts) {
-        // Convert "YYYY-MM-DD HH:MM:SS" (UTC, from SQLite) or ISO string to a
-        // sortable epoch ms. Returns 0 if unparseable so bad rows sink, not float.
-        if (!ts) return 0;
-        var iso = /T/.test(ts) ? ts : ts.replace(' ', 'T') + 'Z';
-        var t = new Date(iso).getTime();
-        return isNaN(t) ? 0 : t;
-      }
-      function render(newKeys) {
-        if (log.length === 0) {
+      function render(events, newKeys) {
+        if (!events || events.length === 0) {
           feed.innerHTML = '<div class="log-empty">No activity yet. The bureau is quiet.</div>';
           return;
         }
-        log.sort(function (a, b) { return b._t - a._t; });
         var html = '';
-        for (var i = 0; i < log.length; i++) {
-          var flash = !firstRender && newKeys && newKeys.has(log[i]._key);
-          html += rowHTML(log[i], flash);
+        for (var i = 0; i < events.length; i++) {
+          var e = events[i];
+          var rowKey = e.ts + '::' + e.key + '::' + e.action;
+          var flash = !firstRender && newKeys.has(rowKey);
+          html += rowHTML({ ts: e.ts, who: e.label || e.key, action: e.action }, flash);
         }
         feed.innerHTML = html;
         firstRender = false;
@@ -162,20 +156,17 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
           if (!r.ok) throw new Error('no snapshot');
           return r.json();
         }).then(function (snap) {
+          var events = (snap.recent_events || []).slice(0, MAX_ROWS);
+          var sig = events.map(function (e) { return e.ts + '|' + e.key + '|' + e.action; }).join('~');
+          if (sig === lastSig) { return; }
           var newKeys = new Set();
-          (snap.bots || []).forEach(function (b) {
-            if (!b.ts) return;
-            var act = b.action ? String(b.action).trim() : '';
-            if (!act || act.toLowerCase() === 'idle') return;
-            var key = b.ts + '::' + b.key + '::' + b.action;
-            if (seen.has(key)) return;
-            seen.add(key);
-            log.push({ ts: b.ts, who: b.label || b.key, action: b.action, _t: tsKey(b.ts), _key: key });
-            newKeys.add(key);
-          });
-          log.sort(function (a, b) { return b._t - a._t; });
-          if (log.length > 100) log.length = 100;
-          render(newKeys);
+          for (var i = 0; i < events.length; i++) {
+            var k = events[i].ts + '::' + events[i].key + '::' + events[i].action;
+            if (!lastKnown.has(k)) newKeys.add(k);
+          }
+          lastSig = sig;
+          lastKnown = new Set(events.map(function (e) { return e.ts + '::' + e.key + '::' + e.action; }));
+          render(events, newKeys);
         }).catch(function () { /* network blip */ });
       }
       function updateFooter() {

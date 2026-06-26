@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T03:12:00.434Z",
+  "generated_at": "2026-06-26T03:23:24.786Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -11,9 +11,9 @@
     {
       "key": "npp",
       "label": "New Page Patroller",
-      "action": "Done: Checked the lead queue — no new clips today.",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-24 03:12:00"
+      "ts": null
     },
     {
       "key": "source_auth",
@@ -62,21 +62,21 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-24 03:12:00"
+      "ts": "2026-06-26 03:22:45"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
-      "action": "Collecting passed claims for filing.",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-24 03:12:00"
+      "ts": null
     },
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "Rebuilding the date and mentions indexes.",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-24 03:12:00"
+      "ts": null
     },
     {
       "key": "deepener",
@@ -102,40 +102,252 @@
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Pinning Surveillance Detection Route back on the corkboard. Not the moment.",
-      "handoff_to": "coordinator",
-      "ts": "2026-06-24 03:11:28"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2025 04 16 The Dr Phil Podcast Top Secrets The Cia Torture Whistleblower John Ki transcript aside — keys are jammed.",
-      "handoff_to": "coordinator",
-      "ts": "2026-06-24 03:11:20"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
-      "action": "Done: Went through 24. 13 of them need a word about their tone (159 things to fix).",
+      "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix).",
       "handoff_to": null,
-      "ts": "2026-06-24 03:11:14"
+      "ts": "2026-06-26 03:18:59"
+    }
+  ],
+  "recent_events": [
+    {
+      "ts": "2026-06-26 03:18:59",
+      "key": "mouth_sentry",
+      "label": "Mouth Sentry",
+      "event": "finish",
+      "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix)."
+    },
+    {
+      "ts": "2026-06-26 03:18:59",
+      "key": "mouth_sentry",
+      "label": "Mouth Sentry",
+      "event": "start",
+      "action": "Auditing every article touched in the last 30 minutes."
+    },
+    {
+      "ts": "2026-06-26 03:18:35",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
+      "event": "finish",
+      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
+    },
+    {
+      "ts": "2026-06-26 03:18:28",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
+      "event": "start",
+      "action": "Probing LLM providers, refreshing routing table."
+    },
+    {
+      "ts": "2026-06-26 03:18:05",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "finish",
+      "action": "Done: Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23."
+    },
+    {
+      "ts": "2026-06-26 03:18:05",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "start",
+      "action": "Draining fleet/catch into clips (auto-trust=true)."
+    },
+    {
+      "ts": "2026-06-26 03:17:26",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "finish",
+      "action": "Done: Checked the lead queue — no new clips today."
+    },
+    {
+      "ts": "2026-06-26 03:17:26",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
+    },
+    {
+      "ts": "2026-06-26 03:16:41",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "finish",
+      "action": "Done: Checked the lead queue — no new clips today."
+    },
+    {
+      "ts": "2026-06-26 03:16:41",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
+    },
+    {
+      "ts": "2026-06-26 03:15:51",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Checked every stub — they all got drafted this round."
+    },
+    {
+      "ts": "2026-06-26 03:15:18",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Mount Weather — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-26 03:15:18",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Mount Weather — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-06-26 03:15:13",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Mahmud — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-26 03:15:13",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Mahmud — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-06-26 03:15:07",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Hypnosis Operation Walk In — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-26 03:15:07",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Hypnosis Operation Walk In — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-06-26 03:15:01",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Double Agent Marriott Trap — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-26 03:15:01",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Double Agent Marriott Trap — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-06-26 03:14:56",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Admiral Crowe — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-26 03:14:56",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Admiral Crowe — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-06-26 03:14:49",
+      "key": "deepener",
+      "label": "Transcript Deepener",
+      "event": "finish",
+      "action": "Done: Swept the article shelf — every gap was already filled this round."
+    },
+    {
+      "ts": "2026-06-26 03:14:24",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "finish",
+      "action": "Done: Set the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript aside — keys are jammed."
+    },
+    {
+      "ts": "2026-06-26 03:14:20",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "start",
+      "action": "Opened the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript — hunting for unmined claims."
+    },
+    {
+      "ts": "2026-06-26 03:14:17",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "finish",
+      "action": "Done: Set the 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2 transcript aside — keys are jammed."
+    },
+    {
+      "ts": "2026-06-26 03:14:17",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "start",
+      "action": "Opened the 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2 transcript — hunting for unmined claims."
+    },
+    {
+      "ts": "2026-06-26 03:13:58",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "finish",
+      "action": "Done: Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23."
+    },
+    {
+      "ts": "2026-06-26 03:13:58",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "start",
+      "action": "Draining fleet/catch into clips (auto-trust=true)."
+    },
+    {
+      "ts": "2026-06-26 03:13:53",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
+      "event": "start",
+      "action": "Collecting passed claims for filing."
+    },
+    {
+      "ts": "2026-06-26 03:13:42",
+      "key": "mouth_sentry",
+      "label": "Mouth Sentry",
+      "event": "finish",
+      "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix)."
     }
   ],
   "last_cycle": {
-    "id": 40,
-    "started_at": "2026-06-24 03:12:00",
-    "ended_at": null,
+    "id": 425,
+    "started_at": "2026-06-26 03:13:53",
+    "ended_at": "2026-06-26 03:13:53",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
-    "status": "running"
+    "status": "committed"
   },
   "counts": {
     "leads_pending": 1,
     "triaged_on": 0,
     "transcribed": 0,
-    "catalogued": 13,
-    "published": 5,
+    "catalogued": 0,
+    "published": 18,
     "quarantined_claims": 163,
     "quarantined_clips": 0
   }
