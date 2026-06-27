@@ -174,7 +174,8 @@
     "new:daniel-ellsberg",
     "dyk:joe-wilson:1",
     "new:daniel-hail",
-    "dyk:john-kiriakou:2"
+    "dyk:john-kiriakou:2",
+    "quote:brian-ross:7"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -678,10 +679,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
