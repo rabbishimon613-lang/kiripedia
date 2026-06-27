@@ -177,7 +177,8 @@
     "dyk:john-kiriakou:2",
     "quote:brian-ross:7",
     "dyk:john-brennan-tuesday-morning-kill-list:0",
-    "quote:john-kiriakou:36"
+    "quote:john-kiriakou:36",
+    "dyk:guantanamo-bay:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -681,10 +682,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
