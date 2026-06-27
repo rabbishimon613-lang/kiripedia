@@ -179,7 +179,8 @@
     "dyk:john-brennan-tuesday-morning-kill-list:0",
     "quote:john-kiriakou:36",
     "dyk:guantanamo-bay:0",
-    "quote:john-kiriakou:117"
+    "quote:john-kiriakou:117",
+    "new:daniel-hale"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -514,10 +515,6 @@
   ],
   "queue": [
     {
-      "slug": "daniel-hale",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "elizabeth-rouser",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -683,10 +680,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
