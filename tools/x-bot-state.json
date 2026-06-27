@@ -172,7 +172,8 @@
     "dyk:cia-insiders-guide-to-surveillance:0",
     "quote:cia:22",
     "new:daniel-ellsberg",
-    "dyk:joe-wilson:1"
+    "dyk:joe-wilson:1",
+    "new:daniel-hail"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -507,10 +508,6 @@
   ],
   "queue": [
     {
-      "slug": "daniel-hail",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "daniel-hale",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -680,10 +677,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
