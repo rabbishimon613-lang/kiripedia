@@ -175,7 +175,8 @@
     "dyk:joe-wilson:1",
     "new:daniel-hail",
     "dyk:john-kiriakou:2",
-    "quote:brian-ross:7"
+    "quote:brian-ross:7",
+    "dyk:john-brennan-tuesday-morning-kill-list:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -679,10 +680,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
