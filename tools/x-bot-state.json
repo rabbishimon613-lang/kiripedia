@@ -173,7 +173,8 @@
     "quote:cia:22",
     "new:daniel-ellsberg",
     "dyk:joe-wilson:1",
-    "new:daniel-hail"
+    "new:daniel-hail",
+    "dyk:john-kiriakou:2"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -677,10 +678,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
