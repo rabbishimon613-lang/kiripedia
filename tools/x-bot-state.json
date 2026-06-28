@@ -184,7 +184,8 @@
     "quote:camp-david-final-talks:1",
     "new:elizabeth-rouser",
     "dyk:gail-slater:1",
-    "quote:intelligence-identities-protection-act:1"
+    "quote:intelligence-identities-protection-act:1",
+    "new:eric-swallwell-fbi-documents"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -519,10 +520,6 @@
   ],
   "queue": [
     {
-      "slug": "eric-swallwell-fbi-documents",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "fbi-arrest-strategies",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -680,10 +677,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
