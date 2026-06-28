@@ -185,7 +185,8 @@
     "new:elizabeth-rouser",
     "dyk:gail-slater:1",
     "quote:intelligence-identities-protection-act:1",
-    "new:eric-swallwell-fbi-documents"
+    "new:eric-swallwell-fbi-documents",
+    "dyk:john-kiriakou:77"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -677,10 +678,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
