@@ -181,7 +181,8 @@
     "dyk:guantanamo-bay:0",
     "quote:john-kiriakou:117",
     "new:daniel-hale",
-    "quote:camp-david-final-talks:1"
+    "quote:camp-david-final-talks:1",
+    "new:elizabeth-rouser"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -516,10 +517,6 @@
   ],
   "queue": [
     {
-      "slug": "elizabeth-rouser",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "eric-swallwell-fbi-documents",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -681,10 +678,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "new",
-    "quote"
+    "quote",
+    "new"
   ]
 }
