@@ -180,7 +180,8 @@
     "quote:john-kiriakou:36",
     "dyk:guantanamo-bay:0",
     "quote:john-kiriakou:117",
-    "new:daniel-hale"
+    "new:daniel-hale",
+    "quote:camp-david-final-talks:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -680,10 +681,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "quote"
   ]
 }
