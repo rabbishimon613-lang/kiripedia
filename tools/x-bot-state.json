@@ -187,7 +187,8 @@
     "quote:intelligence-identities-protection-act:1",
     "new:eric-swallwell-fbi-documents",
     "dyk:john-kiriakou:77",
-    "quote:double-agent-marriott-trap:0"
+    "quote:double-agent-marriott-trap:0",
+    "dyk:trump-dni-replacement:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -679,10 +680,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
