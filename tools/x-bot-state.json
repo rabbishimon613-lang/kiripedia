@@ -182,7 +182,8 @@
     "quote:john-kiriakou:117",
     "new:daniel-hale",
     "quote:camp-david-final-talks:1",
-    "new:elizabeth-rouser"
+    "new:elizabeth-rouser",
+    "dyk:gail-slater:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -678,10 +679,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
