@@ -43,6 +43,39 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
         </figcaption>
       </figure>
 
+      <h2 id="mission-board">Mission board</h2>
+
+      <p>
+        The work in flight, organized by lane. The Patroller files briefs into the backlog when it notices something the team should look at; bots claim those briefs into the running lane; finished briefs land in done. Updates every fifteen seconds.
+      </p>
+
+      <div class="rt-lanes" id="rt-board">
+        <div class="rt-lane" data-lane="backlog"><h3>Backlog</h3><ol></ol></div>
+        <div class="rt-lane" data-lane="ready"><h3>Ready</h3><ol></ol></div>
+        <div class="rt-lane" data-lane="running"><h3>Running</h3><ol></ol></div>
+        <div class="rt-lane" data-lane="review"><h3>Review</h3><ol></ol></div>
+        <div class="rt-lane" data-lane="blocked"><h3>Blocked</h3><ol></ol></div>
+        <div class="rt-lane" data-lane="done"><h3>Done</h3><ol></ol></div>
+      </div>
+
+      <h2 id="live-stats">Live statistics</h2>
+
+      <div class="rt-stats-box">
+        <dl id="rt-stats">
+          <dt>Articles touched today</dt><dd data-stat="articles_touched_today">—</dd>
+          <dt>Words added today</dt><dd data-stat="words_added">—</dd>
+          <dt>Claims filed today</dt><dd data-stat="claims_filed">—</dd>
+          <dt>Suspect queue</dt><dd data-stat="suspect_queue">—</dd>
+          <dt>Drift incidents today</dt><dd data-stat="drift_today">—</dd>
+        </dl>
+        <h3>Article grades</h3>
+        <dl id="rt-grades"><dt class="rt-loading">Loading…</dt></dl>
+        <p class="rt-footer-line">
+          <span id="rt-cycle">cycle —</span> · updated <span id="rt-time">—</span> ·
+          article_set_hash <code id="rt-hash">…</code>
+        </p>
+      </div>
+
       <h2 id="activity-log">Activity log</h2>
 
       <div id="mtt-orders-banner" class="orders-banner" style="display:none">
@@ -256,6 +289,80 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
       }
       // Piggyback on the snapshot fetch — called after the snapshot loads
       window._renderOrders = renderOrders;
+    })();
+
+    // Mission board + live stats — polls the research-team snapshot.
+    (function () {
+      var board = document.getElementById('rt-board');
+      var statsBox = document.getElementById('rt-stats');
+      if (!board && !statsBox) return;
+      var POLL_MS = 15000;
+      function fmtRel(iso) {
+        if (!iso) return '—';
+        var norm = /\dZ$|[+-]\d{2}:?\d{2}$/.test(iso) ? iso : iso.replace(' ', 'T') + 'Z';
+        var d = new Date(norm);
+        var ageS = Math.max(0, (Date.now() - d.getTime()) / 1000);
+        if (ageS < 60) return (ageS|0) + 's ago';
+        if (ageS < 3600) return ((ageS/60)|0) + 'm ago';
+        if (ageS < 86400) return ((ageS/3600)|0) + 'h ago';
+        return ((ageS/86400)|0) + 'd ago';
+      }
+      function esc(s) { return (s == null ? '' : String(s).replace(/[<>&"]/g, function(c){
+        return ({ '<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;' })[c];
+      })); }
+      function render(s) {
+        // Mission board
+        if (board && s.board) {
+          ['backlog','ready','running','review','blocked','done'].forEach(function(lane){
+            var ol = board.querySelector('.rt-lane[data-lane="' + lane + '"] ol');
+            if (!ol) return;
+            var items = s.board[lane] || [];
+            if (!items.length) {
+              ol.innerHTML = '<li class="rt-empty">—</li>';
+              return;
+            }
+            ol.innerHTML = items.map(function(b){
+              return '<li><span class="role">' + esc(b.worker) + '</span>' +
+                '<span class="goal">' + esc(b.goal) + '</span>' +
+                (b.slug ? '<span class="slug">' + esc(b.slug) + '</span>' : '') +
+                '</li>';
+            }).join('');
+          });
+        }
+        // Stats
+        var stats = s.stats || {};
+        function setStat(k, v) {
+          var el = document.querySelector('#rt-stats dd[data-stat="' + k + '"]');
+          if (el) el.textContent = v;
+        }
+        setStat('articles_touched_today', stats.articles_touched_today != null ? stats.articles_touched_today : 0);
+        setStat('words_added', stats.words_added != null ? stats.words_added : 0);
+        setStat('claims_filed', stats.claims_filed != null ? stats.claims_filed : 0);
+        setStat('suspect_queue', stats.suspect_queue != null ? stats.suspect_queue : 0);
+        setStat('drift_today', stats.drift_today != null ? stats.drift_today : 0);
+        var gradesDl = document.getElementById('rt-grades');
+        if (gradesDl) {
+          var grades = stats.grades || {};
+          var order = ['stub','start','c','b','ga','fa'];
+          var rows = order.filter(function(g){ return grades[g]; })
+            .map(function(g){ return '<dt>' + g.toUpperCase() + '</dt><dd>' + grades[g] + '</dd>'; });
+          gradesDl.innerHTML = rows.length ? rows.join('') : '<dt class="rt-empty">No grades yet</dt><dd></dd>';
+        }
+        var cycleEl = document.getElementById('rt-cycle');
+        var timeEl = document.getElementById('rt-time');
+        var hashEl = document.getElementById('rt-hash');
+        if (cycleEl) cycleEl.textContent = 'cycle ' + (s.cycle_id != null ? s.cycle_id : '—');
+        if (timeEl) timeEl.textContent = fmtRel(s.generated_at);
+        if (hashEl) hashEl.textContent = (s.article_set_hash || '').slice(0, 12) || '…';
+      }
+      function tick() {
+        fetch('/snapshot.json', { cache: 'no-store' }).then(function(r){
+          if (!r.ok) return;
+          return r.json();
+        }).then(function(s){ if (s) render(s); }).catch(function(){});
+      }
+      tick();
+      setInterval(tick, POLL_MS);
     })();
 
     // Activity log — polls the same snapshot file the office iframe reads.
@@ -711,6 +818,93 @@ const roleOrder = ['Discovery', 'Triage', 'Vetting', 'Transcription', 'Claim Ext
     .wc-label.wc-today-label {
       color: var(--color-success, #0a8754);
       font-weight: 700;
+    }
+
+    /* Mission board lanes */
+    .rt-lanes {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 6px;
+      margin-bottom: 18px;
+    }
+    @media (max-width: 1100px) { .rt-lanes { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 700px) { .rt-lanes { grid-template-columns: repeat(2, 1fr); } }
+    .rt-lane {
+      background: var(--color-bg-infobox);
+      border: 1px solid var(--color-border);
+      padding: 6px 8px 8px;
+      min-height: 60px;
+    }
+    .rt-lane h3 {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--color-base--subtle);
+      margin: 0 0 6px;
+      border-bottom: 1px solid var(--color-border-subtle);
+      padding-bottom: 3px;
+    }
+    .rt-lane ol { list-style: none; padding: 0; margin: 0; font-size: 12px; }
+    .rt-lane li {
+      background: #fff;
+      border: 1px solid var(--color-border-subtle);
+      padding: 4px 6px;
+      margin-bottom: 4px;
+      border-radius: 2px;
+    }
+    .rt-lane li.rt-empty {
+      background: transparent;
+      border: 0;
+      color: var(--color-base--subtle);
+      font-style: italic;
+      padding: 2px 0;
+    }
+    .rt-lane li .role {
+      color: #36c;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .rt-lane li .goal { display: block; margin-top: 2px; line-height: 1.35; color: var(--color-base); }
+    .rt-lane li .slug { color: var(--color-base--subtle); font-size: 11px; }
+
+    /* Live stats box */
+    .rt-stats-box {
+      border: 1px solid var(--color-border);
+      background: var(--color-bg-infobox);
+      padding: 12px 16px 10px;
+      margin-bottom: 18px;
+      max-width: 480px;
+    }
+    .rt-stats-box dl {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 4px 16px;
+      margin: 0 0 6px;
+      font-size: 13px;
+    }
+    .rt-stats-box dt { color: var(--color-base--subtle); }
+    .rt-stats-box dd {
+      margin: 0;
+      font-weight: 700;
+      color: var(--color-base);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .rt-stats-box h3 { font-size: 13px; margin: 10px 0 4px; }
+    .rt-stats-box .rt-empty { color: var(--color-base--subtle); font-style: italic; }
+    .rt-footer-line {
+      margin-top: 8px;
+      padding-top: 6px;
+      border-top: 1px solid var(--color-border-subtle);
+      font-size: 11px;
+      color: var(--color-base--subtle);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .rt-footer-line code {
+      background: var(--color-bg-sidebar);
+      padding: 0 4px;
+      font-size: 11px;
     }
 
     .role-section { margin: 18px 0; }
