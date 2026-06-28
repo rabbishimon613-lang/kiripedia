@@ -183,7 +183,8 @@
     "new:daniel-hale",
     "quote:camp-david-final-talks:1",
     "new:elizabeth-rouser",
-    "dyk:gail-slater:1"
+    "dyk:gail-slater:1",
+    "quote:intelligence-identities-protection-act:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -679,10 +680,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
