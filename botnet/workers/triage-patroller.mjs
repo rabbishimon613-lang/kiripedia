@@ -33,7 +33,9 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, statSync, existsSy
 import { execSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { logActivity } from '../lib/db.mjs';
+import { db, logActivity } from '../lib/db.mjs';
+import * as briefs from '../lib/briefs.mjs';
+import { articleSetHash } from '../lib/hash.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -253,13 +255,168 @@ function main() {
     console.error(`[${WORKER}] could not write queue: ${err.message}`);
   }
 
+  // NEW: emit Swarm Briefs for downstream workers. Selection ≠ work.
+  // We issue a small, capped number per role per cycle so backlog stays bounded.
+  const briefCounts = issueBriefs(rows, mentions, incoming);
+
   const summary = Object.entries(queue.roles)
     .map(([role, items]) => `${role}=${items.length}`)
     .join(' ');
+  const briefSummary = Object.entries(briefCounts)
+    .map(([role, n]) => `${role}=${n}`)
+    .join(' ');
   const elapsed = ((Date.now() - t0) / 1000).toFixed(1);
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `Queued work for the mining team (${summary}) in ${elapsed}s.` });
-  console.log(`[${WORKER}] queued ${summary} (${elapsed}s)`);
+                detail: `Queued work (${summary}). Briefs issued (${briefSummary}). ${elapsed}s.` });
+  console.log(`[${WORKER}] queued ${summary} | briefs ${briefSummary} (${elapsed}s)`);
+}
+
+// ---------------------------------------------------------------------------
+// Brief issuance — the four rules from BUILD-PROMPT.md §2.3.
+// ---------------------------------------------------------------------------
+
+function countPendingByRole(role) {
+  const r = db.prepare(`SELECT COUNT(*) AS n FROM briefs WHERE worker=? AND status='pending'`).get(role);
+  return r.n || 0;
+}
+
+function approxWordCount(body) {
+  // Strip MDX-ish tags and frontmatter, then split.
+  const cleaned = body
+    .replace(/^---[\s\S]*?---\n/, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+  return cleaned.split(/\s+/).filter(Boolean).length;
+}
+
+function issueBriefs(rows, mentions, incoming) {
+  const out = { cataloger: 0, weaver: 0, 're-reader': 0, enricher: 0 };
+  const MAX_PER_ROLE = parseInt(process.env.TRIAGE_BRIEFS_PER_ROLE) || 8;
+
+  // Cap: don't pile up briefs. If a role already has plenty pending, skip.
+  const capRemaining = (role) => Math.max(0, MAX_PER_ROLE - countPendingByRole(role));
+
+  // Rule A — Cataloger second-pass. Pick catalogued transcripts whose target
+  // articles are still under-developed: an average article size <1800 chars
+  // across the set means the transcript is likely under-mined. We don't try
+  // to filter per-transcript by topic match — the Cataloger does that on the
+  // second pass.
+  {
+    const remaining = capRemaining('cataloger');
+    if (remaining > 0) {
+      const avgSmall = rows.length > 0 &&
+        (rows.filter(r => r.size < 1800).length / rows.length) > 0.3;
+      const candidates = db.prepare(`
+        SELECT video_id, slug FROM clips
+         WHERE status='catalogued' AND worker IS NULL
+         ORDER BY upload_date ASC
+         LIMIT 30
+      `).all();
+      for (const c of candidates) {
+        if (out.cataloger >= remaining) break;
+        if (!avgSmall && rows.length > 0) break; // shelf is dense — don't pile on
+        // De-dupe against pending briefs for this clip.
+        const dupe = db.prepare(`
+          SELECT 1 FROM briefs WHERE worker='cataloger' AND status='pending'
+           AND scope_json LIKE ? LIMIT 1
+        `).get(`%"video_id":"${c.video_id}"%`);
+        if (dupe) continue;
+        briefs.issue({
+          worker: 'cataloger',
+          goal: `Second-pass walk of ${c.slug} to surface missed claims.`,
+          whyNow: 'corpus skew: most articles still under 1800 chars; second pass surfaces missed claims',
+          scope: { kind: 'second-pass', video_id: c.video_id, source_slug: c.slug },
+          deliverables: { write: 'claims rows (status=pending_review)' },
+          constraints: { token_budget: 30000 },
+        });
+        out.cataloger++;
+      }
+    }
+  }
+
+  // Rule B — Weaver shape-rework for articles >5000 words with too-similar TOCs.
+  {
+    const remaining = capRemaining('weaver');
+    if (remaining > 0) {
+      const big = rows.filter(r => r.size > 5000);
+      for (const r of big) {
+        if (out.weaver >= remaining) break;
+        briefs.issue({
+          worker: 'weaver',
+          goal: `Re-weave ${r.slug}: large article, TOC may converge with peers.`,
+          whyNow: 'article >5000 words; shape-redesign candidate',
+          scope: { kind: 'shape-redesign', slug: r.slug },
+          deliverables: { rewrite: `src/content/articles/${r.slug}.mdx` },
+          constraints: { token_budget: 40000 },
+        });
+        out.weaver++;
+      }
+    }
+  }
+
+  // Rule C — Re-Reader for articles with stale verdicts under the current hash.
+  {
+    const remaining = capRemaining('re-reader');
+    if (remaining > 0) {
+      const currentHash = articleSetHash();
+      // Pick sources whose passages have never been stamped with current hash,
+      // OR whose stamps are all stale.
+      const sources = db.prepare(`
+        SELECT cl.slug
+          FROM clips cl
+         WHERE cl.status IN ('catalogued','published')
+         ORDER BY cl.upload_date DESC
+         LIMIT 40
+      `).all();
+      for (const s of sources) {
+        if (out['re-reader'] >= remaining) break;
+        const hit = db.prepare(`
+          SELECT 1 FROM passage_verdicts
+           WHERE passage_id LIKE ? AND article_set_hash = ?
+           LIMIT 1
+        `).get(`${s.slug}@%`, currentHash);
+        if (hit) continue;
+        briefs.issue({
+          worker: 're-reader',
+          goal: `Walk ${s.slug} under hash ${currentHash.slice(0, 8)}.`,
+          whyNow: 'passages have no verdict under the current article_set_hash',
+          scope: { source_slug: s.slug, article_set_hash: currentHash },
+          deliverables: { write: 'passage_verdicts rows' },
+          constraints: { token_budget: 60000 },
+        });
+        out['re-reader']++;
+      }
+    }
+  }
+
+  // Rule D — Enricher fan-out for articles that just got new claims.
+  {
+    const remaining = capRemaining('enricher');
+    if (remaining > 0) {
+      // "Just got new claims" = claims with status='merged' in the last cycle.
+      // Approximate by last hour. Coordinator runs once per cycle.
+      const touched = db.prepare(`
+        SELECT DISTINCT article_slug FROM claims
+         WHERE status='merged'
+           AND rendered_at >= datetime('now','-2 hours')
+         LIMIT 20
+      `).all();
+      for (const t of touched) {
+        if (out.enricher >= remaining) break;
+        briefs.issue({
+          worker: 'enricher',
+          goal: `Fan-out wikilinks from ${t.article_slug} after new claims landed.`,
+          whyNow: 'article just received new claims; peers may need cross-links',
+          scope: { slug: t.article_slug, kind: 'fan-out' },
+          deliverables: { write: 'wikilink additions to peer articles' },
+          constraints: { token_budget: 15000 },
+        });
+        out.enricher++;
+      }
+    }
+  }
+
+  return out;
 }
 
 main();

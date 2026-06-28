@@ -3,7 +3,7 @@
 // Only the Coordinator commits rendered files to git.
 
 import Database from 'better-sqlite3';
-import { readFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -11,6 +11,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const BOTNET_DIR = join(HERE, '..');
 const DB_PATH = process.env.BOTNET_DB || join(BOTNET_DIR, 'data', 'botnet.db');
 const SCHEMA = join(HERE, 'schema.sql');
+const MIGRATIONS_DIR = join(BOTNET_DIR, 'migrations');
 
 mkdirSync(dirname(DB_PATH), { recursive: true });
 
@@ -18,6 +19,43 @@ export const db = new Database(DB_PATH);
 db.pragma('journal_mode = WAL');
 db.pragma('foreign_keys = ON');
 db.exec(readFileSync(SCHEMA, 'utf8'));
+
+// Idempotent migration runner. Each .sql file in botnet/migrations/ is
+// applied at most once, tracked by name in schema_migrations. ALTER TABLE
+// ADD COLUMN failures are swallowed individually so re-runs are safe on
+// existing live DBs (HF Space starts fresh on every clone, this is the
+// canonical mechanism).
+db.exec(`CREATE TABLE IF NOT EXISTS schema_migrations (
+  name TEXT PRIMARY KEY,
+  applied_at TEXT NOT NULL DEFAULT (datetime('now'))
+)`);
+
+function applyMigrations() {
+  if (!existsSync(MIGRATIONS_DIR)) return;
+  const files = readdirSync(MIGRATIONS_DIR).filter(f => f.endsWith('.sql')).sort();
+  const seen = new Set(db.prepare(`SELECT name FROM schema_migrations`).all().map(r => r.name));
+  for (const f of files) {
+    if (seen.has(f)) continue;
+    const sql = readFileSync(join(MIGRATIONS_DIR, f), 'utf8');
+    // Split on `;` at line end and exec one statement at a time so ALTER
+    // failures (e.g. column already exists from a prior partial run) only
+    // skip that statement, not the whole file.
+    const stmts = sql.split(/;\s*\n/).map(s => s.trim()).filter(Boolean);
+    for (const s of stmts) {
+      try { db.exec(s + ';'); }
+      catch (err) {
+        // Swallow only ALTER TABLE ADD COLUMN duplicate-column errors;
+        // re-raise anything else so we don't silently apply broken migrations.
+        if (!/duplicate column/i.test(err.message)) {
+          console.error(`[db] migration ${f} stmt failed: ${err.message}`);
+        }
+      }
+    }
+    db.prepare(`INSERT INTO schema_migrations (name) VALUES (?)`).run(f);
+    console.log(`[db] applied migration ${f}`);
+  }
+}
+applyMigrations();
 
 // --- Activity log: drives the pixel office ---------------------------------
 export function logActivity({ worker, role, event, detail, refKind, refId, handoffTo }) {

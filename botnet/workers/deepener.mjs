@@ -21,6 +21,7 @@ import { worker_reasoning, worker_longcontext } from '../lib/fleet-client.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
 import { arg, intArg } from '../lib/argv.mjs';
 import { marchingOrdersFor } from '../lib/marching-orders.mjs';
+import { drainBriefs } from '../lib/brief-runner.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -178,8 +179,28 @@ async function run(pick) {
   console.log(`[${WORKER}] ${pick.slug}: +${added} cites`);
 }
 
+// PHASE 2: drain deepener briefs first. scope: { slug }
 const touched = new Set();
-for (let i = 0; i < BATCH; i++) {
+const briefDrain = await drainBriefs({
+  role: 'deepener',
+  workerId: WORKER,
+  max: BATCH,
+  handler: async ({ scope }) => {
+    if (!scope.slug) throw new Error('brief scope missing slug');
+    const path = join(ARTICLES_DIR, `${scope.slug}.mdx`);
+    let body;
+    try { body = readFileSync(path, 'utf8'); } catch { throw new Error(`article not found: ${scope.slug}`); }
+    const mentions = mentionCount(scope.slug);
+    const cites = citeCount(body);
+    const pick = { slug: scope.slug, path, body, mentions, cites, delta: mentions - cites };
+    touched.add(scope.slug);
+    markWorked(scope.slug, ROLE);
+    await run(pick);
+    return { result: { slug: scope.slug, mentions, cites }, filesChanged: [path] };
+  },
+});
+
+for (let i = briefDrain.done + briefDrain.failed; i < BATCH; i++) {
   const pick = pickArticle(touched);
   if (!pick) {
     if (i === 0) {

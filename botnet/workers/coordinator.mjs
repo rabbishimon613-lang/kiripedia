@@ -16,6 +16,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { tmpdir } from 'node:os';
 import { db, logActivity } from '../lib/db.mjs';
+import { bumpHash } from '../lib/hash.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -192,6 +193,14 @@ db.prepare(`UPDATE cycles SET ended_at=datetime('now'), status='committed',
             claims_merged=?, articles_touched=?, commit_sha=? WHERE id=?`)
   .run(totalMerged, touchedArticles.size, sha, cycleId);
 
+// Flip the article_set_hash if anything actually changed. The hash is the
+// heartbeat: stale verdicts expire and Engine 2 (Re-Reader) wakes up.
+let newHash = null;
+if (sha) {
+  try { newHash = bumpHash(); } catch (err) { console.error('[coordinator] hash bump failed:', err.message); }
+}
+
+const hashSuffix = newHash ? ` hash→${newHash.slice(0, 8)}` : '';
 logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-              detail: `Filed ${totalMerged} claims into ${touchedArticles.size} articles${sha ? ' (commit ' + sha.slice(0,7) + ').' : ' — no commit needed.'}` });
-console.log(`[coordinator] merged ${totalMerged} claims into ${touchedArticles.size} articles. sha=${sha?.slice(0,7) || '(no change)'}`);
+              detail: `Filed ${totalMerged} claims into ${touchedArticles.size} articles${sha ? ' (commit ' + sha.slice(0,7) + ').' : ' — no commit needed.'}${hashSuffix}` });
+console.log(`[coordinator] merged ${totalMerged} claims into ${touchedArticles.size} articles. sha=${sha?.slice(0,7) || '(no change)'}${hashSuffix}`);

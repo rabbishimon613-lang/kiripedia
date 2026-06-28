@@ -9,6 +9,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { db, claimNextClip, releaseClip, logActivity, quarantine } from '../lib/db.mjs';
+import { drainBriefs } from '../lib/brief-runner.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -133,8 +134,24 @@ async function scribeOne(clip) {
   return true;
 }
 
-let ok = 0, fail = 0;
-for (let i = 0; i < BATCH; i++) {
+// PHASE 2: drain scribe briefs first. scope: { video_id }
+const briefDrain = await drainBriefs({
+  role: 'scribe',
+  workerId: WORKER,
+  max: BATCH,
+  handler: async ({ scope }) => {
+    if (!scope.video_id) throw new Error('brief scope missing video_id');
+    const clip = db.prepare(`SELECT * FROM clips WHERE video_id = ?`).get(scope.video_id);
+    if (!clip) throw new Error(`no clip for video_id=${scope.video_id}`);
+    db.prepare(`UPDATE clips SET worker=?, worker_since=datetime('now') WHERE video_id=?`).run(WORKER, clip.video_id);
+    const ok = await scribeOne(clip);
+    if (!ok) throw new Error('scribeOne returned false');
+    return { result: { video_id: clip.video_id, slug: clip.slug } };
+  },
+});
+
+let ok = briefDrain.done, fail = briefDrain.failed;
+for (let i = ok + fail; i < BATCH; i++) {
   const clip = claimNextClip({ status: 'triaged_on', worker: WORKER });
   if (!clip) break;
   const result = await scribeOne(clip);

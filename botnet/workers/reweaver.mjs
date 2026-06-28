@@ -24,6 +24,7 @@ import { worker_longcontext } from '../lib/fleet-client.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
 import { arg, intArg } from '../lib/argv.mjs';
 import { marchingOrdersFor } from '../lib/marching-orders.mjs';
+import { drainBriefs } from '../lib/brief-runner.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -180,8 +181,26 @@ async function run(pick) {
   console.log(`[${WORKER}] ${pick.slug}: ${body.length} → ${newBody.length} chars, ${inputCites.length} cites preserved`);
 }
 
+// PHASE 2: drain reweaver briefs first. scope: { slug }
 const touched = new Set();
-for (let i = 0; i < BATCH; i++) {
+const briefDrain = await drainBriefs({
+  role: 'reweaver',
+  workerId: WORKER,
+  max: BATCH,
+  handler: async ({ scope }) => {
+    if (!scope.slug) throw new Error('brief scope missing slug');
+    const path = join(ARTICLES_DIR, `${scope.slug}.mdx`);
+    let size;
+    try { size = statSync(path).size; } catch { throw new Error(`article not found: ${scope.slug}`); }
+    const pick = { slug: scope.slug, path, size };
+    touched.add(scope.slug);
+    markWorked(scope.slug, ROLE);
+    await run(pick);
+    return { result: { slug: scope.slug }, filesChanged: [path] };
+  },
+});
+
+for (let i = briefDrain.done + briefDrain.failed; i < BATCH; i++) {
   const pick = pickArticle(touched);
   if (!pick) {
     if (i === 0) {

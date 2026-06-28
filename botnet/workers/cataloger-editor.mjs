@@ -13,6 +13,7 @@ import { worker_reasoning } from '../lib/fleet-client.mjs';
 import { arg, intArg } from '../lib/argv.mjs';
 import { marchingOrdersFor } from '../lib/marching-orders.mjs';
 import { lastWorked, markWorked } from '../lib/last-worked.mjs';
+import { drainBriefs } from '../lib/brief-runner.mjs';
 
 // June–July push: when no transcribed clips are waiting, walk the oldest
 // already-catalogued clip and do a SECOND-PASS extraction. The first pass
@@ -210,8 +211,32 @@ async function catalogOne(clip, { isSecondPass = false } = {}) {
   return totalClaims;
 }
 
-let ok = 0, fail = 0, secondPass = 0;
-for (let i = 0; i < BATCH; i++) {
+// PHASE 2: drain pending cataloger briefs first.
+// Brief scope: { kind: 'first-pass'|'second-pass', video_id, source_slug? }
+const briefDrain = await drainBriefs({
+  role: 'cataloger',
+  workerId: WORKER,
+  max: BATCH,
+  handler: async ({ scope }) => {
+    const isSecondPass = scope.kind === 'second-pass';
+    const clip = db.prepare(`SELECT * FROM clips WHERE video_id = ?`).get(scope.video_id);
+    if (!clip) throw new Error(`no clip for video_id=${scope.video_id}`);
+    if (!clip.source_path) throw new Error(`clip ${scope.video_id} has no source_path`);
+    // Take ownership for the duration of the run.
+    db.prepare(`UPDATE clips SET worker=?, worker_since=datetime('now') WHERE video_id=?`).run(WORKER, clip.video_id);
+    try {
+      const added = await catalogOne(clip, { isSecondPass });
+      return { result: { video_id: clip.video_id, slug: clip.slug, isSecondPass, claims: added } };
+    } catch (err) {
+      releaseClip(clip.video_id, isSecondPass ? { newStatus: 'catalogued' } : undefined);
+      throw err;
+    }
+  },
+});
+
+// Legacy path: keep the cycle moving when no briefs are pending.
+let ok = briefDrain.done, fail = briefDrain.failed, secondPass = 0;
+for (let i = ok + fail; i < BATCH; i++) {
   let clip = claimNextClip({ status: 'transcribed', worker: WORKER });
   let isSecondPass = false;
   if (!clip) {

@@ -432,6 +432,93 @@ defineLane({
 });
 
 // ---------------------------------------------------------------------------
+// Phase 2/3/4 lanes — new workers.
+// ---------------------------------------------------------------------------
+
+// Triage Patroller — pure code, no fleet. Selection ≠ work. Writes briefs.
+defineLane({
+  name: 'triage-patroller',
+  intervalMs: 10 * 60 * 1000,
+  jitterMs: 45 * 1000,
+  burnsFleet: false,
+  cmd: () => ({ bin: 'node', args: [W('triage-patroller'), '--per-role', '25'] }),
+});
+
+// Re-Reader — Engine 2. Walks stale passages under the current hash.
+defineLane({
+  name: 're-reader',
+  intervalMs: 20 * 60 * 1000,
+  jitterMs: 2 * 60 * 1000,
+  cmd: () => ({ bin: 'node', args: [W('re-reader'), '--worker', 're-reader-1', '--batch', '2'] }),
+});
+
+// Discretion Warden — mirrors Kiriakou's discretion before claims propagate.
+defineLane({
+  name: 'discretion',
+  intervalMs: 7 * 60 * 1000,
+  jitterMs: 30 * 1000,
+  cmd: () => ({ bin: 'node', args: [W('discretion-warden'), '--batch', '20'] }),
+});
+
+// First/Third Splitter — perspective tag (witnessed vs relayed).
+defineLane({
+  name: 'splitter',
+  intervalMs: 7 * 60 * 1000,
+  jitterMs: 30 * 1000,
+  cmd: () => ({ bin: 'node', args: [W('first-third-splitter'), '--batch', '30'] }),
+});
+
+// Diff Sentinel — patrol git history for cite removal + hedge drift.
+defineLane({
+  name: 'diff-sentinel',
+  intervalMs: 30 * 60 * 1000,
+  jitterMs: 90 * 1000,
+  burnsFleet: false,
+  cmd: () => ({ bin: 'node', args: [W('diff-sentinel')] }),
+});
+
+// Shape Auditor — TOC convergence flags + weaver shape-redesign briefs.
+defineLane({
+  name: 'shape-auditor',
+  intervalMs: 60 * 60 * 1000,
+  jitterMs: 2 * 60 * 1000,
+  burnsFleet: false,
+  cmd: () => ({ bin: 'node', args: [W('shape-auditor'), '--threshold', '5'] }),
+});
+
+// MoS Enforcer — runs the four audit scripts, logs failures.
+defineLane({
+  name: 'mos-enforcer',
+  intervalMs: 60 * 60 * 1000,
+  jitterMs: 2 * 60 * 1000,
+  burnsFleet: false,
+  cmd: () => ({ bin: 'node', args: [W('mos-enforcer')] }),
+});
+
+// Promotion Committee — daily ceremony at 23:00 UTC (PA-ish). Quorum-gated.
+defineLane({
+  name: 'promotion',
+  intervalMs: 24 * 60 * 60 * 1000,
+  jitterMs: 0,
+  burnsFleet: false,
+  initialDelayMs: (() => {
+    const now = new Date();
+    const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(),
+      now.getUTCDate() + (now.getUTCHours() >= 23 ? 1 : 0), 23, 0, 0, 0));
+    return Math.max(0, next.getTime() - now.getTime());
+  })(),
+  cmd: () => ({ bin: 'node', args: [W('promotion-committee')] }),
+});
+
+// Research-team snapshot — drives /research-team dashboard.
+defineLane({
+  name: 'rt-snapshot',
+  intervalMs: 60 * 1000,        // refresh every minute for a live feel
+  burnsFleet: false,
+  cmd: () => ({ bin: 'node', args: [LIB('research-team-snapshot')] }),
+});
+
+// ---------------------------------------------------------------------------
 // Boot
 // ---------------------------------------------------------------------------
 if (DRY) {

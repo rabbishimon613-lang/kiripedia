@@ -87,6 +87,22 @@ run('Cataloger-Editor (2/2)', `node ${W('cataloger-editor')} --worker cataloger-
 run('Reviewer', `node ${W('reviewer')}`);
 run('Coordinator', `node ${W('coordinator')}${PUSH ? ' --push' : ''}`);
 run('Indexer', `node ${W('indexer')}`);
+// Phase 2: Triage Patroller emits briefs; mining workers (and Re-Reader) drain them.
+run('Triage Patroller', `node ${W('triage-patroller')} --per-role 25`);
+run('Re-Reader', `node ${W('re-reader')} --worker re-reader-1 --batch 2`);
+
+// Phase 3: doctrine guards + ceremony.
+// Discretion Warden and First/Third Splitter run BEFORE Coordinator in the
+// next cycle's order — but we run them here so the next cycle picks them up.
+run('Discretion Warden', `node ${W('discretion-warden')} --batch 20`);
+run('First/Third Splitter', `node ${W('first-third-splitter')} --batch 30`);
+// Patrol.
+run('Diff Sentinel', `node ${W('diff-sentinel')}`);
+run('Shape Auditor', `node ${W('shape-auditor')} --threshold 5`);
+run('MoS Enforcer', `node ${W('mos-enforcer')}`);
+// Ceremony — gate behind a once-per-day flag in production. Safe to run any time;
+// it's idempotent and will simply find nothing if criteria don't shift.
+run('Promotion Committee', `node ${W('promotion-committee')}`);
 
 // Inward-focus mode (current default per project decision 2026-06-22):
 // discovery is off, team mines the existing 88h corpus to weave the 279
@@ -108,5 +124,6 @@ run('Weaver', `node ${W('weaver')} --worker weaver-1 --batch ${miningBatch}`);
 run('Reweaver', `node ${W('reweaver')} --worker reweaver-1 --batch 10`);
 run('Mouth Sentry', `node ${W('mouth-sentry')}`);
 run('Snapshot writer', `node ${LIB('snapshot-writer')}`);
+run('Research-team snapshot', `node ${LIB('research-team-snapshot')}`);
 
 console.log('\n=== cycle complete ===');
