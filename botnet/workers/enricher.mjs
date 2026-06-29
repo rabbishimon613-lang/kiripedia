@@ -18,6 +18,7 @@ import { lastWorked, markWorked } from '../lib/last-worked.mjs';
 import { arg, intArg } from '../lib/argv.mjs';
 import { marchingOrdersFor } from '../lib/marching-orders.mjs';
 import { drainBriefs } from '../lib/brief-runner.mjs';
+import { titleFromSlug } from '../lib/title-from-slug.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -178,10 +179,28 @@ async function run(pick) {
     linkAdds++;
   }
 
-  // See also block.
+  // See also block. Use the related article's on-disk title when it looks
+  // sane, fall back to the acronym-aware slug→title helper when it doesn't.
+  // Detects legacy mangled titles like "Fbi" and re-derives them.
+  const titleFor = (slug) => {
+    try {
+      const raw = readFileSync(join(ARTICLES_DIR, `${slug}.mdx`), 'utf8');
+      const m = raw.match(/^title:\s*['"]?(.+?)['"]?\s*$/m);
+      if (m) {
+        const t = m[1].replace(/''/g, "'");
+        const naive = slug.split('-').map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
+        const better = titleFromSlug(slug);
+        // If the on-disk title is just the naive slug-capitalize AND the
+        // acronym-aware helper would do better, prefer the helper.
+        if (t === naive && t !== better) return better;
+        return t;
+      }
+    } catch {}
+    return titleFromSlug(slug);
+  };
   const seeAlso = (result.see_also || []).filter(s => s !== pick.slug);
   if (seeAlso.length > 0 && !body.includes('## See also')) {
-    const lines = seeAlso.map(s => `- [${s.replace(/-/g, ' ')}](/wiki/${s})`).join('\n');
+    const lines = seeAlso.map(s => `- [${titleFor(s)}](/wiki/${s})`).join('\n');
     body = body.trimEnd() + `\n\n## See also\n\n${lines}\n`;
     writeFileSync(pick.path, body);
   }

@@ -14176,8 +14176,8 @@
       "doing time like a spy"
     ],
     "total_mentions": 21,
-    "cited_sources_count": 3,
-    "uncited_mention_count": 17,
+    "cited_sources_count": 4,
+    "uncited_mention_count": 15,
     "uncited_sources": [
       "2018-06-20-rdap-dan-facing-40-years-espionage",
       "2023-11-19-dalton-fischer-kiriakou-part-2",
@@ -14190,8 +14190,7 @@
       "2026-04-16-hang-out-with-sean-hannity-lawfare-template",
       "2026-04-23-doug-bopst-cia-whistleblower-escape-system",
       "2026-05-04-cleared-hot-446-cost-of-truth",
-      "2026-05-05-morgan-nelson-cia-whistleblower-control-anyone",
-      "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange"
+      "2026-05-05-morgan-nelson-cia-whistleblower-control-anyone"
     ],
     "uncited_mentions": [
       {
@@ -14268,16 +14267,6 @@
         "source": "2026-05-05-morgan-nelson-cia-whistleblower-control-anyone",
         "timestamp": "1:23:00",
         "snippet": "Uh so I've got a lot of books out there. And uh yeah, I mean it's it's a little bit of this, a little bit of that. And I I've put together a handsome living. &gt;&gt; I love it. Where where can everyone get your books? &gt;&gt; Oh, they're all on Amazon. Or the first one's out of print now, but the rest are all on Amazon. &gt;&gt; What what's the the one the 20 practical things again? &gt;&gt; Yea…"
-      },
-      {
-        "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange",
-        "timestamp": "02:11",
-        "snippet": "He's part of the Government Accountability Project. He's written so many books. I'm going to name some for you. The Reluctant Spy: My Life and the CIA's War on Terror, Doing Time Like a Spy, How the CIA Taught Me How to Survive in Prison, How to Disappear Off the Grid, Surveillance and Surveillance Detection, The Convenient Terrorist, Lying and Lying Detection, and Remains of the Day. a definitive…"
-      },
-      {
-        "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange",
-        "timestamp": "18:53",
-        "snippet": "Okay. >> Either way, there's no such thing as [clears throat] black ops to be kid. >> There's no such thing as black ops. So there's no such thing as a mercenary team that would have worked with the government to do this. >> That's even more unusual. A mercenary team. >> Interesting. Okay. >> There's no such things. >> Okay. Interesting. In 2017, John was at the Strand bookstore in New York being …"
       }
     ]
   },
@@ -32465,6 +32454,17 @@
         "snippet": "[ __ ] bill a little bit I know well no they did they forgave it okay they're they're they're great guys so Bob Trout who Bob Trout is sort of an elegant Southern gentleman and he says John if you were my own brother I would beg you to take the deal and then the attorney who I actually liked and connected with the most Mark McDougall who was the chief of White Collar defense at Ain Gump and Straus…"
       }
     ]
+  },
+  "mark-zuckerberg-angela-merkel-meeting": {
+    "title": "Mark Zuckerberg Angela Merkel Meeting",
+    "aliases": [
+      "mark zuckerberg angela merkel meeting"
+    ],
+    "total_mentions": 0,
+    "cited_sources_count": 1,
+    "uncited_mention_count": 0,
+    "uncited_sources": [],
+    "uncited_mentions": []
   },
   "martha-kesler": {
     "title": "Martha Kesler",

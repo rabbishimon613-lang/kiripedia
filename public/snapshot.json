@@ -1,7 +1,7 @@
 {
-  "cycle_id": 477,
-  "started_at": "2026-06-29 06:55:14",
-  "ended_at": "2026-06-29 06:56:04",
+  "cycle_id": 479,
+  "started_at": "2026-06-29 07:26:09",
+  "ended_at": "2026-06-29 07:26:09",
   "article_set_hash": "c1628958bd66ee53050e9e5496f31e5e8202102be8623a11464fc50c8f4cbcc9",
   "roster": [
     {
@@ -65,28 +65,28 @@
       "lane": "adjudication",
       "state": "idle",
       "working_on": "Checked the claim queue — empty, all caught up.",
-      "last_action_at": "2026-06-29 07:08:10"
+      "last_action_at": "2026-06-29 07:28:23"
     },
     {
       "role": "discretion-warden",
       "lane": "adjudication",
       "state": "idle",
       "working_on": "No claims awaiting discretion review.",
-      "last_action_at": "2026-06-29 07:04:56"
+      "last_action_at": "2026-06-29 07:26:02"
     },
     {
       "role": "first-third-splitter",
       "lane": "adjudication",
       "state": "idle",
       "working_on": "No claims awaiting perspective split.",
-      "last_action_at": "2026-06-29 07:10:31"
+      "last_action_at": "2026-06-29 07:24:20"
     },
     {
       "role": "coordinator",
       "lane": "filing",
-      "state": "idle",
-      "working_on": "Filed 1 claims into 1 articles (commit 2a6f336). hash→c1628958",
-      "last_action_at": "2026-06-29 06:56:04"
+      "state": "working",
+      "working_on": "Collecting passed claims for filing.",
+      "last_action_at": "2026-06-29 07:26:09"
     },
     {
       "role": "triage-patroller",
@@ -168,6 +168,46 @@
   ],
   "board": {
     "backlog": [
+      {
+        "brief_id": "97d081a9",
+        "worker": "weaver",
+        "goal": "Re-weave abu-zubaydah-capture: large article, TOC may converge with peers.",
+        "slug": "abu-zubaydah-capture",
+        "created_at": "2026-06-29 07:19:57",
+        "claimed_by": null
+      },
+      {
+        "brief_id": "4f731688",
+        "worker": "weaver",
+        "goal": "Re-weave abu-zubaydah: large article, TOC may converge with peers.",
+        "slug": "abu-zubaydah",
+        "created_at": "2026-06-29 07:19:57",
+        "claimed_by": null
+      },
+      {
+        "brief_id": "c491fdae",
+        "worker": "weaver",
+        "goal": "Re-weave afghan-heroin-policy: large article, TOC may converge with peers.",
+        "slug": "afghan-heroin-policy",
+        "created_at": "2026-06-29 07:19:57",
+        "claimed_by": null
+      },
+      {
+        "brief_id": "aa488c39",
+        "worker": "weaver",
+        "goal": "Re-weave ahmed-chalabi: large article, TOC may converge with peers.",
+        "slug": "ahmed-chalabi",
+        "created_at": "2026-06-29 07:19:57",
+        "claimed_by": null
+      },
+      {
+        "brief_id": "2d95ebe7",
+        "worker": "weaver",
+        "goal": "Re-weave aipac: large article, TOC may converge with peers.",
+        "slug": "aipac",
+        "created_at": "2026-06-29 07:19:57",
+        "claimed_by": null
+      },
       {
         "brief_id": "926d5358",
         "worker": "re-reader",
@@ -499,6 +539,188 @@
   },
   "activity": [
     {
+      "ts": "2026-06-29 07:26:09",
+      "worker": "coordinator",
+      "role": "coordinator",
+      "summary": "Collecting passed claims for filing.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:25:19",
+      "worker": "office-manager-1",
+      "role": "manager",
+      "summary": "Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:25:09",
+      "worker": "office-manager-1",
+      "role": "manager",
+      "summary": "Probing LLM providers, refreshing routing table.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:23:56",
+      "worker": "npp-1",
+      "role": "npp",
+      "summary": "Checked the lead queue — no new clips today.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:23:56",
+      "worker": "npp-1",
+      "role": "npp",
+      "summary": "Triaging up to 20 new clips.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:21:52",
+      "worker": "materializer-1",
+      "role": "materializer",
+      "summary": "Walking pending Re-Reader verdicts and turning them into claims.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:21:47",
+      "worker": "catch-importer-1",
+      "role": "catch-importer",
+      "summary": "Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:21:47",
+      "worker": "catch-importer-1",
+      "role": "catch-importer",
+      "summary": "Draining fleet/catch into clips (auto-trust=true).",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:19:57",
+      "worker": "triage-patroller",
+      "role": "triage",
+      "summary": "Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=5 re-reader=0 enricher=0). 3.6s.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:19:53",
+      "worker": "triage-patroller",
+      "role": "triage",
+      "summary": "Scanning the shelf to assign work to mining bots.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:17:25",
+      "worker": "calendar-keeper",
+      "role": "calendar-keeper",
+      "summary": "Marked 0 air-dates on the calendar.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:17:25",
+      "worker": "calendar-keeper",
+      "role": "calendar-keeper",
+      "summary": "Pinned 0 dates to the corkboard from 0 sources.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:17:25",
+      "worker": "calendar-keeper",
+      "role": "calendar-keeper",
+      "summary": "Walking the calendar across 17 sources.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:16:26",
+      "worker": "prospector-1",
+      "role": "prospector",
+      "summary": "Set the 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing transcript aside — will retry next cycle.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:15:24",
+      "worker": "office-manager-1",
+      "role": "manager",
+      "summary": "Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:15:13",
+      "worker": "office-manager-1",
+      "role": "manager",
+      "summary": "Probing LLM providers, refreshing routing table.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:14:57",
+      "worker": "prospector-1",
+      "role": "prospector",
+      "summary": "Opened the 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing transcript — hunting for unmined claims.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:14:53",
+      "worker": "prospector-1",
+      "role": "prospector",
+      "summary": "Set the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript aside — will retry next cycle.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:14:08",
+      "worker": "prospector-1",
+      "role": "prospector",
+      "summary": "Opened the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript — hunting for unmined claims.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:13:45",
+      "worker": "npp-1",
+      "role": "npp",
+      "summary": "Checked the lead queue — no new clips today.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:13:45",
+      "worker": "npp-1",
+      "role": "npp",
+      "summary": "Triaging up to 20 new clips.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:13:39",
+      "worker": "materializer-1",
+      "role": "materializer",
+      "summary": "Walking pending Re-Reader verdicts and turning them into claims.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:12:29",
+      "worker": "indexer",
+      "role": "indexer",
+      "summary": "Rebuilt 2 of 2 indexes.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:12:25",
+      "worker": "indexer",
+      "role": "indexer",
+      "summary": "Rebuilding the date and mentions indexes.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:12:02",
+      "worker": "coordinator",
+      "role": "coordinator",
+      "summary": "Filed 1 claims into 1 articles (commit 7ff8908). hash→c1628958",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 07:11:38",
+      "worker": "coordinator",
+      "role": "coordinator",
+      "summary": "Collecting passed claims for filing.",
+      "link": null
+    },
+    {
       "ts": "2026-06-29 07:11:26",
       "worker": "weaver-1",
       "role": "weaver",
@@ -665,188 +887,6 @@
       "role": "enricher",
       "summary": "Opened Hypnosis Operation Walk In — looking for peer articles to cross-link.",
       "link": null
-    },
-    {
-      "ts": "2026-06-29 07:09:19",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Searched the shelf for Double Agent Marriott Trap — it's a true orphan so far.",
-      "link": "/wiki/double-agent-marriott-trap"
-    },
-    {
-      "ts": "2026-06-29 07:09:19",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Opened Double Agent Marriott Trap — looking for peer articles to cross-link.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:09:11",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Searched the shelf for Admiral Crowe — it's a true orphan so far.",
-      "link": "/wiki/admiral-crowe"
-    },
-    {
-      "ts": "2026-06-29 07:09:11",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Opened Admiral Crowe — looking for peer articles to cross-link.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:09:11",
-      "worker": "mos-enforcer",
-      "role": "mos-enforcer",
-      "summary": "MoS audits: 3 clean, 1 reporting violations.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:09:10",
-      "worker": "mos-enforcer",
-      "role": "mos-enforcer",
-      "summary": "Running MoS audits.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:09:02",
-      "worker": "deepener-1",
-      "role": "deepener",
-      "summary": "Swept the article shelf — every gap was already filled this round.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:07:36",
-      "worker": "mouth-sentry",
-      "role": "mouth-sentry",
-      "summary": "Went through 1. 0 of them need a word about their tone (0 things to fix).",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:07:36",
-      "worker": "mouth-sentry",
-      "role": "mouth-sentry",
-      "summary": "Auditing every article touched in the last 30 minutes.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:05:58",
-      "worker": "materializer-1",
-      "role": "materializer",
-      "summary": "Materialized 1 verdicts → 0 new articles + 1 amendments. 1 skipped, 0 unresolvable.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:05:23",
-      "worker": "materializer-1",
-      "role": "materializer",
-      "summary": "Walking pending Re-Reader verdicts and turning them into claims.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:04:49",
-      "worker": "office-manager-1",
-      "role": "manager",
-      "summary": "Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:04:42",
-      "worker": "office-manager-1",
-      "role": "manager",
-      "summary": "Probing LLM providers, refreshing routing table.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:04:18",
-      "worker": "re-reader-1",
-      "role": "re-reader",
-      "summary": "Re-Reader walking stale passages under the current lens.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:03:21",
-      "worker": "npp-1",
-      "role": "npp",
-      "summary": "Checked the lead queue — no new clips today.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:03:21",
-      "worker": "npp-1",
-      "role": "npp",
-      "summary": "Triaging up to 20 new clips.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:01:44",
-      "worker": "catch-importer-1",
-      "role": "catch-importer",
-      "summary": "Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 07:01:44",
-      "worker": "catch-importer-1",
-      "role": "catch-importer",
-      "summary": "Draining fleet/catch into clips (auto-trust=true).",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 06:59:36",
-      "worker": "triage-patroller",
-      "role": "triage",
-      "summary": "Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=0 re-reader=0 enricher=0). 3.7s.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 06:59:33",
-      "worker": "triage-patroller",
-      "role": "triage",
-      "summary": "Scanning the shelf to assign work to mining bots.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 06:57:00",
-      "worker": "materializer-1",
-      "role": "materializer",
-      "summary": "Walking pending Re-Reader verdicts and turning them into claims.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 06:56:04",
-      "worker": "coordinator",
-      "role": "coordinator",
-      "summary": "Filed 1 claims into 1 articles (commit 2a6f336). hash→c1628958",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 06:55:14",
-      "worker": "coordinator",
-      "role": "coordinator",
-      "summary": "Collecting passed claims for filing.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 06:53:59",
-      "worker": "office-manager-1",
-      "role": "manager",
-      "summary": "Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 06:53:51",
-      "worker": "office-manager-1",
-      "role": "manager",
-      "summary": "Probing LLM providers, refreshing routing table.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 06:53:39",
-      "worker": "npp-1",
-      "role": "npp",
-      "summary": "Checked the lead queue — no new clips today.",
-      "link": null
     }
   ],
   "stats": {
@@ -859,12 +899,12 @@
       "c": 24,
       "start": 54
     },
-    "cost_today": 0.00010415000000000001,
+    "cost_today": 0.00009995000000000002,
     "hot_keys": {
       "cerebras": 4,
       "groq": 3,
       "openrouter": 5
     }
   },
-  "generated_at": "2026-06-29T07:11:28.763Z"
+  "generated_at": "2026-06-29T07:28:34.029Z"
 }

@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-06-29T07:09:33.152Z",
+  "generated_at": "2026-06-29T07:24:56.240Z",
   "commit_count": 60,
-  "change_count": 822,
+  "change_count": 810,
   "rows": [
+    {
+      "ts": "2026-06-29T03:11:40-04:00",
+      "sha": "7ff89085de82cc57f880bea1145ba56bed827cdb",
+      "sha_short": "7ff8908",
+      "author": "rabbishimon613-lang",
+      "summary": "botnet cycle 478: 1 claims, 1 articles",
+      "slug": "doing-time-like-a-spy",
+      "title": "Doing Time Like a Spy",
+      "added_lines": 4,
+      "deleted_lines": 0,
+      "net_lines": 4,
+      "path": "src/content/articles/doing-time-like-a-spy.mdx",
+      "from_source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange",
+      "kind": "amend"
+    },
     {
       "ts": "2026-06-29T02:55:24-04:00",
       "sha": "2a6f33628f92168f5654e6373f1aaf2c09080def",
@@ -5985,21 +6000,6 @@
       "deleted_lines": 1,
       "net_lines": 0,
       "path": "src/content/articles/dick-clarke.mdx",
-      "from_source": null,
-      "kind": "amend"
-    },
-    {
-      "ts": "2026-06-06T12:57:26-04:00",
-      "sha": "2428aaff03d7b1203638d6ba6858f49ab07805e1",
-      "sha_short": "2428aaf",
-      "author": "rabbishimon613-lang",
-      "summary": "Refetch people images: +9 recovered",
-      "slug": "dick-cheney",
-      "title": "Dick Cheney",
-      "added_lines": 2,
-      "deleted_lines": 0,
-      "net_lines": 2,
-      "path": "src/content/articles/dick-cheney.mdx",
       "from_source": null,
       "kind": "amend"
     }

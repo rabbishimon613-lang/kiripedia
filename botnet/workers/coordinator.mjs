@@ -17,6 +17,7 @@ import { fileURLToPath } from 'node:url';
 import { tmpdir } from 'node:os';
 import { db, logActivity } from '../lib/db.mjs';
 import { bumpHash } from '../lib/hash.mjs';
+import { titleFromSlug } from '../lib/title-from-slug.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(HERE, '..', '..');
@@ -104,7 +105,15 @@ for (const [videoId, grp] of byClip) {
 
   for (const [slug, a] of grp.articles) {
     if (a.isNew) {
-      const title = slug.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join(' ');
+      // Prefer the Materializer's `entity` (proper-cased noun phrase) over
+      // a slug-derived title; fall back to the acronym-aware titleFromSlug
+      // helper (which keeps "FBI" not "Fbi") when no entity was supplied.
+      const entityCandidate = [...a.entities][0];
+      const looksLikeTitle = entityCandidate &&
+        entityCandidate.length <= 80 &&
+        /^[A-Z]/.test(entityCandidate) &&
+        !entityCandidate.includes('\n');
+      const title = looksLikeTitle ? entityCandidate : titleFromSlug(slug);
       // Prefer Materializer-supplied summary/category/dyk over the bland
       // stubs. The Materializer's prompt enforces voice; the stubs do not.
       const ALLOWED_CATEGORIES = ['People', 'Agencies', 'Operations', 'Events', 'Concepts', 'Cases', 'Places'];
