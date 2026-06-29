@@ -1,27 +1,27 @@
 {
   "summary": {
-    "generated_at": "2026-06-29T04:09:42.297Z",
-    "articles_scanned": 331,
+    "generated_at": "2026-06-29T05:11:46.758Z",
+    "articles_scanned": 386,
     "attribution_tiers": {
-      "clean": 158,
+      "clean": 213,
       "within_calibration": 136,
       "outlier": 20,
       "severe_outlier": 17
     },
     "attribution_tier_pct": {
-      "clean": 47.7,
-      "within_calibration": 41.1,
-      "outlier": 6,
-      "severe_outlier": 5.1
+      "clean": 55.2,
+      "within_calibration": 35.2,
+      "outlier": 5.2,
+      "severe_outlier": 4.4
     },
-    "hedge_articles": 11,
-    "hedge_total_hits": 17,
-    "cite_total": 3805,
+    "hedge_articles": 14,
+    "hedge_total_hits": 20,
+    "cite_total": 3890,
     "cite_dead_source": 0,
-    "cite_ts_exact_or_near": 3793,
-    "cite_ts_miss_strict": 12,
-    "cite_ts_near_miss_within_31s": 353,
-    "cite_integrity_pct": 99.68,
+    "cite_ts_exact_or_near": 3830,
+    "cite_ts_miss_strict": 60,
+    "cite_ts_near_miss_within_31s": 390,
+    "cite_integrity_pct": 98.46,
     "outlier_articles": [
       {
         "slug": "cia",
@@ -614,9 +614,36 @@
       }
     },
     {
+      "slug": "ai-whistleblower-initiative",
+      "bytes": 718,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
       "slug": "aipac",
-      "bytes": 8807,
-      "cite_total": 18,
+      "bytes": 9136,
+      "cite_total": 19,
       "attribution": {
         "tier": "severe_outlier",
         "total": 7,
@@ -640,12 +667,51 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 18,
+        "total": 19,
         "dead_source": 0,
         "ts_exact_or_near": 18,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir",
+            "t": "08:52:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "akrotiri-village-evacuation",
+      "bytes": 710,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir",
+            "t": "02:36:00"
+          }
+        ]
       }
     },
     {
@@ -726,6 +792,33 @@
         "ts_exact_or_near": 3,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "alexa",
+      "bytes": 527,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -845,6 +938,60 @@
         "ts_exact_or_near": 4,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "andrew-feinstein",
+      "bytes": 636,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
+      "slug": "anoir-alaki",
+      "bytes": 671,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -1026,8 +1173,8 @@
     },
     {
       "slug": "asset-acquisition-cycle",
-      "bytes": 25479,
-      "cite_total": 74,
+      "bytes": 25783,
+      "cite_total": 75,
       "attribution": {
         "tier": "severe_outlier",
         "total": 11,
@@ -1051,11 +1198,71 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 74,
+        "total": 75,
         "dead_source": 0,
         "ts_exact_or_near": 74,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-05-25-john-kiriakou-podcast-cia-john-kiriakou-new-posdcast-2",
+            "t": "10:11:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bay-path-university",
+      "bytes": 649,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
+      "slug": "belmarsh-prison",
+      "bytes": 660,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -1115,6 +1322,33 @@
         "ts_exact_or_near": 11,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "benjamin-netanyahu",
+      "bytes": 624,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -1458,6 +1692,39 @@
       }
     },
     {
+      "slug": "bob-trout",
+      "bytes": 589,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-05-25-john-kiriakou-podcast-cia-john-kiriakou-new-posdcast-2",
+            "t": "40:09:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "bojinka-plot",
       "bytes": 10076,
       "cite_total": 25,
@@ -1548,6 +1815,39 @@
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
+      }
+    },
+    {
+      "slug": "british-bases-in-cyprus",
+      "bytes": 696,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir",
+            "t": "02:06:00"
+          }
+        ]
       }
     },
     {
@@ -1643,6 +1943,132 @@
         "ts_exact_or_near": 16,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "chaos-computer-club-wikileaks",
+      "bytes": 739,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "16:21:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "chelsea-manning-emergence",
+      "bytes": 721,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "15:49:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "chelsea-manning",
+      "bytes": 930,
+      "cite_total": 2,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 2,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 1,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "24:45:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "church-committee-mk-ultra-investigation",
+      "bytes": 773,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -1882,8 +2308,8 @@
       }
     },
     {
-      "slug": "cia-smart-tv-surveillance",
-      "bytes": 697,
+      "slug": "cia-remote-vehicle-control",
+      "bytes": 735,
       "cite_total": 1,
       "attribution": {
         "tier": "clean",
@@ -1904,14 +2330,101 @@
         "dead_source": 0,
         "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
+      "slug": "cia-smart-tv-surveillance",
+      "bytes": 1063,
+      "cite_total": 2,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 2,
+        "dead_source": 0,
+        "ts_exact_or_near": 2,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
+      "slug": "cia-torture-program-whistleblowing",
+      "bytes": 769,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-05-31-john-kiriakou-podcast-john-kiriakou-new-posdcast-12-secrets-that-have",
+            "t": "21:43:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cia-training-doctrine",
+      "bytes": 756,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
     {
       "slug": "cia",
-      "bytes": 90246,
-      "cite_total": 271,
+      "bytes": 90533,
+      "cite_total": 272,
       "attribution": {
         "tier": "severe_outlier",
         "total": 43,
@@ -1936,11 +2449,11 @@
         }
       },
       "cite_integrity": {
-        "total": 271,
+        "total": 272,
         "dead_source": 0,
-        "ts_exact_or_near": 271,
+        "ts_exact_or_near": 272,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 83,
+        "ts_near_miss_within_31s": 84,
         "problems": []
       }
     },
@@ -2008,6 +2521,39 @@
       }
     },
     {
+      "slug": "collateral-murder-video",
+      "bytes": 893,
+      "cite_total": 2,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 2,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 1,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "13:08:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "cori-bush",
       "bytes": 1784,
       "cite_total": 3,
@@ -2031,6 +2577,33 @@
         "ts_exact_or_near": 3,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "cory-booker",
+      "bytes": 594,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -2094,6 +2667,39 @@
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
+      }
+    },
+    {
+      "slug": "daniel-domscheit-berg-wikileaks",
+      "bytes": 759,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "16:53:00"
+          }
+        ]
       }
     },
     {
@@ -2179,8 +2785,8 @@
     },
     {
       "slug": "daniel-hale",
-      "bytes": 647,
-      "cite_total": 1,
+      "bytes": 938,
+      "cite_total": 2,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -2196,11 +2802,11 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 1,
+        "total": 2,
         "dead_source": 0,
-        "ts_exact_or_near": 1,
+        "ts_exact_or_near": 2,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -2350,6 +2956,39 @@
       }
     },
     {
+      "slug": "der-spiegel",
+      "bytes": 598,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "49:50:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "dgse",
       "bytes": 6209,
       "cite_total": 14,
@@ -2496,6 +3135,39 @@
       }
     },
     {
+      "slug": "donald-trump",
+      "bytes": 613,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir",
+            "t": "10:55:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "double-agent-capture",
       "bytes": 7623,
       "cite_total": 18,
@@ -2591,8 +3263,8 @@
     },
     {
       "slug": "edward-snowden",
-      "bytes": 7136,
-      "cite_total": 14,
+      "bytes": 7427,
+      "cite_total": 15,
       "attribution": {
         "tier": "within_calibration",
         "total": 2,
@@ -2616,12 +3288,18 @@
         }
       },
       "cite_integrity": {
-        "total": 14,
+        "total": 15,
         "dead_source": 0,
         "ts_exact_or_near": 14,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 4,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "04:16:00"
+          }
+        ]
       }
     },
     {
@@ -2778,6 +3456,39 @@
       }
     },
     {
+      "slug": "eric-swallwell",
+      "bytes": 604,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "17:38:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "erik-prince",
       "bytes": 3739,
       "cite_total": 5,
@@ -2810,9 +3521,42 @@
       }
     },
     {
+      "slug": "espionage-act-whistleblower-cases",
+      "bytes": 734,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "46:04:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "espionage-act",
-      "bytes": 7413,
-      "cite_total": 11,
+      "bytes": 7696,
+      "cite_total": 12,
       "attribution": {
         "tier": "within_calibration",
         "total": 1,
@@ -2833,12 +3577,45 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 11,
+        "total": 12,
         "dead_source": 0,
-        "ts_exact_or_near": 11,
+        "ts_exact_or_near": 12,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
+      }
+    },
+    {
+      "slug": "ethan-mccord-collateral-murder",
+      "bytes": 735,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "32:33:00"
+          }
+        ]
       }
     },
     {
@@ -4060,8 +4837,8 @@
     },
     {
       "slug": "ilhan-omar",
-      "bytes": 802,
-      "cite_total": 2,
+      "bytes": 1102,
+      "cite_total": 3,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -4077,12 +4854,18 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 2,
+        "total": 3,
         "dead_source": 0,
         "ts_exact_or_near": 2,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange",
+            "t": "03:44:00"
+          }
+        ]
       }
     },
     {
@@ -4488,6 +5271,33 @@
       }
     },
     {
+      "slug": "james-jesus-angleton",
+      "bytes": 1107,
+      "cite_total": 2,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 2,
+        "dead_source": 0,
+        "ts_exact_or_near": 2,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 2,
+        "problems": []
+      }
+    },
+    {
       "slug": "jane-harman",
       "bytes": 3010,
       "cite_total": 3,
@@ -4521,8 +5331,8 @@
     },
     {
       "slug": "jason-leopold",
-      "bytes": 5442,
-      "cite_total": 10,
+      "bytes": 5832,
+      "cite_total": 11,
       "attribution": {
         "tier": "outlier",
         "total": 4,
@@ -4546,12 +5356,18 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 10,
+        "total": 11,
         "dead_source": 0,
         "ts_exact_or_near": 10,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "58:38:00"
+          }
+        ]
       }
     },
     {
@@ -4776,6 +5592,66 @@
       }
     },
     {
+      "slug": "joe-kent",
+      "bytes": 612,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "26:56:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "joe-weisberg",
+      "bytes": 669,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
       "slug": "joe-wilson",
       "bytes": 4115,
       "cite_total": 9,
@@ -4835,8 +5711,8 @@
     },
     {
       "slug": "john-brennan",
-      "bytes": 29775,
-      "cite_total": 77,
+      "bytes": 30026,
+      "cite_total": 78,
       "attribution": {
         "tier": "severe_outlier",
         "total": 15,
@@ -4861,10 +5737,10 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 77,
+        "total": 78,
         "dead_source": 0,
         "ts_exact_or_near": 74,
-        "ts_miss_strict": 3,
+        "ts_miss_strict": 4,
         "ts_near_miss_within_31s": 1,
         "problems": [
           {
@@ -4918,9 +5794,42 @@
       }
     },
     {
+      "slug": "john-kiriakou-whistleblower-advice",
+      "bytes": 740,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "43:31:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "john-kiriakou",
-      "bytes": 154813,
-      "cite_total": 513,
+      "bytes": 155137,
+      "cite_total": 514,
       "attribution": {
         "tier": "severe_outlier",
         "total": 43,
@@ -4945,18 +5854,24 @@
         }
       },
       "cite_integrity": {
-        "total": 513,
+        "total": 514,
         "dead_source": 0,
         "ts_exact_or_near": 513,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 71,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange",
+            "t": "02:43:00"
+          }
+        ]
       }
     },
     {
       "slug": "john-mccain",
-      "bytes": 4248,
-      "cite_total": 8,
+      "bytes": 4543,
+      "cite_total": 9,
       "attribution": {
         "tier": "within_calibration",
         "total": 1,
@@ -4974,12 +5889,18 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 8,
+        "total": 9,
         "dead_source": 0,
         "ts_exact_or_near": 8,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir",
+            "t": "11:27:00"
+          }
+        ]
       }
     },
     {
@@ -5119,8 +6040,8 @@
     },
     {
       "slug": "jonathan-pollard",
-      "bytes": 7758,
-      "cite_total": 16,
+      "bytes": 8120,
+      "cite_total": 17,
       "attribution": {
         "tier": "within_calibration",
         "total": 1,
@@ -5141,11 +6062,11 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 16,
+        "total": 17,
         "dead_source": 0,
-        "ts_exact_or_near": 16,
+        "ts_exact_or_near": 17,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -5238,6 +6159,138 @@
       }
     },
     {
+      "slug": "julian-assange-political-prisoner",
+      "bytes": 728,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "47:42:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "julian-assange-secure-drop",
+      "bytes": 695,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "23:13:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "julian-assange-wikileaks-role",
+      "bytes": 827,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "14:13:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "julian-assange",
+      "bytes": 676,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "50:23:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "karl-rove",
       "bytes": 1525,
       "cite_total": 2,
@@ -5266,8 +6319,8 @@
     },
     {
       "slug": "katherine-gun",
-      "bytes": 570,
-      "cite_total": 1,
+      "bytes": 904,
+      "cite_total": 2,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -5283,11 +6336,11 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 1,
+        "total": 2,
         "dead_source": 0,
-        "ts_exact_or_near": 1,
+        "ts_exact_or_near": 2,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -5436,6 +6489,39 @@
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
+      }
+    },
+    {
+      "slug": "kiriakou-introduction-to-wikileaks",
+      "bytes": 777,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "15:17:00"
+          }
+        ]
       }
     },
     {
@@ -5795,6 +6881,33 @@
       }
     },
     {
+      "slug": "lsd-mind-manipulation",
+      "bytes": 694,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
       "slug": "lynn-buchanan",
       "bytes": 593,
       "cite_total": 1,
@@ -5999,9 +7112,42 @@
       }
     },
     {
+      "slug": "mark-levin-iran-policy",
+      "bytes": 685,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "25:20:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "mark-mcdougall",
-      "bytes": 1940,
-      "cite_total": 3,
+      "bytes": 2332,
+      "cite_total": 4,
       "attribution": {
         "tier": "within_calibration",
         "total": 1,
@@ -6022,12 +7168,18 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 3,
+        "total": 4,
         "dead_source": 0,
         "ts_exact_or_near": 3,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-05-25-john-kiriakou-podcast-cia-john-kiriakou-new-posdcast-2",
+            "t": "40:39:00"
+          }
+        ]
       }
     },
     {
@@ -6144,6 +7296,33 @@
         "ts_exact_or_near": 13,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "meredith-whittaker",
+      "bytes": 636,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -6621,8 +7800,8 @@
     },
     {
       "slug": "mossad",
-      "bytes": 35543,
-      "cite_total": 84,
+      "bytes": 35881,
+      "cite_total": 85,
       "attribution": {
         "tier": "severe_outlier",
         "total": 18,
@@ -6647,11 +7826,11 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 84,
+        "total": 85,
         "dead_source": 0,
-        "ts_exact_or_near": 84,
+        "ts_exact_or_near": 85,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 6,
+        "ts_near_miss_within_31s": 7,
         "problems": []
       }
     },
@@ -7038,6 +8217,33 @@
       }
     },
     {
+      "slug": "only-fans",
+      "bytes": 550,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
       "slug": "operating-directive",
       "bytes": 3899,
       "cite_total": 8,
@@ -7161,9 +8367,9 @@
       }
     },
     {
-      "slug": "pam-bondi",
-      "bytes": 708,
-      "cite_total": 2,
+      "slug": "pam-bondi-epstein-scandal",
+      "bytes": 640,
+      "cite_total": 1,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -7179,12 +8385,98 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 2,
+        "total": 1,
         "dead_source": 0,
-        "ts_exact_or_near": 2,
-        "ts_miss_strict": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "13:01:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pam-bondi-eric-swallwell",
+      "bytes": 678,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 1,
+        "by_kind": {
+          "allegedly": 1
+        }
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "16:37:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pam-bondi",
+      "bytes": 2448,
+      "cite_total": 8,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 1,
+        "by_kind": {
+          "reportedly": 1
+        }
+      },
+      "cite_integrity": {
+        "total": 8,
+        "dead_source": 0,
+        "ts_exact_or_near": 5,
+        "ts_miss_strict": 3,
+        "ts_near_miss_within_31s": 3,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "15:03:00"
+          },
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "16:05:00"
+          },
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "18:41:00"
+          }
+        ]
       }
     },
     {
@@ -7255,8 +8547,8 @@
     },
     {
       "slug": "pete-hoekstra",
-      "bytes": 562,
-      "cite_total": 1,
+      "bytes": 898,
+      "cite_total": 2,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -7272,12 +8564,18 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 1,
+        "total": 2,
         "dead_source": 0,
         "ts_exact_or_near": 1,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "57:02:00"
+          }
+        ]
       }
     },
     {
@@ -7583,6 +8881,39 @@
       }
     },
     {
+      "slug": "podcast-bros",
+      "bytes": 615,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "13:33:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "presidents-daily-brief",
       "bytes": 619,
       "cite_total": 1,
@@ -7788,9 +9119,9 @@
       }
     },
     {
-      "slug": "revolutionary-organization-17-november",
-      "bytes": 25682,
-      "cite_total": 71,
+      "slug": "rand-paul-eric-holder",
+      "bytes": 754,
+      "cite_total": 1,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -7806,12 +9137,111 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 71,
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
+      "slug": "ray-mcgovern-vault-7",
+      "bytes": 674,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "25:16:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "restraint-camp",
+      "bytes": 760,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "24:48:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "revolutionary-organization-17-november",
+      "bytes": 26101,
+      "cite_total": 72,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 72,
         "dead_source": 0,
         "ts_exact_or_near": 71,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
+            "t": "58:04:00"
+          }
+        ]
       }
     },
     {
@@ -8215,8 +9645,8 @@
     },
     {
       "slug": "saddam-hussein",
-      "bytes": 8910,
-      "cite_total": 16,
+      "bytes": 9207,
+      "cite_total": 17,
       "attribution": {
         "tier": "outlier",
         "total": 5,
@@ -8240,11 +9670,11 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 16,
+        "total": 17,
         "dead_source": 0,
-        "ts_exact_or_near": 16,
+        "ts_exact_or_near": 17,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -8484,6 +9914,39 @@
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
+      }
+    },
+    {
+      "slug": "securedrop",
+      "bytes": 634,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "22:42:00"
+          }
+        ]
       }
     },
     {
@@ -8893,6 +10356,33 @@
       }
     },
     {
+      "slug": "steven-saunders",
+      "bytes": 701,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
       "slug": "strawberry-fields",
       "bytes": 1528,
       "cite_total": 1,
@@ -9179,6 +10669,39 @@
       }
     },
     {
+      "slug": "thomas-drake",
+      "bytes": 671,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "13:41:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "thomas-massie",
       "bytes": 3103,
       "cite_total": 3,
@@ -9331,9 +10854,36 @@
       }
     },
     {
+      "slug": "todd-blanch",
+      "bytes": 622,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
       "slug": "tom-drake",
-      "bytes": 10094,
-      "cite_total": 24,
+      "bytes": 10404,
+      "cite_total": 25,
       "attribution": {
         "tier": "within_calibration",
         "total": 2,
@@ -9355,11 +10905,11 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 24,
+        "total": 25,
         "dead_source": 0,
-        "ts_exact_or_near": 24,
+        "ts_exact_or_near": 25,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -9445,6 +10995,41 @@
       }
     },
     {
+      "slug": "trump-iran-ceasefire-efforts",
+      "bytes": 682,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 1,
+        "by_kind": {
+          "reportedly": 1
+        }
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir",
+            "t": "21:18:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "trump",
       "bytes": 1047,
       "cite_total": 1,
@@ -9510,8 +11095,8 @@
     },
     {
       "slug": "tulsi-gabbard",
-      "bytes": 564,
-      "cite_total": 1,
+      "bytes": 860,
+      "cite_total": 2,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -9527,12 +11112,18 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 1,
+        "total": 2,
         "dead_source": 0,
         "ts_exact_or_near": 1,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "57:33:00"
+          }
+        ]
       }
     },
     {
@@ -9649,6 +11240,39 @@
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
+      }
+    },
+    {
+      "slug": "vault-7-revelations",
+      "bytes": 658,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "23:44:00"
+          }
+        ]
       }
     },
     {
@@ -9915,6 +11539,153 @@
         "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "wikileaks-and-trump",
+      "bytes": 685,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
+      "slug": "wikileaks-arab-spring",
+      "bytes": 718,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "22:09:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "wikileaks-as-a-system",
+      "bytes": 635,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
+            "t": "48:15:00"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "wikileaks-ngo-transformation",
+      "bytes": 697,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
+      "slug": "wikileaks-post-2010",
+      "bytes": 615,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
