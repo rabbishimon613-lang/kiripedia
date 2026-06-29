@@ -53,6 +53,10 @@ import WikiLayout from '../layouts/WikiLayout.astro';
       var REPO = 'rabbishimon613-lang/kiripedia';
       var rows = [];
       var activeFilter = 'all';
+      // Slugs that are still on the picture watchlist — we cross-reference
+      // recent-changes against needs-image.json so each spawn row shows
+      // whether it's got a face yet or is waiting.
+      var pendingPics = new Set();
 
       function esc(s) {
         return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -103,6 +107,14 @@ import WikiLayout from '../layouts/WikiLayout.astro';
         var kindBadge = r.kind === 'spawn'
           ? '<span class="rc-kind rc-spawn" title="New article">N</span>'
           : '<span class="rc-kind rc-amend" title="Amendment">+</span>';
+        // Picture status: only applies to spawn rows. ★ = has a picture
+        // already, … = pending (slug on the needs-image watchlist).
+        var picBadge = '';
+        if (r.kind === 'spawn') {
+          picBadge = pendingPics.has(r.slug)
+            ? '<a href="/needs-image" class="rc-pic rc-pic-pending" title="No picture yet — on the watchlist">…</a>'
+            : '<span class="rc-pic rc-pic-done" title="Picture wired up">★</span>';
+        }
 
         return '<li class="rc-row" data-kind="' + esc(r.kind) + '">' +
           '<span class="rc-time" title="' + esc(r.ts) + '">' + esc(fmtTime(r.ts)) + '</span>' +
@@ -113,6 +125,7 @@ import WikiLayout from '../layouts/WikiLayout.astro';
           kindBadge +
           '<a href="/wiki/' + esc(r.slug) + '" class="rc-title">' + esc(r.title) + '</a>' +
           delta(r) +
+          picBadge +
           src +
           '<span class="rc-summary" title="' + esc(r.summary || '') + '">' + esc(r.summary || '') + '</span>' +
           '</li>';
@@ -157,16 +170,26 @@ import WikiLayout from '../layouts/WikiLayout.astro';
       }
 
       function tick() {
-        fetch('/recent-changes.json', { cache: 'no-store' }).then(function (r) {
-          if (!r.ok) throw new Error('no feed');
-          return r.json();
-        }).then(function (snap) {
-          rows = (snap && snap.rows) || [];
-          updateCounts();
-          updatedEl.textContent = 'updated ' + fmtRelative(snap.generated_at);
-          render();
-        }).catch(function () {
-          if (!rows.length) listEl.innerHTML = '<li class="rc-empty">Could not load the change feed.</li>';
+        // Fetch both feeds in parallel: the change ledger and the picture
+        // watchlist. The watchlist updates pendingPics so each spawn row
+        // shows ★ or … without needing a second render pass.
+        Promise.all([
+          fetch('/recent-changes.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
+          fetch('/needs-image.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
+        ]).then(function (results) {
+          var snap = results[0];
+          var pics = results[1];
+          if (pics && Array.isArray(pics.articles)) {
+            pendingPics = new Set(pics.articles.map(function (a) { return a.slug; }));
+          }
+          if (snap) {
+            rows = snap.rows || [];
+            updateCounts();
+            updatedEl.textContent = 'updated ' + fmtRelative(snap.generated_at);
+            render();
+          } else if (!rows.length) {
+            listEl.innerHTML = '<li class="rc-empty">Could not load the change feed.</li>';
+          }
         });
       }
 
@@ -311,6 +334,21 @@ import WikiLayout from '../layouts/WikiLayout.astro';
     .rc-add { color: var(--color-success, #0a8754); }
     .rc-del { color: #c00; }
     .rc-zero { color: var(--color-base--subtle); }
+    .rc-pic {
+      flex: 0 0 auto;
+      font-size: 13px;
+      text-decoration: none;
+      line-height: 1;
+      margin-left: 2px;
+    }
+    .rc-pic-done    { color: #d6a000; }    /* ★ amber for has-picture */
+    .rc-pic-pending {
+      color: var(--color-base--subtle);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 14px;
+      letter-spacing: -1px;
+    }
+    .rc-pic-pending:hover { color: var(--color-link, #36c); }
     .rc-src {
       flex: 0 1 auto;
       font-size: 12px;

@@ -82,16 +82,42 @@ function pickArticle(exclude = new Set()) {
 
 const SYSTEM = `${marchingOrdersFor('weaver')}
 
-You are the Article Weaver for KiriPedia, a Wikipedia-style wiki of John Kiriakou's video appearances.
+You are the Article Weaver for KiriPedia, an encyclopedic wiki built ENTIRELY from John Kiriakou's recorded public statements. You receive ONE article stub plus rich corpus excerpts. Rewrite the article into Wikipedia-style sectional narrative using ONLY material grounded in the excerpts.
 
-You receive ONE article stub plus rich corpus excerpts. Rewrite the article into Wikipedia-style sectional narrative using ONLY material grounded in the excerpts.
+—————————————————————————————————
+THE VOICE (HARD RULES, NON-NEGOTIABLE)
+—————————————————————————————————
 
-Doctrine:
-- Encyclopedic third-person voice. No "according to Kiriakou", no "Kiriakou said" (use sparingly only when the source is itself the subject).
-- Preserve EVERY existing <Cite/> tag and quote verbatim. Do not invent timestamps.
-- Section structure: a small spine of 3-6 H2 headers. No stub sub-stubs.
-- Mirror Kiriakou's discretion. If a source hedges, do not smooth that over.
-- Output MUST be a complete MDX article body (no frontmatter — that stays intact).`;
+1. **Encyclopedic third person, declarative.** No "according to Kiriakou," no "Kiriakou says," no "in an interview." Sourcing is invisible (the <Cite /> tag carries it). NOT "Kiriakou says Cofer Black warned…"; YES "Cofer Black, head of the CIA Counterterrorism Center, warned…"
+2. **Preserve direct quotes verbatim, italicised in single asterisks.** Embed striking statements as *"like this"* or as a blockquote. Never paraphrase a quote — include it or omit it.
+3. **Dense, specific prose.** Capture every named entity, date, place, dollar figure, agency. Never thin.
+4. **Wikilink every proper noun on first mention** using \`[Name](/wiki/slug)\`. If you don't know the slug, leave the noun unlinked — NEVER invent a slug.
+5. **Mirror Kiriakou's discretion.** Preserve his hedges ("an unnamed Middle Eastern country," "an asset called Mahmud") verbatim.
+
+Forbidden patterns: "According to Kiriakou," "Kiriakou says," "Per John Kiriakou," "in an interview." Cut all of these.
+
+—————————————————————————————————
+STRUCTURAL RULES
+—————————————————————————————————
+
+- **Preserve EVERY existing <Cite/> tag and every italicised *"..."* quote, verbatim and unchanged.** A pass that drops a cite or a quote will be rejected.
+- **Do not invent timestamps.** Every <Cite/> tag must come from the input.
+- **Section spine: 3–6 H2 headers**, named for the topic of the section (e.g. "## The September 12 speech," "## The post-9/11 budget" — NEVER "## From source-slug-xyz"). No stub sub-stubs.
+- **Lede paragraph**: one or two paragraphs introducing the subject, encyclopedic voice, subject wikilinked on first mention.
+- **Body sections**: each H2 covers one coherent topic. Multiple paragraphs per section is normal.
+- Output MUST be a complete MDX article body (no frontmatter — that stays intact).
+
+—————————————————————————————————
+EXAMPLE — well-woven article voice
+—————————————————————————————————
+
+**Cofer Black** was the head of the [Central Intelligence Agency](/wiki/cia)'s Counterterrorism Center during the September 11 attacks. He is the public face of the agency's paramilitary turn on September 12, 2001. [John Kiriakou](/wiki/john-kiriakou) describes him with personal admiration: *"I always had deep respect for Cofer. We can certainly have disagreements on policy, but man, what a patriot."*<Cite s="2025-08-31-dalton-fischer-mossad-blackwater" t="1:38:27" />
+
+## The "flies on Bin Laden's eyeballs" quote
+
+Black is the source of one of the canonical phrases of the post-September 11 period. At a Camp David meeting in the days immediately following the attacks, Black committed to President George W. Bush that he would *"see flies on Bin Laden's eyeballs"* when his work was done.<Cite s="2025-08-31-dalton-fischer-mossad-blackwater" t="1:38:27" />
+
+NOTICE: third person, every proper noun wikilinked on first mention, direct quotes italicised verbatim, topic-named sections, no "Kiriakou says." Match this voice exactly.`;
 
 const SCHEMA = {
   type: 'object',
@@ -154,12 +180,43 @@ async function run(pick) {
     return;
   }
 
+  // Hard preservation guard: every <Cite /> and every italicised *"..."*
+  // Kiriakou quote in the original MUST appear in the rewrite. Otherwise
+  // the weave is rejected and the article stays as the pile of fragments.
+  // Same guard the Reweaver uses; relit 2026-06-29 after a regression on
+  // surveillance-detection-route lost six direct quotes during a rewrite.
+  const cites = (s) => [...s.matchAll(/<Cite\s+[^/]*\/>/g)].map(m => m[0]);
+  const quotes = (s) => {
+    const n = s.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, ' ');
+    return [...n.matchAll(/\*"([^"]{4,})"\*/g)].map(m => m[1].trim());
+  };
+  const inputCites = cites(body);
+  const outputCiteSet = new Set(cites(newBody));
+  const missingCites = inputCites.filter(c => !outputCiteSet.has(c));
+  if (missingCites.length > 0) {
+    console.warn(`[${WORKER}] weave dropped ${missingCites.length}/${inputCites.length} citations; rejecting`);
+    logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+                  detail: `Threw out my draft of ${humanize(pick.slug)} — I lost ${missingCites.length} footnotes. Unacceptable.`,
+                  refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
+    return;
+  }
+  const inputQuotes = quotes(body);
+  const outputQuoteSet = new Set(quotes(newBody));
+  const missingQuotes = inputQuotes.filter(q => !outputQuoteSet.has(q));
+  if (missingQuotes.length > 0) {
+    console.warn(`[${WORKER}] weave dropped ${missingQuotes.length}/${inputQuotes.length} italicised quotes; rejecting`);
+    logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+                  detail: `Threw out my draft of ${humanize(pick.slug)} — I dropped ${missingQuotes.length} direct Kiriakou quotes. Unacceptable.`,
+                  refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
+    return;
+  }
+
   writeFileSync(pick.path, frontmatter + newBody + '\n');
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `Finished ${humanize(pick.slug)}. Grew it from ${body.length} to ${newBody.length} characters.`,
+                detail: `Finished ${humanize(pick.slug)}. Grew it from ${body.length} to ${newBody.length} characters, kept every footnote and quote.`,
                 refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
-  console.log(`[${WORKER}] ${pick.slug}: ${body.length} → ${newBody.length} chars`);
+  console.log(`[${WORKER}] ${pick.slug}: ${body.length} → ${newBody.length} chars, ${inputCites.length} cites + ${inputQuotes.length} quotes preserved`);
 }
 
 // PHASE 2: drain pending weaver briefs first.

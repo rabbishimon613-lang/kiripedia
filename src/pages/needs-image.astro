@@ -1,0 +1,219 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+---
+<WikiLayout
+  title="Articles awaiting a picture"
+  description="Articles on KiriPedia that don't yet have a lead image — the watchlist the Image Fetcher works through, plus the ones it can't resolve from Wikipedia."
+>
+  <div class="wiki-content">
+    <h1 class="firstHeading">Articles awaiting a picture</h1>
+    <p class="subtitle">The image backlog — articles the wiki still needs to put a face on</p>
+
+    <article class="wiki-body">
+      <div class="hatnote" style="padding-left:0">
+        Once an article has prose and citations, the wiki tries to put a face on it. The <em>Image Fetcher</em> walks this watchlist on every cycle, looks each entry up directly on Wikipedia, and grabs the lead image when it can confirm a match. Entries it can't resolve stay here for a human to address.
+      </div>
+
+      <p>
+        The fetcher is conservative on purpose: it accepts only exact-title Wikipedia matches (not search results), because a search for <em>"Abu Nidal disruption"</em> will happily return <em>"1982 Lebanon War"</em> as the loose closest match — and a wrong picture is worse than no picture. The watchlist refreshes every fifteen seconds.
+      </p>
+
+      <div class="ni-toolbar">
+        <div class="ni-filter-group">
+          <span class="ni-filter-label">Show</span>
+          <button type="button" class="ni-filter is-active" data-filter="all">All</button>
+          <button type="button" class="ni-filter" data-filter="no-wikipedia">No Wikipedia page</button>
+          <button type="button" class="ni-filter" data-filter="no-image">No lead image</button>
+          <button type="button" class="ni-filter" data-filter="queued">Queued</button>
+        </div>
+        <div class="ni-meta">
+          <span id="ni-counts">—</span>
+          <span class="ni-sep">·</span>
+          <span id="ni-updated">—</span>
+        </div>
+      </div>
+
+      <ul id="ni-list" class="ni-list" aria-live="polite">
+        <li class="ni-empty">Loading watchlist…</li>
+      </ul>
+
+      <p class="ni-footer-note">
+        The <strong>"No Wikipedia page"</strong> entries are articles whose subject isn't in Wikipedia — the kind of granular detail that's the whole point of a Kiriakou-only encyclopedia. These will likely never get a photo automatically. <strong>"No lead image"</strong> means Wikipedia has a page but it has no infobox photo. <strong>"Queued"</strong> are entries the fetcher hasn't tried yet this cycle.
+      </p>
+    </article>
+  </div>
+
+  <script is:inline>
+    (function () {
+      const listEl = document.getElementById('ni-list');
+      const countsEl = document.getElementById('ni-counts');
+      const updatedEl = document.getElementById('ni-updated');
+      if (!listEl) return;
+
+      const POLL_MS = 15000;
+      let rows = [];
+      let activeFilter = 'all';
+
+      function esc(s) {
+        return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c]);
+      }
+      function fmtRel(iso) {
+        try {
+          const d = new Date(iso);
+          const s = Math.max(0, (Date.now() - d.getTime()) / 1000);
+          if (s < 60) return (s|0) + 's ago';
+          if (s < 3600) return ((s/60)|0) + 'm ago';
+          if (s < 86400) return ((s/3600)|0) + 'h ago';
+          return ((s/86400)|0) + 'd ago';
+        } catch { return ''; }
+      }
+      function reasonClass(reason) {
+        const r = String(reason).toLowerCase();
+        if (r.includes('no wikipedia')) return 'no-wikipedia';
+        if (r.includes('no lead image')) return 'no-image';
+        if (r === 'queued') return 'queued';
+        return 'other';
+      }
+      function reasonLabel(reason) {
+        const r = String(reason).toLowerCase();
+        if (r.includes('no wikipedia')) return 'no Wikipedia page';
+        if (r.includes('no lead image')) return 'Wikipedia page has no lead image';
+        if (r === 'queued') return 'queued';
+        return reason;
+      }
+
+      function render() {
+        const filtered = activeFilter === 'all' ? rows : rows.filter(r => reasonClass(r.reason) === activeFilter);
+        if (!filtered.length) {
+          listEl.innerHTML = '<li class="ni-empty">Nothing in this slice — the backlog is clear.</li>';
+          return;
+        }
+        let html = '';
+        for (const r of filtered) {
+          const cls = reasonClass(r.reason);
+          html += '<li class="ni-row" data-reason="' + cls + '">' +
+            '<a href="/wiki/' + esc(r.slug) + '" class="ni-title">' + esc(r.title) + '</a>' +
+            '<span class="ni-slug">' + esc(r.slug) + '</span>' +
+            '<span class="ni-reason ni-' + cls + '">' + esc(reasonLabel(r.reason)) + '</span>' +
+            '</li>';
+        }
+        listEl.innerHTML = html;
+      }
+
+      function updateCounts() {
+        const by = { 'no-wikipedia': 0, 'no-image': 0, 'queued': 0, 'other': 0 };
+        for (const r of rows) by[reasonClass(r.reason)]++;
+        countsEl.textContent =
+          rows.length + ' waiting · ' +
+          by['queued'] + ' queued · ' +
+          by['no-wikipedia'] + ' no Wikipedia page · ' +
+          by['no-image'] + ' no lead image';
+      }
+
+      function tick() {
+        fetch('/needs-image.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(snap => {
+          if (!snap) return;
+          rows = snap.articles || [];
+          rows.sort((a, b) => {
+            // Queued first (about to be tried), then no-image, then no-wikipedia (least actionable).
+            const order = { 'queued': 0, 'no-image': 1, 'other': 2, 'no-wikipedia': 3 };
+            return (order[reasonClass(a.reason)] ?? 99) - (order[reasonClass(b.reason)] ?? 99)
+              || a.title.localeCompare(b.title);
+          });
+          updateCounts();
+          updatedEl.textContent = 'updated ' + fmtRel(snap.generated_at);
+          render();
+        }).catch(() => {
+          if (!rows.length) listEl.innerHTML = '<li class="ni-empty">Could not load the watchlist.</li>';
+        });
+      }
+
+      document.querySelectorAll('.ni-filter').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.ni-filter').forEach(b => b.classList.remove('is-active'));
+          btn.classList.add('is-active');
+          activeFilter = btn.dataset.filter;
+          render();
+        });
+      });
+
+      tick();
+      setInterval(tick, POLL_MS);
+    })();
+  </script>
+
+  <style is:global>
+    .ni-toolbar {
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 8px;
+      border-top: 1px solid var(--color-border-subtle);
+      border-bottom: 1px solid var(--color-border-subtle);
+      padding: 8px 0; margin: 14px 0 10px;
+    }
+    .ni-filter-group { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+    .ni-filter-label {
+      font-size: 12px; color: var(--color-base--subtle);
+      text-transform: uppercase; letter-spacing: .04em; margin-right: 4px;
+    }
+    .ni-filter {
+      font: inherit; font-size: 12px; padding: 3px 10px;
+      background: transparent; border: 1px solid var(--color-border);
+      color: var(--color-link, #36c); cursor: pointer; border-radius: 2px;
+    }
+    .ni-filter:hover { background: var(--color-bg-sidebar); }
+    .ni-filter.is-active {
+      background: var(--color-link, #36c); color: #fff;
+      border-color: var(--color-link, #36c); cursor: default;
+    }
+    .ni-meta {
+      font-size: 12px; color: var(--color-base--subtle);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .ni-sep { margin: 0 4px; color: var(--color-border); }
+    .ni-list { list-style: none; padding: 0; margin: 0 0 14px; font-size: 13.5px; }
+    .ni-empty {
+      padding: 20px; text-align: center;
+      color: var(--color-base--subtle); font-style: italic;
+    }
+    .ni-row {
+      display: flex; align-items: baseline; gap: 10px;
+      padding: 5px 10px;
+      border-bottom: 1px solid var(--color-border-subtle);
+      flex-wrap: wrap;
+    }
+    .ni-title {
+      flex: 0 1 auto;
+      font-weight: 600;
+      color: var(--color-link, #36c);
+      text-decoration: none;
+    }
+    .ni-title:hover { text-decoration: underline; }
+    .ni-slug {
+      flex: 1 1 auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      color: var(--color-base--subtle);
+    }
+    .ni-reason {
+      flex: 0 0 auto;
+      font-size: 11px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      padding: 1px 7px;
+      border-radius: 2px;
+    }
+    .ni-queued       { background: #ffeec0; color: #6a4a00; }
+    .ni-no-image     { background: #d4e6f7; color: #1a4a7a; }
+    .ni-no-wikipedia { background: #f0d4d4; color: #7a1a1a; }
+    .ni-other        { background: var(--color-bg-sidebar); color: var(--color-base--subtle); }
+    .ni-footer-note {
+      font-size: 12px; color: var(--color-base--subtle);
+      margin-top: 14px; line-height: 1.5;
+    }
+
+    @media (max-width: 720px) {
+      .ni-row { padding: 7px 10px; row-gap: 3px; }
+      .ni-slug { flex-basis: 100%; }
+      .ni-reason { font-size: 10px; padding: 1px 6px; }
+    }
+  </style>
+</WikiLayout>
