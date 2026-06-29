@@ -371,7 +371,12 @@ defineLane({
 });
 
 // Weaver2 — reweaver (article-weaving skill, expensive).
-defineLane({
+// Paused 2026-06-29 after a pass on surveillance-detection-route.mdx dropped
+// one Cite and six direct *"..."* Kiriakou quotes during restructuring. The
+// Reweaver's preserve-every-quote contract is not being held; relight this
+// lane only after the prompt and the post-pass diff guard are tightened.
+const REWEAVER_PAUSED = true;
+if (!REWEAVER_PAUSED) defineLane({
   name: 'weaver2',
   intervalMs: 45 * 60 * 1000,
   jitterMs: 5 * 60 * 1000,
