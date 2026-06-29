@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-29T08:35:11.042Z",
+  "generated_at": "2026-06-29T08:43:16.972Z",
   "window_min": 30,
   "scanned": 50,
-  "violation_count": 34,
+  "violation_count": 32,
   "violations": [
     {
       "slug": "operation-midnight-climax",
@@ -452,30 +452,6 @@
           "count": 1,
           "samples": [
             "Kiriakou noted"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "mi6",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou said"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "moral-injury",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou stated"
           ]
         }
       ]

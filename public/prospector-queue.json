@@ -214,5 +214,50 @@
     "anchor_quote": "Yeah, that's exactly right. That's exactly right. And you know, these are issues that we should be talking about. We should be questioning American foreign policy. time was really until the mid 1990s where differences in foreign policy ended at the shore, right? As Americans, we spoke with one voice on foreign policy. That ended in the mid 1990s and now we're beating each other up over foreign policy. It makes the country weaker and it shouldn't be happening.",
     "why": "Kiriakou identifies the mid-1990s as a turning point when American foreign policy consensus fractured, leading to internal divisions that weaken the country.",
     "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-06-29T08:40:43.747Z",
+    "kind": "enrich",
+    "slug": "lebanon-israeli-conflict",
+    "anchor_quote": "There is the supposed ceasefire signed back in the end of 2024. Israel never kept up to its terms of the ceasefire. They never stopped bombing South Lebanon, using white phosphorus, and issued a directive that 53 villages and towns of South Lebanon needed to be evacuated. As we speak, 300,000 Lebanese from South Lebanon have been displaced.",
+    "why": "Kiriakou provides first‑hand commentary on Israel’s cease‑fire violations, white‑phosphorus use and the mass displacement of Lebanese civilians, expanding the existing Lebanon‑Israel conflict article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-06-29T08:40:43.747Z",
+    "kind": "enrich",
+    "slug": "british-bases-in-cyprus",
+    "anchor_quote": "I don't know. But I would guess probably yes. I honestly, as God is my witness, I don't know where the American nuclear weapons are based. Those are highly guarded secrets in the ministries of defense. I would guess probably yes, but I have no concrete information.",
+    "why": "His speculation about possible U.S. nuclear weapons stored at British bases in Cyprus adds valuable insider perspective to the British bases article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-06-29T08:40:43.747Z",
+    "kind": "new",
+    "slug": "us-veteran-suicide-crisis",
+    "anchor_quote": "We have veterans literally every single day committing suicide, many of them in the parking lots of the Veterans Administration hospitals that refuse to treat them for post‑traumatic stress disorder. It's something like as many as six a day kill themselves in the VA hospital parking lots.",
+    "why": "Kiriakou’s vivid description of veteran suicides and systemic VA failures warrants a dedicated article on the U.S. veteran suicide crisis.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-06-29T08:40:43.747Z",
+    "kind": "new",
+    "slug": "nato-article-5-turkey-israel",
+    "anchor_quote": "If Israel attacks Turkey, the United States has to come in on the side of Turkey. They have to invoke Article 5 of NATO. They're obligated by treaty to come in on the side of Turkey and fight against Israel. Whether they will is an entirely different question.",
+    "why": "His explanation of NATO’s Article 5 obligations in a potential Israel‑Turkey conflict provides a unique angle for a new NATO‑Article‑5 analysis.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-06-29T08:40:43.747Z",
+    "kind": "new",
+    "slug": "us-political-noninterventionist-realignment",
+    "anchor_quote": "We're having this very odd realignment politically in the United States right now, where members of the progressive left and members of the Make America Great Again, the MAGA right, are coming together on this issue because neither one of them want war. It's like the communists and the fascists joining forces to oppose war.",
+    "why": "Kiriakou’s observation of a cross‑partisan anti‑war coalition highlights a novel political shift that is not covered by any existing slug.",
+    "status": "pending"
   }
 ]
