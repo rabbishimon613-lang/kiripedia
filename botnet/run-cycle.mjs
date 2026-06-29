@@ -85,6 +85,10 @@ run('Scribe pool (3/3)', `node ${W('scribe')} --worker scribe-3 --batch 1`);
 run('Cataloger-Editor (1/2)', `node ${W('cataloger-editor')} --worker cataloger-1 --batch 5`);
 run('Cataloger-Editor (2/2)', `node ${W('cataloger-editor')} --worker cataloger-2 --batch 5`);
 run('Reviewer', `node ${W('reviewer')}`);
+// Materializer — turns Re-Reader spawn/amend verdicts into claims so the
+// Coordinator has something to write. Must run BEFORE Coordinator in the
+// same cycle so the claims it produces get committed this pass.
+run('Materializer', `node ${W('materializer')} --worker materializer-1 --batch 20`);
 run('Coordinator', `node ${W('coordinator')}${PUSH ? ' --push' : ''}`);
 run('Indexer', `node ${W('indexer')}`);
 // Phase 2: Triage Patroller emits briefs; mining workers (and Re-Reader) drain them.
@@ -121,9 +125,15 @@ run('Prospector', `node ${W('prospector')} --worker prospector-1 --batch 5`);
 run('Deepener', `node ${W('deepener')} --worker deepener-1 --batch ${miningBatch}`);
 run('Enricher', `node ${W('enricher')} --worker enricher-1 --batch ${miningBatch}`);
 run('Weaver', `node ${W('weaver')} --worker weaver-1 --batch ${miningBatch}`);
-run('Reweaver', `node ${W('reweaver')} --worker reweaver-1 --batch 10`);
+// Reweaver paused 2026-06-29 after a pass on surveillance-detection-route.mdx
+// dropped one Cite and six direct *"..."* Kiriakou quotes during restructuring.
+// Relight only after the prompt + post-pass diff guard are tightened.
+// run('Reweaver', `node ${W('reweaver')} --worker reweaver-1 --batch 10`);
 run('Mouth Sentry', `node ${W('mouth-sentry')}`);
 run('Snapshot writer', `node ${LIB('snapshot-writer')}`);
 run('Research-team snapshot', `node ${LIB('research-team-snapshot')}`);
+// Recent-changes feed for the /recent-changes page. Cheap (pure git log
+// walk, no fleet calls). Runs last so it captures the just-committed cycle.
+run('Recent-changes writer', `node ${LIB('recent-changes-writer')}`);
 
 console.log('\n=== cycle complete ===');
