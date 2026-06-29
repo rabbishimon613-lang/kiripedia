@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T04:39:41.244Z",
+  "generated_at": "2026-06-29T04:54:41.906Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,7 +62,7 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 04:35:22"
+      "ts": "2026-06-29 04:50:50"
     },
     {
       "key": "coordinator",
@@ -74,9 +74,9 @@
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "Done: Rebuilt 2 of 2 indexes.",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 04:37:57"
+      "ts": null
     },
     {
       "key": "deepener",
@@ -95,9 +95,9 @@
     {
       "key": "weaver",
       "label": "Article Weaver",
-      "action": "Done: Putting Abu Zubaydah back in the inbox for now.",
-      "handoff_to": "coordinator",
-      "ts": "2026-06-29 04:37:53"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "reweaver",
@@ -122,6 +122,146 @@
     }
   ],
   "recent_events": [
+    {
+      "ts": "2026-06-29 04:51:41",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
+      "event": "finish",
+      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
+    },
+    {
+      "ts": "2026-06-29 04:51:36",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
+      "event": "start",
+      "action": "Probing LLM providers, refreshing routing table."
+    },
+    {
+      "ts": "2026-06-29 04:49:51",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "start",
+      "action": "Draining fleet/catch into clips (auto-trust=true)."
+    },
+    {
+      "ts": "2026-06-29 04:49:32",
+      "key": "triage-patroller",
+      "label": "triage-patroller",
+      "event": "finish",
+      "action": "Done: Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=0 re-reader=1 enricher=0). 3.4s."
+    },
+    {
+      "ts": "2026-06-29 04:49:29",
+      "key": "triage-patroller",
+      "label": "triage-patroller",
+      "event": "start",
+      "action": "Scanning the shelf to assign work to mining bots."
+    },
+    {
+      "ts": "2026-06-29 04:49:14",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
+    },
+    {
+      "ts": "2026-06-29 04:47:23",
+      "key": "materializer-1",
+      "label": "materializer-1",
+      "event": "finish",
+      "action": "Done: Materialized 19 verdicts → 11 new articles + 8 amendments. 1 skipped, 0 unresolvable."
+    },
+    {
+      "ts": "2026-06-29 04:46:51",
+      "key": "materializer-1",
+      "label": "materializer-1",
+      "event": "start",
+      "action": "Walking pending Re-Reader verdicts and turning them into claims."
+    },
+    {
+      "ts": "2026-06-29 04:46:07",
+      "key": "re-reader-1",
+      "label": "re-reader-1",
+      "event": "start",
+      "action": "Re-Reader walking stale passages under the current lens."
+    },
+    {
+      "ts": "2026-06-29 04:43:25",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "finish",
+      "action": "Done: Set the 2021 05 12 Howie Hawkins Greensocialist Notes 23 Whistleblowers With John Kiriak transcript aside — will retry next cycle."
+    },
+    {
+      "ts": "2026-06-29 04:42:59",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "start",
+      "action": "Opened the 2021 05 12 Howie Hawkins Greensocialist Notes 23 Whistleblowers With John Kiriak transcript — hunting for unmined claims."
+    },
+    {
+      "ts": "2026-06-29 04:42:56",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "finish",
+      "action": "Done: Set the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript aside — will retry next cycle."
+    },
+    {
+      "ts": "2026-06-29 04:42:39",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "start",
+      "action": "Opened the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript — hunting for unmined claims."
+    },
+    {
+      "ts": "2026-06-29 04:41:54",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
+      "event": "finish",
+      "action": "Done: Filed 39 claims into 35 articles (commit 10ed5a1). hash→9bfd2b8a"
+    },
+    {
+      "ts": "2026-06-29 04:41:37",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
+      "event": "start",
+      "action": "Collecting passed claims for filing."
+    },
+    {
+      "ts": "2026-06-29 04:41:23",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
+      "event": "finish",
+      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
+    },
+    {
+      "ts": "2026-06-29 04:41:21",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
+      "event": "start",
+      "action": "Probing LLM providers, refreshing routing table."
+    },
+    {
+      "ts": "2026-06-29 04:40:17",
+      "key": "diff-sentinel",
+      "label": "diff-sentinel",
+      "event": "finish",
+      "action": "Done: Patrol: 0 cite-removal incidents, 0 hedge-rise incidents across 4 commits."
+    },
+    {
+      "ts": "2026-06-29 04:40:15",
+      "key": "diff-sentinel",
+      "label": "diff-sentinel",
+      "event": "start",
+      "action": "Patrolling recent commits for cite loss and hedge rise."
+    },
+    {
+      "ts": "2026-06-29 04:39:52",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
+    },
     {
       "ts": "2026-06-29 04:39:34",
       "key": "catch-importer-1",
@@ -191,155 +331,15 @@
       "label": "calendar-keeper",
       "event": "start",
       "action": "Walking the calendar across 17 sources."
-    },
-    {
-      "ts": "2026-06-29 04:35:42",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Threw out my draft of Abu Zubaydah Capture — came out shorter than I started."
-    },
-    {
-      "ts": "2026-06-29 04:35:15",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "start",
-      "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
-    },
-    {
-      "ts": "2026-06-29 04:35:15",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Threw out my draft of Aipac — came out shorter than I started."
-    },
-    {
-      "ts": "2026-06-29 04:34:49",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "start",
-      "action": "Pulled up Aipac — drafting it from the transcripts."
-    },
-    {
-      "ts": "2026-06-29 04:34:49",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Putting Ahmed Chalabi back in the inbox for now."
-    },
-    {
-      "ts": "2026-06-29 04:34:22",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "start",
-      "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
-    },
-    {
-      "ts": "2026-06-29 04:34:22",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Threw out my draft of Afghan Heroin Policy — came out shorter than I started."
-    },
-    {
-      "ts": "2026-06-29 04:34:05",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "start",
-      "action": "Pulled up Afghan Heroin Policy — drafting it from the transcripts."
-    },
-    {
-      "ts": "2026-06-29 04:34:05",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Afghan War Logs — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-29 04:34:05",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Afghan War Logs — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-29 04:33:58",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Afghan Languages — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-29 04:33:58",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Afghan Languages — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-29 04:33:52",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Abu Nidal Disruption — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-29 04:33:52",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Abu Nidal Disruption — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-29 04:33:46",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Abdul Rashid Dostum — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-29 04:33:46",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Abdul Rashid Dostum — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-29 04:33:40",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Trita Parsi — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-29 04:33:40",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Trita Parsi — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-29 04:30:49",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
-      "event": "finish",
-      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
-    },
-    {
-      "ts": "2026-06-29 04:30:43",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
-      "event": "start",
-      "action": "Probing LLM providers, refreshing routing table."
     }
   ],
   "last_cycle": {
-    "id": 467,
-    "started_at": "2026-06-29 04:25:35",
-    "ended_at": "2026-06-29 04:25:50",
-    "claims_merged": 20,
-    "articles_touched": 17,
-    "commit_sha": "dd9c9a8c737bba20c668f5ccfbdeece953defa1d",
+    "id": 468,
+    "started_at": "2026-06-29 04:41:37",
+    "ended_at": "2026-06-29 04:41:54",
+    "claims_merged": 39,
+    "articles_touched": 35,
+    "commit_sha": "10ed5a10a1dbc3a331e1e370bccffa73c26a3049",
     "status": "committed"
   },
   "counts": {
@@ -472,7 +472,7 @@
   "office_state": {
     "day": "2026-06-29",
     "last_probe": {
-      "at": "2026-06-29T04:30:49.243Z",
+      "at": "2026-06-29T04:51:41.593Z",
       "results": [
         {
           "id": "groq:gpt-oss-120b",
@@ -503,7 +503,7 @@
       ]
     },
     "calls_today": 4,
-    "cost_today": 0.00010235000000000001,
+    "cost_today": 0.00009935,
     "dead_keys": 0
   }
 }
