@@ -189,7 +189,8 @@
     "dyk:john-kiriakou:77",
     "quote:double-agent-marriott-trap:0",
     "dyk:trump-dni-replacement:0",
-    "quote:john-brennan:27"
+    "quote:john-brennan:27",
+    "dyk:bob-trout:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -205,13 +206,20 @@
     "ahmed-chalabi",
     "ahmed-khatib",
     "ai-weiwei",
+    "ai-whistleblower-initiative",
     "aipac",
+    "akrotiri-village-evacuation",
+    "al-qaeda-software",
+    "albert-stubblebine",
     "aldrich-ames",
     "alex-karp",
+    "alexa",
     "ali-hassan-al-majid",
     "ali-soufan",
     "analysis-corporation",
     "andres-serrano",
+    "andrew-feinstein",
+    "anoir-alaki",
     "anwar-al-awlaki",
     "april-glaspie",
     "aq-khan",
@@ -219,8 +227,11 @@
     "arrais-corporation",
     "asel-al-ghabandi",
     "asset-acquisition-cycle",
+    "bay-path-university",
+    "belmarsh-prison",
     "below-worlds-end",
     "benazir-bhutto",
+    "benjamin-netanyahu",
     "bernie-kerik",
     "bill-barr",
     "bill-buckley",
@@ -233,12 +244,18 @@
     "bluffdale-nsa-facility",
     "bob-baer",
     "bob-cia-hr",
+    "bob-trout",
     "bojinka-plot",
     "brian-kelly",
     "brian-ross",
+    "british-bases-in-cyprus",
     "bruce-fine",
     "camp-david-final-talks",
     "carlos-the-jackal",
+    "chaos-computer-club-wikileaks",
+    "chelsea-manning-emergence",
+    "chelsea-manning",
+    "church-committee-mk-ultra-investigation",
     "church-committee",
     "cia-cable-priority-levels",
     "cia-car-hacking",
@@ -247,13 +264,19 @@
     "cia-insiders-guide-to-surveillance",
     "cia-national-resources-division",
     "cia-political-psychology-division",
+    "cia-remote-vehicle-control",
     "cia-smart-tv-surveillance",
+    "cia-torture-program-whistleblowing",
+    "cia-training-doctrine",
     "cia",
     "cofer-black",
     "cold-cell",
+    "collateral-murder-video",
     "cori-bush",
+    "cory-booker",
     "critical-analytic-thinking",
     "curveball",
+    "daniel-domscheit-berg-wikileaks",
     "daniel-domscheit-berg",
     "daniel-ellsberg",
     "daniel-hail",
@@ -263,11 +286,13 @@
     "david-petraeus",
     "david-ransom",
     "david-rockefeller-bahrain",
+    "der-spiegel",
     "dgse",
     "dick-cheney",
     "dick-clarke",
     "diesel-therapy",
     "doing-time-like-a-spy",
+    "donald-trump",
     "double-agent-capture",
     "double-agent-marriott-trap",
     "drone-base-balochistan",
@@ -277,8 +302,11 @@
     "enhanced-interrogation",
     "eric-oneill",
     "eric-swallwell-fbi-documents",
+    "eric-swallwell",
     "erik-prince",
+    "espionage-act-whistleblower-cases",
     "espionage-act",
+    "ethan-mccord-collateral-murder",
     "executive-order-12333",
     "extraordinary-rendition",
     "falls-church-mosque",
@@ -334,6 +362,7 @@
     "israeli-nuclear-program",
     "jamaal-bowman",
     "james-angleton",
+    "james-jesus-angleton",
     "jane-harman",
     "jason-leopold",
     "jean-gately",
@@ -343,10 +372,13 @@
     "jfk-assassination",
     "jim-pavitt",
     "joe-biden",
+    "joe-kent",
+    "joe-weisberg",
     "joe-wilson",
     "john-brennan-tuesday-morning-kill-list",
     "john-brennan",
     "john-kerry",
+    "john-kiriakou-whistleblower-advice",
     "john-kiriakou",
     "john-mccain",
     "john-mccone",
@@ -358,6 +390,10 @@
     "jose-rodriguez",
     "josh-shapiro",
     "joshua-schulte",
+    "julian-assange-political-prisoner",
+    "julian-assange-secure-drop",
+    "julian-assange-wikileaks-role",
+    "julian-assange",
     "karl-rove",
     "katherine-gun",
     "ken-dilanian",
@@ -365,6 +401,7 @@
     "khaled-mashal",
     "khalid-sheikh-mohammed",
     "kiki-camarena-case",
+    "kiriakou-introduction-to-wikileaks",
     "kompromat",
     "kuwait-invasion-intelligence",
     "kuwait-liberation-day",
@@ -377,6 +414,7 @@
     "lie-detection",
     "lincolns-last-turd",
     "louis-farrakhan",
+    "lsd-mind-manipulation",
     "lynn-buchanan",
     "mack-mclarty",
     "mad-minute",
@@ -384,11 +422,15 @@
     "maher-arar",
     "mahmoud-al-mabhouh",
     "mahmud",
+    "mark-levin-iran-policy",
     "mark-mcdougall",
+    "mark-zuckerberg-angela-merkel-meeting",
     "martha-kesler",
     "mass-surveillance",
     "matthew-cole",
+    "mccain-feinstein-amendment",
     "mek",
+    "meredith-whittaker",
     "mexican-9-month-work-visas",
     "mi6",
     "michael-hastings",
@@ -419,10 +461,13 @@
     "nsa-surveillance",
     "nsa",
     "one-time-pad",
+    "only-fans",
     "operating-directive",
     "operation-midnight-climax",
     "operation-mockingbird",
     "palantir",
+    "pam-bondi-epstein-scandal",
+    "pam-bondi-eric-swallwell",
     "pam-bondi",
     "patriot-act",
     "pervez-musharraf",
@@ -437,6 +482,7 @@
     "pike-committee",
     "plato-cacheris",
     "plus-972",
+    "podcast-bros",
     "presidents-daily-brief",
     "prince-muhammad-bin-naif",
     "principals-committee-meeting",
@@ -444,6 +490,9 @@
     "project-stargate",
     "qala-i-jangi-uprising",
     "ramzi-bin-al-shibh",
+    "rand-paul-eric-holder",
+    "ray-mcgovern-vault-7",
+    "restraint-camp",
     "revolutionary-organization-17-november",
     "rfk-assassination",
     "richard-helms",
@@ -456,6 +505,7 @@
     "ruby-ridge",
     "rudy-giuliani",
     "russell-targ",
+    "russell-tark",
     "sacha-baron-cohen",
     "saddam-hussein",
     "safe-housekeeper",
@@ -466,6 +516,7 @@
     "scholar-in-residence-program",
     "sebastian-gorka",
     "section-702",
+    "securedrop",
     "senate-foreign-relations-committee",
     "senate-torture-report",
     "senior-executive-service",
@@ -480,6 +531,7 @@
     "special-activities-division",
     "stephen-saunders",
     "steve-kappes",
+    "steven-saunders",
     "strawberry-fields",
     "surveillance-detection-route",
     "sweat-lodge",
@@ -488,17 +540,21 @@
     "terry-aubry",
     "the-farm",
     "the-reluctant-spy",
+    "the-sociopath-next-door",
     "thin-thread-stellar-wind",
     "thin-thread",
+    "thomas-drake",
     "thomas-massie",
     "three-felonies-a-day",
     "three-saudi-princes",
     "ticking-time-bomb",
     "title-10-vs-title-50",
+    "todd-blanch",
     "tom-drake",
     "tora-bora",
     "trita-parsi",
     "trump-dni-replacement",
+    "trump-iran-ceasefire-efforts",
     "trump",
     "tuesday-morning-kill-list",
     "tulsi-gabbard",
@@ -506,6 +562,7 @@
     "uday-hussein",
     "us-military-venture-capital",
     "valerie-plame",
+    "vault-7-revelations",
     "vault-7",
     "vernon-walters",
     "waco-siege",
@@ -515,12 +572,18 @@
     "welch-45",
     "wesley-clark",
     "whistleblower-protection-act",
+    "wikileaks-and-trump",
+    "wikileaks-arab-spring",
+    "wikileaks-as-a-system",
+    "wikileaks-ngo-transformation",
+    "wikileaks-post-2010",
     "william-donovan",
     "william-friedman",
     "william-webster",
     "yellowcake-niger-forgery",
     "yemen-arrest",
-    "yemen"
+    "yemen",
+    "zbigniew-brzezinski"
   ],
   "queue": [
     {
@@ -678,13 +741,261 @@
     {
       "slug": "whistleblower-protection-act",
       "added": "2026-06-24T03:34:57.975Z"
+    },
+    {
+      "slug": "ai-whistleblower-initiative",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "akrotiri-village-evacuation",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "al-qaeda-software",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "albert-stubblebine",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "alexa",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "andrew-feinstein",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "anoir-alaki",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "bay-path-university",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "belmarsh-prison",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "benjamin-netanyahu",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "bob-trout",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "british-bases-in-cyprus",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "chaos-computer-club-wikileaks",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "chelsea-manning-emergence",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "chelsea-manning",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "church-committee-mk-ultra-investigation",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "cia-remote-vehicle-control",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "cia-torture-program-whistleblowing",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "cia-training-doctrine",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "collateral-murder-video",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "cory-booker",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "daniel-domscheit-berg-wikileaks",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "der-spiegel",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "donald-trump",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "eric-swallwell",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "espionage-act-whistleblower-cases",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "ethan-mccord-collateral-murder",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "james-jesus-angleton",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "joe-kent",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "joe-weisberg",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "john-kiriakou-whistleblower-advice",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "julian-assange-political-prisoner",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "julian-assange-secure-drop",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "julian-assange-wikileaks-role",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "julian-assange",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "kiriakou-introduction-to-wikileaks",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "lsd-mind-manipulation",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "mark-levin-iran-policy",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "mark-zuckerberg-angela-merkel-meeting",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "mccain-feinstein-amendment",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "meredith-whittaker",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "only-fans",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "pam-bondi-epstein-scandal",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "pam-bondi-eric-swallwell",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "podcast-bros",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "rand-paul-eric-holder",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "ray-mcgovern-vault-7",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "restraint-camp",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "russell-tark",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "securedrop",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "steven-saunders",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "the-sociopath-next-door",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "thomas-drake",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "todd-blanch",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "trump-iran-ceasefire-efforts",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "vault-7-revelations",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "wikileaks-and-trump",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "wikileaks-arab-spring",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "wikileaks-as-a-system",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "wikileaks-ngo-transformation",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "wikileaks-post-2010",
+      "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "zbigniew-brzezinski",
+      "added": "2026-06-29T07:26:23.745Z"
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
