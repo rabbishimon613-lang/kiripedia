@@ -259,5 +259,50 @@
     "anchor_quote": "We're having this very odd realignment politically in the United States right now, where members of the progressive left and members of the Make America Great Again, the MAGA right, are coming together on this issue because neither one of them want war. It's like the communists and the fascists joining forces to oppose war.",
     "why": "Kiriakou’s observation of a cross‑partisan anti‑war coalition highlights a novel political shift that is not covered by any existing slug.",
     "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-06-29T09:44:15.072Z",
+    "kind": "enrich",
+    "slug": "british-bases-in-cyprus",
+    "anchor_quote": "I don't know. But I would guess probably yes. I honestly, as God is my witness, I don't know. I don't even know where the American nuclear weapons are based. Those are highly guarded secrets in the ministries of defense. I would guess probably yes.",
+    "why": "Kiriakou offers a direct, albeit speculative, comment on the possible presence of U.S. nuclear weapons at British bases in Cyprus, adding first‑hand insight to the existing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-06-29T09:44:15.072Z",
+    "kind": "enrich",
+    "slug": "lebanon-israeli-conflict",
+    "anchor_quote": "There is the supposed ceasefire signed back in the end of 2024. Israel never kept up to its terms of the ceasefire. They never stopped bombing South Lebanon. Since then until February 28th, they had killed through their attacks and their bombings hundreds of Lebanese civilians. They never stopped also using white phosphorus which Amnesty International deems not a legal means of war. It causes long-term injuries, severe burns and destruction of farmland.",
+    "why": "Kiriakou details cease‑fire violations and the use of white phosphorus in South Lebanon, providing fresh eyewitness‑type testimony to expand the Lebanon‑Israel conflict entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-06-29T09:44:15.072Z",
+    "kind": "new",
+    "slug": "veteran-suicide-crisis-us",
+    "anchor_quote": "And the money you spend on all these wars you could have had free health care for everyone and the best education system and no homeless people no vets being homeless all these veterans being homeless that's shameful. It's something like as many as six a day kill themselves in the Veterans Administration hospital parking lots.",
+    "why": "His stark statistic on veteran suicides and critique of war‑driven budget priorities creates a distinct topic on the U.S. veteran suicide crisis.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-06-29T09:44:15.072Z",
+    "kind": "new",
+    "slug": "us-antiwar-political-realignment-2024",
+    "anchor_quote": "We're having this very odd realignment politically in the United States right now, where members of the progressive left and members of the Make America Great Again, the MAGA right, are coming together on this issue because neither one of them want war. Who would have thought? This is unprecedented in American history. It's like the communists and the fascists joining forces to oppose war.",
+    "why": "Kiriakou observes an unprecedented coalition of MAGA and progressive forces united against the war, a novel political development worth its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-06-29T09:44:15.072Z",
+    "kind": "new",
+    "slug": "nato-article-5-israel-turkey",
+    "anchor_quote": "If Israel attacks Turkey, the United States has to come in on the side of Turkey. They have to invoke Article 5 of NATO. They're obligated by treaty to come in on the side of Turkey and fight against Israel. Now, will they is an entirely different question.",
+    "why": "His explanation of NATO’s Article 5 obligations in a potential Israel‑Turkey clash introduces a specific, under‑covered NATO‑related issue.",
+    "status": "pending"
   }
 ]
