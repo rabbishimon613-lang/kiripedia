@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T05:26:44.271Z",
+  "generated_at": "2026-06-29T06:06:45.938Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -13,7 +13,7 @@
       "label": "New Page Patroller",
       "action": "Done: Checked the lead queue — no new clips today.",
       "handoff_to": null,
-      "ts": "2026-06-29 05:22:04"
+      "ts": "2026-06-29 06:02:56"
     },
     {
       "key": "source_auth",
@@ -62,7 +62,7 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 05:22:33"
+      "ts": "2026-06-29 06:03:56"
     },
     {
       "key": "coordinator",
@@ -123,220 +123,220 @@
   ],
   "recent_events": [
     {
-      "ts": "2026-06-29 05:22:21",
+      "ts": "2026-06-29 06:04:31",
       "key": "office-manager-1",
       "label": "office-manager-1",
       "event": "finish",
-      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
+      "action": "Done: Working: groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: groq:gpt-oss-120b(fail:429), cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
     },
     {
-      "ts": "2026-06-29 05:22:11",
+      "ts": "2026-06-29 06:04:25",
       "key": "office-manager-1",
       "label": "office-manager-1",
       "event": "start",
       "action": "Probing LLM providers, refreshing routing table."
     },
     {
-      "ts": "2026-06-29 05:22:04",
+      "ts": "2026-06-29 06:02:56",
       "key": "npp",
       "label": "New Page Patroller",
       "event": "start",
       "action": "Triaging up to 20 new clips."
     },
     {
-      "ts": "2026-06-29 05:21:51",
+      "ts": "2026-06-29 06:01:53",
       "key": "catch-importer-1",
       "label": "catch-importer-1",
       "event": "start",
       "action": "Draining fleet/catch into clips (auto-trust=true)."
     },
     {
-      "ts": "2026-06-29 05:21:51",
-      "key": "triage-patroller",
-      "label": "triage-patroller",
+      "ts": "2026-06-29 06:01:28",
+      "key": "materializer-1",
+      "label": "materializer-1",
       "event": "finish",
-      "action": "Done: Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=5 re-reader=0 enricher=0). 3.4s."
+      "action": "Done: Materialized 2 verdicts → 0 new articles + 2 amendments. 0 skipped, 0 unresolvable."
     },
     {
-      "ts": "2026-06-29 05:21:48",
-      "key": "triage-patroller",
-      "label": "triage-patroller",
-      "event": "start",
-      "action": "Scanning the shelf to assign work to mining bots."
-    },
-    {
-      "ts": "2026-06-29 05:20:16",
+      "ts": "2026-06-29 06:01:18",
       "key": "materializer-1",
       "label": "materializer-1",
       "event": "start",
       "action": "Walking pending Re-Reader verdicts and turning them into claims."
     },
     {
-      "ts": "2026-06-29 05:14:34",
+      "ts": "2026-06-29 06:01:13",
+      "key": "calendar-keeper",
+      "label": "calendar-keeper",
+      "event": "start",
+      "action": "Walking the calendar across 17 sources."
+    },
+    {
+      "ts": "2026-06-29 06:01:10",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Abu Zubaydah back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 05:14:22",
+      "ts": "2026-06-29 06:00:48",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 05:14:22",
+      "ts": "2026-06-29 06:00:47",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Abu Zubaydah Capture back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 05:14:09",
+      "ts": "2026-06-29 06:00:31",
+      "key": "triage-patroller",
+      "label": "triage-patroller",
+      "event": "finish",
+      "action": "Done: Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=4 re-reader=1 enricher=0). 3.3s."
+    },
+    {
+      "ts": "2026-06-29 06:00:30",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 05:14:09",
+      "ts": "2026-06-29 06:00:30",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Aipac back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 05:13:55",
+      "ts": "2026-06-29 06:00:28",
+      "key": "triage-patroller",
+      "label": "triage-patroller",
+      "event": "start",
+      "action": "Scanning the shelf to assign work to mining bots."
+    },
+    {
+      "ts": "2026-06-29 06:00:12",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aipac — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 05:13:55",
+      "ts": "2026-06-29 06:00:12",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ahmed Chalabi back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 05:13:42",
+      "ts": "2026-06-29 06:00:05",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 05:13:42",
+      "ts": "2026-06-29 06:00:05",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Afghan Heroin Policy back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 05:13:32",
+      "ts": "2026-06-29 05:59:54",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Afghan Heroin Policy — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 05:13:32",
+      "ts": "2026-06-29 05:59:53",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Afghan War Logs — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 05:13:32",
+      "ts": "2026-06-29 05:59:53",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Afghan War Logs — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 05:13:24",
+      "ts": "2026-06-29 05:59:46",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Afghan Languages — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 05:13:24",
+      "ts": "2026-06-29 05:59:46",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Afghan Languages — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 05:13:17",
+      "ts": "2026-06-29 05:59:39",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Abu Nidal Disruption — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 05:13:17",
+      "ts": "2026-06-29 05:59:39",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Abu Nidal Disruption — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 05:13:09",
+      "ts": "2026-06-29 05:59:31",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Abdul Rashid Dostum — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 05:13:09",
+      "ts": "2026-06-29 05:59:31",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Abdul Rashid Dostum — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 05:13:02",
+      "ts": "2026-06-29 05:59:24",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
       "action": "Done: Searched the shelf for Trita Parsi — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 05:13:02",
+      "ts": "2026-06-29 05:59:24",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
       "action": "Opened Trita Parsi — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 05:12:34",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "finish",
-      "action": "Done: Set the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript aside — will retry next cycle."
-    },
-    {
-      "ts": "2026-06-29 05:12:21",
-      "key": "materializer-1",
-      "label": "materializer-1",
-      "event": "finish",
-      "action": "Done: Materialized 3 verdicts → 2 new articles + 1 amendments. 0 skipped, 0 unresolvable."
-    },
-    {
-      "ts": "2026-06-29 05:12:15",
-      "key": "prospector",
-      "label": "Transcript Prospector",
+      "ts": "2026-06-29 05:55:57",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
       "event": "start",
-      "action": "Opened the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript — hunting for unmined claims."
+      "action": "Collecting passed claims for filing."
     }
   ],
   "last_cycle": {
-    "id": 470,
-    "started_at": "2026-06-29 05:11:43",
-    "ended_at": "2026-06-29 05:11:43",
+    "id": 473,
+    "started_at": "2026-06-29 05:55:57",
+    "ended_at": "2026-06-29 05:55:57",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -472,12 +472,13 @@
   "office_state": {
     "day": "2026-06-29",
     "last_probe": {
-      "at": "2026-06-29T05:22:21.801Z",
+      "at": "2026-06-29T06:04:31.084Z",
       "results": [
         {
           "id": "groq:gpt-oss-120b",
-          "status": "ok",
-          "sample": "ok"
+          "status": "fail",
+          "code": 429,
+          "msg": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ktftmz1ce5fbmjh"
         },
         {
           "id": "groq:gpt-oss-20b",
@@ -502,8 +503,8 @@
         }
       ]
     },
-    "calls_today": 4,
-    "cost_today": 0.00009635000000000001,
+    "calls_today": 3,
+    "cost_today": 0.0000563,
     "dead_keys": 0
   }
 }

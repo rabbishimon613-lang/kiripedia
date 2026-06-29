@@ -1,157 +1,157 @@
 {
-  "generated_at": "2026-06-29T05:21:51.747Z",
-  "article_count": 386,
+  "generated_at": "2026-06-29T06:00:31.888Z",
+  "article_count": 388,
   "roles": {
     "deepener": [
       {
         "slug": "doing-time-like-a-spy",
         "score": 117710,
         "reason": "gap=11771 mentions=11787 cites=16",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "thin-thread-stellar-wind",
         "score": 90520,
         "reason": "gap=9052 mentions=9059 cites=7",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "thin-thread",
         "score": 89310,
         "reason": "gap=8931 mentions=8932 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "mohamedou-ould-slahi",
         "score": 53860,
         "reason": "gap=5386 mentions=5401 cites=15",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "john-brennan-tuesday-morning-kill-list",
         "score": 39260,
         "reason": "gap=3926 mentions=3927 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "how-can-i-keep-from-singing",
         "score": 33550,
         "reason": "gap=3355 mentions=3359 cites=4",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "ticking-time-bomb",
         "score": 29460,
         "reason": "gap=2946 mentions=2954 cites=8",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "one-time-pad",
         "score": 26760,
         "reason": "gap=2676 mentions=2683 cites=7",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "mexican-9-month-work-visas",
         "score": 24270,
         "reason": "gap=2427 mentions=2428 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "tuesday-morning-kill-list",
         "score": 23850,
         "reason": "gap=2385 mentions=2396 cites=11",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "rand-paul-eric-holder",
         "score": 19510,
         "reason": "gap=1951 mentions=1952 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "eric-swallwell-fbi-documents",
         "score": 18350,
         "reason": "gap=1835 mentions=1836 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "john-kiriakou-whistleblower-advice",
         "score": 17890,
         "reason": "gap=1789 mentions=1790 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "pam-bondi-eric-swallwell",
         "score": 17080,
         "reason": "gap=1708 mentions=1709 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "eric-swallwell",
         "score": 16630,
         "reason": "gap=1663 mentions=1664 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "eric-oneill",
         "score": 16520,
         "reason": "gap=1652 mentions=1657 cites=5",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "national-intelligence-council",
         "score": 16010,
         "reason": "gap=1601 mentions=1610 cites=9",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "national-security-agency",
         "score": 15390,
         "reason": "gap=1539 mentions=1540 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "trump-iran-ceasefire-efforts",
         "score": 14930,
         "reason": "gap=1493 mentions=1494 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "john-brennan",
         "score": 14510,
         "reason": "gap=1451 mentions=1531 cites=80",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "kuwait-invasion-intelligence",
         "score": 14450,
         "reason": "gap=1445 mentions=1484 cites=39",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "israeli-nuclear-program",
         "score": 14270,
         "reason": "gap=1427 mentions=1433 cites=6",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "mark-levin-iran-policy",
         "score": 14130,
         "reason": "gap=1413 mentions=1414 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "national-security-vs-civil-liberties",
         "score": 13370,
         "reason": "gap=1337 mentions=1338 cites=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "john-mccain",
         "score": 13130,
         "reason": "gap=1313 mentions=1322 cites=9",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       }
     ],
     "enricher": [
@@ -159,151 +159,151 @@
         "slug": "admiral-crowe",
         "score": 100,
         "reason": "incoming=0",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "double-agent-marriott-trap",
         "score": 100,
         "reason": "incoming=0",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "hypnosis-operation-walk-in",
         "score": 100,
         "reason": "incoming=0",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "mahmud",
         "score": 100,
         "reason": "incoming=0",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "mount-weather",
         "score": 100,
         "reason": "incoming=0",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "trita-parsi",
         "score": 100,
         "reason": "incoming=0",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "abu-nidal-disruption",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "asel-al-ghabandi",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "black-cube",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "bob-cia-hr",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "cia-drug-facilitation",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "falls-church-mosque",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "hawala-system",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "imran-khan",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "jim-pavitt",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "kuwait-invasion-intelligence",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "martha-kesler",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "mike-baker",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "private-intelligence",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "sharon-scranage",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "soylent-green-cable-easter-egg",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "ted-rall",
         "score": 90,
         "reason": "incoming=1",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "afghan-languages",
         "score": 80,
         "reason": "incoming=2",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "afghan-war-logs",
         "score": 80,
         "reason": "incoming=2",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "ai-whistleblower-initiative",
         "score": 80,
         "reason": "incoming=2",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       }
     ],
     "weaver": [
@@ -311,151 +311,151 @@
         "slug": "thin-thread",
         "score": 12373,
         "reason": "size=559 mentions=8932",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "john-brennan-tuesday-morning-kill-list",
         "score": 7121,
         "reason": "size=806 mentions=3927",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "mexican-9-month-work-visas",
         "score": 5771,
         "reason": "size=657 mentions=2428",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "rand-paul-eric-holder",
         "score": 5194,
         "reason": "size=758 mentions=1952",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "eric-swallwell-fbi-documents",
         "score": 5128,
         "reason": "size=708 mentions=1836",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "eric-swallwell",
         "score": 5056,
         "reason": "size=608 mentions=1664",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "john-kiriakou-whistleblower-advice",
         "score": 5046,
         "reason": "size=744 mentions=1790",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "pam-bondi-eric-swallwell",
         "score": 5027,
         "reason": "size=682 mentions=1709",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "national-security-agency",
         "score": 4905,
         "reason": "size=635 mentions=1540",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "trump-iran-ceasefire-efforts",
         "score": 4808,
         "reason": "size=686 mentions=1494",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "mark-levin-iran-policy",
         "score": 4725,
         "reason": "size=689 mentions=1414",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "national-security-vs-civil-liberties",
         "score": 4652,
         "reason": "size=686 mentions=1338",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "cia-torture-program-whistleblowing",
         "score": 4448,
         "reason": "size=773 mentions=1221",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "intelligence-agencies",
         "score": 4405,
         "reason": "size=621 mentions=1026",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "how-can-i-keep-from-singing",
         "score": 4362,
         "reason": "size=2997 mentions=3359",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "belmarsh-prison",
         "score": 4357,
         "reason": "size=664 mentions=1021",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "only-fans",
         "score": 4351,
         "reason": "size=554 mentions=905",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "senate-foreign-relations-committee",
         "score": 4181,
         "reason": "size=980 mentions=1161",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "israeli-false-flags",
         "score": 4058,
         "reason": "size=753 mentions=811",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "donald-trump",
         "score": 4032,
         "reason": "size=617 mentions=649",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "lebanon-israeli-conflict",
         "score": 4012,
         "reason": "size=809 mentions=821",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "espionage-act-whistleblower-cases",
         "score": 3953,
         "reason": "size=738 mentions=691",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "wikileaks-and-trump",
         "score": 3939,
         "reason": "size=689 mentions=628",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
+      },
+      {
+        "slug": "al-qaeda-software",
+        "score": 3902,
+        "reason": "size=570 mentions=472",
+        "queued_at": 1782712831
       },
       {
         "slug": "wikileaks-arab-spring",
         "score": 3881,
         "reason": "size=722 mentions=603",
-        "queued_at": 1782710511
-      },
-      {
-        "slug": "government-accountability-project",
-        "score": 3859,
-        "reason": "size=1000 mentions=859",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       }
     ],
     "reweaver": [
@@ -463,151 +463,151 @@
         "slug": "cofer-black",
         "score": 11248,
         "reason": "size=11248",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "surveillance-detection-route",
         "score": 10707,
         "reason": "size=10707",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "tom-drake",
         "score": 10456,
         "reason": "size=10456",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "bojinka-plot",
         "score": 10131,
         "reason": "size=10131",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "robert-hanssen",
         "score": 9848,
         "reason": "size=9848",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "gerald-post",
         "score": 9402,
         "reason": "size=9402",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "the-farm",
         "score": 9399,
         "reason": "size=9399",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "saddam-hussein",
         "score": 9251,
         "reason": "size=9251",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "aipac",
         "score": 9170,
         "reason": "size=9170",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "abu-zubaydah-capture",
         "score": 8908,
         "reason": "size=8908",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "gust-avrakotos",
         "score": 8776,
         "reason": "size=8776",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "waterboarding",
         "score": 8766,
         "reason": "size=8766",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "eli-cohen",
         "score": 8633,
         "reason": "size=8633",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "brian-ross",
         "score": 8610,
         "reason": "size=8610",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "havana-syndrome",
         "score": 8288,
         "reason": "size=8288",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "george-tenet",
         "score": 8273,
         "reason": "size=8273",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "doing-time-like-a-spy",
         "score": 8214,
         "reason": "size=8214",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "stephen-saunders",
         "score": 8164,
         "reason": "size=8164",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "jonathan-pollard",
         "score": 8148,
         "reason": "size=8148",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "ahmed-chalabi",
         "score": 7982,
         "reason": "size=7982",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "hummus",
         "score": 7851,
         "reason": "size=7851",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "vault-7",
         "score": 7743,
         "reason": "size=7743",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "espionage-act",
         "score": 7731,
         "reason": "size=7731",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "sacha-baron-cohen",
         "score": 7693,
         "reason": "size=7693",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       },
       {
         "slug": "double-agent-capture",
         "score": 7655,
         "reason": "size=7655",
-        "queued_at": 1782710511
+        "queued_at": 1782712831
       }
     ]
   }

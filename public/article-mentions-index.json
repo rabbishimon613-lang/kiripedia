@@ -2857,6 +2857,81 @@
       }
     ]
   },
+  "al-qaeda-software": {
+    "title": "Al Qaeda Software",
+    "aliases": [
+      "al qaeda software",
+      "software"
+    ],
+    "total_mentions": 13,
+    "cited_sources_count": 1,
+    "uncited_mention_count": 11,
+    "uncited_sources": [
+      "2024-11-07-julian-dorey-249",
+      "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2",
+      "2025-08-31-dalton-fischer-mossad-blackwater",
+      "2025-10-14-jspione-silenced-2014-the-war-on-whistleblowers-feature-documentary-",
+      "2026-01-19-diary-of-a-ceo-they-can-see-all-your-messages",
+      "2026-04-20-tommy-g-israel-double-agents-directed-energy"
+    ],
+    "uncited_mentions": [
+      {
+        "source": "2024-11-07-julian-dorey-249",
+        "timestamp": "2:40:38",
+        "snippet": "facial recognition software if you're undercover or Worse you're under Deep Cover or you're you're traveling in Alias and you have to cross borders go through airports I mean how do you do that if facial recognition software is scanning you can it scan your eyes though that's the thing like the eyes be the giveaway that's going to be a problem even with contact lenses I feel like like the sh it'll…"
+      },
+      {
+        "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2",
+        "timestamp": "00:00",
+        "snippet": "So when I ask what is ODO, what comes to mind? Well, ODO is a bit of everything. ODO is a suite of business management software that some people say is like fertilizer because of the way it promotes growth. But you know, some people also say ODU is like a magic bean stock because it grows with your company and is also magically affordable. But then again, you could look at ODU in terms of how its …"
+      },
+      {
+        "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2",
+        "timestamp": "00:31",
+        "snippet": "manufacturing, accounting, HR programs, you can build a custom software suite that's perfect for your company. So what is ODO? Well, I guess ODO is a bit of everything. ODO is a fertilizer magic beantock building blocks for business. Yeah, that's it. Which means that ODO is exactly what every business needs. Learn more and sign up now at odo.com. That's odo.com. CIA is not supposed to collect any"
+      },
+      {
+        "source": "2025-08-31-dalton-fischer-mossad-blackwater",
+        "timestamp": "38:02",
+        "snippet": "alias and do a brush pass because >> oh my god with with facial recognition software and AI. I actually posed this question to a current CIA officer. I said, \"How do you guys cross borders? How do you get through airports like in different in different uh names?\" And he said, \"We don't know yet.\" still struggling. Yeah, the technology is developing so quickly, they just can't keep up with it. >> S…"
+      },
+      {
+        "source": "2025-08-31-dalton-fischer-mossad-blackwater",
+        "timestamp": "41:15",
+        "snippet": "tell you what he did just as a favor on his day off. Um, he made a computer program to allow our Middle East analysts to make family trees of the royal families in the countries that they cover, right? No such software existed. There was no such thing as, you know, familytree maker or genealogy.com. There was no such thing as.com. I We're talking about pre- internet days. and he"
+      },
+      {
+        "source": "2025-08-31-dalton-fischer-mossad-blackwater",
+        "timestamp": "41:46",
+        "snippet": "took three days off on his own time and made this program, this software that everybody in the office used. And I was like, \"Wow, he really knows a lot about tech, huh?\" And then two or three years later, they invented the internet or they didn't invent it then, but they they released the internet to the general public and he just jumped right in and really really made something out of himself. So…"
+      },
+      {
+        "source": "2025-10-14-jspione-silenced-2014-the-war-on-whistleblowers-feature-documentary-",
+        "timestamp": "11:43",
+        "snippet": "undercover as a professor. He was actually a CIA officer acting as what was then called a spotter. and he asked me if I was interested in working at the CIA. I said, \"Sure, why not?\" And I went through the process and found myself at the CIA. >> I went to the CIA for a short stint and then I became a government contractor, system software engineering from mid89 all the way through until 2001. Febr…"
+      },
+      {
+        "source": "2026-01-19-diary-of-a-ceo-they-can-see-all-your-messages",
+        "timestamp": "00:00",
+        "snippet": "Billions of dollars are spent [music] spying on Americans, whether it's NSA or CIA or the FBI. And to make matters worse, we know that the CIA can take control remotely of a car's computer system in order to crash the car, take it off a bridge, or take control of your smart TV and turn a speaker into a microphone, &gt;&gt; even though the TV is off and broadcast back to the CIA. [music] &gt;&gt; C…"
+      },
+      {
+        "source": "2026-01-19-diary-of-a-ceo-they-can-see-all-your-messages",
+        "timestamp": "30:00",
+        "snippet": "there's a particular hero's journey in their mind that they want to be seen through. They want to complete. &gt;&gt; Uhhuh. &gt;&gt; You know, there's a particular way that they see themselves and they want to fulfill that. &gt;&gt; Oh, I could get that. I I work with a with a very very tiny startup right now called Ivy Cyber and uh it focuses on privacy software. You know, things like, you know, …"
+      },
+      {
+        "source": "2026-01-19-diary-of-a-ceo-they-can-see-all-your-messages",
+        "timestamp": "48:30",
+        "snippet": "There was something in 2017 called the Vault 7 revelations. there was a a CIA software engineer who was disgruntled and instead of going to the Russians or the Chinese, he went to Wikileaks and he downloaded thousands, tens of thousands of pages of documents classified above top secret and they became what Wikileaks called the Vault 7 documents. So they included"
+      },
+      {
+        "source": "2026-04-20-tommy-g-israel-double-agents-directed-energy",
+        "timestamp": "35:00",
+        "snippet": "quite some time now. I will say technology has moved so quickly. I don't have any idea [snorts] how undercover CIA operatives cross borders or pass through airports with facial recognition software the way it is and AI. I I can't even imagine how they do it successfully. &gt;&gt; I've been seeing some reports of sonic weapons being used. They said this in Venezuela um that a guy can be posted up o…"
+      }
+    ]
+  },
   "albert-stubblebine": {
     "title": "Albert Stubblebine",
     "aliases": [
@@ -3153,38 +3228,10 @@
       "the analysis corporation"
     ],
     "total_mentions": 6,
-    "cited_sources_count": 1,
-    "uncited_mention_count": 5,
-    "uncited_sources": [
-      "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-"
-    ],
-    "uncited_mentions": [
-      {
-        "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
-        "timestamp": "04:53",
-        "snippet": "stalwart career serving the American people. And of course that threads into the contents of of the book. But let me briefly mention Zbigniew Brzezinski because if we go back and John will be familiar with the Analysis Corporation. If we go back to when Mr. Brennan was a student at the University of Texas Austin and he had voted for Gus Hall that communist candidate for for for US presidency was"
-      },
-      {
-        "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
-        "timestamp": "05:56",
-        "snippet": "spent at Occidental College in California and Columbia University Columbia University in New York, he spent over a year in Pakistan. The question is what did he do in Pakistan? Why did he exactly go to Pakistan? And why did John Brennan use the Analysis Corporation and those tools to go in and scrub vital information off of that passport during that time that he had in Pakistan and what were the c…"
-      },
-      {
-        "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
-        "timestamp": "08:00",
-        "snippet": "organization itself. So my my question I haven't looked at this I haven't looked into this. My question is perhaps that's somehow and let's not forget that the the Analysis Corporation was created in 1990 as a result of tracking that when Soviets pulled out of Afghanistan tracking and creating that database to track terror terror movement. And so the question in regards to the passport, where's wh…"
-      },
-      {
-        "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
-        "timestamp": "28:48",
-        "snippet": "retaining stock ownership illegally under the Obama administration of this company called The Analysis Corporation, which changed its names and then got sold to UK financial investment firm based in Hong Kong domiciled in Hong Kong CCP. Um and of course, he allowed these these these terror attacks to to transpire. Now, my question might be for for John is what thoughts went through your mind, John…"
-      },
-      {
-        "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
-        "timestamp": "1:01:33",
-        "snippet": "waiver by Norm Eisen. We see very clearly, uh, the Rachel Maddow, uh, who's the office ethics office officer, she writes on that ethics waiver that John Brennan has stated that he would be converting those stocks held in the analysis corporation into a four, uh, into an IRA. If I were to held in a 401k, it'd be converted in an IRA. We see through subsequent SEC documents, uh, we have some of them …"
-      }
-    ]
+    "cited_sources_count": 2,
+    "uncited_mention_count": 0,
+    "uncited_sources": [],
+    "uncited_mentions": []
   },
   "andres-serrano": {
     "title": "Andres Serrano",
@@ -55688,6 +55735,26 @@
         "source": "2026-06-05-theo-von-podcast-661",
         "timestamp": "1:49:00",
         "snippet": "this scop. I hate that word scop. I said, \"Sure, what's your what's your scop?\" And he goes, \"We're funding a radio station here modeled on NPR and it plays American jazz.\" And then it has a call-in show so young Yemen guys can call in and talk about the jazz. I'm like, \"What the are you talking about? That's a terrible idea. Nobody's going to listen to that.\" And nobody did. And they shut it down…"
+      }
+    ]
+  },
+  "zbigniew-brzezinski": {
+    "title": "Zbigniew Brzezinski",
+    "aliases": [
+      "zbigniew brzezinski",
+      "brzezinski"
+    ],
+    "total_mentions": 6,
+    "cited_sources_count": 1,
+    "uncited_mention_count": 1,
+    "uncited_sources": [
+      "2026-05-31-john-kiriakou-podcast-john-kiriakou-new-posdcast-12-secrets-that-have"
+    ],
+    "uncited_mentions": [
+      {
+        "source": "2026-05-31-john-kiriakou-podcast-john-kiriakou-new-posdcast-12-secrets-that-have",
+        "timestamp": "16:34",
+        "snippet": "his laundry. They shot him and killed him in the laundry room of his apartment building. The Greek public hated that too because he was black. They're like, \"Come on, this man's oppressed in his own country and that's the guy that you kill?\" So, it was because they were actively targeting Americans that we went after them like we did. >> This may sound like a stupid question, but my context for th…"
       }
     ]
   }

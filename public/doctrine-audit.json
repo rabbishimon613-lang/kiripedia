@@ -1,27 +1,27 @@
 {
   "summary": {
-    "generated_at": "2026-06-29T05:11:46.758Z",
-    "articles_scanned": 386,
+    "generated_at": "2026-06-29T06:09:49.222Z",
+    "articles_scanned": 388,
     "attribution_tiers": {
-      "clean": 213,
+      "clean": 215,
       "within_calibration": 136,
       "outlier": 20,
       "severe_outlier": 17
     },
     "attribution_tier_pct": {
-      "clean": 55.2,
-      "within_calibration": 35.2,
+      "clean": 55.4,
+      "within_calibration": 35.1,
       "outlier": 5.2,
       "severe_outlier": 4.4
     },
     "hedge_articles": 14,
     "hedge_total_hits": 20,
-    "cite_total": 3890,
+    "cite_total": 3893,
     "cite_dead_source": 0,
     "cite_ts_exact_or_near": 3830,
-    "cite_ts_miss_strict": 60,
+    "cite_ts_miss_strict": 63,
     "cite_ts_near_miss_within_31s": 390,
-    "cite_integrity_pct": 98.46,
+    "cite_integrity_pct": 98.38,
     "outlier_articles": [
       {
         "slug": "cia",
@@ -715,6 +715,39 @@
       }
     },
     {
+      "slug": "al-qaeda-software",
+      "bytes": 566,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
+            "t": "07:30:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "albert-stubblebine",
       "bytes": 677,
       "cite_total": 1,
@@ -887,8 +920,8 @@
     },
     {
       "slug": "analysis-corporation",
-      "bytes": 2428,
-      "cite_total": 4,
+      "bytes": 2743,
+      "cite_total": 5,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -904,12 +937,18 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 4,
+        "total": 5,
         "dead_source": 0,
         "ts_exact_or_near": 4,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 0,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
+            "t": "08:00:00"
+          }
+        ]
       }
     },
     {
@@ -11857,6 +11896,39 @@
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
+      }
+    },
+    {
+      "slug": "zbigniew-brzezinski",
+      "bytes": 649,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
+            "t": "04:53:00"
+          }
+        ]
       }
     }
   ]
