@@ -159,7 +159,7 @@ async function run(pick) {
   try {
     result = await worker_longcontext({
       system: SYSTEM,
-      user: `EXISTING ARTICLE BODY (${pick.slug}):\n\n${body}\n\nCORPUS EXCERPTS:\n\n${excerpts.slice(0, 40_000)}`,
+      user: `EXISTING ARTICLE BODY (${pick.slug}):\n\n${body}\n\nCORPUS EXCERPTS:\n\n${excerpts.slice(0, 12_000)}`,
       schema: SCHEMA,
       maxTokens: 6000,
     });

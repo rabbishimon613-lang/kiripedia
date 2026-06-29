@@ -59,6 +59,46 @@ async function callGemini({ key, model, messages, jsonSchema, maxTokens = 4096 }
   return jsonSchema ? JSON.parse(content) : content;
 }
 
+// Strict-mode response_format on Cerebras + Groq require:
+//   - additionalProperties:false on every object
+//   - `required` must list EVERY property in `properties` (not just required ones)
+//   - `type` must be a single string, not ["string","null"]
+//   - NO validation keywords like minLength/maxLength/minimum/maximum/pattern/format/enum
+//     on scalar types (Cerebras rejects them with "Invalid fields for schema").
+// This normaliser walks the schema and produces a strict-compatible copy.
+const DROP_KEYS = new Set([
+  'minLength', 'maxLength', 'minimum', 'maximum',
+  'pattern', 'format', 'multipleOf',
+  'minItems', 'maxItems', 'uniqueItems',
+  'minProperties', 'maxProperties',
+  'examples', 'example', 'default',
+]);
+function strictify(node) {
+  if (!node || typeof node !== 'object') return node;
+  if (Array.isArray(node)) return node.map(strictify);
+  const out = {};
+  for (const [k, v] of Object.entries(node)) {
+    if (DROP_KEYS.has(k)) continue;
+    out[k] = v;
+  }
+  // Collapse multi-type fields like ["string","null"] → just the first non-null type.
+  if (Array.isArray(out.type)) {
+    const nonNull = out.type.find(t => t !== 'null');
+    out.type = nonNull || 'string';
+  }
+  if (out.type === 'object' && out.properties) {
+    out.additionalProperties = false;
+    out.required = Object.keys(out.properties);
+    out.properties = Object.fromEntries(
+      Object.entries(out.properties).map(([k, v]) => [k, strictify(v)])
+    );
+  }
+  if (out.type === 'array' && out.items) {
+    out.items = strictify(out.items);
+  }
+  return out;
+}
+
 async function callOpenAICompat({ url, key, model, messages, jsonSchema, maxTokens = 4096 }) {
   const body = {
     model,
@@ -69,7 +109,7 @@ async function callOpenAICompat({ url, key, model, messages, jsonSchema, maxToke
   if (jsonSchema) {
     body.response_format = {
       type: 'json_schema',
-      json_schema: { name: 'response', strict: true, schema: jsonSchema },
+      json_schema: { name: 'response', strict: true, schema: strictify(jsonSchema) },
     };
   }
   const res = await fetch(url, {
@@ -163,33 +203,43 @@ export async function worker_longcontext({ system, user, schema, maxTokens = 409
     { role: 'system', content: system },
     { role: 'user', content: user },
   ];
+  // Tier 1: Gemini 2.5-flash. Free tier is only 20 RPD per key, so this
+  // dries up fast under heavy team load.
   if (GEMINI_KEYS.length > 0) {
     try {
       return await withRotation({
         keys: GEMINI_KEYS,
         nextFn: nextGemini,
         callFn: (key) => callGemini({
-          key,
-          model: 'gemini-2.5-flash',
-          messages,
-          jsonSchema: schema,
-          maxTokens,
+          key, model: 'gemini-2.5-flash', messages, jsonSchema: schema, maxTokens,
         }),
       });
-    } catch (err) {
-      if (GROQ_KEYS.length === 0) throw err;
-    }
+    } catch { /* fall through */ }
   }
+  // Tier 2: Cerebras gpt-oss-120b. Supports response_format=json_schema
+  // (which is what every team worker needs); much higher daily ceiling than
+  // Gemini's free tier. This is the workhorse when Gemini is throttled.
+  if (CEREBRAS_KEYS.length > 0) {
+    try {
+      return await withRotation({
+        keys: CEREBRAS_KEYS,
+        nextFn: nextCerebras,
+        callFn: (key) => callOpenAICompat({
+          url: 'https://api.cerebras.ai/v1/chat/completions',
+          key, model: 'gpt-oss-120b', messages, jsonSchema: schema, maxTokens,
+        }),
+      });
+    } catch { /* fall through */ }
+  }
+  // Tier 3: Groq gpt-oss-120b. Supports json_schema (llama-3.3 does NOT —
+  // it throws "model does not support response_format" the moment we hand
+  // it a schema, which is why we don't fall to it).
   return withRotation({
     keys: GROQ_KEYS,
     nextFn: nextGroq,
     callFn: (key) => callOpenAICompat({
       url: 'https://api.groq.com/openai/v1/chat/completions',
-      key,
-      model: 'llama-3.3-70b-versatile',
-      messages,
-      jsonSchema: schema,
-      maxTokens,
+      key, model: 'openai/gpt-oss-120b', messages, jsonSchema: schema, maxTokens,
     }),
   });
 }
