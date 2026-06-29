@@ -125,11 +125,15 @@ run('Prospector', `node ${W('prospector')} --worker prospector-1 --batch 5`);
 run('Deepener', `node ${W('deepener')} --worker deepener-1 --batch ${miningBatch}`);
 run('Enricher', `node ${W('enricher')} --worker enricher-1 --batch ${miningBatch}`);
 run('Weaver', `node ${W('weaver')} --worker weaver-1 --batch ${miningBatch}`);
-// Reweaver paused 2026-06-29 after a pass on surveillance-detection-route.mdx
-// dropped one Cite and six direct *"..."* Kiriakou quotes during restructuring.
-// Relight only after the prompt + post-pass diff guard are tightened.
-// run('Reweaver', `node ${W('reweaver')} --worker reweaver-1 --batch 10`);
+// Reweaver relit with a hard quote+cite preservation guard. The worker's own
+// post-pass check rejects any rewrite that drops a <Cite /> or an italicised
+// "..." quote, so it can't repeat the surveillance-detection-route regression.
+run('Reweaver', `node ${W('reweaver')} --worker reweaver-1 --batch 10`);
 run('Mouth Sentry', `node ${W('mouth-sentry')}`);
+// Image Fetcher — once articles have prose and citations, give them a face.
+// Pulls Wikipedia lead images for pictureless articles, flags the rest
+// in public/needs-image.json. Caps per-cycle attempts to keep the cycle short.
+run('Image Fetcher', `node ${W('image-fetcher')} --limit 8`);
 run('Snapshot writer', `node ${LIB('snapshot-writer')}`);
 run('Research-team snapshot', `node ${LIB('research-team-snapshot')}`);
 // Recent-changes feed for the /recent-changes page. Cheap (pure git log

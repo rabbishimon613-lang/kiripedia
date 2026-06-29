@@ -67,12 +67,21 @@ for (const c of claims) {
       dykAppend: [],
       claimIds: [],
       entities: new Set(),
+      // Spawn-only fields the Materializer (or future spawners) may supply
+      // in patch_payload. Last claim wins on ties — they all describe the
+      // same target article, so collisions are rare.
+      mzSummary: null,
+      mzCategory: null,
+      mzDyk: [],
     });
   }
   const a = grp.articles.get(c.article_slug);
   a.claimIds.push(c.id);
   const payload = JSON.parse(c.patch_payload);
   for (const e of (JSON.parse(c.named_entities || '[]'))) a.entities.add(e);
+  if (payload.summary) a.mzSummary = payload.summary;
+  if (payload.category) a.mzCategory = payload.category;
+  if (Array.isArray(payload.dyk) && payload.dyk.length) a.mzDyk = payload.dyk;
 
   const citeTag = `<Cite t="${payload.timestamp}" />`;
   const disputedPrefix = c.confidence < 90 ? '{{disputed}} ' : '';
@@ -96,20 +105,40 @@ for (const [videoId, grp] of byClip) {
   for (const [slug, a] of grp.articles) {
     if (a.isNew) {
       const title = slug.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join(' ');
+      // Prefer Materializer-supplied summary/category/dyk over the bland
+      // stubs. The Materializer's prompt enforces voice; the stubs do not.
+      const ALLOWED_CATEGORIES = ['People', 'Agencies', 'Operations', 'Events', 'Concepts', 'Cases', 'Places'];
+      const category = (a.mzCategory && ALLOWED_CATEGORIES.includes(a.mzCategory))
+        ? a.mzCategory : 'Concepts';
+      const summary = a.mzSummary
+        ? a.mzSummary.slice(0, 280)
+        : `Per Kiriakou, ${[...a.entities].slice(0, 3).join(', ') || title}.`.slice(0, 280);
+      // DYK priority: Materializer's voice-matched lines > legacy dykAppend
+      // claims > stub fallback. Validate each line has ≥2 wikilinks (doctrine).
+      const wikilinkCount = (s) => (String(s).match(/\]\(\/wiki\//g) || []).length;
+      const mzDyks = (a.mzDyk || []).filter(d => wikilinkCount(d) >= 2);
+      const legacyDyks = a.dykAppend.filter(d => wikilinkCount(d) >= 2);
+      const dyk = mzDyks.length >= 2 ? mzDyks.slice(0, 4)
+                : legacyDyks.length >= 2 ? legacyDyks.slice(0, 4)
+                : [
+                    `… that [${title}](/wiki/${slug}) features in [John Kiriakou](/wiki/john-kiriakou)'s public appearances?`,
+                    `… that [${title}](/wiki/${slug}) appears in the [KiriPedia](/wiki/kiripedia) corpus?`,
+                  ];
       spec.articles[slug] = {
         title,
-        summary: `Per Kiriakou, ${[...a.entities].slice(0, 3).join(', ') || title}.`.slice(0, 280),
-        categories: ['Concepts'],  // safe default; can be refined later
-        dyk: a.dykAppend.length >= 2 ? a.dykAppend.slice(0, 4) : [
-          `… that [${title}](/wiki/${slug}) features in [John Kiriakou](/wiki/john-kiriakou)'s public appearances?`,
-          `… that [${title}](/wiki/${slug}) appears in the [KiriPedia](/wiki/kiripedia) corpus?`,
-        ],
+        summary,
+        categories: [category],
+        dyk,
         body: a.bodyChunks.join('\n\n'),
       };
     } else {
       spec.articles[slug] = { _enrich: true };
       if (a.bodyChunks.length) {
-        spec.articles[slug].body_append = `## From ${grp.slug}\n\n${a.bodyChunks.join('\n\n')}`;
+        // Append the claims as floating paragraphs with no subhead. The wiki's
+        // voice clusters claims by topic ("## The September 12 speech"), never
+        // by source slug; the Reweaver later organises floating claims into
+        // proper topic sections once enough have accumulated.
+        spec.articles[slug].body_append = a.bodyChunks.join('\n\n');
       }
       if (a.dykAppend.length) {
         spec.articles[slug].dyk_append = a.dykAppend.map(t =>

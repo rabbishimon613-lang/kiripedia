@@ -51,6 +51,18 @@ function extractCites(body) {
   return [...body.matchAll(/<Cite\s+[^/]*\/>/g)].map(m => m[0]);
 }
 
+// Italicised verbatim Kiriakou quotes — *"like this"* — are the most precious
+// content the wiki preserves. A reweave must never drop one. We normalise
+// whitespace and curly/straight quotes before comparing so trivial cosmetic
+// changes don't false-positive.
+function extractQuotes(body) {
+  const normalised = body
+    .replace(/[‘’]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/\s+/g, ' ');
+  return [...normalised.matchAll(/\*"([^"]{4,})"\*/g)].map(m => m[1].trim());
+}
+
 function ragScore(body) {
   // Cheap signal for "pile of rags":
   //   bullet density + many micro-H2s + multiple recent enrichment markers
@@ -127,6 +139,8 @@ async function run(pick) {
 
   const inputCites = extractCites(body);
   const inputCiteSet = new Set(inputCites);
+  const inputQuotes = extractQuotes(body);
+  const inputQuoteSet = new Set(inputQuotes);
 
   // Pull corpus excerpts to give the LLM more raw material than the input alone.
   const slugTerm = pick.slug.split('-').filter(t => t.length >= 4)[0] || pick.slug;
@@ -154,7 +168,9 @@ async function run(pick) {
   }
 
   const newBody = (result.body || '').trim();
-  // Hard preservation check.
+  // Hard preservation check: every <Cite /> tag AND every italicised quote
+  // present in the original body MUST appear in the rewrite. Anything else
+  // is a regression — quotes and footnotes are the wiki's identity.
   const outputCites = extractCites(newBody);
   const outputCiteSet = new Set(outputCites);
   const missing = [...inputCiteSet].filter(c => !outputCiteSet.has(c));
@@ -162,6 +178,16 @@ async function run(pick) {
     console.warn(`[${WORKER}] reweave dropped ${missing.length}/${inputCites.length} citations; rejecting`);
     logActivity({ worker: WORKER, role: ROLE, event: 'finish',
                   detail: `Threw out my pass on ${humanize(pick.slug)} — I dropped ${missing.length} footnotes. Unacceptable.`,
+                  refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
+    return;
+  }
+  const outputQuotes = extractQuotes(newBody);
+  const outputQuoteSet = new Set(outputQuotes);
+  const missingQuotes = [...inputQuoteSet].filter(q => !outputQuoteSet.has(q));
+  if (missingQuotes.length > 0) {
+    console.warn(`[${WORKER}] reweave dropped ${missingQuotes.length}/${inputQuotes.length} italicised quotes; rejecting`);
+    logActivity({ worker: WORKER, role: ROLE, event: 'finish',
+                  detail: `Threw out my pass on ${humanize(pick.slug)} — I lost ${missingQuotes.length} direct Kiriakou quotes. Unacceptable.`,
                   refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
     return;
   }
@@ -178,7 +204,7 @@ async function run(pick) {
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
                 detail: `${humanize(pick.slug)} reads cleanly now. Kept every footnote.`,
                 refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
-  console.log(`[${WORKER}] ${pick.slug}: ${body.length} → ${newBody.length} chars, ${inputCites.length} cites preserved`);
+  console.log(`[${WORKER}] ${pick.slug}: ${body.length} → ${newBody.length} chars, ${inputCites.length} cites preserved, ${inputQuotes.length} quotes preserved`);
 }
 
 // PHASE 2: drain reweaver briefs first. scope: { slug }

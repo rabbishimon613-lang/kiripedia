@@ -370,13 +370,11 @@ defineLane({
   ],
 });
 
-// Weaver2 — reweaver (article-weaving skill, expensive).
-// Paused 2026-06-29 after a pass on surveillance-detection-route.mdx dropped
-// one Cite and six direct *"..."* Kiriakou quotes during restructuring. The
-// Reweaver's preserve-every-quote contract is not being held; relight this
-// lane only after the prompt and the post-pass diff guard are tightened.
-const REWEAVER_PAUSED = true;
-if (!REWEAVER_PAUSED) defineLane({
+// Weaver2 — reweaver (article-weaving skill, expensive). Relit 2026-06-29
+// with a hard quote+cite preservation guard: every <Cite /> and every
+// *"italicised quote"* in the input MUST appear in the rewrite, or the
+// pass is rejected and the article stays unchanged.
+defineLane({
   name: 'weaver2',
   intervalMs: 45 * 60 * 1000,
   jitterMs: 5 * 60 * 1000,
@@ -476,6 +474,18 @@ defineLane({
   jitterMs: 30 * 1000,
   burnsFleet: false,
   cmd: () => ({ bin: 'node', args: [join(HERE, 'lib', 'recent-changes-writer.mjs')] }),
+});
+
+// Image Fetcher — walks pictureless articles, pulls a lead image from
+// Wikipedia when one exists, flags the rest in public/needs-image.json.
+// No fleet calls; pure REST. Slow cadence because images don't change often
+// and Wikipedia rate-limits unauth'd traffic.
+defineLane({
+  name: 'image-fetcher',
+  intervalMs: 25 * 60 * 1000,
+  jitterMs: 2 * 60 * 1000,
+  burnsFleet: false,
+  cmd: () => ({ bin: 'node', args: [W('image-fetcher'), '--limit', '12'] }),
 });
 
 // Discretion Warden — mirrors Kiriakou's discretion before claims propagate.
