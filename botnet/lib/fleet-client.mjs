@@ -14,15 +14,50 @@ import './env.mjs';
 
 const CEREBRAS_KEYS = (process.env.CEREBRAS_KEYS || process.env.CEREBRAS_API_KEYS || '').split(',').map(s => s.trim()).filter(Boolean);
 const GROQ_KEYS = (process.env.GROQ_KEYS || process.env.GROQ_API_KEYS || '').split(',').map(s => s.trim()).filter(Boolean);
+const GEMINI_KEYS = (process.env.GEMINI_KEYS || process.env.GEMINI_API_KEYS || '').split(',').map(s => s.trim()).filter(Boolean);
 
 if (CEREBRAS_KEYS.length === 0) console.warn('[fleet] WARN: no CEREBRAS_KEYS in env');
 if (GROQ_KEYS.length === 0) console.warn('[fleet] WARN: no GROQ_KEYS in env');
 
 let cerebrasCursor = 0;
 let groqCursor = 0;
+let geminiCursor = 0;
 
 function nextCerebras() { return CEREBRAS_KEYS[cerebrasCursor++ % CEREBRAS_KEYS.length]; }
 function nextGroq() { return GROQ_KEYS[groqCursor++ % GROQ_KEYS.length]; }
+function nextGemini() { return GEMINI_KEYS[geminiCursor++ % GEMINI_KEYS.length]; }
+
+async function callGemini({ key, model, messages, jsonSchema, maxTokens = 4096 }) {
+  const sys = messages.find(m => m.role === 'system')?.content;
+  const user = messages.filter(m => m.role !== 'system').map(m => m.content).join('\n\n');
+  const body = {
+    contents: [{ role: 'user', parts: [{ text: user }] }],
+    generationConfig: { maxOutputTokens: maxTokens, temperature: 0.2 },
+  };
+  if (sys) body.systemInstruction = { parts: [{ text: sys }] };
+  if (jsonSchema) {
+    // Gemini's responseSchema is OpenAPI-flavored and rejects standard JSON
+    // Schema features the rest of the fleet uses (e.g. `type: ["string","null"]`,
+    // `additionalProperties:false`). Asking for JSON via mime type alone is
+    // enough — the model follows the shape declared in the prompt and we parse.
+    body.generationConfig.responseMimeType = 'application/json';
+  }
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    const text = await res.text();
+    throw Object.assign(new Error(`HTTP ${res.status}: ${text.slice(0, 400)}`), { status: res.status });
+  }
+  const json = await res.json();
+  const parts = json.candidates?.[0]?.content?.parts || [];
+  const content = parts.map(p => p.text || '').join('');
+  if (!content) throw new Error('Empty response from Gemini');
+  return jsonSchema ? JSON.parse(content) : content;
+}
 
 async function callOpenAICompat({ url, key, model, messages, jsonSchema, maxTokens = 4096 }) {
   const body = {
@@ -118,8 +153,33 @@ export async function worker_reasoning({ system, user, schema, maxTokens = 4096 
   }
 }
 
-// Groq llama-3.3-70b-versatile — 128k context, for whole transcripts
+// Gemini 2.5-flash (1M context) primary, Groq llama-3.3-70b-versatile (128k) fallback.
+// Why Gemini first: free-tier daily cap on Groq gpt-oss / llama-3.3 is small enough
+// to dry up partway through a Re-Reader sweep. Gemini's free tier on 2.5-flash is
+// far more generous and the context window is ~8x larger, so the worker prefers it
+// and only walks back to Groq when all Gemini keys are throttled or refuse.
 export async function worker_longcontext({ system, user, schema, maxTokens = 4096 }) {
+  const messages = [
+    { role: 'system', content: system },
+    { role: 'user', content: user },
+  ];
+  if (GEMINI_KEYS.length > 0) {
+    try {
+      return await withRotation({
+        keys: GEMINI_KEYS,
+        nextFn: nextGemini,
+        callFn: (key) => callGemini({
+          key,
+          model: 'gemini-2.5-flash',
+          messages,
+          jsonSchema: schema,
+          maxTokens,
+        }),
+      });
+    } catch (err) {
+      if (GROQ_KEYS.length === 0) throw err;
+    }
+  }
   return withRotation({
     keys: GROQ_KEYS,
     nextFn: nextGroq,
@@ -127,10 +187,7 @@ export async function worker_longcontext({ system, user, schema, maxTokens = 409
       url: 'https://api.groq.com/openai/v1/chat/completions',
       key,
       model: 'llama-3.3-70b-versatile',
-      messages: [
-        { role: 'system', content: system },
-        { role: 'user', content: user },
-      ],
+      messages,
       jsonSchema: schema,
       maxTokens,
     }),

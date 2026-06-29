@@ -452,6 +452,16 @@ defineLane({
   cmd: () => ({ bin: 'node', args: [W('re-reader'), '--worker', 're-reader-1', '--batch', '2'] }),
 });
 
+// Materializer — bridges Re-Reader verdicts into the claims pipeline so
+// spawn/amend decisions actually become article writes. Runs more often than
+// the Re-Reader so verdicts don't pile up.
+defineLane({
+  name: 'materializer',
+  intervalMs: 8 * 60 * 1000,
+  jitterMs: 30 * 1000,
+  cmd: () => ({ bin: 'node', args: [W('materializer'), '--worker', 'materializer-1', '--batch', '20'] }),
+});
+
 // Discretion Warden — mirrors Kiriakou's discretion before claims propagate.
 defineLane({
   name: 'discretion',

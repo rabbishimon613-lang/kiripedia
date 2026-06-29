@@ -44,7 +44,7 @@ const VERDICT_SCHEMA = {
       items: {
         type: 'object',
         additionalProperties: false,
-        required: ['passage_idx', 'verdict', 'rationale'],
+        required: ['passage_idx', 'verdict', 'target_slug', 'entity', 'rationale', 'verbatim'],
         properties: {
           passage_idx: { type: 'integer', minimum: 0 },
           verdict: { type: 'string', enum: ['spawn_article', 'amend_article', 'tier_c_track', 'rejected'] },

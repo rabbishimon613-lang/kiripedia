@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T05:25:17.912Z",
+  "generated_at": "2026-06-29T03:53:33.189Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -11,9 +11,9 @@
     {
       "key": "npp",
       "label": "New Page Patroller",
-      "action": "idle",
+      "action": "Done: Checked the lead queue — no new clips today.",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-29 03:51:55"
     },
     {
       "key": "source_auth",
@@ -62,21 +62,21 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-29 03:53:20"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-29 03:52:17"
     },
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "idle",
+      "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-29 03:52:17"
     },
     {
       "key": "deepener",
@@ -102,9 +102,9 @@
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Threw out my pass on George Tenet — I dropped 13 footnotes. Unacceptable.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-29 03:50:41"
     },
     {
       "key": "prospector",
@@ -123,220 +123,220 @@
   ],
   "recent_events": [
     {
-      "ts": "2026-06-26 05:09:07",
-      "key": "orders-of-day",
-      "label": "orders-of-day",
+      "ts": "2026-06-29 03:52:57",
+      "key": "diff-sentinel",
+      "label": "diff-sentinel",
+      "event": "start",
+      "action": "Patrolling recent commits for cite loss and hedge rise."
+    },
+    {
+      "ts": "2026-06-29 03:52:35",
+      "key": "materializer-1",
+      "label": "materializer-1",
       "event": "finish",
-      "action": "Done: Bureau at 217,904/500,000 words. Gap: 282,096. Top targets: 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2, 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle , 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing."
+      "action": "Done: Materialized 0 verdicts → 0 new articles + 0 amendments. 0 skipped, 0 unresolvable."
     },
     {
-      "ts": "2026-06-26 04:36:44",
-      "key": "npp",
-      "label": "New Page Patroller",
+      "ts": "2026-06-29 03:52:19",
+      "key": "materializer-1",
+      "label": "materializer-1",
       "event": "start",
-      "action": "Triaging up to 20 new clips."
+      "action": "Walking pending Re-Reader verdicts and turning them into claims."
     },
     {
-      "ts": "2026-06-26 04:35:12",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "start",
-      "action": "Draining fleet/catch into clips (auto-trust=true)."
-    },
-    {
-      "ts": "2026-06-26 04:31:30",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
-      "event": "finish",
-      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
-    },
-    {
-      "ts": "2026-06-26 04:31:25",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
-      "event": "start",
-      "action": "Probing LLM providers, refreshing routing table."
-    },
-    {
-      "ts": "2026-06-26 04:28:25",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "finish",
-      "action": "Done: Set the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript aside — keys are jammed."
-    },
-    {
-      "ts": "2026-06-26 04:28:24",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "start",
-      "action": "Opened the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript — hunting for unmined claims."
-    },
-    {
-      "ts": "2026-06-26 04:28:22",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "finish",
-      "action": "Done: Set the 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2 transcript aside — keys are jammed."
-    },
-    {
-      "ts": "2026-06-26 04:28:21",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "start",
-      "action": "Opened the 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2 transcript — hunting for unmined claims."
-    },
-    {
-      "ts": "2026-06-26 04:28:10",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "start",
-      "action": "Draining fleet/catch into clips (auto-trust=true)."
-    },
-    {
-      "ts": "2026-06-26 04:28:09",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
-      "event": "start",
-      "action": "Collecting passed claims for filing."
-    },
-    {
-      "ts": "2026-06-26 04:28:03",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "start",
-      "action": "Triaging up to 20 new clips."
-    },
-    {
-      "ts": "2026-06-26 04:27:25",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "start",
-      "action": "Triaging up to 20 new clips."
-    },
-    {
-      "ts": "2026-06-26 04:26:07",
+      "ts": "2026-06-29 03:52:17",
       "key": "indexer",
       "label": "Indexer",
       "event": "finish",
       "action": "Done: Rebuilt 2 of 2 indexes."
     },
     {
-      "ts": "2026-06-26 04:26:03",
-      "key": "indexer",
-      "label": "Indexer",
-      "event": "start",
-      "action": "Rebuilding the date and mentions indexes."
-    },
-    {
-      "ts": "2026-06-26 04:25:36",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "start",
-      "action": "Draining fleet/catch into clips (auto-trust=true)."
-    },
-    {
-      "ts": "2026-06-26 04:24:57",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "finish",
-      "action": "Done: Searched the shelf for Asel Al Ghabandi — it's a true orphan so far."
-    },
-    {
-      "ts": "2026-06-26 04:24:57",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
-      "event": "start",
-      "action": "Opened Asel Al Ghabandi — looking for peer articles to cross-link."
-    },
-    {
-      "ts": "2026-06-26 04:24:35",
+      "ts": "2026-06-29 03:52:17",
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "event": "start",
       "action": "Collecting passed claims for filing."
     },
     {
-      "ts": "2026-06-26 04:23:34",
-      "key": "calendar-keeper",
-      "label": "calendar-keeper",
+      "ts": "2026-06-29 03:52:14",
+      "key": "indexer",
+      "label": "Indexer",
       "event": "start",
-      "action": "Walking the calendar across 17 sources."
+      "action": "Rebuilding the date and mentions indexes."
     },
     {
-      "ts": "2026-06-26 04:20:43",
+      "ts": "2026-06-29 03:51:55",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
+    },
+    {
+      "ts": "2026-06-29 03:50:41",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Threw out my pass on George Tenet — I dropped 13 footnotes. Unacceptable."
+    },
+    {
+      "ts": "2026-06-29 03:50:23",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened George Tenet — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-29 03:50:23",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Threw out my pass on Bojinka Plot — I dropped 19 footnotes. Unacceptable."
+    },
+    {
+      "ts": "2026-06-29 03:50:01",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Bojinka Plot — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-29 03:50:01",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Threw out my pass on Tom Drake — I dropped 18 footnotes. Unacceptable."
+    },
+    {
+      "ts": "2026-06-29 03:49:22",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Tom Drake — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-29 03:45:45",
       "key": "office-manager-1",
       "label": "office-manager-1",
       "event": "finish",
       "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
     },
     {
-      "ts": "2026-06-26 04:20:31",
+      "ts": "2026-06-29 03:45:40",
       "key": "office-manager-1",
       "label": "office-manager-1",
       "event": "start",
       "action": "Probing LLM providers, refreshing routing table."
     },
     {
-      "ts": "2026-06-26 04:20:05",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
+      "ts": "2026-06-29 03:44:24",
+      "key": "triage-patroller",
+      "label": "triage-patroller",
       "event": "finish",
-      "action": "Done: Searched the shelf for Afghan War Logs — it's a true orphan so far."
+      "action": "Done: Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=5 re-reader=1 enricher=0). 3.1s."
     },
     {
-      "ts": "2026-06-26 04:20:05",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
+      "ts": "2026-06-29 03:44:21",
+      "key": "triage-patroller",
+      "label": "triage-patroller",
       "event": "start",
-      "action": "Opened Afghan War Logs — looking for peer articles to cross-link."
+      "action": "Scanning the shelf to assign work to mining bots."
     },
     {
-      "ts": "2026-06-26 04:19:59",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
+      "ts": "2026-06-29 03:43:50",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "start",
+      "action": "Draining fleet/catch into clips (auto-trust=true)."
+    },
+    {
+      "ts": "2026-06-29 03:41:57",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
+    },
+    {
+      "ts": "2026-06-29 03:39:21",
+      "key": "calendar-keeper",
+      "label": "calendar-keeper",
+      "event": "start",
+      "action": "Walking the calendar across 17 sources."
+    },
+    {
+      "ts": "2026-06-29 03:39:06",
+      "key": "weaver",
+      "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Searched the shelf for Afghan Languages — it's a true orphan so far."
+      "action": "Done: Putting Abu Zubaydah back in the inbox for now."
     },
     {
-      "ts": "2026-06-26 04:19:59",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
+      "ts": "2026-06-29 03:38:06",
+      "key": "weaver",
+      "label": "Article Weaver",
       "event": "start",
-      "action": "Opened Afghan Languages — looking for peer articles to cross-link."
+      "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-26 04:19:53",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
+      "ts": "2026-06-29 03:38:06",
+      "key": "re-reader-1",
+      "label": "re-reader-1",
+      "event": "start",
+      "action": "Re-Reader walking stale passages under the current lens."
+    },
+    {
+      "ts": "2026-06-29 03:38:06",
+      "key": "weaver",
+      "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Searched the shelf for Abu Nidal Disruption — it's a true orphan so far."
+      "action": "Done: Putting Abu Zubaydah Capture back in the inbox for now."
     },
     {
-      "ts": "2026-06-26 04:19:53",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
+      "ts": "2026-06-29 03:37:59",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
       "event": "start",
-      "action": "Opened Abu Nidal Disruption — looking for peer articles to cross-link."
+      "action": "Collecting passed claims for filing."
     },
     {
-      "ts": "2026-06-26 04:19:48",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
+      "ts": "2026-06-29 03:37:38",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-06-29 03:37:38",
+      "key": "weaver",
+      "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Searched the shelf for Abdul Rashid Dostum — it's a true orphan so far."
+      "action": "Done: Threw out my draft of Aipac — came out shorter than I started."
     },
     {
-      "ts": "2026-06-26 04:19:48",
-      "key": "enricher",
-      "label": "Cross-Source Enricher",
+      "ts": "2026-06-29 03:37:22",
+      "key": "weaver",
+      "label": "Article Weaver",
       "event": "start",
-      "action": "Opened Abdul Rashid Dostum — looking for peer articles to cross-link."
+      "action": "Pulled up Aipac — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-06-29 03:37:22",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Threw out my draft of Ahmed Chalabi — came out shorter than I started."
+    },
+    {
+      "ts": "2026-06-29 03:37:08",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
     }
   ],
   "last_cycle": {
-    "id": 435,
-    "started_at": "2026-06-26 04:28:09",
-    "ended_at": "2026-06-26 04:28:09",
+    "id": 461,
+    "started_at": "2026-06-29 03:52:17",
+    "ended_at": "2026-06-29 03:52:17",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -354,18 +354,6 @@
   "words_today": 0,
   "words_7d": [
     {
-      "date": "2026-06-20",
-      "words": 0
-    },
-    {
-      "date": "2026-06-21",
-      "words": 0
-    },
-    {
-      "date": "2026-06-22",
-      "words": 0
-    },
-    {
       "date": "2026-06-23",
       "words": 0
     },
@@ -380,11 +368,23 @@
     {
       "date": "2026-06-26",
       "words": 0
+    },
+    {
+      "date": "2026-06-27",
+      "words": 0
+    },
+    {
+      "date": "2026-06-28",
+      "words": 0
+    },
+    {
+      "date": "2026-06-29",
+      "words": 0
     }
   ],
   "orders_today": {
-    "date": "2026-06-26",
-    "generated_at": "2026-06-26T05:09:07.537Z",
+    "date": "2026-06-29",
+    "generated_at": "2026-06-29T02:23:28.087Z",
     "goal": 500000,
     "total_words": 217904,
     "gap": 282096,
@@ -467,12 +467,12 @@
       "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
       "2025-06-01-austin-and-matt-11-inside-the-cia-whistleblowers-war-crimes-and-blind"
     ],
-    "directive": "TODAY'S ORDERS (2026-06-26): The bureau is at 217,904 words — 282,096 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
+    "directive": "TODAY'S ORDERS (2026-06-29): The bureau is at 217,904 words — 282,096 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
   },
   "office_state": {
-    "day": "2026-06-26",
+    "day": "2026-06-29",
     "last_probe": {
-      "at": "2026-06-26T04:31:30.973Z",
+      "at": "2026-06-29T03:45:45.439Z",
       "results": [
         {
           "id": "groq:gpt-oss-120b",
@@ -503,7 +503,7 @@
       ]
     },
     "calls_today": 4,
-    "cost_today": 0.00009955000000000001,
+    "cost_today": 0.00010715,
     "dead_keys": 0
   }
 }

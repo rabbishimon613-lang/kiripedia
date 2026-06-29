@@ -1,36 +1,46 @@
 {
   "summary": {
-    "generated_at": "2026-06-23T13:27:11.622Z",
-    "articles_scanned": 279,
+    "generated_at": "2026-06-29T03:21:39.167Z",
+    "articles_scanned": 329,
     "attribution_tiers": {
-      "clean": 111,
-      "within_calibration": 132,
+      "clean": 156,
+      "within_calibration": 136,
       "outlier": 20,
-      "severe_outlier": 16
+      "severe_outlier": 17
     },
     "attribution_tier_pct": {
-      "clean": 39.8,
-      "within_calibration": 47.3,
-      "outlier": 7.2,
-      "severe_outlier": 5.7
+      "clean": 47.4,
+      "within_calibration": 41.3,
+      "outlier": 6.1,
+      "severe_outlier": 5.2
     },
-    "hedge_articles": 9,
-    "hedge_total_hits": 11,
-    "cite_total": 3633,
+    "hedge_articles": 11,
+    "hedge_total_hits": 17,
+    "cite_total": 3800,
     "cite_dead_source": 0,
-    "cite_ts_exact_or_near": 3621,
+    "cite_ts_exact_or_near": 3788,
     "cite_ts_miss_strict": 12,
-    "cite_ts_near_miss_within_31s": 348,
-    "cite_integrity_pct": 99.67,
+    "cite_ts_near_miss_within_31s": 349,
+    "cite_integrity_pct": 99.68,
     "outlier_articles": [
       {
-        "slug": "john-kiriakou",
-        "attr_total": 42,
+        "slug": "cia",
+        "attr_total": 43,
         "tier": "severe_outlier"
       },
       {
-        "slug": "cia",
-        "attr_total": 41,
+        "slug": "jfk-assassination",
+        "attr_total": 43,
+        "tier": "severe_outlier"
+      },
+      {
+        "slug": "john-kiriakou",
+        "attr_total": 43,
+        "tier": "severe_outlier"
+      },
+      {
+        "slug": "iran-nuclear-assessment",
+        "attr_total": 20,
         "tier": "severe_outlier"
       },
       {
@@ -39,22 +49,17 @@
         "tier": "severe_outlier"
       },
       {
-        "slug": "iran-nuclear-assessment",
-        "attr_total": 17,
-        "tier": "severe_outlier"
-      },
-      {
         "slug": "fci-loretto",
         "attr_total": 15,
         "tier": "severe_outlier"
       },
       {
-        "slug": "jeffrey-epstein",
-        "attr_total": 14,
+        "slug": "john-brennan",
+        "attr_total": 15,
         "tier": "severe_outlier"
       },
       {
-        "slug": "john-brennan",
+        "slug": "jeffrey-epstein",
         "attr_total": 14,
         "tier": "severe_outlier"
       },
@@ -74,17 +79,17 @@
         "tier": "severe_outlier"
       },
       {
+        "slug": "aipac",
+        "attr_total": 7,
+        "tier": "severe_outlier"
+      },
+      {
         "slug": "mk-ultra",
         "attr_total": 7,
         "tier": "severe_outlier"
       },
       {
         "slug": "afghan-heroin-policy",
-        "attr_total": 6,
-        "tier": "severe_outlier"
-      },
-      {
-        "slug": "aipac",
         "attr_total": 6,
         "tier": "severe_outlier"
       },
@@ -110,11 +115,6 @@
       },
       {
         "slug": "havana-syndrome",
-        "attr_total": 5,
-        "tier": "outlier"
-      },
-      {
-        "slug": "jfk-assassination",
         "attr_total": 5,
         "tier": "outlier"
       },
@@ -145,6 +145,16 @@
       },
       {
         "slug": "gust-avrakotos",
+        "attr_total": 4,
+        "tier": "outlier"
+      },
+      {
+        "slug": "israeli-nuclear-program",
+        "attr_total": 4,
+        "tier": "outlier"
+      },
+      {
+        "slug": "jason-leopold",
         "attr_total": 4,
         "tier": "outlier"
       },
@@ -185,11 +195,6 @@
       },
       {
         "slug": "federal-whistleblower-protection-act",
-        "attr_total": 3,
-        "tier": "outlier"
-      },
-      {
-        "slug": "israeli-nuclear-program",
         "attr_total": 3,
         "tier": "outlier"
       },
@@ -311,8 +316,8 @@
     },
     {
       "slug": "abu-zubaydah-capture",
-      "bytes": 7500,
-      "cite_total": 24,
+      "bytes": 8864,
+      "cite_total": 31,
       "attribution": {
         "tier": "within_calibration",
         "total": 2,
@@ -331,9 +336,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 24,
+        "total": 31,
         "dead_source": 0,
-        "ts_exact_or_near": 24,
+        "ts_exact_or_near": 31,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -468,6 +473,60 @@
       }
     },
     {
+      "slug": "afghan-languages",
+      "bytes": 622,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "afghan-war-logs",
+      "bytes": 614,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "ahmed-chalabi",
       "bytes": 7945,
       "cite_total": 17,
@@ -556,12 +615,12 @@
     },
     {
       "slug": "aipac",
-      "bytes": 8520,
-      "cite_total": 17,
+      "bytes": 8807,
+      "cite_total": 18,
       "attribution": {
         "tier": "severe_outlier",
-        "total": 6,
-        "kiriakou_verb": 5,
+        "total": 7,
+        "kiriakou_verb": 6,
         "john_verb": 0,
         "according_to": 0,
         "per_kiriakou_in_body": 1,
@@ -581,9 +640,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 17,
+        "total": 18,
         "dead_source": 0,
-        "ts_exact_or_near": 17,
+        "ts_exact_or_near": 18,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -1060,6 +1119,33 @@
       }
     },
     {
+      "slug": "bill-barr",
+      "bytes": 520,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "bill-buckley",
       "bytes": 5992,
       "cite_total": 15,
@@ -1405,7 +1491,7 @@
     },
     {
       "slug": "brian-ross",
-      "bytes": 7979,
+      "bytes": 8574,
       "cite_total": 11,
       "attribution": {
         "tier": "outlier",
@@ -1501,8 +1587,8 @@
     },
     {
       "slug": "carlos-the-jackal",
-      "bytes": 6452,
-      "cite_total": 15,
+      "bytes": 7163,
+      "cite_total": 16,
       "attribution": {
         "tier": "outlier",
         "total": 3,
@@ -1525,9 +1611,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 15,
+        "total": 16,
         "dead_source": 0,
-        "ts_exact_or_near": 15,
+        "ts_exact_or_near": 16,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -1589,6 +1675,33 @@
         "total": 6,
         "dead_source": 0,
         "ts_exact_or_near": 6,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "cia-car-hacking",
+      "bytes": 674,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -1742,13 +1855,40 @@
       }
     },
     {
+      "slug": "cia-smart-tv-surveillance",
+      "bytes": 697,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "cia",
-      "bytes": 89644,
-      "cite_total": 269,
+      "bytes": 90246,
+      "cite_total": 271,
       "attribution": {
         "tier": "severe_outlier",
-        "total": 41,
-        "kiriakou_verb": 41,
+        "total": 43,
+        "kiriakou_verb": 43,
         "john_verb": 0,
         "according_to": 0,
         "per_kiriakou_in_body": 0,
@@ -1769,9 +1909,9 @@
         }
       },
       "cite_integrity": {
-        "total": 269,
+        "total": 271,
         "dead_source": 0,
-        "ts_exact_or_near": 269,
+        "ts_exact_or_near": 271,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 83,
         "problems": []
@@ -1924,6 +2064,114 @@
         "total": 10,
         "dead_source": 0,
         "ts_exact_or_near": 10,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "daniel-domscheit-berg",
+      "bytes": 663,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "daniel-ellsberg",
+      "bytes": 649,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "daniel-hail",
+      "bytes": 526,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "daniel-hale",
+      "bytes": 647,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -2316,8 +2564,8 @@
     },
     {
       "slug": "edward-snowden",
-      "bytes": 4936,
-      "cite_total": 6,
+      "bytes": 7136,
+      "cite_total": 14,
       "attribution": {
         "tier": "within_calibration",
         "total": 2,
@@ -2335,13 +2583,15 @@
         ]
       },
       "hedges": {
-        "total": 0,
-        "by_kind": {}
+        "total": 5,
+        "by_kind": {
+          "allegedly": 5
+        }
       },
       "cite_integrity": {
-        "total": 6,
+        "total": 14,
         "dead_source": 0,
-        "ts_exact_or_near": 6,
+        "ts_exact_or_near": 14,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 4,
         "problems": []
@@ -2382,9 +2632,36 @@
       }
     },
     {
+      "slug": "elizabeth-rouser",
+      "bytes": 608,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "enhanced-interrogation",
-      "bytes": 33116,
-      "cite_total": 77,
+      "bytes": 33830,
+      "cite_total": 79,
       "attribution": {
         "tier": "severe_outlier",
         "total": 8,
@@ -2408,9 +2685,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 77,
+        "total": 79,
         "dead_source": 0,
-        "ts_exact_or_near": 77,
+        "ts_exact_or_near": 79,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 4,
         "problems": []
@@ -2441,6 +2718,33 @@
         "total": 5,
         "dead_source": 0,
         "ts_exact_or_near": 5,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "eric-swallwell-fbi-documents",
+      "bytes": 704,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -2480,8 +2784,8 @@
     },
     {
       "slug": "espionage-act",
-      "bytes": 4856,
-      "cite_total": 6,
+      "bytes": 7413,
+      "cite_total": 11,
       "attribution": {
         "tier": "within_calibration",
         "total": 1,
@@ -2502,9 +2806,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 6,
+        "total": 11,
         "dead_source": 0,
-        "ts_exact_or_near": 6,
+        "ts_exact_or_near": 11,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -2591,6 +2895,60 @@
         "total": 4,
         "dead_source": 0,
         "ts_exact_or_near": 4,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "fbi-arrest-strategies",
+      "bytes": 611,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "fbi",
+      "bytes": 806,
+      "cite_total": 3,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 3,
+        "dead_source": 0,
+        "ts_exact_or_near": 3,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -2779,6 +3137,33 @@
       }
     },
     {
+      "slug": "fort-gordon",
+      "bytes": 558,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "francis-gary-powers",
       "bytes": 4363,
       "cite_total": 7,
@@ -2800,6 +3185,33 @@
         "total": 7,
         "dead_source": 0,
         "ts_exact_or_near": 7,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "gail-slater",
+      "bytes": 521,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -3106,6 +3518,33 @@
         "total": 3,
         "dead_source": 0,
         "ts_exact_or_near": 3,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "government-accountability-project",
+      "bytes": 996,
+      "cite_total": 2,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 2,
+        "dead_source": 0,
+        "ts_exact_or_near": 2,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -3440,7 +3879,7 @@
     },
     {
       "slug": "hezbollah",
-      "bytes": 4726,
+      "bytes": 5012,
       "cite_total": 6,
       "attribution": {
         "tier": "within_calibration",
@@ -3593,6 +4032,33 @@
       }
     },
     {
+      "slug": "ilhan-omar",
+      "bytes": 802,
+      "cite_total": 2,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 2,
+        "dead_source": 0,
+        "ts_exact_or_near": 2,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "imran-khan",
       "bytes": 2852,
       "cite_total": 6,
@@ -3658,6 +4124,33 @@
       }
     },
     {
+      "slug": "intelligence-agencies",
+      "bytes": 617,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "intelligence-identities-protection-act",
       "bytes": 3481,
       "cite_total": 3,
@@ -3676,6 +4169,33 @@
           "Kiriakou said",
           "Kiriakou noted"
         ]
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 3,
+        "dead_source": 0,
+        "ts_exact_or_near": 3,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "intercept",
+      "bytes": 1232,
+      "cite_total": 3,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
       },
       "hedges": {
         "total": 0,
@@ -3721,26 +4241,31 @@
     },
     {
       "slug": "iran-contra",
-      "bytes": 3613,
-      "cite_total": 4,
+      "bytes": 3938,
+      "cite_total": 5,
       "attribution": {
-        "tier": "clean",
-        "total": 0,
-        "kiriakou_verb": 0,
+        "tier": "within_calibration",
+        "total": 1,
+        "kiriakou_verb": 1,
         "john_verb": 0,
         "according_to": 0,
         "per_kiriakou_in_body": 0,
-        "first_hit": null,
-        "samples": []
+        "first_hit": {
+          "line": 14,
+          "snippet": "Kiriakou stated that the United States partnered with Israel to attack Iran, a country that poses no threat to the United States. <Cite s=\"2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-"
+        },
+        "samples": [
+          "Kiriakou stated"
+        ]
       },
       "hedges": {
         "total": 0,
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 4,
+        "total": 5,
         "dead_source": 0,
-        "ts_exact_or_near": 4,
+        "ts_exact_or_near": 5,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 2,
         "problems": []
@@ -3748,12 +4273,12 @@
     },
     {
       "slug": "iran-nuclear-assessment",
-      "bytes": 20608,
-      "cite_total": 63,
+      "bytes": 21311,
+      "cite_total": 66,
       "attribution": {
         "tier": "severe_outlier",
-        "total": 17,
-        "kiriakou_verb": 17,
+        "total": 20,
+        "kiriakou_verb": 20,
         "john_verb": 0,
         "according_to": 0,
         "per_kiriakou_in_body": 0,
@@ -3772,9 +4297,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 63,
+        "total": 66,
         "dead_source": 0,
-        "ts_exact_or_near": 63,
+        "ts_exact_or_near": 66,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -3813,13 +4338,45 @@
       }
     },
     {
+      "slug": "israeli-false-flags",
+      "bytes": 749,
+      "cite_total": 2,
+      "attribution": {
+        "tier": "within_calibration",
+        "total": 1,
+        "kiriakou_verb": 1,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": {
+          "line": 4,
+          "snippet": "Kiriakou stated that Israel has a history of conducting false flag operations <Cite s=\"2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir\" t=\"33:07\" />"
+        },
+        "samples": [
+          "Kiriakou stated"
+        ]
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 2,
+        "dead_source": 0,
+        "ts_exact_or_near": 2,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "israeli-nuclear-program",
-      "bytes": 3480,
-      "cite_total": 5,
+      "bytes": 3796,
+      "cite_total": 6,
       "attribution": {
         "tier": "outlier",
-        "total": 3,
-        "kiriakou_verb": 2,
+        "total": 4,
+        "kiriakou_verb": 3,
         "john_verb": 0,
         "according_to": 1,
         "per_kiriakou_in_body": 0,
@@ -3830,6 +4387,7 @@
         "samples": [
           "Kiriakou said",
           "Kiriakou described",
+          "Kiriakou noted",
           "according to Kiriakou"
         ]
       },
@@ -3838,9 +4396,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 5,
+        "total": 6,
         "dead_source": 0,
-        "ts_exact_or_near": 5,
+        "ts_exact_or_near": 6,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -3936,17 +4494,23 @@
     },
     {
       "slug": "jason-leopold",
-      "bytes": 4374,
-      "cite_total": 7,
+      "bytes": 5442,
+      "cite_total": 10,
       "attribution": {
-        "tier": "within_calibration",
-        "total": 1,
-        "kiriakou_verb": 0,
+        "tier": "outlier",
+        "total": 4,
+        "kiriakou_verb": 3,
         "john_verb": 0,
         "according_to": 0,
         "per_kiriakou_in_body": 1,
-        "first_hit": null,
+        "first_hit": {
+          "line": 28,
+          "snippet": "John Kiriakou reported that a Pentagon spokesman for George W. Bush labeled journalist Jason Leopold a \"FOIA terrorist\" due to his extensive FOIA filing record. <Cite s=\"2026-03-20-disruption-network-"
+        },
         "samples": [
+          "Kiriakou reported",
+          "Kiriakou reported",
+          "Kiriakou reported",
           "Per Kiriakou"
         ]
       },
@@ -3955,9 +4519,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 7,
+        "total": 10,
         "dead_source": 0,
-        "ts_exact_or_near": 7,
+        "ts_exact_or_near": 10,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -4093,12 +4657,12 @@
     },
     {
       "slug": "jfk-assassination",
-      "bytes": 8915,
-      "cite_total": 18,
+      "bytes": 22196,
+      "cite_total": 75,
       "attribution": {
-        "tier": "outlier",
-        "total": 5,
-        "kiriakou_verb": 4,
+        "tier": "severe_outlier",
+        "total": 43,
+        "kiriakou_verb": 42,
         "john_verb": 0,
         "according_to": 1,
         "per_kiriakou_in_body": 0,
@@ -4120,9 +4684,9 @@
         }
       },
       "cite_integrity": {
-        "total": 18,
+        "total": 75,
         "dead_source": 0,
-        "ts_exact_or_near": 18,
+        "ts_exact_or_near": 75,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 4,
         "problems": []
@@ -4214,13 +4778,42 @@
       }
     },
     {
+      "slug": "john-brennan-tuesday-morning-kill-list",
+      "bytes": 796,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 1,
+        "by_kind": {
+          "is_said_to": 1
+        }
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "john-brennan",
-      "bytes": 28820,
-      "cite_total": 75,
+      "bytes": 29775,
+      "cite_total": 77,
       "attribution": {
         "tier": "severe_outlier",
-        "total": 14,
-        "kiriakou_verb": 9,
+        "total": 15,
+        "kiriakou_verb": 10,
         "john_verb": 0,
         "according_to": 0,
         "per_kiriakou_in_body": 5,
@@ -4241,9 +4834,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 75,
+        "total": 77,
         "dead_source": 0,
-        "ts_exact_or_near": 72,
+        "ts_exact_or_near": 74,
         "ts_miss_strict": 3,
         "ts_near_miss_within_31s": 1,
         "problems": [
@@ -4299,12 +4892,12 @@
     },
     {
       "slug": "john-kiriakou",
-      "bytes": 154570,
-      "cite_total": 512,
+      "bytes": 154813,
+      "cite_total": 513,
       "attribution": {
         "tier": "severe_outlier",
-        "total": 42,
-        "kiriakou_verb": 42,
+        "total": 43,
+        "kiriakou_verb": 43,
         "john_verb": 0,
         "according_to": 0,
         "per_kiriakou_in_body": 0,
@@ -4325,11 +4918,11 @@
         }
       },
       "cite_integrity": {
-        "total": 512,
+        "total": 513,
         "dead_source": 0,
-        "ts_exact_or_near": 512,
+        "ts_exact_or_near": 513,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 70,
+        "ts_near_miss_within_31s": 71,
         "problems": []
       }
     },
@@ -4445,8 +5038,8 @@
     },
     {
       "slug": "john-walker-lindh",
-      "bytes": 1231,
-      "cite_total": 2,
+      "bytes": 1502,
+      "cite_total": 3,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -4462,9 +5055,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 2,
+        "total": 3,
         "dead_source": 0,
-        "ts_exact_or_near": 2,
+        "ts_exact_or_near": 3,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -4531,8 +5124,8 @@
     },
     {
       "slug": "jose-rodriguez",
-      "bytes": 6165,
-      "cite_total": 11,
+      "bytes": 6445,
+      "cite_total": 12,
       "attribution": {
         "tier": "within_calibration",
         "total": 1,
@@ -4553,9 +5146,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 11,
+        "total": 12,
         "dead_source": 0,
-        "ts_exact_or_near": 11,
+        "ts_exact_or_near": 12,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -4641,6 +5234,33 @@
         "ts_exact_or_near": 2,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 2,
+        "problems": []
+      }
+    },
+    {
+      "slug": "katherine-gun",
+      "bytes": 570,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
         "problems": []
       }
     },
@@ -4941,6 +5561,65 @@
       }
     },
     {
+      "slug": "lebanon-israeli-conflict",
+      "bytes": 805,
+      "cite_total": 2,
+      "attribution": {
+        "tier": "within_calibration",
+        "total": 1,
+        "kiriakou_verb": 1,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": {
+          "line": 6,
+          "snippet": "Kiriakou mentioned a statistic about potential internal displacement of Lebanese citizens. <Cite s=\"2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir\" t=\"46:44\" />"
+        },
+        "samples": [
+          "Kiriakou mentioned"
+        ]
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 2,
+        "dead_source": 0,
+        "ts_exact_or_near": 2,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "lee-zeldon",
+      "bytes": 540,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "leon-panetta",
       "bytes": 5173,
       "cite_total": 6,
@@ -5083,6 +5762,33 @@
         "total": 5,
         "dead_source": 0,
         "ts_exact_or_near": 5,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "lynn-buchanan",
+      "bytes": 593,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -5325,6 +6031,33 @@
       }
     },
     {
+      "slug": "mass-surveillance",
+      "bytes": 594,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "matthew-cole",
       "bytes": 5017,
       "cite_total": 9,
@@ -5382,6 +6115,33 @@
         "total": 13,
         "dead_source": 0,
         "ts_exact_or_near": 13,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "mexican-9-month-work-visas",
+      "bytes": 651,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -5477,7 +6237,7 @@
     },
     {
       "slug": "mike-hayden",
-      "bytes": 3127,
+      "bytes": 3421,
       "cite_total": 3,
       "attribution": {
         "tier": "clean",
@@ -5580,6 +6340,60 @@
         "total": 9,
         "dead_source": 0,
         "ts_exact_or_near": 9,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "military-ethics",
+      "bytes": 573,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "miranda-rights",
+      "bytes": 535,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -5780,7 +6594,7 @@
     },
     {
       "slug": "mossad",
-      "bytes": 35248,
+      "bytes": 35543,
       "cite_total": 84,
       "attribution": {
         "tier": "severe_outlier",
@@ -5929,6 +6743,60 @@
       }
     },
     {
+      "slug": "national-security-agency",
+      "bytes": 631,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "national-security-vs-civil-liberties",
+      "bytes": 682,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "ninth-circuit-contractor-ruling-2025",
       "bytes": 3518,
       "cite_total": 5,
@@ -6046,6 +6914,65 @@
         "total": 4,
         "dead_source": 0,
         "ts_exact_or_near": 4,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "nsa-surveillance",
+      "bytes": 576,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "nsa",
+      "bytes": 794,
+      "cite_total": 2,
+      "attribution": {
+        "tier": "within_calibration",
+        "total": 1,
+        "kiriakou_verb": 1,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": {
+          "line": 8,
+          "snippet": "Kiriakou stated that the NSA had failed the nation in its handling of intelligence related to 9/11. <Cite s=\"2025-10-14-jspione-silenced-2014-the-war-on-whistleblowers-feature-documentary-\" t=\"50:27\" "
+        },
+        "samples": [
+          "Kiriakou stated"
+        ]
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 2,
+        "dead_source": 0,
+        "ts_exact_or_near": 2,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -6207,6 +7134,33 @@
       }
     },
     {
+      "slug": "pam-bondi",
+      "bytes": 708,
+      "cite_total": 2,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 2,
+        "dead_source": 0,
+        "ts_exact_or_near": 2,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "patriot-act",
       "bytes": 4402,
       "cite_total": 5,
@@ -6267,6 +7221,33 @@
         "total": 6,
         "dead_source": 0,
         "ts_exact_or_near": 6,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "pete-hoekstra",
+      "bytes": 562,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -6548,6 +7529,60 @@
       }
     },
     {
+      "slug": "plus-972",
+      "bytes": 529,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "presidents-daily-brief",
+      "bytes": 619,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "prince-muhammad-bin-naif",
       "bytes": 1457,
       "cite_total": 2,
@@ -6645,6 +7680,33 @@
       }
     },
     {
+      "slug": "project-stargate",
+      "bytes": 606,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "qala-i-jangi-uprising",
       "bytes": 2159,
       "cite_total": 3,
@@ -6700,8 +7762,8 @@
     },
     {
       "slug": "revolutionary-organization-17-november",
-      "bytes": 24789,
-      "cite_total": 68,
+      "bytes": 25682,
+      "cite_total": 71,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -6717,9 +7779,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 68,
+        "total": 71,
         "dead_source": 0,
-        "ts_exact_or_near": 68,
+        "ts_exact_or_near": 71,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -7039,6 +8101,33 @@
       }
     },
     {
+      "slug": "russell-targ",
+      "bytes": 612,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "sacha-baron-cohen",
       "bytes": 7651,
       "cite_total": 24,
@@ -7072,7 +8161,7 @@
     },
     {
       "slug": "saddam-hussein",
-      "bytes": 8575,
+      "bytes": 8910,
       "cite_total": 16,
       "attribution": {
         "tier": "outlier",
@@ -7338,6 +8427,33 @@
         "total": 11,
         "dead_source": 0,
         "ts_exact_or_near": 11,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "senate-foreign-relations-committee",
+      "bytes": 974,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -7670,8 +8786,8 @@
     },
     {
       "slug": "stephen-saunders",
-      "bytes": 7494,
-      "cite_total": 17,
+      "bytes": 8129,
+      "cite_total": 19,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -7687,9 +8803,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 17,
+        "total": 19,
         "dead_source": 0,
-        "ts_exact_or_near": 17,
+        "ts_exact_or_near": 19,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -7751,8 +8867,8 @@
     },
     {
       "slug": "surveillance-detection-route",
-      "bytes": 10663,
-      "cite_total": 29,
+      "bytes": 15604,
+      "cite_total": 28,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -7768,11 +8884,38 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 29,
+        "total": 28,
         "dead_source": 0,
-        "ts_exact_or_near": 29,
+        "ts_exact_or_near": 28,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 1,
+        "problems": []
+      }
+    },
+    {
+      "slug": "sweat-lodge",
+      "bytes": 574,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
         "problems": []
       }
     },
@@ -7836,6 +8979,33 @@
       }
     },
     {
+      "slug": "terry-aubry",
+      "bytes": 526,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "the-farm",
       "bytes": 9370,
       "cite_total": 25,
@@ -7863,6 +9033,33 @@
         "total": 25,
         "dead_source": 0,
         "ts_exact_or_near": 25,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "the-reluctant-spy",
+      "bytes": 600,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -7897,6 +9094,33 @@
         "ts_exact_or_near": 7,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 7,
+        "problems": []
+      }
+    },
+    {
+      "slug": "thin-thread",
+      "bytes": 555,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
         "problems": []
       }
     },
@@ -8054,17 +9278,21 @@
     },
     {
       "slug": "tom-drake",
-      "bytes": 8549,
-      "cite_total": 18,
+      "bytes": 10094,
+      "cite_total": 24,
       "attribution": {
         "tier": "within_calibration",
-        "total": 1,
-        "kiriakou_verb": 0,
+        "total": 2,
+        "kiriakou_verb": 1,
         "john_verb": 0,
         "according_to": 0,
         "per_kiriakou_in_body": 1,
-        "first_hit": null,
+        "first_hit": {
+          "line": 44,
+          "snippet": "Kiriakou mentioned media coverage supporting Tom Drake as a whistleblower. <Cite s=\"2025-10-14-jspione-silenced-2014-the-war-on-whistleblowers-feature-documentary-\" t=\"1:16:29\" />"
+        },
         "samples": [
+          "Kiriakou mentioned",
           "Per Kiriakou"
         ]
       },
@@ -8073,9 +9301,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 18,
+        "total": 24,
         "dead_source": 0,
-        "ts_exact_or_near": 18,
+        "ts_exact_or_near": 24,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -8136,6 +9364,65 @@
       }
     },
     {
+      "slug": "trump-dni-replacement",
+      "bytes": 712,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "trump",
+      "bytes": 1047,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "within_calibration",
+        "total": 1,
+        "kiriakou_verb": 1,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": {
+          "line": 4,
+          "snippet": "John Kiriakou suggested that President Trump could implement the proposed visa program. <Cite s=\"2025-08-21-eric-hunley-john-kiriakou-cia-whistleblower-exposes-the-deep-state\" t=\"1:01:16\" />"
+        },
+        "samples": [
+          "Kiriakou suggested"
+        ]
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
       "slug": "tuesday-morning-kill-list",
       "bytes": 5605,
       "cite_total": 11,
@@ -8162,6 +9449,33 @@
         "total": 11,
         "dead_source": 0,
         "ts_exact_or_near": 11,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "tulsi-gabbard",
+      "bytes": 564,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -8222,6 +9536,33 @@
         "total": 2,
         "dead_source": 0,
         "ts_exact_or_near": 2,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "us-military-venture-capital",
+      "bytes": 681,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -8377,7 +9718,7 @@
     },
     {
       "slug": "waterboarding",
-      "bytes": 7863,
+      "bytes": 8734,
       "cite_total": 12,
       "attribution": {
         "tier": "severe_outlier",
@@ -8410,9 +9751,9 @@
       }
     },
     {
-      "slug": "welch-45",
-      "bytes": 3355,
-      "cite_total": 6,
+      "slug": "watermark",
+      "bytes": 536,
+      "cite_total": 1,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -8428,9 +9769,36 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 6,
+        "total": 1,
         "dead_source": 0,
-        "ts_exact_or_near": 6,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "welch-45",
+      "bytes": 3666,
+      "cite_total": 7,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 7,
+        "dead_source": 0,
+        "ts_exact_or_near": 7,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -8464,6 +9832,33 @@
         "total": 5,
         "dead_source": 0,
         "ts_exact_or_near": 5,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "whistleblower-protection-act",
+      "bytes": 732,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
@@ -8614,7 +10009,7 @@
     },
     {
       "slug": "yemen",
-      "bytes": 4056,
+      "bytes": 4659,
       "cite_total": 12,
       "attribution": {
         "tier": "clean",
