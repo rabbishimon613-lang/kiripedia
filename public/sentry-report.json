@@ -1,69 +1,7 @@
 {
-  "generated_at": "2026-06-29T06:12:28.492Z",
+  "generated_at": "2026-06-29T07:07:36.374Z",
   "window_min": 30,
-  "scanned": 4,
-  "violation_count": 2,
-  "violations": [
-    {
-      "slug": "cia",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 38,
-          "samples": [
-            "Kiriakou said",
-            "Kiriakou described",
-            "Kiriakou stated"
-          ]
-        },
-        {
-          "kind": "he-recalls",
-          "count": 4,
-          "samples": [
-            "He noted",
-            "he noted",
-            "He noted"
-          ]
-        },
-        {
-          "kind": "allegedly",
-          "count": 1,
-          "samples": [
-            "reportedly"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "john-kiriakou",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 34,
-          "samples": [
-            "Kiriakou told",
-            "Kiriakou told",
-            "Kiriakou described"
-          ]
-        },
-        {
-          "kind": "he-recalls",
-          "count": 3,
-          "samples": [
-            "He noted",
-            "He noted",
-            "He notes"
-          ]
-        },
-        {
-          "kind": "allegedly",
-          "count": 2,
-          "samples": [
-            "reportedly",
-            "reportedly"
-          ]
-        }
-      ]
-    }
-  ]
+  "scanned": 1,
+  "violation_count": 0,
+  "violations": []
 }

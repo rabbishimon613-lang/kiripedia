@@ -1,27 +1,27 @@
 {
   "summary": {
-    "generated_at": "2026-06-29T06:09:49.222Z",
-    "articles_scanned": 388,
+    "generated_at": "2026-06-29T07:09:11.135Z",
+    "articles_scanned": 391,
     "attribution_tiers": {
-      "clean": 215,
+      "clean": 218,
       "within_calibration": 136,
       "outlier": 20,
       "severe_outlier": 17
     },
     "attribution_tier_pct": {
-      "clean": 55.4,
-      "within_calibration": 35.1,
-      "outlier": 5.2,
-      "severe_outlier": 4.4
+      "clean": 55.8,
+      "within_calibration": 34.8,
+      "outlier": 5.1,
+      "severe_outlier": 4.3
     },
     "hedge_articles": 14,
     "hedge_total_hits": 20,
-    "cite_total": 3893,
+    "cite_total": 3898,
     "cite_dead_source": 0,
     "cite_ts_exact_or_near": 3830,
-    "cite_ts_miss_strict": 63,
+    "cite_ts_miss_strict": 68,
     "cite_ts_near_miss_within_31s": 390,
-    "cite_integrity_pct": 98.38,
+    "cite_integrity_pct": 98.26,
     "outlier_articles": [
       {
         "slug": "cia",
@@ -2462,8 +2462,8 @@
     },
     {
       "slug": "cia",
-      "bytes": 90533,
-      "cite_total": 272,
+      "bytes": 90846,
+      "cite_total": 273,
       "attribution": {
         "tier": "severe_outlier",
         "total": 43,
@@ -2488,12 +2488,18 @@
         }
       },
       "cite_integrity": {
-        "total": 272,
+        "total": 273,
         "dead_source": 0,
         "ts_exact_or_near": 272,
-        "ts_miss_strict": 0,
+        "ts_miss_strict": 1,
         "ts_near_miss_within_31s": 84,
-        "problems": []
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-02-18-barracks-media-inc-john-kiriakou-whistleblower-inside-the-cia-s-tortu",
+            "t": "13:46:00"
+          }
+        ]
       }
     },
     {
@@ -5867,8 +5873,8 @@
     },
     {
       "slug": "john-kiriakou",
-      "bytes": 155137,
-      "cite_total": 514,
+      "bytes": 155458,
+      "cite_total": 515,
       "attribution": {
         "tier": "severe_outlier",
         "total": 43,
@@ -5893,16 +5899,21 @@
         }
       },
       "cite_integrity": {
-        "total": 514,
+        "total": 515,
         "dead_source": 0,
         "ts_exact_or_near": 513,
-        "ts_miss_strict": 1,
+        "ts_miss_strict": 2,
         "ts_near_miss_within_31s": 71,
         "problems": [
           {
             "kind": "ts_miss",
             "s": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange",
             "t": "02:43:00"
+          },
+          {
+            "kind": "ts_miss",
+            "s": "2026-02-18-barracks-media-inc-john-kiriakou-whistleblower-inside-the-cia-s-tortu",
+            "t": "16:25:00"
           }
         ]
       }
@@ -7222,6 +7233,39 @@
       }
     },
     {
+      "slug": "mark-zuckerberg-angela-merkel-meeting",
+      "bytes": 837,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange",
+            "t": "46:08:00"
+          }
+        ]
+      }
+    },
+    {
       "slug": "martha-kesler",
       "bytes": 3276,
       "cite_total": 7,
@@ -7307,6 +7351,39 @@
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
+      }
+    },
+    {
+      "slug": "mccain-feinstein-amendment",
+      "bytes": 710,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-02-18-barracks-media-inc-john-kiriakou-whistleblower-inside-the-cia-s-tortu",
+            "t": "52:59:00"
+          }
+        ]
       }
     },
     {
@@ -10646,6 +10723,39 @@
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
         "problems": []
+      }
+    },
+    {
+      "slug": "the-sociopath-next-door",
+      "bytes": 713,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 0,
+        "ts_miss_strict": 1,
+        "ts_near_miss_within_31s": 0,
+        "problems": [
+          {
+            "kind": "ts_miss",
+            "s": "2026-02-18-barracks-media-inc-john-kiriakou-whistleblower-inside-the-cia-s-tortu",
+            "t": "48:20:00"
+          }
+        ]
       }
     },
     {

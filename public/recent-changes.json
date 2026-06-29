@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-06-29T06:54:08.859Z",
+  "generated_at": "2026-06-29T07:09:33.152Z",
   "commit_count": 60,
-  "change_count": 828,
+  "change_count": 822,
   "rows": [
+    {
+      "ts": "2026-06-29T02:55:24-04:00",
+      "sha": "2a6f33628f92168f5654e6373f1aaf2c09080def",
+      "sha_short": "2a6f336",
+      "author": "rabbishimon613-lang",
+      "summary": "botnet cycle 477: 1 claims, 1 articles",
+      "slug": "mark-zuckerberg-angela-merkel-meeting",
+      "title": "Mark Zuckerberg Angela Merkel Meeting",
+      "added_lines": 13,
+      "deleted_lines": 0,
+      "net_lines": 13,
+      "path": "src/content/articles/mark-zuckerberg-angela-merkel-meeting.mdx",
+      "from_source": null,
+      "kind": "spawn"
+    },
     {
       "ts": "2026-06-29T02:10:55-04:00",
       "sha": "fda378195b1ca41e578295ed41911fe51c4eedc2",
@@ -5985,21 +6000,6 @@
       "deleted_lines": 0,
       "net_lines": 2,
       "path": "src/content/articles/dick-cheney.mdx",
-      "from_source": null,
-      "kind": "amend"
-    },
-    {
-      "ts": "2026-06-06T12:57:26-04:00",
-      "sha": "2428aaff03d7b1203638d6ba6858f49ab07805e1",
-      "sha_short": "2428aaf",
-      "author": "rabbishimon613-lang",
-      "summary": "Refetch people images: +9 recovered",
-      "slug": "david-ransom",
-      "title": "David Ransom",
-      "added_lines": 1,
-      "deleted_lines": 1,
-      "net_lines": 0,
-      "path": "src/content/articles/david-ransom.mdx",
       "from_source": null,
       "kind": "amend"
     }
