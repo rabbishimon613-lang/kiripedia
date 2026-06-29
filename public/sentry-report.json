@@ -1,23 +1,9 @@
 {
-  "generated_at": "2026-06-29T05:11:43.937Z",
+  "generated_at": "2026-06-29T06:12:28.492Z",
   "window_min": 30,
-  "scanned": 19,
-  "violation_count": 3,
+  "scanned": 4,
+  "violation_count": 2,
   "violations": [
-    {
-      "slug": "aipac",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 3,
-          "samples": [
-            "Kiriakou described",
-            "Kiriakou stated",
-            "Kiriakou stated"
-          ]
-        }
-      ]
-    },
     {
       "slug": "cia",
       "findings": [
@@ -49,12 +35,31 @@
       ]
     },
     {
-      "slug": "trump-iran-ceasefire-efforts",
+      "slug": "john-kiriakou",
       "findings": [
         {
-          "kind": "allegedly",
-          "count": 1,
+          "kind": "kiriakou-said",
+          "count": 34,
           "samples": [
+            "Kiriakou told",
+            "Kiriakou told",
+            "Kiriakou described"
+          ]
+        },
+        {
+          "kind": "he-recalls",
+          "count": 3,
+          "samples": [
+            "He noted",
+            "He noted",
+            "He notes"
+          ]
+        },
+        {
+          "kind": "allegedly",
+          "count": 2,
+          "samples": [
+            "reportedly",
             "reportedly"
           ]
         }

@@ -183,7 +183,22 @@ try {
     execSync(`git commit -m "botnet cycle ${cycleId}: ${totalMerged} claims, ${touchedArticles.size} articles"`,
              { cwd: REPO_ROOT });
     sha = execSync(`git rev-parse HEAD`, { cwd: REPO_ROOT, encoding: 'utf8' }).trim();
-    if (PUSH) execSync(`git push`, { cwd: REPO_ROOT });
+    if (PUSH) {
+      // Push with rebase fallback. The x-bot pushes its own commits to main
+      // from time to time, so a stale local can lose the push race; pulling
+      // with rebase lets us catch up and try once more. If that still fails
+      // we log and bail — the next cycle will try again.
+      try {
+        execSync(`git push`, { cwd: REPO_ROOT, stdio: 'pipe' });
+      } catch (pushErr) {
+        try {
+          execSync(`git pull --rebase --autostash origin main`, { cwd: REPO_ROOT, stdio: 'pipe' });
+          execSync(`git push`, { cwd: REPO_ROOT, stdio: 'pipe' });
+        } catch (retryErr) {
+          console.error('[coordinator] push still failing after rebase:', (retryErr.stderr?.toString() || retryErr.message).slice(0, 240));
+        }
+      }
+    }
   }
 } catch (err) {
   console.error('[coordinator] git failed:', err.message);
