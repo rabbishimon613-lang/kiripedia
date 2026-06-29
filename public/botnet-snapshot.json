@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T04:09:40.241Z",
+  "generated_at": "2026-06-29T04:24:40.678Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -13,7 +13,7 @@
       "label": "New Page Patroller",
       "action": "Done: Checked the lead queue — no new clips today.",
       "handoff_to": null,
-      "ts": "2026-06-29 04:09:39"
+      "ts": "2026-06-29 04:19:59"
     },
     {
       "key": "source_auth",
@@ -62,21 +62,21 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 04:09:39"
+      "ts": null
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 04:09:40"
+      "ts": null
     },
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "Rebuilding the date and mentions indexes.",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 04:09:40"
+      "ts": null
     },
     {
       "key": "deepener",
@@ -123,223 +123,223 @@
   ],
   "recent_events": [
     {
-      "ts": "2026-06-29 04:09:40",
-      "key": "indexer",
-      "label": "Indexer",
-      "event": "start",
-      "action": "Rebuilding the date and mentions indexes."
-    },
-    {
-      "ts": "2026-06-29 04:09:40",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
-      "event": "start",
-      "action": "Collecting passed claims for filing."
-    },
-    {
-      "ts": "2026-06-29 04:09:39",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "start",
-      "action": "Triaging up to 20 new clips."
-    },
-    {
-      "ts": "2026-06-29 04:09:39",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
-      "event": "start",
-      "action": "Probing LLM providers, refreshing routing table."
-    },
-    {
-      "ts": "2026-06-29 04:09:39",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "start",
-      "action": "Draining fleet/catch into clips (auto-trust=true)."
-    },
-    {
-      "ts": "2026-06-29 03:58:14",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "finish",
-      "action": "Done: Set the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript aside — will retry next cycle."
-    },
-    {
-      "ts": "2026-06-29 03:58:08",
-      "key": "re-reader-1",
-      "label": "re-reader-1",
-      "event": "finish",
-      "action": "Done: Re-Reader pass complete (briefs done=2 failed=0 fallback_sources=0 verdicts_written=0)."
-    },
-    {
-      "ts": "2026-06-29 03:57:58",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
-      "event": "finish",
-      "action": "Done: Filed 4 claims into 4 articles (commit 619cb98). hash→f6854636"
-    },
-    {
-      "ts": "2026-06-29 03:57:56",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
-      "event": "start",
-      "action": "Collecting passed claims for filing."
-    },
-    {
-      "ts": "2026-06-29 03:57:50",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "start",
-      "action": "Opened the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript — hunting for unmined claims."
-    },
-    {
-      "ts": "2026-06-29 03:57:47",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "finish",
-      "action": "Done: Set the 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing transcript aside — will retry next cycle."
-    },
-    {
-      "ts": "2026-06-29 03:57:24",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "start",
-      "action": "Opened the 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing transcript — hunting for unmined claims."
-    },
-    {
-      "ts": "2026-06-29 03:57:01",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
-      "event": "start",
-      "action": "Collecting passed claims for filing."
-    },
-    {
-      "ts": "2026-06-29 03:57:00",
-      "key": "materializer-1",
-      "label": "materializer-1",
-      "event": "finish",
-      "action": "Done: Materialized 4 verdicts → 2 new articles + 2 amendments. 0 skipped, 0 unresolvable."
-    },
-    {
-      "ts": "2026-06-29 03:56:44",
-      "key": "materializer-1",
-      "label": "materializer-1",
-      "event": "start",
-      "action": "Walking pending Re-Reader verdicts and turning them into claims."
-    },
-    {
-      "ts": "2026-06-29 03:56:01",
+      "ts": "2026-06-29 04:20:28",
       "key": "office-manager-1",
       "label": "office-manager-1",
       "event": "finish",
       "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
     },
     {
-      "ts": "2026-06-29 03:55:55",
+      "ts": "2026-06-29 04:20:22",
       "key": "office-manager-1",
       "label": "office-manager-1",
       "event": "start",
       "action": "Probing LLM providers, refreshing routing table."
     },
     {
-      "ts": "2026-06-29 03:55:31",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
+      "ts": "2026-06-29 04:19:59",
+      "key": "npp",
+      "label": "New Page Patroller",
       "event": "start",
-      "action": "Collecting passed claims for filing."
+      "action": "Triaging up to 20 new clips."
     },
     {
-      "ts": "2026-06-29 03:55:09",
-      "key": "materializer-1",
-      "label": "materializer-1",
-      "event": "finish",
-      "action": "Done: Materialized 4 verdicts → 2 new articles + 2 amendments. 0 skipped, 0 unresolvable."
-    },
-    {
-      "ts": "2026-06-29 03:54:56",
-      "key": "materializer-1",
-      "label": "materializer-1",
-      "event": "start",
-      "action": "Walking pending Re-Reader verdicts and turning them into claims."
-    },
-    {
-      "ts": "2026-06-29 03:54:02",
+      "ts": "2026-06-29 04:19:46",
       "key": "triage-patroller",
       "label": "triage-patroller",
       "event": "finish",
-      "action": "Done: Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=0 re-reader=1 enricher=0). 3.0s."
+      "action": "Done: Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=5 re-reader=0 enricher=0). 3.0s."
     },
     {
-      "ts": "2026-06-29 03:53:59",
+      "ts": "2026-06-29 04:19:43",
       "key": "triage-patroller",
       "label": "triage-patroller",
       "event": "start",
       "action": "Scanning the shelf to assign work to mining bots."
     },
     {
-      "ts": "2026-06-29 03:53:52",
-      "key": "materializer-1",
-      "label": "materializer-1",
-      "event": "finish",
-      "action": "Done: Materialized 0 verdicts → 0 new articles + 0 amendments. 0 skipped, 0 unresolvable."
-    },
-    {
-      "ts": "2026-06-29 03:53:52",
+      "ts": "2026-06-29 04:19:36",
       "key": "catch-importer-1",
       "label": "catch-importer-1",
       "event": "start",
       "action": "Draining fleet/catch into clips (auto-trust=true)."
     },
     {
-      "ts": "2026-06-29 03:53:47",
+      "ts": "2026-06-29 04:18:42",
+      "key": "materializer-1",
+      "label": "materializer-1",
+      "event": "finish",
+      "action": "Done: Materialized 20 verdicts → 13 new articles + 7 amendments. 0 skipped, 0 unresolvable."
+    },
+    {
+      "ts": "2026-06-29 04:18:19",
       "key": "materializer-1",
       "label": "materializer-1",
       "event": "start",
       "action": "Walking pending Re-Reader verdicts and turning them into claims."
     },
     {
-      "ts": "2026-06-29 03:52:57",
-      "key": "diff-sentinel",
-      "label": "diff-sentinel",
-      "event": "start",
-      "action": "Patrolling recent commits for cite loss and hedge rise."
-    },
-    {
-      "ts": "2026-06-29 03:52:35",
-      "key": "materializer-1",
-      "label": "materializer-1",
+      "ts": "2026-06-29 04:15:13",
+      "key": "weaver",
+      "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Materialized 0 verdicts → 0 new articles + 0 amendments. 0 skipped, 0 unresolvable."
+      "action": "Done: Putting Abu Zubaydah back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 03:52:19",
-      "key": "materializer-1",
-      "label": "materializer-1",
-      "event": "start",
-      "action": "Walking pending Re-Reader verdicts and turning them into claims."
-    },
-    {
-      "ts": "2026-06-29 03:52:17",
-      "key": "indexer",
-      "label": "Indexer",
+      "ts": "2026-06-29 04:13:36",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
       "event": "finish",
-      "action": "Done: Rebuilt 2 of 2 indexes."
+      "action": "Done: Filed 7 claims into 7 articles (commit 67ef094). hash→837335e3"
     },
     {
-      "ts": "2026-06-29 03:52:17",
+      "ts": "2026-06-29 04:13:29",
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "event": "start",
       "action": "Collecting passed claims for filing."
+    },
+    {
+      "ts": "2026-06-29 04:12:44",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-06-29 04:12:44",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Putting Abu Zubaydah Capture back in the inbox for now."
+    },
+    {
+      "ts": "2026-06-29 04:12:38",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-06-29 04:12:38",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Putting Aipac back in the inbox for now."
+    },
+    {
+      "ts": "2026-06-29 04:12:29",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Aipac — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-06-29 04:12:29",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Putting Ahmed Chalabi back in the inbox for now."
+    },
+    {
+      "ts": "2026-06-29 04:11:24",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-06-29 04:11:24",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Putting Afghan Heroin Policy back in the inbox for now."
+    },
+    {
+      "ts": "2026-06-29 04:11:15",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Afghan Heroin Policy — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-06-29 04:11:14",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Mount Weather — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-29 04:11:14",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Mount Weather — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-06-29 04:11:08",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Mahmud — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-29 04:11:08",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Mahmud — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-06-29 04:11:01",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Hypnosis Operation Walk In — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-29 04:11:01",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Hypnosis Operation Walk In — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-06-29 04:10:55",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Double Agent Marriott Trap — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-29 04:10:55",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Double Agent Marriott Trap — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-06-29 04:10:49",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Admiral Crowe — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-29 04:10:49",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Admiral Crowe — looking for peer articles to cross-link."
     }
   ],
   "last_cycle": {
-    "id": 465,
-    "started_at": "2026-06-29 04:09:40",
-    "ended_at": "2026-06-29 04:09:40",
-    "claims_merged": 0,
-    "articles_touched": 0,
-    "commit_sha": null,
+    "id": 466,
+    "started_at": "2026-06-29 04:13:29",
+    "ended_at": "2026-06-29 04:13:36",
+    "claims_merged": 7,
+    "articles_touched": 7,
+    "commit_sha": "67ef09411f6130ab93cbe1102232635c67e516a7",
     "status": "committed"
   },
   "counts": {
@@ -384,11 +384,11 @@
   ],
   "orders_today": {
     "date": "2026-06-29",
-    "generated_at": "2026-06-29T02:23:28.087Z",
+    "generated_at": "2026-06-29T04:09:41.478Z",
     "goal": 500000,
-    "total_words": 217904,
-    "gap": 282096,
-    "days_at_2k_per_day": 142,
+    "total_words": 218102,
+    "gap": 281898,
+    "days_at_2k_per_day": 141,
     "priority_transcripts": [
       "2026-05-25-john-kiriakou-podcast-cia-john-kiriakou-new-posdcast-2",
       "2025-06-17-mario-nawfal-ex-cia-agent-john-kiriakou-on-israel-iran-mossad-middle-",
@@ -449,11 +449,11 @@
       "tulsi-gabbard",
       "mass-surveillance",
       "thin-thread",
-      "elizabeth-rouser",
       "fort-gordon",
       "sweat-lodge",
       "lynn-buchanan",
-      "presidents-daily-brief"
+      "presidents-daily-brief",
+      "fbi-arrest-strategies"
     ],
     "under_served_transcripts": [
       "2026-01-29-bidoun-waraq-how-cia-runs-world",
@@ -467,12 +467,12 @@
       "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
       "2025-06-01-austin-and-matt-11-inside-the-cia-whistleblowers-war-crimes-and-blind"
     ],
-    "directive": "TODAY'S ORDERS (2026-06-29): The bureau is at 217,904 words — 282,096 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
+    "directive": "TODAY'S ORDERS (2026-06-29): The bureau is at 218,102 words — 281,898 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
   },
   "office_state": {
     "day": "2026-06-29",
     "last_probe": {
-      "at": "2026-06-29T03:56:01.057Z",
+      "at": "2026-06-29T04:20:28.834Z",
       "results": [
         {
           "id": "groq:gpt-oss-120b",
@@ -503,7 +503,7 @@
       ]
     },
     "calls_today": 4,
-    "cost_today": 0.00010415000000000001,
+    "cost_today": 0.00011495,
     "dead_keys": 0
   }
 }
