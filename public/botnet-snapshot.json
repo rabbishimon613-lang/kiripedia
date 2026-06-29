@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T10:08:20.766Z",
+  "generated_at": "2026-06-29T10:15:44.861Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,281 +62,281 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 10:06:08"
+      "ts": "2026-06-29 10:13:23"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 10:06:09"
+      "ts": "2026-06-29 10:13:23"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-06-29 10:06:13"
+      "ts": "2026-06-29 10:13:28"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 10:07:01"
+      "ts": "2026-06-29 10:14:15"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Imran Khan — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Julian Assange Wikileaks Role — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 10:07:46"
+      "ts": "2026-06-29 10:15:10"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 10:08:14"
+      "ts": "2026-06-29 10:15:38"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "action": "Done: Reviewed every medium article — none read raggy this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 10:08:19"
+      "ts": "2026-06-29 10:15:43"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2026 04 27 Tucker Carlson Iran False Flags transcript aside — will retry next cycle.",
+      "action": "Done: Set the 2022 05 23 Danny Jones Cia Spy Betrayed transcript aside — will retry next cycle.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 10:06:53"
+      "ts": "2026-06-29 10:14:08"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix).",
       "handoff_to": null,
-      "ts": "2026-06-29 10:08:19"
+      "ts": "2026-06-29 10:15:43"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-06-29 10:08:20",
+      "ts": "2026-06-29 10:15:44",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-06-29 10:08:19",
+      "ts": "2026-06-29 10:15:44",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-06-29 10:08:19",
+      "ts": "2026-06-29 10:15:43",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
       "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix)."
     },
     {
-      "ts": "2026-06-29 10:08:19",
+      "ts": "2026-06-29 10:15:43",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-06-29 10:08:14",
+      "ts": "2026-06-29 10:15:38",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 10:08:10",
+      "ts": "2026-06-29 10:15:34",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 10:08:10",
+      "ts": "2026-06-29 10:15:34",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ali Soufan back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 10:08:07",
+      "ts": "2026-06-29 10:15:31",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 10:08:07",
+      "ts": "2026-06-29 10:15:31",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Aldrich Ames back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 10:08:03",
+      "ts": "2026-06-29 10:15:28",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aldrich Ames — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 10:08:03",
+      "ts": "2026-06-29 10:15:28",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Aipac back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 10:08:00",
+      "ts": "2026-06-29 10:15:24",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aipac — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 10:08:00",
+      "ts": "2026-06-29 10:15:24",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ahmed Chalabi back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 10:07:56",
+      "ts": "2026-06-29 10:15:21",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 10:07:56",
+      "ts": "2026-06-29 10:15:21",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Afghan Heroin Policy back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 10:07:53",
+      "ts": "2026-06-29 10:15:17",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Afghan Heroin Policy — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 10:07:53",
+      "ts": "2026-06-29 10:15:17",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Abu Zubaydah back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 10:07:50",
+      "ts": "2026-06-29 10:15:14",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 10:07:50",
+      "ts": "2026-06-29 10:15:14",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Abu Zubaydah Capture back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 10:07:46",
+      "ts": "2026-06-29 10:15:10",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 10:07:46",
+      "ts": "2026-06-29 10:15:10",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Imran Khan — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Julian Assange Wikileaks Role — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 10:07:46",
+      "ts": "2026-06-29 10:15:10",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Imran Khan — looking for peer articles to cross-link."
+      "action": "Opened Julian Assange Wikileaks Role — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 10:07:44",
+      "ts": "2026-06-29 10:15:09",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Ilhan Omar — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Trump Iran Ceasefire Efforts — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 10:07:44",
+      "ts": "2026-06-29 10:15:09",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Ilhan Omar — looking for peer articles to cross-link."
+      "action": "Opened Trump Iran Ceasefire Efforts — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 10:07:43",
+      "ts": "2026-06-29 10:15:07",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Hawala System — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Julian Assange Secure Drop — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 10:07:43",
+      "ts": "2026-06-29 10:15:07",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Hawala System — looking for peer articles to cross-link."
+      "action": "Opened Julian Assange Secure Drop — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 10:07:41",
+      "ts": "2026-06-29 10:15:06",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Government Accountability Project — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Julian Assange Political Prisoner — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 10:07:41",
+      "ts": "2026-06-29 10:15:06",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Government Accountability Project — looking for peer articles to cross-link."
+      "action": "Opened Julian Assange Political Prisoner — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 10:07:40",
+      "ts": "2026-06-29 10:15:05",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Giuliani Pardon Solicitation — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Julian Assange — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 10:07:40",
+      "ts": "2026-06-29 10:15:05",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Giuliani Pardon Solicitation — looking for peer articles to cross-link."
+      "action": "Opened Julian Assange — looking for peer articles to cross-link."
     }
   ],
   "last_cycle": {
-    "id": 20,
-    "started_at": "2026-06-29 10:06:09",
-    "ended_at": "2026-06-29 10:06:09",
+    "id": 21,
+    "started_at": "2026-06-29 10:13:23",
+    "ended_at": "2026-06-29 10:13:23",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
