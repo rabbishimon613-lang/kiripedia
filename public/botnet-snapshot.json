@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T07:26:52.783Z",
+  "generated_at": "2026-06-29T08:27:15.242Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -11,9 +11,9 @@
     {
       "key": "npp",
       "label": "New Page Patroller",
-      "action": "Done: Checked the lead queue — no new clips today.",
+      "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 07:23:56"
+      "ts": null
     },
     {
       "key": "source_auth",
@@ -62,293 +62,293 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 07:23:25"
+      "ts": "2026-06-29 08:23:29"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 07:26:09"
+      "ts": "2026-06-29 08:23:29"
     },
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "idle",
+      "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-29 08:23:33"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Swept the article shelf — every gap was already filled this round.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-29 08:24:22"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Searched the shelf for Church Committee Mk Ultra Investigation — it's a true orphan so far.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-29 08:25:18"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-29 08:25:46"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Pinning John Kerry back on the corkboard. Not the moment.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-29 08:27:14"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "idle",
-      "handoff_to": null,
-      "ts": null
+      "action": "Done: Set the 2021 05 12 Howie Hawkins Greensocialist Notes 23 Whistleblowers With John Kiriak transcript aside — will retry next cycle.",
+      "handoff_to": "coordinator",
+      "ts": "2026-06-29 08:24:15"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
-      "action": "idle",
+      "action": "Done: Went through 50. 34 of them need a word about their tone (119 things to fix).",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-06-29 08:27:14"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-06-29 07:26:09",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
-      "event": "start",
-      "action": "Collecting passed claims for filing."
-    },
-    {
-      "ts": "2026-06-29 07:25:19",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
+      "ts": "2026-06-29 08:27:15",
+      "key": "image-fetcher-1",
+      "label": "image-fetcher-1",
       "event": "finish",
-      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
+      "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-06-29 07:25:09",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
+      "ts": "2026-06-29 08:27:14",
+      "key": "image-fetcher-1",
+      "label": "image-fetcher-1",
       "event": "start",
-      "action": "Probing LLM providers, refreshing routing table."
+      "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-06-29 07:23:56",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "start",
-      "action": "Triaging up to 20 new clips."
-    },
-    {
-      "ts": "2026-06-29 07:21:52",
-      "key": "materializer-1",
-      "label": "materializer-1",
-      "event": "start",
-      "action": "Walking pending Re-Reader verdicts and turning them into claims."
-    },
-    {
-      "ts": "2026-06-29 07:21:47",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "start",
-      "action": "Draining fleet/catch into clips (auto-trust=true)."
-    },
-    {
-      "ts": "2026-06-29 07:19:57",
-      "key": "triage-patroller",
-      "label": "triage-patroller",
+      "ts": "2026-06-29 08:27:14",
+      "key": "mouth_sentry",
+      "label": "Mouth Sentry",
       "event": "finish",
-      "action": "Done: Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=5 re-reader=0 enricher=0). 3.6s."
+      "action": "Done: Went through 50. 34 of them need a word about their tone (119 things to fix)."
     },
     {
-      "ts": "2026-06-29 07:19:53",
-      "key": "triage-patroller",
-      "label": "triage-patroller",
+      "ts": "2026-06-29 08:27:14",
+      "key": "mouth_sentry",
+      "label": "Mouth Sentry",
       "event": "start",
-      "action": "Scanning the shelf to assign work to mining bots."
+      "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-06-29 07:17:25",
-      "key": "calendar-keeper",
-      "label": "calendar-keeper",
-      "event": "start",
-      "action": "Walking the calendar across 17 sources."
-    },
-    {
-      "ts": "2026-06-29 07:16:26",
-      "key": "prospector",
-      "label": "Transcript Prospector",
+      "ts": "2026-06-29 08:27:14",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Set the 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing transcript aside — will retry next cycle."
+      "action": "Done: Pinning John Kerry back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 07:15:24",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
+      "ts": "2026-06-29 08:27:10",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened John Kerry — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-29 08:27:10",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
+      "action": "Done: Pinning Doing Time Like A Spy back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 07:15:13",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
+      "ts": "2026-06-29 08:27:07",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Probing LLM providers, refreshing routing table."
+      "action": "Opened Doing Time Like A Spy — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 07:14:57",
-      "key": "prospector",
-      "label": "Transcript Prospector",
-      "event": "start",
-      "action": "Opened the 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing transcript — hunting for unmined claims."
-    },
-    {
-      "ts": "2026-06-29 07:14:53",
-      "key": "prospector",
-      "label": "Transcript Prospector",
+      "ts": "2026-06-29 08:27:07",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Set the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript aside — will retry next cycle."
+      "action": "Done: Pinning Brian Ross back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 07:14:08",
-      "key": "prospector",
-      "label": "Transcript Prospector",
+      "ts": "2026-06-29 08:27:03",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened the 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle  transcript — hunting for unmined claims."
+      "action": "Opened Brian Ross — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 07:13:45",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "start",
-      "action": "Triaging up to 20 new clips."
-    },
-    {
-      "ts": "2026-06-29 07:13:39",
-      "key": "materializer-1",
-      "label": "materializer-1",
-      "event": "start",
-      "action": "Walking pending Re-Reader verdicts and turning them into claims."
-    },
-    {
-      "ts": "2026-06-29 07:12:29",
-      "key": "indexer",
-      "label": "Indexer",
+      "ts": "2026-06-29 08:27:03",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Rebuilt 2 of 2 indexes."
+      "action": "Done: Pinning Robert Hanssen back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 07:12:25",
-      "key": "indexer",
-      "label": "Indexer",
+      "ts": "2026-06-29 08:27:00",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Rebuilding the date and mentions indexes."
+      "action": "Opened Robert Hanssen — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 07:12:02",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
+      "ts": "2026-06-29 08:27:00",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Filed 1 claims into 1 articles (commit 7ff8908). hash→c1628958"
+      "action": "Done: Pinning Senate Torture Report back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 07:11:38",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
+      "ts": "2026-06-29 08:26:56",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Collecting passed claims for filing."
+      "action": "Opened Senate Torture Report — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 07:11:26",
+      "ts": "2026-06-29 08:26:56",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Pinning Jose Rodriguez back on the corkboard. Not the moment."
+    },
+    {
+      "ts": "2026-06-29 08:26:53",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Jose Rodriguez — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-29 08:26:53",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Pinning Vault 7 back on the corkboard. Not the moment."
+    },
+    {
+      "ts": "2026-06-29 08:26:50",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Vault 7 — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-29 08:26:50",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Threw out my pass on Jason Leopold — I lost 4 direct Kiriakou quotes. Unacceptable."
+    },
+    {
+      "ts": "2026-06-29 08:26:30",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Jason Leopold — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-29 08:26:30",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Threw out my pass on Aipac — I dropped 16 footnotes. Unacceptable."
+    },
+    {
+      "ts": "2026-06-29 08:26:15",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Aipac — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-29 08:26:15",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "finish",
+      "action": "Done: Threw out my pass on Saddam Hussein — I dropped 15 footnotes. Unacceptable."
+    },
+    {
+      "ts": "2026-06-29 08:25:51",
+      "key": "reweaver",
+      "label": "Tapestry Reweaver",
+      "event": "start",
+      "action": "Opened Saddam Hussein — the prose reads choppy, rewriting."
+    },
+    {
+      "ts": "2026-06-29 08:25:46",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Putting Abu Zubaydah back in the inbox for now."
+      "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 07:11:23",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "start",
-      "action": "Draining fleet/catch into clips (auto-trust=true)."
-    },
-    {
-      "ts": "2026-06-29 07:10:56",
+      "ts": "2026-06-29 08:25:42",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
-      "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
+      "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 07:10:56",
+      "ts": "2026-06-29 08:25:42",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Putting Abu Zubaydah Capture back in the inbox for now."
+      "action": "Done: Putting Ali Soufan back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 07:10:42",
+      "ts": "2026-06-29 08:25:39",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
-      "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
+      "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 07:10:41",
+      "ts": "2026-06-29 08:25:39",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Putting Aipac back in the inbox for now."
+      "action": "Done: Putting Aldrich Ames back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 07:10:28",
+      "ts": "2026-06-29 08:25:35",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
-      "action": "Pulled up Aipac — drafting it from the transcripts."
-    },
-    {
-      "ts": "2026-06-29 07:10:28",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Putting Ahmed Chalabi back in the inbox for now."
-    },
-    {
-      "ts": "2026-06-29 07:10:22",
-      "key": "shape-auditor",
-      "label": "shape-auditor",
-      "event": "finish",
-      "action": "Done: Audit: 0 articles flagged for TOC convergence; 0 weaver briefs issued."
+      "action": "Pulled up Aldrich Ames — drafting it from the transcripts."
     }
   ],
   "last_cycle": {
-    "id": 479,
-    "started_at": "2026-06-29 07:26:09",
-    "ended_at": "2026-06-29 07:26:09",
+    "id": 7,
+    "started_at": "2026-06-29 08:23:29",
+    "ended_at": "2026-06-29 08:23:29",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
     "status": "committed"
   },
   "counts": {
-    "leads_pending": 1,
+    "leads_pending": 0,
     "triaged_on": 0,
     "transcribed": 0,
     "catalogued": 0,
-    "published": 18,
-    "quarantined_claims": 163,
+    "published": 0,
+    "quarantined_claims": 0,
     "quarantined_clips": 0
   },
   "words_today": 0,
@@ -359,7 +359,7 @@
     },
     {
       "date": "2026-06-24",
-      "words": 917
+      "words": 0
     },
     {
       "date": "2026-06-25",
@@ -469,41 +469,5 @@
     ],
     "directive": "TODAY'S ORDERS (2026-06-29): The bureau is at 222,825 words — 277,175 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
   },
-  "office_state": {
-    "day": "2026-06-29",
-    "last_probe": {
-      "at": "2026-06-29T07:25:19.633Z",
-      "results": [
-        {
-          "id": "groq:gpt-oss-120b",
-          "status": "ok",
-          "sample": "ok"
-        },
-        {
-          "id": "groq:gpt-oss-20b",
-          "status": "ok",
-          "sample": "ok"
-        },
-        {
-          "id": "groq:llama-4-scout",
-          "status": "ok",
-          "sample": "ok"
-        },
-        {
-          "id": "groq:llama-3.3-70b",
-          "status": "ok",
-          "sample": "ok"
-        },
-        {
-          "id": "cerebras:qwen-3-coder",
-          "status": "fail",
-          "code": 404,
-          "msg": "HTTP 404: {\"message\":\"Model qwen-3-coder-480b does not exist or you do not have access to it.\",\"type\":\"not_found_error\","
-        }
-      ]
-    },
-    "calls_today": 4,
-    "cost_today": 0.00009995000000000002,
-    "dead_keys": 0
-  }
+  "office_state": null
 }
