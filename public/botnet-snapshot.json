@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T09:46:34.055Z",
+  "generated_at": "2026-06-29T09:53:59.335Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,281 +62,281 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 09:43:46"
+      "ts": "2026-06-29 09:51:35"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 09:43:46"
+      "ts": "2026-06-29 09:51:35"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-06-29 09:43:51"
+      "ts": "2026-06-29 09:51:39"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 09:44:38"
+      "ts": "2026-06-29 09:52:26"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Sharon Scranage — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Senate Foreign Relations Committee — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 09:45:36"
+      "ts": "2026-06-29 09:53:14"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 09:46:03"
+      "ts": "2026-06-29 09:53:42"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Pinning Cia National Resources Division back on the corkboard. Not the moment.",
+      "action": "Done: Pinning George Tenet back on the corkboard. Not the moment.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 09:46:33"
+      "ts": "2026-06-29 09:53:58"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2025 06 04 Tucker Carlson Cia Torture Mk Ultra 911.sponsors transcript aside — will retry next cycle.",
+      "action": "Done: Set the 2025 12 11 Deep Focus Jack Barsky Kgb transcript aside — will retry next cycle.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 09:44:31"
+      "ts": "2026-06-29 09:52:19"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix).",
       "handoff_to": null,
-      "ts": "2026-06-29 09:46:33"
+      "ts": "2026-06-29 09:53:58"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-06-29 09:46:33",
+      "ts": "2026-06-29 09:53:59",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-06-29 09:46:33",
+      "ts": "2026-06-29 09:53:58",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-06-29 09:46:33",
+      "ts": "2026-06-29 09:53:58",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
       "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix)."
     },
     {
-      "ts": "2026-06-29 09:46:33",
+      "ts": "2026-06-29 09:53:58",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-06-29 09:46:33",
+      "ts": "2026-06-29 09:53:58",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Cia National Resources Division back on the corkboard. Not the moment."
+      "action": "Done: Pinning George Tenet back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:46:29",
+      "ts": "2026-06-29 09:53:54",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Cia National Resources Division — the prose reads choppy, rewriting."
+      "action": "Opened George Tenet — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:46:29",
+      "ts": "2026-06-29 09:53:54",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Camp David Final Talks back on the corkboard. Not the moment."
+      "action": "Done: Pinning Bojinka Plot back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:46:26",
+      "ts": "2026-06-29 09:53:51",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Camp David Final Talks — the prose reads choppy, rewriting."
+      "action": "Opened Bojinka Plot — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:46:26",
+      "ts": "2026-06-29 09:53:51",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Benazir Bhutto back on the corkboard. Not the moment."
+      "action": "Done: Pinning Tom Drake back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:46:22",
+      "ts": "2026-06-29 09:53:48",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Benazir Bhutto — the prose reads choppy, rewriting."
+      "action": "Opened Tom Drake — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:46:22",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Anwar Al Awlaki back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-06-29 09:46:19",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Anwar Al Awlaki — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-06-29 09:46:19",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Kuwait Oil Fires back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-06-29 09:46:16",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Kuwait Oil Fires — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-06-29 09:46:16",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Iran 12 Day War back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-06-29 09:46:12",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Iran 12 Day War — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-06-29 09:46:12",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Yemen Arrest back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-06-29 09:46:09",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Yemen Arrest — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-06-29 09:46:03",
+      "ts": "2026-06-29 09:53:42",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 09:46:00",
+      "ts": "2026-06-29 09:53:39",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 09:46:00",
+      "ts": "2026-06-29 09:53:39",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ali Soufan back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 09:45:57",
+      "ts": "2026-06-29 09:53:35",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 09:45:57",
+      "ts": "2026-06-29 09:53:35",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Aldrich Ames back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 09:45:53",
+      "ts": "2026-06-29 09:53:32",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aldrich Ames — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 09:45:53",
+      "ts": "2026-06-29 09:53:32",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Aipac back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 09:45:50",
+      "ts": "2026-06-29 09:53:28",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aipac — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 09:45:50",
+      "ts": "2026-06-29 09:53:28",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ahmed Chalabi back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 09:45:46",
+      "ts": "2026-06-29 09:53:25",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 09:45:46",
+      "ts": "2026-06-29 09:53:25",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Afghan Heroin Policy back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 09:45:43",
+      "ts": "2026-06-29 09:53:21",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Afghan Heroin Policy — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-06-29 09:53:21",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Putting Abu Zubaydah back in the inbox for now."
+    },
+    {
+      "ts": "2026-06-29 09:53:18",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-06-29 09:53:18",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Putting Abu Zubaydah Capture back in the inbox for now."
+    },
+    {
+      "ts": "2026-06-29 09:53:14",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-06-29 09:53:14",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Senate Foreign Relations Committee — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-29 09:53:14",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Senate Foreign Relations Committee — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-06-29 09:53:12",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Securedrop — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-06-29 09:53:12",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Securedrop — looking for peer articles to cross-link."
     }
   ],
   "last_cycle": {
-    "id": 17,
-    "started_at": "2026-06-29 09:43:46",
-    "ended_at": "2026-06-29 09:43:46",
+    "id": 18,
+    "started_at": "2026-06-29 09:51:35",
+    "ended_at": "2026-06-29 09:51:35",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
