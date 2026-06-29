@@ -195,7 +195,8 @@
     "new:fbi-arrest-strategies",
     "quote:john-kiriakou:43",
     "dyk:fci-loretto:3",
-    "quote:jose-rodriguez:1"
+    "quote:jose-rodriguez:1",
+    "dyk:sociopathic-tendencies:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -993,10 +994,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
