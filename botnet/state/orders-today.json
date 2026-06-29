@@ -1,10 +1,10 @@
 {
   "date": "2026-06-29",
-  "generated_at": "2026-06-29T02:23:28.087Z",
+  "generated_at": "2026-06-29T04:09:41.478Z",
   "goal": 500000,
-  "total_words": 217904,
-  "gap": 282096,
-  "days_at_2k_per_day": 142,
+  "total_words": 218102,
+  "gap": 281898,
+  "days_at_2k_per_day": 141,
   "priority_transcripts": [
     "2026-05-25-john-kiriakou-podcast-cia-john-kiriakou-new-posdcast-2",
     "2025-06-17-mario-nawfal-ex-cia-agent-john-kiriakou-on-israel-iran-mossad-middle-",
@@ -65,11 +65,11 @@
     "tulsi-gabbard",
     "mass-surveillance",
     "thin-thread",
-    "elizabeth-rouser",
     "fort-gordon",
     "sweat-lodge",
     "lynn-buchanan",
-    "presidents-daily-brief"
+    "presidents-daily-brief",
+    "fbi-arrest-strategies"
   ],
   "under_served_transcripts": [
     "2026-01-29-bidoun-waraq-how-cia-runs-world",
@@ -83,5 +83,5 @@
     "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-",
     "2025-06-01-austin-and-matt-11-inside-the-cia-whistleblowers-war-crimes-and-blind"
   ],
-  "directive": "TODAY'S ORDERS (2026-06-29): The bureau is at 217,904 words — 282,096 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
+  "directive": "TODAY'S ORDERS (2026-06-29): The bureau is at 218,102 words — 281,898 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
 }

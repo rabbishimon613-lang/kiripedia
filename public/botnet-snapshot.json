@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T03:53:33.189Z",
+  "generated_at": "2026-06-29T04:09:40.241Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -13,7 +13,7 @@
       "label": "New Page Patroller",
       "action": "Done: Checked the lead queue — no new clips today.",
       "handoff_to": null,
-      "ts": "2026-06-29 03:51:55"
+      "ts": "2026-06-29 04:09:39"
     },
     {
       "key": "source_auth",
@@ -62,21 +62,21 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 03:53:20"
+      "ts": "2026-06-29 04:09:39"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 03:52:17"
+      "ts": "2026-06-29 04:09:40"
     },
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "Done: Rebuilt 2 of 2 indexes.",
+      "action": "Rebuilding the date and mentions indexes.",
       "handoff_to": null,
-      "ts": "2026-06-29 03:52:17"
+      "ts": "2026-06-29 04:09:40"
     },
     {
       "key": "deepener",
@@ -102,9 +102,9 @@
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Threw out my pass on George Tenet — I dropped 13 footnotes. Unacceptable.",
-      "handoff_to": "coordinator",
-      "ts": "2026-06-29 03:50:41"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "prospector",
@@ -122,6 +122,181 @@
     }
   ],
   "recent_events": [
+    {
+      "ts": "2026-06-29 04:09:40",
+      "key": "indexer",
+      "label": "Indexer",
+      "event": "start",
+      "action": "Rebuilding the date and mentions indexes."
+    },
+    {
+      "ts": "2026-06-29 04:09:40",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
+      "event": "start",
+      "action": "Collecting passed claims for filing."
+    },
+    {
+      "ts": "2026-06-29 04:09:39",
+      "key": "npp",
+      "label": "New Page Patroller",
+      "event": "start",
+      "action": "Triaging up to 20 new clips."
+    },
+    {
+      "ts": "2026-06-29 04:09:39",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
+      "event": "start",
+      "action": "Probing LLM providers, refreshing routing table."
+    },
+    {
+      "ts": "2026-06-29 04:09:39",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "start",
+      "action": "Draining fleet/catch into clips (auto-trust=true)."
+    },
+    {
+      "ts": "2026-06-29 03:58:14",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "finish",
+      "action": "Done: Set the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript aside — will retry next cycle."
+    },
+    {
+      "ts": "2026-06-29 03:58:08",
+      "key": "re-reader-1",
+      "label": "re-reader-1",
+      "event": "finish",
+      "action": "Done: Re-Reader pass complete (briefs done=2 failed=0 fallback_sources=0 verdicts_written=0)."
+    },
+    {
+      "ts": "2026-06-29 03:57:58",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
+      "event": "finish",
+      "action": "Done: Filed 4 claims into 4 articles (commit 619cb98). hash→f6854636"
+    },
+    {
+      "ts": "2026-06-29 03:57:56",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
+      "event": "start",
+      "action": "Collecting passed claims for filing."
+    },
+    {
+      "ts": "2026-06-29 03:57:50",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "start",
+      "action": "Opened the 2025 01 19 Eyes Wide Open I Conor Ryan Ex Cia Spy John Kiriakou Hunting Terroris transcript — hunting for unmined claims."
+    },
+    {
+      "ts": "2026-06-29 03:57:47",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "finish",
+      "action": "Done: Set the 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing transcript aside — will retry next cycle."
+    },
+    {
+      "ts": "2026-06-29 03:57:24",
+      "key": "prospector",
+      "label": "Transcript Prospector",
+      "event": "start",
+      "action": "Opened the 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing transcript — hunting for unmined claims."
+    },
+    {
+      "ts": "2026-06-29 03:57:01",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
+      "event": "start",
+      "action": "Collecting passed claims for filing."
+    },
+    {
+      "ts": "2026-06-29 03:57:00",
+      "key": "materializer-1",
+      "label": "materializer-1",
+      "event": "finish",
+      "action": "Done: Materialized 4 verdicts → 2 new articles + 2 amendments. 0 skipped, 0 unresolvable."
+    },
+    {
+      "ts": "2026-06-29 03:56:44",
+      "key": "materializer-1",
+      "label": "materializer-1",
+      "event": "start",
+      "action": "Walking pending Re-Reader verdicts and turning them into claims."
+    },
+    {
+      "ts": "2026-06-29 03:56:01",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
+      "event": "finish",
+      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
+    },
+    {
+      "ts": "2026-06-29 03:55:55",
+      "key": "office-manager-1",
+      "label": "office-manager-1",
+      "event": "start",
+      "action": "Probing LLM providers, refreshing routing table."
+    },
+    {
+      "ts": "2026-06-29 03:55:31",
+      "key": "coordinator",
+      "label": "WikiProject Coordinator",
+      "event": "start",
+      "action": "Collecting passed claims for filing."
+    },
+    {
+      "ts": "2026-06-29 03:55:09",
+      "key": "materializer-1",
+      "label": "materializer-1",
+      "event": "finish",
+      "action": "Done: Materialized 4 verdicts → 2 new articles + 2 amendments. 0 skipped, 0 unresolvable."
+    },
+    {
+      "ts": "2026-06-29 03:54:56",
+      "key": "materializer-1",
+      "label": "materializer-1",
+      "event": "start",
+      "action": "Walking pending Re-Reader verdicts and turning them into claims."
+    },
+    {
+      "ts": "2026-06-29 03:54:02",
+      "key": "triage-patroller",
+      "label": "triage-patroller",
+      "event": "finish",
+      "action": "Done: Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=0 re-reader=1 enricher=0). 3.0s."
+    },
+    {
+      "ts": "2026-06-29 03:53:59",
+      "key": "triage-patroller",
+      "label": "triage-patroller",
+      "event": "start",
+      "action": "Scanning the shelf to assign work to mining bots."
+    },
+    {
+      "ts": "2026-06-29 03:53:52",
+      "key": "materializer-1",
+      "label": "materializer-1",
+      "event": "finish",
+      "action": "Done: Materialized 0 verdicts → 0 new articles + 0 amendments. 0 skipped, 0 unresolvable."
+    },
+    {
+      "ts": "2026-06-29 03:53:52",
+      "key": "catch-importer-1",
+      "label": "catch-importer-1",
+      "event": "start",
+      "action": "Draining fleet/catch into clips (auto-trust=true)."
+    },
+    {
+      "ts": "2026-06-29 03:53:47",
+      "key": "materializer-1",
+      "label": "materializer-1",
+      "event": "start",
+      "action": "Walking pending Re-Reader verdicts and turning them into claims."
+    },
     {
       "ts": "2026-06-29 03:52:57",
       "key": "diff-sentinel",
@@ -156,187 +331,12 @@
       "label": "WikiProject Coordinator",
       "event": "start",
       "action": "Collecting passed claims for filing."
-    },
-    {
-      "ts": "2026-06-29 03:52:14",
-      "key": "indexer",
-      "label": "Indexer",
-      "event": "start",
-      "action": "Rebuilding the date and mentions indexes."
-    },
-    {
-      "ts": "2026-06-29 03:51:55",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "start",
-      "action": "Triaging up to 20 new clips."
-    },
-    {
-      "ts": "2026-06-29 03:50:41",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Threw out my pass on George Tenet — I dropped 13 footnotes. Unacceptable."
-    },
-    {
-      "ts": "2026-06-29 03:50:23",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened George Tenet — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-06-29 03:50:23",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Threw out my pass on Bojinka Plot — I dropped 19 footnotes. Unacceptable."
-    },
-    {
-      "ts": "2026-06-29 03:50:01",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Bojinka Plot — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-06-29 03:50:01",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Threw out my pass on Tom Drake — I dropped 18 footnotes. Unacceptable."
-    },
-    {
-      "ts": "2026-06-29 03:49:22",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Tom Drake — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-06-29 03:45:45",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
-      "event": "finish",
-      "action": "Done: Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0."
-    },
-    {
-      "ts": "2026-06-29 03:45:40",
-      "key": "office-manager-1",
-      "label": "office-manager-1",
-      "event": "start",
-      "action": "Probing LLM providers, refreshing routing table."
-    },
-    {
-      "ts": "2026-06-29 03:44:24",
-      "key": "triage-patroller",
-      "label": "triage-patroller",
-      "event": "finish",
-      "action": "Done: Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=5 re-reader=1 enricher=0). 3.1s."
-    },
-    {
-      "ts": "2026-06-29 03:44:21",
-      "key": "triage-patroller",
-      "label": "triage-patroller",
-      "event": "start",
-      "action": "Scanning the shelf to assign work to mining bots."
-    },
-    {
-      "ts": "2026-06-29 03:43:50",
-      "key": "catch-importer-1",
-      "label": "catch-importer-1",
-      "event": "start",
-      "action": "Draining fleet/catch into clips (auto-trust=true)."
-    },
-    {
-      "ts": "2026-06-29 03:41:57",
-      "key": "npp",
-      "label": "New Page Patroller",
-      "event": "start",
-      "action": "Triaging up to 20 new clips."
-    },
-    {
-      "ts": "2026-06-29 03:39:21",
-      "key": "calendar-keeper",
-      "label": "calendar-keeper",
-      "event": "start",
-      "action": "Walking the calendar across 17 sources."
-    },
-    {
-      "ts": "2026-06-29 03:39:06",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Putting Abu Zubaydah back in the inbox for now."
-    },
-    {
-      "ts": "2026-06-29 03:38:06",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "start",
-      "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
-    },
-    {
-      "ts": "2026-06-29 03:38:06",
-      "key": "re-reader-1",
-      "label": "re-reader-1",
-      "event": "start",
-      "action": "Re-Reader walking stale passages under the current lens."
-    },
-    {
-      "ts": "2026-06-29 03:38:06",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Putting Abu Zubaydah Capture back in the inbox for now."
-    },
-    {
-      "ts": "2026-06-29 03:37:59",
-      "key": "coordinator",
-      "label": "WikiProject Coordinator",
-      "event": "start",
-      "action": "Collecting passed claims for filing."
-    },
-    {
-      "ts": "2026-06-29 03:37:38",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "start",
-      "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
-    },
-    {
-      "ts": "2026-06-29 03:37:38",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Threw out my draft of Aipac — came out shorter than I started."
-    },
-    {
-      "ts": "2026-06-29 03:37:22",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "start",
-      "action": "Pulled up Aipac — drafting it from the transcripts."
-    },
-    {
-      "ts": "2026-06-29 03:37:22",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "finish",
-      "action": "Done: Threw out my draft of Ahmed Chalabi — came out shorter than I started."
-    },
-    {
-      "ts": "2026-06-29 03:37:08",
-      "key": "weaver",
-      "label": "Article Weaver",
-      "event": "start",
-      "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
     }
   ],
   "last_cycle": {
-    "id": 461,
-    "started_at": "2026-06-29 03:52:17",
-    "ended_at": "2026-06-29 03:52:17",
+    "id": 465,
+    "started_at": "2026-06-29 04:09:40",
+    "ended_at": "2026-06-29 04:09:40",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -472,7 +472,7 @@
   "office_state": {
     "day": "2026-06-29",
     "last_probe": {
-      "at": "2026-06-29T03:45:45.439Z",
+      "at": "2026-06-29T03:56:01.057Z",
       "results": [
         {
           "id": "groq:gpt-oss-120b",
@@ -503,7 +503,7 @@
       ]
     },
     "calls_today": 4,
-    "cost_today": 0.00010715,
+    "cost_today": 0.00010415000000000001,
     "dead_keys": 0
   }
 }

@@ -1,26 +1,26 @@
 {
   "summary": {
-    "generated_at": "2026-06-29T03:21:39.167Z",
-    "articles_scanned": 329,
+    "generated_at": "2026-06-29T04:09:42.297Z",
+    "articles_scanned": 331,
     "attribution_tiers": {
-      "clean": 156,
+      "clean": 158,
       "within_calibration": 136,
       "outlier": 20,
       "severe_outlier": 17
     },
     "attribution_tier_pct": {
-      "clean": 47.4,
-      "within_calibration": 41.3,
-      "outlier": 6.1,
-      "severe_outlier": 5.2
+      "clean": 47.7,
+      "within_calibration": 41.1,
+      "outlier": 6,
+      "severe_outlier": 5.1
     },
     "hedge_articles": 11,
     "hedge_total_hits": 17,
-    "cite_total": 3800,
+    "cite_total": 3805,
     "cite_dead_source": 0,
-    "cite_ts_exact_or_near": 3788,
+    "cite_ts_exact_or_near": 3793,
     "cite_ts_miss_strict": 12,
-    "cite_ts_near_miss_within_31s": 349,
+    "cite_ts_near_miss_within_31s": 353,
     "cite_integrity_pct": 99.68,
     "outlier_articles": [
       {
@@ -645,6 +645,33 @@
         "ts_exact_or_near": 18,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "albert-stubblebine",
+      "bytes": 677,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -2633,8 +2660,8 @@
     },
     {
       "slug": "elizabeth-rouser",
-      "bytes": 608,
-      "cite_total": 1,
+      "bytes": 973,
+      "cite_total": 2,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -2650,11 +2677,11 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 1,
+        "total": 2,
         "dead_source": 0,
-        "ts_exact_or_near": 1,
+        "ts_exact_or_near": 2,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -7681,8 +7708,8 @@
     },
     {
       "slug": "project-stargate",
-      "bytes": 606,
-      "cite_total": 1,
+      "bytes": 1028,
+      "cite_total": 2,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -7698,11 +7725,11 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 1,
+        "total": 2,
         "dead_source": 0,
-        "ts_exact_or_near": 1,
+        "ts_exact_or_near": 2,
         "ts_miss_strict": 0,
-        "ts_near_miss_within_31s": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -8124,6 +8151,33 @@
         "ts_exact_or_near": 1,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 0,
+        "problems": []
+      }
+    },
+    {
+      "slug": "russell-tark",
+      "bytes": 625,
+      "cite_total": 1,
+      "attribution": {
+        "tier": "clean",
+        "total": 0,
+        "kiriakou_verb": 0,
+        "john_verb": 0,
+        "according_to": 0,
+        "per_kiriakou_in_body": 0,
+        "first_hit": null,
+        "samples": []
+      },
+      "hedges": {
+        "total": 0,
+        "by_kind": {}
+      },
+      "cite_integrity": {
+        "total": 1,
+        "dead_source": 0,
+        "ts_exact_or_near": 1,
+        "ts_miss_strict": 0,
+        "ts_near_miss_within_31s": 1,
         "problems": []
       }
     },
@@ -8867,8 +8921,8 @@
     },
     {
       "slug": "surveillance-detection-route",
-      "bytes": 15604,
-      "cite_total": 28,
+      "bytes": 10663,
+      "cite_total": 29,
       "attribution": {
         "tier": "clean",
         "total": 0,
@@ -8884,9 +8938,9 @@
         "by_kind": {}
       },
       "cite_integrity": {
-        "total": 28,
+        "total": 29,
         "dead_source": 0,
-        "ts_exact_or_near": 28,
+        "ts_exact_or_near": 29,
         "ts_miss_strict": 0,
         "ts_near_miss_within_31s": 1,
         "problems": []

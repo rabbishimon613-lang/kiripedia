@@ -2799,6 +2799,18 @@
       }
     ]
   },
+  "albert-stubblebine": {
+    "title": "Albert Stubblebine",
+    "aliases": [
+      "albert stubblebine",
+      "stubblebine"
+    ],
+    "total_mentions": 1,
+    "cited_sources_count": 1,
+    "uncited_mention_count": 0,
+    "uncited_sources": [],
+    "uncited_mentions": []
+  },
   "aldrich-ames": {
     "title": "Aldrich Ames",
     "aliases": [
@@ -34505,6 +34517,31 @@
     "uncited_mention_count": 0,
     "uncited_sources": [],
     "uncited_mentions": []
+  },
+  "russell-tark": {
+    "title": "Russell Tark",
+    "aliases": [
+      "russell tark",
+      "tark"
+    ],
+    "total_mentions": 3,
+    "cited_sources_count": 1,
+    "uncited_mention_count": 2,
+    "uncited_sources": [
+      "2023-11-19-dalton-fischer-kiriakou-part-2"
+    ],
+    "uncited_mentions": [
+      {
+        "source": "2023-11-19-dalton-fischer-kiriakou-part-2",
+        "timestamp": "33:15",
+        "snippet": "the door down splintered the door we run in it's these two kids I say kids they were both 18 years old from Tunisia they start crying we cough them behind their back one's got like snot coming down his nose one's asking if he can call his mom like no you can't call your mom so we take him and I said to Colonel Tark that was fraking easy that was easy it's the element of"
+      },
+      {
+        "source": "2023-11-19-dalton-fischer-kiriakou-part-2",
+        "timestamp": "1:02:42",
+        "snippet": "the hospital as they're driving by and we're hitting the ground and I said to I said to excuse me Colonel Tark I said if they realize how lightly armed we are we're dead can you get a helicopter in here and he said I think so so he calls 20 minutes later a helicopter lands in the parking lot so I I put my shirt up over"
+      }
+    ]
   },
   "sacha-baron-cohen": {
     "title": "Sacha Baron Cohen",
