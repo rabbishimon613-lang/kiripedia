@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T11:06:10.550Z",
+  "generated_at": "2026-06-29T11:13:13.660Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,281 +62,281 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 11:04:03"
+      "ts": "2026-06-29 11:11:12"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 11:04:03"
+      "ts": "2026-06-29 11:11:12"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-06-29 11:04:07"
+      "ts": "2026-06-29 11:11:17"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 11:04:54"
+      "ts": "2026-06-29 11:12:04"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Below Worlds End — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Church Committee Mk Ultra Investigation — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 11:05:36"
+      "ts": "2026-06-29 11:12:39"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 11:06:04"
+      "ts": "2026-06-29 11:13:07"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "action": "Done: Reviewed every medium article — none read raggy this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 11:06:09"
+      "ts": "2026-06-29 11:13:12"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2026 02 07 Michael Jaco Cia Whistleblower John Kiriakou And High Stakes Treason .sponsors transcript aside — will retry next cycle.",
+      "action": "Done: Set the 2026 04 27 Tucker Carlson Iran False Flags transcript aside — will retry next cycle.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 11:04:47"
+      "ts": "2026-06-29 11:11:57"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "action": "Done: Went through 1. 0 of them need a word about their tone (0 things to fix).",
       "handoff_to": null,
-      "ts": "2026-06-29 11:06:09"
+      "ts": "2026-06-29 11:13:12"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-06-29 11:06:10",
+      "ts": "2026-06-29 11:13:13",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-06-29 11:06:09",
+      "ts": "2026-06-29 11:13:12",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-06-29 11:06:09",
+      "ts": "2026-06-29 11:13:12",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
       "action": "Done: Went through 1. 0 of them need a word about their tone (0 things to fix)."
     },
     {
-      "ts": "2026-06-29 11:06:09",
+      "ts": "2026-06-29 11:13:12",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-06-29 11:06:04",
+      "ts": "2026-06-29 11:13:07",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 11:06:00",
+      "ts": "2026-06-29 11:13:03",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 11:06:00",
+      "ts": "2026-06-29 11:13:03",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ali Soufan back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 11:05:57",
+      "ts": "2026-06-29 11:13:00",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 11:05:57",
+      "ts": "2026-06-29 11:13:00",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Aldrich Ames back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 11:05:53",
+      "ts": "2026-06-29 11:12:56",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aldrich Ames — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 11:05:53",
+      "ts": "2026-06-29 11:12:56",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Aipac back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 11:05:50",
+      "ts": "2026-06-29 11:12:53",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aipac — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 11:05:50",
+      "ts": "2026-06-29 11:12:53",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ahmed Chalabi back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 11:05:47",
+      "ts": "2026-06-29 11:12:49",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 11:05:47",
+      "ts": "2026-06-29 11:12:49",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Afghan Heroin Policy back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 11:05:43",
+      "ts": "2026-06-29 11:12:46",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Afghan Heroin Policy — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 11:05:43",
+      "ts": "2026-06-29 11:12:46",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Abu Zubaydah back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 11:05:40",
+      "ts": "2026-06-29 11:12:43",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 11:05:40",
+      "ts": "2026-06-29 11:12:43",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Abu Zubaydah Capture back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 11:05:36",
+      "ts": "2026-06-29 11:12:39",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 11:05:36",
+      "ts": "2026-06-29 11:12:39",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Below Worlds End — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Church Committee Mk Ultra Investigation — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 11:05:36",
+      "ts": "2026-06-29 11:12:39",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Below Worlds End — looking for peer articles to cross-link."
+      "action": "Opened Church Committee Mk Ultra Investigation — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 11:05:34",
+      "ts": "2026-06-29 11:12:38",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Senate Foreign Relations Committee — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Chelsea Manning Emergence — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 11:05:34",
+      "ts": "2026-06-29 11:12:38",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Senate Foreign Relations Committee — looking for peer articles to cross-link."
+      "action": "Opened Chelsea Manning Emergence — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 11:05:33",
+      "ts": "2026-06-29 11:12:37",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Securedrop — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Chelsea Manning — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 11:05:33",
+      "ts": "2026-06-29 11:12:37",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Securedrop — looking for peer articles to cross-link."
+      "action": "Opened Chelsea Manning — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 11:05:32",
+      "ts": "2026-06-29 11:12:36",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Russell Tark — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Chaos Computer Club Wikileaks — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 11:05:32",
+      "ts": "2026-06-29 11:12:36",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Russell Tark — looking for peer articles to cross-link."
+      "action": "Opened Chaos Computer Club Wikileaks — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-06-29 11:05:31",
+      "ts": "2026-06-29 11:12:35",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Russell Targ — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Camp David Final Talks — it's a true orphan so far."
     },
     {
-      "ts": "2026-06-29 11:05:31",
+      "ts": "2026-06-29 11:12:35",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Russell Targ — looking for peer articles to cross-link."
+      "action": "Opened Camp David Final Talks — looking for peer articles to cross-link."
     }
   ],
   "last_cycle": {
-    "id": 28,
-    "started_at": "2026-06-29 11:04:03",
-    "ended_at": "2026-06-29 11:04:03",
+    "id": 29,
+    "started_at": "2026-06-29 11:11:12",
+    "ended_at": "2026-06-29 11:11:12",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
