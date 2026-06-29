@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T08:09:42.611Z",
+  "generated_at": "2026-06-29T08:18:26.737Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,271 +62,271 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 08:06:31"
+      "ts": "2026-06-29 08:14:44"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 08:06:31"
+      "ts": "2026-06-29 08:14:44"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-06-29 08:06:36"
+      "ts": "2026-06-29 08:14:48"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 08:07:23"
+      "ts": "2026-06-29 08:16:22"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Meredith Whittaker — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Plus 972 — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 08:08:22"
+      "ts": "2026-06-29 08:17:18"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 08:08:50"
+      "ts": "2026-06-29 08:17:46"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Pinning Rudy Giuliani back on the corkboard. Not the moment.",
+      "action": "Done: Pinning Khalid Sheikh Mohammed back on the corkboard. Not the moment.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 08:09:41"
+      "ts": "2026-06-29 08:18:25"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2026 02 07 Michael Jaco Cia Whistleblower John Kiriakou And High Stakes Treason .sponsors transcript aside — will retry next cycle.",
+      "action": "Done: Set the 2026 04 27 Tucker Carlson Iran False Flags transcript aside — will retry next cycle.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 08:07:16"
+      "ts": "2026-06-29 08:16:14"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "action": "Done: Went through 2. 0 of them need a word about their tone (0 things to fix).",
       "handoff_to": null,
-      "ts": "2026-06-29 08:09:41"
+      "ts": "2026-06-29 08:18:25"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-06-29 08:09:42",
+      "ts": "2026-06-29 08:18:26",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-06-29 08:09:41",
+      "ts": "2026-06-29 08:18:25",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-06-29 08:09:41",
+      "ts": "2026-06-29 08:18:25",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
       "action": "Done: Went through 2. 0 of them need a word about their tone (0 things to fix)."
     },
     {
-      "ts": "2026-06-29 08:09:41",
+      "ts": "2026-06-29 08:18:25",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-06-29 08:09:41",
+      "ts": "2026-06-29 08:18:25",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Rudy Giuliani back on the corkboard. Not the moment."
+      "action": "Done: Pinning Khalid Sheikh Mohammed back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 08:09:38",
+      "ts": "2026-06-29 08:18:22",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Rudy Giuliani — the prose reads choppy, rewriting."
+      "action": "Opened Khalid Sheikh Mohammed — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 08:09:38",
+      "ts": "2026-06-29 08:18:22",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Extraordinary Rendition back on the corkboard. Not the moment."
+      "action": "Done: Pinning Ahmed Chalabi back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 08:09:34",
+      "ts": "2026-06-29 08:18:18",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Extraordinary Rendition — the prose reads choppy, rewriting."
+      "action": "Opened Ahmed Chalabi — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 08:09:34",
+      "ts": "2026-06-29 08:18:18",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Jonathan Pollard back on the corkboard. Not the moment."
+      "action": "Done: Pinning Sleep Deprivation back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 08:09:31",
+      "ts": "2026-06-29 08:18:15",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Jonathan Pollard — the prose reads choppy, rewriting."
+      "action": "Opened Sleep Deprivation — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 08:09:31",
+      "ts": "2026-06-29 08:18:15",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Mohamedou Ould Slahi back on the corkboard. Not the moment."
+      "action": "Done: Pinning Mitchell And Jessen back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 08:09:28",
+      "ts": "2026-06-29 08:18:12",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Mohamedou Ould Slahi — the prose reads choppy, rewriting."
+      "action": "Opened Mitchell And Jessen — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 08:09:28",
+      "ts": "2026-06-29 08:18:12",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Espionage Act back on the corkboard. Not the moment."
+      "action": "Done: Pinning Lie Detection back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 08:09:24",
+      "ts": "2026-06-29 08:18:08",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Espionage Act — the prose reads choppy, rewriting."
+      "action": "Opened Lie Detection — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 08:09:24",
+      "ts": "2026-06-29 08:18:08",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Gina Haspel back on the corkboard. Not the moment."
+      "action": "Done: Pinning Pick The Man Principle back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 08:09:21",
+      "ts": "2026-06-29 08:18:05",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Gina Haspel — the prose reads choppy, rewriting."
+      "action": "Opened Pick The Man Principle — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 08:09:21",
+      "ts": "2026-06-29 08:18:05",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Abu Zubaydah Capture back on the corkboard. Not the moment."
+      "action": "Done: Pinning Gerald Post back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 08:09:17",
+      "ts": "2026-06-29 08:18:01",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Abu Zubaydah Capture — the prose reads choppy, rewriting."
+      "action": "Opened Gerald Post — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 08:09:17",
+      "ts": "2026-06-29 08:18:01",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Carlos The Jackal back on the corkboard. Not the moment."
+      "action": "Done: Pinning The Farm back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 08:09:14",
+      "ts": "2026-06-29 08:17:58",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Carlos The Jackal — the prose reads choppy, rewriting."
+      "action": "Opened The Farm — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 08:09:14",
+      "ts": "2026-06-29 08:17:58",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Eli Cohen back on the corkboard. Not the moment."
+      "action": "Done: Pinning Cold Cell back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 08:09:10",
+      "ts": "2026-06-29 08:17:55",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Eli Cohen — the prose reads choppy, rewriting."
+      "action": "Opened Cold Cell — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 08:09:10",
+      "ts": "2026-06-29 08:17:55",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Threw out my pass on Waterboarding — I lost 6 direct Kiriakou quotes. Unacceptable."
+      "action": "Done: Pinning Ali Soufan back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 08:08:55",
+      "ts": "2026-06-29 08:17:51",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Waterboarding — the prose reads choppy, rewriting."
+      "action": "Opened Ali Soufan — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 08:08:50",
+      "ts": "2026-06-29 08:17:46",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 08:08:46",
+      "ts": "2026-06-29 08:17:42",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 08:08:46",
+      "ts": "2026-06-29 08:17:42",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ali Soufan back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 08:08:43",
+      "ts": "2026-06-29 08:17:39",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 08:08:43",
+      "ts": "2026-06-29 08:17:39",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Aldrich Ames back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 08:08:39",
+      "ts": "2026-06-29 08:17:35",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
@@ -334,9 +334,9 @@
     }
   ],
   "last_cycle": {
-    "id": 5,
-    "started_at": "2026-06-29 08:06:31",
-    "ended_at": "2026-06-29 08:06:31",
+    "id": 6,
+    "started_at": "2026-06-29 08:14:44",
+    "ended_at": "2026-06-29 08:14:44",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
