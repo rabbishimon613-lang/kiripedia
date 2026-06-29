@@ -1,8 +1,8 @@
 {
-  "cycle_id": 466,
-  "started_at": "2026-06-29 04:13:29",
-  "ended_at": "2026-06-29 04:13:36",
-  "article_set_hash": "837335e3c61eb9dc4f3756216265ed4b90efa28e8f68542e7e7e1e9d05df4a7a",
+  "cycle_id": 467,
+  "started_at": "2026-06-29 04:25:35",
+  "ended_at": "2026-06-29 04:25:50",
+  "article_set_hash": "6198603dfd44fe63571902dbb4080c584dd7b032b580936197a34bb6207da4ef",
   "roster": [
     {
       "role": "channel-crawler",
@@ -65,28 +65,28 @@
       "lane": "adjudication",
       "state": "idle",
       "working_on": "Checked the claim queue — empty, all caught up.",
-      "last_action_at": "2026-06-29 04:19:32"
+      "last_action_at": "2026-06-29 04:40:15"
     },
     {
       "role": "discretion-warden",
       "lane": "adjudication",
       "state": "idle",
       "working_on": "No claims awaiting discretion review.",
-      "last_action_at": "2026-06-29 04:23:20"
+      "last_action_at": "2026-06-29 04:38:02"
     },
     {
       "role": "first-third-splitter",
       "lane": "adjudication",
       "state": "idle",
       "working_on": "No claims awaiting perspective split.",
-      "last_action_at": "2026-06-29 04:23:22"
+      "last_action_at": "2026-06-29 04:36:55"
     },
     {
       "role": "coordinator",
       "lane": "filing",
       "state": "idle",
-      "working_on": "Filed 7 claims into 7 articles (commit 67ef094). hash→837335e3",
-      "last_action_at": "2026-06-29 04:13:36"
+      "working_on": "Filed 20 claims into 17 articles (commit dd9c9a8). hash→6198603d",
+      "last_action_at": "2026-06-29 04:25:50"
     },
     {
       "role": "triage-patroller",
@@ -100,21 +100,21 @@
       "lane": "enhancement",
       "state": "idle",
       "working_on": "Swept the article shelf — every gap was already filled this round.",
-      "last_action_at": "2026-06-29 04:10:38"
+      "last_action_at": "2026-06-29 04:33:33"
     },
     {
       "role": "enricher",
       "lane": "enhancement",
       "state": "working",
-      "working_on": "Opened Mount Weather — looking for peer articles to cross-link.",
-      "last_action_at": "2026-06-29 04:11:14"
+      "working_on": "Opened Afghan War Logs — looking for peer articles to cross-link.",
+      "last_action_at": "2026-06-29 04:34:05"
     },
     {
       "role": "weaver",
       "lane": "enhancement",
       "state": "idle",
       "working_on": "Putting Abu Zubaydah back in the inbox for now.",
-      "last_action_at": "2026-06-29 04:15:13"
+      "last_action_at": "2026-06-29 04:37:53"
     },
     {
       "role": "reweaver",
@@ -127,8 +127,8 @@
       "role": "diff-sentinel",
       "lane": "patrol",
       "state": "idle",
-      "working_on": "Patrol: 0 cite-removal incidents, 0 hedge-rise incidents across 2 commits.",
-      "last_action_at": "2026-06-29 04:09:41"
+      "working_on": "Patrol: 0 cite-removal incidents, 0 hedge-rise incidents across 4 commits.",
+      "last_action_at": "2026-06-29 04:40:17"
     },
     {
       "role": "shape-auditor",
@@ -147,9 +147,9 @@
     {
       "role": "re-reader",
       "lane": "learning",
-      "state": "working",
-      "working_on": "Re-Reader walking stale passages under the current lens.",
-      "last_action_at": "2026-06-29 04:09:40"
+      "state": "idle",
+      "working_on": "Re-Reader pass complete (briefs done=2 failed=0 fallback_sources=0 verdicts_written=0).",
+      "last_action_at": "2026-06-29 04:26:38"
     },
     {
       "role": "contradiction-scout",
@@ -169,19 +169,51 @@
   "board": {
     "backlog": [
       {
-        "brief_id": "024c2ba9",
+        "brief_id": "121cbfa9",
         "worker": "weaver",
         "goal": "Re-weave abu-zubaydah-capture: large article, TOC may converge with peers.",
         "slug": "abu-zubaydah-capture",
-        "created_at": "2026-06-29 04:19:46",
+        "created_at": "2026-06-29 04:38:53",
         "claimed_by": null
       },
       {
-        "brief_id": "a8d9a15c",
+        "brief_id": "aeee8e53",
         "worker": "weaver",
         "goal": "Re-weave abu-zubaydah: large article, TOC may converge with peers.",
         "slug": "abu-zubaydah",
-        "created_at": "2026-06-29 04:19:46",
+        "created_at": "2026-06-29 04:38:53",
+        "claimed_by": null
+      },
+      {
+        "brief_id": "03503189",
+        "worker": "weaver",
+        "goal": "Re-weave afghan-heroin-policy: large article, TOC may converge with peers.",
+        "slug": "afghan-heroin-policy",
+        "created_at": "2026-06-29 04:38:53",
+        "claimed_by": null
+      },
+      {
+        "brief_id": "078f74d9",
+        "worker": "weaver",
+        "goal": "Re-weave ahmed-chalabi: large article, TOC may converge with peers.",
+        "slug": "ahmed-chalabi",
+        "created_at": "2026-06-29 04:38:53",
+        "claimed_by": null
+      },
+      {
+        "brief_id": "16db81b3",
+        "worker": "weaver",
+        "goal": "Re-weave aipac: large article, TOC may converge with peers.",
+        "slug": "aipac",
+        "created_at": "2026-06-29 04:38:53",
+        "claimed_by": null
+      },
+      {
+        "brief_id": "746ef7f5",
+        "worker": "re-reader",
+        "goal": "Walk 2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange under hash 6198603d.",
+        "slug": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange",
+        "created_at": "2026-06-29 04:29:14",
         "claimed_by": null
       },
       {
@@ -222,30 +254,6 @@
         "goal": "Walk 2026-02-18-barracks-media-inc-john-kiriakou-whistleblower-inside-the-cia-s-tortu under hash 501cc153.",
         "slug": "2026-02-18-barracks-media-inc-john-kiriakou-whistleblower-inside-the-cia-s-tortu",
         "created_at": "2026-06-29 03:54:02",
-        "claimed_by": null
-      },
-      {
-        "brief_id": "6a2bed5d",
-        "worker": "weaver",
-        "goal": "Re-weave afghan-heroin-policy: large article, TOC may converge with peers.",
-        "slug": "afghan-heroin-policy",
-        "created_at": "2026-06-29 03:44:24",
-        "claimed_by": null
-      },
-      {
-        "brief_id": "d2fbc32e",
-        "worker": "weaver",
-        "goal": "Re-weave ahmed-chalabi: large article, TOC may converge with peers.",
-        "slug": "ahmed-chalabi",
-        "created_at": "2026-06-29 03:44:24",
-        "claimed_by": null
-      },
-      {
-        "brief_id": "44ee1ef9",
-        "worker": "weaver",
-        "goal": "Re-weave aipac: large article, TOC may converge with peers.",
-        "slug": "aipac",
-        "created_at": "2026-06-29 03:44:24",
         "claimed_by": null
       },
       {
@@ -292,14 +300,6 @@
     "ready": [],
     "running": [
       {
-        "brief_id": "999d0229",
-        "worker": "re-reader",
-        "goal": "Walk 2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir under hash 501cc153.",
-        "slug": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir",
-        "created_at": "2026-06-29 02:44:25",
-        "claimed_by": "re-reader-1"
-      },
-      {
         "brief_id": "881ea404",
         "worker": "re-reader",
         "goal": "Walk 2026-05-31-john-kiriakou-podcast-john-kiriakou-new-posdcast-12-secrets-that-have under hash 501cc153.",
@@ -311,6 +311,22 @@
     "review": [],
     "blocked": [],
     "done": [
+      {
+        "brief_id": "024c2ba9",
+        "worker": "weaver",
+        "goal": "Re-weave abu-zubaydah-capture: large article, TOC may converge with peers.",
+        "slug": "abu-zubaydah-capture",
+        "created_at": "2026-06-29 04:19:46",
+        "claimed_by": "weaver-1"
+      },
+      {
+        "brief_id": "a8d9a15c",
+        "worker": "weaver",
+        "goal": "Re-weave abu-zubaydah: large article, TOC may converge with peers.",
+        "slug": "abu-zubaydah",
+        "created_at": "2026-06-29 04:19:46",
+        "claimed_by": "weaver-1"
+      },
       {
         "brief_id": "c547aab0",
         "worker": "weaver",
@@ -324,6 +340,30 @@
         "worker": "weaver",
         "goal": "Re-weave abu-zubaydah: large article, TOC may converge with peers.",
         "slug": "abu-zubaydah",
+        "created_at": "2026-06-29 03:44:24",
+        "claimed_by": "weaver-1"
+      },
+      {
+        "brief_id": "6a2bed5d",
+        "worker": "weaver",
+        "goal": "Re-weave afghan-heroin-policy: large article, TOC may converge with peers.",
+        "slug": "afghan-heroin-policy",
+        "created_at": "2026-06-29 03:44:24",
+        "claimed_by": "weaver-1"
+      },
+      {
+        "brief_id": "d2fbc32e",
+        "worker": "weaver",
+        "goal": "Re-weave ahmed-chalabi: large article, TOC may converge with peers.",
+        "slug": "ahmed-chalabi",
+        "created_at": "2026-06-29 03:44:24",
+        "claimed_by": "weaver-1"
+      },
+      {
+        "brief_id": "44ee1ef9",
+        "worker": "weaver",
+        "goal": "Re-weave aipac: large article, TOC may converge with peers.",
+        "slug": "aipac",
         "created_at": "2026-06-29 03:44:24",
         "claimed_by": "weaver-1"
       },
@@ -424,6 +464,14 @@
         "claimed_by": "re-reader-1"
       },
       {
+        "brief_id": "999d0229",
+        "worker": "re-reader",
+        "goal": "Walk 2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir under hash 501cc153.",
+        "slug": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir",
+        "created_at": "2026-06-29 02:44:25",
+        "claimed_by": "re-reader-1"
+      },
+      {
         "brief_id": "eb62433e",
         "worker": "weaver",
         "goal": "Re-weave abu-zubaydah-capture: large article, TOC may converge with peers.",
@@ -462,425 +510,377 @@
         "slug": "aipac",
         "created_at": "2026-06-29 02:33:48",
         "claimed_by": "weaver-1"
-      },
-      {
-        "brief_id": "d6843a58",
-        "worker": "re-reader",
-        "goal": "Walk 2026-05-25-john-kiriakou-podcast-cia-john-kiriakou-new-posdcast-2 under hash 501cc153.",
-        "slug": "2026-05-25-john-kiriakou-podcast-cia-john-kiriakou-new-posdcast-2",
-        "created_at": "2026-06-29 02:33:48",
-        "claimed_by": "re-reader-1"
-      },
-      {
-        "brief_id": "fba1b13e",
-        "worker": "re-reader",
-        "goal": "Walk 2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp under hash 501cc153.",
-        "slug": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp",
-        "created_at": "2026-06-29 02:33:48",
-        "claimed_by": "re-reader-1"
-      },
-      {
-        "brief_id": "b5ad589b",
-        "worker": "re-reader",
-        "goal": "Walk 2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo under hash 501cc153.",
-        "slug": "2026-03-20-disruption-network-lab-war-military-exposing-crimes-is-not-a-crime-jo",
-        "created_at": "2026-06-29 02:33:48",
-        "claimed_by": "re-reader-1"
-      },
-      {
-        "brief_id": "34eaae28",
-        "worker": "re-reader",
-        "goal": "Walk 2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir under hash 501cc153.",
-        "slug": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir",
-        "created_at": "2026-06-29 02:33:48",
-        "claimed_by": "re-reader-1"
-      },
-      {
-        "brief_id": "901f7fcb",
-        "worker": "re-reader",
-        "goal": "Walk 2026-02-18-barracks-media-inc-john-kiriakou-whistleblower-inside-the-cia-s-tortu under hash 501cc153.",
-        "slug": "2026-02-18-barracks-media-inc-john-kiriakou-whistleblower-inside-the-cia-s-tortu",
-        "created_at": "2026-06-29 02:33:48",
-        "claimed_by": "re-reader-1"
-      },
-      {
-        "brief_id": "525cabb6",
-        "worker": "weaver",
-        "goal": "Re-weave abu-zubaydah-capture: large article, TOC may converge with peers.",
-        "slug": "abu-zubaydah-capture",
-        "created_at": "2026-06-29 02:23:30",
-        "claimed_by": "weaver-1"
       }
     ]
   },
   "activity": [
     {
-      "ts": "2026-06-29 04:20:28",
-      "worker": "office-manager-1",
-      "role": "manager",
-      "summary": "Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0.",
+      "ts": "2026-06-29 04:40:17",
+      "worker": "diff-sentinel",
+      "role": "diff-sentinel",
+      "summary": "Patrol: 0 cite-removal incidents, 0 hedge-rise incidents across 4 commits.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:20:22",
-      "worker": "office-manager-1",
-      "role": "manager",
-      "summary": "Probing LLM providers, refreshing routing table.",
+      "ts": "2026-06-29 04:40:15",
+      "worker": "diff-sentinel",
+      "role": "diff-sentinel",
+      "summary": "Patrolling recent commits for cite loss and hedge rise.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:19:59",
+      "ts": "2026-06-29 04:39:52",
       "worker": "npp-1",
       "role": "npp",
       "summary": "Checked the lead queue — no new clips today.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:19:59",
+      "ts": "2026-06-29 04:39:52",
       "worker": "npp-1",
       "role": "npp",
       "summary": "Triaging up to 20 new clips.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:19:46",
-      "worker": "triage-patroller",
-      "role": "triage",
-      "summary": "Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=5 re-reader=0 enricher=0). 3.0s.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:19:43",
-      "worker": "triage-patroller",
-      "role": "triage",
-      "summary": "Scanning the shelf to assign work to mining bots.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:19:36",
+      "ts": "2026-06-29 04:39:34",
       "worker": "catch-importer-1",
       "role": "catch-importer",
       "summary": "Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:19:36",
+      "ts": "2026-06-29 04:39:34",
       "worker": "catch-importer-1",
       "role": "catch-importer",
       "summary": "Draining fleet/catch into clips (auto-trust=true).",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:18:42",
+      "ts": "2026-06-29 04:38:53",
+      "worker": "triage-patroller",
+      "role": "triage",
+      "summary": "Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=5 re-reader=0 enricher=0). 3.1s.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:38:50",
+      "worker": "triage-patroller",
+      "role": "triage",
+      "summary": "Scanning the shelf to assign work to mining bots.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:38:42",
       "worker": "materializer-1",
       "role": "materializer",
-      "summary": "Materialized 20 verdicts → 13 new articles + 7 amendments. 0 skipped, 0 unresolvable.",
+      "summary": "Materialized 20 verdicts → 18 new articles + 2 amendments. 0 skipped, 0 unresolvable.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:18:19",
-      "worker": "materializer-1",
-      "role": "materializer",
-      "summary": "Walking pending Re-Reader verdicts and turning them into claims.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:15:13",
-      "worker": "weaver-1",
-      "role": "weaver",
-      "summary": "Putting Abu Zubaydah back in the inbox for now.",
-      "link": "/wiki/abu-zubaydah"
-    },
-    {
-      "ts": "2026-06-29 04:13:36",
-      "worker": "coordinator",
-      "role": "coordinator",
-      "summary": "Filed 7 claims into 7 articles (commit 67ef094). hash→837335e3",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:13:29",
-      "worker": "coordinator",
-      "role": "coordinator",
-      "summary": "Collecting passed claims for filing.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:12:44",
-      "worker": "weaver-1",
-      "role": "weaver",
-      "summary": "Pulled up Abu Zubaydah — drafting it from the transcripts.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:12:44",
-      "worker": "weaver-1",
-      "role": "weaver",
-      "summary": "Putting Abu Zubaydah Capture back in the inbox for now.",
-      "link": "/wiki/abu-zubaydah-capture"
-    },
-    {
-      "ts": "2026-06-29 04:12:38",
-      "worker": "weaver-1",
-      "role": "weaver",
-      "summary": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:12:38",
-      "worker": "weaver-1",
-      "role": "weaver",
-      "summary": "Putting Aipac back in the inbox for now.",
-      "link": "/wiki/aipac"
-    },
-    {
-      "ts": "2026-06-29 04:12:29",
-      "worker": "weaver-1",
-      "role": "weaver",
-      "summary": "Pulled up Aipac — drafting it from the transcripts.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:12:29",
-      "worker": "weaver-1",
-      "role": "weaver",
-      "summary": "Putting Ahmed Chalabi back in the inbox for now.",
-      "link": "/wiki/ahmed-chalabi"
-    },
-    {
-      "ts": "2026-06-29 04:11:24",
-      "worker": "weaver-1",
-      "role": "weaver",
-      "summary": "Pulled up Ahmed Chalabi — drafting it from the transcripts.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:11:24",
-      "worker": "weaver-1",
-      "role": "weaver",
-      "summary": "Putting Afghan Heroin Policy back in the inbox for now.",
-      "link": "/wiki/afghan-heroin-policy"
-    },
-    {
-      "ts": "2026-06-29 04:11:15",
-      "worker": "weaver-1",
-      "role": "weaver",
-      "summary": "Pulled up Afghan Heroin Policy — drafting it from the transcripts.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:11:14",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Searched the shelf for Mount Weather — it's a true orphan so far.",
-      "link": "/wiki/mount-weather"
-    },
-    {
-      "ts": "2026-06-29 04:11:14",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Opened Mount Weather — looking for peer articles to cross-link.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:11:08",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Searched the shelf for Mahmud — it's a true orphan so far.",
-      "link": "/wiki/mahmud"
-    },
-    {
-      "ts": "2026-06-29 04:11:08",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Opened Mahmud — looking for peer articles to cross-link.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:11:01",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Searched the shelf for Hypnosis Operation Walk In — it's a true orphan so far.",
-      "link": "/wiki/hypnosis-operation-walk-in"
-    },
-    {
-      "ts": "2026-06-29 04:11:01",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Opened Hypnosis Operation Walk In — looking for peer articles to cross-link.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:10:55",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Searched the shelf for Double Agent Marriott Trap — it's a true orphan so far.",
-      "link": "/wiki/double-agent-marriott-trap"
-    },
-    {
-      "ts": "2026-06-29 04:10:55",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Opened Double Agent Marriott Trap — looking for peer articles to cross-link.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:10:49",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Searched the shelf for Admiral Crowe — it's a true orphan so far.",
-      "link": "/wiki/admiral-crowe"
-    },
-    {
-      "ts": "2026-06-29 04:10:49",
-      "worker": "enricher-1",
-      "role": "enricher",
-      "summary": "Opened Admiral Crowe — looking for peer articles to cross-link.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:10:38",
-      "worker": "deepener-1",
-      "role": "deepener",
-      "summary": "Swept the article shelf — every gap was already filled this round.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:10:36",
-      "worker": "prospector-1",
-      "role": "prospector",
-      "summary": "Set the 2026 02 18 Barracks Media Inc John Kiriakou Whistleblower Inside The Cia S Tortu transcript aside — will retry next cycle.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:10:31",
-      "worker": "materializer-1",
-      "role": "materializer",
-      "summary": "Materialized 7 verdicts → 3 new articles + 4 amendments. 1 skipped, 0 unresolvable.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:10:08",
-      "worker": "prospector-1",
-      "role": "prospector",
-      "summary": "Opened the 2026 02 18 Barracks Media Inc John Kiriakou Whistleblower Inside The Cia S Tortu transcript — hunting for unmined claims.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:10:05",
-      "worker": "prospector-1",
-      "role": "prospector",
-      "summary": "Set the 2025 06 01 Austin And Matt 11 Inside The Cia Whistleblowers War Crimes And Blind transcript aside — will retry next cycle.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:09:45",
-      "worker": "prospector-1",
-      "role": "prospector",
-      "summary": "Opened the 2025 06 01 Austin And Matt 11 Inside The Cia Whistleblowers War Crimes And Blind transcript — hunting for unmined claims.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:09:44",
+      "ts": "2026-06-29 04:37:57",
       "worker": "indexer",
       "role": "indexer",
       "summary": "Rebuilt 2 of 2 indexes.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:09:44",
-      "worker": "triage-patroller",
-      "role": "triage",
-      "summary": "Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=0 re-reader=1 enricher=0). 4.1s.",
+      "ts": "2026-06-29 04:37:53",
+      "worker": "weaver-1",
+      "role": "weaver",
+      "summary": "Putting Abu Zubaydah back in the inbox for now.",
+      "link": "/wiki/abu-zubaydah"
+    },
+    {
+      "ts": "2026-06-29 04:37:53",
+      "worker": "indexer",
+      "role": "indexer",
+      "summary": "Rebuilding the date and mentions indexes.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:09:42",
-      "worker": "mos-enforcer",
-      "role": "mos-enforcer",
-      "summary": "MoS audits: 3 clean, 1 reporting violations.",
+      "ts": "2026-06-29 04:35:45",
+      "worker": "materializer-1",
+      "role": "materializer",
+      "summary": "Walking pending Re-Reader verdicts and turning them into claims.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:09:41",
+      "ts": "2026-06-29 04:35:42",
       "worker": "calendar-keeper",
       "role": "calendar-keeper",
       "summary": "Marked 0 air-dates on the calendar.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:09:41",
+      "ts": "2026-06-29 04:35:42",
       "worker": "calendar-keeper",
       "role": "calendar-keeper",
       "summary": "Pinned 0 dates to the corkboard from 0 sources.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:09:41",
-      "worker": "office-manager-1",
-      "role": "manager",
-      "summary": "Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0.",
+      "ts": "2026-06-29 04:35:42",
+      "worker": "weaver-1",
+      "role": "weaver",
+      "summary": "Pulled up Abu Zubaydah — drafting it from the transcripts.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:09:41",
-      "worker": "orders-of-day",
-      "role": "orders-of-day",
-      "summary": "Bureau at 218,102/500,000 words. Gap: 281,898. Top targets: 2026 05 25 John Kiriakou Podcast Cia John Kiriakou New Posdcast 2, 2025 06 17 Mario Nawfal Ex Cia Agent John Kiriakou On Israel Iran Mossad Middle , 2024 12 10 Jon Leon Guerrero John Kiriakou Enhanced Techniques Whistleblowing.",
-      "link": null
-    },
-    {
-      "ts": "2026-06-29 04:09:41",
+      "ts": "2026-06-29 04:35:42",
       "worker": "calendar-keeper",
       "role": "calendar-keeper",
       "summary": "Walking the calendar across 17 sources.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:09:41",
-      "worker": "diff-sentinel",
-      "role": "diff-sentinel",
-      "summary": "Patrol: 0 cite-removal incidents, 0 hedge-rise incidents across 2 commits.",
+      "ts": "2026-06-29 04:35:42",
+      "worker": "weaver-1",
+      "role": "weaver",
+      "summary": "Threw out my draft of Abu Zubaydah Capture — came out shorter than I started.",
+      "link": "/wiki/abu-zubaydah-capture"
+    },
+    {
+      "ts": "2026-06-29 04:35:15",
+      "worker": "weaver-1",
+      "role": "weaver",
+      "summary": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:09:41",
-      "worker": "promotion-committee",
-      "role": "promotion-committee",
-      "summary": "Promotion ceremony: considered 331, promoted 0, deferred 331.",
+      "ts": "2026-06-29 04:35:15",
+      "worker": "weaver-1",
+      "role": "weaver",
+      "summary": "Threw out my draft of Aipac — came out shorter than I started.",
+      "link": "/wiki/aipac"
+    },
+    {
+      "ts": "2026-06-29 04:34:49",
+      "worker": "weaver-1",
+      "role": "weaver",
+      "summary": "Pulled up Aipac — drafting it from the transcripts.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:09:41",
-      "worker": "shape-auditor",
-      "role": "shape-auditor",
-      "summary": "Audit: 0 articles flagged for TOC convergence; 0 weaver briefs issued.",
+      "ts": "2026-06-29 04:34:49",
+      "worker": "weaver-1",
+      "role": "weaver",
+      "summary": "Putting Ahmed Chalabi back in the inbox for now.",
+      "link": "/wiki/ahmed-chalabi"
+    },
+    {
+      "ts": "2026-06-29 04:34:22",
+      "worker": "weaver-1",
+      "role": "weaver",
+      "summary": "Pulled up Ahmed Chalabi — drafting it from the transcripts.",
       "link": null
     },
     {
-      "ts": "2026-06-29 04:09:40",
-      "worker": "mos-enforcer",
-      "role": "mos-enforcer",
-      "summary": "Running MoS audits.",
+      "ts": "2026-06-29 04:34:22",
+      "worker": "weaver-1",
+      "role": "weaver",
+      "summary": "Threw out my draft of Afghan Heroin Policy — came out shorter than I started.",
+      "link": "/wiki/afghan-heroin-policy"
+    },
+    {
+      "ts": "2026-06-29 04:34:05",
+      "worker": "weaver-1",
+      "role": "weaver",
+      "summary": "Pulled up Afghan Heroin Policy — drafting it from the transcripts.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:34:05",
+      "worker": "enricher-1",
+      "role": "enricher",
+      "summary": "Searched the shelf for Afghan War Logs — it's a true orphan so far.",
+      "link": "/wiki/afghan-war-logs"
+    },
+    {
+      "ts": "2026-06-29 04:34:05",
+      "worker": "enricher-1",
+      "role": "enricher",
+      "summary": "Opened Afghan War Logs — looking for peer articles to cross-link.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:33:58",
+      "worker": "enricher-1",
+      "role": "enricher",
+      "summary": "Searched the shelf for Afghan Languages — it's a true orphan so far.",
+      "link": "/wiki/afghan-languages"
+    },
+    {
+      "ts": "2026-06-29 04:33:58",
+      "worker": "enricher-1",
+      "role": "enricher",
+      "summary": "Opened Afghan Languages — looking for peer articles to cross-link.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:33:52",
+      "worker": "enricher-1",
+      "role": "enricher",
+      "summary": "Searched the shelf for Abu Nidal Disruption — it's a true orphan so far.",
+      "link": "/wiki/abu-nidal-disruption"
+    },
+    {
+      "ts": "2026-06-29 04:33:52",
+      "worker": "enricher-1",
+      "role": "enricher",
+      "summary": "Opened Abu Nidal Disruption — looking for peer articles to cross-link.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:33:46",
+      "worker": "enricher-1",
+      "role": "enricher",
+      "summary": "Searched the shelf for Abdul Rashid Dostum — it's a true orphan so far.",
+      "link": "/wiki/abdul-rashid-dostum"
+    },
+    {
+      "ts": "2026-06-29 04:33:46",
+      "worker": "enricher-1",
+      "role": "enricher",
+      "summary": "Opened Abdul Rashid Dostum — looking for peer articles to cross-link.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:33:40",
+      "worker": "enricher-1",
+      "role": "enricher",
+      "summary": "Searched the shelf for Trita Parsi — it's a true orphan so far.",
+      "link": "/wiki/trita-parsi"
+    },
+    {
+      "ts": "2026-06-29 04:33:40",
+      "worker": "enricher-1",
+      "role": "enricher",
+      "summary": "Opened Trita Parsi — looking for peer articles to cross-link.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:33:33",
+      "worker": "deepener-1",
+      "role": "deepener",
+      "summary": "Swept the article shelf — every gap was already filled this round.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:30:49",
+      "worker": "office-manager-1",
+      "role": "manager",
+      "summary": "Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:30:43",
+      "worker": "office-manager-1",
+      "role": "manager",
+      "summary": "Probing LLM providers, refreshing routing table.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:30:08",
+      "worker": "npp-1",
+      "role": "npp",
+      "summary": "Checked the lead queue — no new clips today.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:30:08",
+      "worker": "npp-1",
+      "role": "npp",
+      "summary": "Triaging up to 20 new clips.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:29:51",
+      "worker": "catch-importer-1",
+      "role": "catch-importer",
+      "summary": "Imported 0 new + refreshed 0 existing. 0 jumped to triaged_on, 0 parked as lead. Skipped 23.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:29:51",
+      "worker": "catch-importer-1",
+      "role": "catch-importer",
+      "summary": "Draining fleet/catch into clips (auto-trust=true).",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:29:14",
+      "worker": "triage-patroller",
+      "role": "triage",
+      "summary": "Queued work (deepener=25 enricher=25 weaver=25 reweaver=25). Briefs issued (cataloger=0 weaver=0 re-reader=1 enricher=0). 3.1s.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:29:11",
+      "worker": "triage-patroller",
+      "role": "triage",
+      "summary": "Scanning the shelf to assign work to mining bots.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:27:58",
+      "worker": "materializer-1",
+      "role": "materializer",
+      "summary": "Materialized 19 verdicts → 11 new articles + 8 amendments. 1 skipped, 0 unresolvable.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:27:09",
+      "worker": "materializer-1",
+      "role": "materializer",
+      "summary": "Walking pending Re-Reader verdicts and turning them into claims.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:26:38",
+      "worker": "re-reader-1",
+      "role": "re-reader",
+      "summary": "Re-Reader pass complete (briefs done=2 failed=0 fallback_sources=0 verdicts_written=0).",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:25:50",
+      "worker": "coordinator",
+      "role": "coordinator",
+      "summary": "Filed 20 claims into 17 articles (commit dd9c9a8). hash→6198603d",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:25:35",
+      "worker": "coordinator",
+      "role": "coordinator",
+      "summary": "Collecting passed claims for filing.",
+      "link": null
+    },
+    {
+      "ts": "2026-06-29 04:20:28",
+      "worker": "office-manager-1",
+      "role": "manager",
+      "summary": "Working: groq:gpt-oss-120b, groq:gpt-oss-20b, groq:llama-4-scout, groq:llama-3.3-70b. Down: cerebras:qwen-3-coder(fail:404). Dead keys: 0. Unsupported models: 0.",
       "link": null
     }
   ],
   "stats": {
     "articles_touched_today": 20,
     "words_added": 0,
-    "claims_filed": 31,
+    "claims_filed": 70,
     "suspect_queue": 0,
     "drift_today": 0,
     "grades": {
       "c": 24,
       "start": 54
     },
-    "cost_today": 0.00011495,
+    "cost_today": 0.00010235000000000001,
     "hot_keys": {
       "cerebras": 4,
       "groq": 3,
       "openrouter": 5
     }
   },
-  "generated_at": "2026-06-29T04:24:43.648Z"
+  "generated_at": "2026-06-29T04:40:51.732Z"
 }
