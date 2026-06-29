@@ -190,7 +190,8 @@
     "quote:double-agent-marriott-trap:0",
     "dyk:trump-dni-replacement:0",
     "quote:john-brennan:27",
-    "dyk:bob-trout:0"
+    "dyk:bob-trout:0",
+    "quote:john-brennan:23"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -992,10 +993,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
