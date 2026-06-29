@@ -467,6 +467,17 @@ defineLane({
   cmd: () => ({ bin: 'node', args: [W('materializer'), '--worker', 'materializer-1', '--batch', '20'] }),
 });
 
+// Recent-Changes writer — emits public/recent-changes.json for the
+// /recent-changes page (Wikipedia-style edit ledger). No fleet calls; pure
+// git log walk. Cheap, so a tight cadence is fine.
+defineLane({
+  name: 'recent-changes',
+  intervalMs: 5 * 60 * 1000,
+  jitterMs: 30 * 1000,
+  burnsFleet: false,
+  cmd: () => ({ bin: 'node', args: [join(HERE, 'lib', 'recent-changes-writer.mjs')] }),
+});
+
 // Discretion Warden — mirrors Kiriakou's discretion before claims propagate.
 defineLane({
   name: 'discretion',
