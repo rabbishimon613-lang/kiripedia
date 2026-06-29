@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T09:31:05.219Z",
+  "generated_at": "2026-06-29T09:38:44.562Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,271 +62,271 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 09:28:26"
+      "ts": "2026-06-29 09:36:07"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-06-29 09:28:27"
+      "ts": "2026-06-29 09:36:07"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-06-29 09:28:32"
+      "ts": "2026-06-29 09:36:12"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 09:29:19"
+      "ts": "2026-06-29 09:36:58"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Church Committee Mk Ultra Investigation — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Imran Khan — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 09:29:57"
+      "ts": "2026-06-29 09:37:36"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 09:30:24"
+      "ts": "2026-06-29 09:38:04"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Pinning Abu Nidal Disruption back on the corkboard. Not the moment.",
+      "action": "Done: Pinning National Intelligence Council back on the corkboard. Not the moment.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 09:31:04"
+      "ts": "2026-06-29 09:38:43"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2021 05 12 Howie Hawkins Greensocialist Notes 23 Whistleblowers With John Kiriak transcript aside — will retry next cycle.",
+      "action": "Done: Set the 2026 04 02 Megyn Kelly Trump Fires Bondi Cia S Mk Ultra History And Two Weeks Sp.sponsors transcript aside — will retry next cycle.",
       "handoff_to": "coordinator",
-      "ts": "2026-06-29 09:29:11"
+      "ts": "2026-06-29 09:36:51"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix).",
       "handoff_to": null,
-      "ts": "2026-06-29 09:31:04"
+      "ts": "2026-06-29 09:38:43"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-06-29 09:31:05",
+      "ts": "2026-06-29 09:38:44",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-06-29 09:31:04",
+      "ts": "2026-06-29 09:38:43",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-06-29 09:31:04",
+      "ts": "2026-06-29 09:38:43",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
       "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix)."
     },
     {
-      "ts": "2026-06-29 09:31:04",
+      "ts": "2026-06-29 09:38:43",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-06-29 09:31:04",
+      "ts": "2026-06-29 09:38:43",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Abu Nidal Disruption back on the corkboard. Not the moment."
+      "action": "Done: Pinning National Intelligence Council back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:31:00",
+      "ts": "2026-06-29 09:38:40",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Abu Nidal Disruption — the prose reads choppy, rewriting."
+      "action": "Opened National Intelligence Council — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:31:00",
+      "ts": "2026-06-29 09:38:40",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Aq Khan back on the corkboard. Not the moment."
+      "action": "Done: Pinning Government Metadata Purchase back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:30:57",
+      "ts": "2026-06-29 09:38:36",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Aq Khan — the prose reads choppy, rewriting."
+      "action": "Opened Government Metadata Purchase — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:30:57",
+      "ts": "2026-06-29 09:38:36",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Mike Spann back on the corkboard. Not the moment."
+      "action": "Done: Pinning Cia Drug Facilitation back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:30:53",
+      "ts": "2026-06-29 09:38:33",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Mike Spann — the prose reads choppy, rewriting."
+      "action": "Opened Cia Drug Facilitation — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:30:53",
+      "ts": "2026-06-29 09:38:33",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Curveball back on the corkboard. Not the moment."
+      "action": "Done: Pinning Dasht I Leili Massacre back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:30:50",
+      "ts": "2026-06-29 09:38:30",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Curveball — the prose reads choppy, rewriting."
+      "action": "Opened Dasht I Leili Massacre — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:30:50",
+      "ts": "2026-06-29 09:38:30",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Sociopathic Tendencies back on the corkboard. Not the moment."
+      "action": "Done: Pinning Hypnosis Operation Walk In back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:30:47",
+      "ts": "2026-06-29 09:38:26",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Sociopathic Tendencies — the prose reads choppy, rewriting."
+      "action": "Opened Hypnosis Operation Walk In — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:30:47",
+      "ts": "2026-06-29 09:38:26",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning One Time Pad back on the corkboard. Not the moment."
+      "action": "Done: Pinning Sleeper Agent back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:30:43",
+      "ts": "2026-06-29 09:38:23",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened One Time Pad — the prose reads choppy, rewriting."
+      "action": "Opened Sleeper Agent — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:30:43",
+      "ts": "2026-06-29 09:38:23",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Kompromat back on the corkboard. Not the moment."
+      "action": "Done: Pinning Francis Gary Powers back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:30:40",
+      "ts": "2026-06-29 09:38:19",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Kompromat — the prose reads choppy, rewriting."
+      "action": "Opened Francis Gary Powers — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:30:40",
+      "ts": "2026-06-29 09:38:19",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning David Rockefeller Bahrain back on the corkboard. Not the moment."
+      "action": "Done: Pinning Moral Injury back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:30:37",
+      "ts": "2026-06-29 09:38:16",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened David Rockefeller Bahrain — the prose reads choppy, rewriting."
+      "action": "Opened Moral Injury — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:30:36",
+      "ts": "2026-06-29 09:38:16",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Aldrich Ames back on the corkboard. Not the moment."
+      "action": "Done: Pinning Gay Diplomat Operation back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:30:33",
+      "ts": "2026-06-29 09:38:13",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Aldrich Ames — the prose reads choppy, rewriting."
+      "action": "Opened Gay Diplomat Operation — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:30:33",
+      "ts": "2026-06-29 09:38:13",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Safe Housekeeper back on the corkboard. Not the moment."
+      "action": "Done: Pinning Fort Chapman back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-06-29 09:30:29",
+      "ts": "2026-06-29 09:38:09",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Safe Housekeeper — the prose reads choppy, rewriting."
+      "action": "Opened Fort Chapman — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-06-29 09:30:24",
+      "ts": "2026-06-29 09:38:04",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 09:30:21",
+      "ts": "2026-06-29 09:38:00",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 09:30:21",
+      "ts": "2026-06-29 09:38:00",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ali Soufan back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 09:30:17",
+      "ts": "2026-06-29 09:37:57",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-06-29 09:30:17",
+      "ts": "2026-06-29 09:37:57",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Aldrich Ames back in the inbox for now."
     },
     {
-      "ts": "2026-06-29 09:30:14",
+      "ts": "2026-06-29 09:37:54",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
@@ -334,9 +334,9 @@
     }
   ],
   "last_cycle": {
-    "id": 15,
-    "started_at": "2026-06-29 09:28:27",
-    "ended_at": "2026-06-29 09:28:27",
+    "id": 16,
+    "started_at": "2026-06-29 09:36:07",
+    "ended_at": "2026-06-29 09:36:07",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
