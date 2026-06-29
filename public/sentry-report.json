@@ -1,7 +1,144 @@
 {
-  "generated_at": "2026-06-29T07:07:36.374Z",
+  "generated_at": "2026-06-29T07:28:09.460Z",
   "window_min": 30,
-  "scanned": 1,
-  "violation_count": 0,
-  "violations": []
+  "scanned": 50,
+  "violation_count": 11,
+  "violations": [
+    {
+      "slug": "sociopathic-tendencies",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou described",
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "taliban-origin-benazir",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou noted"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "the-farm",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou states"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "thin-thread-stellar-wind",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou says"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "thomas-massie",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "trump-iran-ceasefire-efforts",
+      "findings": [
+        {
+          "kind": "allegedly",
+          "count": 1,
+          "samples": [
+            "reportedly"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tuesday-morning-kill-list",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tyrell-vanto",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou stated"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vault-7",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou said"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "waco-siege",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou said",
+            "Kiriakou said"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "waterboarding",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 4,
+          "samples": [
+            "Kiriakou said",
+            "Kiriakou said",
+            "Kiriakou described"
+          ]
+        }
+      ]
+    }
+  ]
 }
