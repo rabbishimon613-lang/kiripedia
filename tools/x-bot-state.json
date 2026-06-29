@@ -194,7 +194,8 @@
     "quote:john-brennan:23",
     "new:fbi-arrest-strategies",
     "quote:john-kiriakou:43",
-    "dyk:fci-loretto:3"
+    "dyk:fci-loretto:3",
+    "quote:jose-rodriguez:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -992,10 +993,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
