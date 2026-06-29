@@ -191,7 +191,8 @@
     "dyk:trump-dni-replacement:0",
     "quote:john-brennan:27",
     "dyk:bob-trout:0",
-    "quote:john-brennan:23"
+    "quote:john-brennan:23",
+    "new:fbi-arrest-strategies"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -587,10 +588,6 @@
     "zbigniew-brzezinski"
   ],
   "queue": [
-    {
-      "slug": "fbi-arrest-strategies",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
     {
       "slug": "fbi",
       "added": "2026-06-24T03:34:57.975Z"
@@ -993,10 +990,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
