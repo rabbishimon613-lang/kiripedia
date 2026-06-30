@@ -196,7 +196,8 @@
     "quote:john-kiriakou:43",
     "dyk:fci-loretto:3",
     "quote:jose-rodriguez:1",
-    "dyk:sociopathic-tendencies:0"
+    "dyk:sociopathic-tendencies:0",
+    "quote:john-kiriakou:101"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -994,10 +995,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
