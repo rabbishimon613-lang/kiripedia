@@ -197,7 +197,8 @@
     "dyk:fci-loretto:3",
     "quote:jose-rodriguez:1",
     "dyk:sociopathic-tendencies:0",
-    "quote:john-kiriakou:101"
+    "quote:john-kiriakou:101",
+    "dyk:iran-nuclear-assessment:2"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -995,10 +996,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
