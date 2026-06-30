@@ -200,7 +200,8 @@
     "quote:john-kiriakou:101",
     "dyk:iran-nuclear-assessment:2",
     "quote:jonathan-pollard:0",
-    "otd:saddam-hussein:1990-06-30"
+    "otd:saddam-hussein:1990-06-30",
+    "new:fbi"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -596,10 +597,6 @@
     "zbigniew-brzezinski"
   ],
   "queue": [
-    {
-      "slug": "fbi",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
     {
       "slug": "fort-gordon",
       "added": "2026-06-24T03:34:57.975Z"
@@ -998,10 +995,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "otd"
+    "otd",
+    "new"
   ]
 }
