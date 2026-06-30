@@ -202,7 +202,8 @@
     "quote:jonathan-pollard:0",
     "otd:saddam-hussein:1990-06-30",
     "new:fbi",
-    "dyk:john-kiriakou:4"
+    "dyk:john-kiriakou:4",
+    "quote:fci-loretto:13"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -996,10 +997,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "otd",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
