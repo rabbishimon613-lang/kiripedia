@@ -203,7 +203,8 @@
     "otd:saddam-hussein:1990-06-30",
     "new:fbi",
     "dyk:john-kiriakou:4",
-    "quote:fci-loretto:13"
+    "quote:fci-loretto:13",
+    "otd:kuwait-invasion-intelligence:1990-06-30"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -997,10 +998,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "otd",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "otd"
   ]
 }
