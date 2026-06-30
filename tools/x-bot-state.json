@@ -201,7 +201,8 @@
     "dyk:iran-nuclear-assessment:2",
     "quote:jonathan-pollard:0",
     "otd:saddam-hussein:1990-06-30",
-    "new:fbi"
+    "new:fbi",
+    "dyk:john-kiriakou:4"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -995,10 +996,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "otd",
-    "new"
+    "new",
+    "dyk"
   ]
 }
