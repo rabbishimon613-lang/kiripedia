@@ -206,7 +206,8 @@
     "quote:fci-loretto:13",
     "otd:kuwait-invasion-intelligence:1990-06-30",
     "new:fort-gordon",
-    "dyk:abu-zubaydah:10"
+    "dyk:abu-zubaydah:10",
+    "new:gail-slater"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -603,10 +604,6 @@
   ],
   "queue": [
     {
-      "slug": "gail-slater",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "government-accountability-project",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -996,10 +993,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "otd",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
