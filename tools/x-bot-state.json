@@ -208,7 +208,8 @@
     "new:fort-gordon",
     "dyk:abu-zubaydah:10",
     "new:gail-slater",
-    "dyk:patriot-act:0"
+    "dyk:patriot-act:0",
+    "quote:lie-detection:2"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -994,10 +995,10 @@
     }
   ],
   "lastTypes": [
-    "otd",
     "new",
     "dyk",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
