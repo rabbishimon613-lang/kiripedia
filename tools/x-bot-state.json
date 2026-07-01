@@ -210,7 +210,8 @@
     "new:gail-slater",
     "dyk:patriot-act:0",
     "quote:lie-detection:2",
-    "dyk:national-security-vs-civil-liberties:1"
+    "dyk:national-security-vs-civil-liberties:1",
+    "quote:iran-nuclear-assessment:2"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -996,10 +997,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
