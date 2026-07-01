@@ -205,7 +205,8 @@
     "dyk:john-kiriakou:4",
     "quote:fci-loretto:13",
     "otd:kuwait-invasion-intelligence:1990-06-30",
-    "new:fort-gordon"
+    "new:fort-gordon",
+    "dyk:abu-zubaydah:10"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -995,10 +996,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "otd",
-    "new"
+    "new",
+    "dyk"
   ]
 }
