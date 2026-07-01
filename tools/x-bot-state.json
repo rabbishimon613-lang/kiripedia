@@ -204,7 +204,8 @@
     "new:fbi",
     "dyk:john-kiriakou:4",
     "quote:fci-loretto:13",
-    "otd:kuwait-invasion-intelligence:1990-06-30"
+    "otd:kuwait-invasion-intelligence:1990-06-30",
+    "new:fort-gordon"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -601,10 +602,6 @@
   ],
   "queue": [
     {
-      "slug": "fort-gordon",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "gail-slater",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -998,10 +995,10 @@
     }
   ],
   "lastTypes": [
-    "otd",
     "new",
     "dyk",
     "quote",
-    "otd"
+    "otd",
+    "new"
   ]
 }
