@@ -211,7 +211,8 @@
     "dyk:patriot-act:0",
     "quote:lie-detection:2",
     "dyk:national-security-vs-civil-liberties:1",
-    "quote:iran-nuclear-assessment:2"
+    "quote:iran-nuclear-assessment:2",
+    "new:government-accountability-project"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -608,10 +609,6 @@
   ],
   "queue": [
     {
-      "slug": "government-accountability-project",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "ilhan-omar",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -997,10 +994,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
