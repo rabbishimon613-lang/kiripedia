@@ -207,7 +207,8 @@
     "otd:kuwait-invasion-intelligence:1990-06-30",
     "new:fort-gordon",
     "dyk:abu-zubaydah:10",
-    "new:gail-slater"
+    "new:gail-slater",
+    "dyk:patriot-act:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -993,10 +994,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "otd",
     "new",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
