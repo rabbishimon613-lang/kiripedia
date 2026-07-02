@@ -213,7 +213,8 @@
     "dyk:national-security-vs-civil-liberties:1",
     "quote:iran-nuclear-assessment:2",
     "new:government-accountability-project",
-    "dyk:jane-harman:1"
+    "dyk:jane-harman:1",
+    "quote:maduro-capture:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -995,10 +996,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
