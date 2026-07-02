@@ -215,7 +215,8 @@
     "new:government-accountability-project",
     "dyk:jane-harman:1",
     "quote:maduro-capture:1",
-    "new:ilhan-omar"
+    "new:ilhan-omar",
+    "dyk:lie-detection:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -993,10 +994,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
