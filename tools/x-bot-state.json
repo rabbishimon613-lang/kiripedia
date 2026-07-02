@@ -217,7 +217,8 @@
     "quote:maduro-capture:1",
     "new:ilhan-omar",
     "dyk:lie-detection:0",
-    "new:intelligence-agencies"
+    "new:intelligence-agencies",
+    "dyk:cia-remote-vehicle-control:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -991,10 +992,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
