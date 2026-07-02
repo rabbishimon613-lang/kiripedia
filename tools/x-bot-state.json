@@ -218,7 +218,8 @@
     "new:ilhan-omar",
     "dyk:lie-detection:0",
     "new:intelligence-agencies",
-    "dyk:cia-remote-vehicle-control:1"
+    "dyk:cia-remote-vehicle-control:1",
+    "quote:maher-arar:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -992,10 +993,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
