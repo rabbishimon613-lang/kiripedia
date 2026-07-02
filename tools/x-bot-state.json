@@ -219,7 +219,8 @@
     "dyk:lie-detection:0",
     "new:intelligence-agencies",
     "dyk:cia-remote-vehicle-control:1",
-    "quote:maher-arar:1"
+    "quote:maher-arar:1",
+    "dyk:peter-strzok:0"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -993,10 +994,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
