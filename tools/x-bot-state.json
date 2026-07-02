@@ -214,7 +214,8 @@
     "quote:iran-nuclear-assessment:2",
     "new:government-accountability-project",
     "dyk:jane-harman:1",
-    "quote:maduro-capture:1"
+    "quote:maduro-capture:1",
+    "new:ilhan-omar"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -611,10 +612,6 @@
   ],
   "queue": [
     {
-      "slug": "ilhan-omar",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "intelligence-agencies",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -996,10 +993,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
