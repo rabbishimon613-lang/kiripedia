@@ -221,7 +221,8 @@
     "dyk:cia-remote-vehicle-control:1",
     "quote:maher-arar:1",
     "dyk:peter-strzok:0",
-    "new:intercept"
+    "new:intercept",
+    "dyk:richard-welch:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -991,10 +992,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
