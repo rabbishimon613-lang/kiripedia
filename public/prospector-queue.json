@@ -367,5 +367,95 @@
     "anchor_quote": "We have reported that Khaled Shik Muhammad was also waterboarded. I was out of it by then, but it's my understanding that he was also waterboarded. Those were really the only two… to the best of my knowledge.",
     "why": "He identifies Khaled Shik Muhammad as a second detainee subjected to waterboarding, a detail absent from current waterboarding coverage.",
     "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-03T22:20:26.919Z",
+    "kind": "new",
+    "slug": "veteran-suicide-mental-health",
+    "anchor_quote": "And the money you spend on all these wars you could have had free health care for everyone and the best the best education system and no homeless people no vets being homeless all these veterans being homeless that's shameful shameful. Um it is and we have veterans literally every single day committing suicide, many of them in the parking lots of the Veterans Administration hospitals that refuse to treat them for post‑traumatic stress disorder. Very sad—it’s something like as many as six a day kill themselves in those parking lots.",
+    "why": "Kiriakou provides first‑hand testimony about the epidemic of veteran suicide linked to war‑related PTSD, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-03T22:20:26.919Z",
+    "kind": "new",
+    "slug": "white-phosphorus-lebanon-israel",
+    "anchor_quote": "They never stopped also using what do you say white phosphorus which Amnesty International deems not a legal means of war. It causes long‑term injuries, severe burns and destruction of farmland. We know why they’re doing that—people are not deserting South Lebanon. They want to destroy their livelihood so that they end up deserting South Lebanon.",
+    "why": "Kiriakou describes Israel’s alleged use of white phosphorus in South Lebanon, a specific war crime not yet documented in the corpus.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-03T22:20:26.919Z",
+    "kind": "new",
+    "slug": "nato-article-5-turkey-israel",
+    "anchor_quote": "There was this statement recently about Turkey being the next big enemy of Israel that Israel is going to have to confront. But Turkey's a NATO country. So, what happens if Israel attacks Turkey? The United States has to come in on the side of Turkey. They have to invoke Article 5 of NATO. They're obligated by treaty to come in on the side of Turkey and fight against Israel. Now, will they is an entirely different question.",
+    "why": "Kiriakou raises the legal and strategic implications of NATO Article 5 if Israel were to attack Turkey, a scenario absent from current articles.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-03T22:20:26.919Z",
+    "kind": "new",
+    "slug": "nuclear-weapons-british-bases-cyprus",
+    "anchor_quote": "To the best of your ability, are there nuclear weapons being stored in the British bases in Cyprus? That's a great question. I don't know. But I would guess... I honestly, as God is my witness, I don't know. I don't even know where the American nuclear weapons are based. Those are highly guarded secrets in the ministries of defense. I would guess probably yes.",
+    "why": "Kiriakou’s admission of uncertainty about nuclear weapons on British bases in Cyprus opens a new investigative angle not covered by the existing 'british-bases-in-cyprus' slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-03T22:20:26.919Z",
+    "kind": "new",
+    "slug": "us-political-realignment-antiwar",
+    "anchor_quote": "We're having this very odd realignment politically in the United States right now, where members of the progressive left and members of the Make America Great Again, the MAGA right, are coming together on this issue because neither one of them want war. Who would have thought? This is unprecedented in American history. It's like the communists and the fascists joining forces to oppose war.",
+    "why": "Kiriakou highlights an unprecedented bipartisan anti‑war coalition in U.S. politics, a distinct theme not yet captured in any article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-03T22:20:40.568Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "I think for two reasons. Number one, he genuinely disliked me. And he has this history of going after people, using lawfare, which now we all know what that means. Using lawfare to take down his enemies. Number one, Lawfair understates it. Violence. I mean, they came to your house, they cuffed you, they threw you in a cell.",
+    "why": "Adds Kiriakou’s first‑hand account of Brennan’s personal vendetta and use of law‑fare against him, expanding the profile of Brennan’s conduct.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-03T22:20:40.568Z",
+    "kind": "enrich",
+    "slug": "restraint-camp",
+    "anchor_quote": "I didn't wind up in the work camp? No, the CIA under John Brennan who was uh he was director by this point. No, but he was soon to be director and actually 2012. Yeah, he was director at that point. Yes. Yes. Thanks for correcting me. Uh, the CIA objected. They objected to my placement in a minimum security camp. Well, they're vindictive, aren't they? I guess. Ask Julian Assange how vindictive they are.",
+    "why": "Provides Kiriakou’s testimony about CIA’s objection to his placement in a minimum‑security camp, illustrating the agency’s punitive use of restraint camps.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-03T22:20:40.568Z",
+    "kind": "new",
+    "slug": "abu-zuba-fbi-interrogation",
+    "anchor_quote": "They proved that if you treat a prisoner with respect and engage in rapport building and take some time to build this relationship, the prisoner will tell you everything that you want to know. And that's what happened with Abu Zuba. But every time the CIA would step in and begin torturing him, he would clam up, like completely clam up, and then the FBI would have to go back in, try to reverse the damage, and start the whole thing over again.",
+    "why": "Documents Kiriakou’s description of the FBI’s successful rapport‑based interrogation of Abu Zuba contrasted with CIA torture, a case not covered elsewhere.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-03T22:20:40.568Z",
+    "kind": "new",
+    "slug": "mike-pompeo-assange-murder-plot",
+    "anchor_quote": "Ask Julian Assange. They almost killed him. So, under Mike Pompeo plotted his murder, literally. Who's still free, by the way? Is Mike Pompeo in jail? I haven't seen any announcement that are you allowed as an appointee to a government, not elected, just an appointee. Are you allowed to plot the murder of people who embarrass the agency you are? I'm not. Oh, you're not allowed.",
+    "why": "Introduces Kiriakou’s allegation that Mike Pompeo plotted to murder Julian Assange, a claim absent from current articles.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-03T22:20:40.568Z",
+    "kind": "new",
+    "slug": "eric-holder-reopen-kiriakou-case",
+    "anchor_quote": "John Brennan went to the then attorney general Eric Holder and said we need to reopen all the problems that we've got. He asked Eric Holder to secretly reopen the case against me.",
+    "why": "Captures Kiriakou’s account of John Brennan urging Attorney General Eric Holder to secretly reopen his case, shedding light on high‑level interference.",
+    "status": "pending"
   }
 ]
