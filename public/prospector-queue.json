@@ -691,5 +691,86 @@
     "anchor_quote": "I think that we made a policy decision to accept and to believe Israeli intelligence at face value. I think the Israelis had a vested interest in lying to us and pulling us into this war to do their dirty work for them.",
     "why": "His allegation that the U.S. relied on false Israeli intelligence to enter the Iran conflict introduces a new angle on U.S. foreign‑policy decision‑making.",
     "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-03T23:24:45.716Z",
+    "kind": "enrich",
+    "slug": "lebanon-israeli-conflict",
+    "anchor_quote": "They never stopped also using what do you say white phosphorus which Amnesty International uh deems it's it's I mean it's not a legal means of war. It causes long-term injuries severe burns and destruction of farmland.",
+    "why": "Kiriakou provides a direct allegation of Israel’s use of white phosphorus in South Lebanon, a detail that deepens the lebanon‑israeli‑conflict article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-03T23:24:45.716Z",
+    "kind": "enrich",
+    "slug": "british-bases-in-cyprus",
+    "anchor_quote": "I honestly, as God is my witness, I don't know. I don't even know where the American nuclear weapons are based. Those are highly guarded secrets in the ministries of defense. I would guess probably yes.",
+    "why": "His speculation about possible U.S. nuclear weapons stored at British bases adds new insight to the british‑bases‑in‑cyprus entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-03T23:24:45.716Z",
+    "kind": "new",
+    "slug": "veteran-suicide-parking-lot",
+    "anchor_quote": "We have veterans every literally every single day committing suicide many of them committing suicide in the parking lots of the Veterans Administration hospitals that refuse to treat them for post‑traumatic stress disorder. Very sad. It's something like as many as six a day kill themselves in the Veterans Administration hospital parking lots.",
+    "why": "Kiriakou cites a striking statistic on VA hospital parking‑lot suicides, warranting a dedicated article on the veteran suicide crisis.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-03T23:24:45.716Z",
+    "kind": "new",
+    "slug": "us-political-anti-war-coalition",
+    "anchor_quote": "America first, not Israel first. We're having this very odd realignment politically in the United States right now, where members of the progressive left and members of the Make America Great Again, the MAGA right, are coming together on this issue because neither one of them want war. Who would have thought? This is unprecedented in American history.",
+    "why": "His observation of an unprecedented bipartisan anti‑war alignment provides a fresh angle for a new piece on U.S. political realignment.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-03T23:24:59.233Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "I think for two reasons. Number one, he genuinely disliked me. And he has this history of going after people, using lawfare, which now we all know what that means. Using lawfare to take down his enemies. Number one, Lawfare understates it. Violence. I mean, they came to your house, they cuffed you, they threw you in a cell.",
+    "why": "Adds Kiriakou's first‑hand account of John Brennan’s personal vendetta and law‑fare tactics against him.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-03T23:24:59.233Z",
+    "kind": "enrich",
+    "slug": "enhanced-interrogation",
+    "anchor_quote": "The FBI is really good at interrogations. They proved it with Abu Zuba. If you treat a prisoner with respect and engage in rapport building, the prisoner will tell you everything you want to know. That's what happened with Abu Zuba. Every time the CIA would step in and begin torturing him, he would clam up, and the FBI would have to go back in, try to reverse the damage, and start the whole thing over again.",
+    "why": "Provides Kiriakou’s direct comparison of FBI rapport‑based interrogations versus CIA torture, enriching the enhanced‑interrogation narrative.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-03T23:24:59.233Z",
+    "kind": "new",
+    "slug": "john-kiriakou-prison-experience",
+    "anchor_quote": "My kids were eight, six, and one. At the visiting room there was a sign that said inmates only. My eight‑year‑old asked, 'Dad, what's an inmate?' I said, 'It's a prisoner.' He then asked, 'Are you a prisoner here or a teacher here?' I told him, 'Buddy, I'm a prisoner here, but we're going to get past this, it'll be over soon and I'll be home.' It took everything I had not to break down.",
+    "why": "Creates a focused article on Kiriakou’s personal imprisonment, family impact, and conditions in the minimum‑security camp.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-03T23:24:59.233Z",
+    "kind": "new",
+    "slug": "pompeo-assange-murder-plot",
+    "anchor_quote": "They almost killed him. So, under Mike Pompeo plotted his murder, literally. Who's still free, by the way? Is Mike Pompeo in jail? I haven't seen any announcement that you're allowed as an appointee to a government, not elected, just an appointee, to plot the murder of people who embarrass the agency you are? I'm not. Oh, you're not allowed. You can't use federal funds to murder people who embarrass you? Only if you're Barack Obama. But anybody else? No, you can't.",
+    "why": "Documents Kiriakou’s allegation that Mike Pompeo orchestrated a murder plot against Julian Assange, a topic not covered by existing slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-03T23:24:59.233Z",
+    "kind": "enrich",
+    "slug": "cia-torture-program-whistleblowing",
+    "anchor_quote": "No, not by the torture. Listen, it's like a kick in my gut to have to compliment the FBI. The CIA's torture produced no useful information; every time they stepped in, the detainee would clam up and the FBI had to start over. The FBI’s respectful, rapport‑based approach got the intel the CIA’s torture never did.",
+    "why": "Strengthens the whistleblowing article with Kiriakou’s explicit statement that CIA torture yielded no useful intelligence.",
+    "status": "pending"
   }
 ]
