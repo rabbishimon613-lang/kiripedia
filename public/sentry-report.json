@@ -1,7 +1,192 @@
 {
-  "generated_at": "2026-06-29T13:52:18.573Z",
+  "generated_at": "2026-07-03T22:06:08.396Z",
   "window_min": 30,
-  "scanned": 0,
-  "violation_count": 0,
-  "violations": []
+  "scanned": 50,
+  "violation_count": 15,
+  "violations": [
+    {
+      "slug": "ruby-ridge",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou stated"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rudy-giuliani",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sacha-baron-cohen",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "saddam-hussein",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou describes",
+            "Kiriakou says"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "safe-housekeeper",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou said"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sandy-grimes",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou explained"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "section-702",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "senior-executive-service",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou explained"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sleep-deprivation",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sleeper-agent",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 3,
+          "samples": [
+            "Kiriakou described",
+            "Kiriakou recalled",
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sociopathic-tendencies",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou described",
+            "Kiriakou described"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "taliban-origin-benazir",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou noted"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "the-farm",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou states"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "thin-thread-stellar-wind",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou says"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "thomas-massie",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 1,
+          "samples": [
+            "Kiriakou described"
+          ]
+        }
+      ]
+    }
+  ]
 }
