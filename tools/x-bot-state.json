@@ -223,7 +223,8 @@
     "dyk:peter-strzok:0",
     "new:intercept",
     "dyk:richard-welch:1",
-    "new:israeli-false-flags"
+    "new:israeli-false-flags",
+    "quote:mossad:17"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -989,10 +990,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "new",
     "dyk",
-    "new"
+    "new",
+    "quote"
   ]
 }
