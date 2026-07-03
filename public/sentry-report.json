@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-03T22:52:28.427Z",
+  "generated_at": "2026-07-03T23:01:16.450Z",
   "window_min": 30,
-  "scanned": 5,
-  "violation_count": 2,
+  "scanned": 2,
+  "violation_count": 1,
   "violations": [
     {
       "slug": "afghan-heroin-policy",
@@ -20,18 +20,6 @@
           "count": 1,
           "samples": [
             "according to Kiriakou"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "black-cube",
-      "findings": [
-        {
-          "kind": "allegedly",
-          "count": 1,
-          "samples": [
-            "reportedly"
           ]
         }
       ]
