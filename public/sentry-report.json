@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-07-03T22:06:08.396Z",
+  "generated_at": "2026-07-03T22:14:53.007Z",
   "window_min": 30,
   "scanned": 50,
-  "violation_count": 15,
+  "violation_count": 16,
   "violations": [
+    {
+      "slug": "afghan-heroin-policy",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 2,
+          "samples": [
+            "Kiriakou notes",
+            "Kiriakou said"
+          ]
+        },
+        {
+          "kind": "according-to-kiriakou",
+          "count": 1,
+          "samples": [
+            "according to Kiriakou"
+          ]
+        }
+      ]
+    },
     {
       "slug": "ruby-ridge",
       "findings": [

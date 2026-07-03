@@ -322,5 +322,50 @@
     "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail. Prisoners aren't supposed to hand out the mail. But do you know why the prisoners handed out the mail and the guards didn't? because the guards couldn't read. So, as a general rule, everybody who works in the Bureau of Prisons has his head up his ass. They're illiterate. They're lazy. They're stupid. And they're corrupt, but they're not killers. They're just kind of the scums of society, right? I wasn't I wasn't Wait a minute. Let me finish. Let me Let me finish. Let me finish. The cameras didn't work. News flash. The cameras never work in any prison because these pizza delivery guys who became prison employees, they don't know how to make the the cameras work.",
     "why": "Kiriakou uses his firsthand experience to describe the systemic incompetence, illiteracy, laziness, and corruption within the federal prison system, explaining common dysfunctions like non-working cameras and sleeping guards.",
     "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-03T22:11:55.092Z",
+    "kind": "new",
+    "slug": "trump-threat-electrical-grid-war-crime",
+    "anchor_quote": "What we saw was the president threatened again to attack Iran's infrastructure, specifically its electrical grid. And that is quite literally a war crime. It's very unusual for a president to go on TV and announce, \"I'm going to commit a war crime.\"",
+    "why": "Kiriakou directly identifies the president's threat to strike Iran's power grid as a war crime, a distinct claim not covered by existing Iran‑related slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-03T22:11:55.092Z",
+    "kind": "enrich",
+    "slug": "waterboarding",
+    "anchor_quote": "I think I've changed my mind. And I think waterboarding is probably something that we shouldn't be in the business of doing. At the time I was so angry and I wanted so much to help disrupt future attacks on the United States that I felt it was the only thing we could do.",
+    "why": "Kiriakou recounts his personal evolution from supporting to repudiating waterboarding, providing fresh first‑hand perspective to deepen the existing waterboarding article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-03T22:11:55.092Z",
+    "kind": "enrich",
+    "slug": "israeli-false-flags",
+    "anchor_quote": "I think we made a policy decision to accept and to believe Israeli intelligence at face value. The Israelis had a vested interest in lying to us and pulling us into this war to do their dirty work for them.",
+    "why": "His testimony that U.S. policy relied on Israeli intel and was manipulated adds a new dimension to the Israeli‑false‑flags narrative.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-03T22:11:55.092Z",
+    "kind": "new",
+    "slug": "special-forces-uranium-tunnel-iran",
+    "anchor_quote": "The idea of landing special forces to try to retrieve several hundred pounds of enriched uranium… the Iranians have placed this material in multiple tunnel cities across the country, so the plan would involve sending in special forces to extract it from underground tunnels.",
+    "why": "Kiriakou describes a specific, unreported U.S. operational concept targeting Iranian uranium stockpiles, warranting its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-03T22:11:55.092Z",
+    "kind": "new",
+    "slug": "khaled-shik-muhammad-waterboarding",
+    "anchor_quote": "We have reported that Khaled Shik Muhammad was also waterboarded. I was out of it by then, but it's my understanding that he was also waterboarded. Those were really the only two… to the best of my knowledge.",
+    "why": "He identifies Khaled Shik Muhammad as a second detainee subjected to waterboarding, a detail absent from current waterboarding coverage.",
+    "status": "pending"
   }
 ]
