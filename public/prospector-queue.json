@@ -457,5 +457,86 @@
     "anchor_quote": "John Brennan went to the then attorney general Eric Holder and said we need to reopen all the problems that we've got. He asked Eric Holder to secretly reopen the case against me.",
     "why": "Captures Kiriakou’s account of John Brennan urging Attorney General Eric Holder to secretly reopen his case, shedding light on high‑level interference.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-03T22:38:27.438Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post. I wrote him a private letter that a friend of ours, a mutual friend, delivered to him. And then his father came to prison to visit me. I told him the first thing he had to do was hire the best attorneys money can buy, including my own, and they worked out a deal with the Justice Department where Ed would plead guilty and accept a 20‑year sentence, which the DOJ ultimately refused.",
+    "why": "Kiriakou’s direct involvement in Snowden’s attempted plea negotiations adds first‑hand detail to the Snowden article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-03T22:38:27.438Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "He was treated like the average dude. There was nothing special about Jeffrey Epstein once he walked through those doors. He was treated like every other prisoner in the system. Based on my experience, the guards weren’t making rounds every eight minutes—they were sleeping, watching porn, playing solitaire, and the cameras kept blipping off at 12 and then recycling, so the surveillance never worked.",
+    "why": "Kiriakou’s eyewitness account of Epstein’s prison conditions and camera failures expands the existing Epstein entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-03T22:38:27.438Z",
+    "kind": "new",
+    "slug": "federal-prison-guard-illiteracy",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail because the guards couldn’t read. As a general rule, everybody who works in the Bureau of Prisons has his head up his ass—they’re illiterate, lazy, and corrupt.",
+    "why": "Kiriakou describes systemic illiteracy among federal prison guards, a topic not covered by any current slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-03T22:38:27.438Z",
+    "kind": "new",
+    "slug": "prison-camera-malfunctions",
+    "anchor_quote": "The cameras didn’t work. News flash: the cameras never work in any prison because these pizza‑delivery guys who became prison employees don’t know how to make the cameras work. There was a blip where the camera went off and came right back on again, and all the cameras blip off at 12 and then begin recycling again.",
+    "why": "His detailed description of pervasive camera failures provides material for a dedicated article on prison surveillance shortcomings.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-03T22:38:27.438Z",
+    "kind": "new",
+    "slug": "snowden-plea-deal-negotiations",
+    "anchor_quote": "They worked out a deal with the Justice Department where Ed was going to come home, plead guilty, and agree to a 20‑year sentence. The Justice Department said absolutely not because they were afraid he would inspire other whistleblowers, effectively killing the plea plan.",
+    "why": "Kiriakou’s insider view of the aborted Snowden plea deal warrants a focused piece on that negotiation process.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-03T22:40:28.425Z",
+    "kind": "new",
+    "slug": "engineered-911-attack",
+    "anchor_quote": "engineered attack and why was it done? It was to create this whole homeland security apparatus this whole war on terror and and and not to forget the Brennan crimes in the book were allegedly done during the war on terror that meant providing aid and comfort to an enemy during a war that is the global war on terror.",
+    "why": "Kiriakou asserts that 9/11 was a deliberately engineered event to justify the war on terror, a claim not covered by any existing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-03T22:40:28.425Z",
+    "kind": "new",
+    "slug": "john-brennan-dominion-voter-fraud",
+    "anchor_quote": "I'm hoping not not not committing to that. No guarantees but that's my hope is because there's so much more development Michael going on in regards to the John Brennan cover-up and and voter fraud with his Dominion what he knew about General Flynn and and these different things.",
+    "why": "He alleges a John Brennan cover‑up involving Dominion voter‑fraud and knowledge about General Flynn, a distinct topic absent from current slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-03T22:40:28.425Z",
+    "kind": "new",
+    "slug": "afghanistan-pharma-china-silk-road",
+    "anchor_quote": "I can send you this graph but there's there's these connections called it's I think the title of the graph and it's it's maybe 30 pages long. It's saying this the silk the third silk road or something like that. A lot of what was happening and what continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and and China and those that control the control that in those industries but that's that's a whole other topic to get into.",
+    "why": "Kiriakou describes a nexus between Afghanistan, the pharmaceutical industry, China, and a 'third Silk Road' network, a subject not yet documented.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-03T22:40:28.425Z",
+    "kind": "new",
+    "slug": "high-stakes-treason-book",
+    "anchor_quote": "High Stakes Treason and and I what I do is I upload all interviews to that website. They go to the I think it's media appearances and then and then the home page the landing page for that website goes into some nice detail of the exact crimes that that I allege were committed and and what needs to happen. What we can do in regards to reclaiming some of our sovereignty back from John Brennan what he's done and doing to the country.",
+    "why": "He outlines the purpose and content of his book and dedicated website, providing material for a dedicated article on the \"High Stakes Treason\" publication.",
+    "status": "pending"
   }
 ]
