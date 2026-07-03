@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T23:28:19.183Z",
+  "generated_at": "2026-07-03T23:37:04.626Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,271 +62,271 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-07-03 23:24:16"
+      "ts": "2026-07-03 23:33:21"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-07-03 23:24:16"
+      "ts": "2026-07-03 23:33:21"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-07-03 23:24:20"
+      "ts": "2026-07-03 23:33:26"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-03 23:25:08"
+      "ts": "2026-07-03 23:34:16"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Imran Khan — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Sweat Lodge — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-03 23:26:02"
+      "ts": "2026-07-03 23:35:03"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-03 23:26:59"
+      "ts": "2026-07-03 23:35:52"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Pinning Dasht I Leili Massacre back on the corkboard. Not the moment.",
+      "action": "Done: Pinning Cia National Resources Division back on the corkboard. Not the moment.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-03 23:28:17"
+      "ts": "2026-07-03 23:37:03"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Pulled 5 fresh leads out of 2025 06 04 Tucker Carlson Cia Torture Mk Ultra 911.sponsors. 86 sitting in the tray.",
+      "action": "Done: Set the 2025 12 11 Deep Focus Jack Barsky Kgb transcript aside — will retry next cycle.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-03 23:24:59"
+      "ts": "2026-07-03 23:34:08"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
-      "action": "Done: Went through 1. 1 of them need a word about their tone (3 things to fix).",
+      "action": "Done: Went through 1. 0 of them need a word about their tone (0 things to fix).",
       "handoff_to": null,
-      "ts": "2026-07-03 23:28:17"
+      "ts": "2026-07-03 23:37:03"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-07-03 23:28:19",
+      "ts": "2026-07-03 23:37:04",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-07-03 23:28:17",
+      "ts": "2026-07-03 23:37:03",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-07-03 23:28:17",
+      "ts": "2026-07-03 23:37:03",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
-      "action": "Done: Went through 1. 1 of them need a word about their tone (3 things to fix)."
+      "action": "Done: Went through 1. 0 of them need a word about their tone (0 things to fix)."
     },
     {
-      "ts": "2026-07-03 23:28:17",
+      "ts": "2026-07-03 23:37:03",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-07-03 23:28:17",
+      "ts": "2026-07-03 23:37:03",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Dasht I Leili Massacre back on the corkboard. Not the moment."
+      "action": "Done: Pinning Cia National Resources Division back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-03 23:28:11",
+      "ts": "2026-07-03 23:36:57",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Dasht I Leili Massacre — the prose reads choppy, rewriting."
+      "action": "Opened Cia National Resources Division — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-03 23:28:11",
+      "ts": "2026-07-03 23:36:57",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Hypnosis Operation Walk In back on the corkboard. Not the moment."
+      "action": "Done: Pinning Camp David Final Talks back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-03 23:28:04",
+      "ts": "2026-07-03 23:36:50",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Hypnosis Operation Walk In — the prose reads choppy, rewriting."
+      "action": "Opened Camp David Final Talks — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-03 23:28:04",
+      "ts": "2026-07-03 23:36:50",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Sleeper Agent back on the corkboard. Not the moment."
+      "action": "Done: Pinning Benazir Bhutto back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-03 23:27:57",
+      "ts": "2026-07-03 23:36:44",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Sleeper Agent — the prose reads choppy, rewriting."
+      "action": "Opened Benazir Bhutto — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-03 23:27:57",
+      "ts": "2026-07-03 23:36:44",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Francis Gary Powers back on the corkboard. Not the moment."
+      "action": "Done: Pinning Anwar Al Awlaki back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-03 23:27:51",
+      "ts": "2026-07-03 23:36:37",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Francis Gary Powers — the prose reads choppy, rewriting."
+      "action": "Opened Anwar Al Awlaki — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-03 23:27:51",
+      "ts": "2026-07-03 23:36:37",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Moral Injury back on the corkboard. Not the moment."
+      "action": "Done: Pinning Kuwait Oil Fires back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-03 23:27:44",
+      "ts": "2026-07-03 23:36:30",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Moral Injury — the prose reads choppy, rewriting."
+      "action": "Opened Kuwait Oil Fires — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-03 23:27:44",
+      "ts": "2026-07-03 23:36:30",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Gay Diplomat Operation back on the corkboard. Not the moment."
+      "action": "Done: Pinning Iran 12 Day War back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-03 23:27:37",
+      "ts": "2026-07-03 23:36:24",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Gay Diplomat Operation — the prose reads choppy, rewriting."
+      "action": "Opened Iran 12 Day War — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-03 23:27:37",
+      "ts": "2026-07-03 23:36:24",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Fort Chapman back on the corkboard. Not the moment."
+      "action": "Done: Pinning Yemen Arrest back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-03 23:27:31",
+      "ts": "2026-07-03 23:36:17",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Fort Chapman — the prose reads choppy, rewriting."
+      "action": "Opened Yemen Arrest — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-03 23:27:31",
+      "ts": "2026-07-03 23:36:17",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Threw out my pass on Abu Nidal Disruption — I lost 2 direct Kiriakou quotes. Unacceptable."
+      "action": "Done: Pinning National Intelligence Council back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-03 23:27:19",
+      "ts": "2026-07-03 23:36:10",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Abu Nidal Disruption — the prose reads choppy, rewriting."
+      "action": "Opened National Intelligence Council — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-03 23:27:19",
+      "ts": "2026-07-03 23:36:10",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Aq Khan back on the corkboard. Not the moment."
+      "action": "Done: Pinning Government Metadata Purchase back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-03 23:27:12",
+      "ts": "2026-07-03 23:36:04",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Aq Khan — the prose reads choppy, rewriting."
+      "action": "Opened Government Metadata Purchase — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-03 23:27:12",
+      "ts": "2026-07-03 23:36:04",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Mike Spann back on the corkboard. Not the moment."
+      "action": "Done: Pinning Cia Drug Facilitation back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-03 23:27:05",
+      "ts": "2026-07-03 23:35:57",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Mike Spann — the prose reads choppy, rewriting."
+      "action": "Opened Cia Drug Facilitation — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-03 23:26:59",
+      "ts": "2026-07-03 23:35:52",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-07-03 23:26:53",
+      "ts": "2026-07-03 23:35:45",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-03 23:26:53",
+      "ts": "2026-07-03 23:35:45",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Threw out my draft of Ali Soufan — came out shorter than I started."
     },
     {
-      "ts": "2026-07-03 23:26:47",
+      "ts": "2026-07-03 23:35:39",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-03 23:26:47",
+      "ts": "2026-07-03 23:35:39",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Threw out my draft of Aldrich Ames — came out shorter than I started."
+      "action": "Done: Finished Aldrich Ames. Grew it from 3571 to 3614 characters, kept every footnote and quote."
     },
     {
-      "ts": "2026-07-03 23:26:42",
+      "ts": "2026-07-03 23:35:35",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
@@ -334,9 +334,9 @@
     }
   ],
   "last_cycle": {
-    "id": 10,
-    "started_at": "2026-07-03 23:24:16",
-    "ended_at": "2026-07-03 23:24:16",
+    "id": 11,
+    "started_at": "2026-07-03 23:33:21",
+    "ended_at": "2026-07-03 23:33:21",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -384,7 +384,7 @@
   ],
   "orders_today": {
     "date": "2026-07-03",
-    "generated_at": "2026-07-03T23:24:15.672Z",
+    "generated_at": "2026-07-03T23:33:20.778Z",
     "goal": 500000,
     "total_words": 224096,
     "gap": 275904,
