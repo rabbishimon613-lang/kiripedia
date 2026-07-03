@@ -220,7 +220,8 @@
     "new:intelligence-agencies",
     "dyk:cia-remote-vehicle-control:1",
     "quote:maher-arar:1",
-    "dyk:peter-strzok:0"
+    "dyk:peter-strzok:0",
+    "new:intercept"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -617,10 +618,6 @@
   ],
   "queue": [
     {
-      "slug": "intercept",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "israeli-false-flags",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -994,10 +991,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
