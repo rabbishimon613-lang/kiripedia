@@ -655,5 +655,41 @@
     "anchor_quote": "I sat ten feet from Mike for quite some time in the Counterterrorism Center. He and I approach problems from opposite perspectives—he from the right, I from the left—but we meet more often than not, agree more often than not, and I have deep respect for him.",
     "why": "His detailed recounting of his professional relationship with fellow CIA officer Mike Shyer offers unique insight into internal dynamics not covered elsewhere.",
     "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-03T23:16:04.381Z",
+    "kind": "enrich",
+    "slug": "cia-torture-program-whistleblowing",
+    "anchor_quote": "I felt that water boarding was something that we needed to do. And as time has passed and as September 11th has moved farther and farther back into history, I think I've changed my mind. I think that waterboarding is probably something that we shouldn't be in the business of doing.",
+    "why": "Kiriakou’s personal evolution from supporting waterboarding to condemning it adds depth to the existing coverage of the CIA torture program.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-03T23:16:04.381Z",
+    "kind": "enrich",
+    "slug": "espionage-act-whistleblower-cases",
+    "anchor_quote": "Years later, Kiriakou was charged under the Espionage Act and ultimately pleaded guilty with the feds breathing down his neck to revealing the identity of two covert CIA officers to journalists. He believes he was targeted for speaking out about the enhanced interrogation program.",
+    "why": "His Espionage Act prosecution provides a concrete, high‑profile example to illustrate the broader pattern of whistleblower retaliation covered by the slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-03T23:16:04.381Z",
+    "kind": "new",
+    "slug": "trump-iran-electrical-grid-war-crime",
+    "anchor_quote": "the president threatened again to attack Iran's uh infrastructure, specifically its electrical grid. And that is quite literally a war crime. It's very unusual for a president to go on TV and announce, \"I'm going to commit a war crime.\"",
+    "why": "Kiriakou identifies Trump's explicit threat to strike Iran's power grid as a war crime, a distinct claim not covered by existing Iran‑related slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-03T23:16:04.381Z",
+    "kind": "new",
+    "slug": "us-israeli-intelligence-false-flag-iran-war",
+    "anchor_quote": "I think that we made a policy decision to accept and to believe Israeli intelligence at face value. I think the Israelis had a vested interest in lying to us and pulling us into this war to do their dirty work for them.",
+    "why": "His allegation that the U.S. relied on false Israeli intelligence to enter the Iran conflict introduces a new angle on U.S. foreign‑policy decision‑making.",
+    "status": "pending"
   }
 ]
