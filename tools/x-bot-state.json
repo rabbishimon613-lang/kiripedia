@@ -225,7 +225,8 @@
     "dyk:richard-welch:1",
     "new:israeli-false-flags",
     "quote:mossad:17",
-    "dyk:enhanced-interrogation:5"
+    "dyk:enhanced-interrogation:5",
+    "new:john-brennan-tuesday-morning-kill-list"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -622,10 +623,6 @@
   ],
   "queue": [
     {
-      "slug": "john-brennan-tuesday-morning-kill-list",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "katherine-gun",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -991,10 +988,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
