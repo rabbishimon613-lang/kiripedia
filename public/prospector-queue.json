@@ -772,5 +772,95 @@
     "anchor_quote": "No, not by the torture. Listen, it's like a kick in my gut to have to compliment the FBI. The CIA's torture produced no useful information; every time they stepped in, the detainee would clam up and the FBI had to start over. The FBI’s respectful, rapport‑based approach got the intel the CIA’s torture never did.",
     "why": "Strengthens the whistleblowing article with Kiriakou’s explicit statement that CIA torture yielded no useful intelligence.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-03T23:42:36.730Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post. I wrote him a private letter that a friend of ours, a mutual friend, delivered to him. And then his father came to prison to visit me. I said, listen, the very first thing that he has to do is he has to hire the best attorneys money can buy. He has to hire my attorneys. I had great attorneys. And so he did. And they worked out a deal with the Justice Department where Ed was going to come home, plead guilty and agree to 20 years in prison.",
+    "why": "Kiriakou recounts his personal involvement in drafting letters and advising Edward Snowden on legal strategy, providing first‑hand detail not yet captured in the Snowden article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-03T23:42:36.730Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "Thousands. Nobody gives a [ __ ] if these guys commit suicide. They're suicid. Yeah, actually he was the average dude. He was treated like the average dude. There was nothing special about Jeffrey Epstein once he walked through those doors. He was treated like every other prisoner in the system.",
+    "why": "Kiriakou describes the routine treatment of Epstein in federal custody, offering an insider view of prison conditions that expands the existing Epstein entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-03T23:42:36.730Z",
+    "kind": "new",
+    "slug": "federal-prison-system-failures",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail. Prisoners aren't supposed to hand out the mail. But do you know why the prisoners handed out the mail and the guards didn't? because the guards couldn't read. So, as a general rule, everybody who works in the Bureau of Prisons has his head up his ass. They're illiterate. They're lazy. They're stupid. And they're corrupt, but they're not killers.",
+    "why": "Kiriakou provides a detailed critique of guard qualifications, literacy, and systemic neglect, warranting a dedicated article on federal prison system failures.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-03T23:42:36.730Z",
+    "kind": "new",
+    "slug": "whistleblower-affirmative-defense-strategy",
+    "anchor_quote": "It's an affirmative defense where you say, 'Yeah, I did it, but I did it for the good of the American people. Let me explain.' So, I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post and urged him to hire the best attorneys money can buy.",
+    "why": "Kiriakou outlines the legal concept of an affirmative defense for whistleblowers, a distinct topic that can be expanded into its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-03T23:42:36.730Z",
+    "kind": "new",
+    "slug": "pompeo-threats-to-whistleblowers",
+    "anchor_quote": "I know Mike Pompeo had said he wanted to kill him and he wanted him dead and others and others. But let us suppose that he was able to stand up and do that and he came to the US. Do you actually believe he would live in prison?",
+    "why": "Kiriakou alleges direct threats from a senior official toward a whistleblower, a claim that merits a separate entry on high‑level intimidation of whistleblowers.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-03T23:42:49.812Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "there's so much more development Michael going on in regards to the John Brennan cover-up and and voter fraud with his Dominion what he knew about General Flynn and and these different things.",
+    "why": "Kiriakou alleges John Brennan participated in a cover‑up of voter‑fraud evidence and had knowledge about General Flynn, a claim not yet detailed in the john-brennan article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-03T23:42:49.812Z",
+    "kind": "new",
+    "slug": "engineered-911-attack-war-on-terror",
+    "anchor_quote": "engineered attack and why was it done? It was to create this whole homeland security apparatus this whole war on terror and and and not to forget the Brennan crimes in the book were allegedly done during the war on terror that meant providing aid and comfort to an enemy during a war that is the global war on terror.",
+    "why": "Kiriakou describes 9/11 as an engineered attack designed to create the homeland‑security state and justify the global war on terror.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-03T23:42:49.812Z",
+    "kind": "new",
+    "slug": "high-stakes-treason-book",
+    "anchor_quote": "What I do is I upload all interviews to that website. They go to the media appearances and then the home page the landing page for that website goes into some nice detail of the exact crimes that I allege were committed and what needs to happen. What we can do in regards to reclaiming some of our sovereignty back from John Brennan.",
+    "why": "Kiriakou discusses the content and purpose of his book High Stakes Treason, including claims of treasonous actions by senior officials.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-03T23:42:49.812Z",
+    "kind": "new",
+    "slug": "silk-road-afghanistan-pharma-china",
+    "anchor_quote": "there's these connections called it's I think the title of the graph and it's it's maybe 30 pages long. it's saying this the silk the third silk road or something like that. A lot of what was happening and what continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and and China and those that control the control that in those industries.",
+    "why": "Kiriakou references a 30‑page graph linking a ‘third Silk Road’ to Afghanistan’s conflict, the pharmaceutical industry and Chinese control.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-03T23:42:49.812Z",
+    "kind": "new",
+    "slug": "afghanistan-war-inefficiency",
+    "anchor_quote": "Why are we still here in Afghanistan for over 20 years? It's insane. I mean World War IV or two rather was over in four years you know four or five years and so we're in Afghanistan a little p dunk country for over 20 years. It's insane. So it's obviously major manipulation that's going on.",
+    "why": "Kiriakou argues the Afghanistan war could have been ended in 6‑12 months, highlighting a 20‑year inefficiency and possible manipulation.",
+    "status": "pending"
   }
 ]
