@@ -222,7 +222,8 @@
     "quote:maher-arar:1",
     "dyk:peter-strzok:0",
     "new:intercept",
-    "dyk:richard-welch:1"
+    "dyk:richard-welch:1",
+    "new:israeli-false-flags"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -619,10 +620,6 @@
   ],
   "queue": [
     {
-      "slug": "israeli-false-flags",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
       "slug": "john-brennan-tuesday-morning-kill-list",
       "added": "2026-06-24T03:34:57.975Z"
     },
@@ -992,10 +989,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
