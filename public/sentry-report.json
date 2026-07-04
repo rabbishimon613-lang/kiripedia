@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-07-04T08:46:19.670Z",
+  "generated_at": "2026-07-04T08:55:51.013Z",
   "window_min": 30,
-  "scanned": 0,
-  "violation_count": 0,
-  "violations": []
+  "scanned": 1,
+  "violation_count": 1,
+  "violations": [
+    {
+      "slug": "afghan-heroin-policy",
+      "findings": [
+        {
+          "kind": "kiriakou-said",
+          "count": 3,
+          "samples": [
+            "Kiriakou notes",
+            "Kiriakou said",
+            "Kiriakou noted"
+          ]
+        },
+        {
+          "kind": "according-to-kiriakou",
+          "count": 1,
+          "samples": [
+            "according to Kiriakou"
+          ]
+        }
+      ]
+    }
+  ]
 }
