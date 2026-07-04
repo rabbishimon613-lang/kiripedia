@@ -1762,5 +1762,95 @@
     "anchor_quote": "During an interview with ABC News in 2007 I became the first US official to publicly confirm the CIA's use of waterboarding. At the time I felt it was necessary, but as time passed I think waterboarding is something we shouldn't be doing.",
     "why": "His later moral reassessment of waterboarding adds depth to the existing CIA torture whistleblowing article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T02:35:43.871Z",
+    "kind": "enrich",
+    "slug": "british-bases-in-cyprus",
+    "anchor_quote": "When asked if nuclear weapons are stored in the British bases in Cyprus, I answered, \"I don't know. But I would guess, as God is my witness, I don't know where the American nuclear weapons are based. I would guess probably yes,\" acknowledging the secrecy surrounding such deployments.",
+    "why": "Kiriakou provides a firsthand admission of uncertainty yet plausible presence of nuclear arms, adding personal insight to the existing article on British bases in Cyprus.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T02:35:43.871Z",
+    "kind": "enrich",
+    "slug": "lebanon-israeli-conflict",
+    "anchor_quote": "Israel never kept its cease‑fire terms, continuing to bomb South Lebanon, using white phosphorus—an illegal weapon that causes severe burns and destroys farmland—and ordering the evacuation of 53 villages, leaving roughly 300,000 Lebanese displaced.",
+    "why": "His detailed account of white‑phosphorus use and mass evacuations supplies fresh, corroborated evidence for the Lebanon‑Israel conflict entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T02:35:43.871Z",
+    "kind": "enrich",
+    "slug": "aipac",
+    "anchor_quote": "The lobbyists don’t care about veterans, neither does AIPAC. We have veterans committing suicide—about six a day in VA hospital parking lots—while money is poured into endless wars instead of health care and education.",
+    "why": "Kiriakou directly links AIPAC’s inaction to the veteran suicide crisis, offering a new angle for the AIPAC article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T02:35:43.871Z",
+    "kind": "new",
+    "slug": "veterans-suicide-crisis-us",
+    "anchor_quote": "We have veterans literally every single day committing suicide, many of them in the parking lots of the Veterans Administration hospitals—something like as many as six a day—while the money spent on wars could have funded health care for everyone.",
+    "why": "The transcript provides Kiriakou’s eyewitness testimony on the scale of veteran suicides, a topic not yet covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T02:35:43.871Z",
+    "kind": "new",
+    "slug": "nato-article-5-turkey-israel",
+    "anchor_quote": "If Israel attacks Turkey, the United States would have to invoke Article 5 of NATO and come to Turkey’s side. But whether they will is an entirely different question, and failing to do so could mean the end of NATO.",
+    "why": "His explanation of NATO’s Article 5 obligations in a potential Israel‑Turkey clash introduces a distinct, uncatalogued subject for Kiriakou‑centered coverage.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T02:35:56.421Z",
+    "kind": "enrich",
+    "slug": "enhanced-interrogation",
+    "anchor_quote": "They proved that if you treat a prisoner with respect and engage in rapport building and take some time to build this relationship, the prisoner will tell you everything that you want to know. And that's what happened with Abu Zuba. But every time the CIA would step in and begin torturing him, he would clam up, like completely clam up, and then the FBI would have to go back in, try to reverse the damage, and start the whole thing over again.",
+    "why": "Kiriakou’s first‑hand comparison of FBI rapport‑based interrogations with CIA torture provides concrete evidence of effectiveness, enriching the enhanced‑interrogation article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T02:35:56.421Z",
+    "kind": "new",
+    "slug": "john-brennan-lawfare-whistleblower",
+    "anchor_quote": "I think for two reasons. Number one, he genuinely disliked me. And he has this history of going after people, using lawfare, which now we all know what that means. Using lawfare to take down his enemies. Number one, Lawfair understates it. Violence. I mean, they came to your house, they cuffed you, they threw you in a cell.",
+    "why": "Kiriakou describes John Brennan’s personal vendetta and use of lawfare to reopen his case, a distinct topic not covered by existing slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T02:35:56.421Z",
+    "kind": "new",
+    "slug": "john-kiriakou-imprisonment-experience",
+    "anchor_quote": "My kids were eight, six and one. At the visiting room there was a sign that said inmates only. My eight‑year‑old asked, “Dad, what's an inmate?” I said, “It’s a prisoner.” He then asked, “Are you a prisoner here or a teacher here?” I told him, “Buddy, I’m a prisoner here, but we’ll get past this, it’ll be over soon and I’ll be home.”",
+    "why": "Provides a personal narrative of Kiriakou’s prison conditions, child visits, and CIA placement decisions, filling a gap in the corpus.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T02:35:56.421Z",
+    "kind": "new",
+    "slug": "pompeo-assange-murder-plot",
+    "anchor_quote": "Ask Julian Assange how vindictive they are. They almost killed him. So, under Mike Pompeo plotted his murder, literally. Who's still free, by the way? Is Mike Pompeo in jail? I haven't seen any announcement that are you allowed as an appointee to a government, not elected, just an appointee. Are you allowed to plot the murder of people who embarrass the agency you are? I'm not. Oh, you're not allowed.",
+    "why": "Introduces the allegation that former Secretary of State Mike Pompeo plotted to murder Julian Assange, a claim absent from current articles.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T02:35:56.421Z",
+    "kind": "enrich",
+    "slug": "cia-torture-program-whistleblowing",
+    "anchor_quote": "Do you think there was a lot of useful information produced by all this torture? No, not by the torture. Listen, it’s like a kick in my gut to have to compliment the FBI. It really is. When I've had 22 FBI agents raiding my house and taking all my stuff, but if there's one thing the FBI is really good at, it's interrogations.",
+    "why": "Adds Kiriakou’s explicit statement that CIA torture yielded no useful intelligence, strengthening the whistleblowing article on the CIA torture program.",
+    "status": "pending"
   }
 ]
