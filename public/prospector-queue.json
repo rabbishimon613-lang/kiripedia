@@ -5353,5 +5353,50 @@
     "anchor_quote": "I know Mike Pompeo had said he wanted to kill him and he wanted him dead and others and others. He was talking about Snowden, and the Justice Department refused to let him stand up in court for fear he would inspire other whistleblowers.",
     "why": "Kiriakou’s claim about Pompeo’s threat toward Snowden introduces a previously undocumented allegation that warrants its own article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T15:08:34.626Z",
+    "kind": "enrich",
+    "slug": "john-kiriakou",
+    "anchor_quote": "I’m promoting my book *High Stakes Treason* – you can order it directly from me or on Amazon – because it lays out the evidence that the 9/11 attacks were engineered, that the war‑on‑terror was a two‑decade plan, and that the CIA’s own leadership, including George Tenet, knew about it.",
+    "why": "Adds concrete details about Kiriakou’s self‑published book and his claim that 9/11 was a fabricated pretext for the war‑on‑terror, expanding the existing John Kiriakou profile.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T15:08:34.626Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "There’s a whole section in my book about the John Brennan cover‑up – I argue he helped hide voter‑fraud with Dominion, suppressed information on General Flynn, and was complicit in the broader abuse of power that I expose.",
+    "why": "Provides Kiriakou’s first‑hand allegation of a Brennan‑led cover‑up and ties to alleged voter‑fraud, enriching the John Brennan article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T15:08:34.626Z",
+    "kind": "enrich",
+    "slug": "george-tenet",
+    "anchor_quote": "I’m still digging into what George Tenet may have known – I suspect he was aware that the 9/11 attack was engineered to create the Homeland Security apparatus and the endless war on terror we’re still fighting.",
+    "why": "Introduces Kiriakou’s insider perspective on Tenet’s possible knowledge of a pre‑planned 9/11, supplementing the George Tenet entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T15:08:34.626Z",
+    "kind": "new",
+    "slug": "engineered-9-11-attack",
+    "anchor_quote": "If you successfully engineer and perform this 9/11 feat then that is creating again the war on terror – I argue the attacks were a deliberately engineered event designed to justify a permanent security state.",
+    "why": "Creates a dedicated article on Kiriakou’s claim that 9/11 was a fabricated operation to launch the war on terror.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T15:08:34.626Z",
+    "kind": "new",
+    "slug": "afghanistan-pharma-china-silk-road",
+    "anchor_quote": "There’s a graph I’m sending you – it shows the third Silk Road, linking Afghanistan’s ongoing conflict to the pharmaceutical industry, Chinese interests, and a network of control that keeps the war going far beyond any original mission.",
+    "why": "Establishes a new topic on the alleged nexus between Afghanistan’s war, pharma companies, and Chinese influence as described by Kiriakou.",
+    "status": "pending"
   }
 ]
