@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-07-04T03:46:22.252Z",
+  "generated_at": "2026-07-04T03:54:01.193Z",
   "window_min": 30,
-  "scanned": 2,
-  "violation_count": 1,
-  "violations": [
-    {
-      "slug": "abu-zubaydah-capture",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou described"
-          ]
-        }
-      ]
-    }
-  ]
+  "scanned": 1,
+  "violation_count": 0,
+  "violations": []
 }

@@ -2185,5 +2185,68 @@
     "anchor_quote": "John Brennan went to then Attorney General Eric Holder and said we need to reopen all the problems that we've got. He genuinely disliked me and has a history of using lawfare to take down his enemies, which is why he pushed to reopen my case.",
     "why": "Provides a focused account of CIA‑driven lawfare and the reopening of Kiriakou’s case, warranting a dedicated article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T03:51:52.769Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post. I wrote him a private letter that a mutual friend delivered to him. And then his father came to prison to visit me. I said the very first thing he has to do is hire the best attorneys money can buy, my attorneys. They worked out a deal with the Justice Department where Ed was going to come home, plead guilty, agree to 20 years in prison, but the DOJ said absolutely not because they were afraid he would inspire other whistleblowers.",
+    "why": "Adds Kiriakou’s firsthand involvement in trying to help Snowden and his insight on DOJ resistance, enriching the Snowden article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T03:51:52.769Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "I don't accept the story we were told about how he died. The parts where they talked about his body, the condition of his body, the way the cameras went off. The report of cameras not working, the report of people that were supposed to be employed that day. Prison guards are illiterate, lazy, corrupt, but not killers. They were sleeping in the guard booth, watching porn or playing solitaire, and the cameras would blip off at 12 and then recycle again. Thousands of inmates are under suicide watch every day, and Epstein was treated like the average dude.",
+    "why": "Provides Kiriakou’s eyewitness account of prison conditions, camera failures, and suicide‑watch practices that contextualize Epstein’s death.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T03:51:52.769Z",
+    "kind": "new",
+    "slug": "bureau-of-prisons-guard-illiteracy",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail. Prisoners aren't supposed to hand out the mail. But the guards couldn't read. So, as a general rule, everybody who works in the Bureau of Prisons has his head up his ass. They're illiterate, lazy, stupid, and corrupt.",
+    "why": "Creates a dedicated article on Kiriakou’s description of systemic illiteracy and incompetence among federal prison guards, a topic not covered by existing slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T03:52:07.899Z",
+    "kind": "new",
+    "slug": "high-stakes-treason-book",
+    "anchor_quote": "I'm hoping to have a second edition by July 22nd would be the one year anniversary. I'm hoping not committing to that. No guarantees but that's my hope is because there's so much more development going on in regards to the John Brennan cover-up and voter fraud with his Dominion what he knew about General Flynn and these different things.",
+    "why": "Introduces Kiriakou's upcoming second edition of his book that expands on the Brennan cover‑up, Dominion voter‑fraud claims, and Flynn revelations.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T03:52:07.899Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "there's so much more development going on in regards to the John Brennan cover-up and voter fraud with his Dominion what he knew about General Flynn and these different things.",
+    "why": "Adds Kiriakou's specific allegations about a Brennan‑related cover‑up and associated voter‑fraud activities.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T03:52:07.899Z",
+    "kind": "new",
+    "slug": "engineered-9-11-war-on-terror",
+    "anchor_quote": "engineered attack and why was it done? It was to create this whole homeland security apparatus this whole war on terror and not to forget the Brennan crimes in the book were allegedly done during the war on terror that meant providing aid and comfort to an enemy during a war that is the global war on terror. Again, if you successfully engineer and perform this 9/11 feat then that is creating again the war on terror.",
+    "why": "Documents Kiriakou's claim that the 9/11 attacks were engineered to launch and sustain the global war on terror.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T03:52:07.899Z",
+    "kind": "new",
+    "slug": "silk-road-afghanistan-pharma-china",
+    "anchor_quote": "there's these connections called it's I think the title of the graph and it's maybe 30 pages long. It's saying this the silk the third silk road or something like that. A lot of what was happening and what continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and China and those that control the control that in those industries but that's a whole other topic to get into.",
+    "why": "Captures Kiriakou's discussion of Afghanistan's role in a third Silk Road linking the pharmaceutical sector and Chinese interests.",
+    "status": "pending"
   }
 ]
