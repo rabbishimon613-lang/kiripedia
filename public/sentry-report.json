@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-04T03:15:42.354Z",
+  "generated_at": "2026-07-04T03:23:33.471Z",
   "window_min": 30,
   "scanned": 1,
   "violation_count": 1,
   "violations": [
     {
-      "slug": "ali-soufan",
+      "slug": "abu-zubaydah-capture",
       "findings": [
         {
           "kind": "kiriakou-said",
