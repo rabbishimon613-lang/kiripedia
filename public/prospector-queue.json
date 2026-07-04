@@ -5542,5 +5542,41 @@
     "anchor_quote": "I said, \"I worked for the CIA now I speak Arabic, I love Arab culture and history and poetry etc.\" The Iraqi prisoner asked me where I learned Arabic, confirming that my CIA language training was a practical tool even behind bars.",
     "why": "Kiriakou’s recounting of using CIA‑provided Arabic language skills in prison offers a unique perspective on the agency’s language‑training program, warranting a dedicated article.",
     "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T15:46:14.680Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "I think of all the problems that were going on in the world, there are other problems in the world, right? I think for two reasons. Number one, he genuinely disliked me. And he has this history of going after people, using lawfare, which now we all know what that means. Using lawfare to take down his enemies.",
+    "why": "Kiriakou provides first‑hand testimony that John Brennan used personal vendettas and law‑fare tactics to reopen his case, enriching the existing John Brennan article with insider perspective.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T15:46:14.680Z",
+    "kind": "enrich",
+    "slug": "cia-torture-program-whistleblowing",
+    "anchor_quote": "Listen, it's like a kick in my gut to have to compliment the FBI. They proved that if you treat a prisoner with respect and engage in rapport building and take some time to build this relationship, the prisoner will tell you everything that you want to know. And that's what happened with Abu Zuba. But every time the CIA would step in and begin torturing him, he would clam up, like completely clam up, and then the FBI would have to go back in, try to reverse the damage, and start the whole thing over again.",
+    "why": "Kiriakou contrasts FBI interrogation success with CIA torture failures, offering direct evidence of the torture program’s ineffectiveness for the CIA torture whistleblowing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T15:46:14.680Z",
+    "kind": "enrich",
+    "slug": "john-kiriakou",
+    "anchor_quote": "How old were they? They were 8, six, and one. In the visiting room, there was a sign on one of the doors that said inmates only. My 8‑year‑old asked, \"Dad, what's an inmate?\" I said, \"It's a prisoner.\" It took everything I had not to break down while I was being held in a minimum‑security camp, separated from my children.",
+    "why": "Kiriakou recounts his personal imprisonment experience, adding vivid detail to his main biography article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T15:46:14.680Z",
+    "kind": "new",
+    "slug": "mike-pompeo-julian-assange-murder-plot",
+    "anchor_quote": "Ask Julian Assange. They almost killed him. So, under Mike Pompeo plotted his murder, literally. Who's still free, by the way? Is Mike Pompeo in jail? I haven't seen any announcement that are you allowed as an appointee to a government, not elected, just an appointee. Are you allowed to plot the murder of people who embarrass the agency you are?",
+    "why": "Kiriakou alleges that Mike Pompeo personally orchestrated a plot to assassinate Julian Assange, a claim not covered by any existing slug and warranting a dedicated article.",
+    "status": "pending"
   }
 ]
