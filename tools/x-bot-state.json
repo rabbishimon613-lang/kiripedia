@@ -229,7 +229,8 @@
     "new:john-brennan-tuesday-morning-kill-list",
     "quote:fci-loretto:21",
     "dyk:john-kiriakou:13",
-    "quote:enhanced-interrogation:2"
+    "quote:enhanced-interrogation:2",
+    "dyk:safe-housekeeper:1"
   ],
   "knownSlugs": [
     "1993-bush-assassination-plot",
@@ -991,10 +992,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
