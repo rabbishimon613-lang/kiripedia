@@ -1024,5 +1024,50 @@
     "anchor_quote": "Are you already starting to profile this person from what you already know, or is it just the intention to set the next encounter to start deepening the relationship and building more trust? Oh yes and yes. These things are not mutually exclusive. You've got to be working on multiple people at any given time.",
     "why": "Kiriakou explains the CIA practice of simultaneously profiling and engaging multiple contacts, a distinct tradecraft element absent from current articles.",
     "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T00:22:22.486Z",
+    "kind": "enrich",
+    "slug": "cia-torture-program-whistleblowing",
+    "anchor_quote": "I felt that water boarding was something that we needed to do. And as time has passed and as September 11th has moved farther into history, I think I've changed my mind. I think waterboarding is probably something we shouldn't be in the business of doing. At the time I was so angry and I wanted so much to help disrupt future attacks on the United States that I felt it was the only thing we could do, even if it compromised our principles in the short term.",
+    "why": "Kiriakou’s personal evolution on waterboarding adds a first‑hand perspective to the existing whistleblower narrative on the CIA torture program.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T00:22:22.486Z",
+    "kind": "enrich",
+    "slug": "israeli-false-flags",
+    "anchor_quote": "I think that we made a policy decision to accept and to believe Israeli intelligence at face value. I think the Israelis had a vested interest in lying to us and pulling us into this war to do their dirty work for them. That's exactly what happened—the Iranians weren't the threat to us.",
+    "why": "His claim that the U.S. relied on Israeli intelligence, leading to a misguided Iran war, provides new insider testimony for the Israeli false‑flags article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T00:22:22.486Z",
+    "kind": "enrich",
+    "slug": "trump-iran-ceasefire-efforts",
+    "anchor_quote": "Do you believe this is pretty much wrapped up in two to three weeks? In two or three weeks we'll have completed the objective of destroying their ballistic missile program. In about two to three weeks those objectives will have been met. People don't realize they were two to three weeks away from going from 60% to 90% enrichment, and Trump said, 'Okay, I've got two or three weeks to act. I'm going to act now.'",
+    "why": "Kiriakou’s detailed timeline on the missile‑program and enrichment goals expands the coverage of Trump’s Iran cease‑fire and military objectives.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T00:22:22.486Z",
+    "kind": "new",
+    "slug": "trump-threat-electrical-grid-war-crime",
+    "anchor_quote": "What disturbed me the most was the president threatened again to attack Iran's infrastructure, specifically its electrical grid. That is quite literally a war crime. It's very unusual for a president to go on TV and announce, 'I'm going to commit a war crime.'",
+    "why": "His observation that Trump publicly threatened to bomb Iran's power grid, framing it as a war crime, constitutes a distinct, documentable claim not covered by any existing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T00:22:22.486Z",
+    "kind": "new",
+    "slug": "us-special-forces-uranium-tunnel-iran",
+    "anchor_quote": "The other, which is, I think, even crazier, is this idea of landing special forces to try to retrieve several hundred pounds of enriched uranium in tunnels. Obviously the Iranians aren't like cartoon villains to keep all their enriched uranium in one underground site; it's multiple tunnel cities across the country where they've placed these.",
+    "why": "Kiriakou’s speculation about a U.S. special‑forces mission to seize uranium from Iranian tunnels introduces a novel operational topic that warrants its own article.",
+    "status": "pending"
   }
 ]
