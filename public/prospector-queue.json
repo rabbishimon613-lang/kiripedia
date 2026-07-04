@@ -1933,5 +1933,104 @@
     "anchor_quote": "there's these connections called it's I think the title of the graph and it's it's maybe 30 pages long. It's saying this the silk the third silk road or something like that. A lot of what was happening and what continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and and China and those that control the control that in those industries...",
     "why": "Kiriakou provides new insight linking Afghanistan’s drug landscape to a \"third Silk Road\" involving pharma and China, enriching the existing Afghan heroin policy article.",
     "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T02:58:15.823Z",
+    "kind": "enrich",
+    "slug": "intelligence-identities-protection-act",
+    "anchor_quote": "I pleaded guilty after the Justice Department offered a \"best and final\" 30‑month deal, which I could cut to 23 months if I went to trial. My attorneys warned me the trial could mean 12 to 18 years, so with five kids at home I took the deal, later calling it the right move in hindsight.",
+    "why": "Adds Kiriakou's personal decision‑making and plea‑deal details to the existing IIPA article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T02:58:15.823Z",
+    "kind": "enrich",
+    "slug": "doing-time-like-a-spy",
+    "anchor_quote": "While in prison I wrote a \"Letter from Lorettto\" modeled on Martin Luther King Jr.'s Birmingham jail letter, describing an abusive female guard and a later encounter with an Iraqi inmate who greeted me in Arabic; two days after that I was summoned to the lieutenant’s office and warned I could be sent to solitary confinement for speaking to him.",
+    "why": "Provides vivid first‑hand accounts of Kiriakou's prison life, guard abuse, and solitary‑confinement threats to enrich the prison‑experience article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T02:58:15.823Z",
+    "kind": "new",
+    "slug": "kiriakou-letter-from-lorettto",
+    "anchor_quote": "I waited six weeks after arriving at Loretto, then penned what I arrogantly called a \"Letter from Lorettto,\" deliberately echoing Dr. King’s Birmingham jail missive, to expose the conditions I faced and the moral contradictions of my confinement.",
+    "why": "Creates a dedicated article on Kiriakou's prison correspondence, a unique primary source not covered elsewhere.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T02:58:15.823Z",
+    "kind": "new",
+    "slug": "kiriakou-iraqi-prisoner-encounter",
+    "anchor_quote": "One day an Iraqi prisoner approached me, I greeted him with \"alamu alaykum,\" he asked how I learned Arabic; I told him I’d worked for the CIA, loved Arab culture and poetry, and we shook hands before I was later hauled into the lieutenant’s office and threatened with solitary.",
+    "why": "Documents a rare cross‑cultural prison interaction that illustrates Kiriakou's language skills and the risks of such contacts.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T02:58:19.929Z",
+    "kind": "enrich",
+    "slug": "kuwait-invasion-intelligence",
+    "anchor_quote": "I was the only Iraq leadership analyst. I remember walking in that morning and saying to my boss, \"Big day ahead of us today.\" He replied, \"Don't take your jacket off. We're going to the Oval Office.\" I was 25, and walked into a room with the president, the vice president, the national security adviser, the CIA director, my boss, and me. The president looked around and asked, \"Well, now what do we do?\"",
+    "why": "Kiriakou’s first‑hand account of briefing the president and senior officials during the 1990 Iraq invasion of Kuwait adds a unique analyst perspective to the existing Kuwait intelligence article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T02:58:19.929Z",
+    "kind": "new",
+    "slug": "cia-field-recruitment-greece-athens",
+    "anchor_quote": "I remember going into the heavily communist anarchist neighborhood of Athens, Greece to pitch a bona‑fide terrorist. I was the only member of the team not wearing a bulletproof vest. When my boss asked why, I said, \"It shows underneath our shirts and I don’t want to freak the guy out. I genuinely want to recruit him and I’m willing to take the risk, even with a gun on my waist and another in an ankle holster.\"",
+    "why": "This passage provides a rare, detailed description of a CIA field recruitment operation in Athens, highlighting the personal risk and tactics Kiriakou employed, a topic not covered by any current slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T02:58:19.929Z",
+    "kind": "new",
+    "slug": "cia-arabic-language-program",
+    "anchor_quote": "They picked me because I had Arabic language skills and was serious about academia. I was fascinated with Arab culture and history, read Arab poetry, and studied Islam under one of the most important Islamic scholars in the western world. I wanted to live there and truly understand the people, which led to my placement in the Directorate of Intelligence’s analytic branch.",
+    "why": "Kiriakou’s discussion of his Arabic language training and cultural immersion offers material for a dedicated article on the CIA’s Arabic language program and its role in intelligence analysis.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T02:58:19.929Z",
+    "kind": "new",
+    "slug": "cia-awards-and-recognition",
+    "anchor_quote": "I received ten exceptional performance awards, the sustained superior performance award, the counterterrorism service medal, and the State Department’s meritorious honor award, among others. I earned them by often finding myself in situations where I had to think quickly, bullets were flying, and people’s lives were at risk during dangerous recruitments and operations.",
+    "why": "His enumeration of multiple CIA honors and the contexts in which they were earned provides the basis for an article examining how the agency recognizes field and analytical achievements.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T02:58:28.038Z",
+    "kind": "enrich",
+    "slug": "cia",
+    "anchor_quote": "Everything from the agencies to you know should the CIA even exist anymore to Israel. It it's really wild when you think about it.",
+    "why": "Kiriakou directly questions the continued existence of the CIA, providing fresh primary‑source commentary to deepen the generic CIA article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T02:58:28.038Z",
+    "kind": "new",
+    "slug": "israel-us-political-influence",
+    "anchor_quote": "you know, obviously you've got okay, Israel's influence over our politics, over our elected officials, our politicians. uh you know there there's all but then the question is is that okay so there's a lot of times there's talk about MSAD there's talk about CIA who's involved who's over like not overseeing but who's influencing the other do you find that it's kind of mutually both are kind of combating with each other or do you think that one is more influential than the other especially when it comes to our involvement going on in the Middle East?",
+    "why": "Kiriakou discusses Israel’s sway over American political figures, a distinct topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T02:58:28.038Z",
+    "kind": "new",
+    "slug": "foreign-policy-polarization-1990s",
+    "anchor_quote": "the mid 1990s where differences in foreign policy ended at the shore, right? As Americans, we spoke with one voice on foreign policy. That ended in the mid 1990s and now we're beating each other up over foreign policy. It makes the country weaker and it shouldn't be happening.",
+    "why": "He describes the shift from unified foreign‑policy consensus to partisan conflict, warranting a dedicated article on the polarization that began in the mid‑1990s.",
+    "status": "pending"
   }
 ]
