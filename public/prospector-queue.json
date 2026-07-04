@@ -2518,5 +2518,77 @@
     "anchor_quote": "The FBI proved it with Abu Zuba. When you treat a detainee with respect, build rapport, and give them time, they’ll tell you everything you need to know. That’s what happened with Abu Zuba. Every time the CIA stepped in and began torturing him, he would completely clam up, forcing the FBI to start the interrogation over again.",
     "why": "Creates a focused article on the successful FBI interrogation of Abu Zuba contrasted with CIA torture, a subject Kiriakou uniquely describes.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T05:01:30.830Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post. I wrote him a private letter that a mutual friend delivered to him. Then his father came to prison to visit me, and I said the very first thing that he has to do is hire the best attorneys money can buy, hire my attorneys. They worked out a deal with the Justice Department where Ed was going to come home, plead guilty, agree to 20 years in prison, but the DOJ said absolutely not because they were afraid he would inspire other whistleblowers.",
+    "why": "Kiriakou provides first‑hand details of his personal legal assistance to Snowden, a perspective not yet covered in the existing Snowden article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T05:01:30.830Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "I don't accept the story we were told about how he died. I don't accept their evidence. The parts where they talked about his body, the condition of his body, the way the cameras went off... The cameras didn't work. News flash. The cameras never work in any prison because these pizza delivery guys who became prison employees, they don't know how to make the cameras work. There was a blip in the camera where it went off and it came right back on again. All the cameras blip off at 12 and then begin recycling again.",
+    "why": "Kiriakou recounts his own observations of the Epstein prison environment and camera failures, adding eyewitness detail to the Epstein entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T05:01:30.830Z",
+    "kind": "new",
+    "slug": "federal-prison-guard-illiteracy",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail. Prisoners aren't supposed to hand out the mail. But do you know why the prisoners handed out the mail and the guards didn't? because the guards couldn't read. So, as a general rule, everybody who works in the Bureau of Prisons has his head up his ass. They're illiterate, they're lazy, they're stupid, and they're corrupt, but they're not killers.",
+    "why": "Kiriakou offers a rare insider critique of guard qualifications and widespread illiteracy in the Federal Bureau of Prisons, a topic not covered by any current slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T05:01:47.929Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "there's so much more development Michael going on in regards to the John Brennan cover-up and and voter fraud with his Dominion what he knew about General Flynn and and these different things.",
+    "why": "Kiriakou directly alleges a cover‑up by John Brennan, providing new testimony that can deepen the existing John‑Brennan article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T05:01:47.929Z",
+    "kind": "new",
+    "slug": "engineered-9-11-attack",
+    "anchor_quote": "engineered attack and why was it done? It was to create this whole homeland security apparatus this whole war on terror and and and the Brennan crimes in the book were allegedly done during the war on terror that meant providing aid and comfort to an enemy during a war that is the global war on terror.",
+    "why": "Kiriakou describes 9/11 as a deliberately engineered event to launch the war on terror, a distinct claim not covered by any current article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T05:01:47.929Z",
+    "kind": "new",
+    "slug": "high-stakes-treason-book",
+    "anchor_quote": "my book High Stakes Treason is on Amazon where else can people get your book High Stakes Treason? Yeah, I would I would suggest ordering it from me directly helps my effort out a little bit more. I’m hoping to have a second edition by July… because there’s so much more development Michael going on in regards to the John Brennan cover‑up and voter fraud.",
+    "why": "The transcript provides extensive promotion and context for Kiriakou’s book, warranting a dedicated article about the book itself.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T05:01:47.929Z",
+    "kind": "new",
+    "slug": "afghanistan-pharma-china-silk-road",
+    "anchor_quote": "this the silk the third silk road or something like that. A lot of what was happening and what continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and and China and those that control the control that in those industries…",
+    "why": "Kiriakou links Afghanistan’s ongoing conflict to a pharma‑China‑silk‑road nexus, a topic not yet covered in the corpus.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T05:01:47.929Z",
+    "kind": "new",
+    "slug": "voter-fraud-dominion-flynn",
+    "anchor_quote": "there's so much more development Michael going on in regards to the John Brennan cover-up and and voter fraud with his Dominion what he knew about General Flynn and and these different things.",
+    "why": "Kiriakou ties Dominion‑related voter‑fraud allegations to knowledge about General Flynn, a novel angle requiring its own article.",
+    "status": "pending"
   }
 ]
