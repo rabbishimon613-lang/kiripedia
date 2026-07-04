@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T04:46:55.132Z",
+  "generated_at": "2026-07-04T04:55:58.894Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,271 +62,271 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-07-04 04:42:50"
+      "ts": "2026-07-04 04:51:57"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-07-04 04:42:50"
+      "ts": "2026-07-04 04:51:57"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-07-04 04:42:55"
+      "ts": "2026-07-04 04:52:01"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 04:43:47"
+      "ts": "2026-07-04 04:52:59"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Imran Khan — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Sweat Lodge — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 04:44:31"
+      "ts": "2026-07-04 04:53:47"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 04:45:30"
+      "ts": "2026-07-04 04:54:40"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Pinning Havana Syndrome back on the corkboard. Not the moment.",
+      "action": "Done: Pinning Pete Seeger back on the corkboard. Not the moment.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 04:46:54"
+      "ts": "2026-07-04 04:55:57"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Pulled 5 fresh leads out of 2025 06 04 Tucker Carlson Cia Torture Mk Ultra 911.sponsors. 280 sitting in the tray.",
+      "action": "Done: Set the 2025 12 11 Deep Focus Jack Barsky Kgb transcript aside — will retry next cycle.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 04:43:38"
+      "ts": "2026-07-04 04:52:50"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
-      "action": "Done: Went through 1. 1 of them need a word about their tone (1 things to fix).",
+      "action": "Done: Went through 2. 1 of them need a word about their tone (1 things to fix).",
       "handoff_to": null,
-      "ts": "2026-07-04 04:46:54"
+      "ts": "2026-07-04 04:55:57"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-07-04 04:46:55",
+      "ts": "2026-07-04 04:55:58",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-07-04 04:46:54",
+      "ts": "2026-07-04 04:55:58",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-07-04 04:46:54",
+      "ts": "2026-07-04 04:55:57",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
-      "action": "Done: Went through 1. 1 of them need a word about their tone (1 things to fix)."
+      "action": "Done: Went through 2. 1 of them need a word about their tone (1 things to fix)."
     },
     {
-      "ts": "2026-07-04 04:46:54",
+      "ts": "2026-07-04 04:55:57",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-07-04 04:46:54",
+      "ts": "2026-07-04 04:55:57",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Havana Syndrome back on the corkboard. Not the moment."
+      "action": "Done: Pinning Pete Seeger back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:46:47",
+      "ts": "2026-07-04 04:55:50",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Havana Syndrome — the prose reads choppy, rewriting."
+      "action": "Opened Pete Seeger — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:46:47",
+      "ts": "2026-07-04 04:55:50",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Threw out my pass on Mek — I lost 9 direct Kiriakou quotes. Unacceptable."
+      "action": "Done: Pinning Hummus back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:46:35",
+      "ts": "2026-07-04 04:55:43",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Mek — the prose reads choppy, rewriting."
+      "action": "Opened Hummus — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:46:35",
+      "ts": "2026-07-04 04:55:43",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Sacha Baron Cohen back on the corkboard. Not the moment."
+      "action": "Done: Pinning Dashti Leyli back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:46:28",
+      "ts": "2026-07-04 04:55:36",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Sacha Baron Cohen — the prose reads choppy, rewriting."
+      "action": "Opened Dashti Leyli — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:46:28",
+      "ts": "2026-07-04 04:55:36",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Mike Mastrovito back on the corkboard. Not the moment."
+      "action": "Done: Pinning Billy Wall back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:46:21",
+      "ts": "2026-07-04 04:55:29",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Mike Mastrovito — the prose reads choppy, rewriting."
+      "action": "Opened Billy Wall — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:46:21",
+      "ts": "2026-07-04 04:55:29",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Special Activities Division back on the corkboard. Not the moment."
+      "action": "Done: Pinning Stephen Saunders back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:46:13",
+      "ts": "2026-07-04 04:55:22",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Special Activities Division — the prose reads choppy, rewriting."
+      "action": "Opened Stephen Saunders — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:46:13",
+      "ts": "2026-07-04 04:55:22",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Principals Committee Meeting back on the corkboard. Not the moment."
+      "action": "Done: Pinning Double Agent Marriott Trap back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:46:06",
+      "ts": "2026-07-04 04:55:14",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Principals Committee Meeting — the prose reads choppy, rewriting."
+      "action": "Opened Double Agent Marriott Trap — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:46:06",
+      "ts": "2026-07-04 04:55:14",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Tuesday Morning Kill List back on the corkboard. Not the moment."
+      "action": "Done: Pinning Khaled El Masri back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:45:59",
+      "ts": "2026-07-04 04:55:07",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Tuesday Morning Kill List — the prose reads choppy, rewriting."
+      "action": "Opened Khaled El Masri — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:45:59",
+      "ts": "2026-07-04 04:55:07",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Section 702 back on the corkboard. Not the moment."
+      "action": "Done: Pinning Blackwater back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:45:51",
+      "ts": "2026-07-04 04:55:00",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Section 702 — the prose reads choppy, rewriting."
+      "action": "Opened Blackwater — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:45:51",
+      "ts": "2026-07-04 04:55:00",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Maduro Capture back on the corkboard. Not the moment."
+      "action": "Done: Pinning Aldrich Ames back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:45:44",
+      "ts": "2026-07-04 04:54:53",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Maduro Capture — the prose reads choppy, rewriting."
+      "action": "Opened Aldrich Ames — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:45:44",
+      "ts": "2026-07-04 04:54:53",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Afghan Heroin Policy back on the corkboard. Not the moment."
+      "action": "Done: Pinning Bill Buckley back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:45:36",
+      "ts": "2026-07-04 04:54:46",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Afghan Heroin Policy — the prose reads choppy, rewriting."
+      "action": "Opened Bill Buckley — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:45:30",
+      "ts": "2026-07-04 04:54:40",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 04:45:23",
+      "ts": "2026-07-04 04:54:33",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 04:45:23",
+      "ts": "2026-07-04 04:54:33",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Finished Ali Soufan. Grew it from 6045 to 6119 characters, kept every footnote and quote."
+      "action": "Done: Finished Ali Soufan. Grew it from 6120 to 6123 characters, kept every footnote and quote."
     },
     {
-      "ts": "2026-07-04 04:45:17",
+      "ts": "2026-07-04 04:54:28",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 04:45:17",
+      "ts": "2026-07-04 04:54:28",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Threw out my draft of Aldrich Ames — came out shorter than I started."
+      "action": "Done: Finished Aldrich Ames. Grew it from 4526 to 5070 characters, kept every footnote and quote."
     },
     {
-      "ts": "2026-07-04 04:45:13",
+      "ts": "2026-07-04 04:54:19",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
@@ -334,9 +334,9 @@
     }
   ],
   "last_cycle": {
-    "id": 50,
-    "started_at": "2026-07-04 04:42:50",
-    "ended_at": "2026-07-04 04:42:50",
+    "id": 51,
+    "started_at": "2026-07-04 04:51:57",
+    "ended_at": "2026-07-04 04:51:57",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -384,10 +384,10 @@
   ],
   "orders_today": {
     "date": "2026-07-04",
-    "generated_at": "2026-07-04T04:42:49.820Z",
+    "generated_at": "2026-07-04T04:51:56.588Z",
     "goal": 500000,
-    "total_words": 224855,
-    "gap": 275145,
+    "total_words": 224862,
+    "gap": 275138,
     "days_at_2k_per_day": 138,
     "priority_transcripts": [
       "2025-06-17-mario-nawfal-ex-cia-agent-john-kiriakou-on-israel-iran-mossad-middle-",
@@ -467,7 +467,7 @@
       "2026-05-19-jeff-dornik-israel-epstein-swamp",
       "2021-05-12-howie-hawkins-greensocialist-notes-23-whistleblowers-with-john-kiriak"
     ],
-    "directive": "TODAY'S ORDERS (2026-07-04): The bureau is at 224,855 words — 275,145 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
+    "directive": "TODAY'S ORDERS (2026-07-04): The bureau is at 224,862 words — 275,138 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
   },
   "office_state": null
 }
