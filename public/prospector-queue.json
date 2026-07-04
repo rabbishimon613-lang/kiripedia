@@ -3022,5 +3022,32 @@
     "anchor_quote": "Our show was a big reason why we got censored—labeled by right‑wing watch as extremist. Now you’re seeing everything he talked about coming to fruition, especially dealing with Iran and Israel. The censorship of whistleblower platforms is a recurring theme he highlights.",
     "why": "Kiriakou describes how CIA‑related content was censored and labeled extremist, warranting a focused article on the suppression of whistleblower voices.",
     "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T06:28:49.163Z",
+    "kind": "enrich",
+    "slug": "cia-training-doctrine",
+    "anchor_quote": "He said, \"I want you to show me 20 business cards tomorrow.\" And I'd say, \"Okay.\" So I would go from person to person, make sure I got 20 or 25. Then he'd say, \"Not interested, not interested, not interested. Ah, this guy, yeah, we'd be interested in him.\" I'd take the five or ten out of the twenty that might have operational interest and call, \"Hey, I'd love to take you to lunch. I had such a nice time in our conversation the other day.\"",
+    "why": "The passage details a concrete CIA tradecraft technique for asset recruitment, directly expanding the existing CIA training doctrine article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T06:28:49.163Z",
+    "kind": "new",
+    "slug": "cia-social-engineering-business-cards",
+    "anchor_quote": "He said, \"I want you to show me 20 business cards tomorrow.\" I went around collecting 20‑25 cards, then filtered out the few with operational value and used a casual lunch invitation to start a relationship, illustrating how business‑card exchanges serve as a social‑engineering tool in covert operations.",
+    "why": "No current article covers the specific use of business‑card collection as a social‑engineering recruitment method in CIA operations.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T06:28:49.163Z",
+    "kind": "new",
+    "slug": "cia-officer-personality-requirements",
+    "anchor_quote": "You cannot be a CIA operations officer and be an introvert. The two are incompatible; you have to genuinely love doing this. I remember working for a fantastic station chief who could have recruited me—he was funny, full of great stories, a great leader, and he constantly pushed me to attend parties and network.",
+    "why": "Kiriakou’s observation about the personality traits required for CIA officers is not captured in any existing slug and warrants its own focused article.",
+    "status": "pending"
   }
 ]
