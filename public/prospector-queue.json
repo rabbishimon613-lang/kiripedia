@@ -4984,5 +4984,41 @@
     "anchor_quote": "My little kids… at the visiting room there was a sign on one of the doors that said inmates only. My 8‑year‑old asked, ‘Dad, what’s an inmate?’ I said, ‘It’s a prisoner.’ He then asked, ‘Are you a prisoner here or a teacher?’ I told him, ‘Buddy, I’m a prisoner here, but we’ll get past this, it’ll be quick and I’ll be home and everything will be good again.’",
     "why": "Captures Kiriakou’s personal experience of prison life, his children’s perspective, and the CIA’s decision to place him in a minimum‑security camp rather than a work camp, a distinct narrative absent from current articles.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T13:52:02.116Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post. I wrote him a private letter that a mutual friend delivered to him. Then his father came to prison to visit me, and I told him the very first thing he has to do is hire the best attorneys money can buy, hire my attorneys. They worked out a deal with the Justice Department where Ed was going to come home, plead guilty, and agree to 20 years in prison, but the DOJ said absolutely not because they were afraid he would inspire other whistleblowers.",
+    "why": "Kiriakou provides first‑hand details of his personal involvement with Snowden’s legal strategy, expanding the Snowden article with unique insider perspective.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T13:52:02.116Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "The cameras didn't work. News flash. The cameras never work in any prison because these pizza delivery guys who became prison employees don't know how to make the cameras work. There was a blip in the camera where it went off and it came right back on again. All the cameras blip off at 12 and then begin recycling again. The guards were supposed to walk around every eight minutes but they didn't walk around for 30 minutes because they were sleeping in the guard booth, looking at porn or playing solitaire.",
+    "why": "Kiriakou recounts specific failures of surveillance and guard conduct at the federal prison where Epstein was held, adding concrete evidence to the Epstein article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T13:52:02.116Z",
+    "kind": "new",
+    "slug": "federal-prison-guard-illiteracy",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail. Prisoners aren't supposed to hand out the mail. But the guards couldn't read, so as a general rule, everybody who works in the Bureau of Prisons has his head up his ass. They're illiterate, they're lazy, they're stupid, and they're corrupt.",
+    "why": "Kiriakou’s vivid description of guard qualifications and widespread illiteracy reveals systemic problems in the Federal Bureau of Prisons not covered elsewhere.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T13:52:02.116Z",
+    "kind": "new",
+    "slug": "justice-department-whistleblower-deals",
+    "anchor_quote": "They worked out a deal with the Justice Department where Ed was going to come home, plead guilty and agree to 20 years in prison, but the Justice Department said absolutely not because they were afraid he would inspire other whistleblowers who were willing to go public over incidents of waste, fraud, abuse, illegality, or threats to the public health or public safety.",
+    "why": "Kiriakou’s account of the DOJ’s refusal to honor a whistleblower plea deal provides unique insight into the agency’s handling of high‑profile whistleblower cases.",
+    "status": "pending"
   }
 ]
