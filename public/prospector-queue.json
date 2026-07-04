@@ -1573,5 +1573,131 @@
     "anchor_quote": "people get your book High Stakes Treason? Yeah, I mean I would suggest ordering it from me directly helps my effort out a little bit more. I'm happy to send out a signed copy... I'm hoping to have a second edition by July 22nd because there's so much more development...",
     "why": "Kiriakou’s book \"High Stakes Treason\" is a primary source for his allegations and merits its own dedicated article.",
     "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T01:57:39.920Z",
+    "kind": "enrich",
+    "slug": "intelligence-identities-protection-act",
+    "anchor_quote": "You were convicted under the 1982 Intelligence Identities Protection Act, right? That's right. Did you plead guilty or were you convicted? Oh, I plead guilty. Most definitely. I asked my attorneys. I was going to plead not guilty, and because nobody had ever challenged it at trial, there was no precedent. Several articles in the Harvard law journal said it was unconstitutional, so I decided to fight.",
+    "why": "Adds Kiriakou's personal account of his conviction and plea‑deal under the IIPA, enriching the existing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T01:57:39.920Z",
+    "kind": "new",
+    "slug": "john-kiriakou-prison-letter-lorettto",
+    "anchor_quote": "I wrote something that I very arrogantly called 'Letter from Lorettto' because I wanted to model it on Martin Luther King’s Letter from Birmingham Jail. I called it Letter from Lorettto and said two strange things happened to me. One wasn’t strange; the other was that I described an abusive female prison guard, and I sent it to a mailing list of six hundred people.",
+    "why": "Documents Kiriakou's self‑authored prison correspondence modeled on MLK, a topic not covered by any current slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T01:57:39.920Z",
+    "kind": "new",
+    "slug": "kiriakou-iraqi-prisoner-arabic-conversation",
+    "anchor_quote": "One of the other prisoners was walking me around one day and he introduced me to an Iraqi prisoner. I said, ‘As-salamu alaykum, may peace be upon you,’ and he responded in kind, then asked where I learned Arabic. I told him I worked for the CIA, love Arab culture, history and poetry, and we shook hands.",
+    "why": "Reveals a rare personal interaction with an Iraqi detainee and Kiriakou’s use of Arabic, a distinct subject absent from existing articles.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T01:57:39.920Z",
+    "kind": "new",
+    "slug": "kiriakou-prison-guard-abuse-solitary-threat",
+    "anchor_quote": "Two days later I was called into the lieutenant’s office and told, ‘You never want to get called into the lieutenant’s office because the likelihood is that you’ll be sent to solitary confinement for what you’ve done.’ That warning, combined with the abusive female guard I described, showed how intimidation was used against us.",
+    "why": "Highlights the abusive guard and solitary‑confinement threat Kiriakou faced, providing new insight into his prison conditions.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T01:57:43.352Z",
+    "kind": "enrich",
+    "slug": "kuwait-invasion-intelligence",
+    "anchor_quote": "I was the only Iraq leadership analyst when Iraq invaded Kuwait on August 2, 1990. I walked into the Oval Office with the president, vice president, national security adviser, CIA director, my boss and me. The president looked around and asked, \"Well, now what do we do?\" All eyes turned to me, a 25‑year‑old analyst, as we began to plan the response.",
+    "why": "Kiriakou’s first‑hand account of the intelligence briefing during the Kuwait invasion adds depth to the existing Kuwait invasion intelligence article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T01:57:43.352Z",
+    "kind": "enrich",
+    "slug": "sociopathic-tendencies",
+    "anchor_quote": "You say the CIA hires people with sociopathic tendencies, and they look for narcissistic individuals because they’re arrogant and have no conscience. In retrospect I probably had those sociopathic tendencies myself, and that’s why they picked me – I was lucky, but also fit that psychological profile they seek.",
+    "why": "His personal reflection on CIA recruitment of sociopathic narcissists provides primary testimony to enrich the sociopathic‑tendencies entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T01:57:43.352Z",
+    "kind": "new",
+    "slug": "cia-recruitment-operations-greece",
+    "anchor_quote": "I remember going into the heavily communist anarchist neighborhood of Athens, Greece, to pitch a bona‑fide terrorist. I was the only member of the team not wearing a bullet‑proof vest. My boss asked why, and I said I didn’t want the vest to scare the target – I even carried a gun in a fanny pack and an ankle holster, ready to go down shooting if needed.",
+    "why": "Kiriakou’s detailed description of a field recruitment mission in Athens reveals a rarely documented CIA recruitment tactic, warranting its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T01:57:43.352Z",
+    "kind": "new",
+    "slug": "arab-language-analysts-cia",
+    "anchor_quote": "They picked me because I had Arabic language skills and was serious about academia. I read Arab poetry, studied Islam under a leading Western scholar, and was fascinated with Arab culture and history. That background got me into the Directorate of Intelligence’s analytic branch, not because I was great, but because I was lucky and fluent.",
+    "why": "His account of how Arabic language expertise shaped his CIA career fills a gap about language‑specific analyst recruitment.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T01:57:43.352Z",
+    "kind": "new",
+    "slug": "cia-counterterrorism-field-awards",
+    "anchor_quote": "I received ten exceptional performance awards – the Sustained Superior Performance Award, the Counterterrorism Service Medal, the State Department’s Meritorious Honor Award, among others. I earned them by thinking quickly in situations where bullets were flying, lives were at risk, and by making daring recruitments that later proved critical to counterterrorism operations.",
+    "why": "Kiriakou’s enumeration of his awards and the field actions that earned them provides material for a focused piece on CIA counterterrorism recognitions.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T01:57:51.531Z",
+    "kind": "enrich",
+    "slug": "cia",
+    "anchor_quote": "Everything from the agencies to you know should the CIA even exist anymore, and that question has been haunting me since I left the agency.",
+    "why": "Kiriakou directly addresses the fundamental question of the CIA's continued existence, providing fresh primary commentary to deepen the generic CIA article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T01:57:51.531Z",
+    "kind": "enrich",
+    "slug": "mossad",
+    "anchor_quote": "There's talk about MSAD, there's talk about CIA who's involved, who's overseeing, but who's influencing the other – do you think one is more influential than the other when it comes to our involvement in the Middle East?",
+    "why": "Kiriakou offers insider perspective on the interplay between Mossad and the CIA, a nuance absent from the current Mossad entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T01:57:51.531Z",
+    "kind": "new",
+    "slug": "israel-us-political-influence",
+    "anchor_quote": "Obviously you've got Israel's influence over our politics, over our elected officials, our politicians – the question is, is that okay?",
+    "why": "Kiriakou discusses Israel's sway on American elected officials, a distinct topic not covered by existing Israel‑related slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T01:57:51.531Z",
+    "kind": "new",
+    "slug": "post-1990s-foreign-policy-polarization",
+    "anchor_quote": "The mid‑1990s was when differences in foreign policy ended at the shore; we used to speak with one voice, and now we’re beating each other up over foreign policy, making the country weaker.",
+    "why": "He highlights the shift from a unified foreign‑policy stance to partisan conflict after the mid‑1990s, warranting its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T01:57:51.531Z",
+    "kind": "new",
+    "slug": "cia-mossad-competition",
+    "anchor_quote": "There’s talk about MSAD, there’s talk about CIA – who’s influencing who? Do you think one is more influential than the other especially when it comes to our involvement in the Middle East?",
+    "why": "Kiriakou’s remarks frame a direct competition narrative between the CIA and Mossad, a topic not yet isolated in the corpus.",
+    "status": "pending"
   }
 ]
