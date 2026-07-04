@@ -1357,5 +1357,23 @@
     "anchor_quote": "I sat 10 feet from Mike for quite some time in the counterterrorism center. He and I approach problems from extreme opposite perspectives. He from the right, I from the left. And we meet more often than not. We agree more often than not. I have deep respect for Mike Shyer, and I think he was not just underestimated at the CIA – he was disrespected at the CIA's peril.",
     "why": "His detailed recollection of working side‑by‑side with Mike Shyer offers a distinct viewpoint on internal CIA debates, meriting its own article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T01:12:18.507Z",
+    "kind": "enrich",
+    "slug": "asset-acquisition-cycle",
+    "anchor_quote": "He said, \"I want you to show me 20 business cards tomorrow.\" And I'd say, \"Okay.\" So I would go from person to person, make sure I got 20 or 25. Then he'd say, \"Not interested, not interested, not interested. Ah, this guy, yeah, we'd be interested in him.\" I'd take the five or ten out of the twenty that might have operational interest and call, \"Hey, I'd love to take you to lunch. I had such a nice time in our conversation the other day.\"",
+    "why": "Kiriakou’s detailed recollection of the business‑card recruitment method provides first‑hand insight that deepens the existing asset‑acquisition‑cycle article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T01:12:18.507Z",
+    "kind": "new",
+    "slug": "cia-recruitment-tradecraft-business-cards",
+    "anchor_quote": "He said, \"I want you to show me 20 business cards tomorrow.\" And I'd say, \"Okay.\" So I would go from person to person, make sure I got 20 or 25. Then he'd say, \"Not interested, not interested, not interested. Ah, this guy, yeah, we'd be interested in him.\" I'd take the five or ten out of the twenty that might have operational interest and call, \"Hey, I'd love to take you to lunch. I had such a nice time in our conversation the other day.\"",
+    "why": "The anecdote reveals a specific CIA recruitment tradecraft technique that is not covered by any current slug, warranting a dedicated article.",
+    "status": "pending"
   }
 ]
