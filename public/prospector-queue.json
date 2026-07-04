@@ -3832,5 +3832,86 @@
     "anchor_quote": "The CIA objected. They objected to my placement in a minimum security camp. Well, they're vindictive, aren't they? I guess. Ask Julian Assange how vindictive they are. And why I got there. Exactly. The CIA makes certain you don't go to the work camp, you go to a prison.",
     "why": "Kiriakou explains how the CIA used placement in a work camp as retaliation against him, providing a distinct episode suitable for its own article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T09:40:00.199Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post and a private letter delivered by a mutual friend. I told his father, visiting me in prison, that he needed to hire the best attorneys—my attorneys—and they worked out a deal with the Justice Department where Snowden would plead guilty and agree to twenty years in prison, but the DOJ refused, fearing he would inspire other whistleblowers.",
+    "why": "Kiriakou provides first‑hand details of his personal correspondence with Snowden and a negotiated plea‑deal that never materialized, expanding the Snowden narrative.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T09:40:00.199Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "Based on my experience, I lived it: Jeffrey Epstein was treated like every other prisoner. The guards were supposed to make rounds every eight minutes, but they were sleeping in the guard booth, watching porn or playing solitaire. Cameras would blink off at midnight and recycle, and the whole system was chaos, not a well‑oiled machine.",
+    "why": "Kiriakou’s eyewitness account of Epstein’s prison conditions adds concrete testimony to the existing Epstein article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T09:40:00.199Z",
+    "kind": "new",
+    "slug": "federal-prison-guard-illiteracy",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail because the guards couldn't read. As a general rule, everybody who works in the Bureau of Prisons has his head up his ass—they're illiterate, lazy, stupid, and corrupt.",
+    "why": "Kiriakou describes systemic illiteracy and corruption among federal prison guards, a topic not covered by any current slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T09:40:00.199Z",
+    "kind": "new",
+    "slug": "prison-camera-failure-epstein",
+    "anchor_quote": "The cameras never work in any prison because these pizza delivery guys who became prison employees don’t know how to make the cameras work. There was a blip where the camera went off and came right back on, and all the cameras blink off at 12 and then begin recycling again. The guards were supposed to walk around every eight minutes but they were sleeping.",
+    "why": "Provides specific evidence of camera malfunctions and guard neglect during Epstein’s incarceration, warranting a dedicated article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T09:40:00.199Z",
+    "kind": "new",
+    "slug": "mike-pompeo-threats-to-snowden",
+    "anchor_quote": "I know Mike Pompeo had said he wanted to kill him and he wanted him dead and others, and I’ve heard that he was pushing for a hard line against Snowden, refusing any plea arrangement that might let him stand in court and explain his actions.",
+    "why": "Kiriakou’s claim about Pompeo’s threats toward Snowden introduces a new angle on high‑level political pressure not yet documented.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T09:40:35.879Z",
+    "kind": "new",
+    "slug": "engineered-9-11-attack",
+    "anchor_quote": "It wasn’t a raw terror attack that was designed – it was an engineered attack to create this whole homeland security apparatus, this whole war on terror, and to provide a pretext for breaking down constitutional rights over a two‑decade plan.",
+    "why": "Kiriakou directly asserts that 9/11 was a deliberately engineered event, a claim not covered by any existing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T09:40:35.879Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "There’s so much more development going on in regards to the John Brennan cover‑up and voter fraud with his Dominion, what he knew about General Flynn and these different things – all of which I plan to detail in the second edition of my book.",
+    "why": "Kiriakou provides fresh allegations about John Brennan’s alleged cover‑up and involvement in voter‑fraud, expanding the existing John‑Brennan entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T09:40:35.879Z",
+    "kind": "new",
+    "slug": "afghanistan-war-manipulation-pharma-china",
+    "anchor_quote": "Why are we still here in Afghanistan for over 20 years? It’s insane. It’s obviously major manipulation that’s going on – the Silk Road, a lot of what was happening and continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and China, and those that control those industries.",
+    "why": "Kiriakou links the prolonged Afghan conflict to pharmaceutical and Chinese interests, a distinct angle not covered by current Afghanistan‑related slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T09:40:35.879Z",
+    "kind": "new",
+    "slug": "high-stakes-treason-book",
+    "anchor_quote": "My book High Stakes Treason is on Amazon… I’m hoping to have a second edition by July because there’s so much more development going on regarding the John Brennan cover‑up, voter fraud, and other topics I allege were committed against our country.",
+    "why": "The interview centers on Kiriakou’s own book, its claims, and upcoming edition, warranting a dedicated article about the \"High Stakes Treason\" publication.",
+    "status": "pending"
   }
 ]
