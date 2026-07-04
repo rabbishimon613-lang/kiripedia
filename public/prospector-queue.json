@@ -3508,5 +3508,77 @@
     "anchor_quote": "I once answered the phone using the wrong name, then hung up and pretended it was a wrong number. I had to manufacture a dual personality, traveling back to Moscow for debriefings, carrying a short‑wave radio in case I was stuck, and constantly watching for surveillance. Maintaining a completely fabricated identity meant juggling two compartments in my head, one passive and one active, and never knowing which side would surface.",
     "why": "Kiriakou’s personal anecdotes about maintaining a fabricated identity and constant surveillance awareness enrich the existing sleeper‑agent article with practical, lived‑experience details.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T08:32:00.038Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post and a private letter delivered by a mutual friend. When his father came to prison to visit me I told him the very first thing he had to do was hire the best attorneys money can buy, hire my attorneys, and they worked out a deal with the Justice Department where Ed would plead guilty and agree to 20 years in prison, but the DOJ refused because they feared he would inspire other whistleblowers.",
+    "why": "Kiriakou provides first‑hand details of his personal involvement with Snowden’s legal strategy, enriching the Snowden article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T08:32:00.038Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail because the guards couldn't read. The guards are illiterate, lazy, corrupt, and they often sleep in the guard booth, watching porn or playing solitaire while cameras blip off at midnight and never work properly, so even high‑profile inmates like Jeffrey Epstein are treated like any other prisoner.",
+    "why": "Kiriakou’s eyewitness account of guard negligence and camera failures adds depth to the Epstein prison‑death narrative.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T08:32:00.038Z",
+    "kind": "new",
+    "slug": "us-federal-prison-conditions",
+    "anchor_quote": "Guards were supposed to walk around every eight minutes, but they often slept in the glass‑enclosed booth, looking at porn or playing solitaire, while the cameras repeatedly blipped off at midnight and never functioned, meaning even inmates under suicide watch received no real supervision.",
+    "why": "The transcript reveals systemic issues in U.S. federal prisons not covered by any existing article, warranting a dedicated piece on prison conditions.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T08:32:52.256Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "I'm hoping to have a second edition by July ... because there's so much more development going on in regards to the John Brennan cover-up and voter fraud with his Dominion what he knew about General Flynn and these different things.",
+    "why": "Kiriakou alleges that John Brennan participated in a cover‑up involving Dominion voting‑machine fraud and knowledge about General Flynn, providing fresh insider testimony to expand the existing John‑Brennan article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T08:32:52.256Z",
+    "kind": "new",
+    "slug": "high-stakes-treason-book",
+    "anchor_quote": "People get your book High Stakes Treason? Yeah, I would suggest ordering it from me directly helps my effort out a little bit more. I'm happy to send out a signed copy. I'm hoping to have a second edition by July, the one‑year anniversary, because there's so much more development going on.",
+    "why": "Kiriakou discusses the content, promotion, and upcoming second edition of his book \"High Stakes Treason,\" a distinct subject not covered by any current slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T08:32:52.256Z",
+    "kind": "new",
+    "slug": "engineered-9-11-attack-theory",
+    "anchor_quote": "engineered attack and why was it done? It was to create this whole homeland security apparatus this whole war on terror and not to forget the Brennan crimes in the book were allegedly done during the war on terror that meant providing aid and comfort to an enemy during a war that is the global war on terror.",
+    "why": "Kiriakou claims that the 9/11 attacks were deliberately engineered to manufacture the War on Terror, a claim that warrants its own dedicated article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T08:32:52.256Z",
+    "kind": "new",
+    "slug": "afghanistan-pharma-china-silk-road",
+    "anchor_quote": "there's these connections called it's I think the title of the graph and it's maybe 30 pages long. It's saying this the silk the third silk road or something like that. A lot of what was happening and what continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and China and those that control the control that in those industries.",
+    "why": "Kiriakou links Afghanistan’s prolonged conflict to a pharmaceutical‑industry‑China nexus he calls the \"third Silk Road,\" a unique geopolitical angle not yet documented.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T08:32:52.256Z",
+    "kind": "new",
+    "slug": "dominion-voter-fraud-coverup",
+    "anchor_quote": "I'm hoping to have a second edition by July ... because there's so much more development going on in regards to the John Brennan cover-up and voter fraud with his Dominion what he knew about General Flynn and these different things.",
+    "why": "Kiriakou ties together Brennan’s alleged cover‑up, Dominion voting‑machine fraud, and Flynn’s knowledge, creating a separate whistleblower narrative that is absent from current articles.",
+    "status": "pending"
   }
 ]
