@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T04:10:53.313Z",
+  "generated_at": "2026-07-04T04:19:44.979Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,281 +62,281 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-07-04 04:06:44"
+      "ts": "2026-07-04 04:15:55"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-07-04 04:06:44"
+      "ts": "2026-07-04 04:15:55"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-07-04 04:06:49"
+      "ts": "2026-07-04 04:15:59"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 04:07:55"
+      "ts": "2026-07-04 04:16:48"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Imran Khan — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Sweat Lodge — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 04:08:35"
+      "ts": "2026-07-04 04:17:30"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 04:09:30"
+      "ts": "2026-07-04 04:18:28"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Pinning Vault 7 back on the corkboard. Not the moment.",
+      "action": "Done: Pinning Carlos The Jackal back on the corkboard. Not the moment.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 04:10:52"
+      "ts": "2026-07-04 04:19:44"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2022 05 23 Danny Jones Cia Spy Betrayed transcript aside — will retry next cycle.",
+      "action": "Done: Pulled 2 fresh leads out of 2026 05 05 Morgan Nelson Cia Whistleblower.sponsors. 266 sitting in the tray.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 04:07:47"
+      "ts": "2026-07-04 04:16:41"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "action": "Done: Went through 2. 1 of them need a word about their tone (2 things to fix).",
       "handoff_to": null,
-      "ts": "2026-07-04 04:10:52"
+      "ts": "2026-07-04 04:19:44"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-07-04 04:10:53",
+      "ts": "2026-07-04 04:19:44",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-07-04 04:10:52",
+      "ts": "2026-07-04 04:19:44",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-07-04 04:10:52",
+      "ts": "2026-07-04 04:19:44",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
       "action": "Done: Went through 2. 1 of them need a word about their tone (2 things to fix)."
     },
     {
-      "ts": "2026-07-04 04:10:52",
+      "ts": "2026-07-04 04:19:44",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-07-04 04:10:52",
+      "ts": "2026-07-04 04:19:44",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Vault 7 back on the corkboard. Not the moment."
+      "action": "Done: Pinning Carlos The Jackal back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:10:45",
+      "ts": "2026-07-04 04:19:36",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Vault 7 — the prose reads choppy, rewriting."
+      "action": "Opened Carlos The Jackal — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:10:45",
+      "ts": "2026-07-04 04:19:36",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Jason Leopold back on the corkboard. Not the moment."
+      "action": "Done: Threw out my pass on Eli Cohen — I dropped 5 footnotes. Unacceptable."
     },
     {
-      "ts": "2026-07-04 04:10:38",
+      "ts": "2026-07-04 04:19:24",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Jason Leopold — the prose reads choppy, rewriting."
+      "action": "Opened Eli Cohen — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:10:38",
+      "ts": "2026-07-04 04:19:24",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning George Tenet back on the corkboard. Not the moment."
+      "action": "Done: Pinning Waterboarding back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:10:31",
+      "ts": "2026-07-04 04:19:17",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened George Tenet — the prose reads choppy, rewriting."
+      "action": "Opened Waterboarding — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:10:31",
+      "ts": "2026-07-04 04:19:17",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Aipac back on the corkboard. Not the moment."
+      "action": "Done: Pinning John Kerry back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:10:24",
+      "ts": "2026-07-04 04:19:10",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Aipac — the prose reads choppy, rewriting."
+      "action": "Opened John Kerry — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:10:24",
+      "ts": "2026-07-04 04:19:10",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Bojinka Plot back on the corkboard. Not the moment."
+      "action": "Done: Pinning Doing Time Like A Spy back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:10:16",
+      "ts": "2026-07-04 04:19:02",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Bojinka Plot — the prose reads choppy, rewriting."
+      "action": "Opened Doing Time Like A Spy — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:10:16",
+      "ts": "2026-07-04 04:19:02",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Saddam Hussein back on the corkboard. Not the moment."
+      "action": "Done: Pinning Brian Ross back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:10:09",
+      "ts": "2026-07-04 04:18:55",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Saddam Hussein — the prose reads choppy, rewriting."
+      "action": "Opened Brian Ross — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:10:09",
+      "ts": "2026-07-04 04:18:55",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Tom Drake back on the corkboard. Not the moment."
+      "action": "Done: Pinning Robert Hanssen back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:09:57",
+      "ts": "2026-07-04 04:18:48",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Tom Drake — the prose reads choppy, rewriting."
+      "action": "Opened Robert Hanssen — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:09:57",
+      "ts": "2026-07-04 04:18:48",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Surveillance Detection Route back on the corkboard. Not the moment."
+      "action": "Done: Pinning Senate Torture Report back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:09:49",
+      "ts": "2026-07-04 04:18:41",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Surveillance Detection Route — the prose reads choppy, rewriting."
+      "action": "Opened Senate Torture Report — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:09:49",
+      "ts": "2026-07-04 04:18:41",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Cofer Black back on the corkboard. Not the moment."
+      "action": "Done: Pinning Jose Rodriguez back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 04:09:42",
+      "ts": "2026-07-04 04:18:33",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Cofer Black — the prose reads choppy, rewriting."
+      "action": "Opened Jose Rodriguez — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 04:09:42",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Edward Snowden back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 04:09:35",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Edward Snowden — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 04:09:30",
+      "ts": "2026-07-04 04:18:28",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 04:09:23",
+      "ts": "2026-07-04 04:18:21",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 04:09:23",
+      "ts": "2026-07-04 04:18:21",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ali Soufan back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 04:09:16",
+      "ts": "2026-07-04 04:18:14",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 04:09:16",
+      "ts": "2026-07-04 04:18:14",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Threw out my draft of Aldrich Ames — came out shorter than I started."
     },
     {
-      "ts": "2026-07-04 04:09:10",
+      "ts": "2026-07-04 04:18:02",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aldrich Ames — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-07-04 04:18:02",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Threw out my draft of Aipac — came out shorter than I started."
+    },
+    {
+      "ts": "2026-07-04 04:17:57",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Aipac — drafting it from the transcripts."
     }
   ],
   "last_cycle": {
-    "id": 46,
-    "started_at": "2026-07-04 04:06:44",
-    "ended_at": "2026-07-04 04:06:44",
+    "id": 47,
+    "started_at": "2026-07-04 04:15:55",
+    "ended_at": "2026-07-04 04:15:55",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -384,10 +384,10 @@
   ],
   "orders_today": {
     "date": "2026-07-04",
-    "generated_at": "2026-07-04T04:06:44.210Z",
+    "generated_at": "2026-07-04T04:15:54.656Z",
     "goal": 500000,
-    "total_words": 224564,
-    "gap": 275436,
+    "total_words": 224855,
+    "gap": 275145,
     "days_at_2k_per_day": 138,
     "priority_transcripts": [
       "2025-06-17-mario-nawfal-ex-cia-agent-john-kiriakou-on-israel-iran-mossad-middle-",
@@ -467,7 +467,7 @@
       "2026-05-19-jeff-dornik-israel-epstein-swamp",
       "2021-05-12-howie-hawkins-greensocialist-notes-23-whistleblowers-with-john-kiriak"
     ],
-    "directive": "TODAY'S ORDERS (2026-07-04): The bureau is at 224,564 words — 275,436 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
+    "directive": "TODAY'S ORDERS (2026-07-04): The bureau is at 224,855 words — 275,145 short of the 500k goal. Target 2,000 new words today. Priority: (1) Prospect and deepen the undermined transcripts listed in priority_transcripts. (2) Grow the thin articles in growth_articles and thin_articles using material already in the corpus. (3) Every cycle should produce real prose — if your queue is empty, re-mine the transcript shelf, do not idle."
   },
   "office_state": null
 }
