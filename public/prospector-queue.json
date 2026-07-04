@@ -3949,5 +3949,77 @@
     "anchor_quote": "The other, which is, I think, even crazier, is this idea of landing special forces to try to retrieve several hundred pounds of enriched uranium which are in tunnels.  Iranians aren't like cartoon villains to keep all their enriched uranium in one underground site; it's multiple tunnel cities across the country where they've placed these.",
     "why": "He describes a specific, unreported U.S. operational concept—special‑forces raids on Iranian uranium tunnels—warranting its own article.",
     "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T10:09:33.062Z",
+    "kind": "enrich",
+    "slug": "intelligence-identities-protection-act",
+    "anchor_quote": "\"I was convicted under the 1982 Intelligence Identities Protection Act. The Justice Department offered a best‑and‑final deal of 30 months, or 23 months if I went to trial. My attorneys warned me it could be 12 to 18 years, so I took the deal after weighing the impact on my five kids.\"",
+    "why": "Kiriakou’s personal decision‑making process and attorney counsel provide first‑hand detail to enrich the existing IIPA article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T10:09:33.062Z",
+    "kind": "enrich",
+    "slug": "fci-loretto",
+    "anchor_quote": "\"While in prison I wrote something I arrogantly called 'Letter from Lorettto,' modeling it on Martin Luther King Jr.'s Letter from Birmingham Jail. I described an abusive female guard and also recounted meeting an Iraqi prisoner, greeting him in Arabic, and the uneasy aftermath that followed.\"",
+    "why": "The transcript offers Kiriakou’s own description of his correspondence and experiences at FCI Loretto, expanding the prison‑facility entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T10:09:33.062Z",
+    "kind": "new",
+    "slug": "iraqi-prisoner-encounter-cia-agent",
+    "anchor_quote": "\"One of the other prisoners introduced me to an Iraqi inmate. I said, 'Asalamu alaykum, may peace be upon you.' He asked how I learned Arabic; I replied, 'I worked for the CIA, I love Arab culture, poetry, etc.' We shook hands and I walked away.\"",
+    "why": "Kiriakou’s unique cross‑cultural interaction with an Iraqi prisoner while incarcerated is a distinct episode not covered elsewhere.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T10:09:33.062Z",
+    "kind": "new",
+    "slug": "solitary-confinement-threat-cia-prisoners",
+    "anchor_quote": "\"Two days later I was called into the lieutenant’s office and warned that a visit to his office usually meant solitary confinement because I’d done something the authorities didn’t like. The threat hung over me after my conversation with the Iraqi inmate.\"",
+    "why": "The threat of solitary confinement after his prison encounter adds a new angle on CIA‑related prisoner treatment.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T10:09:33.062Z",
+    "kind": "new",
+    "slug": "plea-deal-justice-vs-damage-mitigation-kiriakou",
+    "anchor_quote": "\"One attorney told me, ‘Your problem is you think this is about justice; it’s about mitigating damage.’ Another said, ‘Take the deal, it could be a blip or the defining event of your life.’ Their advice framed my choice as damage control, not pure justice.\"",
+    "why": "Kiriakou’s insight into how his legal team framed the plea deal as damage mitigation offers a fresh perspective on the justice‑versus‑pragmatism debate.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T10:09:43.108Z",
+    "kind": "enrich",
+    "slug": "kuwait-invasion-intelligence",
+    "anchor_quote": "I was the only Iraq leadership analyst. I remember walking in that morning and saying to my boss, \"Big day ahead of us today.\" He said, \"Don't take your jacket off. We're going to the Oval Office.\" I was 25 years old and we all sat down with the president, the vice president, the national security adviser, the CIA director, my boss, and me. The president looked around and said, \"Well, now what do we do?\"",
+    "why": "Kiriakou’s first‑hand recollection of the 1990 Kuwait invasion briefing adds personal detail to the existing article on the intelligence effort.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T10:09:43.108Z",
+    "kind": "new",
+    "slug": "athens-anarchist-recruitment-1990",
+    "anchor_quote": "I remember going into the heavily communist anarchist neighborhood of Athens, Greece to pitch a bona fide terrorist. I was the only member of the team not wearing a bulletproof vest. My boss asked me, \"Why in the world did you not put your vest on?\" I said, \"Because it shows underneath our shirts, and I don't want to freak the guy out. I genuinely want to recruit this guy. I don't want him to run away and be afraid or see that we're wearing vests and pull out a gun.\"",
+    "why": "Kiriakou describes a risky, un‑vested recruitment operation in Athens, a distinct episode not covered elsewhere.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T10:09:43.108Z",
+    "kind": "new",
+    "slug": "presidential-oval-office-briefing-iraq-1990",
+    "anchor_quote": "I was the only Iraq leadership analyst. I remember walking in that morning and saying to my boss, \"Big day ahead of us today.\" He said, \"Don't take your jacket off. We're going to the Oval Office.\" I was 25 years old and we all sat down with the president, the vice president, the national security adviser, the CIA director, my boss, and me. The president looked around and said, \"Well, now what do we do?\"",
+    "why": "The transcript provides a rare personal account of a direct Oval Office briefing with the president and top officials during the 1990 Iraq‑Kuwait crisis, warranting its own article.",
+    "status": "pending"
   }
 ]
