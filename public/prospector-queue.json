@@ -1852,5 +1852,86 @@
     "anchor_quote": "Do you think there was a lot of useful information produced by all this torture? No, not by the torture. Listen, it’s like a kick in my gut to have to compliment the FBI. It really is. When I've had 22 FBI agents raiding my house and taking all my stuff, but if there's one thing the FBI is really good at, it's interrogations.",
     "why": "Adds Kiriakou’s explicit statement that CIA torture yielded no useful intelligence, strengthening the whistleblowing article on the CIA torture program.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T02:51:05.014Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post. I wrote him a private letter that a mutual friend delivered to him. Then his father came to prison to visit me and I said, listen, the very first thing he has to do is hire the best attorneys money can buy, he has to hire my attorneys. I had great attorneys. They worked out a deal with the Justice Department where Ed was going to come home, plead guilty and agree to 20 years in prison, but the DOJ said absolutely not because they were afraid he would inspire other whistleblowers.",
+    "why": "Kiriakou provides first‑hand details of his personal involvement with Edward Snowden, making this material essential to deepen the Snowden article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T02:51:05.014Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail. Prisoners aren't supposed to hand out the mail. But do you know why the prisoners handed out the mail and the guards didn't? because the guards couldn't read. So, as a general rule, everybody who works in the Bureau of Prisons has his head up his ass. They're illiterate, they're lazy, they're stupid and they're corrupt, but they're not killers. The guards were supposed to walk around every eight minutes, but they were sleeping in the guard booth, watching porn or playing solitaire.",
+    "why": "Kiriakou’s eyewitness account of the conditions and guard behavior at the federal prison where Jeffrey Epstein was held adds crucial context to the Epstein article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T02:51:05.014Z",
+    "kind": "new",
+    "slug": "federal-prison-system-failures",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail. Prisoners aren't supposed to hand out the mail. But do you know why the prisoners handed out the mail and the guards didn't? because the guards couldn't read. So, as a general rule, everybody who works in the Bureau of Prisons has his head up his ass. They're illiterate, they're lazy, they're stupid and they're corrupt, but they're not killers. The guards were supposed to walk around every eight minutes, but they were sleeping in the guard booth, watching porn or playing solitaire.",
+    "why": "Kiriakou describes systemic neglect, guard illiteracy, and routine sleeping in federal prisons, warranting a dedicated article on the broader failures of the U.S. federal prison system.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T02:51:05.014Z",
+    "kind": "new",
+    "slug": "whistleblower-affirmative-defense",
+    "anchor_quote": "It's an affirmative defense where you say, 'Yeah, I did it, but I did it for the good of the American people. Let me explain.'",
+    "why": "Kiriakou outlines the concept of an affirmative defense used by whistleblowers, a distinct legal strategy not covered elsewhere, justifying a new article on whistleblower affirmative defenses.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T02:51:16.122Z",
+    "kind": "new",
+    "slug": "engineered-9-11-war-on-terror",
+    "anchor_quote": "engineered attack and why was it done? It was to create this whole homeland security apparatus this whole war on terror and and and not to forget the Brennan crimes in the book were allegedly done during the war on terror that meant providing aid and comfort to an enemy during a war that is the global war on terror.",
+    "why": "Kiriakou asserts 9/11 was a deliberately engineered event to launch the global war on terror, a claim not covered by any existing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T02:51:16.122Z",
+    "kind": "new",
+    "slug": "john-brennan-cover-up-allegations",
+    "anchor_quote": "there's so much more development Michael going on in regards to the John Brennan cover-up and and voter fraud with his Dominion what he knew about General Flynn and and these different things.",
+    "why": "Kiriakou alleges a cover‑up by former CIA Director John Brennan, linking it to voter‑fraud and Flynn, a distinct topic absent from current slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T02:51:16.122Z",
+    "kind": "new",
+    "slug": "high-stakes-treason-book",
+    "anchor_quote": "people get your book High Stakes Treason? Yeah, I mean I would suggest ordering it from me directly helps my effort out a little bit more. I'm happy to send out a signed copy... I'm hoping to have a second edition by July 22nd because there's so much more development...",
+    "why": "The interview centers on Kiriakou’s book \"High Stakes Treason,\" providing material to create a dedicated article about its claims and impact.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T02:51:16.122Z",
+    "kind": "new",
+    "slug": "dominion-voter-fraud-flynn-claims",
+    "anchor_quote": "there's so much more development Michael going on in regards to the John Brennan cover-up and and voter fraud with his Dominion what he knew about General Flynn and and these different things.",
+    "why": "Kiriakou mentions specific allegations of Dominion‑related voter fraud and Flynn’s knowledge, a subject not yet covered in the corpus.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T02:51:16.122Z",
+    "kind": "enrich",
+    "slug": "afghan-heroin-policy",
+    "anchor_quote": "there's these connections called it's I think the title of the graph and it's it's maybe 30 pages long. It's saying this the silk the third silk road or something like that. A lot of what was happening and what continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and and China and those that control the control that in those industries...",
+    "why": "Kiriakou provides new insight linking Afghanistan’s drug landscape to a \"third Silk Road\" involving pharma and China, enriching the existing Afghan heroin policy article.",
+    "status": "pending"
   }
 ]
