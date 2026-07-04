@@ -5434,5 +5434,41 @@
     "anchor_quote": "You know I sat 10 feet from Mike for for quite some time in the counterterrorism center. He and I approach problems from extreme opposite perspectives. He from the right, I from the left. And we we meet more often than not. We agree more often than not. I have deep respect for Mike Shyer. I have from the very day that I met him. And I think that he was not just underestimated at the CIA. He was disrespected at the CIA, at the CIA's peril.",
     "why": "This passage provides a vivid anecdote about internal CIA culture and Kiriakou’s relationship with fellow officer Mike Shyer, valuable material to deepen the existing whistleblower‑advice article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T15:28:40.405Z",
+    "kind": "enrich",
+    "slug": "cia-torture-program-whistleblowing",
+    "anchor_quote": "I was so angry and I wanted so much to help disrupt future attacks on the United States that I felt it was the only thing we could do. At the time I thought waterboarding was something we needed to do. As time has passed, and as September 11th has moved farther into history, I think I've changed my mind. I think waterboarding is probably something that we shouldn't be in the business of doing. Because we're Americans and we're better than that.",
+    "why": "Kiriakou’s personal evolution on waterboarding adds a first‑hand perspective to the existing coverage of the CIA torture program.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T15:28:40.405Z",
+    "kind": "enrich",
+    "slug": "espionage-act-whistleblower-cases",
+    "anchor_quote": "Years later, Kiriakou was charged under the Espionage Act and ultimately pleaded guilty with the feds breathing down his neck to revealing the identity of two covert CIA officers to journalists. He believes he was targeted for speaking out about the enhanced interrogation program. He ultimately spent just under two years behind bars.",
+    "why": "His direct experience of being prosecuted under the Espionage Act provides valuable testimony to enrich the broader article on Espionage‑Act whistleblower cases.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T15:28:40.405Z",
+    "kind": "new",
+    "slug": "trump-iran-electrical-grid-war-crime",
+    "anchor_quote": "One of the things that really disturbed me the most was the president threatened again to attack Iran's infrastructure, specifically its electrical grid. And that is quite literally a war crime. It's very unusual for a president to go on TV and announce, 'I'm going to commit a war crime.'",
+    "why": "Kiriakou identifies the public threat to strike Iran's power grid as a war crime, a distinct topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T15:28:40.405Z",
+    "kind": "new",
+    "slug": "us-israeli-intelligence-iran-war",
+    "anchor_quote": "I think that we made a policy decision to accept and to believe Israeli intelligence at face value. I think the Israelis had a vested interest in lying to us and pulling us into this war to do their dirty work for them. And that's exactly what happened. The Iranians weren't the threat to us.",
+    "why": "His claim that U.S. policy relied on Israeli intelligence, pulling America into the Iran conflict, is a standalone subject lacking a dedicated article.",
+    "status": "pending"
   }
 ]
