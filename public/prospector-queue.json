@@ -4516,5 +4516,140 @@
     "anchor_quote": "I felt that waterboarding was something that we needed to do. As time has passed, I think I've changed my mind. I think waterboarding is probably something that we shouldn't be in the business of doing. At the time I was angry and wanted to help disrupt future attacks, but now I see it differently.",
     "why": "Kiriakou’s personal evolution from supporting to repudiating waterboarding provides valuable first‑hand perspective to deepen the enhanced‑interrogation entry.",
     "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T12:28:30.538Z",
+    "kind": "enrich",
+    "slug": "lebanon-israeli-conflict",
+    "anchor_quote": "They never stopped also using what do you say white phosphorus which Amnesty International uh deems it's it's I mean it's not a legal means of war. It causes long-term injuries severe burns and destruction of farmland. We know why they doing that since people are not deserting South Lebanon. They want to destroy their livelihood so that they do end up deserting South Lebanon.",
+    "why": "Kiriakou provides first‑hand commentary on Israel's use of white phosphorus in South Lebanon, expanding the existing lebanon‑israeli‑conflict article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T12:28:30.538Z",
+    "kind": "enrich",
+    "slug": "british-bases-in-cyprus",
+    "anchor_quote": "To the best of your ability, are there nuclear weapons being stored in the British bases in Cyprus? That's a great question. I don't know. But I would guess... No, I honestly, as God is my witness, I don't know. I don't even know where the American nuclear weapons are based. Those are highly guarded secrets in the ministries of defense. I would guess probably yes.",
+    "why": "Kiriakou addresses the speculation about nuclear weapons on British bases in Cyprus, adding valuable insider perspective to the british‑bases‑in‑cyprus article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T12:28:30.538Z",
+    "kind": "enrich",
+    "slug": "lebanon-israeli-conflict",
+    "anchor_quote": "And the money you spend on all these wars you could have had free health care for everyone and the best education system and no homeless people, no vets being homeless, all these veterans being homeless—that's shameful. We have veterans literally every single day committing suicide, many in the parking lots of the Veterans Administration hospitals, as many as six a day.",
+    "why": "His remarks on veteran suicides linked to war spending provide a human‑impact angle that enriches the lebanon‑israeli‑conflict piece.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T12:28:30.538Z",
+    "kind": "new",
+    "slug": "veteran-suicide-va-parking-lots",
+    "anchor_quote": "We have veterans literally every single day committing suicide, many of them committing suicide in the parking lots of the Veterans Administration hospitals that refuse to treat them for post‑traumatic stress disorder. It's something like as many as six a day kill themselves in the Veterans Administration hospital parking lots.",
+    "why": "Kiriakou supplies direct testimony about the alarming rate of veteran suicides in VA hospital parking lots, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T12:28:30.538Z",
+    "kind": "new",
+    "slug": "nato-article-5-turkey-israel",
+    "anchor_quote": "So, what happens if Israel attacks Turkey? The United States has to come in on the side of Turkey. They have to invoke Article 5 of NATO. They're obligated by treaty to come in on the side of Turkey and fight against Israel. Now, will they is an entirely different question.",
+    "why": "His explanation of NATO's Article 5 obligations in a potential Israel‑Turkey conflict introduces a distinct geopolitical issue requiring its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T12:28:30.538Z",
+    "kind": "new",
+    "slug": "us-political-realignment-anti-war-2024",
+    "anchor_quote": "America first, not Israel first. We're having this very odd realignment politically in the United States right now, where members of the progressive left and members of the Make America Great Again, the MAGA right, are coming together on this issue because neither one of them want war. It's unprecedented in American history—like communists and fascists joining forces to oppose war.",
+    "why": "Kiriakou highlights a novel bipartisan anti‑war coalition in U.S. politics, a subject not yet captured in the current article set.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T12:28:38.991Z",
+    "kind": "enrich",
+    "slug": "intelligence-identities-protection-act",
+    "anchor_quote": "I asked my attorneys. I was going to plead not guilty. And because nobody had ever challenged it at trial, there was no precedent. I emailed my attorneys at six o'clock in the morning and I said, \"Let's go to trial. We're going to fight.\" They told me the realistic exposure was 12 to 18 years, so with five kids at home I took the deal.",
+    "why": "Kiriakou provides a first‑hand account of his decision‑making process under the Intelligence Identities Protection Act, offering unique insight to deepen that article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T12:28:38.991Z",
+    "kind": "enrich",
+    "slug": "fci-loretto",
+    "anchor_quote": "I wrote something that I very arrogantly called \"letter from Lorettto\" because I wanted to model it on Martin Luther King's letter from Birmingham jail. In that letter I described an abusive female prison guard and the moment I met an Iraqi prisoner, which later led to a warning about solitary confinement.",
+    "why": "His prison correspondence and the \"Letter from Lorettto\" are primary source material that can expand the existing FCI Loretto entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T12:28:38.991Z",
+    "kind": "new",
+    "slug": "cia-arabic-language-training",
+    "anchor_quote": "He asked me where did you learn to speak Arabic and I said, \"Oh I worked for the CIA, now I speak Arabic, I love Arab culture and history and poetry etc.\"",
+    "why": "Kiriakou’s anecdote reveals CIA language‑training practices and the operational use of Arabic, a topic not covered by any current slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T12:28:38.991Z",
+    "kind": "new",
+    "slug": "solitary-confinement-threats-cia-prisoners",
+    "anchor_quote": "Two days later, I get called into the lieutenant's office and I was told, \"You never want to get called into the lieutenant's office because the likelihood is that you're going to be sent to solitary confinement because you've done something.\"",
+    "why": "His experience illustrates the threat of solitary confinement for CIA detainees in prison, warranting a dedicated article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T12:28:50.997Z",
+    "kind": "enrich",
+    "slug": "kuwait-invasion-intelligence",
+    "anchor_quote": "I was the only Iraq leadership analyst. I remember walking in that morning and saying to my boss, \"Big day ahead of us today.\" He said, \"Don't take your jacket off. We're going to the Oval Office.\" I was 25, and we walked into a room with the president, the vice president, the national security adviser, the CIA director, my boss, and me. The president looked around and said, \"Well, now what do we do?\"",
+    "why": "Adds a first‑hand CIA analyst account of the August 1990 Kuwait invasion briefing in the Oval Office.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T12:28:50.997Z",
+    "kind": "new",
+    "slug": "cia-recruitment-athens-terrorist",
+    "anchor_quote": "I remember going into the heavily communist anarchist neighborhood of Athens, Greece to pitch a bona fide terrorist. I was the only member of the team not wearing a bulletproof vest. My boss asked me, \"Why in the world did you not put your vest on?\" I said, \"Because it shows underneath our shirts, and I don't want to freak the guy out. I genuinely want to recruit this guy. I don't want him to run away and be afraid or see that we're wearing vests and pull out a gun.\" I had a gun on my waist and a fanny pack, another gun on my ankle in an ankle holster...",
+    "why": "Documents a rare field‑recruitment operation in Athens, illustrating CIA tactics and personal risk.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T12:28:50.997Z",
+    "kind": "new",
+    "slug": "arabic-analyst-cia-early-career",
+    "anchor_quote": "I actually spent the first half of my career in analysis. They picked me because I had Arabic language and because I was very serious about academia. I was fascinated by Arab culture and Arab history. I read Arab poetry, I studied Islam under one of the most important Islamic scholars in the western world. I wanted to live there and really get to understand people, so I went to the Directorate of Intelligence, the analytic branch, and succeeded not necessarily because I was so great but because I was really lucky.",
+    "why": "Provides insight into how Kiriakou’s Arabic expertise and cultural immersion led to his recruitment and early CIA analytical work.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T12:28:50.997Z",
+    "kind": "new",
+    "slug": "cia-sociopathic-recruitment",
+    "anchor_quote": "Sociopaths are impossible to control. They slip through the cracks because they have no conscience and they only hire sociopathic narcissists. The CIA looks for narcissistic individuals because they're so arrogant. In retrospect, I probably had those sociopathic tendencies. They picked me. I actually spent the first half of my career in analysis...",
+    "why": "Explores Kiriakou’s observation that the CIA historically favored sociopathic‑type personalities in its hiring practices.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T12:28:50.997Z",
+    "kind": "new",
+    "slug": "cia-awards-counterterrorism-operations",
+    "anchor_quote": "I received ten exceptional performance awards: the sustained superior performance award, the counterterrorism service medal, the State Department's meritorious honor award among others. I often found myself in situations where I had to think quickly, where bullets were flying, where people's lives were at risk. There were a couple of very difficult recruitments that I made, part of that was because I was young and foolish...",
+    "why": "Chronicles the high‑risk operations that earned Kiriakou multiple CIA honors, shedding light on covert counterterrorism activities.",
+    "status": "pending"
   }
 ]
