@@ -3085,5 +3085,50 @@
     "anchor_quote": "One of the crazier ideas is landing special forces to try to retrieve several hundred pounds of enriched uranium that are in tunnels.  Iran has multiple tunnel cities across the country where they’ve placed this material, and the plan would be to send in troops to extract it.",
     "why": "His description of a proposed special‑forces mission to seize Iranian uranium tunnels is a unique operational concept warranting its own article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T06:53:26.941Z",
+    "kind": "enrich",
+    "slug": "british-bases-in-cyprus",
+    "anchor_quote": "I don't know. But I would guess probably yes. I honestly, as God is my witness, I don't know. I don't even know where the American nuclear weapons are based. Those are highly guarded secrets in the ministries of defense. I would guess probably yes.",
+    "why": "Kiriakou directly addresses the question of nuclear weapons possibly being stored at British bases in Cyprus, providing first‑hand speculation that can deepen the existing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T06:53:26.941Z",
+    "kind": "enrich",
+    "slug": "lebanon-israeli-conflict",
+    "anchor_quote": "They never stopped also using what do you say white phosphorus which Amnesty International deems it's not a legal means of war. It causes long‑term injuries, severe burns and destruction of farmland. We know why they're doing that since people are not deserting South Lebanon. They want to destroy their livelihood so that they end up deserting South Lebanon.",
+    "why": "His eyewitness account of Israel’s use of white phosphorus and its impact on civilians adds concrete detail to the Lebanon‑Israel conflict entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T06:53:26.941Z",
+    "kind": "new",
+    "slug": "veterans-suicide-va-parking-lot",
+    "anchor_quote": "The money you spend on all these wars you could have had free health care for everyone... It's something like as many as six a day kill themselves in the Veterans Administration hospital parking lots. Veterans every literally every single day committing suicide, many of them committing suicide in the parking lots of the VA hospitals that refuse to treat them for post‑traumatic stress disorder.",
+    "why": "Kiriakou reveals alarming VA parking‑lot suicide rates, a distinct topic not covered by any current slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T06:53:26.941Z",
+    "kind": "new",
+    "slug": "us-political-realignment-anti-war-coalition",
+    "anchor_quote": "We're having this very odd realignment politically in the United States right now, where members of the progressive left and members of the Make America Great Again, the MAGA right, are coming together on this issue because neither one of them want war. Who would have thought? This is unprecedented in American history. It's like the communists and the fascists joining forces to oppose war.",
+    "why": "His observation of an unprecedented cross‑ideological anti‑war coalition provides a unique angle for a new article on U.S. political realignment.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T06:53:26.941Z",
+    "kind": "new",
+    "slug": "nato-article-5-israel-turkey",
+    "anchor_quote": "What happens if Israel attacks Turkey? The United States has to come in on the side of Turkey. They have to invoke Article 5 of NATO. They're obligated by treaty to come in on the side of Turkey and fight against Israel. Now, will they is an entirely different question.",
+    "why": "Kiriakou discusses the legal NATO obligation versus political willingness, a specific subject absent from existing entries.",
+    "status": "pending"
   }
 ]
