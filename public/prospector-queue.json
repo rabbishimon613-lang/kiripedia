@@ -5317,5 +5317,41 @@
     "anchor_quote": "Ask Julian Assange. They almost killed him. So, under Mike Pompeo they plotted his murder, literally. I’ve never seen any announcement that an appointee can plot the murder of people who embarrass the agency. You can’t use federal funds to murder people who embarrass you – unless you’re the president, apparently.”",
     "why": "Kiriakou alleges a direct plot by Mike Pompeo to assassinate Julian Assange, a claim that creates a new, specific investigative topic.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T14:59:21.620Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post and a private letter delivered by a mutual friend. I told his father that the first thing Snowden had to do was hire the best attorneys—my attorneys—and we even worked out a deal with the Justice Department for him to plead guilty and serve twenty years, which the DOJ refused.",
+    "why": "Kiriakou’s firsthand involvement in attempting to secure a plea deal for Snowden adds unique primary‑source detail to the existing Snowden article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T14:59:21.620Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "Based on my experience, Jeffrey Epstein was treated like any other prisoner. The guards were sleeping in the booth, cameras blipped off at twelve and never worked, and thousands of inmates are under suicide watch daily—yet no one seemed to care when a high‑profile inmate died.",
+    "why": "Kiriakou’s direct observations of Epstein’s incarceration provide insider testimony to enrich the Epstein article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T14:59:21.620Z",
+    "kind": "new",
+    "slug": "federal-prison-conditions-kiriakou",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are a GED or working toward one and no felony convictions. Most guards can’t read, they’re lazy, they sleep on the job, and the cameras constantly fail, turning the prison into chaos rather than a well‑oiled machine.",
+    "why": "Kiriakou’s detailed critique of guard illiteracy, staffing shortages, and camera failures offers a new, Kiriakou‑centered perspective on U.S. federal prison conditions.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T14:59:21.620Z",
+    "kind": "new",
+    "slug": "pompeo-snowden-threat",
+    "anchor_quote": "I know Mike Pompeo had said he wanted to kill him and he wanted him dead and others and others. He was talking about Snowden, and the Justice Department refused to let him stand up in court for fear he would inspire other whistleblowers.",
+    "why": "Kiriakou’s claim about Pompeo’s threat toward Snowden introduces a previously undocumented allegation that warrants its own article.",
+    "status": "pending"
   }
 ]
