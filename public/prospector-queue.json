@@ -3913,5 +3913,41 @@
     "anchor_quote": "My book High Stakes Treason is on Amazon… I’m hoping to have a second edition by July because there’s so much more development going on regarding the John Brennan cover‑up, voter fraud, and other topics I allege were committed against our country.",
     "why": "The interview centers on Kiriakou’s own book, its claims, and upcoming edition, warranting a dedicated article about the \"High Stakes Treason\" publication.",
     "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T10:00:55.136Z",
+    "kind": "enrich",
+    "slug": "waterboarding",
+    "anchor_quote": "At the time, I was so angry and I wanted so much to help disrupt future attacks on the United States that I felt it was the only thing we could do.  I think waterboarding is probably something that we shouldn't be in the business of doing.  Because we're Americans and we're better than that.",
+    "why": "Kiriakou recounts his personal shift from supporting to opposing waterboarding, providing first‑hand testimony to enrich the existing waterboarding article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T10:00:55.136Z",
+    "kind": "enrich",
+    "slug": "israeli-false-flags",
+    "anchor_quote": "I think that we made a policy decision to accept and to believe Israeli intelligence at face value.  I think that the Israelis had a vested interest in lying to us and pulling us into this war to do their dirty work for them.  And that's exactly what happened.",
+    "why": "His claim that Israeli intelligence misled the U.S. into the Iran conflict adds direct insider perspective to the Israeli‑false‑flags topic.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T10:00:55.136Z",
+    "kind": "new",
+    "slug": "trump-iran-electrical-grid-war-crime",
+    "anchor_quote": "One of the things that really disturbed me the most was the president threatened again to attack Iran's infrastructure, specifically its electrical grid.  And that is quite literally a war crime.",
+    "why": "Kiriakou identifies a presidential threat to target civilian infrastructure as a war crime, a distinct subject not covered by any current slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T10:00:55.136Z",
+    "kind": "new",
+    "slug": "us-special-forces-uranium-tunnel-iran",
+    "anchor_quote": "The other, which is, I think, even crazier, is this idea of landing special forces to try to retrieve several hundred pounds of enriched uranium which are in tunnels.  Iranians aren't like cartoon villains to keep all their enriched uranium in one underground site; it's multiple tunnel cities across the country where they've placed these.",
+    "why": "He describes a specific, unreported U.S. operational concept—special‑forces raids on Iranian uranium tunnels—warranting its own article.",
+    "status": "pending"
   }
 ]
