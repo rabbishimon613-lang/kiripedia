@@ -5704,5 +5704,41 @@
     "anchor_quote": "I received the 10 Exceptional Performance Award, the Sustained Superior Performance Award, the Counterterrorism Service Medal, the State Department's Meritorious Honor Award among others. I found myself often in situations where I had to think quickly, where bullets were flying, where people's lives were at risk. There were a couple of very difficult recruitments that I made, part of that was because I was young and foolish.",
     "why": "His enumeration of multiple CIA and State Department honors provides material to flesh out an article on the agency’s awards and recognition system.",
     "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T16:25:59.384Z",
+    "kind": "enrich",
+    "slug": "cia",
+    "anchor_quote": "I sat 10 feet from Mike for quite some time in the counterterrorism center. He and I approach problems from extreme opposite perspectives. He from the right, I from the left. We agree more often than not. I have deep respect for Mike Shyer. He was disrespected at the CIA, at the CIA's peril.",
+    "why": "Kiriakou’s firsthand account of internal CIA culture and the mistreatment of a senior officer provides valuable insight to deepen the existing CIA article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T16:25:59.384Z",
+    "kind": "enrich",
+    "slug": "mossad",
+    "anchor_quote": "Obviously you've got, okay, Israel's influence over our politics, over our elected officials, our politicians. There's all but then the question is is that okay? There's talk about MSAD, there's talk about CIA who's involved, who's overseeing, but who's influencing the other. Do you find that it's kind of mutually both are kind of combating with each other or do you think that one is more influential than the other especially when it comes to our involvement in the Middle East?",
+    "why": "Kiriakou’s commentary on the interplay between Israel/Mossad and the CIA adds a nuanced perspective missing from the Mossad entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T16:25:59.384Z",
+    "kind": "new",
+    "slug": "us-foreign-policy-fragmentation-1990s",
+    "anchor_quote": "The mid 1990s where differences in foreign policy ended at the shore, right? As Americans, we spoke with one voice on foreign policy. That ended in the mid 1990s and now we're beating each other up over foreign policy. It makes the country weaker and it shouldn't be happening.",
+    "why": "Kiriakou identifies a pivotal shift in U.S. foreign‑policy consensus that has not been covered by any current article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T16:25:59.384Z",
+    "kind": "new",
+    "slug": "censorship-of-cia-whistleblowers-right-wing-watch",
+    "anchor_quote": "We had two mics which is his podcast on Freedom First Network that we launched back in 2020, which is pretty crazy and their show was a big reason why we got censored because you know he's out there talking about all these things and we got labeled by right-wing watch as far extremist and all that.",
+    "why": "His description of being labeled and censored by right‑wing watchdog groups provides a distinct case study for a new article on the suppression of CIA whistleblowers.",
+    "status": "pending"
   }
 ]
