@@ -1150,5 +1150,86 @@
     "anchor_quote": "Ask Julian Assange. They almost killed him. So, under Mike Pompeo plotted his murder, literally. Who’s still free, by the way? Is Mike Pompeo in jail? I haven’t seen any announcement that an appointee can plot the murder of people who embarrass the agency. You can’t use federal funds to murder anyone unless you’re the president.",
     "why": "Kiriakou’s allegation that Mike Pompeo plotted to assassinate Julian Assange introduces a distinct, uncatalogued claim requiring its own article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T00:47:07.811Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post. I wrote him a private letter that a mutual friend delivered to him. And then his father came to prison to visit me. I told him the very first thing he has to do is hire the best attorneys money can buy, hire my attorneys. I had great attorneys. They worked out a deal with the Justice Department where Ed was going to come home, plead guilty and agree to 20 years in prison, but the DOJ said absolutely not because they were afraid he would inspire other whistleblowers.",
+    "why": "Kiriakou describes his direct involvement with Snowden’s legal strategy, providing first‑hand details that expand the Snowden article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T00:47:07.811Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "I don't accept the story we were told about how he died. I don't accept their evidence. The parts where they talked about his body, the condition of his body, the way the cameras went off. The cameras didn't work. In prison the guards can't read, they're illiterate, lazy, corrupt, and they sleep on the job. They sit in a glass booth watching porn or playing solitaire while cameras blip off at midnight and then recycle again. He was treated like the average dude, not special.",
+    "why": "Kiriakou offers an insider critique of the Epstein prison death narrative and prison conditions, adding new eyewitness detail to the Epstein entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T00:47:07.811Z",
+    "kind": "enrich",
+    "slug": "john-kiriakou-whistleblower-advice",
+    "anchor_quote": "I told Snowden's father the very first thing he has to do is hire the best attorneys money can buy, hire my attorneys. I had great attorneys. They worked out a deal with the Justice Department where Ed was going to plead guilty and agree to 20 years, but the DOJ refused because they feared he would inspire other whistleblowers.",
+    "why": "His advice to Snowden’s family illustrates Kiriakou’s broader whistleblower guidance, enriching the advice article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T00:47:07.811Z",
+    "kind": "new",
+    "slug": "federal-prison-system-failures",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail because the guards couldn't read. The guards sit in a glass booth, look at porn or play solitaire, and they sleep on the job. Cameras constantly blip off at midnight and never work properly.",
+    "why": "Kiriakou provides a rare, detailed account of systemic failures in the U.S. federal prison system, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T00:47:19.767Z",
+    "kind": "new",
+    "slug": "engineered-9-11-attack",
+    "anchor_quote": "engineered attack and why was it done? It was to create this whole homeland security apparatus this whole war on terror and not to forget the Brennan crimes in the book were allegedly done during the war on terror that meant providing aid and comfort to an enemy during a war that is the global war on terror.",
+    "why": "Kiriakou describes a deliberately engineered 9/11 event used to launch the war on terror, a claim not covered by any existing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T00:47:19.767Z",
+    "kind": "new",
+    "slug": "john-brennan-cover-up-dominion-voter-fraud",
+    "anchor_quote": "there's so much more development Michael going on in regards to the John Brennan cover-up and voter fraud with his Dominion, what he knew about General Flynn and these different things.",
+    "why": "Kiriakou links John Brennan to alleged cover‑up activities and Dominion voter‑fraud claims, a distinct topic absent from current slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T00:47:19.767Z",
+    "kind": "new",
+    "slug": "afghanistan-pharma-china-silk-road",
+    "anchor_quote": "there's these connections... maybe 30 pages long. it's saying the third silk road or something like that. A lot of what was happening and what continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and China and those that control those industries.",
+    "why": "He outlines a nexus between Afghanistan’s conflict, the pharmaceutical sector, and Chinese interests—a specific geopolitical thread not yet documented.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T00:47:19.767Z",
+    "kind": "enrich",
+    "slug": "john-brennan-tuesday-morning-kill-list",
+    "anchor_quote": "the Brennan crimes in the book were allegedly done during the war on terror that meant providing aid and comfort to an enemy during a war that is the global war on terror.",
+    "why": "Adds Kiriakou’s firsthand allegation of Brennan‑related crimes to the existing kill‑list article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T00:47:19.767Z",
+    "kind": "enrich",
+    "slug": "john-kiriakou-whistleblower-advice",
+    "anchor_quote": "people get your book High Stakes Treason? I would suggest ordering it from me directly helps my effort out a little bit more. I'm happy to send out a signed copy... hoping to have a second edition by July because there's so much more development going on.",
+    "why": "Provides new material on Kiriakou’s outreach, book promotion, and ongoing whistleblowing efforts to enrich the advice article.",
+    "status": "pending"
   }
 ]
