@@ -1699,5 +1699,23 @@
     "anchor_quote": "There’s talk about MSAD, there’s talk about CIA – who’s influencing who? Do you think one is more influential than the other especially when it comes to our involvement in the Middle East?",
     "why": "Kiriakou’s remarks frame a direct competition narrative between the CIA and Mossad, a topic not yet isolated in the corpus.",
     "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T02:13:20.627Z",
+    "kind": "enrich",
+    "slug": "asset-acquisition-cycle",
+    "anchor_quote": "First of all, you cannot be a CIA operations officer and be an introvert. The two are incompatible with one another. You have to genuinely love doing this. I remember working for a guy, he was a fantastic station chief. He would say, \"Listen, you going to this party tonight?\" He said, \"I want you to show me 20 business cards tomorrow.\" And I'd say, \"Okay.\" And so, I would go from person to person to person, make sure I got 20 business cards or 25.",
+    "why": "Kiriakou describes the hands‑on process of gathering business cards and initial profiling, directly illustrating the CIA’s asset‑acquisition cycle.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T02:13:20.627Z",
+    "kind": "new",
+    "slug": "cia-operations-officer-personality",
+    "anchor_quote": "First of all, you cannot be a CIA operations officer and be an introvert. The two are incompatible with one another. You have to genuinely love doing this. I remember working for a guy, he was a fantastic station chief. He would say, \"Listen, you going to this party tonight?\" He said, \"I want you to show me 20 business cards tomorrow.\" And I'd say, \"Okay.\" And so, I would go from person to person to person, make sure I got 20 business cards or 25.",
+    "why": "He states that introversion is incompatible with being a CIA operations officer, revealing the personality expectations for field officers.",
+    "status": "pending"
   }
 ]
