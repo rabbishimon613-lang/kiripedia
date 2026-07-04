@@ -3301,5 +3301,86 @@
     "anchor_quote": "Yeah, that's exactly right. That's exactly right. And you know, these are issues that we should be talking about. We should be questioning American foreign policy. time was really until the mid 1990s where differences in foreign policy ended at the shore, right? As Americans, we spoke with one voice on foreign policy. That ended in the mid 1990s and now we're beating each other up over foreign policy. It makes the country weaker and it shouldn't be happening.",
     "why": "Kiriakou identifies a significant historical shift in American foreign policy, noting the breakdown of a bipartisan consensus post-mid-1990s and its detrimental impact on national strength.",
     "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki",
+    "found_at": "2026-07-04T07:48:11.066Z",
+    "kind": "enrich",
+    "slug": "scholar-in-residence-program",
+    "anchor_quote": "I will say that the way that I was recruited into the CIA is no longer legal. With passage in 1993 of the Equal Employment Opportunity Act, you can't do this old‑boy network. The CIA created this program called the Scholar and Residence Program. So if you've done your 25 or 30 years, you're planning to retire, they'll send you back to your alma mater for two or three years to teach a class, and students will go up to him after class and say, 'Hey, I'd love to get into the CIA.'",
+    "why": "Kiriakou provides a first‑hand account of the CIA’s university recruitment pipeline, adding concrete details to the existing article on the Scholar‑in‑Residence Program.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki",
+    "found_at": "2026-07-04T07:48:11.066Z",
+    "kind": "enrich",
+    "slug": "sociopathic-tendencies",
+    "anchor_quote": "I've said in many podcasts that a CIA psychiatrist once told me that the CIA actively seeks to hire people who have sociopathic tendencies, not sociopaths. Because, of course, sociopaths have no conscience. They blow right through a polygraph exam, but they're impossible to control. People who have sociopathic tendencies do have a conscience and react to the polygraph, but they are happy to operate in moral, legal, and ethical gray areas.",
+    "why": "His testimony clarifies how the CIA deliberately screens for sociopathic tendencies, enriching the sociopathic‑tendencies article with insider perspective.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki",
+    "found_at": "2026-07-04T07:48:11.066Z",
+    "kind": "new",
+    "slug": "cia-officer-refused-enhanced-interrogation-training",
+    "anchor_quote": "I was asked if I wanted to be trained in these enhanced interrogation techniques. I said, 'Enhanced interrogation techniques? What's that mean?' The senior officer said, 'We're going to start getting rough with these guys.' I said, 'That sounds like a torture program.' He said, 'No, it's not torture.' I asked for an hour to think, walked out, and when I returned I told him, 'I don't want to go to prison. I'm the only one of the fourteen people approached who said no.'",
+    "why": "Kiriakou’s unique refusal to undergo enhanced‑interrogation training has never been documented as a standalone topic.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki",
+    "found_at": "2026-07-04T07:48:11.066Z",
+    "kind": "new",
+    "slug": "cia-hooding-prisoners-protest",
+    "anchor_quote": "When I saw the prisoners hooded, I said, 'Are you seriously telling me that you have never read the Geneva Convention? It is a war crime to put hoods on them. Take the hoods off.' The officer replied, 'Stop. Don't take the hoods off.' I said, 'I'm going to report you to headquarters.' We both reported each other, and I was reprimanded for challenging the practice.",
+    "why": "His direct protest against the illegal hooding of detainees provides a distinct incident worth its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki",
+    "found_at": "2026-07-04T07:48:11.066Z",
+    "kind": "new",
+    "slug": "cia-cash-rent-warlords",
+    "anchor_quote": "During the very early days of the Afghanistan war we were literally throwing money out of the side of helicopters. It led to a joke at the agency that you can't buy an Afghan warlord but you can certainly rent one. The agency would give a warlord a million dollars in cash, rent him, and we never knew if they kept a cut for themselves.",
+    "why": "Kiriakou’s description of cash‑heavy operations and the practice of ‘renting’ warlords reveals a little‑known facet of CIA field finance deserving its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T07:52:17.476Z",
+    "kind": "new",
+    "slug": "trump-iran-electrical-grid-war-crime",
+    "anchor_quote": "What we saw was that we're winning or we won, which I don't believe we are, and the president threatened again to attack Iran's infrastructure, specifically its electrical grid. And that is quite literally a war crime.",
+    "why": "Kiriakou directly identifies the president’s public threat to strike Iran’s power grid as a war crime, a distinct topic not covered by existing slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T07:52:17.476Z",
+    "kind": "enrich",
+    "slug": "enhanced-interrogation",
+    "anchor_quote": "At the time I felt that waterboarding was something that we needed to do. As time has passed and September 11th has moved farther into history, I think I've changed my mind—waterboarding is probably something that we shouldn't be in the business of doing.",
+    "why": "Kiriakou’s personal reversal on waterboarding adds first‑hand perspective to the existing enhanced‑interrogation article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T07:52:17.476Z",
+    "kind": "new",
+    "slug": "us-reliance-on-israeli-intelligence-iran-conflict",
+    "anchor_quote": "I think we made a policy decision to accept and to believe Israeli intelligence at face value. The Israelis had a vested interest in lying to us and pulling us into this war; the Iranians weren't the threat to us.",
+    "why": "His claim that U.S. policy was driven by uncritical acceptance of Israeli intelligence offers a novel angle on the Iran war narrative.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T07:52:17.476Z",
+    "kind": "new",
+    "slug": "us-special-forces-uranium-tunnel-iran",
+    "anchor_quote": "The idea of landing special forces to try to retrieve several hundred pounds of enriched uranium in tunnels. Iranians have multiple tunnel cities across the country where they've placed this material, making a covert operation extremely risky.",
+    "why": "Kiriakou describes a specific, unreported U.S. special‑operations concept targeting Iranian uranium tunnels, warranting its own article.",
+    "status": "pending"
   }
 ]
