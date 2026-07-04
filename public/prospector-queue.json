@@ -2032,5 +2032,23 @@
     "anchor_quote": "the mid 1990s where differences in foreign policy ended at the shore, right? As Americans, we spoke with one voice on foreign policy. That ended in the mid 1990s and now we're beating each other up over foreign policy. It makes the country weaker and it shouldn't be happening.",
     "why": "He describes the shift from unified foreign‑policy consensus to partisan conflict, warranting a dedicated article on the polarization that began in the mid‑1990s.",
     "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T03:13:56.174Z",
+    "kind": "enrich",
+    "slug": "cia-training-doctrine",
+    "anchor_quote": "He said, \"I want you to show me 20 business cards tomorrow.\" And I'd say, \"Okay.\" So I would go from person to person, make sure I got 20 or 25. Then he'd say, \"Not interested, not interested, not interested. Ah, this guy, yeah, we'd be interested in him.\" I'd take the five or ten out of the twenty that might have operational interest and call, \"Hey, I'd love to take you to lunch. I had such a nice time in our conversation the other day.\"",
+    "why": "Kiriakou's anecdote provides a concrete example of CIA recruitment tradecraft that enriches the existing CIA training doctrine article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T03:13:56.174Z",
+    "kind": "new",
+    "slug": "cia-asset-recruitment-business-cards",
+    "anchor_quote": "He said, \"I want you to show me 20 business cards tomorrow.\" And I'd say, \"Okay.\" So I would go from person to person, make sure I got 20 or 25. Then he'd say, \"Not interested, not interested, not interested. Ah, this guy, yeah, we'd be interested in him.\" I'd take the five or ten out of the twenty that might have operational interest and call, \"Hey, I'd love to take you to lunch. I had such a nice time in our conversation the other day.\"",
+    "why": "The passage details Kiriakou's firsthand method of using business cards to screen and cultivate potential assets, warranting a dedicated article on CIA asset recruitment tactics.",
+    "status": "pending"
   }
 ]

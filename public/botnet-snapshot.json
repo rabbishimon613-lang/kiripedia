@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T03:08:12.763Z",
+  "generated_at": "2026-07-04T03:15:43.230Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,281 +62,281 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-07-04 03:05:33"
+      "ts": "2026-07-04 03:13:15"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-07-04 03:05:33"
+      "ts": "2026-07-04 03:13:15"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-07-04 03:05:38"
+      "ts": "2026-07-04 03:13:19"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 03:06:26"
+      "ts": "2026-07-04 03:14:04"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Imran Khan — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Sweat Lodge — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 03:07:14"
+      "ts": "2026-07-04 03:14:46"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 03:08:06"
+      "ts": "2026-07-04 03:15:36"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "action": "Done: Reviewed every medium article — none read raggy this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 03:08:11"
+      "ts": "2026-07-04 03:15:42"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2022 05 23 Danny Jones Cia Spy Betrayed transcript aside — will retry next cycle.",
+      "action": "Done: Pulled 2 fresh leads out of 2026 05 05 Morgan Nelson Cia Whistleblower.sponsors. 228 sitting in the tray.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 03:06:18"
+      "ts": "2026-07-04 03:13:56"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "action": "Done: Went through 1. 1 of them need a word about their tone (1 things to fix).",
       "handoff_to": null,
-      "ts": "2026-07-04 03:08:11"
+      "ts": "2026-07-04 03:15:42"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-07-04 03:08:12",
+      "ts": "2026-07-04 03:15:43",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-07-04 03:08:12",
+      "ts": "2026-07-04 03:15:42",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-07-04 03:08:11",
+      "ts": "2026-07-04 03:15:42",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
       "action": "Done: Went through 1. 1 of them need a word about their tone (1 things to fix)."
     },
     {
-      "ts": "2026-07-04 03:08:11",
+      "ts": "2026-07-04 03:15:42",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-07-04 03:08:06",
+      "ts": "2026-07-04 03:15:36",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 03:07:59",
+      "ts": "2026-07-04 03:15:29",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:07:59",
+      "ts": "2026-07-04 03:15:29",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Putting Ali Soufan back in the inbox for now."
+      "action": "Done: Threw out my draft of Ali Soufan — came out shorter than I started."
     },
     {
-      "ts": "2026-07-04 03:07:52",
+      "ts": "2026-07-04 03:15:25",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:07:52",
+      "ts": "2026-07-04 03:15:25",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Threw out my draft of Aldrich Ames — came out shorter than I started."
     },
     {
-      "ts": "2026-07-04 03:07:46",
+      "ts": "2026-07-04 03:15:19",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aldrich Ames — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:07:46",
+      "ts": "2026-07-04 03:15:19",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Threw out my draft of Aipac — came out shorter than I started."
+      "action": "Done: Putting Aipac back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 03:07:40",
+      "ts": "2026-07-04 03:15:12",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aipac — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:07:40",
+      "ts": "2026-07-04 03:15:12",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Threw out my draft of Ahmed Chalabi — I dropped 4 direct Kiriakou quotes. Unacceptable."
+      "action": "Done: Putting Ahmed Chalabi back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 03:07:35",
+      "ts": "2026-07-04 03:15:05",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:07:35",
+      "ts": "2026-07-04 03:15:05",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Putting Afghan Heroin Policy back in the inbox for now."
+      "action": "Done: Threw out my draft of Afghan Heroin Policy — came out shorter than I started."
     },
     {
-      "ts": "2026-07-04 03:07:28",
+      "ts": "2026-07-04 03:15:00",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Afghan Heroin Policy — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:07:28",
+      "ts": "2026-07-04 03:15:00",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Abu Zubaydah back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 03:07:21",
+      "ts": "2026-07-04 03:14:53",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:07:21",
+      "ts": "2026-07-04 03:14:53",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Abu Zubaydah Capture back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 03:07:15",
+      "ts": "2026-07-04 03:14:46",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:07:14",
+      "ts": "2026-07-04 03:14:46",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Imran Khan — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Sweat Lodge — it's a true orphan so far."
     },
     {
-      "ts": "2026-07-04 03:07:14",
+      "ts": "2026-07-04 03:14:46",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Imran Khan — looking for peer articles to cross-link."
+      "action": "Opened Sweat Lodge — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-07-04 03:07:13",
+      "ts": "2026-07-04 03:14:45",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Ilhan Omar — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Mi6 — it's a true orphan so far."
     },
     {
-      "ts": "2026-07-04 03:07:13",
+      "ts": "2026-07-04 03:14:45",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Ilhan Omar — looking for peer articles to cross-link."
+      "action": "Opened Mi6 — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-07-04 03:07:11",
+      "ts": "2026-07-04 03:14:43",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Hawala System — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Mexican 9 Month Work Visas — it's a true orphan so far."
     },
     {
-      "ts": "2026-07-04 03:07:11",
+      "ts": "2026-07-04 03:14:43",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Hawala System — looking for peer articles to cross-link."
+      "action": "Opened Mexican 9 Month Work Visas — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-07-04 03:07:10",
+      "ts": "2026-07-04 03:14:42",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Government Accountability Project — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Meredith Whittaker — it's a true orphan so far."
     },
     {
-      "ts": "2026-07-04 03:07:10",
+      "ts": "2026-07-04 03:14:42",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Government Accountability Project — looking for peer articles to cross-link."
+      "action": "Opened Meredith Whittaker — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-07-04 03:07:08",
+      "ts": "2026-07-04 03:14:40",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Giuliani Pardon Solicitation — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Mccain Feinstein Amendment — it's a true orphan so far."
     },
     {
-      "ts": "2026-07-04 03:07:08",
+      "ts": "2026-07-04 03:14:40",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Giuliani Pardon Solicitation — looking for peer articles to cross-link."
+      "action": "Opened Mccain Feinstein Amendment — looking for peer articles to cross-link."
     }
   ],
   "last_cycle": {
-    "id": 38,
-    "started_at": "2026-07-04 03:05:33",
-    "ended_at": "2026-07-04 03:05:33",
+    "id": 39,
+    "started_at": "2026-07-04 03:13:15",
+    "ended_at": "2026-07-04 03:13:15",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -384,7 +384,7 @@
   ],
   "orders_today": {
     "date": "2026-07-04",
-    "generated_at": "2026-07-04T03:05:32.968Z",
+    "generated_at": "2026-07-04T03:13:14.561Z",
     "goal": 500000,
     "total_words": 224198,
     "gap": 275802,
