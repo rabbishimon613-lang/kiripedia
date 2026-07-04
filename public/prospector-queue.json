@@ -1375,5 +1375,50 @@
     "anchor_quote": "He said, \"I want you to show me 20 business cards tomorrow.\" And I'd say, \"Okay.\" So I would go from person to person, make sure I got 20 or 25. Then he'd say, \"Not interested, not interested, not interested. Ah, this guy, yeah, we'd be interested in him.\" I'd take the five or ten out of the twenty that might have operational interest and call, \"Hey, I'd love to take you to lunch. I had such a nice time in our conversation the other day.\"",
     "why": "The anecdote reveals a specific CIA recruitment tradecraft technique that is not covered by any current slug, warranting a dedicated article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T01:27:46.730Z",
+    "kind": "enrich",
+    "slug": "trump-iran-ceasefire-efforts",
+    "anchor_quote": "What really disturbed me the most was the president threatened again to attack Iran's uh infrastructure, specifically its electrical grid. And that is quite literally a war crime. It's very unusual for a president to go on TV and announce, \"I'm going to commit a war crime.\"",
+    "why": "Kiriakou’s firsthand claim that Trump publicly threatened to bomb Iran’s power grid adds a war‑crime dimension to the existing coverage of the Iran cease‑fire efforts.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T01:27:46.730Z",
+    "kind": "enrich",
+    "slug": "israeli-false-flags",
+    "anchor_quote": "I think that we made a policy decision to accept and to believe Israeli intelligence at face value. I think the Israelis had a vested interest in lying to us and pulling us into this war to do their dirty work for them.",
+    "why": "His testimony that the U.S. relied on deceptive Israeli intelligence directly supports and expands the narrative of Israeli false‑flag operations.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T01:27:46.730Z",
+    "kind": "new",
+    "slug": "us-special-forces-iran-uranium-mission",
+    "anchor_quote": "The other, which is, I think, even crazier, is this idea of landing special forces to try to retrieve several hundred pounds of enriched uranium which are in tunnels. It's multiple tunnel cities across the country where they've placed these.",
+    "why": "Kiriakou describes a specific, previously undocumented U.S. special‑operations plan to seize Iranian enriched‑uranium caches, warranting its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T01:27:46.730Z",
+    "kind": "enrich",
+    "slug": "enhanced-interrogation",
+    "anchor_quote": "I felt that water boarding was something that we needed to do. And as time has passed ... I think I've changed my mind. And I think that waterboarding is probably something that we shouldn't be in the business of doing.",
+    "why": "His shift from supporting to condemning waterboarding provides valuable personal insight for the enhanced‑interrogation article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T01:27:46.730Z",
+    "kind": "enrich",
+    "slug": "espionage-act-whistleblower-cases",
+    "anchor_quote": "Years later, Kiryaku was charged under the Espionage Act and ultimately pleaded guilty ... He believes he was targeted for speaking out about the enhanced interrogation program. He ultimately spent just under two years behind bars.",
+    "why": "Kiriakou’s experience of being prosecuted under the Espionage Act exemplifies the risks faced by whistleblowers and enriches the existing case‑study article.",
+    "status": "pending"
   }
 ]

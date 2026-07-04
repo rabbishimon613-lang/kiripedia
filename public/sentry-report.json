@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-07-04T01:21:56.688Z",
+  "generated_at": "2026-07-04T01:29:38.642Z",
   "window_min": 30,
-  "scanned": 2,
-  "violation_count": 1,
-  "violations": [
-    {
-      "slug": "ali-soufan",
-      "findings": [
-        {
-          "kind": "kiriakou-said",
-          "count": 1,
-          "samples": [
-            "Kiriakou described"
-          ]
-        }
-      ]
-    }
-  ]
+  "scanned": 1,
+  "violation_count": 0,
+  "violations": []
 }
