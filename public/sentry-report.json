@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T04:01:40.888Z",
+  "generated_at": "2026-07-04T04:10:52.498Z",
   "window_min": 30,
   "scanned": 2,
   "violation_count": 1,
@@ -12,6 +12,13 @@
           "count": 1,
           "samples": [
             "Kiriakou described"
+          ]
+        },
+        {
+          "kind": "he-recalls",
+          "count": 1,
+          "samples": [
+            "He recalled"
           ]
         }
       ]
