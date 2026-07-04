@@ -5398,5 +5398,41 @@
     "anchor_quote": "There’s a graph I’m sending you – it shows the third Silk Road, linking Afghanistan’s ongoing conflict to the pharmaceutical industry, Chinese interests, and a network of control that keeps the war going far beyond any original mission.",
     "why": "Establishes a new topic on the alleged nexus between Afghanistan’s war, pharma companies, and Chinese influence as described by Kiriakou.",
     "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T15:19:58.808Z",
+    "kind": "new",
+    "slug": "israel-influence-us-political-establishment",
+    "anchor_quote": "obviously you've got okay, Israel's influence over our politics, over our elected officials, our politicians. uh you know there there's all but then the question is is that okay so there's a lot of times there's talk about MSAD there's talk about CIA who's involved who's over like not overseeing but who's influencing the other do you find that it's kind of mutually both are kind of combating with each other or do you think that one is more influential than the other especially when it comes to our involvement going on in the Middle East?",
+    "why": "Kiriakou directly comments on Israel's sway over U.S. elected officials and the broader policy debate, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T15:19:58.808Z",
+    "kind": "new",
+    "slug": "cia-military-special-activities-division-dynamics",
+    "anchor_quote": "obviously you've got okay, Israel's influence over our politics, over our elected officials, our politicians. uh you know there there's all but then the question is is that okay so there's a lot of times there's talk about MSAD there's talk about CIA who's involved who's over like not overseeing but who's influencing the other do you find that it's kind of mutually both are kind of combating with each other or do you think that one is more influential than the other especially when it comes to our involvement going on in the Middle East?",
+    "why": "The interview contains Kiriakou’s firsthand perspective on the power relationship between the CIA and the Military Special Activities Division, a distinct subject lacking its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T15:19:58.808Z",
+    "kind": "new",
+    "slug": "post-1990s-us-foreign-policy-fragmentation",
+    "anchor_quote": "the mid 1990s where differences in foreign policy ended at the shore, right? As Americans, we spoke with one voice on foreign policy. That ended in the mid 1990s and now we're beating each other up over foreign policy. It makes the country weaker and it shouldn't be happening.",
+    "why": "Kiriakou notes the shift from a unified U.S. foreign‑policy stance in the mid‑1990s to today’s partisan fragmentation, a theme not yet captured in the corpus.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T15:19:58.808Z",
+    "kind": "enrich",
+    "slug": "john-kiriakou-whistleblower-advice",
+    "anchor_quote": "You know I sat 10 feet from Mike for for quite some time in the counterterrorism center. He and I approach problems from extreme opposite perspectives. He from the right, I from the left. And we we meet more often than not. We agree more often than not. I have deep respect for Mike Shyer. I have from the very day that I met him. And I think that he was not just underestimated at the CIA. He was disrespected at the CIA, at the CIA's peril.",
+    "why": "This passage provides a vivid anecdote about internal CIA culture and Kiriakou’s relationship with fellow officer Mike Shyer, valuable material to deepen the existing whistleblower‑advice article.",
+    "status": "pending"
   }
 ]
