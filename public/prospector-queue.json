@@ -4309,5 +4309,50 @@
     "anchor_quote": "the lobbyists don't care about that neither does AIPAC. I wanted to touch also on Lebanon. You know that is my fatherland. So there's Lebanon is also very very worse on the situation there.",
     "why": "His comment that AIPAC (and lobbyists) ignore veteran suffering adds a new dimension to the AIPAC article, linking domestic policy criticism with foreign‑policy debates.",
     "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T11:32:06.748Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "I think for two reasons. Number one, he genuinely disliked me. And he has this history of going after people, using lawfare, which now we all know what that means. Using lawfare to take down his enemies. Number one, Lawfair understates it. Violence. I mean, they came to your house, they cuffed you, they threw you in a cell. So if you'll do that, if you'll take a man from his five children and lock him in a cell for years…",
+    "why": "Shows Brennan’s personal vendetta and use of law‑fare to reopen Kiriakou’s case, providing new firsthand detail for the John Brennan article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T11:32:06.748Z",
+    "kind": "enrich",
+    "slug": "cia-torture-program-whistleblowing",
+    "anchor_quote": "No, not by the torture. Listen, it’s like a kick in my gut to have to compliment the FBI. When I’ve had 22 FBI agents raiding my house… they proved that if you treat a prisoner with respect and engage in rapport building, the prisoner will tell you everything you want to know. Every time the CIA would step in and begin torturing him, he would clam up, like completely clam up, and then the FBI would have to go back in, try to reverse the damage, and start the whole thing over again.",
+    "why": "Provides Kiriakou’s direct comparison of FBI interrogation success versus CIA torture, adding vivid testimony to the CIA torture whistleblowing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T11:32:06.748Z",
+    "kind": "enrich",
+    "slug": "restraint-camp",
+    "anchor_quote": "The CIA objected. They objected to my placement in a minimum security camp. Well, they're vindictive, aren't they? Ask Julian Assange how vindictive they are. And why I got there. Exactly. Ask Julian Assange. They almost killed him. So, under Mike Pompeo plotted his murder, literally…",
+    "why": "Adds Kiriakou’s personal experience of CIA interference in his prison placement, enriching the restraint‑camp article with insider perspective.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T11:32:06.748Z",
+    "kind": "new",
+    "slug": "mike-pompeo-assange-murder-plot",
+    "anchor_quote": "Ask Julian Assange. They almost killed him. So, under Mike Pompeo plotted his murder, literally. Who's still free, by the way? Is Mike Pompeo in jail? I haven't seen any announcement that are you allowed as an appointee to a government, not elected, just an appointee. Are you allowed to plot the murder of people who embarrass the agency you are?",
+    "why": "Documents Kiriakou’s claim that Mike Pompeo plotted the murder of Julian Assange, a distinct topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T11:32:06.748Z",
+    "kind": "new",
+    "slug": "lawfare-usa-cia",
+    "anchor_quote": "Number one, he genuinely disliked me. And he has this history of going after people, using lawfare, which now we all know what that means. Using lawfare to take down his enemies. … they came to your house, they cuffed you, they threw you in a cell. That's violence, and it's a legal weapon he used against me.",
+    "why": "Introduces the concept of ‘lawfare’ as employed by the CIA leadership against whistleblowers, warranting its own article.",
+    "status": "pending"
   }
 ]
