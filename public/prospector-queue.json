@@ -5101,5 +5101,41 @@
     "anchor_quote": "I was the only Iraq leadership analyst. I walked in and it's the president, the vice president, the national security adviser, the CIA director, my boss, and me. We all sat down. The president looks around and he says, \"Well, now what do we do?\"",
     "why": "Kiriakou’s recollection of being summoned to the Oval Office during the Gulf crisis offers a distinct, high‑level briefing episode suitable for its own focused article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T14:14:20.486Z",
+    "kind": "enrich",
+    "slug": "mossad",
+    "anchor_quote": "When I asked Jeff whether the CIA or Mossad was more influential in the Middle East, I said, \"Obviously you've got Israel's influence over our politics, over our elected officials, our politicians. The question is, is that okay? ... Is one more influential than the other?\"",
+    "why": "Kiriakou directly compares CIA and Mossad influence, providing first‑hand insight that can deepen the Mossad article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T14:14:20.486Z",
+    "kind": "enrich",
+    "slug": "cia",
+    "anchor_quote": "I told Jeff that the CIA’s very existence is under question, noting, \"The mid‑1990s was when we spoke with one voice on foreign policy. That ended in the mid‑1990s and now we’re beating each other up over foreign policy. It makes the country weaker and it shouldn’t be happening.\"",
+    "why": "Kiriakou’s commentary on the CIA’s relevance and the fragmentation of U.S. foreign policy adds valuable primary‑source material to the CIA entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T14:14:20.486Z",
+    "kind": "new",
+    "slug": "israel-us-political-influence",
+    "anchor_quote": "I pointed out to Jeff that \"Israel’s influence over our politics, over our elected officials, our politicians is huge. There’s a lot of talk about who’s pulling the strings, and whether that influence is appropriate or not,\" highlighting the depth of Israeli lobbying in Washington.",
+    "why": "The transcript contains Kiriakou’s firsthand perspective on Israeli lobbying, a distinct topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T14:14:20.486Z",
+    "kind": "new",
+    "slug": "us-foreign-policy-fragmentation-1990s",
+    "anchor_quote": "I explained to Jeff that \"the mid‑1990s was when differences in foreign policy ended at the shore. As Americans we spoke with one voice on foreign policy. That ended in the mid‑1990s and now we’re beating each other up over foreign policy,\" capturing the shift from unified to fragmented policy making.",
+    "why": "Kiriakou’s observation about the loss of a unified U.S. foreign‑policy stance after the mid‑1990s warrants its own article.",
+    "status": "pending"
   }
 ]
