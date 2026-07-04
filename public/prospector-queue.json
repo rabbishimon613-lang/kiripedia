@@ -997,5 +997,32 @@
     "anchor_quote": "We launched the Freedom First Network back in 2020, and their show was a big reason why we got censored – right‑wing watch labeled us extremist, and the platform was effectively silenced.  That experience shows how dissenting voices are being shut down today.",
     "why": "Kiriakou’s account of censorship of the Freedom First Network provides material for a new article on media suppression of former intelligence operatives.",
     "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T00:06:31.685Z",
+    "kind": "new",
+    "slug": "cia-asset-recruitment-social-networking",
+    "anchor_quote": "I remember working for a fantastic station chief who would say, 'Listen, you going to this party tonight?' I'd go, and he'd tell me, 'I want you to show me 20 business cards tomorrow.' I collected them, filtered the few with operational interest, then called them saying, 'Hey, I'd love to take you to lunch, I enjoyed our conversation the other day.'",
+    "why": "Kiriakou details a concrete CIA recruitment technique using business cards and social events, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T00:06:31.685Z",
+    "kind": "new",
+    "slug": "cia-operations-officer-personality-myth",
+    "anchor_quote": "First of all, you cannot be a CIA operations officer and be an introvert. The two are incompatible with one another. You have to genuinely love doing this.",
+    "why": "Kiriakou asserts a prevalent belief about the personality traits required of CIA officers, offering insight into internal culture not captured elsewhere.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-05-morgan-nelson-cia-whistleblower.sponsors",
+    "found_at": "2026-07-04T00:06:31.685Z",
+    "kind": "new",
+    "slug": "cia-multi-target-profiling-tradecraft",
+    "anchor_quote": "Are you already starting to profile this person from what you already know, or is it just the intention to set the next encounter to start deepening the relationship and building more trust? Oh yes and yes. These things are not mutually exclusive. You've got to be working on multiple people at any given time.",
+    "why": "Kiriakou explains the CIA practice of simultaneously profiling and engaging multiple contacts, a distinct tradecraft element absent from current articles.",
+    "status": "pending"
   }
 ]
