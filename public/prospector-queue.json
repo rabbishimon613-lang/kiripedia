@@ -5470,5 +5470,77 @@
     "anchor_quote": "I think that we made a policy decision to accept and to believe Israeli intelligence at face value. I think the Israelis had a vested interest in lying to us and pulling us into this war to do their dirty work for them. And that's exactly what happened. The Iranians weren't the threat to us.",
     "why": "His claim that U.S. policy relied on Israeli intelligence, pulling America into the Iran conflict, is a standalone subject lacking a dedicated article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T15:37:08.533Z",
+    "kind": "enrich",
+    "slug": "british-bases-in-cyprus",
+    "anchor_quote": "To the best of your ability, are there nuclear weapons being stored in the British bases in Cyprus? I don't know. But I would guess probably yes. I honestly, as God is my witness, I don't know. I don't even know where the American nuclear weapons are based. Those are highly guarded secrets in the ministries of defense.",
+    "why": "Kiriakou speculates on the presence of nuclear weapons at British bases in Cyprus, providing first‑hand insight that expands the existing article on those bases.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T15:37:08.533Z",
+    "kind": "new",
+    "slug": "veterans-suicide-parking-lot-epidemic",
+    "anchor_quote": "We have veterans literally every single day committing suicide, many of them in the parking lots of the Veterans Administration hospitals that refuse to treat them for post‑traumatic stress disorder. It's something like as many as six a day kill themselves in the VA hospital parking lots.",
+    "why": "He reveals alarming daily veteran suicides in VA hospital parking lots, a topic not covered elsewhere in the corpus.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T15:37:08.533Z",
+    "kind": "new",
+    "slug": "us-political-realignment-antiwar-interventionism",
+    "anchor_quote": "We're having this very odd realignment politically in the United States right now, where members of the progressive left and members of the Make America Great Again, the MAGA right, are coming together on this issue because neither one of them want war. This is unprecedented in American history, like communists and fascists joining forces to oppose war.",
+    "why": "Kiriakou describes an unprecedented bipartisan anti‑war coalition in the US, warranting a dedicated article on this political realignment.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T15:37:08.533Z",
+    "kind": "enrich",
+    "slug": "lebanon-israeli-conflict",
+    "anchor_quote": "They never stopped using white phosphorus, which Amnesty International deems not a legal means of war. It causes long‑term injuries, severe burns and destruction of farmland. They want to destroy livelihoods so people desert South Lebanon.",
+    "why": "His account of Israel’s use of white phosphorus in South Lebanon adds critical detail to the Lebanon‑Israel conflict entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-03-11-unfiltered-with-s-a-m-john-kiriakou-what-s-really-happening-in-the-ir.sponsors",
+    "found_at": "2026-07-04T15:37:08.533Z",
+    "kind": "new",
+    "slug": "nato-article-5-turkey-israel-conflict",
+    "anchor_quote": "There was a statement about Turkey being the next big enemy of Israel. Turkey is a NATO country. If Israel attacks Turkey, the United States would be obligated by treaty to invoke Article 5 and come to Turkey's side, though whether it would actually do so is another question.",
+    "why": "He discusses the implications of NATO Article 5 if Israel attacks Turkey, a distinct issue absent from current articles.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T15:37:17.035Z",
+    "kind": "enrich",
+    "slug": "intelligence-identities-protection-act",
+    "anchor_quote": "I asked my attorneys. I was going to plead not guilty. And because nobody had ever challenged it at trial, there was no precedent. There were several articles in the Harvard law journal saying it was unconstitutional. So I emailed my attorneys at six o'clock in the morning and said, \"Let's go to trial. We're going to fight.\"",
+    "why": "Kiriakou provides a first‑hand account of his decision‑making and the legal pressures surrounding his plea under the 1982 Intelligence Identities Protection Act, enriching the existing article with personal testimony.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T15:37:17.035Z",
+    "kind": "enrich",
+    "slug": "fci-loretto",
+    "anchor_quote": "I wrote something that I very arrogantly called letter from Lorettto because I wanted to model it on Martin Luther King's letter from Birmingham jail. I said two strange things happened to me. One wasn't strange. The other was that an Iraqi prisoner approached me, we exchanged Arabic greetings, and he asked me where I learned Arabic.",
+    "why": "His description of composing the \"Letter from Lorettto\" while incarcerated adds vivid detail to the FCI Loretto entry, illustrating inmate communication and the prison’s cultural dynamics.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T15:37:17.035Z",
+    "kind": "new",
+    "slug": "cia-arabic-language-training",
+    "anchor_quote": "I said, \"I worked for the CIA now I speak Arabic, I love Arab culture and history and poetry etc.\" The Iraqi prisoner asked me where I learned Arabic, confirming that my CIA language training was a practical tool even behind bars.",
+    "why": "Kiriakou’s recounting of using CIA‑provided Arabic language skills in prison offers a unique perspective on the agency’s language‑training program, warranting a dedicated article.",
+    "status": "pending"
   }
 ]
