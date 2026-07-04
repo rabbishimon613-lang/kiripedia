@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T11:36:57.822Z",
+  "generated_at": "2026-07-04T11:49:51.247Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -81,252 +81,252 @@
     {
       "key": "deepener",
       "label": "Transcript Deepener",
-      "action": "Done: Swept the article shelf — every gap was already filled this round.",
-      "handoff_to": "coordinator",
-      "ts": "2026-07-04 11:32:57"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Michael Hastings — it's a true orphan so far.",
-      "handoff_to": "coordinator",
-      "ts": "2026-07-04 11:33:59"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 11:35:08"
+      "ts": "2026-07-04 11:48:05"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Pinning Mi6 back on the corkboard. Not the moment.",
+      "action": "Done: Pinning Curveball back on the corkboard. Not the moment.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 11:36:56"
+      "ts": "2026-07-04 11:49:50"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2026 04 27 Deep Focus Moral Injury John Acosta transcript aside — will retry next cycle.",
-      "handoff_to": "coordinator",
-      "ts": "2026-07-04 11:32:48"
+      "action": "idle",
+      "handoff_to": null,
+      "ts": null
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix).",
       "handoff_to": null,
-      "ts": "2026-07-04 11:36:56"
+      "ts": "2026-07-04 11:49:50"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-07-04 11:36:57",
+      "ts": "2026-07-04 11:49:51",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-07-04 11:36:56",
+      "ts": "2026-07-04 11:49:50",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-07-04 11:36:56",
+      "ts": "2026-07-04 11:49:50",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
       "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix)."
     },
     {
-      "ts": "2026-07-04 11:36:56",
+      "ts": "2026-07-04 11:49:50",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-07-04 11:36:56",
+      "ts": "2026-07-04 11:49:50",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Mi6 back on the corkboard. Not the moment."
+      "action": "Done: Pinning Curveball back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 11:36:46",
+      "ts": "2026-07-04 11:49:40",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Mi6 — the prose reads choppy, rewriting."
+      "action": "Opened Curveball — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 11:36:46",
+      "ts": "2026-07-04 11:49:40",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Patriot Act back on the corkboard. Not the moment."
+      "action": "Done: Pinning Sociopathic Tendencies back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 11:36:36",
+      "ts": "2026-07-04 11:49:30",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Patriot Act — the prose reads choppy, rewriting."
+      "action": "Opened Sociopathic Tendencies — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 11:36:36",
+      "ts": "2026-07-04 11:49:30",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Scholar In Residence Program back on the corkboard. Not the moment."
+      "action": "Done: Pinning One Time Pad back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 11:36:26",
+      "ts": "2026-07-04 11:49:20",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Scholar In Residence Program — the prose reads choppy, rewriting."
+      "action": "Opened One Time Pad — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 11:36:26",
+      "ts": "2026-07-04 11:49:20",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Joe Wilson back on the corkboard. Not the moment."
+      "action": "Done: Pinning Kompromat back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 11:36:16",
+      "ts": "2026-07-04 11:49:11",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Joe Wilson — the prose reads choppy, rewriting."
+      "action": "Opened Kompromat — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 11:36:16",
+      "ts": "2026-07-04 11:49:11",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Private Intelligence back on the corkboard. Not the moment."
+      "action": "Done: Threw out my pass on David Rockefeller Bahrain — I dropped 2 footnotes. Unacceptable."
     },
     {
-      "ts": "2026-07-04 11:36:06",
+      "ts": "2026-07-04 11:49:04",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Private Intelligence — the prose reads choppy, rewriting."
+      "action": "Opened David Rockefeller Bahrain — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 11:36:06",
+      "ts": "2026-07-04 11:49:04",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Leonie Brinkema back on the corkboard. Not the moment."
+      "action": "Done: Pinning Safe Housekeeper back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 11:35:56",
+      "ts": "2026-07-04 11:48:54",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Leonie Brinkema — the prose reads choppy, rewriting."
+      "action": "Opened Safe Housekeeper — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 11:35:56",
+      "ts": "2026-07-04 11:48:54",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Leon Panetta back on the corkboard. Not the moment."
+      "action": "Done: Pinning Isi back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 11:35:45",
+      "ts": "2026-07-04 11:48:43",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Leon Panetta — the prose reads choppy, rewriting."
+      "action": "Opened Isi — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 11:35:45",
+      "ts": "2026-07-04 11:48:43",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Harold James Nicholson back on the corkboard. Not the moment."
+      "action": "Done: Pinning Dick Cheney back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 11:35:36",
+      "ts": "2026-07-04 11:48:33",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Harold James Nicholson — the prose reads choppy, rewriting."
+      "action": "Opened Dick Cheney — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 11:35:36",
+      "ts": "2026-07-04 11:48:33",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Non Personal Communication back on the corkboard. Not the moment."
+      "action": "Done: Pinning Guantanamo Origin back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 11:35:25",
+      "ts": "2026-07-04 11:48:23",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Non Personal Communication — the prose reads choppy, rewriting."
+      "action": "Opened Guantanamo Origin — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 11:35:25",
+      "ts": "2026-07-04 11:48:23",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "finish",
-      "action": "Done: Pinning Plato Cacheris back on the corkboard. Not the moment."
+      "action": "Done: Pinning Thin Thread Stellar Wind back on the corkboard. Not the moment."
     },
     {
-      "ts": "2026-07-04 11:35:15",
+      "ts": "2026-07-04 11:48:12",
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "event": "start",
-      "action": "Opened Plato Cacheris — the prose reads choppy, rewriting."
+      "action": "Opened Thin Thread Stellar Wind — the prose reads choppy, rewriting."
     },
     {
-      "ts": "2026-07-04 11:35:08",
+      "ts": "2026-07-04 11:48:05",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 11:34:58",
+      "ts": "2026-07-04 11:47:54",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 11:34:58",
+      "ts": "2026-07-04 11:47:54",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ali Soufan back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 11:34:49",
+      "ts": "2026-07-04 11:47:44",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 11:34:49",
+      "ts": "2026-07-04 11:47:44",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Threw out my draft of Aldrich Ames — came out shorter than I started."
+      "action": "Done: Putting Aldrich Ames back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 11:34:39",
+      "ts": "2026-07-04 11:45:33",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
@@ -334,9 +334,9 @@
     }
   ],
   "last_cycle": {
-    "id": 90,
-    "started_at": "2026-07-04 11:30:42",
-    "ended_at": "2026-07-04 11:30:42",
+    "id": 91,
+    "started_at": "2026-07-04 11:42:00",
+    "ended_at": "2026-07-04 11:42:00",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -384,7 +384,7 @@
   ],
   "orders_today": {
     "date": "2026-07-04",
-    "generated_at": "2026-07-04T11:30:41.237Z",
+    "generated_at": "2026-07-04T11:41:59.661Z",
     "goal": 500000,
     "total_words": 225226,
     "gap": 274774,

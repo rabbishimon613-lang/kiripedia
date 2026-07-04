@@ -4354,5 +4354,50 @@
     "anchor_quote": "Number one, he genuinely disliked me. And he has this history of going after people, using lawfare, which now we all know what that means. Using lawfare to take down his enemies. … they came to your house, they cuffed you, they threw you in a cell. That's violence, and it's a legal weapon he used against me.",
     "why": "Introduces the concept of ‘lawfare’ as employed by the CIA leadership against whistleblowers, warranting its own article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T11:43:27.472Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post. I wrote him a private letter that a mutual friend delivered to him. And then his father came to prison to visit me. I told him the very first thing he has to do is hire the best attorneys money can buy, my attorneys. They worked out a deal with the Justice Department where Ed was going to come home, plead guilty and agree to 20 years in prison, but the DOJ said absolutely not because they were afraid he would inspire other whistleblowers.",
+    "why": "Kiriakou’s direct involvement with Snowden provides unique first‑hand insight that enriches the existing Snowden article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T11:43:27.472Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "He was treated like every other prisoner in the system. I lived it. Based on my experience, the prison guards weren’t making their rounds every eight minutes like they’re supposed to. The cameras would blip off at twelve and then recycle again. The guards would sit in a glass‑enclosed booth, looking at porn or playing solitaire, and sometimes they even fell asleep on the job.",
+    "why": "Kiriakou’s eyewitness account of Epstein’s incarceration adds valuable detail to the Jeffrey Epstein article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T11:43:27.472Z",
+    "kind": "new",
+    "slug": "federal-prison-guard-illiteracy",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail because the guards couldn’t read. As a general rule, everybody who works in the Bureau of Prisons has his head up his ass—they’re illiterate, lazy, stupid and corrupt.",
+    "why": "Kiriakou describes systemic illiteracy and corruption among federal prison guards, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T11:43:27.472Z",
+    "kind": "new",
+    "slug": "mike-pompeo-snowden-threat",
+    "anchor_quote": "I know Mike Pompeo said he wanted to kill him and he wanted him dead and others. But suppose he was able to stand up and do that and he came to the US. Do you actually believe he would live in prison? Yeah, I do. I think he would live, not be offed.",
+    "why": "Kiriakou’s claim that former Secretary of State Mike Pompeo threatened Edward Snowden is a distinct allegation warranting its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T11:43:27.472Z",
+    "kind": "new",
+    "slug": "prison-camera-malfunction-epstein",
+    "anchor_quote": "The cameras never work in any prison because these pizza delivery guys who became prison employees don’t know how to make the cameras work. There was a blip in the camera where it went off and it came right back on again. All the cameras blip off at twelve and then begin recycling again.",
+    "why": "Kiriakou’s description of systematic camera failures in the prison where Epstein was held provides a focused angle for a new article.",
+    "status": "pending"
   }
 ]
