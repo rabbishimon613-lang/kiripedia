@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T16:51:23.558Z",
+  "generated_at": "2026-07-04T17:00:27.382Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,281 +62,281 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-07-04 16:56:26"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-07-04 16:56:26"
     },
     {
       "key": "indexer",
       "label": "Indexer",
-      "action": "idle",
+      "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": null
+      "ts": "2026-07-04 16:56:31"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 16:47:11"
+      "ts": "2026-07-04 16:57:54"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Mark Levin Iran Policy — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Michael Hastings — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 16:48:23"
+      "ts": "2026-07-04 16:59:14"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 16:49:31"
+      "ts": "2026-07-04 17:00:17"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
-      "action": "Done: Pinning Maduro Capture back on the corkboard. Not the moment.",
+      "action": "Done: Reviewed every medium article — none read raggy this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 16:51:22"
+      "ts": "2026-07-04 17:00:26"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Set the 2026 05 31 John Kiriakou Podcast John Kiriakou New Posdcast 12 Secrets That Have transcript aside — will retry next cycle.",
+      "action": "Done: Pulled 5 fresh leads out of 2025 04 23 Dr Phil Podcast Secrets Lies Price Of Truth Part2.sponsors. 658 sitting in the tray.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 16:47:01"
+      "ts": "2026-07-04 16:57:42"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix).",
       "handoff_to": null,
-      "ts": "2026-07-04 16:51:22"
+      "ts": "2026-07-04 17:00:26"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-07-04 16:51:23",
+      "ts": "2026-07-04 17:00:27",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-07-04 16:51:22",
+      "ts": "2026-07-04 17:00:26",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-07-04 16:51:22",
+      "ts": "2026-07-04 17:00:26",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
       "action": "Done: Went through 0. 0 of them need a word about their tone (0 things to fix)."
     },
     {
-      "ts": "2026-07-04 16:51:22",
+      "ts": "2026-07-04 17:00:26",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-07-04 16:51:22",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Maduro Capture back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 16:51:12",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Maduro Capture — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 16:51:12",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Double Agent Capture back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 16:51:02",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Double Agent Capture — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 16:51:02",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Gust Avrakotos back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 16:50:52",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Gust Avrakotos — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 16:50:52",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Hezbollah back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 16:50:42",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Hezbollah — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 16:50:42",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Maher Arar back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 16:50:32",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Maher Arar — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 16:50:32",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Khalid Sheikh Mohammed back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 16:50:23",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Khalid Sheikh Mohammed — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 16:50:22",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Ahmed Chalabi back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 16:50:13",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Ahmed Chalabi — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 16:50:13",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Sleep Deprivation back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 16:50:02",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Sleep Deprivation — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 16:50:02",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Mitchell And Jessen back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 16:49:51",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Mitchell And Jessen — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 16:49:51",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "finish",
-      "action": "Done: Pinning Lie Detection back on the corkboard. Not the moment."
-    },
-    {
-      "ts": "2026-07-04 16:49:41",
-      "key": "reweaver",
-      "label": "Tapestry Reweaver",
-      "event": "start",
-      "action": "Opened Lie Detection — the prose reads choppy, rewriting."
-    },
-    {
-      "ts": "2026-07-04 16:49:31",
+      "ts": "2026-07-04 17:00:17",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 16:49:20",
+      "ts": "2026-07-04 17:00:07",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 16:49:20",
+      "ts": "2026-07-04 17:00:07",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ali Soufan back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 16:49:10",
+      "ts": "2026-07-04 16:59:57",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 16:49:10",
+      "ts": "2026-07-04 16:59:57",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Threw out my draft of Aldrich Ames — came out shorter than I started."
     },
     {
-      "ts": "2026-07-04 16:49:05",
+      "ts": "2026-07-04 16:59:53",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aldrich Ames — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-07-04 16:59:53",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Threw out my draft of Aipac — came out shorter than I started."
+    },
+    {
+      "ts": "2026-07-04 16:59:47",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Aipac — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-07-04 16:59:47",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Threw out my draft of Ahmed Chalabi — I dropped 11 direct Kiriakou quotes. Unacceptable."
+    },
+    {
+      "ts": "2026-07-04 16:59:42",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-07-04 16:59:42",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Putting Afghan Heroin Policy back in the inbox for now."
+    },
+    {
+      "ts": "2026-07-04 16:59:30",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Afghan Heroin Policy — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-07-04 16:59:30",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Putting Abu Zubaydah back in the inbox for now."
+    },
+    {
+      "ts": "2026-07-04 16:59:21",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-07-04 16:59:21",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "finish",
+      "action": "Done: Threw out my draft of Abu Zubaydah Capture — came out shorter than I started."
+    },
+    {
+      "ts": "2026-07-04 16:59:15",
+      "key": "weaver",
+      "label": "Article Weaver",
+      "event": "start",
+      "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
+    },
+    {
+      "ts": "2026-07-04 16:59:14",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Michael Hastings — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-07-04 16:59:14",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Michael Hastings — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-07-04 16:59:12",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Mi6 — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-07-04 16:59:12",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Mi6 — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-07-04 16:59:10",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Mexican 9 Month Work Visas — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-07-04 16:59:10",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Mexican 9 Month Work Visas — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-07-04 16:59:08",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Meredith Whittaker — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-07-04 16:59:08",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Meredith Whittaker — looking for peer articles to cross-link."
+    },
+    {
+      "ts": "2026-07-04 16:59:05",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "finish",
+      "action": "Done: Searched the shelf for Mccain Feinstein Amendment — it's a true orphan so far."
+    },
+    {
+      "ts": "2026-07-04 16:59:05",
+      "key": "enricher",
+      "label": "Cross-Source Enricher",
+      "event": "start",
+      "action": "Opened Mccain Feinstein Amendment — looking for peer articles to cross-link."
     }
   ],
   "last_cycle": {
-    "id": 121,
-    "started_at": "2026-07-04 16:45:54",
-    "ended_at": "2026-07-04 16:45:54",
+    "id": 122,
+    "started_at": "2026-07-04 16:56:26",
+    "ended_at": "2026-07-04 16:56:26",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -384,7 +384,7 @@
   ],
   "orders_today": {
     "date": "2026-07-04",
-    "generated_at": "2026-07-04T16:45:53.366Z",
+    "generated_at": "2026-07-04T16:56:25.447Z",
     "goal": 500000,
     "total_words": 225322,
     "gap": 274678,

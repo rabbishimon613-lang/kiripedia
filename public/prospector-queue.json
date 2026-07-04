@@ -5875,5 +5875,50 @@
     "anchor_quote": "The CIA objected to my placement in a minimum security camp. They’re vindictive, aren’t they? The CIA makes certain you don’t go to the work camp, you go to a prison. It was five days before I got access to a phone at the prison…",
     "why": "Kiriakou describes the CIA’s practice of sending whistleblowers to minimum‑security camps versus work camps, a topic not yet covered by any slug.",
     "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T16:57:42.567Z",
+    "kind": "enrich",
+    "slug": "intelligence-identities-protection-act",
+    "anchor_quote": "I asked my attorneys. I was going to plead not guilty. And when I say going to plead not guilty, I mean the Justice Department had made a best and final offer of 30 months. I do 23 months or we go to trial. My wife and I stayed up all night, reading every article about the IIPA, because nobody had ever challenged it at trial, and there was no precedent. I emailed my attorneys at six o'clock in the morning and said, \"Let's go to trial. We're going to fight.\"",
+    "why": "Kiriakou provides a first‑hand account of his plea‑deal negotiations and decision‑making under the Intelligence Identities Protection Act, directly enriching that article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T16:57:42.567Z",
+    "kind": "enrich",
+    "slug": "doing-time-like-a-spy",
+    "anchor_quote": "I wrote something that I very arrogantly called \"letter from Lorettto\" because I wanted to model it on Martin Luther King's \"Letter from Birmingham Jail.\" In that letter I described an abusive, awful female prison guard and how the threat of being called into the lieutenant's office meant I could be sent to solitary confinement for any perceived misstep.",
+    "why": "His description of guard abuse and the looming solitary‑confinement threat adds personal detail to the \"doing‑time‑like‑a‑spy\" article about CIA operatives in prison.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T16:57:42.567Z",
+    "kind": "new",
+    "slug": "kiriakou-letter-from-lorettto",
+    "anchor_quote": "I wrote something that I very arrogantly called \"letter from Lorettto\" because I wanted to model it on Martin Luther King's \"Letter from Birmingham Jail.\" I detailed my daily life in prison, the guard abuse, and my reflections on justice while serving my sentence.",
+    "why": "The unique prison letter modeled after MLK's famous missive has never been covered and warrants its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T16:57:42.567Z",
+    "kind": "new",
+    "slug": "kiriakou-iraqi-prisoner-arabic-conversation",
+    "anchor_quote": "One day an Iraqi prisoner was brought to my cell. I said, \"alamu alaykum, may peace be upon you,\" and he replied, \"upon you peace.\" He asked me where I learned Arabic; I told him I worked for the CIA, love Arab culture, history, and poetry, and that I speak Arabic.",
+    "why": "Kiriakou’s unexpected Arabic conversation with an Iraqi inmate reveals a rare cultural exchange inside a U.S. prison, a distinct topic not yet documented.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T16:57:42.567Z",
+    "kind": "new",
+    "slug": "kiriakou-plea-deal-negotiation",
+    "anchor_quote": "The oldest of my attorneys, a legal titan, got right up in my face and said, \"You stupid sobb. Take the deal.\" The second, a true southern gentleman, begged me to take it. The third warned, \"Your problem is you think this is about justice; it's about mitigating damage. Take the deal.\" They warned it could mean 12 to 18 years, so I chose the 23‑month offer to protect my five children.",
+    "why": "His detailed recounting of the conflicting advice from three senior attorneys during the plea‑deal decision provides a standalone narrative on legal strategy for whistleblowers.",
+    "status": "pending"
   }
 ]
