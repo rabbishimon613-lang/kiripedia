@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T03:31:10.712Z",
+  "generated_at": "2026-07-04T03:38:45.235Z",
   "bots": [
     {
       "key": "recent_changes",
@@ -62,281 +62,281 @@
       "label": "Grounding Reviewer",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-07-04 03:28:37"
+      "ts": "2026-07-04 03:36:12"
     },
     {
       "key": "coordinator",
       "label": "WikiProject Coordinator",
       "action": "idle",
       "handoff_to": null,
-      "ts": "2026-07-04 03:28:37"
+      "ts": "2026-07-04 03:36:12"
     },
     {
       "key": "indexer",
       "label": "Indexer",
       "action": "Done: Rebuilt 2 of 2 indexes.",
       "handoff_to": null,
-      "ts": "2026-07-04 03:28:42"
+      "ts": "2026-07-04 03:36:17"
     },
     {
       "key": "deepener",
       "label": "Transcript Deepener",
       "action": "Done: Swept the article shelf — every gap was already filled this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 03:29:29"
+      "ts": "2026-07-04 03:37:02"
     },
     {
       "key": "enricher",
       "label": "Cross-Source Enricher",
-      "action": "Done: Searched the shelf for Church Committee Mk Ultra Investigation — it's a true orphan so far.",
+      "action": "Done: Searched the shelf for Imran Khan — it's a true orphan so far.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 03:30:12"
+      "ts": "2026-07-04 03:37:49"
     },
     {
       "key": "weaver",
       "label": "Article Weaver",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 03:31:04"
+      "ts": "2026-07-04 03:38:38"
     },
     {
       "key": "reweaver",
       "label": "Tapestry Reweaver",
       "action": "Done: Reviewed every medium article — none read raggy this round.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 03:31:09"
+      "ts": "2026-07-04 03:38:44"
     },
     {
       "key": "prospector",
       "label": "Transcript Prospector",
-      "action": "Done: Pulled 5 fresh leads out of 2026 04 02 Megyn Kelly Trump Fires Bondi Cia S Mk Ultra History And Two Weeks Sp.sponsors. 233 sitting in the tray.",
+      "action": "Done: Pulled 5 fresh leads out of 2025 06 04 Tucker Carlson Cia Torture Mk Ultra 911.sponsors. 243 sitting in the tray.",
       "handoff_to": "coordinator",
-      "ts": "2026-07-04 03:29:21"
+      "ts": "2026-07-04 03:36:54"
     },
     {
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
-      "action": "Done: Went through 1. 1 of them need a word about their tone (1 things to fix).",
+      "action": "Done: Went through 2. 1 of them need a word about their tone (1 things to fix).",
       "handoff_to": null,
-      "ts": "2026-07-04 03:31:09"
+      "ts": "2026-07-04 03:38:44"
     }
   ],
   "recent_events": [
     {
-      "ts": "2026-07-04 03:31:10",
+      "ts": "2026-07-04 03:38:45",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "finish",
       "action": "Done: Pictured 0 more articles; 183 still need a photo."
     },
     {
-      "ts": "2026-07-04 03:31:09",
+      "ts": "2026-07-04 03:38:44",
       "key": "image-fetcher-1",
       "label": "image-fetcher-1",
       "event": "start",
       "action": "Looking for articles that grew up enough to deserve a picture."
     },
     {
-      "ts": "2026-07-04 03:31:09",
+      "ts": "2026-07-04 03:38:44",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "finish",
-      "action": "Done: Went through 1. 1 of them need a word about their tone (1 things to fix)."
+      "action": "Done: Went through 2. 1 of them need a word about their tone (1 things to fix)."
     },
     {
-      "ts": "2026-07-04 03:31:09",
+      "ts": "2026-07-04 03:38:44",
       "key": "mouth_sentry",
       "label": "Mouth Sentry",
       "event": "start",
       "action": "Auditing every article touched in the last 30 minutes."
     },
     {
-      "ts": "2026-07-04 03:31:04",
+      "ts": "2026-07-04 03:38:38",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Asset Acquisition Cycle back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 03:30:57",
+      "ts": "2026-07-04 03:38:31",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Asset Acquisition Cycle — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:30:57",
+      "ts": "2026-07-04 03:38:31",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Ali Soufan back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 03:30:50",
+      "ts": "2026-07-04 03:38:25",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ali Soufan — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:30:50",
+      "ts": "2026-07-04 03:38:25",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Putting Aldrich Ames back in the inbox for now."
+      "action": "Done: Finished Aldrich Ames. Grew it from 4494 to 4497 characters, kept every footnote and quote."
     },
     {
-      "ts": "2026-07-04 03:30:44",
+      "ts": "2026-07-04 03:38:18",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aldrich Ames — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:30:44",
+      "ts": "2026-07-04 03:38:18",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Threw out my draft of Aipac — came out shorter than I started."
     },
     {
-      "ts": "2026-07-04 03:30:38",
+      "ts": "2026-07-04 03:38:13",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Aipac — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:30:38",
+      "ts": "2026-07-04 03:38:13",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
-      "action": "Done: Putting Ahmed Chalabi back in the inbox for now."
+      "action": "Done: Threw out my draft of Ahmed Chalabi — came out shorter than I started."
     },
     {
-      "ts": "2026-07-04 03:30:31",
+      "ts": "2026-07-04 03:38:08",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Ahmed Chalabi — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:30:31",
+      "ts": "2026-07-04 03:38:08",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Threw out my draft of Afghan Heroin Policy — came out shorter than I started."
     },
     {
-      "ts": "2026-07-04 03:30:26",
+      "ts": "2026-07-04 03:38:03",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Afghan Heroin Policy — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:30:26",
+      "ts": "2026-07-04 03:38:03",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Abu Zubaydah back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 03:30:19",
+      "ts": "2026-07-04 03:37:56",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Abu Zubaydah — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:30:19",
+      "ts": "2026-07-04 03:37:56",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "finish",
       "action": "Done: Putting Abu Zubaydah Capture back in the inbox for now."
     },
     {
-      "ts": "2026-07-04 03:30:12",
+      "ts": "2026-07-04 03:37:49",
       "key": "weaver",
       "label": "Article Weaver",
       "event": "start",
       "action": "Pulled up Abu Zubaydah Capture — drafting it from the transcripts."
     },
     {
-      "ts": "2026-07-04 03:30:12",
+      "ts": "2026-07-04 03:37:49",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Church Committee Mk Ultra Investigation — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Imran Khan — it's a true orphan so far."
     },
     {
-      "ts": "2026-07-04 03:30:12",
+      "ts": "2026-07-04 03:37:49",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Church Committee Mk Ultra Investigation — looking for peer articles to cross-link."
+      "action": "Opened Imran Khan — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-07-04 03:30:11",
+      "ts": "2026-07-04 03:37:48",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Chelsea Manning Emergence — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Ilhan Omar — it's a true orphan so far."
     },
     {
-      "ts": "2026-07-04 03:30:11",
+      "ts": "2026-07-04 03:37:48",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Chelsea Manning Emergence — looking for peer articles to cross-link."
+      "action": "Opened Ilhan Omar — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-07-04 03:30:10",
+      "ts": "2026-07-04 03:37:47",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Chelsea Manning — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Hawala System — it's a true orphan so far."
     },
     {
-      "ts": "2026-07-04 03:30:10",
+      "ts": "2026-07-04 03:37:47",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Chelsea Manning — looking for peer articles to cross-link."
+      "action": "Opened Hawala System — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-07-04 03:30:08",
+      "ts": "2026-07-04 03:37:45",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Chaos Computer Club Wikileaks — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Government Accountability Project — it's a true orphan so far."
     },
     {
-      "ts": "2026-07-04 03:30:08",
+      "ts": "2026-07-04 03:37:45",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Chaos Computer Club Wikileaks — looking for peer articles to cross-link."
+      "action": "Opened Government Accountability Project — looking for peer articles to cross-link."
     },
     {
-      "ts": "2026-07-04 03:30:07",
+      "ts": "2026-07-04 03:37:44",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "finish",
-      "action": "Done: Searched the shelf for Camp David Final Talks — it's a true orphan so far."
+      "action": "Done: Searched the shelf for Giuliani Pardon Solicitation — it's a true orphan so far."
     },
     {
-      "ts": "2026-07-04 03:30:07",
+      "ts": "2026-07-04 03:37:44",
       "key": "enricher",
       "label": "Cross-Source Enricher",
       "event": "start",
-      "action": "Opened Camp David Final Talks — looking for peer articles to cross-link."
+      "action": "Opened Giuliani Pardon Solicitation — looking for peer articles to cross-link."
     }
   ],
   "last_cycle": {
-    "id": 41,
-    "started_at": "2026-07-04 03:28:37",
-    "ended_at": "2026-07-04 03:28:37",
+    "id": 42,
+    "started_at": "2026-07-04 03:36:12",
+    "ended_at": "2026-07-04 03:36:12",
     "claims_merged": 0,
     "articles_touched": 0,
     "commit_sha": null,
@@ -384,7 +384,7 @@
   ],
   "orders_today": {
     "date": "2026-07-04",
-    "generated_at": "2026-07-04T03:28:36.907Z",
+    "generated_at": "2026-07-04T03:36:12.301Z",
     "goal": 500000,
     "total_words": 224479,
     "gap": 275521,
