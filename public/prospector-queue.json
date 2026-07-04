@@ -4939,5 +4939,50 @@
     "anchor_quote": "When the Iraqi prisoner asked me how I learned Arabic, I said, \"I worked for the CIA, now I speak Arabic, I love Arab culture and history and poetry, etc.\" That exchange reminded me that the CIA runs an intensive Arabic language program for operatives, a facet of our training that rarely gets public attention.",
     "why": "The transcript reveals Kiriakou's personal experience with CIA Arabic training, a distinct topic not covered by any current slug.",
     "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T13:41:43.151Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "I think of all the problems that were going on in the world, there are other problems in the world, right? I think for two reasons. Number one, he genuinely disliked me. And he has this history of going after people, using lawfare, which now we all know what that means. Using lawfare to take down his enemies. They came to your house, they cuffed you, they threw you in a cell, and then he went to the then Attorney General Eric Holder and asked to reopen the case against me.",
+    "why": "Adds Kiriakou’s first‑hand account of John Brennan’s personal vendetta and use of law‑fare against whistleblowers, a detail not covered in the existing John Brennan article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T13:41:43.151Z",
+    "kind": "enrich",
+    "slug": "cia-torture-program-whistleblowing",
+    "anchor_quote": "Listen, it’s like a kick in my gut to have to compliment the FBI. You know, when I’ve had 22 FBI agents raiding my house and taking all my stuff, but if there’s one thing that the FBI is really good at, it’s interrogations. They proved it with Abu Zuba – treat a prisoner with respect, engage in rapport‑building, take time, and the prisoner tells you everything you want to know. Every time the CIA stepped in and began torturing him, he would completely clam up, and the FBI had to start over again.",
+    "why": "Provides a vivid contrast between FBI rapport‑building techniques and CIA torture, enriching the CIA torture whistleblowing narrative with Kiriakou’s direct observations.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T13:41:43.151Z",
+    "kind": "new",
+    "slug": "fbi-rapport-building-interrogations",
+    "anchor_quote": "If there’s one thing that the FBI is really good at, it’s interrogations. They proved it with Abu Zuba – treat a prisoner with respect, engage in rapport‑building, take time, and the prisoner tells you everything you want to know. That’s what happened with Abu Zuba, and every time the CIA stepped in and began torturing him, he would completely clam up, forcing the FBI to redo the interview.",
+    "why": "Creates a dedicated article on the FBI’s rapport‑building interrogation methods, using Kiriakou’s eyewitness account of Abu Zuba’s debriefings.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T13:41:43.151Z",
+    "kind": "new",
+    "slug": "cia-assange-murder-plot-pompeo",
+    "anchor_quote": "Ask Julian Assange how vindictive they are. They almost killed him. So, under Mike Pompeo plotted his murder, literally. Who’s still free, by the way? Is Mike Pompeo in jail? I haven’t seen any announcement that you’re allowed as an appointee to a government, not elected, just an appointee, to plot the murder of people who embarrass the agency you are? You can’t do that. It would be a serious crime – attempted murder.",
+    "why": "Documents Kiriakou’s claim that the CIA, under Mike Pompeo, plotted to assassinate Julian Assange, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T13:41:43.151Z",
+    "kind": "new",
+    "slug": "john-kiriakou-imprisonment-conditions",
+    "anchor_quote": "My little kids… at the visiting room there was a sign on one of the doors that said inmates only. My 8‑year‑old asked, ‘Dad, what’s an inmate?’ I said, ‘It’s a prisoner.’ He then asked, ‘Are you a prisoner here or a teacher?’ I told him, ‘Buddy, I’m a prisoner here, but we’ll get past this, it’ll be quick and I’ll be home and everything will be good again.’",
+    "why": "Captures Kiriakou’s personal experience of prison life, his children’s perspective, and the CIA’s decision to place him in a minimum‑security camp rather than a work camp, a distinct narrative absent from current articles.",
+    "status": "pending"
   }
 ]
