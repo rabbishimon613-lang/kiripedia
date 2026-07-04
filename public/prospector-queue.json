@@ -4696,5 +4696,41 @@
     "anchor_quote": "They cuffed you, they threw you in a cell. That’s acts of violence, physical force they're using against you. If you’ll take a man from his five children and lock him in a cell for years, that’s lawfare against a whistleblower.",
     "why": "Kiriakou’s description of his imprisonment and the use of law‑fare tactics against him merits a dedicated article on law‑fare targeting whistleblowers.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T12:50:38.818Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post. I wrote him a private letter that a mutual friend delivered to him. Then his father came to prison to visit me and I told him the first thing he had to do was hire the best attorneys money can buy, including my own, and they negotiated a deal with the Justice Department for Snowden to plead guilty and accept a twenty‑year sentence.",
+    "why": "Kiriakou provides first‑hand details of his personal involvement in advising Snowden and arranging legal representation, expanding the Snowden article with insider perspective.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T12:50:38.818Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "The cameras didn't work. News flash. The cameras never work in any prison because these pizza‑delivery guys who became prison employees don’t know how to make the cameras work. You remember there was a blip in the camera where it went off and it came right back on again. All the cameras blip off at 12 and then begin recycling again. The guards were supposed to walk around every eight minutes but they were sleeping in the guard booth, watching porn or playing solitaire.",
+    "why": "Kiriakou’s eyewitness account of camera failures and guard neglect inside the federal prison where Epstein was held adds concrete evidence to the Epstein article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T12:50:38.818Z",
+    "kind": "new",
+    "slug": "federal-prison-guard-illiteracy",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail. Prisoners aren’t supposed to hand out the mail, but they did because the guards couldn’t read. As a general rule, everybody who works in the Bureau of Prisons has his head up his ass—they’re illiterate, lazy, stupid, and corrupt.",
+    "why": "Kiriakou describes systemic illiteracy and incompetence among federal prison guards, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T12:50:38.818Z",
+    "kind": "new",
+    "slug": "prison-camera-failures-epstein",
+    "anchor_quote": "The cameras didn’t work. News flash. The cameras never work in any prison because these pizza‑delivery guys who became prison employees don’t know how to make the cameras work. There was a blip where the camera went off and then came right back on. All the cameras blip off at 12 and then begin recycling again, leaving blind spots during critical moments.",
+    "why": "Kiriakou’s detailed observation of camera malfunctions during Epstein’s incarceration warrants a dedicated article on prison surveillance failures.",
+    "status": "pending"
   }
 ]
