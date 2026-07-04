@@ -5740,5 +5740,50 @@
     "anchor_quote": "We had two mics which is his podcast on Freedom First Network that we launched back in 2020, which is pretty crazy and their show was a big reason why we got censored because you know he's out there talking about all these things and we got labeled by right-wing watch as far extremist and all that.",
     "why": "His description of being labeled and censored by right‑wing watchdog groups provides a distinct case study for a new article on the suppression of CIA whistleblowers.",
     "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T16:36:21.942Z",
+    "kind": "enrich",
+    "slug": "enhanced-interrogation",
+    "anchor_quote": "At the time, I was so angry and I wanted so much to help disrupt future attacks on the United States that I felt it was the only thing we could do. I think waterboarding is probably something that we shouldn't be in the business of doing. Because we're Americans and we're better than that.",
+    "why": "Kiriakou’s personal evolution from supporting waterboarding to condemning it adds depth to the enhanced‑interrogation article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T16:36:21.942Z",
+    "kind": "enrich",
+    "slug": "waterboarding",
+    "anchor_quote": "I was out of it by then, but it's my understanding that Khaled Shik Muhammad was also waterboarded. Those were really the only two to the best of my knowledge. I think both the technique and its moral cost are worth documenting.",
+    "why": "His firsthand account of specific waterboarding cases (including Khaled Shik Muhammad) provides valuable primary detail for the waterboarding entry.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T16:36:21.942Z",
+    "kind": "enrich",
+    "slug": "trump-iran-ceasefire-efforts",
+    "anchor_quote": "What we saw was that we're winning or we won, which I don't believe we are. And the president threatened again to attack Iran's infrastructure, specifically its electrical grid. That is quite literally a war crime. It's very unusual for a president to go on TV and announce, 'I'm going to commit a war crime.'",
+    "why": "Kiriakou’s characterization of the president’s threat to strike Iran’s power grid as a war crime adds a legal‑policy dimension to the Trump‑Iran cease‑fire article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T16:36:21.942Z",
+    "kind": "new",
+    "slug": "us-israel-intelligence-iran-war",
+    "anchor_quote": "I think we made a policy decision to accept and to believe Israeli intelligence at face value. The Israelis had a vested interest in lying to us and pulling us into this war to do their dirty work for them. The Iranians weren't the threat to us.",
+    "why": "Kiriakou alleges that U.S. reliance on Israeli intel drove the Iran conflict, a distinct topic not covered by existing slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T16:36:21.942Z",
+    "kind": "new",
+    "slug": "us-special-forces-iran-uranium-tunnels",
+    "anchor_quote": "The other, which is even crazier, is this idea of landing special forces to try to retrieve several hundred pounds of enriched uranium in tunnels. It's multiple tunnel cities across the country where they've placed these, and sending in special forces would be a massive, high‑risk operation.",
+    "why": "His speculation about a U.S. special‑forces mission to seize Iranian enriched‑uranium tunnels is a unique operational concept deserving its own article.",
+    "status": "pending"
   }
 ]
