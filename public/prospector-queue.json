@@ -2833,5 +2833,77 @@
     "anchor_quote": "The CIA objected. They objected to my placement in a minimum security camp. Well, they're vindictive, aren't they? I guess. Ask Julian Assange how vindictive they are. And and why I got there. Exactly.",
     "why": "Introduces Kiriakou's claim that the CIA deliberately placed him in a minimum‑security camp as retaliation, a subject not yet covered.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T06:03:23.696Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post and a private letter delivered by a mutual friend. When his father visited me I told him the first thing to do was hire the best attorneys money can buy. They worked out a deal with the Justice Department where Ed would plead guilty, accept a 20‑year sentence and be released, but the DOJ refused, fearing he would inspire other whistleblowers.",
+    "why": "Adds Kiriakou’s first‑hand account of his attempts to negotiate a plea deal for Snowden and his personal correspondence with Snowden.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T06:03:23.696Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "Jeffrey Epstein was high‑profile, so many assumed the prison would run like a well‑oiled machine. In reality it was chaos. He was under suicide watch, as are thousands of inmates daily, yet nobody cared when a suicide occurred. He was treated like the average dude, with nothing special about him once he walked through those doors – the same neglect and neglectful conditions that apply to every other prisoner.",
+    "why": "Provides Kiriakou’s insider perspective on how Epstein was handled inside the federal prison system, complementing existing coverage of the case.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T06:03:23.696Z",
+    "kind": "new",
+    "slug": "federal-prison-system-critique-kiriakou",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Prisoners hand out the mail because the guards can’t read. As a rule, Bureau of Prisons staff are illiterate, lazy, corrupt, and often sleep on the job, watching porn or playing solitaire while cameras constantly malfunction.",
+    "why": "Creates a dedicated article on Kiriakou’s detailed criticism of systemic failures in the U.S. federal prison system based on his personal experience.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T06:03:23.696Z",
+    "kind": "new",
+    "slug": "mike-pompeo-snowden-threat",
+    "anchor_quote": "I know Mike Pompeo had said he wanted to kill him and he wanted him dead and others and others. But let us suppose he was able to stand up and do that and he came to the US. Do you actually believe he would live in prison?",
+    "why": "Documents Kiriakou’s claim that former Secretary of State Mike Pompeo publicly expressed a desire to kill Edward Snowden, a statement not covered elsewhere in the corpus.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T06:03:46.092Z",
+    "kind": "new",
+    "slug": "engineered-9-11-attack",
+    "anchor_quote": "[1:11:55] engineered attack and why was it done? It was to create this whole homeland security apparatus, this whole war on terror, and not to forget the Brennan crimes in the book were allegedly done during the war on terror that meant providing aid and comfort to an enemy during a war that is the global war on terror.",
+    "why": "Kiriakou asserts that 9/11 was a deliberately engineered event to manufacture the war‑on‑terror, a claim not covered by any existing article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T06:03:46.092Z",
+    "kind": "new",
+    "slug": "afghanistan-war-prolongation-pharma-china",
+    "anchor_quote": "[1:13:29] ... we’re in Afghanistan a little‑p dun country for over 20 years. It’s obviously major manipulation that’s going on. I can send you this graph… the third Silk Road… a lot of what was happening and what continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and China.",
+    "why": "Kiriakou links the prolonged Afghan conflict to a covert “third Silk Road” involving pharma companies and Chinese interests, a distinct topic absent from the current corpus.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T06:03:46.092Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "[1:15:04] … there’s so much more development going on in regards to the John Brennan cover‑up and voter fraud with his Dominion, what he knew about General Flynn and these different things.",
+    "why": "Provides fresh, first‑hand allegations from Kiriakou about John Brennan’s alleged cover‑up and involvement in voter‑fraud schemes, expanding the existing John‑Brennan article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T06:03:46.092Z",
+    "kind": "enrich",
+    "slug": "john-kiriakou",
+    "anchor_quote": "[1:11:24] … that was not a raw terror attack that was designed, engineered… the title of the book word treason is used.",
+    "why": "Adds Kiriakou’s own framing of his book “High Stakes Treason” and his claim that the 9/11 attack was engineered, enriching the biography‑focused John‑Kiriakou article with his treason narrative.",
+    "status": "pending"
   }
 ]
