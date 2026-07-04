@@ -3130,5 +3130,77 @@
     "anchor_quote": "What happens if Israel attacks Turkey? The United States has to come in on the side of Turkey. They have to invoke Article 5 of NATO. They're obligated by treaty to come in on the side of Turkey and fight against Israel. Now, will they is an entirely different question.",
     "why": "Kiriakou discusses the legal NATO obligation versus political willingness, a specific subject absent from existing entries.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T07:14:38.734Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post and a private letter delivered by a mutual friend. When his father came to prison to visit me I told him the very first thing he has to do is hire the best attorneys money can buy, my attorneys, and they worked out a deal with the Justice Department where Ed was going to plead guilty and agree to 20 years in prison, but the DOJ said absolutely not because they were afraid he would inspire other whistleblowers.",
+    "why": "Kiriakou provides first‑hand details of his personal contact with Snowden and the legal strategy he advocated, enriching the Snowden article with insider perspective.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T07:14:38.734Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "I don't accept the story we were told about how he died. I don't accept their evidence about the condition of his body, the cameras going off, the report that cameras didn’t work. In federal prisons the guards can’t read, they’re illiterate, lazy, corrupt, and they often sleep in the guard booth watching porn or playing solitaire while the cameras blip off at midnight and recycle again.",
+    "why": "Kiriakou’s eyewitness account of Epstein’s prison environment and the alleged camera failures adds valuable corroboration to the Epstein article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T07:14:38.734Z",
+    "kind": "new",
+    "slug": "federal-prison-guard-illiteracy",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail because the guards couldn’t read. As a general rule, everybody who works in the Bureau of Prisons has his head up his ass—they’re illiterate, lazy, stupid, and corrupt.",
+    "why": "Kiriakou uniquely describes systemic illiteracy and misconduct among federal prison guards, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T07:14:38.734Z",
+    "kind": "new",
+    "slug": "mike-pompeo-threats-to-snowden",
+    "anchor_quote": "I know Mike Pompeo had said he wanted to kill him and he wanted him dead and others and others. But suppose he was able to stand up and do that and he came to the US. Do you actually believe he would live in prison? Yeah, I do.",
+    "why": "Kiriakou recounts a direct statement by former Secretary of State Mike Pompeo threatening Snowden, providing a new angle on high‑level political pressure against whistleblowers.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T07:15:32.924Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "I’m hoping to have a second edition by July 22nd because there’s so much more development going on in regards to the John Brennan cover‑up and voter fraud with his Dominion, what he knew about General Flynn and these different things.",
+    "why": "Kiriakou’s firsthand accusations about John Brennan’s alleged cover‑up and related misconduct provide fresh material to deepen the existing John‑Brennan article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T07:15:32.924Z",
+    "kind": "new",
+    "slug": "engineered-9-11",
+    "anchor_quote": "Again, if you successfully engineer and perform this 9/11 feat then that is creating again the war on terror and that is used to break down those constitutional rights. In a engineered you know two‑decade plan slowly right? It’s slowly, slowly, slowly done.",
+    "why": "Kiriakou describes a deliberate, engineered 9/11 attack, a claim not covered by any current slug and warranting its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T07:15:32.924Z",
+    "kind": "new",
+    "slug": "afghanistan-pharma-china-silk-road",
+    "anchor_quote": "There’s these connections… a graph about the ‘third Silk Road.’ A lot of what was happening and what continues to happen in Afghanistan has to do with relations with the pharmaceutical industry and China and those that control those industries.",
+    "why": "The interview links Afghanistan’s prolonged conflict to pharma‑China ties and a ‘Silk Road’ network, a distinct topic absent from the corpus.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-02-07-michael-jaco-cia-whistleblower-john-kiriakou-and-high-stakes-treason-.sponsors",
+    "found_at": "2026-07-04T07:15:32.924Z",
+    "kind": "new",
+    "slug": "voter-fraud-dominion",
+    "anchor_quote": "I’m hoping to have a second edition … because there’s so much more development going on … voter fraud with his Dominion, what he knew about General Flynn and these different things.",
+    "why": "Kiriakou alleges that John Brennan was involved in voter‑fraud schemes tied to Dominion, a claim that merits a dedicated article on the alleged Dominion voter‑fraud conspiracy.",
+    "status": "pending"
   }
 ]
