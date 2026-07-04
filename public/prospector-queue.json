@@ -5578,5 +5578,50 @@
     "anchor_quote": "Ask Julian Assange. They almost killed him. So, under Mike Pompeo plotted his murder, literally. Who's still free, by the way? Is Mike Pompeo in jail? I haven't seen any announcement that are you allowed as an appointee to a government, not elected, just an appointee. Are you allowed to plot the murder of people who embarrass the agency you are?",
     "why": "Kiriakou alleges that Mike Pompeo personally orchestrated a plot to assassinate Julian Assange, a claim not covered by any existing slug and warranting a dedicated article.",
     "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T16:04:42.775Z",
+    "kind": "enrich",
+    "slug": "edward-snowden",
+    "anchor_quote": "I was in close touch with Ed Snowden when he first went public. I wrote him an open letter that was published in the Huffington Post. I wrote him a private letter that a mutual friend delivered to him. Then his father came to prison to visit me and I told him the very first thing he had to do was hire the best attorneys money can buy, hire my attorneys. They worked out a deal with the Justice Department where Ed would plead guilty and agree to 20 years, but the DOJ refused because they feared he would inspire other whistleblowers.",
+    "why": "Kiriakou provides first‑hand details of his personal correspondence and legal advice to Snowden, expanding the Snowden article with unique insider perspective.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T16:04:42.775Z",
+    "kind": "enrich",
+    "slug": "jeffrey-epstein",
+    "anchor_quote": "I don't accept the story we were told about how he died. I don't accept their evidence—the parts about his body, the condition of his body, the way the cameras went off. The report of cameras not working, the report of people that were supposed to be employed that day or that night. Based on my experience, he was treated like every other prisoner; there was nothing special about Jeffrey Epstein once he walked through those doors.",
+    "why": "Kiriakou challenges the official narrative of Epstein’s death and offers eyewitness observations of prison conditions, adding depth to the Epstein article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T16:04:42.775Z",
+    "kind": "new",
+    "slug": "federal-prison-guard-illiteracy",
+    "anchor_quote": "The qualifications to be a prison guard in the federal system are you must have a GED or be working on a GED and no felony convictions. Most days when we had mail call, the prisoners handed out the mail because the guards couldn't read. As a general rule, everybody who works in the Bureau of Prisons has his head up his ass—they're illiterate, lazy, stupid, and corrupt, but they're not killers.",
+    "why": "Kiriakou describes systemic incompetence among federal prison guards, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T16:04:42.775Z",
+    "kind": "new",
+    "slug": "affirmative-defense-whistleblower",
+    "anchor_quote": "It's an affirmative defense where you say, 'Yeah, I did it, but I did it for the good of the American people. Let me explain.' I was in close touch with Ed Snowden when he first went public, and I advised him on how to frame his actions within that legal strategy.",
+    "why": "Kiriakou outlines the concept of an affirmative defense for whistleblowers, warranting a dedicated article on the legal tactic.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-06-02-it-s-rainmaking-time-john-kiriakou-unfinished-business-a-raw-exchange.sponsors",
+    "found_at": "2026-07-04T16:04:42.775Z",
+    "kind": "new",
+    "slug": "prison-camera-failure-epstein",
+    "anchor_quote": "I don't accept the story we were told about how he died. The parts where they talked about his body, the condition of his body, the way the cameras went off. The report of cameras not working, the report of people that were supposed to be employed that day or that night. The cameras blip off at 12 and then begin recycling again.",
+    "why": "Kiriakou provides specific allegations about camera malfunctions in the prison where Epstein died, justifying a focused article on that failure.",
+    "status": "pending"
   }
 ]
