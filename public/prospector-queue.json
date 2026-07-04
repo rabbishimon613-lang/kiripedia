@@ -3472,5 +3472,41 @@
     "anchor_quote": "It was five days before I got access to a phone at the prison and I called my lawyer. The CIA makes certain you don’t go to the work camp, you go to a prison. They kept me in a minimum‑security camp, then moved me to a regular prison, separating me from my children and denying any work‑camp privileges.",
     "why": "Enriches the Cold Cell article with Kiriakou’s detailed description of his imprisonment conditions and the CIA’s manipulation of his placement.",
     "status": "pending"
+  },
+  {
+    "source": "2025-12-11-deep-focus-jack-barsky-kgb",
+    "found_at": "2026-07-04T08:18:34.880Z",
+    "kind": "enrich",
+    "slug": "joe-weisberg",
+    "anchor_quote": "One day I went into the office and he walked up to me and he said, \"Hey, I quit today.\" I said, \"You quit? What are you going to do?\" He said, \"Well, I'm not married. I don't have any kids, so I think I'm going to go to Hollywood and find my fortune.\" He wrote a novel that was pretty good, was redacted by the CIA in parts, and then I saw him in the New York Times as the creator of the hottest new TV show in America, *The Americans*, which ran for seven seasons and made him rich beyond his wildest dreams.",
+    "why": "Kiriakou’s first‑hand recollection of Joe Weisberg’s departure from the CIA and his creation of *The Americans* adds personal context to the existing article on Weisberg.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-12-11-deep-focus-jack-barsky-kgb",
+    "found_at": "2026-07-04T08:18:34.880Z",
+    "kind": "new",
+    "slug": "digital-dollar-surveillance",
+    "anchor_quote": "The rise of the digital dollar. One‑hundred‑thirty‑four countries including the United States are developing central bank digital currencies. That means your transactions will be tracked, your spending controlled, your savings vulnerable to instant freezing. This is what the current public policy is moving toward. Bureaucrats and those suspicious folks at our nation's three‑letter agencies would love nothing more than to have more information about you. The government is calling it innovation, but let's call it what it is: financial surveillance.",
+    "why": "Kiriakou’s commentary on the emerging digital‑dollar initiative provides a concise, insider‑style overview suitable for a new article on financial surveillance.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-12-11-deep-focus-jack-barsky-kgb",
+    "found_at": "2026-07-04T08:18:34.880Z",
+    "kind": "new",
+    "slug": "dead-drop-failure-kiriakou",
+    "anchor_quote": "They asked me for a dead‑drop operation. I was to hand over a passport and money to make my way to Canada and then ring the bell at the Soviet embassy. The signal was a crushed oil can at the bottom of a hollowed big tree. I went to the park, found the chalk mark, but there was no oil can. I searched for fifteen minutes, found nothing, and gave up. That was the only dead‑drop operation that failed. I think it was an intervention by God or whatever.",
+    "why": "Kiriakou’s detailed description of a failed dead‑drop provides unique primary‑source material for a new article on espionage tradecraft failures.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-12-11-deep-focus-jack-barsky-kgb",
+    "found_at": "2026-07-04T08:18:34.880Z",
+    "kind": "enrich",
+    "slug": "sleeper-agent",
+    "anchor_quote": "I once answered the phone using the wrong name, then hung up and pretended it was a wrong number. I had to manufacture a dual personality, traveling back to Moscow for debriefings, carrying a short‑wave radio in case I was stuck, and constantly watching for surveillance. Maintaining a completely fabricated identity meant juggling two compartments in my head, one passive and one active, and never knowing which side would surface.",
+    "why": "Kiriakou’s personal anecdotes about maintaining a fabricated identity and constant surveillance awareness enrich the existing sleeper‑agent article with practical, lived‑experience details.",
+    "status": "pending"
   }
 ]
