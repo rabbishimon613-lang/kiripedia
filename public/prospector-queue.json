@@ -4480,5 +4480,41 @@
     "anchor_quote": "Mike Shyer’s podcast was a big reason we got censored; right‑wing watch labeled us extremist, and suddenly the very issues we raised about Iran and Israel were proven right. It shows how dissenting voices within the intelligence community are silenced and branded as extremist.",
     "why": "Kiriakou’s account of being labeled extremist and censored adds a fresh angle on whistleblower suppression not yet captured in the corpus.",
     "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T12:18:54.768Z",
+    "kind": "new",
+    "slug": "trump-iran-electrical-grid-threat",
+    "anchor_quote": "One of the things that really disturbed me the most was the president threatened again to attack Iran's infrastructure, specifically its electrical grid. And that is quite literally a war crime.",
+    "why": "Kiriakou identifies a direct presidential threat to target civilian infrastructure, framing it as a war crime—a distinct topic not covered by existing slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T12:18:54.768Z",
+    "kind": "enrich",
+    "slug": "israeli-false-flags",
+    "anchor_quote": "I think that we made a policy decision to accept and to believe Israeli intelligence at face value. I think the Israelis had a vested interest in lying to us and pulling us into this war to do their dirty work for them. The Iranians weren't the threat to us.",
+    "why": "Kiriakou’s testimony that U.S. policy was driven by Israeli intelligence adds fresh firsthand detail to the existing Israeli‑false‑flags article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T12:18:54.768Z",
+    "kind": "new",
+    "slug": "special-forces-uranium-tunnel-mission-iran",
+    "anchor_quote": "The other, which is, I think, even crazier, is this idea of landing special forces to try to retrieve several hundred pounds of enriched uranium which are in tunnels. Obviously the Iranians aren't like cartoon villains keeping all their enriched uranium in one underground site; it's multiple tunnel cities across the country.",
+    "why": "Kiriakou describes a specific, unreported U.S. special‑operations plan to seize uranium from Iranian tunnels, warranting its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp.sponsors",
+    "found_at": "2026-07-04T12:18:54.768Z",
+    "kind": "enrich",
+    "slug": "enhanced-interrogation",
+    "anchor_quote": "I felt that waterboarding was something that we needed to do. As time has passed, I think I've changed my mind. I think waterboarding is probably something that we shouldn't be in the business of doing. At the time I was angry and wanted to help disrupt future attacks, but now I see it differently.",
+    "why": "Kiriakou’s personal evolution from supporting to repudiating waterboarding provides valuable first‑hand perspective to deepen the enhanced‑interrogation entry.",
+    "status": "pending"
   }
 ]
