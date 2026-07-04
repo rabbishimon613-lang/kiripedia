@@ -2905,5 +2905,122 @@
     "anchor_quote": "[1:11:24] … that was not a raw terror attack that was designed, engineered… the title of the book word treason is used.",
     "why": "Adds Kiriakou’s own framing of his book “High Stakes Treason” and his claim that the 9/11 attack was engineered, enriching the biography‑focused John‑Kiriakou article with his treason narrative.",
     "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T06:11:19.569Z",
+    "kind": "enrich",
+    "slug": "intelligence-identities-protection-act",
+    "anchor_quote": "I pleaded guilty under the 1982 Intelligence Identities Protection Act. The Justice Department offered a best‑and‑final deal of 30 months, or 23 months if I went to trial. My wife and I stayed up all night reading about the Act, and because nobody had ever challenged it at trial, there was no precedent. After consulting my attorneys—one a legal titan who urged me to take the deal, another a true southern gentleman who begged me to take it, and a third who warned me it was about mitigating damage—I ultimately chose the plea because I had five kids at home and faced a possible 12‑to‑18‑year sentence.",
+    "why": "Provides a first‑hand account of Kiriakou’s decision‑making process and the legal pressures surrounding his plea under the IIPA, enriching the existing article with personal detail.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T06:11:19.569Z",
+    "kind": "enrich",
+    "slug": "fci-loretto",
+    "anchor_quote": "While I was in prison I wrote something I arrogantly called 'Letter from Lorettto,' modeling it on Martin Luther King Jr.’s 'Letter from Birmingham Jail.' I described an abusive female guard and also recounted meeting an Iraqi prisoner. I greeted him in Arabic, saying 'alamu alaykum,' and he asked how I learned Arabic. I told him I had worked for the CIA, loved Arab culture, poetry, and history.",
+    "why": "Adds Kiriakou’s own prison correspondence and cultural reflections to the FCI Loretto article, illustrating inmate life and his unique outreach.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T06:11:19.569Z",
+    "kind": "enrich",
+    "slug": "cold-cell",
+    "anchor_quote": "Two days later I was called into the lieutenant’s office and was told, 'You never want to get called into the lieutenant’s office because the likelihood is that you’re going to be sent to solitary confinement because you’ve done something.'",
+    "why": "Provides a concrete example of the threat of solitary confinement Kiriakou faced, deepening the Cold Cell article with personal testimony.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T06:11:19.569Z",
+    "kind": "enrich",
+    "slug": "john-kiriakou-whistleblower-advice",
+    "anchor_quote": "I decided to fight, emailed my attorneys at six in the morning saying, 'Let’s go to trial. We’re going to fight,' and they responded, 'Put on a pot of coffee. We’re on the way over.'",
+    "why": "Shows Kiriakou’s proactive stance and advice on confronting the government, enhancing the whistleblower‑advice article with a vivid decision‑making moment.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-23-dr-phil-podcast-secrets-lies-price-of-truth-part2.sponsors",
+    "found_at": "2026-07-04T06:11:19.569Z",
+    "kind": "new",
+    "slug": "cia-arabic-language-training",
+    "anchor_quote": "When the Iraqi prisoner greeted me with 'alamu alaykum,' I told him I learned Arabic while working for the CIA, and that I love Arab culture, history, and poetry.",
+    "why": "Creates a new article documenting the CIA’s Arabic language program and Kiriakou’s personal use of Arabic in prison, a topic not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T06:11:28.326Z",
+    "kind": "enrich",
+    "slug": "kuwait-invasion-intelligence",
+    "anchor_quote": "I was the only Iraq leadership analyst. I remember walking in that morning and saying to my boss, \"Big day ahead of us today.\" He said, \"Don't take your jacket off. We're going to the Oval Office.\" I was 25, and we walked into a room with the president, the vice president, the national security adviser, the CIA director, my boss, and me. The president looked around and asked, \"Well, now what do we do?\"",
+    "why": "Provides Kiriakou’s first‑hand CIA analyst perspective on the immediate intelligence briefing that followed Iraq’s invasion of Kuwait in August 1990.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T06:11:28.326Z",
+    "kind": "enrich",
+    "slug": "cia-training-doctrine",
+    "anchor_quote": "I remember going into the heavily communist anarchist neighborhood of Athens, Greece to pitch a bona‑fide terrorist. I was the only member of the team not wearing a bulletproof vest. My boss asked me, \"Why in the world did you not put your vest on?\" I said, \"Because it shows underneath our shirts, and I don't want to freak the guy out.\" I had a gun on my waist and another in an ankle holster, thinking if I’m going to go down, I’m going down shooting.",
+    "why": "Illustrates practical gaps and personal risk decisions in CIA field training and operational doctrine.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T06:11:28.326Z",
+    "kind": "enrich",
+    "slug": "sociopathic-tendencies",
+    "anchor_quote": "You see that every single day of your career. You are surrounded by the smartest, the most accomplished, the best educated, at least all in their own minds people. ... In retrospect, I probably had those sociopathic tendencies. They pick people because they have no conscience, they’re narcissistic, and they slip through the cracks because they can pass polygraph tests.",
+    "why": "Adds Kiriakou’s personal reflection on the CIA’s recruitment of individuals with sociopathic and narcissistic traits.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-04-16-the-dr-phil-podcast-top-secrets-the-cia-torture-whistleblower-john-ki.sponsors",
+    "found_at": "2026-07-04T06:11:28.326Z",
+    "kind": "new",
+    "slug": "cia-foreign-terrorist-recruitment-athens",
+    "anchor_quote": "I remember going into the heavily communist anarchist neighborhood of Athens, Greece to pitch a bona‑fide terrorist. I was the only member of the team not wearing a bulletproof vest. My boss asked me, \"Why in the world did you not put your vest on?\" I said, \"Because it shows underneath our shirts, and I don't want to freak the guy out.\" I had a gun on my waist and another in an ankle holster, thinking if I’m going to go down, I’m going down shooting.",
+    "why": "Documents a specific CIA operation to recruit a terrorist in Athens, revealing tactics, risk assessment, and on‑the‑ground decision‑making.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T06:11:37.214Z",
+    "kind": "new",
+    "slug": "cia-existence-debate",
+    "anchor_quote": "You know, everything from the agencies to you know, should the CIA even exist anymore? It’s a question that keeps coming up, especially when we look at how the intelligence community has been reshaped over the past decade and the growing calls for oversight and even dissolution.",
+    "why": "Kiriakou directly questions the continued existence of the CIA, providing a distinct viewpoint not covered by any existing slug.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T06:11:37.214Z",
+    "kind": "new",
+    "slug": "israel-influence-us-politics",
+    "anchor_quote": "Obviously you’ve got Israel’s influence over our politics, over our elected officials, our politicians. The question is, is that okay? There’s talk about who’s overseeing whom—whether it’s the CIA, MSAD, or other agencies—and how that influence shapes our Middle‑East involvement.",
+    "why": "Kiriakou discusses Israel’s sway over U.S. political figures, a topic not captured by current articles.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T06:11:37.214Z",
+    "kind": "new",
+    "slug": "mid-1990s-us-foreign-policy-unity",
+    "anchor_quote": "The mid‑1990s were when differences in foreign policy ended at the shore. As Americans, we spoke with one voice on foreign policy. That ended in the mid‑1990s and now we’re beating each other up over foreign policy, making the country weaker.",
+    "why": "He reflects on the loss of a unified U.S. foreign‑policy stance after the mid‑1990s, a distinct historical analysis lacking a dedicated article.",
+    "status": "pending"
+  },
+  {
+    "source": "2026-05-19-ffn-jeff-dornik-swamps-holy-mess.sponsors",
+    "found_at": "2026-07-04T06:11:37.214Z",
+    "kind": "new",
+    "slug": "censorship-of-cia-whistleblowers",
+    "anchor_quote": "Our show was a big reason why we got censored—labeled by right‑wing watch as extremist. Now you’re seeing everything he talked about coming to fruition, especially dealing with Iran and Israel. The censorship of whistleblower platforms is a recurring theme he highlights.",
+    "why": "Kiriakou describes how CIA‑related content was censored and labeled extremist, warranting a focused article on the suppression of whistleblower voices.",
+    "status": "pending"
   }
 ]
