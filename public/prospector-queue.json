@@ -5272,5 +5272,50 @@
     "anchor_quote": "We shook hands, and two days later I was called into the lieutenant’s office and warned that any further contact could land me in solitary confinement.",
     "why": "Highlights the punitive threat of solitary confinement faced by whistleblowers, a topic not yet covered in the corpus.",
     "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T14:41:44.457Z",
+    "kind": "enrich",
+    "slug": "bob-baer",
+    "anchor_quote": "There’s a former CIA officer, Bob Bear, who was given a choice to either be charged with attempted murder or resign from the agency for talking to a Kurdish group about killing Saddam Hussein.  He was pressured to step aside, and later I learned that under Mike Pompeo they even plotted to murder Julian Assange, a plan that never materialized.",
+    "why": "Kiriakou’s firsthand account adds detail on the Bob Bear attempted‑murder case and links it to a higher‑level plot, enriching the existing Bob Baer article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T14:41:44.457Z",
+    "kind": "enrich",
+    "slug": "john-brennan",
+    "anchor_quote": "John Brennan and I always hated each other. I don’t know why he hated me. I hated him for what we’re very clear about – I found him to be a very dark figure, very dangerous. I met him in January 1990 when I was the executive assistant to the deputy director for operations and he was the deputy executive director of the CIA, so I briefed him every single day.",
+    "why": "Kiriakou’s personal recollection of his relationship with Brennan provides unique insight into Brennan’s character and motivations, suitable for deepening the John Brennan article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T14:41:44.457Z",
+    "kind": "new",
+    "slug": "lawfare-us-government-whistleblower-targeting",
+    "anchor_quote": "I think for two reasons. Number one, he genuinely disliked me. And he has this history of going after people, using lawfare, which now we all know what that means. Using lawfare to take down his enemies. They came to my house, cuffed me, threw me in a cell – that’s lawfare in action against a whistleblower.",
+    "why": "The transcript offers Kiriakou’s definition and personal experience of ‘lawfare’ as a tool against whistleblowers, a distinct topic not covered by existing slugs.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T14:41:44.457Z",
+    "kind": "new",
+    "slug": "fbi-rapport-building-interrogation-technique",
+    "anchor_quote": "If there’s one thing the FBI is really good at, it’s interrogations. They proved it with Abu Zuba – treat a prisoner with respect, engage in rapport building, take time to build a relationship, and the prisoner will tell you everything you want to know. Every time the CIA stepped in and began torturing him, he would clam up.",
+    "why": "Kiriakou contrasts FBI rapport‑building with CIA torture, providing a detailed account of the FBI’s interrogation method that warrants its own article.",
+    "status": "pending"
+  },
+  {
+    "source": "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911.sponsors",
+    "found_at": "2026-07-04T14:41:44.457Z",
+    "kind": "new",
+    "slug": "mike-pompeo-assange-murder-plot",
+    "anchor_quote": "Ask Julian Assange. They almost killed him. So, under Mike Pompeo they plotted his murder, literally. I’ve never seen any announcement that an appointee can plot the murder of people who embarrass the agency. You can’t use federal funds to murder people who embarrass you – unless you’re the president, apparently.”",
+    "why": "Kiriakou alleges a direct plot by Mike Pompeo to assassinate Julian Assange, a claim that creates a new, specific investigative topic.",
+    "status": "pending"
   }
 ]
