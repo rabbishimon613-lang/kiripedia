@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[21:52] Make your summer wardrobe easier. Go to quince.com slash dead drop for free shipping on your order and 365 day returns. Now available in Canada too. That is quince.com slash dead drop. If you're enjoying dead drop and of course we hope you are, then while you're waiting for new episodes, I'd like to suggest another great granular story podcast from the Costard and Touchstone family. Just the photographer with David Swanson
+
+[22:22] does for photojournalism what dead drop does for spies. Pull it surprise winning photojournalist David Swanson tells you stories his amazing news photos just can't. What it felt like being in all those dangerous places like war zones and natural disasters, doing his job taking pictures. Having been to a few war zones myself, I can tell you this, just the photographer will put you right there on the ground right next to David. Inside his head in fact, it's a hell of a podcast
+
+[22:53] and you can find it wherever you find your favorite podcasts or at costardandtouchstone.com. There's a link in this episode's show notes. In fact, you'll find lots of great story podcasts at Costard and Touchstone like the donor, a DNA horror story, the hall closet, sage wellness within and the how not to make a movie podcast. Who knows your next favorite podcast might be just a click away. Now back to dead drop. This whole Iraq war issue
+
+[23:26] is so unnecessarily complicated. I'll lay out the facts directly. Saddam Hussein and the Iraqi government had no repeat, no connection to 9-11 whatsoever. There was nothing Muslim about Saddam Hussein. In fact, there's a famous story from 1988 where Saddam and his vice president, Issaat Ibrahim Aduri, went to make the minor pilgrimage called the Umrah.
+
+[23:58] They went to Mecca and Medina. Issaat Ibrahim was a very devout Sufi Muslim, kind of a mystic. Saddam didn't even know the prayers that were necessary when you arrived for the Umrah. Issaat Ibrahim knelt just behind Saddam so that he could whisper the prayers rather loudly and Saddam could repeat them a half of a second later. It was a source of real amusement for the Saudis
+
+[24:30] that this guy is a major Arab leader. He doesn't even know the most basic prayers that every Muslim school child knows because there was nothing Muslim about him. My point being, Osama bin Laden hated Saddam Hussein as much as he hated us. The very notion that the Iraqi government was conspiring with al-Qaeda to attack the United States was laughable. It was so preposterous. We received a piece of intelligence that a representative of the Iraqi Intelligence Service,
+
+[25:04] specifically the Iraqi Intelligence Service Station Chief in Prague had met with an al-Qaeda leader in Prague. That was demonstrably untrue. We even asked the Czech Intelligence Service to look at CCTV cameras, just to see if such a meeting ever took place. It never took place. But Vice President Cheney and his staff of neocons decided that it did take place. And because it took place, it proved that Iraq was a clear and present danger
+
+[25:38] to the United States and by God, we were going to attack. Cheney was convinced that Saddam Hussein was pursuing a nuclear option. Cheney was convinced that he was pursuing biological weapons. Cheney was convinced that he already had chemical weapons. Literally every CIA analyst, and not just CIA analyst, but every Department of Energy analyst, every British intelligence analyst, all of the analysts of our allies said, no, that's just simply not true.
+
+[26:09] The Iraqis have not had a nuclear weapons program since the 1980s. They did away with it. Now, when you look at a BW program, okay, there's a little bit of gray there because you only need somebody's kitchen, frankly, to make a biological weapons program. You have a hundred square feet. You can produce something. So it's impossible to know if a country has a biological weapons program. Chemical weapons were always a possibility, but we couldn't find any proof
+
+[26:41] that there were chemical weapons. Saddam had used chemical weapons against his own people in the past. During the Iran-Iraq war, he used chemical weapons against Iranian soldiers. He had used chemical weapons in the southern swamps of Iraq against his own people, Shia Muslim swamp dwellers, and he had most infamously used chemical weapons against the Kurds in northern Iraq to the point where his cousin Ali Hassan al-Majid became known as chemical Ali and the butcher of Kurdistan.
+
+[27:13] There's another issue here too. There's kind of a famous, when I say famous, I mean Washington famous story, that Richard Pearl, one of the neocons who was in the orbit of Dick Cheney, along with Scooter Libby and David Addington and this whole cast of characters, Paul Wolfowitz and Dov Zakhim, they had all worked for a Democratic former senator by the name of Scoop Jackson. Scoop Jackson was the definition of the neoliberal, neoconservative, let's pound him hard kind of Cold War Democrat.
+
+[27:46] Although most of these guys migrated to the Republican party during the Reagan presidency, Richard Pearl never switched parties. He remained a Democrat, but he was very, very conservative and he wanted nothing more than to destroy Saddam Hussein and to destroy Iraq and make it so that we could put Iraq back into the fifth century. So the famous story is that the day after the 9-11 attacks, Richard Pearl went to the White House. He was always welcome at the White House, but he went to the White House on September 12th

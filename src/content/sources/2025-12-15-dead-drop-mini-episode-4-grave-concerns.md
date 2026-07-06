@@ -1,0 +1,49 @@
+---
+slug: "2025-12-15-dead-drop-mini-episode-4-grave-concerns"
+title: "Mini Episode 4: Grave Concerns"
+show: "John Kiriakou's Dead Drop"
+date: "2025-12-15"
+url: "https://sphinx.acast.com/p/open/s/68e695c6d798804c9e4bbd13/e/693edf68f817d7dbe8033bd9/media.mp3"
+duration: "0:26:31"
+captionSource: auto
+paragraphs: 24
+sponsor_paragraphs_stripped: 24
+source_file: 2025-12-15-dead-drop-mini-episode-4-grave-concerns.vtt
+---
+[01:04] with the people buried in them. We're making grave concerns to accompany a book I'll be publishing in March of 2026 called Remains of the Day, a definitive guide to the historic cemeteries of Washington DC. Shout out to the people at Simon and Schuster. Remains of the Day is the first in a series of books I'm writing about my favorite cemeteries. Check out the show notes for ways to pre-order a copy of the book, and even an autographed copy. I first started exploring cemeteries at the age of eight or nine in New Castle, Pennsylvania.
+
+[01:38] Actually, I wasn't necessarily exploring so much as I was looking for salamanders. I distinctly remember finding one under a rock, but I also remember that day at Oak Park Cemetery in New Castle, stumbling upon the grave of somebody named Joseph B. Chambers. His marker was simple, and it indicated that he had died in my hometown in 1908. But what was fascinating to my eight-year-old mind was that he had won the Congressional Medal of Honor. I knew that only the bravest
+
+[02:08] heroes in American history had won the Congressional Medal of Honor. The inscription on Chambers' marker read, Capture of Colors of First Virginia Infantry, Confederate States of America. When I got home, I mentioned to my mom what I had found. She said, oh, he's a hero. We should go to the library and see if we can find his story. What we found was that Chambers was a lowly private fighting in the Civil War as part of Company F of the 199th Pennsylvania Infantry called the Round Heads. On March 25, 1865, just weeks before the end of the war, Chambers captured the
+
+[02:43] Confederate battle flag in the Battle of Petersburg, Virginia. He was awarded the Congressional Medal of Honor on July 27, 1871, at the age of 38. He returned to the village of Eastbrook just outside of Newcastle, and he farmed there until he died quietly in 1908. I was fascinated by the story, but I was even more fascinated by what else was out there. My mom had mentioned that Chambers was just one person in a cemetery of about 30,000. What stories did those other
+
+[03:13] people have? After all, everybody has a story. I became a regular in that cemetery, finding the graves of the wealthy families who had built the city in the late 19th century, the benefactors who funded the local hospital, the robber barons who owned the coal mines, the tin mill and the steel mills. It was all great fun, and it was also so peaceful. I began noticing the architecture, the symbolic carvings on gravestones, and peace and quiet that came with a stroll around the grounds.
+
+[10:22] And perfect for travel too, which these days has all kinds of new challenges that impact how you pack. So versatility really matters. You gotta pack smart, like a spy. That's why a pair of quince's 100% European linen pants and a couple of linen shirts are coming with me. They're breathable and easy to throw on. Sometimes I add a t-shirt underneath for a whole other look. They're the summer upgrade anyone's rotation needs. Starting at just $34. That's not a typo. No, it's not. Everything at quince is priced 50 to 80% less than similar brands.
+
+[17:48] and to Soviet Foreign Minister Andrey Gromyko, he also served as Undersecretary General of the United Nations in New York. Shevchenko said that in the early 1970s he became disillusioned with behind-the-scenes Soviet attitudes about détente with the United States. The Soviets he found were cheating on the disarmament agreements that they had made with the West. He also came to disagree with communist economic planning, which he felt deprived Soviet citizens of basic economic freedoms. Having been exposed to Western culture throughout his diplomatic career
+
+[18:22] and wanting a new life for himself, Shevchenko decided to defect and he reached out to the CIA in 1975. The CIA, however, convinced him that he would be far more valuable if he would remain in place and report back to them on what Soviet leaders were saying and doing and what Soviet intentions were in arms negotiations. He immediately became the single most important spy that the CIA ever had in the Soviet power structure. In early 1978, Shevchenko realized that he was under surveillance,
+
+[18:55] most likely KGB surveillance, and on March 31, 1978, he received a cable from Moscow ordering him to return immediately ostensibly for consultations. He knew that this was a death sentence. He triggered a meeting with his CIA handler and said that he had to defect. Shevchenko had never told his wife, Leon Gina, that he was working with the CIA and that he had intended to defect. She knew nothing about it. After he called the CIA handler, he wrote his sleeping wife a note telling
+
+[19:26] her all about his intentions. He thought that when she woke up, she could then decide whether to catch up with him or to return alone to the Soviet Union. When he called her at home the next day, a KGB officer answered the phone. She had called the intelligence service rather than meet her husband, and she soon returned to Moscow. Shevchenko was tried and absentia in the USSR and sentenced to death. He moved to Bethesda, Maryland, remarried, and wrote an international bestselling memoir called Breaking with Moscow. Shevchenko died of a heart attack at home in
+
+[19:58] Bethesda. I'm Gorvidal. Prolific author, social critic, essayist, public intellectual, and occasional political figure Gorvidal was as well known for his stinging wit and patrician manner as he was for his famous quarrels with other intellectuals and his public self loathing.
+
+[20:47] He attended the finest prep schools in America, including Sidwell Friends, the St. Albans School, and Phillips Exeter Academy. But he enlisted in the military soon
+
+[21:20] after the bombing of Pearl Harbor rather than to go on to college. Upon his return home at the end of the war, Vidal began writing. His first novel, a military story called Williwa, was a success, and his third book, The City and the Pillar, caused a nationwide controversy with his dispassionate telling of a young man coming to terms with his own homosexuality. That book was dedicated to JT. Decades later, Vidal told an interviewer that JT was his childhood
+
+[21:51] best friend, James Trimble, who was killed in the Battle of Iwo Jima. Vidal said that JT was the only man he had ever loved. Critics attacked Vidal for the book, and one New York Times critic refused to review it or to permit others to review any of Vidal's future books. An editor at E.P. Dutton reportedly told him at the time, quote, you will never be forgiven for this book. 20 years from now, you'll still be attacked for it, unquote. But it made Vidal an early champion of gay rights, even if he denied for the rest of
+
+[22:25] his life that he was actually gay. Throughout the 1950s, Vidal published books under the pseudonym Edgar Box before going back to his real name in the 1960s. He wrote dozens more books through the 1980s, all the while writing well received screenplays and television scripts, and occasionally acting in Italian films. Vidal was nominated for an Emmy Award for an episode of the television series Dress Gray, and he won the coveted Edgar Allan Poe Award for an
+
+[22:56] episode of the series Suspense. Vidal was also a co-writer on the wildly successful film Ben-Hur. His work continued to mature as he aged, and he turned more and more to essays and non-fiction. Even his enemies, like literary critic Martin Amos said of Vidal, quote, essays are what he's good at. He's learned, funny, and exceptionally clear-sighted. Even his blind spots are illuminating, unquote. Vidal won a prestigious National Book Award in 1993 for his non-fiction anthology United States Essays 1952-1992. Vidal also was interested in politics,
+
+[24:09] Dennis Kasinich for president in 2004. Vidal liked to keep his private life private. He was reported to have had an affair with a French Cuban essayist, Anais Nien, which he denied until his love letters to her were found and published just before his death. He also claimed to have had affairs with actress Diana Lin, with whom he may have fathered a daughter, with actor Fred Astaire, actor Dennis Hopper, and he was briefly engaged to Joanne Woodward before she married Paul Newman. Vidal's only lasting relationship, however, was with Howard Austin, who was his partner for 53 years until Austin died in 2003. Vidal died at his home
+
+[24:45] in Hollywood, California after developing the neurological disorder Vernike Korsakov's syndrome. He was buried in Rock Creek Cemetery because he wanted to be near Austin and his old friend JT. That's just a sample from one of DC's cemeteries. There are 11 more, and I haven't included Arlington because, well, it's in Arlington, Virginia, not in Washington, DC. As I hope you've seen, well, heard in this case, there's a lot of storytelling here. The second cemetery book will be all about the Mafia Graves
+
+[25:17] of New York City. We'll cover that book and those graves also in grave concerns. As always, thanks for listening. I really mean that. Don't forget to like, review, subscribe, or share the podcast. It makes a huge difference, and we really do appreciate it. Until next time, I'm John Kiriako. This podcast, it's a costed and touched-on production.

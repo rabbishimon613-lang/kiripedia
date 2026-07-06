@@ -1,0 +1,49 @@
+---
+slug: "2025-12-01-dead-drop-mini-episode-3-a-spy-s-guide-to-sofia"
+title: "Mini Episode 3: A Spy's Guide To... Sofia"
+show: "John Kiriakou's Dead Drop"
+date: "2025-12-01"
+url: "https://sphinx.acast.com/p/open/s/68e695c6d798804c9e4bbd13/e/692c9892c4da9138ec2155e2/media.mp3"
+duration: "0:16:00"
+captionSource: auto
+paragraphs: 19
+sponsor_paragraphs_stripped: 12
+source_file: 2025-12-01-dead-drop-mini-episode-3-a-spy-s-guide-to-sofia.vtt
+---
+[00:00] This podcast is a casted in Touchstone production. Welcome to Dead Drop. I'm John Kiriakou and always thank you for joining us. In this mini episode, we'll be previewing a brand new podcast series that we're going to start dropping in the spring of 2026. It's called A Spy's Guide To. And the things we'll be guiding you to are the great cities of the world, but from a spy's perspective,
+
+[00:32] tourists see a city one way, locals see it quite another. Spies, on the other hand, we see a city or a town or any place really in a way that's entirely unique to it and to us. Of course, spies gotta eat and spies gotta sleep, so our spy guides will appreciate each city's livability. Spies like to be entertained too, and plenty of us want all the local culture we can get. So that's also a part of the Spies Guide To calculus. But from a spy's POV, a city is a workplace,
+
+[01:05] filled with potential agents to recruit, safe houses to suss out, and clandestine rendezvous to choreograph. Some cities have been home to spies and spying forever, while others are a little newer to the game. Of course, we'll cover the obvious. Cities like London, Vienna, New York, Washington, D.C., Moscow, Jerusalem, we'll cover less obvious places too. Think Miami, Brussels, Berlin, Beirut, Amsterdam, and Beijing. And we'll cover what are perhaps entirely unexpected places,
+
+[01:38] like the city I'm gonna tell you about in this episode. So without any further ado, welcome to a Spies Guide To Sophia Bulgaria. When I was stationed in Athens, one of the things that I loved about my job was the accompanying analysis that went with planning for operations. I was an analyst at heart. I loved doing deep dives into these terrorism issues.
+
+[02:08] And I really loved going through the old yellowed files from the 1970s from the Dick Welch era. Well, I was going through one of those old weathered yellowed files, and I found an FBI course evaluation form from a class that the FBI had offered to foreign intelligence officers just after the fall of the Soviet Union in 1991. They took a whole bunch of Eastern European intelligence and military leaders, generals,
+
+[02:40] and they took them down to Fort Polk, Louisiana, and taught them shooting and driving and just fun things. So I found this course evaluation form, and it was signed by a Bulgarian general. And he said how much he appreciated the course, how much he loved the course, and that he would be very pleased to accept another invitation to a different course. And nobody ever talked to him again. And I thought, my God,
+
+[03:10] why in the world would they just let this guy go? Well, the reason why he was in the file in the first place was that back in 1991, when he submitted this course evaluation form, an alert analyst at the CIA said, wait a minute, I know this general's name. This general was a major in 1975. He was the Bulgarian defense attaché in Athens in 1975. And on the night that Dick Welch was assassinated,
+
+[03:42] December 23rd, 1975, he was walking his dog one block away. No one had ever bothered to ask him, did you see the getaway car? Did you hear the shots? Did you hear a scream? Anything. Do you have any memory of that night? You must, because it was in every newspaper in the world the next day. So I went to my boss in Athens and I said, listen, I know that this is a long shot, but there's this Bulgarian guy.
+
+[04:12] I don't even know if he's still alive, but he was one block away when Dick Welch was assassinated. He's pro-US, he's been to the US for training courses. I'd like to go to Bulgaria and just talk to him and see if he remembers anything from that night, 25 years earlier. And he said, sure, send a cable to Bulgaria and ask if you can come up. So I sent a cable to Bulgaria and our man in Bulgaria said, sure, you're welcome
+
+[04:43] to come up, but I'm not paying for it because I don't care about this issue. My boss said, fine, we'll pay for it. Go ahead and do your thing. So I flew up to Bulgaria. I found him working as a security officer in a bank and I knocked on the door. I introduced myself and I said, I'd like to invite him for a cup of coffee and just talk about December 23rd, 1975. He didn't remember anything that necessarily advanced the investigation,
+
+[05:16] but he was willing to be debriefed. He was a Bulgarian patriot and he said, look, I'm gonna report this contact to my service. It's my patriotic duty. I said, absolutely, go right ahead and do it. My agency is working with your former agency. It's all on the up and up and public and friendly. There was no espionage involved. This was just a friendly cup of coffee just to see if you can remember one night from 25 years ago. Summertime and the living is easy, am I right, John? That is one of the best parts of Summer Allen.
+
+[05:47] Living really does feel easier. You're about to travel. Good thing you've got a couple of quince pieces going with you. They are as relaxed and comfortable as I wanna feel. That's why, whether I'm traveling or staying at home, I reach for the same quince go anywhere pieces again and again. Quince focuses on well made essential. They're the t-shirt I reach for first every time. In all seriousness, I just bought another one today. They're my favorite t-shirts too. And when the ocean breeze kicks in at night, as it does here in LA, a quince lightweight cotton sweater
+
+[06:19] is sublime. And perfect for travel too, which these days has all kinds of new challenges that impact how you pack. So versatility really matters. You gotta pack smart, like a spy. That's why a pair of quince's 100% European linen pants and a couple of linen shirts are coming with me. They're breathable and easy to throw on. Sometimes I add a t-shirt underneath for a whole other look. They're the summer upgrade anyone's rotation needs. Starting at just $34. That's not a typo.
+
+[13:07] in the city was built in the mid to the late 19th century. Beautiful, small hotels, which are now boutique hotels, the big cathedrals, which are from the 18th century, the smaller Orthodox churches. And then on the outskirts of town, it was all just hideous concrete block Soviet apartment buildings. The center of the city was stunning. And one of the great things about being there at that time was the CIA changed its internal regulations
+
+[13:37] regarding per diem. Per diem is broken into two parts, hotel and meals and incidental. For Sophia, like in any other city in the world, it's based on the average five star hotel. Well, there was only one five star hotel. It used to be the Communist Party headquarters and it's now the Sheraton. Lovely place, absolutely enormous. It probably has 2000 rooms, takes up an entire city block. I didn't like staying at the Sheraton. In the bar, it's all just prostitutes
+
+[14:09] and I just wanted to be left alone. I also preferred, and this was the new rule, whatever you didn't spend, you could put in your pocket. And the old rule was whatever you didn't spend, you had to return to Uncle Sam. So instead of staying at the Sheraton for $300 a night, I would stay at the Hotel Rila, which doubled as a whorehouse for $16 a night. I would eat all of my meals at the Pizza Troll Pizza Cafe for another 10 bucks a day and put the other 350 bucks in my pocket.
+
+[14:39] But then I would spend that at the art market in front of the Cathedral of St. Alexander Nevsky. I didn't really accomplish anything espionage-wise just because there was nothing to accomplish, but my God, I enjoyed Sophia Bulgaria and I was able to sort of stretch my legs and exercise my spy craft without the threat of a hostile power watching me. As I said, we'll start dropping episodes of a Spies Guide to in Spring of 2026,
+
+[15:12] which is actually just around the corner. If you subscribe to this podcast, you'll be in the loop as details emerge. As always, we can't thank you enough for listening, but if you don't mind, it really does help the podcast thrive and reach more listeners if you rate, review, leave a comment about or like the podcast on the platform where you're listening. In the next episode, we'll continue the story of what makes this spy tick. We're getting to the part of the story where the nitty really does get gritty. Until then, I'm John Kiriakou.
+
+[15:45] Dead Drop is written by John Kiriakou and Alan Katz. Costart and Touchstone Productions produces the podcast and John Kiriakou, Alan Katz and Nick Mechanic are its executive producers. This podcast, it's a costard and touchstone production.

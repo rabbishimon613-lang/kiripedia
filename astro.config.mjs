@@ -6,6 +6,7 @@ export default defineConfig({
   site: 'https://www.kiripedia.org',
   redirects: {
     // Duplicate/typo articles merged into their canonical entries.
+    '/wiki/gerald-post': '/wiki/jerome-post',
     '/wiki/dashti-leyli': '/wiki/dasht-i-leili-massacre',
     '/wiki/daniel-hail': '/wiki/daniel-hale',
     '/wiki/russell-tark': '/wiki/russell-targ',
