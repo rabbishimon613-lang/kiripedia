@@ -2,16 +2,18 @@ name: KiriPedia X auto-poster
 
 # Posts ONE item per run via headless browser (free, cookie auth).
 # 8 slots/day, every 3 hours (EDT = UTC-4).
+# Scheduled auto-posting permanently disabled 2026-07-05 — no automated
+# publishing loop for KiriPedia. Manual-only via workflow_dispatch.
+# schedule:
+#   - cron: '0 0 * * *'    # 8:00 PM ET
+#   - cron: '0 3 * * *'    # 11:00 PM ET
+#   - cron: '0 6 * * *'    # 2:00 AM ET
+#   - cron: '0 9 * * *'    # 5:00 AM ET
+#   - cron: '0 12 * * *'   # 8:00 AM ET
+#   - cron: '0 15 * * *'   # 11:00 AM ET
+#   - cron: '0 18 * * *'   # 2:00 PM ET
+#   - cron: '0 21 * * *'   # 5:00 PM ET
 on:
-  schedule:
-    - cron: '0 0 * * *'    # 8:00 PM ET
-    - cron: '0 3 * * *'    # 11:00 PM ET
-    - cron: '0 6 * * *'    # 2:00 AM ET
-    - cron: '0 9 * * *'    # 5:00 AM ET
-    - cron: '0 12 * * *'   # 8:00 AM ET
-    - cron: '0 15 * * *'   # 11:00 AM ET
-    - cron: '0 18 * * *'   # 2:00 PM ET
-    - cron: '0 21 * * *'   # 5:00 PM ET
   workflow_dispatch:
     inputs:
       dry_run:

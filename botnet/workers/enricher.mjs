@@ -65,18 +65,31 @@ function pickArticle(exclude = new Set()) {
 
 const SYSTEM = `${marchingOrdersFor('enricher')}
 
-You are the Cross-Source Enricher for KiriPedia.
+You are the Cross-Source Enricher for KiriPedia. You are NOT a wikilink technician and you are NOT a "see also" generator. Those are housekeeping. Your real job: when the SAME story about this subject appears across multiple peer articles (and therefore multiple transcripts), pull those distinct framings, corroborations, dates, named participants, and quotes INTO this article's body as real prose. A peer article that mentions this subject in passing is a corroborating source you must mine, not just a link to add.
 
-You receive ONE target article slug + body, plus a list of peer article excerpts that mention the topic but don't link to it. Your job:
-1. For each peer mention, return the verbatim phrase to wikilink and the link target.
-2. Optionally suggest 3-8 related slugs for a "## See also" section in the target.
+You receive ONE target article slug + body, plus a list of peer article excerpts that mention the topic.
 
-Doctrine: only wikilink phrases that unambiguously refer to the target topic. Never invent slugs. Never modify wording beyond wrapping with [text](/wiki/slug).`;
+Produce THREE outputs:
+
+(A) **body_additions** — the main event. New encyclopedic subsections (or paragraphs) to fold into the target article, each carrying material the peer excerpts already provide. Each addition has:
+  - heading: an H2 like "## The Camp David meeting" — topic-named, NEVER "## From source-slug-xyz" or a peer article's slug. If you want to append a paragraph under an existing section (or to the lede), set heading to the empty string "".
+  - paragraphs: 1–3 paragraphs in KiriPedia voice — third person, declarative, no "Kiriakou says," no "according to," no "in an interview." Wikilink proper nouns with [Name](/wiki/slug) when the slug is obvious; otherwise leave plain. Preserve direct quotes verbatim, italicised as *"like this"*. EVERY paragraph must end with at least one <Cite s="..." t="M:SS" /> tag. When a fact appears in multiple peer excerpts, stack the cites — "story across 5 podcasts = 5 cites."
+
+(B) **wikilinks** — secondary. For each peer article that mentions this subject WITHOUT linking to it, propose a single wikilink to add to that peer.
+
+(C) **see_also** — secondary. 3–8 related slugs for a "## See also" block in the target. Only emit slugs that you can SEE on the peer excerpt list (or that are obviously sibling topics already in the corpus). Never invent slugs.
+
+Doctrine:
+- ONLY use material the peer excerpts verbatim support. Never invent timestamps, slugs, dates, names, dollar figures, or quotes. Every <Cite/> must come from a peer excerpt.
+- Mirror Kiriakou's discretion — aliases stay aliases.
+- Present contradictions; do not reconcile them.
+- Do not duplicate paragraphs already in the target body. Skim first.
+- If the target is already dense on what the peers contain, return empty body_additions. Quality over volume.`;
 
 const SCHEMA = {
   type: 'object',
   additionalProperties: false,
-  required: ['wikilinks', 'see_also'],
+  required: ['wikilinks', 'see_also', 'body_additions'],
   properties: {
     wikilinks: {
       type: 'array',
@@ -94,6 +107,24 @@ const SCHEMA = {
     see_also: {
       type: 'array',
       items: { type: 'string', pattern: '^[a-z0-9-]+$' },
+    },
+    body_additions: {
+      type: 'array',
+      maxItems: 5,
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        required: ['heading', 'paragraphs'],
+        properties: {
+          heading: { type: 'string', maxLength: 120 },
+          paragraphs: {
+            type: 'array',
+            minItems: 1,
+            maxItems: 3,
+            items: { type: 'string', minLength: 80, maxLength: 2400 },
+          },
+        },
+      },
     },
   },
 };
@@ -143,14 +174,14 @@ async function run(pick) {
         system: SYSTEM,
         user: `TARGET ARTICLE (${pick.slug}):\n\n${body.slice(0, 6000)}\n\nPEER EXCERPTS:\n\n${peerExcerpts.slice(0, 10_000)}`,
         schema: SCHEMA,
-        maxTokens: 2500,
+        maxTokens: 8000,
       });
     } catch {
       result = await worker_longcontext({
         system: SYSTEM,
         user: `TARGET ARTICLE (${pick.slug}):\n\n${body.slice(0, 6000)}\n\nPEER EXCERPTS:\n\n${peerExcerpts.slice(0, 10_000)}`,
         schema: SCHEMA,
-        maxTokens: 2500,
+        maxTokens: 8000,
       });
     }
   } catch (err) {
@@ -177,6 +208,33 @@ async function run(pick) {
     peer = before + `[${wl.anchor}](/wiki/${wl.target_slug})` + after;
     writeFileSync(peerPath, peer);
     linkAdds++;
+  }
+
+  // Apply body_additions: append new sourced prose to the target body.
+  // Each addition: heading + paragraphs (each ending in a <Cite/>). Idempotent
+  // on the heading text AND the first 60 chars of the first paragraph (so the
+  // same fact reproposed next cycle doesn't duplicate). Inserted before the
+  // "## See also" block if one exists, else appended.
+  let proseAdds = 0;
+  const citeRx = /<Cite\s+s="[a-z0-9-]+"\s+t="\d{1,2}:\d{2}(?::\d{2})?"\s*\/>/;
+  for (const add of (result.body_additions || [])) {
+    const paras = (add.paragraphs || []).map(p => (p || '').trim()).filter(p => p.length >= 80 && citeRx.test(p));
+    if (paras.length === 0) continue;
+    const heading = (add.heading || '').trim();
+    const fingerprint = paras[0].slice(0, 60);
+    if (body.includes(fingerprint)) continue;
+    if (heading && body.includes(heading)) continue;
+    const block = (heading ? `${heading}\n\n` : '') + paras.join('\n\n');
+    const seeAt = body.indexOf('\n## See also');
+    if (seeAt < 0) {
+      body = body.trimEnd() + '\n\n' + block + '\n';
+    } else {
+      body = body.slice(0, seeAt) + '\n\n' + block + body.slice(seeAt);
+    }
+    proseAdds++;
+  }
+  if (proseAdds > 0) {
+    writeFileSync(pick.path, body);
   }
 
   // See also block. Use the related article's on-disk title when it looks
@@ -206,9 +264,9 @@ async function run(pick) {
   }
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `Cross-linked ${humanize(pick.slug)} to ${linkAdds} other folks, added ${seeAlso.length} "see also."`,
+                detail: `Folded ${proseAdds} cross-source sections into ${humanize(pick.slug)}, plus ${linkAdds} wikilinks and ${seeAlso.length} "see also."`,
                 refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
-  console.log(`[${WORKER}] ${pick.slug}: +${linkAdds} wikilinks, +${seeAlso.length} see-also`);
+  console.log(`[${WORKER}] ${pick.slug}: +${proseAdds} body sections, +${linkAdds} wikilinks, +${seeAlso.length} see-also`);
 }
 
 // PHASE 2: drain pending enricher briefs first.

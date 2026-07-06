@@ -90,16 +90,30 @@ function pickArticle(exclude = new Set()) {
 
 const SYSTEM = `${marchingOrdersFor('deepener')}
 
-You are the Transcript Deepener for KiriPedia, a Wikipedia-style wiki of John Kiriakou's video appearances.
+You are the Transcript Deepener for KiriPedia, a Wikipedia-style wiki of John Kiriakou's video appearances. Your job is NOT cosmetic citation plumbing. Your job is to make the article *denser and more complete* using material the transcripts already contain. An article that lost a paragraph of real fact to you is an article you failed.
 
-You receive ONE article body and a list of corpus excerpts (with source slug + timestamp). Your job: identify substantive uncited claims in the article that the excerpts support, and emit a list of citation insertions. Each insertion: the exact substring of the article to anchor on, plus the <Cite s="..." t="..."/> tag to place immediately after it.
+You receive ONE article body and a list of corpus excerpts (with source slug + timestamp).
 
-Doctrine: only cite if the excerpt verbatim supports the claim. If unsure, omit. Never invent timestamps. Never paraphrase the article — only annotate.`;
+Produce TWO outputs:
+
+(A) **prose_additions** — the main event. Walk the excerpts. For every substantive fact, named entity, date, dollar figure, quote, place, or causal link that belongs in this article but is NOT yet in the body, draft a new sourced paragraph and emit it. Each addition has:
+  - anchor: a verbatim ≥20-char substring from the existing body marking WHERE the new paragraph should be inserted (right after this anchor). Pick an anchor whose surrounding context flows into your new paragraph.
+  - paragraph: a fully encyclopedic paragraph in KiriPedia voice — third person, declarative, no "Kiriakou says," no "according to," no "in an interview." Wikilink proper nouns with [Name](/wiki/slug) only if a slug seems obvious; otherwise leave plain. Preserve direct quotes verbatim, italicised as *"like this"*. The paragraph MUST end with at least one <Cite s="source_slug" t="M:SS" /> tag drawn from the excerpts. Use multiple <Cite/> tags inline when multiple transcripts corroborate the same fact ("the same story across 5 podcasts = 5 cites").
+
+(B) **insertions** — pure footnote attachments for claims already in the body that the excerpts support but lack a cite. Each: anchor substring + source_slug + timestamp.
+
+Doctrine:
+- ONLY use material that the excerpts verbatim support. Never invent timestamps, slugs, dates, names, dollar figures, or quotes.
+- Mirror Kiriakou's discretion — if he calls someone "an asset called Mahmud," you do too.
+- Present contradictions; do not reconcile them. If two transcripts disagree on a date or number, surface both with separate cites.
+- Prefer 1–4 strong prose_additions over a long list of trivial insertions. Density beats decoration.
+- Do not duplicate paragraphs already in the body. Skim before drafting.
+- If the body is already dense and the excerpts add nothing, return empty arrays. Silence is honest.`;
 
 const SCHEMA = {
   type: 'object',
   additionalProperties: false,
-  required: ['insertions'],
+  required: ['insertions', 'prose_additions'],
   properties: {
     insertions: {
       type: 'array',
@@ -111,6 +125,19 @@ const SCHEMA = {
           anchor: { type: 'string', minLength: 8, maxLength: 240 },
           source_slug: { type: 'string', pattern: '^[a-z0-9-]+$' },
           timestamp: { type: 'string', pattern: '^\\d{1,2}:\\d{2}(?::\\d{2})?$' },
+        },
+      },
+    },
+    prose_additions: {
+      type: 'array',
+      maxItems: 6,
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        required: ['anchor', 'paragraph'],
+        properties: {
+          anchor: { type: 'string', minLength: 20, maxLength: 240 },
+          paragraph: { type: 'string', minLength: 80, maxLength: 2400 },
         },
       },
     },
@@ -139,14 +166,14 @@ async function run(pick) {
         system: SYSTEM,
         user: `ARTICLE (${pick.slug}):\n\n${pick.body.slice(0, 12_000)}\n\nCORPUS EXCERPTS (sample):\n\n${excerpts.slice(0, 8_000)}`,
         schema: SCHEMA,
-        maxTokens: 3000,
+        maxTokens: 8000,
       });
     } catch {
       result = await worker_longcontext({
         system: SYSTEM,
         user: `ARTICLE (${pick.slug}):\n\n${pick.body.slice(0, 12_000)}\n\nCORPUS EXCERPTS (sample):\n\n${excerpts.slice(0, 8_000)}`,
         schema: SCHEMA,
-        maxTokens: 3000,
+        maxTokens: 8000,
       });
     }
   } catch (err) {
@@ -169,14 +196,35 @@ async function run(pick) {
     body = body.slice(0, at + ins.anchor.length) + ' ' + tag + body.slice(at + ins.anchor.length);
     added++;
   }
-  if (added > 0) {
+
+  // Apply prose_additions: drop a new sourced paragraph right after the
+  // anchor's containing paragraph. Idempotent on the first 60 chars of the
+  // new paragraph (so a re-run that produces the same prose doesn't double).
+  let prose = 0;
+  for (const add of (result.prose_additions || [])) {
+    const para = (add.paragraph || '').trim();
+    if (para.length < 80) continue;
+    if (!/<Cite\s+s="[a-z0-9-]+"\s+t="\d{1,2}:\d{2}(?::\d{2})?"\s*\/>/.test(para)) continue; // must carry a cite
+    const fingerprint = para.slice(0, 60);
+    if (body.includes(fingerprint)) continue;
+    const at = body.indexOf(add.anchor);
+    if (at < 0) continue;
+    // Insert at end of the anchor's enclosing paragraph (next blank line, or eof).
+    const after = at + add.anchor.length;
+    const nextBlank = body.indexOf('\n\n', after);
+    const insertAt = nextBlank < 0 ? body.length : nextBlank;
+    body = body.slice(0, insertAt) + '\n\n' + para + body.slice(insertAt);
+    prose++;
+  }
+
+  if (added > 0 || prose > 0) {
     writeFileSync(pick.path, body);
   }
 
   logActivity({ worker: WORKER, role: ROLE, event: 'finish',
-                detail: `Pinned ${added} new footnotes onto ${humanize(pick.slug)}.`,
+                detail: `Added ${prose} new sourced paragraphs and ${added} footnotes to ${humanize(pick.slug)}.`,
                 refKind: 'article', refId: pick.slug, handoffTo: 'coordinator' });
-  console.log(`[${WORKER}] ${pick.slug}: +${added} cites`);
+  console.log(`[${WORKER}] ${pick.slug}: +${prose} prose, +${added} cites`);
 }
 
 // PHASE 2: drain deepener briefs first. scope: { slug }

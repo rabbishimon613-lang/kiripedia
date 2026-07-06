@@ -5,11 +5,11 @@ name: finalize-ingest
 # artifacts back. If the audits fail, opens an issue so Claude (via the
 # phone) has a clear failure to read.
 
+# Push trigger permanently disabled 2026-07-05 — no auto-deploy loop for
+# KiriPedia. Finalize tooling is run locally before a manual deploy.
+# Kept as manual-only so it can still be invoked deliberately if needed.
 on:
-  push:
-    paths:
-      - 'src/content/articles/**.mdx'
-      - 'tools/fetch-images.sh'
+  workflow_dispatch:
 
 jobs:
   finalize:
