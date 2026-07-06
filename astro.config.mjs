@@ -40,6 +40,8 @@ export default defineConfig({
     '/wiki/wikileaks-arab-spring': '/wiki/wikileaks-as-a-system',
     '/wiki/wikileaks-ngo-transformation': '/wiki/wikileaks-as-a-system',
     '/wiki/wikileaks-post-2010': '/wiki/wikileaks-as-a-system',
+    // Fold: duplicate spelling of Anwar al-Awlaki.
+    '/wiki/anoir-alaki': '/wiki/anwar-al-awlaki',
   },
   integrations: [
     mdx(),
