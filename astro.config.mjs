@@ -4,6 +4,14 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://www.kiripedia.org',
+  redirects: {
+    // Duplicate/typo articles merged into their canonical entries.
+    '/wiki/dashti-leyli': '/wiki/dasht-i-leili-massacre',
+    '/wiki/daniel-hail': '/wiki/daniel-hale',
+    '/wiki/russell-tark': '/wiki/russell-targ',
+    '/wiki/steven-saunders': '/wiki/stephen-saunders',
+    '/wiki/intercept': '/wiki/the-intercept',
+  },
   integrations: [
     mdx(),
     sitemap({

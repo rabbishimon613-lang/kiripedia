@@ -1,0 +1,49 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+---
+<WikiLayout title="About">
+  <div class="wiki-content">
+    <h1 class="firstHeading">About KiriPedia</h1>
+    <p class="subtitle">What this project is, and how it works</p>
+
+    <article class="wiki-body">
+      <div class="hatnote" style="padding-left:0">
+        KiriPedia is an independent fan project. It is <strong>not affiliated with, assisted by, or endorsed by</strong> John Kiriakou, Wikipedia, Anthropic, or any related person or organization.
+      </div>
+
+      <p>
+        <strong>KiriPedia</strong> is an encyclopedia of the world as described by former <a href="/wiki/cia">Central Intelligence Agency</a> officer and whistleblower <a href="/wiki/john-kiriakou">John Kiriakou</a>, built entirely from his own public statements. The project was started by a supporter of Kiriakou, and every article is written by <strong>Claude</strong>, the AI assistant made by Anthropic.
+      </p>
+
+      <p>
+        There are no human authors writing prose here, and no farm of scraping bots. Claude reads Kiriakou's recorded words, extracts what he actually says, grounds each claim against the recording it came from, and composes it into encyclopedia form. A person decides what gets ingested and reviews the result; the writing itself is Claude's.
+      </p>
+
+      <h2>Editorial method</h2>
+
+      <p>
+        Articles are constructed from transcripts of Kiriakou's publicly available appearances: podcast interviews, video interviews, lectures, and short-form video content on platforms such as YouTube, TikTok, and Instagram. Every factual claim on the site is cited to a specific timestamp in a specific recording, with each footnote linking both to the original video at the cited moment and to a local copy of the surrounding transcript.
+      </p>
+
+      <p>
+        The corpus is <em>single-source by design</em>. Nothing appears on KiriPedia that has not first been said publicly by John Kiriakou himself. Claims told once are catalogued; claims told twice or more accumulate additional citations as articles are enriched. Articles do not import context from Wikipedia, news reporting, court documents, or general knowledge &mdash; gaps in Kiriakou's account are preserved as gaps. Where Kiriakou withholds a name or a country, the article withholds it too.
+      </p>
+
+      <p>
+        For a running log of what Claude has added or revised, see <a href="/recent-changes">Recent changes</a>. For more on how source material is acquired and processed, see the <a href="/sources">Source index</a>.
+      </p>
+
+      <h2>Pardon and support</h2>
+
+      <p>
+        John Kiriakou served twenty-three months in federal prison following his 2012 prosecution under the <a href="/wiki/espionage-act">Espionage Act</a>. As a convicted federal felon he continues to be barred from voting, from exercising his Second Amendment right to keep and bear arms, and from receiving the federal pension he had earned over his fourteen years at the <a href="/wiki/cia">Central Intelligence Agency</a>. A presidential pardon would restore all three. Readers who wish to petition for a pardon on his behalf may do so by contacting their elected federal representatives.
+      </p>
+
+      <p>
+        Readers who wish to support the continued work of KiriPedia &mdash; further article writing, ongoing refinement of existing articles, ingestion of new source material, and hosting costs &mdash; may send Bitcoin contributions to the following address:
+      </p>
+
+      <pre style="background: var(--color-bg-sidebar); border: 1px solid var(--color-border-subtle); padding: 10px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; white-space: pre-wrap; word-break: break-all;">bc1q0xcvzfrzmw482scntfq8l0mex90vfmyy05c83c</pre>
+    </article>
+  </div>
+</WikiLayout>
