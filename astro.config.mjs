@@ -35,6 +35,11 @@ export default defineConfig({
     '/wiki/ray-mcgovern-vault-7': '/wiki/vault-7',
     '/wiki/thin-thread-stellar-wind': '/wiki/thin-thread',
     '/wiki/vault-7-revelations': '/wiki/vault-7',
+    // Wave 3 mini-merge (2026-07-05): WikiLeaks stubs subsumed by wikileaks-as-a-system.
+    '/wiki/wikileaks-and-trump': '/wiki/wikileaks-as-a-system',
+    '/wiki/wikileaks-arab-spring': '/wiki/wikileaks-as-a-system',
+    '/wiki/wikileaks-ngo-transformation': '/wiki/wikileaks-as-a-system',
+    '/wiki/wikileaks-post-2010': '/wiki/wikileaks-as-a-system',
   },
   integrations: [
     mdx(),
