@@ -1,0 +1,168 @@
+---
+slug: "2019-06-14-slow-news-day"
+title: "SND#40 Gulf Mines & Incubator Babies w/John Kiriakou"
+show: "Slow News Day"
+date: "2019-06-14"
+url: "https://youtu.be/SM85ukUYXm8"
+videoId: "SM85ukUYXm8"
+duration: "46:00"
+captionSource: auto
+paragraphs: 78
+sponsor_paragraphs_stripped: 12
+source_file: SM85ukUYXm8.en.vtt
+---
+[00:01] uh you guys know who we are and you know what we do i am joined again today by uh cia whistleblower uh extraordinary human being and um most recent one of the the more salient voices in the unity for julian assange vigil live streams that have been taking place for the last 15 months now uh so please welcome back john kiriakou how are you sir doing well thanks thanks for having me yeah
+
+[00:32] absolutely um the last time you were on was the dawn of the venezuelan coup and uh we we've seen that take a really weird turn since um i have had on uh one of the uh one of the people that flew up to join uh madea benjamin and code pink uh my friend al suarez he's an activist had him on throughout the embassy siege
+
+[01:02] um and now here we are where it's just kind of in a state of chaos yeah and uh i don't think carlos vecchio has does he have the ability to issue passports now uh not to the best of my knowledge although although there has to be well you know what i take it back i was gonna say there has to be a stash of blank passports in there but no that's not true i was in the embassy the night that the last venezuelan diplomat left
+
+[01:34] and they asked us there there were probably 50 of us in the building that night and they asked us to just take everything we could get our hands on take it home and just hold it until they're able to reclaim their embassy and so all 50 of us we just stripped the building of everything that was in it right home wild wild and it was but there wasn't there there had to have been passports at the the new york consulate right
+
+[02:07] because they took that absolutely because in a in a consulate especially in a consulate the size of new york which handles not just venezuelan nationals that happen to be in new york but it handles all the u.n business as well there had to have been hundreds of blank passports there that was just that's that's why and they're all going to essentially war profiteers enablers of an illegal that's it yeah i think that's exactly it
+
+[02:37] they hate to say it well this i mean this is this is what we kind of knew when trump's cabinet started being taken over by all of these neocons from the bush era yes is that we were going to see you know escaladio practiced in latin america we were going to see ratcheting up with warren iran we were going to see uh just you know tensions increase everywhere generally because authoritarian posturing does that
+
+[03:09] it does indeed it doesn't you uh you recently attended a whistleblower conference in england correct i did i did it was it was a very unusual event in that it was very low key but they had some serious players there i was very pleasantly surprised actually there were two separate events there was one at um nyu london in january and then there was this follow-up at the university of newcastle
+
+[03:40] upon tyne uh what was it um april i think may recently yeah at at the first one they piped in ed snowden on skype and so it was just a fantastic event so it was ed it was a wikileaks rep it was a professor from nyu and me and believe me when i tell you i was so disappointed they had like maybe 20
+
+[04:10] people that showed up oh wow for ed snowden and then um in newcastle newcastle is hard to get to i mean it's in the north western corner of of england it's only 20 miles from the scottish border it's expensive to get up there there's nothing to do once you do get up there and um and it was another panel of craig murray the former british ambassador to uzbekistan who's a renowned human rights
+
+[04:41] whistleblower yeah ed snowden's lead attorney who had come over from canada and um an australian journalist who who was one of the original reporters on the wikileaks story and julian assange and me so it it worked out well in fact it worked out so well that the professor that organized it sent us all an email saying that the university decided to um turn the transcript into a book
+
+[05:13] oh wow yeah so i i was i was happy about that that's excellent that's awesome um when so when whistleblowers gathered like for these kinds of conferences what do you what do you talk about what's subject material like how's that go that's really a good question actually you know one of the things that's funny is we're all we're all such
+
+[05:43] outcasts really that we have kind of a club you know where we we hang out together we we when we're in the same city we go to dinner we're all friends it's the weirdest doggone thing weird but very comforting at the same time so um so there's a lot of camaraderie and you know even if you've never met these
+
+[06:13] people before for example snowden's attorney i had been reading about for years i had never met the man and i felt like i had known him for years it was sure it was just a really it was a really warm greeting a warm event everything just went beautifully the journalist from australia was a little bit nervous which was which was funny to me um just because he had never met any of us
+
+[06:44] before but he had written about all of us okay and then and then like at the at the london event it was funny because ed said something that was very sweet he said that he had followed my case and he had followed tom drake's case at nsa and that without tom drake and john kiriakou there would have been no ed snowden and i said i said wow man i can't tell you how how happy that makes me i'm just so
+
+[07:14] honored to know the guy but then to have been an influence on him it's just it blows me away and i said it was like for a minute i forgot that it wasn't just the two of us right i said you know when i went to prison your dad came and visited me and um and at first they wouldn't let him in just because of his name and i raised all kinds of hell and finally uh they let him in i was threatening to sue everybody and i was
+
+[07:45] going to call cnn and i mean it's all [ __ ] i would have done [Laughter] and then the warden just decided it just wasn't worth the fight and so they let him in that is awesome i that's that's fantastic oh and i fully believe you when you say that you would have followed through with raising that help i'll tell you another thing you know i was i was really friendly with the italians the the italians when i was in
+
+[08:16] prison and um and one of them was talking to one of the guards and not just any guard this is a guard who had a reputation as being a psychopath right somebody who just who just enjoyed hurting people this guy never ever messed with me never and so my italian friend was talking to him and he and the guard said oh i'm gonna be in um in central one unit for the next uh the next quarter and my friend said oh my buddy john's in
+
+[08:48] uh in central one and the guard said the cia guy and the italian said yeah and the guard said i never mess with that guy the italian says yeah why not and he says because that's all i need i work an eight-hour day and then i go out to the parking lot and cnn is next to my car yup and i said that's right and i tell you jake tapper came to visit
+
+[15:30] had to say i i from your lips to god's ears sir i i hope that's correct i do um you wrote uh a piece in consortium news that i read the other morning um and it was about john bolton with title john bolton's long goodbye yes um and it there's been there's been sentiment and and grumbling that donald trump is
+
+[16:01] displeased with john bolton has been displeased with john bolton the uh warmongering that's stored in his mustache is uh oozing out and and getting all over the place and that's not necessarily what candidate donald trump at least was was running on um and uh i mean according to your article at least he's about had it with him and and we may be
+
+[16:32] seeing the exit of john bolton sooner than later do i have that about right yeah yeah you do you do and i'll tell you i i based this thing on nothing more than than chit chat with friends of mine in the white house and uh some analysis so we all know that donald trump places a great premium on loyalty and it's funny that loyalty has different has a different meaning for him than it does for pretty much everybody else in the world
+
+[17:02] but you just cannot ever ever be seen to be contradicting the president ever and john bolton contradicts him all the time in fact he joked the other day this was carried in the washington post that if he said if john had his way we would be in four different wars right now no that's not funny no it's not funny at all especially when you campaigned on the idea that you were the guy who was going to end the two longest wars in american history so here we are three years later almost
+
+[17:33] two and a half years later and we're still in iraq and we're still in afghanistan and we're all over africa and we're still bombing syria and we're still in libya and we're still bombing somalia and john bolton is the national security adviser and now he wants to attack iran well and we're we're involved in a us uh in a coup in nicaragua nicaragua and honduras again honduras yeah for like the third
+
+[18:04] time this decade yes yes that's right and so you know trump said the other day he made this he made what he believed to be a very bold statement that he would be willing to meet with the iranians with no preconditions no u.s president has ever said that and it may have just been talk but either way this is his policy at least that was his policy on that day two hours later john bolton said no that's
+
+[18:34] not true there are lots of pre uh preconditions and uh we want to attack the iranians anyway well that's not what the president said so who's the president here is it donald trump or is it john bolton bolton embarrassed him just like bolton embarrassed him on on other similar issues like syria for example yeah and when he uh i there was a there was a moment where bolton was going after the international criminal
+
+[19:05] court specifically yeah and flaunting the the us doesn't recognize the icc and whatnot and there was in that moment there was a swipe that he took at trump too very publicly and i can't remember the exact context but i do remember there being backlash from within the administration because of that that's right and you know this is something that they that people call the hague invasion act uh it was initially passed under george
+
+[19:36] w bush and it was reauthorized under donald trump and it it literally authorizes a u.s use of force to free any american citizen who may be brought up on um international uh charges namely war crimes and crimes against humanity at the uh at the court in the hague so it gives the u.s military the authorization to invade a nato country
+
+[20:07] to kidnap someone who's been accused of crimes against humanity so why don't they just call it the saving henry kissinger act and and what big war criminal is there alive on the face of the planet than henry kissinger the butcher cyprus the butcher of chile we could go on and on and and yet he is still advising um well he's still in largely dictating foreign policy i mean john bolton is an acolyte oh and and so was hillary
+
+[20:39] clinton yeah and joe biden and joe biden this was something that really angered me in the 2000 the race for the 2012 uh nomination is that she went to new york to kiss his ring meet with him with the press present to meet with him in his condo so he could advise her on foreign policy she brought it up in a debate in one of the debates with sanders even the to make a distinction that kissinger
+
+[21:10] was her friend and mentor oh my god hey i'm not sure i could keep my hands to myself if i saw henry kissinger on the street there's not there's not a human alive that that could there are some soulless people wandering around the beltway that i'm i'm sure are quite friendly with them but no your your natural impulse if you ever meet henry kissinger should be to become involuntarily violent [Laughter]
+
+[21:42] and he's 174 years old so it shouldn't be funny exactly it took like three guys to get him into the the bilderberg meeting the other week you know i was in a cab once in nicosia cyprus and out of the blue this uh this cab driver said uh do you know kissinger and i said do i know henry kissinger and he said yeah the butcher of cyprus i said i i met him one time once when i was a brand new cia officer
+
+[22:14] and he said you didn't try to kill him [Laughter] i said it didn't occur to me sorry there were a lot of people in that room that would have stopped me real quick man you know without a doubt yeah i uh i mean i i don't really have the opportunity to to ask my uncle similar questions but i've had similar questions for my uncle at the same time it's uh it's weird when you're [Music]
+
+[22:44] when you're in the same room with somebody that's that's been actively responsible for in kissinger's case death or uh in my case uh at that breakfast jim comey um who if i hadn't known in 2015 if i'd had known yeah i would have had a lot more fun at that oh my god totally totally it's a weird yeah it's it's just i don't know i mean what can't what do you do
+
+[23:16] what do you like how do you how do you approach somebody responsible for that much misery on any kind of rational level well what hurts is the fact that so many people take him so seriously i mean if you're gonna just pretend that the guy's not a war criminal and and you don't want to like prosecute him or turn him over to european authorities or whatever that's one thing but you don't have to glorify him that's
+
+[23:46] an entirely different thing we should be ashamed of henry kissinger i mean henry kissinger really rightfully ought to be mentioned in the same breath with the likes of william westmoreland and richard nixon and all of those guys from the battle days he shouldn't be a foreign policy god that both democrats and republicans go to of course the democrats are republicans light anyway
+
+[24:18] yeah it's the the difference being they care about whether or not you have a reusable bag and they prefer knitted hats as opposed to red nylon ones that is so true and and it just that's that kind of thing just drives me crazy my god people get your priorities in order [Laughter] i i live in a place where the reusable bag thing is actually an issue because i'm if you can't tell i'm out in the sticks um
+
+[24:49] but we get charged the bag fee so that santa cruz city proper does not have to oh this this completely affects me on a financial level when my dumb ass forgets to bring the bag yeah then they judge you in the store when you don't you ah and it's it's the same like it's the same wine mom who was really proud that hillary clinton was advised by kissinger that's
+
+[25:19] judging me for getting the bag and not bringing the reusable one and there's it's just this sort of confluence of um i don't know uh helicopter parenting to an extreme while ignoring the fact that your house is on fire yeah exactly exactly uh to circle back a little bit though
+
+[25:50] right after bolton contradicts trump on uh on iran was it 48 hours later there's 48 hours later yeah i mean and and we talked about this the last time you were on two how the playbook never changes no and it doesn't matter who's president it doesn't matter who's in charge because they're both the same i don't know if you noticed or not but i did notice yesterday instead of golf of
+
+[26:22] oman attack gulf of tonkin was trending on twitter oh my god oh my god um and i think i i think some of the credit in that is due to ben norton but um but uh yeah i mean it blew me it gave me some sort of the satisfaction a little bit of satisfaction that at least in the corner of the internet where where people are i guess more aware that that false flags
+
+[26:54] occur um then i you know out and just going to the grocery store um gulf of tonkin was what people were relating this to at a level to where it was you know it became a us trend on twitter and i i was i was happy to see that and then the good news there is that americans know what the gulf of tonkin was and and they're and they're able to apply the lessons that we learned from the gulf of tonkin to what's happening today
+
+[27:25] yeah i bet here's open i mean it it's and then this morning i read where uh the the guy who owns the tanker came out to debunk the fact that it was a mine or the the accusation that it was a mine and then in u.s media i see where cbs leads with uh seems to dispute was the lead on it not um you know not directly contradicts
+
+[27:56] pompeo's claim or bolton's claim or did i don't i i honestly don't know if trump has made that claim or not i i know that pompeo is has been uh who they're putting on tv for it because bolton might say something a little too far yeah pompeo is a much more practiced liar yep yep yep yep i agree um not not necessarily that he's not as transparent a liar
+
+[28:28] as says bolton is but uh but he's got well i mean the kid i don't i don't know if you saw the the leaked footage of him bragging about um you know oh yeah we lied we cheated we stole we had pamphlets on it as to how to do it like that's how we operated and then you're supposed to take him seriously when he says oh there was an iranian mine that this tanker hit while the prime minister is having talks
+
+[29:00] in iran um you know i'm looking at that piece right now as we're speaking um it's entitled tanker owner seems to dispute u.s account of gulf of oman attack and then ajamu baraka who was the green party's nominee for vice president says says facetiously i don't know why people are questioning this didn't pompeo just say that the u.s intelligence verified it i thought we were supposed to believe everything that came from u.s intelligence clearly the
+
+[29:31] owner of the oil tanker doesn't know what he's talking about i love ajamu baraka i have had the privilege of meeting him a couple of times he's uh he's a legend he is he is and and he doesn't pull any punches somebody else posted something that i think is so true iran hasn't attacked anyone in 2500 years but i'm sure that they provoked the greatest military ever by attacking an oil tanker yeah yeah
+
+[30:02] the onion had a thing in may that was uh and it was bolton saying uh attack on two saudi oil tankers is a direct attack on america and that was the onions headline from may i i have said on my show a number of times that we live in a [ __ ] cartoon john and this is i i mean it really it's it uh i i had jared beck on a while ago
+
+[30:33] i don't know if you're familiar with him or not he was the guy who brought forth the fraud lawsuit against the dnc in 2016. oh terrific um and had two witnesses drop dead on him and has since been banned from most social media uh at any rate he wrote a great book called what happened to bernie sanders um and when i had him on um he made a point that i am now going to turn into a book because i i have to
+
+[31:06] because i'm seeing it bear out um and i brought up the cartoon thing and he said you know what uh chomsky wrote manufacturing consent yeah 30 years ago we've manufactured consent what what happens now is that they manufacture confusion so i'm i'm going to start writing manufacturing confusion um in a post-consent reality in a
+
+[31:38] post-consent america um and i think that when you look at the the u.s media response in general the corporate media response is to believe that this attack was perpetrated by iran until there's concrete proof otherwise assad gassed his own people right when he was winning the war you know um iran is their meeting with prime
+
+[32:09] minister abe and they're working out a relationship and they bombed his country's tanker with 80 military bases around their country yeah zero sense you know uh so the and if the consent's manufactured then all you have to do is create enough confusion and enough distraction to go ahead and uh execute your foreign policy games
+
+[32:39] yeah yeah right exactly tell me okay i got about 10 more minutes uh i i uh gee i oh how do i want to word this is there uh uh an easy way to get john bolton like is there a way to provoke trump enough to get him to [ __ ] can john bolton it seems like he's a
+
+[33:10] manipulatable guy i think he is manipulatable that's a good question i think the answer is is yes um a couple of different ways first i think bolton's gonna self-destruct not just because everybody in the white house self-destructs at least they have so far right but because he really does have philosophical and ideological differences with this president and bolton thinks that trump is a is a lightweight in uh foreign policy in
+
+[33:43] intelligence and defense policy and bolton wants to be the man in charge and that's just not going to work with donald trump secondly a way to get him out is to go through his kids i mean everybody knows that he trusts ivanka more than anybody else on the planet right he takes advice from his sons he also takes advice from kushner and none of them like john bolton none of them you know i wrote in this article and i think this is an important point to make i'm gonna i'm gonna
+
+[34:13] bring it up uh and that is that every president at this point in the first term begins to worry about his his legacy because nothing happens in the second term so either you either don't get a second term or you get a second term but you've spent your political capital and you just muddle through for the next four years that's what barack obama did i mean what's barack obama known for really but obamacare and that happened in the first year that he was president yeah so donald trump's thinking about his his
+
+[34:44] legacy and he made promises that he was going to be the peacemaker and he's not been the peacemaker and beyond that he hired the biggest war monger that you could possibly find and made a national security adviser so he's got to be thinking you know i may have screwed this up i just don't have time to fix it i better get a move on and then how do you undo what john bolton does what elliott abrams does well i mean is it just a
+
+[35:14] less overt form of authoritarian fascism or i mean because we're still like as you mentioned africa um africom has ramped up over the last four years our uh not just our military presence but what we're doing in terms of both uh in daylight military activity and in covert military activity and that's something that the press were they not inclined to
+
+[35:45] push war every always is that something that they could really hammer trump on that's something that democrats could really hammer trump on were they inclined were they inclined exactly the problem is that most of these democrats are neoliberal war lovers and so they're not going to hammer trump on these issues they're not look at joe biden joe biden never saw a war he didn't want to jump into with both feet and we have to do is look at his voting record hillary clinton was the same dog on way
+
+[36:17] we can count on one hand the number of presidential candidates right now that are legitimately anti-war candidates on one hand oh you can count on a maybe a finger really and i have a question for you about that okay because maybe i i like tulsi gabbard the thing that weirds me out about uh her her anti-war stance or her perceived anti-war stance is that she's a hawk on terror and she's uh she's supportive of the drone program
+
+[36:48] and her line is i'm against regime change wars aren't all wars regime change wars uh for the most part for the most it is well but you know i mean if you look at the first gulf war no that one actually wasn't a regime change war many americans wanted it to be certainly but george h.w bush actually threw away his presidency by keeping his word and not moving all the way to baghdad
+
+[37:20] now he said that he did that because he knew that as soon as we started moving troops north that both the syrians and the egyptians were going to drop out and the whole international coalition would have would have fallen apart um it cost him his presidency but otherwise i'm going to say yeah for the most part with rare exceptions like that most wars are regime change wars sure so i mean it seems weird then to make a distinction between like good war and
+
+[37:50] bad war you know or warfare and it was it used to be so easy didn't it you know like world war ii was a righteous war we had been attacked we you know the jews were being exterminated that's a righteous war um i would argue and and my friend and colleague brian becker disagrees with me vehemently but i would argue that the first gulf war was a righteous war because the iraqis were just slaughtering kuwaiti women and children in the streets uh
+
+[38:22] i would say that the first month or so of afghanistan was righteous because in that first month we legitimately were trying to find osama bin laden after that it all spun out of control and it just became another vietnam is that something though that we needed to do with a full-on troop presence because it wasn't you know it ended up being a seal team and and covert intelligence that brought that about and it seems like if
+
+[38:53] you have a i'm i'm genuinely anti-war so i i don't think that that the gulf war was something that we necessarily should have done um especially when it taken the light the whole incubator baby hoax and whatnot that they used to push it on the american people story about that too when you're done talking okay uh but i i it seems like if you're at least to me
+
+[39:23] the pretext for war is whatever you can sell to the american people and the reality of it at least in my lifetime in u.s interventions conflicts and wars it's primarily been about the acquisition of natural resources yeah oh without a doubt look at the rare earths in afghanistan and tell that there's any other reason why we're in afghanistan right now we never had any beef with the taliban seriously they were backwards
+
+[39:54] uh they were a thousand years behind us technologically they were no threat to us why are we still in afghanistan after 18 years yeah rare earth and poppies yeah rare earth and poppies you know i went to afghanistan in 2011 when i was the chief investigator on the senate foreign relations committee staff and i was doing a study on heroin poppies and so the military flew me down to um first to kandahar by helicopter and then to a village
+
+[40:25] called lashkar gah in helmand province and i said i want to go out and talk to a poppy farmer they said no no no no no it's too dangerous this is the most dangerous place on earth and i said no i insist so we did we put a convoy together and i just chose this random afghan poppy farmer and i asked him what in retrospect was a very naive question i said why do you grow poppy
+
+[40:55] when you can grow things that have two growing seasons you can grow tomatoes onions pomegranates lettuce and feed the afghan people he has this look of just disgust on his face and he says you know the americans told me in 2001 if i told them where the arabs were i could grow all the poppy i want now you come and tell me i can't grow poppy and i said
+
+[41:26] what americans told you you could grow poppy and my military handler says interview over let's get back in the helicopter we're going back i never got a response i learned later that in terms of policy our policy is to let the afghans produce as much heroin as they want afghanistan produces 93 percent of the world's heroin do you know why
+
+[41:57] do you know why that's our policy because we make money on both ends of it no none of that heroin comes here it goes to iran and it goes to russia and they have the top two percentages of of their citizens addicted to opioids in the entire world and so if all this heroin goes to addicting an entire generation of russians and of iranians we're all for it they can all overdose
+
+[42:29] okay i could that's a that's a solid way for destabilization that's exactly yes it's destabilization it's like a covert action program that doesn't cost you anything and then your fingerprints aren't on it we went to the uh when i was when i was on the senate foreign relations committee staff one of the things that john kerry wanted to do was to approach the iranians to see if there was a way that we could cooperate with them on something just as a
+
+[42:59] confidence building measure and i said you know we could cooperate with them on drug interdiction i said heroin has just overrun iran it's getting worse every day and they don't know what to do and so he approached the iranians and he said we'd like to work with you on counter narcotics and they said okay we need secure telecommunications we need night vision goggles and they give us this list this giant list of classified [ __ ] that they wanted and like yeah that's not gonna happen
+
+[43:32] and so nothing ever came of it oh i mean i would ask for toys too you know i would be hard-pressed not to oh definitely definitely um tell the incubator baby story and then we we should rap because i know you have unity for jay coming up too i do indeed so um incubator baby story um i think many americans will remember that there were reports that iraqi soldiers had taken uh premature babies out of their
+
+[44:05] incubators in kuwaiti hospitals threw them on the floor to die and then took the incubators back to uh to iraq certainly the iraqis were looting a lot of stuff and there was a congressional hearing that featured a young girl a 15 year old girl who said that she had witnessed this happening so i'm at the cia i'm a young analyst i was the iraq leadership analyst so i kind of had a stake in this thing we're all gathered around the tv watching this testimony
+
+[44:35] and i said wait a minute wait a minute isn't that saud nasser's daughter saud nasser sabah was the kuwaiti ambassador to the united states and he was a member of the royal family and my boss said i think that is saud nasser's daughter i said well what would she be doing in kuwait during the occupation watching the iraqis throw babies on the floor i said she's making this up and everybody was like ah damn it and then they all walked away from the tv
+
+[45:08] and i thought you know there are so many legitimate things that you could criticize the iraqis for doing raping women and children beheading people because they suspected them of being in the resistance you know they did horrible things in kuwait so why make stuff up when it completely kills your credibility now here we are what 28 years later and what are we talking about we're not talking about iraqi atrocities we're talking about the kuwaiti's trying to pull a fast one
+
+[45:38] up on capitol hill and trick us into helping them more than we already were yeah yeah you're absolutely right it's yeah not only that but we're you know we're we're barking on the door of iran again we're pulling out of a nuclear treaty with russia where you know all it's yeah it's it's incredibly wild john thank you so much i i really i appreciate you taking the
+
+[46:09] time i enjoy these conversations um yeah uh incredible as always and uh please take care of yourself and hopefully we can uh we can talk soon i look forward to it thanks for calling me all right john you take care take care bye bye now

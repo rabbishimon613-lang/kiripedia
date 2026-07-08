@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[24:38] from your guy check it out at thehempspot.com but spell the thc thehempspot.com now double check into the legality in your state but you should be good the hempspot.com is shipping everywhere in america and during their grand opening through july use coupon code horton and get 30 percent off and a 10 commission will be paid to the scott horton show for every order using that coupon code and free shipping on any order over 90 dollars
+
+[25:08] get your delta 8 thc cannabis at the hempspot.com but write thc for thee hey guys scott horton here from mike swanson's great book the war state it's about the rise of the military industrial complex and the power elite after world war ii during the administrations of harry truman dwight eisenhower and jack kennedy it's a very enlightening take on this definitive era on america's road to world empire the war state by mike swanson find in
+
+[25:41] the right hand margin at scotthorton.org now here's the important thing as you pointed out here um i guess on your twitter page from the other day kevin was that under obama they didn't charge him with espionage it was the trump people that did and just like with the maximum pressure campaign against iran the biden government is sticking with the trump policy rather than going back to the obama policy on this where they could have just dropped it and said well we always thought it was
+
+[26:12] too much but were they prosecuting him at all the obama guys or they were leaving him alone this all happened under trump yeah so this tweet refers to the defense sentencing memo that was given to the judge where they asked we would like 12 to 18 months for daniel and then they make their case for why 12 to 18 months is reasonable and in the course of their argument they mentioned during discovery before they were ever supposed to go to trial
+
+[26:42] they got a document that shows that in the justice department's national security division there was dissent among the superiors of that part of the justice department and eventually they decided that they were unwilling to back charges against daniel hale it does it's hard to tell if there was ever a formal closure of the case but the defense does say that the investigation came to an end in 2015 that's in their
+
+[27:15] uh submission to the court and so then time passed and it wasn't until may 2019 which is actually around the time that they were they made the indictments against julian assange public it's not until may 2019 that the trump justice department it would have been bill barr his department proceeds with going after daniel hale and they actually share the same bigoted
+
+[27:47] islamophobic racist and um you know unconventional and just a supreme jerk of a prosecutor gordon kromberg who is is leading and involved in the prosecution against assanges also was i understand in the courtroom for sentencing against daniel hale um and there's more to say about some of what the prosecution side but yeah it is true
+
+[28:19] that there appears to be a difference in the way those administrations chose to handle this and i've been thinking about you know i have nothing to back this up but i've been thinking in my head about why the outcome might be different from trump versus obama what i've arrived at and john you can tell me if you disagree but i believe that the obama white house was extraordinarily concerned about their image in the to the world and if you think back to that time
+
+[28:49] there were some nicknames going around like president kill list drone warrior and chief and it's my view that they didn't think it would be great to put somebody who was a drone whistleblower on trial under the espionage act and also allow for the possibility that they looked at the number of cases they had and it had become a refrain that media organizations and press freedom groups repeated over and over again that president obama was responsible for prosecuting more people under the espionage act than
+
+[29:21] all previous presidents combined that's a fact but it was said over and over again and perhaps they thought they had met their quota and they weren't going to go forward this was a second term that daniel hale would have been indicted under and perhaps he was thinking about his legacy and less about making an example out of people at this point yeah all right now this is an important point this keeps coming up and um the last time i was asked about it i pointed to the last interview that i did with you john where we discussed
+
+[29:51] this but really i do all the talk in there and i can't remember when you originally told me this might have just been right before we went on the air maybe it was the interview before that or something but you would explain why unlike sometimes this bust was not the intercept's fault and uh i know that matthew cole the intercept reporter that burned reality winner is the same guy before he was at the intercept who burned you for verifying the identities of some cia torturers for which you went to prison under an espionage act of prosecution here
+
+[30:23] but what is the truth about or not about uh scahill uh and the intercept somehow uh getting hale in trouble here yeah daniel does not blame uh jeremy scahill for his own legal problems and it's because when when daniel provided the information to jeremy daniel decided to go public he appeared in public with jeremy at a symposium he appeared in the

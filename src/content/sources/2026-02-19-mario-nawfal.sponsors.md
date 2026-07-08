@@ -1,0 +1,16 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[54:25] somebody just in case it needed to. But what we have seen is all these people were perfectly happy to cooperate with him voluntarily. There was no reason to do >> One last question, how high up do you think it goes? Cuz we now found out that obviously Trump is in the files, but nothing to nothing too sinister like Prince Andrew and others. But also, Lutnick lied about it, even though he was there on the island with his family. Epstein's become so toxic that even such a small visit to someone who's a convicted sex offender
+
+[54:56] um or child sex offender, um it's still like why would you go to someone's island who's been convicted of child sex? So, how high up do you think that information goes? And how much if it is Mossad, if they do have that information, that's all more they have, how much influence do you think they have on the US government? I think that at a at a certain level, a significant amount of influence. I I will say I was on a panel yesterday with David Boies, who was Virginia Giuffre's lead attorney. And and also Hillary Clinton's attorney.
+
+[55:26] And he said that his staff have gone through literally every document that has been released. And he said there are a couple of things that he's confident about. One, despite the thousands, tens of thousands of references to Donald Trump and to Bill Clinton, there was no evidence that either Donald Trump or Bill Clinton had committed a crime. So, at least there's that. But you're you're exactly right. You make a an
+
+[55:57] important point here about about Howard Lutnick. He denied having anything to do with Jeffrey Epstein, and we know that that was just simply a lie. And so, if you're lying about that, what else are you lying about? At the very least, I think he should probably resign. Otherwise, he he could be, you know, an embarrassment, a drag to the president. And not only this, someone wouldn't have had to commit any illegal crimes or even discussing crimes with Epstein to suffer from this. If
+
+[56:28] someone was very close friends with Epstein and misjudged his character, that information um alone could become toxic to that person. That's right. >> So, I think that even people that are innocent, that were not involved in any crimes, Trump, Clinton likely being two of those people, just the fact that they knew Epstein, they were close to Epstein, could become a liability that may be used against them. Now, I don't think there's some people that have a theory that the Mossad has so much information with Epstein on Trump, on Lutnick, and others maybe we don't know about that are still redacted or they are part of the unreleased files, that
+
+[56:59] that is the reason the US is going to war with Iran, that is the reason they're supporting Israel. I don't think that's true, but I don't dismiss it as much as I did um a year or 2 years ago. Um Agreed. John, always a pleasure to speak to you. Thank you so much. This story will continue. I think there's a lot more files will be released, more information will come out, and your analysis is always incredible. Thank you.

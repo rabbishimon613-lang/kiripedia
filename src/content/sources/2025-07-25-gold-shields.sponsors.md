@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[22:01] buildings. With Streamlight by their side, our heroes can tackle challenges with confidence, knowing they have the power of advanced lighting technology to guide them. From the first responders on the front lines to the law enforcement officers ensuring our safety, Streamlight is there to make every mission a little easier and much safer. Join us in supporting those who protect us. Visit streamlight.com to discover how you can be part of the team keeping
+
+[22:31] our heroes safe. Because when they shine, we all shine. >> Have you ever wished you could go back in time and see the events that shape the true crime cases that fascinate you? With newspapers.com, it's like having a time machine to the past. Dive into more than a billion newspaper pages from 1690 to 2025 and relive the headlines that shocked entire towns. Explore newspapers from the US, UK, Canada, Australia, and beyond with a
+
+[23:05] simple search. Read the breaking news as it happened, crime scene reports, witness testimonies, and courtroom drama. Explore forgotten clues and see how the media shaped the narrative of infamous cases. But it's not just the major stories. Newspapers.com lets you dig into local mysteries, missing person's reports, and the small town scandals that history forgot. It's the closest you can get to being there when it all unfolded. So, if you're ready to dig deeper into
+
+[23:36] the crimes that keep you up at night, start your journey today at newspapers.com. Use the code gold shields for an exclusive 20% discount on your subscription. >> And it's a a goodsized group. It was like eight people, engineers mostly. And um I thought they just wanted sort of the blowby-blow of, you know, first we did this and then he did that and then we did this and we found him here and then he wasn't there. And they were like, what was the most important thing that
+
+[24:07] went wrong in the operation? we want to fix it. And I said, "Oh." I said, "That's an entirely different thing." I said, "My god, our radio batteries didn't last but 15 minutes." So, as soon as the operation started, the radios all went kaput and we had to rely on cell phones. And you try relying on a cell phone in Fisalabad, Pakistan at 3:00 in the morning. I said, "My god, you guys, we put a man on the moon and we can't make a battery that lasts for more than 15 minutes."
+
+[24:38] And then that's what they did. They set out to make a decent battery. >> Unbelievable. Unbelievable. >> Crazy. >> So, you have um we could probably talk all day about about certain failures, but there's one thing that you're you're you're pretty well known for. And uh you know, Tom and I have we love our country. We know you do, too. But we have what we'll call a healthy skepticism about our government. >> Amen. because they it's run by people
+
+[25:09] and politics is the name of the game in Washington. We all know that. >> Yes, sir. >> So, you saw some things and you blew the whistle on some stuff which I'm proud >> to have you on the show because we we need more brave patriots like that who do that. >> Thank you very much. >> Government needs to be kept in check. It's the whole reason why we became a country in the first place. Tell us what you can tell us about that if it's not too premature in a discussion to get to that. >> Oh, no, not at all.
+
+[25:41] >> I had no idea when I was stationed in Pakistan that these conversations were taking place at the leadership levels at the CIA about what to do once we caught a high-value target. There was there was no plan. Going back a little bit in terms of of operations in Pakistan, we got to the point right before the Abuza capture where the Pakistanis came to me and said the jail
+
+[26:13] is full. We were just packing everybody into the Rahul Pindi jail. Rahul Pindi is an enormous city that abuts little tiny Islamabad. Islamabad's the capital. Ral Pendy is this giant sprawling filthy semi-industrial city. We've filled the jail and the Pax came to us and said, "The jail's full. We can't squeeze one more person. You got to get them out." So I called headquarters. I said, "The the packs got these guys out. So what should I do?" And my colleague on the
+
+[26:44] other side said, "Put them on a C12 and send them to Guantanamo." And I said, "Guanto? Cuba? Why would we send them to Cuba? and they said, "Well, we came up with this plan. We're going to hold them in Cuba for two or three weeks until we can decide which federal district court to try them in." I said, "Oh, that's a great idea." So, we sent him to Cuba, not realizing, not knowing, we had no way of knowing
+
+[27:14] that Dick Cheney was saying, "Ah, but if they're in Cuba, they have no right, so we could just hold them there forever." That was a different issue. So, while we're on the ground grabbing these guys, the CIA's leaders at headquarters are coming up with a plan for what to do with them once we catch them. And they separated high-V value targets from everybody else. So, everybody else goes to Guantanamo.
+
+[27:44] The high-v value targets are going to get special treatment, secret prisons, bizarre renditions that were untraceable, and a torture program. So, I get home in May, I've told the story a thousand times. I was asked if I wanted to be uh trained in the torture techniques. I sought the counsel of a senior officer. I said no. I had a a an ethical and moral problem with it. And I believed and I still believe it was

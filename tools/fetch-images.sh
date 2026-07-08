@@ -15,6 +15,17 @@ CREDITS="$DEST/credits.json"
 
 # slug=wikipedia_title (URL-encoded as needed)
 MAPPING=(
+  "afia-sadiki=Aafia_Siddiqui"
+  "agnes-von-kurowsky-grave-story=Agnes_von_Kurowsky"
+  "alan-dershowitz=Alan_Dershowitz"
+  "avril-haines=Avril_Haines"
+  "bill-burns=William_J._Burns_(diplomat)"
+  "dianne-feinstein=Dianne_Feinstein"
+  "greenland=Greenland"
+  "hillary-clinton=Hillary_Clinton"
+  "john-bolton=John_Bolton"
+  "john-ratcliffe=John_Ratcliffe_(American_politician)"
+  "kamala-harris=Kamala_Harris"
   "isa-bin-salman-al-khalifa=Isa_bin_Salman_Al_Khalifa"
   "bahrain-1994-1996-posting=Bahrain"
   "marty-gottesfeld=Martin_Gottesfeld"
