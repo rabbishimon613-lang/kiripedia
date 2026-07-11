@@ -1,0 +1,70 @@
+---
+slug: "2013-01-30-democracy-now-john-brennan-a-terrible-choice-to-lead-the-ci"
+title: "John Brennan a \"Terrible Choice to Lead the CIA\""
+show: "Democracy Now!"
+date: "2013-01-30"
+url: "https://youtu.be/kE1X4X9Eezc"
+videoId: "kE1X4X9Eezc"
+duration: "17:00"
+captionSource: auto
+paragraphs: 29
+sponsor_paragraphs_stripped: 5
+source_file: 20130130-kE1X4X9Eezc.en.vtt
+---
+[00:00] this is democracy Now democracynow.org The War and Peace report I'm Amy Goodman with nine shik we're going to talk about John Brennan right now President Obama's nominee to become the next chief of the CIA the news agency Reuters is reporting that Brennan had detailed information on the agency's torture program while serving there under President George W bush official records apparently show Brennan received regular internal CIA updates about the progress of torture techniques including water boarding it's unclear if Brennan raised any objections
+
+[00:31] at the time he was made aware Brennan's confirmation hearing will be February 7th in 2006 he gave an interview with Frontline on PBS where he said it was right for the Bush Administration to quote take off the gloves after the 911 attacks the war or the campaign against terrorism is going to be a long one um and that the opposition whether it be alqaeda or whether it be Iraq doesn't play by the Marquita quinbury Queensbury rules and therefore you know the US in
+
+[01:01] some areas has to take off the gloves and I think that's entirely appropriate I think we do have to take off the gloves in some areas but within bounds and at the right time and the right way and for the right reason and with full understanding of what the consequences of that might be that was John Brennan in 2006 when President Obama was first elected in his first term uh he wanted to uh John Brennan to be his director of Central Intelligence there was such an cry in the human rights community that
+
+[01:32] John Brennan pulled his name out now four years later President Obama has officially uh nominated uh John Brennan once again to head the CIA Our Guest John kiraku is about to go to jail was sentenced to 30 months in prison worked for the CIA um there while John Brennan was there uh can you respond to what John Brennan knew when he knew it and the fact that President Obama wants him to be head of the
+
+[02:03] CIA sure obviously I can't read John Brennan's mind but I can tell you that uh at the time that uh the torture techniques were being implemented John Brennan was President Bush's director of the national counterterrorist Center uh he was also um uh a little earlier than that the deputy executive director and then I believe executive director of the CIA that's the number three ranking uh position in the CIA so he would have had to have been
+
+[02:33] intimately involved uh in um not necessarily in carrying out the torture techniques but but in the policy the torture policy uh either that or or he had to be brain dead uh because you can't be in positions like that director of the national counter terrorist Center and executive director of the CIA without knowing what the cia's torture policies are now I'm surprised frankly uh also at the fact that there's no outrage in the human rights Community uh
+
+[03:05] now that uh Mr Brennan's nomination has been made U official uh there there was there was a great hu and cry in 2009 when he was initially uh floated for the position of CIA director and I'm not sure why there's a difference between four years ago and now John Brenan certainly hasn't changed uh John kiraku I want to read a comment made by the judge at your sentencing hearing judge Leoni binkas sentenced you to 30 months
+
+[03:35] in prison last Friday saying quote this case is not a case about a whistleblower it's a case about a man who betrayed a very solemn trust and that is a trust to keep the Integrity of his agency intact and specifically to protect the identity of co-workers I think 30 months is frankly way too light because the message has to be sent to every covert agent that when you leave the agency you can't just start all of a sudden revealing the names of the people with whom you worked the judge said John
+
+[04:06] kiraku can you comment on that statement sure when judge brinka accepted the plea deal in October uh she she called 30 months uh fair and appropriate uh I can only think that with a courtroom packed full of uh journalists uh on last Friday uh she decided to seize the moment and uh and make a statement uh that would be carried in the in the papers I don't know what changed between October and January other than the fact that she and
+
+[04:38] the prosecution had had several U exp parte uh Communications what that means is the prosecutors were able to meet with the judge related to my case without the defense my attorneys uh being present so we have no idea what it was that the prosecution told the judge we were not allowed to defend ourselves indeed indeed uh judge BMA Dei denied uh 75 motions that we made uh asking for declassification of information so that I could present a defense in in August
+
+[05:10] of 2012 after our motions had been denied my attorneys and I walked out of the courtroom and my attorney said we have no defense she won't let us say anything she won't let us defend you and so we were forced into plea negotiations but again I'm not sure why the judge changed her position between October and January it was in explain what that's like in the courtroom uh when they invoke National Security that the prosecutor can come forward and speak privately with the judge without your defense attorneys being there yeah I I had never heard of
+
+[05:42] such a thing before but in August when we made our 75 motions um we thought that the judge would block off two days to hear the 75 in fact there had been a conversation with the prosecution and so she uh she blocked off an hour to hear the 75 motions so we knew we were in trouble and then at the very start of the uh hearing uh the prosecutor got up and said that he uh was requesting a rule four conversation I didn't know what this was my attorneys objected and
+
+[06:13] said if you don't want the defendant to hear at least allow us to to hear so that we can uh represent his interests and the judge said no this is a national security case I'm allowed an expar communication with the prosecutors so the prosecutors went to the bench we could hear them Whispering they came back to their table and the judge said all 75 motions are denied and that was the end of it we got up and we walked out of court and my attorney said we have to negotiate a plea uh J it was
+
+[06:44] extremely disheartening uh JN Rak uh I wanted to ask you about the legal implications of this case and how it fits into the treatment of government whistleblowers uh under the Obama Administration absolutely abolutely to get to the point you just raised with John I think the reason judge brinka changed her opinion between October and last week is because the government submitted a secret statement that John was not allowed to see that played a large role in the sentencing hearing but
+
+[07:17] neither the public nor the defendant were allowed to see the statement which is very cka esque but in the grander scheme the W the prosecution of John kiraku and the war on whistleblowers using the heavy-handed Espionage Act by charging people who dare to tell the truth as being enemies of the state sends a very chilling message and judge brinka herself acknowledged that a strong message had to be sent that
+
+[07:47] Secrets must be kept but apparently that only applies to people who are trying to reveal government abuses and illegality because all of the people in the White House and the CIA who revealed classified information um and over undercover identities to the makers of a Hollywood film Zero Dark 30 have done so with impunity and with lavish praise wait can you say can you say specifically what
+
+[08:18] you're talking about JN reita yes specifically the White House and the CIA were very involved in the making of Zero Dark 30 which pretends to be some kind of neutral film that implies torture led to the capture of of Osama bin Laden which it absolutely did not in that process a highlevel defense department official Michael Vickers revealed the identity of
+
+[08:48] an undercover Special Operations Command officer um but was not held to account for that and the CIA revealed numerous classified pieces of information including sources and methods so when y keep going so when the United States talks about the sanctity of keeping secrets and both the judge and multiple statements by United States officials discussed that they are the biggest
+
+[09:21] leakers of all and they do so with impunity I wanted to talk about another whistleblower targeted by the Obama administ ation um who has been former National Security Agency analyst uh he's Thomas Drake he worked for the NSA for nearly seven years before blowing the whistle uh Thomas Drake appeared on Democracy Now last March the critical thing that I discovered was not just the massive fraud waste and abuse but also the fact that NSA had chosen to ignore a 23-year
+
+[09:51] legal regime which been established in 1978 called the foreign intelligence surveillance act with the foreign intelligence surveillance court and which at NSA during the time that I was not NSA but also in the military flying on rc135s overseas during the latter part of the Cold War you was the contrary the one thing you did not do it was the Prime director of NSA it was you know the the First Amendment at NSA which is you do not spy on Americans and what did you find without a warrant I found to much to my to my horror that they had tossed out that
+
+[10:22] legal regime that was the excuse of 9/11 which I was told was exit conditions now prevailed we Canen can do anything we opened up Pandora's Box we're going to turn the United States of America into the equivalent of a forign Nation for the purpose of a of Dragnet blanket electronic surveillance that's former National Security Agency analyst Thomas Drake JN Rak is one of your clients what happened to him yes I represented um both Tom Drake and John kiraku the government dropped all 10 felony counts against Tom Drake
+
+[10:55] and he pled guilty to a minor misdemeanor the equivalent of a parking ticket I find it appalling that the two men who revealed the biggest scandals of the Bush Administration namely warrantless wiretapping and torture are the only two who've been criminally prosecuted for it and not the people who secretly surveilled the communications of Americans and not the people who were involved in the torture program all of whom have been conferred immunity by
+
+[11:27] either the president or by acts of Congress John kyaku you're now we are now uh the president is President Obama did you see a change between President Obama and his predecessor President Bush and also when when you were talking about John Brennan do you think he should head the CIA what message do you think that sends and what has changed in the last four years when he withdrew his name for consideration
+
+[12:01] uh in 2010 when my book came out I I was giving a speech in Los Angeles and a and a woman asked me a question um about the difference between President Obama and President Bush and I'll never forget the question because it was just so crazy uh she said um can you explain the cia's pos position on the Jihad isation of American foreign policy under President Obama and I laughed and I said ma'am with all due respect president Obama's foreign policy is an extension of
+
+[12:31] President Bush's foreign policy if there's any difference at all President Obama is killing more people overseas than President Bush ever did uh so no I I don't think there's any difference at all between the bush foreign policy and the Obama foreign policy which I think really is is a is a shame for us because there was a wonderful opportunity to take a different path and to reclaim our our position as a moral leader uh in the world so I'm disappointed in that uh with regard to uh to John Brennan I've
+
+[13:01] known John Brennan since 1990 uh I worked directly for John Brennan twice uh I think that he's a terrible uh choice to lead the uh the CIA I think that it's time for the CIA to move beyond the ugliness of of the post September 11th regime and we need someone who is going to respect the Constitution and to not be bogged down by a legacy of torture I think that President Obama's appointment of John
+
+[13:32] Brennan sends the wrong message to all Americans you worked with him directly for him did Brennan receive regular internal CIA updates about the progress of torture techniques including water boarding as Reuters is reporting I I worked for him when he was a u uh an analytic uh manager it was before he really hit the big time under George tenant but again I think that it's impossible for him to not have gotten these briefings for him to to not have been intimately involved in the policy
+
+[14:02] by virtue of his his senior positions some of the senior most positions in the CIA it's just impossible that he didn't know what was going on John kiraku uh you'll shortly be going to prison do you know exactly when uh your prison sentence will begin and how are you preparing for this you're the father of five children I'm the father of five uh I don't know exactly when this will be it'll be sometime in the next uh 4 to 6 weeks I'll have to report to to a prison somewhere I I don't know where um it's
+
+[14:35] frankly very hard to prepare you have to do things like arrange a power of attorney uh arrange uh Child Care um I mean there there are so many things to do it's it's just overwhelming um my wife thank God is is very strong and very tough and very supportive and um we're treating this like temporary Duty overseas it was not unusual for me to go overseas for for many months at a time sometimes as long

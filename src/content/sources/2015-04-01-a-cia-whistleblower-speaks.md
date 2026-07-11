@@ -1,0 +1,108 @@
+---
+slug: "2015-04-01-a-cia-whistleblower-speaks"
+title: "A CIA Whistleblower Speaks"
+show: "?"
+date: "2015-04-01"
+url: "https://youtu.be/nQZGD1d9aeI"
+videoId: "nQZGD1d9aeI"
+duration: "32:00"
+captionSource: auto
+paragraphs: 48
+sponsor_paragraphs_stripped: 0
+source_file: 20150401-nQZGD1d9aeI.en.vtt
+---
+[00:00] Hello everybody and welcome back to the Zero Hour. I am Richard R.J. Eskow and our next guest's career arc is an important one, both for what he has done, for what he intends to do, and for what it says about the time in which we live. John Kiriakou was a CIA employee for 14 years, first as an analyst and then as a case officer. He blew the whistle on the torture program. He was aggressively pursued by the Obama administration for his whistleblowing efforts
+
+[00:36] after being threatened with the Espionage Act. He pled guilty to a lesser charge of revealing the identity of a covert officer and has since spent 23 months in prison as well as time in house arrest and now on probation. So John Kiriakou, thanks so much for joining us. Thanks very much. Oh well, of course. I mean I think it's very important and brave what you've done and I wanted to talk to you about first of all how you got to this point and then secondly
+
+[01:10] where you intend to go coming from this and I guess I would start by saying, you know it seems to me, well let me ask you a couple of questions to begin with. First of all I believe I summarized your legal status correctly. Are you still under house arrest or have you now moved into the probation phase? So presumably your ability to speak in public and that sort
+
+[01:42] of thing will be somewhat more open after that house arrest period ends? Any time I want to talk to a representative of the media and is that nonsense? Right and I would just say I mean perhaps I didn't need to know your inmate number to fill out the form but I felt the best. Now I guess what interests me, John, first of all you
+
+[02:21] committed an act of great courage and I commend you for that and I have a number of questions about that but I guess I want to step back to, I feel your process of moral education although I think you were moral all along but I think it's an interesting one that the public needs to know more about. Maybe I'd like to start if you don't mind by going back a couple decades and just talking about what led you to join the CIA. Was acting as a CIA spotter would be a good fit?
+
+[03:11] So it seemed like a good fit for your interests and abilities and one of the reasons why I asked
+
+[03:50] that John is because in past life I did some work as a consultant for the State Department on economic issues. I've known some CIA folks that work closely with one of the early guys Yale graduate you know going back to the beginning and all that so I felt I had a certain sense of the CIA culture that was maybe by now 20 years out of date but while I might disagree with some of strongly with some of the CIA's actions I felt that there
+
+[04:21] were there were a lot of good people there a lot of people who you know would not be by nature torturers and yet we found ourselves after 2001 and 9-11 and then of course the invasion of Iraq engaging in torture and and but when I ask you a couple questions about that but I guess the first overall question is was that to you a departure from the culture you had come to know in this oh boy was it the kind of people who were running around the world in the 1960s and I
+
+[05:38] think that well and I we're talking with a former CIA agent and whistleblower John Kiriakou
+
+[06:36] I think one of the points I wanted to emphasize too is you know going back to the days before the 1970s and the reforms that were put in place there the CIA was very active on the operational side did many things that for example progressives including myself you know strongly disagree with you know we could we could go over that but but there was a sense particularly in that intervening period between the 70s and and the 21st century that that the CIA first of all didn't engage in certain things and also that culturally there were certain
+
+[07:10] things that were off limits I mean I hate to use a word like crude but among other things torture rendition right some of these other exercises are in fact to me a crudely violent in a way I was this perhaps an artifact of the bush cheney direction and the way they wanted to the way they went about reorganizing and so on I think that's exactly what it was I can tell you that during the Clinton administration was that if we wanted to recruit somebody that person
+
+[08:03] writes violations and then that all went out the way so I guess what I then we have the situation where as you say you know you got you lived through the transition you were very involved I think you were the point person in fact if I'm not mistaken on a capture pursuit and capture of
+
+[08:33] abu's beta and so I think when you first heard he was waterboarded you my senses from what I've written read from you and about you that at first you thought well maybe this is working maybe this is a useful way to collect intelligence and then your thoughts involved is that propaganda at the time and that propaganda was multi-fold I believed that was a lie I believed in cooperative
+
+[09:20] after these so-called enhanced interrogation techniques it turned out that the entire operation now I was asked by a senior I didn't think we should be it was immoral and and now all these
+
+[10:12] years later it's blown up it certainly has and but now this is the pro is this the program that was designed by the two contracted psychologists James Mitchell and Bruce Justin yes correct so it we know now I think I'm going to assume that the audience for this program for example knows a lot about the horrors of our own torture program but I guess my question for you John is John Kariaku is okay for this for the CIA employees who did enter that program was there something
+
+[10:47] of an acculturation was there a way that they communicated with one another to say uh or were communicated to to convince the queasy among them that this is really an okay thing to do they learned that the Senate torture report was the IA documents any part of this see that
+
+[11:43] now people are going to be somebody is listening to this right now and it will be saying to themselves yeah but we did get actionable intelligence out of the torturing of uh let's say Abu Zubayra who has tortured 83 times a waterboard at 83 times somehow lost an eye in prison and so on but okay we may we may agree it's bad as Americans but we got actionable intelligence what what would you say to that that it's coming from the likes of and uh and the reason why
+
+[12:35] we keep having been actionable and torture is they're going to say that these men were in and I think that what they're doing is repeating this lie over and over and over again with the hopes that eventually the American people will believe it well I think that's almost undoubtedly true that we're talking with uh with CIA CIA uh operative turned whistleblower
+
+[13:11] John Kiriakou uh I think that's unquestionably true and I guess the other side of it that's going back to the sort of moral education part of it for all of us is that look many techniques get actionable intelligence um and the quote for example I think we could still all agree as a country that murdering a suspect's children one by one would not be an acceptable tactic even though it would undoubtedly get on occasion useful intelligence you're absolutely right you're absolutely right right we have to draw a moral and an ethical line somewhere
+
+[13:53] right and I'll just close this because I have a strong feeling this this part of the discussion by saying uh you know I engaged in some uh print battle with Alan Dershowitz over the torture issue because uh among others years ago because uh the other piece of the torture issue is that we constantly hear about the ticking time bomb scenario but when I ask people when in real life we've actually had a ticking time bomb scenario I haven't been able to find one no the answer is never that happens only in the movies I get that question all the time
+
+[14:26] about well what if there's a ticking time bomb well the truth of the matter is there's never a ticking time bomb and besides even if there was the CIA is a big lumbering if there was a ticking time bomb they couldn't possibly and uh absolutely and I thank you for clarifying that now uh you did uh I believe you did interrogate Abu Zubaydah yourself and I I've we've heard from other
+
+[15:00] people who've had much more luck speaking of actionable intelligence by bonding with with a captive and it may not have the emotional satisfaction of of of Kiefer Sutherland uh you know blowing up their car it seems to be much more effective as a way of getting intelligence and you are actually uh spoke a little bit with uh yeah I didn't intact for much of the fit I guarded him in his hospital room a little about cried because he said he would never know the joy
+
+[15:57] we talked a little bit about he didn't want to attack the united states he I didn't get now when he went to this secret site uh where he was eventually told was interrogated first by Ali
+
+[16:32] Sufan an FBI agent vintzing evidence that Ali was actually making and so we're so we're told and and John we're going to have to go to a quick break but when we get back with John karaoke CIA whistleblower uh want to close it off and then talk a little bit about what
+
+[17:06] you're doing now so let's take a quick break uh in our conversation with John karaoke we will be right back after this I'm Richard R. J. Oscar and this is the zero hour and we are back on the zero hour I am Richard R. J. Oscar we are talking with John karaoke CIA whistleblower and John just to close off uh when we left we were when we went to break we were talking about Abu
+
+[17:38] Zubaydah and uh the fact that uh that Ali Sufan from uh the FBI seemed to be getting making progress with a more bonding type persuasive relationship as you had begun I just have to ask this because you piqued my curiosity you said that you talked with Abu Zubaydah about poetry what did you guys talk about with poetry well he was kind of an amateur poet and he had this uh this much discussed people have called it diary it was a diary it was at a younger age trying I'm not a
+
+[18:30] poetry just don't have an appreciation let him talk well so again a chance to bond a chance to uh you maybe use a less uh you know sadistic form of intelligence gathering uh you know I have to say just in closing out that I wonder how much of that whole program was really about intelligence gathering and how much of it was wasn't just the sort of something dark and the subconscious
+
+[19:03] coming out I think it was more than anything right yeah that's what I was wondering um so you did the right thing you you distance yourself from it now there are people who will who do say and I'm sure you've heard this a million times that uh because you heard about for example now Edward Snowden and the Snowden conversation you hear okay if he wants to be a whistleblower we have ways to do it you complain to your superiors and then you go to congress and then why didn't uh John Kiriakou just follow the rules in a free country and do what we do to be a whistleblower
+
+[19:49] when he saw waste fraud abuse and illegality at the NSA he went to the his illegality that he had seen and what he ended up getting for going at least not in
+
+[20:33] the national in 2007 right before I knew that was a lie and then when word got out that we act I knew that was a lie George W. Bush signed off on this program he knew exactly what he
+
+[21:17] said well you're welcome to come on the show and defend yours well I I know that and we appreciate the sacrifices you've made in this cause and you know it's interesting because you mentioned uh in the last segment that President Clinton seemed sincere in trying to direct the CIA in a you know more high-minded way and certainly President
+
+[21:50] Obama does not appear to this as far as I know but to have continued torture practices in any way but uh this administration the Obama administration has been extraordinarily aggressive in pursuit of whistleblowers far more than any other administration in history I guess more more indictments of whistleblowers certainly under the espionage act than all previous administrations put together to what if anything do you attribute that
+
+[22:31] people ask me this question all the time and I wish I had I think and I base this on my own experience I think it comes down to two things first friends at the White House have told the president is is so upset positively mix Sony it's almost so I think that's one part the other part
+
+[23:04] is he could not possibly have chosen parents the attorney using the espionage this president also seems to be quite fond of Michael Hayden and and of Mr Clapper who lied to Congress and
+
+[23:39] I guess I would say briefly for our audience before we pivot to the next topic that I could not be more disappointed in the overall reaction of the democratic community the community of the democratic base and not being more forthright in their condemnation of this administration for their handling of the whistleblowers should the espionage act as you well know John Kiriaku was not designed for people informing the American public about what their government is doing was designed for people who are working in the secret for enemy government so that is quite
+
+[24:13] disappointing but not okay you spent nearly two years in prison you've been through the penal system and I have heard you say in the media that you want to dedicate the at least the next portion of your life to reforming our prison system and in fact that that form of torture exists in our prison system is that accurate that yes you're exactly right that's precisely from our european allies but we have a system system that is racist and in many cases a
+
+[24:53] system that is based on job training is real despair try to so far not so far but until this
+
+[25:34] sentences were up to ten times more in cases involving crack cocaine than they were in cases involving powder ridiculously Harvey Silverglade a professor at Harvard University wrote
+
+[26:17] and he posits that because of all the average american going about his normal business on the average full in addition to full of white common white-collar criminals who ten years ago wouldn't have been even charged with a crime because no such crime existed on the books so here we are in a situation 25 percent of the world's prison population it's unprecedented in our history
+
+[26:55] and there's nothing like it anywhere else in the world well and i think this is a cause that you are you may be well positioned to address because you have an analyst mind that you have personal experience one of the most moving comments or stories i've heard you tell and i was curious to hear a little bit more about it but you said that when you went to prison where they're always even in a in a minimum security facility risks of you know
+
+[27:25] violence or whatever extortion that that some uh some prisoners said we aren't you the human rights guy and basically they had the idea you were defending people's rights and we've got your back or words that yes yes i had great support yet my first day in prison i thought i was going to a minimum security work camp so i did that because i had access to i had been in prison
+
+[28:08] for something like one hour and uh two guys from the nation of islam came into myself and i thought oh my god i've been here for one hour now i'm going to have to fight these two guys i'm about you today and he had this nation of islam newspaper with the nation of islam
+
+[28:40] so well well and i'm i'm going to guess that when you joined the cia little did you picture that you would be in prison um receiving uh comfort and security from lewis farcon turns life takes isn't it it really is and i think we're going to have to end it around here but i do want to say that you know you've also described uh what you i think accurately characterizes torture on america's prisons especially everything from the denial of medical
+
+[29:13] care to the lack of uh adequate housing facilities so i guess i would i would close with this uh john carriaco cia whistleblower what on an emotional visceral level what would you like the american people to know about their united states prison system and what it does to people inside it their minds and so it can take lessons from our european out i also am optimistic that
+
+[30:15] that there can be a change in the near futuristic reasons necessary that it's simply too expensive to keep all these people in prison well i think uh one thing we can agree on across the political spectrum is that if the purpose of prison is deterrence or crime reduction it certainly doesn't seem to be working no it doesn't work because people go into prison and they there's no job
+
+[30:47] training for the streets but hold a job and if they're drug addicted and going back to drug addiction etc etc etc so how do you plan to convey this uh message in the uh uh in the
+
+[31:17] coming years you're gonna write about it speak about it form an organization be an activist all of the above all of the uh maybe one this fall in food for policy studies and progressive me to write about these issues as well so i had to have them play i ps has a syndicated our bed
+
+[32:06] sir and we've had our i ps folks on this uh program before so uh another connection hey listen thank you uh john carriaco so much for coming on the program and talking with us and any time you have something more to say let us know you're welcome back anytime and you too we've been talking with john carriaco cia whistleblower uh prison reformer and we will be right back after this i am richard rj scow and this is the zero hour
