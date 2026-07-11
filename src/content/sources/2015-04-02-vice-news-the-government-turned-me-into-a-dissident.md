@@ -1,0 +1,76 @@
+---
+slug: "2015-04-02-vice-news-the-government-turned-me-into-a-dissident"
+title: "The Government Turned Me Into a Dissident"
+show: "VICE News"
+date: "2015-04-02"
+url: "https://youtu.be/GaiyVMRGE0M"
+videoId: "GaiyVMRGE0M"
+duration: "17:00"
+captionSource: auto
+paragraphs: 32
+sponsor_paragraphs_stripped: 0
+source_file: 20150402-GaiyVMRGE0M.en.vtt
+---
+[00:01] so many of those guys were innocent of any crimes and to lose eight ten twelve years of your life for nothing is inexcusable and a real shame is that our government doesn't even issue an apology I'm going to meet John Kiriakou who's a former CIA case officer he just got out
+
+[00:34] of prison after spending two years in a federal penitentiary and he's the only person who's been prosecuted in connection with the CIA's enhanced interrogation program not for participating in it but for revealing classified details about it in 2007 John Kerry aku became the first CIA officer to reveal that al-qaeda facilitator Abu Zubaydah was waterboarded a detail that was then a closely guarded secret zubeida was the CIA's high-value
+
+[01:05] detainee captured after 9/11 and the guinea-pig for the agency's enhanced interrogation program he's been held captive at Guantanamo since 2006 waterboarding was one of the techniques and was it used on Zubaydah it was and wasn't successful it was the unauthorized disclosure to ABC News turned Kiriakou into a household name overnight led to a lucrative book deal and landed him on the government's radar after he told ABC News that Abu Zubaydah was tortured Kiriakou revealed another piece of
+
+[01:36] classified information to a journalist the identity of a covert CIA operative who was involved in the CIA's rendition detention and interrogation program the government prosecuted Kuryakin for the week and in 2013 he accepted a plea deal that sent him away to a federal penitentiary for two and a half years we caught up with Kuryakin at his home in Arlington Virginia just a few days after he was released hey how are you good to see you good to
+
+[02:07] see you please come in thank you good to be home yeah it's good to be home it's frustrating too at the same time you know I was only gone 23 months and the adjustment the readjustment is thank you thank you it's dramatic these guys who do 10 20 30 years I don't know how they readjust and I can see why people don't want to leave prison after all in addition to a broken chair that I sit in every day I've got a job situation where
+
+[02:40] I've got to work 40 hours a week from an approved office or store or business or whatever not from home okay or I risk going back to prison and I didn't know that until last night so I've accepted this terrific job working from home in business development for a medical technology company and they told me last night either get an office or quit and
+
+[03:10] then if I don't get a 40-hour job I risk going back to prison I posted this on Twitter this morning it says I really need a job must be 40 hours and not from home I don't want the halfway house to send me back to prison just for unemployment ideas John you got to admit your resume is a little unorthodox my resume is unorthodox warburg I'm CIA trained spy right former spy right on the Abu Zubaydah capture team spent two years in federal prison yes yes what
+
+[03:40] skill set are you gonna lie in the real world I count the current Secretary of State among my former employers yeah and I'm gonna end up at a Dunkin Donuts so that's the world I'm living in right now esoteric taste in literature yeah my country versus video like when Holly I wanted something sympathetic on these long bus rides up to the what was your first day out like I was originally told I would spend an hour at the halfway
+
+[04:12] house and then be sent home on house arrest so my wife and kids and a friend picked me up at prison and we were gonna stop for lunch but decided not to risk it we were afraid we didn't have enough time first meal when you got out you did that whole you know weed or something you have been like craving yeah I was craving Greek food and we planned it out that we would stop for lunch at a friend's diner here in Arlington I was gonna get a gyro platter and that just didn't happen so that night what do we eat that night my
+
+[04:45] wife cooked that night and then the next night we we ordered out sushi yeah things you were again to do prison that's right oh the prison in prison it's an all carb all the time diet right yeah like everybody I put on weight in prison I actually had a lot of trouble sleeping that first night you know it's funny you get you get used to this steel slab with a thin mattress on on the top and you get used to the sound of keys jangling all night long as the corrections officers walk through your your cell counting people and and it's
+
+[05:17] so quiet here it's so quiet and prison is so incredibly loud in part because it's so incredibly overcrowded I mean this is federal prison yeah you're in there with you know some of the worst of the worst oh yeah yeah this is this is a common misnomer this was no Club fed this was no you know camp with the three hole golf course and this was real prison honest-to-god prison with walls and
+
+[05:47] concertina wire and you know the whole thing that you see on MSNBC at 11 o'clock at night in terms of survivability did you like fall back on your training oh yeah did you use your your Co skills in fact in fact I've written the first draft of a book called doing time like a spy how the CIA taught me to survive and thrive in prison so you wrote this by hand in prison yeah no access computer no access to even a
+
+[06:19] typewriter what I did is I relied almost solely on my CIA training I made strategic alliances for example from the minute I got there and there was some serendipity involved too I was a little nervous because I wasn't sure you know what I should do where I should go where I should sit so I kept to myself the first couple of days and I allowed people to come up to me and so I ended up becoming most friendly with the Italians and I don't mean just people with Italian names I mean the Italians
+
+[06:51] and you know all five families were represented there as well as northern New Jersey and New England and we hit it off famously I was in prison about a week when Louis Farrakhan made a very supportive statement and so that made me good with the Muslims so in terms of like the racial politics that helped you it helped me greatly most Muslims in prison are not necessarily religious
+
+[07:26] Muslims Muslims in prison are more of a gang than a religious group so that's sort of guaranteed that that expression of support from Farrakhan sort of guaranteed no problems for me on that front because I was not a rat or a child molester I was embraced by the Aryans went to the Aryan Super Bowl party went to the Aryan Christmas party sat at the
+
+[07:56] Aryan table for the first year until I moved in with the Italians and so you know I formed these strategic alliances that really made the time much easier than it otherwise could have been there's only one group that that I actively ostracized and stayed away from and that was the child molesters nobody associates with the child molesters except other child molesters and and I kept away
+
+[08:28] the government alleged that Kuryakin was a prolific leaker disclosing classified information to journalists about the CIA's enhanced interrogation program on numerous occasions between 2007 and 2009 do you ever just think like this is crazy like I helped capture like some of the top suspects in the global war on terror and now I have to report to a parole officer what what's crazy to me is what my attorneys initially described to me as
+
+[08:59] selective and vindictive prosecution that's an actual legal term and there are supposedly laws to protect people from being the subject of vindictive and selective prosecutions my attorneys believed and I believed that I was a victim of a selective and vindictive prosecution I think that the Justice Department has been incredibly hypocritical in leaked cases I mean Washington operates on leaks and the truth of the matter has turned out to be if if it's a supporter of the president
+
+[09:32] leaking or the leak makes the government look good you're good to go if your leak is critical of the government or the government wants to punish you in some way then they prosecute you well the last three directors of the Central Intelligence Agency have leaked prolifically and in one case Leon Panetta former DCI Leon Panetta did exactly the same thing I did where he he outed the Navy SEAL that led the bin Laden raid but he said oh my bad it was
+
+[10:06] a it was an accident and he's free to you know cash his six million dollar book advance well you know I'm prosecuted to go to prison and lose my pension and everything can I offer you guys a cup of coffee sure that'd be great it's decaf is that Alright John can you talk me through what was happening in Pakistan in in 2001 and 2002 were sure I was working from headquarters on September 11th and
+
+[10:37] and my god I wanted to avenge like everybody I wanted to avenge the the 9/11 attacks so so I volunteered to go overseas in the days when our official relationship with the Pakistanis was very close it was very close very warm very cooperative we did a lot of good work together and I came to really like and respect my my Pakistani counterparts after the fall of Tora Bora most most al
+
+[11:12] Qaeda fighters that had been in Afghanistan had fled to Pakistan so our job was to figure out where they were hiding and to try to capture them well when I first arrived my my boss told me to come up with a plan to take down al Qaeda safehouse I had never I had had training of course but I had never but actually taken down the safehouse I came up with this plan we had an informant who slipped us an address of a suspected
+
+[11:45] safehouse and just to try it out we hit it at two o'clock in the morning and we caught some Egyptian Islamic Jihad guy hide now and he had escaped from Afghanistan so we said hey you know we had some success we tried it again a week later we caught a couple of Tunisian teenagers who had gone through the training in Afghanistan and had slipped into Pakistan so this was a workable formula we got word from Washington that Abu Zubaydah was somewhere in Pakistan and our job was to
+
+[12:16] catch him at the time we thought that Abu Zubaydah was a major on Qaeda figure turned out he was not he was never an actual member of al-qaeda he had never pledged fealty to Osama bin Laden but he was the commander of two training camps and we hadn't captured any major al-qaeda leaders we had only killed one we had killed Mohammed Atta on a bombing in Tora Bora so we went after Abu Zubaydah we were able to get it down to 14 different sites the day before the actual
+
+[12:49] operation we went to each one of these 14 sites and just coincidentally we got to one site that we thought was probably gonna be a big deal for us and my phone rang and it was the analyst and he said that Abu Zubaydah had made a mistake in his communications I probably shouldn't say more than that on that point and then at 2:00 a.m. we beat down the door of all 14 places the Abu Zubaydah house
+
+[13:20] it turned out how to steel reinforced door and so it took quite some time many minutes to get through the door by the time we got through the door I was a beta a Syrian bomber and Abu Zubaydah's bodyguard had made it to the roof of the house and they were jumping to the roof of the next house to try to escape and a Pakistani soldier shot all three of them as they came down or as they jumped and then they came down after being hit the syrian was killed instantly Abu Zubaydah was gravely wounded he was
+
+[13:51] shot in the thigh the groin and the stomach with an ak-47 and then the bodyguard was shot through the leg and and that's how we got him zu beta was then whisked away to a CIA black site prison in Thailand where he became the first high-value detainee subjected to the so-called enhanced interrogation techniques your job was to capture yeah my job was to capture a plane would invariably fly in from where I don't know to where I don't know and we would
+
+[14:23] load them on the plane and and never see them again the agency had no training program in interrogation we had never done interrogations but and interrogations we learned the hard way are something that you just can't you can't wing you you have to be trained that's why the FBI over the years has been so much more successful believe me I hate criticize the complimenting rather the FBI but they're really good at what they do and and the CIA wasn't at least not in 2002 and so
+
+[14:56] they made a lot of mistakes I know that you have been an outspoken advocate against torture and the enhanced interrogation techniques even before you went to prison now having actually been incarcerated and been a prisoner yourself has it changed your perspective at all is it deep into your resolve its deep in my resolve and it's also exposed to me what a problem prison conditions are and how necessary prison reform is in this country we should be ashamed of
+
+[15:26] ourselves for the state of our prisons we really need to learn from our European allies how to incarcerate people what do you do next how do you pick up the pieces you're a felon right yeah I'm a convicted felon so I lost my pension I can't vote I'm under the control of Bureau of Prisons for the next three years I'd like to eventually end up at a think-tank I'd like to write and speak and teach maybe do some TV news commentary like I did before I was
+
+[15:56] arrested but I think it's gonna take a little bit of time kiriakos job fears were never borne out not long after our interview the halfway house relented and said he could work for the medical technology company from home and it doesn't look like he'll have to wait too long to hook up with a think-tank kyriaki told us he accepted a job as an associate fellow with the Institute of policy studies where he will cover torture intelligence policy the Middle East and prison reform
+
+[16:27] [Music] [Laughter] [Music]
