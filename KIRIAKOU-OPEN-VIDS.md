@@ -150,7 +150,7 @@ panels, audiobook samples, reactions and dupes excluded. **Dates not yet backfil
 | ingested | 2015-11-14 | 75m | Robin Hensel | Tackling Torture at the Top John Kiriakou and Bradley Ol | rFTwPrTyY2Q | https://youtu.be/rFTwPrTyY2Q |
 | ingested | 2015-11-12 | 83m | QuakerHouse | John Kiriakou Speaks at Quaker House | v2GbWGoIW6w | https://youtu.be/v2GbWGoIW6w |
 | ingested | 2015-07-25 | 74m | Splendour in the Grass | John Kiriakou about what can go wrong with spy agencies  | CXpClkw38CY | https://youtu.be/CXpClkw38CY |
-| verify | ? | ? | ? | (unavailable) | wVQjgd1Tqz4 | https://youtu.be/wVQjgd1Tqz4 |
+| verify | 2026-06? | ? | Useful Idiots (Halper & Maté) | CIA Whistleblower John Kiriakou: "They DESTROYED Epstein Files" | wVQjgd1Tqz4 | https://youtu.be/wVQjgd1Tqz4 |  <!-- identified 2026-07-11 via search; confirm date/length, eps usually ~1h -->
 | verify | 2026-06-25 | 77m | The Secret Intelligence Re | John Kiriakou - A Former CIA Officer Reveals the Alarmin | wNWGRrcxa2s | https://youtu.be/wNWGRrcxa2s |  <!-- clickbait-title channel — verify it's a real interview not AI re-narration -->
 | verify | ? | ? | ? | (unavailable) | njWyFh3Nafc | https://youtu.be/njWyFh3Nafc |
 | verify | 2026-06-03 | 54m | The Secret Intelligence Re | John Kiriakou - Former CIA Officer Reveals the Shocking  | mCg8i8i4qZc | https://youtu.be/mCg8i8i4qZc |  <!-- clickbait-title channel — verify it's a real interview not AI re-narration -->
@@ -164,6 +164,57 @@ panels, audiobook samples, reactions and dupes excluded. **Dates not yet backfil
 | skip? | 2026-02-23 | 187m | Julian Dorey | "Epstein LIES!" — Kiriakou Erupts | vmDn8YzxVeQ | verify vs ingested Dorey eps |
 | skip? | 2025-02-28 | 163m | Julian Dorey | Unloads on Epstein, Bin Laden, China & Israel | scrGRKVa-Q4 | verify vs ingested Dorey eps |
 | skip? | 2025-02-25 | 137m | Julian Dorey | MK Ultra, USAID Mission, Overthrowing Govts | _CFWmuIgQIE | verify vs ingested Dorey eps |
+
+## Candidates — batch 4 (found 2026-07-11)
+
+Discovered by web-search sweep only — **YouTube, all podcast RSS/MP3 hosts, Podcast Index and
+huggingface.co were network-blocked in the discovery environment**, so lengths/dates come from
+search snippets and podcast listings (Apple/Podscan/Acast/iHeart), not from yt-dlp probes.
+Backfill `?` fields with a `yt-dlp --print` probe from an unrestricted machine before intake.
+Deduped against corpus videoIds, this registry, SOURCE-DISCOVERY.md, and show+date pairs of all
+ingested sources. Ledger note: most SOURCE-DISCOVERY §B stragglers resolved to already-tracked
+IDs (Shawn Ryan, Honesty Box, ANI, TAC/Berger companion, Danny Jones #138/#213, Break It Down
+Show, Cleared Hot 446, Rogan #2392); the genuinely-new ones are below.
+
+| Status | Date | Len | Show | Title | videoId | URL |
+|---|---|---|---|---|---|---|
+| candidate | 2026-04-23 | 114m | PBD Podcast | John Kiriakou: Ex-CIA Officer CONFRONTED Over Zionist Accusations (#783) | 1p_B72s6Ix0 | https://youtu.be/1p_B72s6Ix0 |
+| candidate | 2026-03-24 | 76m | Sit Down with Michael Franzese | Ex-Mob Boss & Ex-CIA Agent: Iran, Israel, and Epstein Are All Connected | sWucl8ZRiK8 | https://youtu.be/sWucl8ZRiK8 |
+| candidate | 2026-05-17 | 43m | The Matan Show | Matan Confronts John Kiriakou For Secretly Working For Israel | drZH5_d9Xg0 | https://youtu.be/drZH5_d9Xg0 |
+| candidate | 2026-07-09 | ? | Byrna Bros Podcast (Josh Schirard) | EP.46 — Former CIA Counterterrorism Officer: How to Spot Danger Before It's Too Late | C4Hz6bUAiHI | https://youtu.be/C4Hz6bUAiHI |
+| candidate | 2024-07-16 | 159m | Danny Jones Podcast | #249 — CIA Spy Breaks Down Trump Assassination Attempt (w/ Matt Cox) | vcgJXirykZE | https://youtu.be/vcgJXirykZE |
+| candidate | 2024-02-19 | ? | Unauthorized Disclosure (Gosztola) | The War On Whistleblowers Under Biden — Plus, Assange's Appeal Hearing | Y1E8EypwzPA | https://youtu.be/Y1E8EypwzPA |
+| candidate | 2025-01-24 | ? | The Kim Iversen Show | Former CIA Officer Reveals Why Abolishing The CIA Won't Change Anything | J_GA5Wj3-94 | https://youtu.be/J_GA5Wj3-94 |
+| candidate | 2025-03-14 | ? | The Jack Hopkins Show | Inside the Mind of a CIA Whistleblower: Secrets, Sabotage, and the Shocking Truth | zssCchYDO5A | https://youtu.be/zssCchYDO5A |
+| candidate | 2025-10-11 | 45m | Dialogue Works | Charlie Kirk's Story Crumbles — Iran Fully Armed in DEFENSE | 4V5GlZ4IodQ | https://youtu.be/4V5GlZ4IodQ |
+| candidate | 2025-12-10 | ~50m | Dialogue Works | Charlie Kirk's Story Cracks Wide Open — The Hegseth Controversy Explodes | PA2Sh1zpgfU | https://youtu.be/PA2Sh1zpgfU |
+| candidate | 2025-11-20 | ? | American Exception (Aaron Good) | AE219 — CIA Veterans and the Deep State (w/ Barry Eisler — 2 guests) | Z-qsocM6Khc | https://youtu.be/Z-qsocM6Khc |
+| candidate | 2013-01-23 | ? | Busboys & Poets / GAP | John Kiriakou @ Busboys & Poets in Washington DC (pre-prison send-off) | hMVoynRZHE0 | https://youtu.be/hMVoynRZHE0 |
+| candidate | 2015-02? | ? | VICE News | Ex-CIA Officer John Kiriakou: "The Government Turned Me Into a Dissident" | GaiyVMRGE0M | https://youtu.be/GaiyVMRGE0M |
+| candidate | 2017-03-17 | ? | The Zero Hour (RJ Eskow) | Doing Time Like a Spy (w/ John Kiriakou) | 5JUqRcpwkS0 | https://youtu.be/5JUqRcpwkS0 |
+| candidate | 2019-12-19 | ? | Beyond the Horizon (Jared Leto) | Lies and Torture of the CIA with John Kiriakou and Jared Leto | Ndpaua_S5lg | https://youtu.be/Ndpaua_S5lg |
+| candidate | 2021-01-25 | ? | The Grayzone (Anya Parampil) | Pay for pardons? John Kiriakou on Trump's final flop and Biden's intel picks | G4nd6oOC4iU | https://youtu.be/G4nd6oOC4iU |
+| candidate | 2021-01? | ? | Valuetainment | Former CIA agent: Rudy & Trump offered me a pardon for $2 million | DZh9W-TWV1o | https://youtu.be/DZh9W-TWV1o |
+| verify | 2026-05-22 | 53m | Zeteo (Mehdi Unfiltered) | Mehdi Hasan CONFRONTS Ex-CIA Agent John Kiriakou on His SUSPICIOUS Past | Rfl9WUe4DnY | https://youtu.be/Rfl9WUe4DnY |  <!-- likely same conversation as ingested ZmaIRlBhsS8 (Zeteo 2026-06-10) — dup-trap check before intake -->
+| verify | 2026-06-02 | ? | Mitha Intel | Why The CIA Hid Critical Intel From The FBI | CRCBTd3s_Ow | https://youtu.be/CRCBTd3s_Ow |  <!-- possible split-part of ingested Mitha Intel 2026-06-08 (Dof3OWLXbRU) -->
+| verify | 2017-05-25 | ? | (unknown channel) | Doing Time Like A Spy — author interview | tN4O6xu4SQk | https://youtu.be/tN4O6xu4SQk |  <!-- channel/length unverified -->
+| verify | 2026-06? | ? | (unknown channel) | John Kiriakou REVEALS the DARK Reality of Intelligence Operations | 7i5osl-M9do | https://youtu.be/7i5osl-M9do |  <!-- clickbait-title pattern — check for AI re-narration before intake -->
+| short | 2023-04-25 | ~26m | TRT World — The InnerView | John Kiriakou, the CIA spy who blew the whistle on torture | SBCSSQ0bpBA | https://youtu.be/SBCSSQ0bpBA |
+| short | 2026-03-02 | ~30m | Judge Napolitano — Judging Freedom | John Kiriakou: Iranian Retaliation Strikes the CIA | nJ6yjjr1ogA | https://youtu.be/nJ6yjjr1ogA |
+| short | 2017-04-18 | ~30m | Ron Paul Liberty Report | 'Doing Time Like A Spy' — With Guest John Kiriakou | TGvgUl7geeM | https://youtu.be/TGvgUl7geeM |
+| short | 2025-06-01 | ~30m | Stephen Gardner | Trump & Marco Rubio JUST did the UNTHINKABLE! | 0r560eBIwWE | https://youtu.be/0r560eBIwWE |
+| short | 2026-01-22 | <30m? | Insider (Authorized Account) | How CIA Black Ops Actually Work | Pcfwx50zl40 | https://youtu.be/Pcfwx50zl40 |
+| short | 2013-01-30 | ? | Democracy Now! | Ex-CIA Agent, Whistleblower John Kiriakou Sentenced to Prison | YeBIRH9VlBQ | https://youtu.be/YeBIRH9VlBQ |  <!-- DN segments run 15-25m; substantive post-sentencing sit-down — maybe worth an exception -->
+| short | 2017-05-17 | ? | Democracy Now! | Blowing the Whistle on CIA Torture & Why Trump's Presidency Worries Him | dAmdo2MzzhE | https://youtu.be/dAmdo2MzzhE |
+| short | 2018-04-14 | 13m | TEDxFoggyBottom | How I became a CIA whistleblower | fX2YMB6dWJw | https://youtu.be/fX2YMB6dWJw |
+
+**Leads without videoIds (couldn't resolve — YouTube blocked):** Judging Freedom 2026-03-26
+"The Truth About Power, Control & the CIA" (~25-30m anyway); Legal Owl 2026-07-01 "Prison Reform
+Through the Eyes of John Kiriakou" (YT playlist PLZfuJx1QlDXW2SMWgVvAPUqbggEovbIwZ); U Cast
+Studios "The Talk Spot" 2025-03-19 JFK Files (may be audio-only); The Pocket w/ Chris Griffin
+2026-07-06; RFK Jr Podcast 2022-12-04 (Spotify/Anchor only, no YT). Ruled out as empty/tracked
+in the 2026 window: Shawn Ryan, Lex Fridman, Triggernometry, Modern Wisdom, Flagrant, Breaking
+Points, The Duran, MOATS, Meidas, Jimmy Dore, Due Dissidence (panel livestream only).
 
 ## Shows he hosted
 
