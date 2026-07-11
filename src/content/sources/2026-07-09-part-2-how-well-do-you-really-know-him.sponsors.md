@@ -1,0 +1,20 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[31:44] archbishop." >> [laughter] >> Who is that guy? They They thought it was Halloween for them. >> They were very impressed. >> Yeah. Like he had his staff and everything. Yeah. He came >> Yeah, he came prepared. >> Yeah, yeah. He did that twice. He came twice to visit me and gave me communion. Uh-huh. So you got the Greek citizenship before you went to prison. >> Yes. And you were visited by Wow. Yes. That's important. So, ending. You've just spent the last couple of days here with me in Cyprus walking through the old town of Nicosia
+
+[32:16] inside the Venetian walls showed you our Statue of Liberty >> Yes. taking you to the green line that separates us from our occupied lands headed up to the Troodos Mountains uh sharing souvla, bulguri, kleftiko [laughter] >> It was so good. and lamb liver. Yes, we eat it and it's delicious and we love it. >> It's It's quite delicious, although it requires lemon. It does. And visiting the 1,000-year-old Saint um John Lambadistis Monastery still standing in remarkable condition and
+
+[32:47] protected as a UNESCO World Heritage Site and met today uh with Nicosia's mayor, Brountzos. With a final day of activities planned for tomorrow, how would you describe your experiences here in Cyprus, your second second homeland, those are >> Yes. to our American viewers? It's been wonderful here. I've only come to Cyprus once before and it was 34 years ago. 30 Yeah, 4 years ago. I'm I'm embarrassed that so many years have passed. It's a completely different country.
+
+[33:18] But I think I had forgotten how powerful it is to see the green line and the occupation forces and settlers on the other side with their very provocative actions. I don't I don't I'm not trying to make the situation between Cyprus and and the Turkish occupiers worse than it is. But it's so much of it is done just in order to humiliate and to to rub it in where
+
+[33:49] they they have the one of the biggest flags in the world on the side of the mountain and it's lit up at night. >> So we see it every day and >> see it every day and every night. You know? And we're reminded of the occupation this way, 52 years. 52 years of occupation. The call to prayer pointed at the at the Greek neighborhoods of the city. You know, it's just it's very frustrating. It's clear. It's clear to me that the Turks are not interested in in a settlement. They like the status quo just the way it is and that's not
+
+[34:20] acceptable. Uh and your meeting today with the mayor that I helped facilitate. Meet meeting today with the mayor, very exciting. Yeah, he showed you around. Yep. The bird's-eye view. >> He did. He took us up to the to the roof of the municipality. And as he said, it's only 70 m from uh from the gate leading into the Turkish occupied sector of the city. Uh it's it's very powerful. Very
+
+[34:50] powerful. And then, you know, you see on the one side, you see you see the Greek part of the city. And it's modern and it's first world and it has tall buildings and an an economy that's moving. And then you look at the Turkish occupied side. And it's there's nothing happening there. It's like out of the early '60s. There's literally nothing happening there. So, um did I get to ask you questions, the personal questions, not these this
+
+[35:21] last one on Cyprus, that you didn't get to be asked so far by other podcasters? >> Yeah. Okay. So, well done. >> That did you know John Sector will resonate with the viewers and they get to know more things about you. Even though they think they know you, they get to know more things about you. You know, that's actually a funny thing and you probably get that here in Cyprus, too. But people some people think that because they see you on YouTube or Tik Tok or whatever that they know you. >> Mhm. And and that's fine. It's fun. I I love to take selfies with people. I do
