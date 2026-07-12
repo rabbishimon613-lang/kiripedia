@@ -1,0 +1,20 @@
+---
+slug: "2015-03-02-voices-of-liberty-cia-torture-whistleblower-john-kiriakou-part"
+title: "CIA Torture Whistleblower John Kiriakou, Part 5: 'Enhanced I"
+show: "Voices of Liberty"
+date: "2015-03-02"
+url: "https://youtu.be/S7Ep15MWzdg"
+videoId: "S7Ep15MWzdg"
+duration: "2:00"
+captionSource: auto
+paragraphs: 4
+sponsor_paragraphs_stripped: 0
+source_file: 20150302-S7Ep15MWzdg.en.vtt
+---
+[00:00] where would you say the line needs to be drawn um today between what is enhanced interrogation and torture well if you need special permission from the director of the CIA to do something to somebody you probably shouldn't be doing it I always believed that there were so-called enhanced interrogation techniques that were worse than water boarding for example uh the cold cell you chill a cell to 50° and then every hour throw ice water on the prisoner
+
+[00:31] who's naked uh people have died from that Hassan Ghul died in Afghanistan because of that technique and the other one that I really objected to was sleep deprivation Former Defense secretary Rumsfeld made a joke that that he stands on his feet longer than these uh these Al-Qaeda uh prisoners were forced to stand on their feet that's just simply laughable we had people deprived of sleep for as long as 2 weeks and in one case one of the prisoners lost his mind and was sub subsequently unable to
+
+[01:02] participate in his own defense because of the sleep deprivation and what had happened because of it right so it seems like there are clear lines when you have to ask for permission and when you when you maybe are tapping into your conscience and and realizing that this is probably something I shouldn't be doing that's really where the line should be drawn that that's right and we know we know from the Senate intelligence uh committee's report uh that that there were CIA officers who were objecting to this from the very beginning there were interrogators who
+
+[01:33] were told to carry out these techniques who objected to them um and we also know that the conclusions are true because the Senate intelligence committee used six million primary source documents these are live realtime cables that CIA officers were writing from the field and sending to headquarters with the results of the interrogation

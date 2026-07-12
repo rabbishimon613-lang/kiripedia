@@ -1,0 +1,24 @@
+---
+slug: "2025-11-25-aljazeera-arabic"
+title: "ضابط سابق في الاستخبارات الأمريكية: إسرائيل طلبت من كل رئيس"
+show: "AlJazeera Arabic"
+date: "2025-11-25"
+url: "https://youtu.be/mUeTxPRrYXU"
+videoId: "mUeTxPRrYXU"
+duration: "3:00"
+captionSource: auto
+paragraphs: 6
+sponsor_paragraphs_stripped: 0
+source_file: 20251125-mUeTxPRrYXU.en.vtt
+---
+[00:00] And President Trump decided to use the bunker buster bombs against the Iranian nuclear site just so that the Israelis would not use nuclear weapons against Iran. Uh I have some friends in the CIA, in the Defense Department, and in the White House. I was talking to them recently about the situation between Israel and Iran. One thing that many Americans don't understand is that the Israelis
+
+[00:31] really see Iran as an existential threat. And the Israelis believe that the Americans don't understand how threatened the Israelis feel. With that said, literally every American president who has entertained an Israeli foreign minister since the 1980s, since Ronald Reagan was president, has had to deal with Israeli requests to bomb Iran. Every single Israeli prime minister that visits
+
+[01:01] Washington says, "We want you to bomb Iran." And every American president has said, "No, I'm not going to bomb Iran." until this president. Now, my friends inside the White House and in the CIA tell me that the reason why President Trump decided to change that policy and decided to bomb Iran uh bomb Iran was because this time Israeli Prime Minister Benjamin Netanyahu said that the Israelis were so
+
+[01:34] sure that the Iranians were planning a nuclear attack on Israel that the Israelis were prepared to use nuclear weapons against Iran. And President Trump decided to use the bunker buster bombs against the Iranian nuclear site just so that the Israelis would not use nuclear weapons against Iran. I don't think that either the Israeli or the American attacks had any lasting effect on the Iranian nuclear program at all.
+
+[02:06] The Iranians would never be so foolish as to have all of their eggs in one basket. There are facilities spread all over the country, most of them deep underground where these experiments uh are taking place. And while the Americans can bomb one deep site and the Israelis can bomb other sites that are not as deep, the work continues because there are so many different sites. So, you know, of course, to save face, the
+
+[02:37] United States and Israel are going to have to say that the bombings were successful. Uh I I don't believe that they were. And in fact, just judging by the Iranian response where the the Iranians essentially shrugged their shoulders and said, "Okay, you've bombed us. Now, we're going to move on." That tells me that these bombings were not terribly successful.

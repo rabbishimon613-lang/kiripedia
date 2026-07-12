@@ -1,0 +1,24 @@
+---
+slug: "2024-11-23-pentapostagma-tv-cia"
+title: "Ελληνοαμερικανός πρώην πράκτορας της CIA: Κακώς στην Ελλάδα"
+show: "Pentapostagma TV"
+date: "2024-11-23"
+url: "https://youtu.be/oAgBgV-tS3M"
+videoId: "oAgBgV-tS3M"
+duration: "3:00"
+captionSource: auto
+paragraphs: 6
+sponsor_paragraphs_stripped: 0
+source_file: 20241123-oAgBgV-tS3M.en.vtt
+---
+[00:00] [music] John Kyriakou is a former CIA agent and former senior investigator on the Senate Foreign Relations Committee who notably served 23 months in prison as a result of his efforts to oppose the government's torture program. In an article in an international media outlet, he discusses at length what Greeks expect from the election. He puts a rein on our expectations,
+
+[00:32] stating, among other things, that I spent the last two weeks on my ancestral island of Rhodes in Greece helping my cousin sort out his father's lamb estate. It's no surprise that everyone, literally everyone, wanted to talk about this month's U.S. presidential election. Greece has long had an anti-American streak stemming from the U.S. support for the military dictatorship of
+
+[01:04] 1967-1974 who killed, tortured and imprisoned thousands of people just because of their political views indeed the ruling conservative party of the new democracy only wins elections because there are so many socialist and communist parties that divide the left vote and allow the conservatives to govern but to my great surprise every leftist I have spoken to including almost everyone in my family from the KK to the
+
+[01:36] socialist panhellenic socialist movement PASOK offer full support to donald trump after hearing it over and over I decided to do some research to understand how lifelong socialists and communists can support a billionaire businessman who leads a capitalist and conservative political party or do they see trump as a peacemaker the reasons for their admiration for trump were quite simple
+
+[02:06] They saw Donald Trump as the anti-war candidate. Greeks know nothing about American domestic politics and generally don't care. They give you a blank stare when you mention abortion or healthcare or the environment, but they care about war. They hate what's happening to the Palestinians and the Lebanese, despite the fact that his government is unabashedly pro- Israel, just like Donald Trump. They hate that the United States armed an Orthodox Christian country, Ukraine,
+
+[02:39] against another, Russia. They hate that the United States has done nothing about the 50-year Turkish military occupation of Cyprus. Thank you for following us to be the first to receive all the latest developments. Like and subscribe to our channel.

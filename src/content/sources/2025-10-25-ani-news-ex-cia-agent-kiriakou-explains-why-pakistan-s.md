@@ -1,0 +1,28 @@
+---
+slug: "2025-10-25-ani-news-ex-cia-agent-kiriakou-explains-why-pakistan-s"
+title: "Ex-CIA Agent Kiriakou Explains Why Pakistan Stands No Chance"
+show: "ANI News"
+date: "2025-10-25"
+url: "https://youtu.be/WtmKVHRei9s"
+videoId: "WtmKVHRei9s"
+duration: "4:00"
+captionSource: auto
+paragraphs: 8
+sponsor_paragraphs_stripped: 0
+source_file: 20251025-WtmKVHRei9s.en.vtt
+---
+[00:00] You know, in this war that happened in May, India for the first time escalated it to a level where we had cruise missiles flying into Pakistan with direct hits at the time. And from the Indian side, this constant line is is said from right at from the prime minister level up. He says that that we called their nuclear bluff. You said that you were told unofficially that you knew that America knew where
+
+[00:31] the nukes were. Do you think Americans told India that the control of Pakistani nukes also lies with America? I doubt it. I doubt it because of the vociferousness with which the Pakistanis have come out publicly and said that they control the nukes. But I can tell you definitively that the State Department was telling both sides, "If you're going to fight, fight.
+
+[01:02] Keep it short and keep it non-nuclear." If nuclear weapons are introduced, the whole world is going to change. And so I think there was restraint on both sides. The Pakistanis need to come to a policy conclusion that there's nothing positive for them in fighting India. Nothing. Literally nothing good will come of a of an actual war between India and Pakistan because the Pakistanis will lose. Mhm. It's as simple as that. They'll lose.
+
+[01:32] And I'm not talking about nuclear weapons. I'm talking just about a conventional war. The Pakistanis will lose. Right. And so there's no benefit to constantly provoking the Indians. Right. Last question on the nuclear issue. I promise I'll move on after that. Okay, let's nix the control part. You you doubt that the actual control, but there was a New York Times article written by the by the New York Times editor that time for the national security that uh that President Bush had folded in hundreds of millions of
+
+[02:04] dollars in grants uh to Pakistan to safeguard their nuclear assets. The New York Times knew about this program, but decided to sit on it for a number of months before they finally published it. So even if they don't control it, did they give technology to safeguard it? Most likely, yes. What would that technology be? That I don't know. I I It's not my area of expertise, and I couldn't speculate. But I will tell you that
+
+[02:35] the fact that the New York Times sat on the article is a way of confirming its truth. And what I mean is when one of the big outlets, the New York Times, the Washington Post, the Wall Street Journal, you know, the Los Angeles Times or one of the big broadcast news networks, um when they come across information like this that's really it's big and it involves classified information,
+
+[03:07] they always ask the White House to confirm or to deny. If the information is truly classified and it's sensitive, the national security advisor will ask for a meeting. Sometimes the meeting is with the president and the head of the newspaper. Usually it's the national security advisor. And they'll say, "Look, yes, it's true, but it's so sensitive that if you publish it, it will put
+
+[03:38] lives in danger." Almost always, they'll sit on the article until enough time passes that people aren't in danger anymore. The fact that they sat on the article is confirmation that it was true. Mhm. [Music]
