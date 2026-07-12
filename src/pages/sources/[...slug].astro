@@ -14,7 +14,7 @@ const { data, body } = source;
 // Parse body into paragraphs keyed by [MM:SS] markers.
 const paraRegex = /^\[(\d{1,2}:\d{2}(?::\d{2})?)\]\s*(.+)$/;
 const paragraphs = [];
-for (const raw of body.split(/\n\s*\n/)) {
+for (const raw of (body || '').split(/\n\s*\n/)) {
   const line = raw.trim();
   if (!line) continue;
   const m = line.match(paraRegex);
