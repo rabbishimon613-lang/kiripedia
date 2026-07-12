@@ -1,0 +1,40 @@
+---
+slug: "2025-02-06-redacted-the-cia-is-finished-as-we-know-it-trump-is-bu"
+title: "The CIA is FINISHED as we know it Trump is burning it down w"
+show: "Redacted"
+date: "2025-02-06"
+url: "https://youtu.be/m5jv4cA1oD0"
+videoId: "m5jv4cA1oD0"
+duration: "14:00"
+captionSource: auto
+paragraphs: 14
+sponsor_paragraphs_stripped: 12
+source_file: 20250206-m5jv4cA1oD0.en.vtt
+---
+[00:00] okay well the Trump Administration is said to be ready to purge the CIA the same way it did other federal workers now this is the same offer that other federal government workers were offered if you retire you'll get paid for 6 to eight months you don't have to come to work and then your contract ends and you go do something else now the Wall Street Journal reports that this move is to quote bring the agency in line with President Trump's priorities including targeting drug cartels a CIA spokes work person said that this is an effort to Infuse the agency with Renewed Energy
+
+[06:53] infiltrate American defense contractors so look either we're going to be brothers in this thing or we're going to be adversaries but we can't be both that sounds like McCarthy era I mean is it possible that we may we now know McCarthy was right the venona files proved that when the fall of the Soviet Union they gave us the proof that McCarthy was actually looking at uh Soviets who were infiltrated in the US state department so is it possible now with this new turnover of Gaza that we
+
+[07:25] do get proof that there has been Israeli spies inside of our government too oh we've got the proof it's just a question of uh of releasing it and it hasn't been in our interest over the course of all these years uh to to embarrass the Israelis you know spying aside we're very very close to the Israelis uh we give the Israelis just about everything they want they have the most advanced Weaponry every time we invent something new the Israelis are the first to get it but they're always
+
+[07:55] afraid that we're holding something back and they just want to know for themselves if we are holding something back and if they find that we are they're going to approach us and they're going to ask us for it we're not we're not holding anything back but this is just the the way the Israelis operate and the reason is and I'm not even saying that I blame the Israelis but the reason is um they have nowhere to go if they're pushed anywhere it's going to be into the Mediterranean and they can't risk that and so they will do literally anything to maintain their
+
+[08:28] security John yaku but you know I'll get you out of here on this question Tulsi gabard a lot of push back on her as it related to Edward Snowden and you know it's kind of amazing to me you know she holds that he's an American hero I hold that he's an American hero I don't know where you come down on this but were you surprised by the vehement and the the vitriol from uh the questioners in that room about Edward Snowden and her position on that I I was actually I was especially surprised to see it coming from Republicans I would expect it from Democrats and I was surprised for a
+
+[08:59] couple of reasons and before I even I even give you the reasons let me say I think Ed Snowden is a Bonafide American hero and I was proud of Tulsa gabard for standing up for him and standing up for her own beliefs she would not allow herself to be bullied uh in these hearings one of the things that bothered me the most was the use of the word traitor there is a constitutional definition of the word traitor it is a person who provides Aid and comfort to the enemy in a time of War he did not provide Aid and comfort
+
+[09:30] to the enemy and we are not in a time of War there has not been a declaration of war by Congress since December the 8 1941 so he's not a traitor um one of the other things that surprised me and I think this came from Senator Angus King the independent Democrat from uh from Maine um he said that um that uh well besides saying that that Ed Snowden should be hanging from a tree he said that Snowden had defected to Russia that is absolutely not not true he was in the
+
+[10:01] transit Lounge of Moscow airport on his way to Ecuador when John kery revoked his passport and he was not able to fly so let's let's keep the honest people honest up there on Capitol Hill that's amazing I have one more question uh so now the Trump Administration is saying that it's purging the CIA because it wants to focus more on the Western Hemisphere than all the meddling that we've been doing in Europe in the Middle East do you buy that yeah in part I think Donald Trump
+
+[10:33] has been actually pretty clear and pretty consistent about being um anti-war at the core of his ideology I welcome that there's no reason why we should always be at odds with Russia and China if uh Marco Rubio the new secretary of state is correct when he says that we have to accept the inevitability of a multi-polar world I think that we do have to accept the EV the inevitability of a multi-polar world so let's let's focus on things that are a little bit closer to home for example Mexican drug cartels why is the CIA at
+
+[11:05] odds with the Drug Enforcement Administration when really at the end of the day drugs crossing the border into the United States is a bad thing and we should all be working together to stop it right yeah John kiraku we appreciate you joining us thank you for your Insight by the way just remind our audience here what did you blow the whistle on specifically in the corruption in the CIA just so our was prosecuted for yeah I was prosecuted for it it was I blew the whistle on the cia's torture program in uh in 2007 and funny enough the the Bush Administration
+
+[11:37] uh said that I hadn't done anything wrong it was it was years later when Barack Obama became president that the Obama Administration prosecuted me oh then on that on that topic what are your I'm sorry but I'm so interested what what are your thoughts on uh reopening Guantanamo Bay then because I think most of us get scared that we could then you reopen the torture program under Bush and Obama and have innocent people in there so but of course there's bad guys we do never want to see again how
+
+[12:08] do we keep an eye on that that that doesn't turn into that yeah I I'm strongly opposed to doing anything with Guantanamo other than closing it and in terms of of the bad guys pursuing the bad guys I think really the the right thing to do is quite simple you do what the Constitution tells us to do you you charge them with a crime you give them their day in court and allow them to face a jury of their peers if they're guilty and we can prove that they're guilty and then we incarcerate them but
+
+[12:39] putting them in a no man's land in a limbo at Guantanamo isn't going to work for anybody yeah and and what do you think how can we know as Americans because we didn't know what was happening to innocent people on our tax Dollar on our dime what do we look for as journalists even that's a great point and it's something that really was not addressed for years under either George W bush or Barack Obama you know the answer is a difficult one for all intensed purposes Guantanamo is off
+
+[13:11] limits for for almost all journalists and so we have to rely on the Congressional oversight committees but the Congressional oversight committees really have turned into little more than cheerleaders for for the various elements of the deep State well without the oversight committees all we have left are journalists it makes our job that much harder all right well let's stick with it thank you so much for that Insight I really appreciate pleasure thank you John great to see you thanks so much my pleasure

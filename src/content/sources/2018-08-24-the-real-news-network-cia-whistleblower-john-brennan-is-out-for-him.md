@@ -1,0 +1,48 @@
+---
+slug: "2018-08-24-the-real-news-network-cia-whistleblower-john-brennan-is-out-for-him"
+title: "CIA Whistleblower: John Brennan Is Out For Himself, Not the"
+show: "The Real News Network"
+date: "2018-08-24"
+url: "https://youtu.be/B2pTbYqWYos"
+videoId: "B2pTbYqWYos"
+duration: "9.3:00"
+captionSource: auto
+paragraphs: 18
+sponsor_paragraphs_stripped: 0
+source_file: 20180824-B2pTbYqWYos.en.vtt
+---
+[00:05] it's the real news I'm Marinette a the convictions Tuesday of Palme an important and Michael Cohen have fueled speculation that these two men may have something to offer Robert Muller in his investigation of President Trump and his alleged ties to alleged Russian meddling well if so and that's a very big if Cohen and metaphor would add to the list of people who Donald Trump has to worry about another is possibly former CIA director John Brennan Brennan is called Trump treasonous and guilty of
+
+[00:36] high crimes and misdemeanors because Trump resisted endorsing US intelligence claims about Russian meddling Trump responded last week by revoking Brennan security clearance Brennan then responded by calling Trump drunk on power the fact that he's using a security clearance of a former CIA director as a pawn in his public relations strategy I think is just so reflective of somebody who quite frankly don't want to use this term maybe but he's drunk on power he really is and I
+
+[01:09] think he's abusing the powers of that office I think right now this country is in a crisis in terms of what mr. Trump has done and is liable to do join me is John Kiriakou he is a former CIA analyst who went to prison for exposing the CIA's torture program he is also a best-selling author and co-host of the podcast and radio show loud and clear welcome John Kerry aku where do you stand on this Trump Brennan feud Trump criticized for politicizing the issue of
+
+[01:40] security clearances but I also know that you are not personally a big fan of Brennan or a big believer in his personal integrity no I have never been John and I go back almost 30 years I worked for him several different times while I was at the CIA and I can tell you that John really is the consummate overachiever he made a couple of really smart perhaps lucky political moves and so he has succeeded beyond even his own
+
+[02:11] wildest dreams um you know John throws around the word treason or treatments quite often treason is actually defined in the Constitution it's providing aid and comfort to the enemy at a time of war treason is a death penalty charge everyone in American history who has been charged with treason has been sentenced to death about half of those executions have been carried out so what John is saying is that the President of the United States ought to be executed
+
+[02:43] now we've seen no evidence yet of Russian collusion or the Trump campaigns collusion with the Russian government all we have is John Brennan and the likes of John Brennan telling us to take his word for it because if we had seen when he's seen we would know well you know what John Brennan also told us that there was no torture program he lied about that John Brennan told us that there was no extraordinary rendition program he lied about that he told us
+
+[03:13] there was no system of secret prisons that was a lie he told us that he hadn't ordered CIA officers to hack into the Senate intelligence committees computers that was a lot but on this he's telling us to take his word for it but why in the world would we take his word for it if everything else that the man has said has been alive let me say one other thing about John Brennan John makes it crystal clear to anyone who will listen in Washington that the reason he is so out there against Donald Trump is that he desperately wants to be secretary of
+
+[03:43] defense in the next democratic administration John's not a lawyer he's not a lobbyist and so he has to remain relevant and the way that he has seen to keep himself relevant is to go on CNN and to go on MSNBC and to me he's outrageous accusations just so that he continually gets press coverage that's what he's done and it's going to backfire yeah and this is the problem where you know in a bid to take down Trump for you know reasons that I think
+
+[04:13] you and I can sympathize sympathize with because we don't share John Trump's politics obviously but in a bid to do that it means that many liberals will endorse anybody who is challenging him including someone like John Brennan who might not necessary we be going after shop for the same reasons that the rest of us have because we actually opposed his policies is used indicated I mean Brennan to attack Trump for abuse of power is ironic given the the short list you gave there a Brennan's record including spying on the
+
+[04:44] Senate when they were trying to expose his torture program is ABC's torture program and then lying about it and also I want to play a few more clips of John Brennan because it's also interesting he's since after saying this thing about trees and he's walk that back and he's also indicated that he doesn't even have any evidence of this conspiracy that he seems so confident notes so first let's go to John Brennan again I'm speaking to Rachel Maddow where he actually told her that he doesn't actually mean what he
+
+[05:15] said about Trump committing treason for the president United States to continue to prevaricate on this issue I think does a great injustice and a disservice to the men and women of the intelligence law enforcement community and does a great disservice to the Citizens United States and that's why I said it was nothing short of treasonous I didn't mean that he committed treason but it was a term that I used nothing short of treasonous well you didn't mean that he committed treason now I said it's nothing short of treasonous that was the
+
+[05:45] term that I use yeah that's that if we if we diagram the sentence nothing short of treasonous means it's treason so that's John Brennan saying he did not mean to say that Trump committed treason essentially walking back the comments that got retweeted a million times and gotten a lot of attention we began the former CI director called the sitting president treasonous and then in the same interview Brennan also spoke about what he knows about alleged Trump Russia collusion which he admitted is basically
+
+[06:16] nothing more than what has been reported in the media there is collusion I think in open sight now because so many things I've learned since I left office because of what has appeared in the press you know the Trump Tower meeting with Don jr. and others and I also when I was CI director I didn't know that it was the day that mr. Trump basically gave a public call to the Russians to find Hillary Clinton's emails that it would fact was that same day that the GRU was actively looking for it so there is collusion in plain sight so
+
+[06:47] that is John Brennan speaking to Rachel Maddow so so John there you go we have Brennan walking back what he said about treason and then getting a little bit testy when he's called on it by Maddow and then saying that he actually doesn't even really know anything beyond what the rest of us have heard in the media and is talking about Trump Tower which has been you know analyzed elsewhere we don't have to go into but the point is he seems to be making these really explosive pronouncements based on essentially nothing yeah
+
+[07:18] and that's very much John John's an alpha dog he's always been like that he's always been the first one to pick a fight or the first one and to raise his voice he even told Rachel Maddow in that interview that his Irish was up and and so he may have said things that he didn't actually mean what he was referring to of course was what you just said that the president committed treason well he didn't really commit in treaties and he kind of maybe committed treason that's just John that's that's how he is and there are others like John
+
+[07:49] Hill mud does the same thing Phil mud has has called Donald Trump a petulant child he said that Trump need pacifier and a new rattle but it's the same thing with John in that films trying to get his own show on CNN and Phil wants to be the deputy director of the FBI or the deputy director of the CIA I mean that's Washington that's just the way it is and let me see something big - I've written extensively about this you don't have to
+
+[08:22] pick a side you have a scenario where there's no good guy we don't have to love Donald Trump and hate the CIA or vice versa you can you can not like Donald Trump and not agree with Donald Trump's policies but then not throw your body in with the beep state and the CIA and the FBI and the likes of John Brennan our democracy is broken right now we need to take it back at the brass roots we need to throw the bums out of Congress and we need to elect people who are going to exercise real oversight but we don't have to throw our lot in with
+
+[08:53] either from or job well john korea who will leave it there John Kiriakou is a best-selling author coast of the radio show and podcast loud and clear and a former CIA whistleblower John Kerry Yahoo thanks very much my pleasure thanks take care and thank you for joining us on the real news

@@ -1,0 +1,48 @@
+---
+slug: "2021-01-20-democracy-now-profiting-from-pardons-giuliani-aide-told-cia"
+title: "Profiting from Pardons: Giuliani Aide Told CIA Whistleblower"
+show: "Democracy Now!"
+date: "2021-01-20"
+url: "https://youtu.be/kcHBXm1aWIM"
+videoId: "kcHBXm1aWIM"
+duration: "9.2:00"
+captionSource: auto
+paragraphs: 18
+sponsor_paragraphs_stripped: 0
+source_file: 20210120-kcHBXm1aWIM.en.vtt
+---
+[00:00] this is democracy now democracynow.org the quarantine report i'm amy goodman in new york joined by my co-host juan gonzalez who's in new brunswick new jersey hi juan hi amy and welcome to all of our listeners and viewers across the country and around the world well with less than 12 hours before the end of his presidency donald trump issued 143 pardons and commutations including a pardon for steve bannon his former chief strategist and campaign manager in august bannon was arrested
+
+[00:31] for defrauding trump supporters who donated to a pro-wall anti-immigrant non-profit called we build the wall in recent weeks bannon helped promote conspiracy theories about the 2020 election and urged trump supporters to come to washington d.c on january 6 when rioters attacked the capitol in an insurrection that left five people dead including a capital police officer other high-profile pardons included elliot broidy one of trump's top
+
+[01:02] fundraisers in 2016 and three former republican congressmen rick renzi robin hayes and randall duke cunningham added to another several congressmen early trump supporters that trump uh gave commutations or pardons to trump also gave a pardon to ken kersen a close friend of jared kushner trump's son-in-law carson is the former editor of the new york observer who was arrested in october for cyber stalking three people including his ex-wife the rappers lil wayne and kodak black
+
+[01:34] also received pardons the white house announced the latest pardon shortly before 1 a.m this morning trump had previously pardoned other top associates including former campaign manager paul manafort former national security adviser michael flynn advisor roger stone as well as jared kushner's father as well as four blackwater mercenaries who massacred 17 iraqis in the 2007 nissor square massacre in baghdad iraq trump has so far rejected calls to
+
+[02:06] pardon wikileaks founder julian assange or nsa whistleblowers edward snowden and reality winner meanwhile trump pardoned israeli spy aviamcella who was indicted in 1987 of recruiting u.s naval intelligence analyst jonathan pollard to sell secrets to israel this all comes as more details emerge about how allies of trump have personally profited from people seeking pardons the new york times reports an associate of rudy giuliani told cia
+
+[02:36] torture whistleblower john kiriakou a pardon is quote going to cost 2 million dollars kiriakou declined the offer but he did pay 50 thousand dollars to a former top trump campaign adviser for help in his quest to secure a pardon well to talk more about the pardon system we are joined by john kiriakou himself who is still seeking a pardon kiriakou served 23 months in prison after he exposed the cia's torture program john kiriakou welcome back to democracy now before we get your response to these
+
+[03:06] pardons tell your own story your own attempt to get a pardon and what it involved it was different under uh donald trump than it was certainly under barack obama the the normal way of applying for a pardon is you simply go online to the website of the office of the us pardon attorney you fill out the form it then goes to the fbi which does an investigation and then the pardon attorney makes a recommendation of yes or no that's the way it's supposed to work the
+
+[03:37] way it worked under donald trump is that he ignored the office of the u.s pardon attorney in most cases the pardon attorney wasn't even consulted if you were a friend of the president or you knew someone who was a friend of the president or you hired a friend of the president and you could get to him i thought it was uh and make your case then you were considered for a pardon uh what i did was i had to hire a lobbyist who had uh headed the the trump campaign in
+
+[04:07] florida in 2016. uh she charged me 50 000 that i didn't have i had to borrow with a promise of another 50 000 once i got the pardon the money went down the drain but we now know that uh that other associates of donald trump were charging double that even 10 and 20 times that and john kiriakou what about this issue of uh you're being told that rudy giuliani could help win you a pardon for two million dollars who made the uh who told you that and
+
+[04:39] could you tell us any more about that offer sure i uh had a meeting with uh with four other people that included rudy giuliani on july 1st of last year here in washington at the trump hotel it was a it was a meeting completely unrelated to to a pardon and i frankly didn't even intend to make the request but there was a lull in the conversation so i thought i'd take advantage of the opportunity and so i said uh well mr mayor can we talk about maybe asking for a
+
+[05:09] presidential pardon he immediately said that he had to use the men's room and he got up and he walked away one of his aides who was there at the meeting then said to me rudy doesn't talk about pardons you have to talk to me and he's going to ask you for two million dollars and i laughed and i said i don't have two million dollars i said are you out of your mind two million dollars why would i spend two million dollars to recover a 700 000 pension that doesn't make any sense and i dropped it but he said that that's
+
+[05:40] what the the price was now they don't see this as a bribe they don't see it as buying a pardon they see it as as lobbying which is you know and a dirty thing that happens in washington but this is the way washington works now supposedly trump uh saw you on a fox news show that hosted by tucker carlson and uh could you talk about that sure uh it was in october of 2019 i was
+
+[06:10] on the tucker carlson show talking this is on fox news talking about um my my case that i was i was prosecuted under barack obama after i blew the whistle on the cia's torture program and uh and my real detractor uh in the obama administration was john brennan i said that robert mueller had set up the john kiriakou task force and that peter strzok had actually arrested me and i you know was looking for for a pardon
+
+[06:41] well it turned out that donald trump was watching the episode that night and he called jared kushner and said there's a guy john kiriakou on fox news you should get in touch with him so the next day my attorney got a call from jared kushner's attorney and a couple days after that we met in kushner's attorney's office uh kushner was very cold he was very stiff and not at all friendly amiable open what he said was
+
+[07:13] what do you want and i said i want a presidential pardon and he said give me one page i want three quarters of the page explaining your your uh situation your case your background the other quarter of the page i want you to tell me how a pardon for you helps donald trump get reelected so i did what i could my attorney wrote this one page we sent it to kushner and never heard anything again now and how does that compare to what the normal process is supposed to be for
+
+[07:45] someone seeking a presidential pardon the normal process is you wouldn't even know who jared kushner was the the problem that we have here is that over the years the office of the us pardon attorney has seen it as its role to deny people's applications for pardons if you have 10 000 applications a year and you only make recommendations for five pardons or ten pardons then the system is broken
+
+[08:15] and so trump recognized that the system was broken and he also recognized that he had unfettered authority to take care of his friends and his associates and that's what he did uh he did it in a really ugly uh unethical way but he did it because really for his friends and associates there was no way around it they weren't going to go to the website of the pardon attorney and and fill out a form they were going to go directly to the president frankly what we need is a bipartisan effort to reform the
+
+[08:47] pardon process first of all the pardon attorney should not be housed at the justice department it should be housed at the white house secondly it should be independent of the prosecutors at the justice department and independent of the attorney general and it's not and so nothing gets done you

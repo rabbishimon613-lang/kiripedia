@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[18:48] capital that the french uh had built up uh and therefore really didn't know what was going on i don't know if that's a critique you would agree with yes i would agree with that uh utterly i i have a passage in my first book uh where i talk about a a team of of middle eastern intelligence officers who came to head to headquarters cia headquarters on july the 7th 2001. this was a completely normal routine visit where
+
+[19:18] they come for a day we exchange gifts we give them a day of briefings they get a photo op with the director i take them to morton's steakhouse at the end of the day and then we do it with somebody else the next day so july the 7th i set up a series of briefings and one of the briefings for them was uh was on al qaeda it was supposed to be conducted by a junior analyst and much to my shock into the briefing walks kopher black
+
+[19:49] later ambassador for black the director of the cia's counter-terrorism center and um and a woman we used to call the red-headed devil i i won't i ought not to say her name but she was the chief of operations in the osama bin laden group and um i said oh welcome i i was so surprised i said to these middle easterners gentlemen this is uh ko for black he's the director of the counter-terrorism center and kopher sat down and and cut right to the chase and
+
+[20:20] he said something terrible is going to happen we don't know when we don't know where but we know it's going to be huge uh we're picking up chatter where where al qaeda's camp commanders are on the phone with their students and and they're crying and saying i'll see you in paradise we're hearing code words for a major attack uh there's going to be a great soccer match there's going to be a huge wedding uh this the honey salesman is coming with vast quantities of honey
+
+[20:51] these are all codes for a major attack and he said i beg you if you have any sources inside al qaeda please help us so afterwards at the end of the day i sent these guys back to their hotel before the dinner and i went to cover's office to thank him for taking the time and i said kopher i i've got to ask you because i wasn't working on al qaeda at the time i said was that for their benefit or were you serious and he said oh no i was serious he said we don't have any sources inside
+
+[21:22] al qaeda and we know that something terrible is coming i covered the war in kosovo and made the first trip with members of the kosovo liberation army and then met with wes clark afterwards who was the head of nato and he was asking me what kind of weapons they had and how many there were and he slammed his hand down on the desk and he said langley doesn't have anybody on the ground nope nope that's quite common and they rely far far too much on electronic eavesdropping you know you can't have
+
+[21:53] nsa do all of your work for you that that's not that's not a full complement of intelligence so frank church this is after going through the heavily redacted cia documents that were provided the church committee in 75 this is how he defines covert activity quote a semantic disguise for murder coercion blackmail bribery the spreading of lies and consorting with known torturers and international terrorists is that accurate
+
+[22:23] unfortunately yes that is that is accurate you know i i've got to give credit to to bill clinton um in this question because when bill clinton was elected president you remember the the 1992 election it was all about the economy stupid remember so uh bill clinton really had very very little interest in uh in the cia and in foreign policy foreign policy just was not his thing and you know we were used to briefing the president every single day six days a week with the president's
+
+[22:54] daily brief george h.w bush had been the cia director he had been ambassador to the u.n ambassador to china and he relished these briefings and even ronald reagan even as he became you know dim in the last two years of his presidency he got the briefing six days a week well bill clinton was briefed twice over the course of his eight-year presidency he just was not interested al gore was interested but clinton wasn't well the one thing that bill clinton did at the very start of his presidency was
+
+[23:24] he initiated something called a call so he ordered the cia to to identify every recruited asset who had some sort of a human rights problem in his background and to fire that source right throw him off the payroll no more meetings no more talking we're not dealing with human rights violators and i remember my bosses laughing in the beginning like this is never ever
+
+[23:55] going to work and sure enough fully one-third of the cia's recruited assets were fired in that call and for all those eight years of the clinton presidency there really was respect for human rights it was something that nobody thought would work it actually did work but then and i hate to keep repeating myself 911 hit and then all the rules just went right out the window so i want to talk about blowback uh uh
+
+[24:25] afghanistan you know being perhaps the [Music] prime example of that 1979 when we were supporting the mujahideen uh later became the taliban um richard clark argues i'm quoting again the cia used its classification rules not only to protect its agents but also to deflect outside scrutiny of its covert operations peter thompson the former ambassador to the afghan resistance during the 80s

@@ -1,0 +1,48 @@
+---
+slug: "2025-04-22-mintpress-news-john-kiriakou-exposing-cia-torture-u-s-war-cr"
+title: "John Kiriakou: Exposing CIA Torture & U.S War Crimes / State"
+show: "MintPress News"
+date: "2025-04-22"
+url: "https://youtu.be/VB81AhUzTo8"
+videoId: "VB81AhUzTo8"
+duration: "9:00"
+captionSource: auto
+paragraphs: 18
+sponsor_paragraphs_stripped: 0
+source_file: 20250422-VB81AhUzTo8.en.vtt
+---
+[00:00] I have put this program in place for a reason and that is to better protect the American people. And when we find somebody who may have information regarding an potential attack on America, you bet we're going to detain them. And you bet we're going to question them because the American people expect us to find out information, uh, actionable intelligence so we can help them, help protect them. That's our job. So, that was archived footage uh
+
+[00:33] from the Oval Office of former President Bush referring to two secret memos in 2005 that authorized extreme interrogation tactics against terrorist suspects. As you can see, US policy has been evolving to where we are for quite some time. Let's just get right into it. And I personally want to let's start off with this question because I spent the most formative years of my life and joined special operations command and the 75th Ranger Regiment. And when I started to branch more into like human intelligence collection and got plugged into the kinetic strike targeting cycle
+
+[01:06] of drone strikes in Afghanistan officially. Of course, I knew we were dropping people who shouldn't have been dropped. Uh and I was a field interrogator for a while and we knew other interrogators that were still like pretty brutal. I never believed in negative incentives. Um, it's just not who I was personally. Uh, you know, and and there were some reforms after the torture report came out. Uh, but basically it was basically just don't use waterboarding or threaten to use dogs and don't get caught. Uh my
+
+[01:37] question that I always like to ask like when you put the wheels in motion to blow the whistle on human rights abuses by US clandestine services, why did you do it or what did you hope to achieve and put yourself at such personal risk? Like I've just met so many guys uh who either didn't care or were resentful that they couldn't go even further. So sure, you know, one of the reasons why I did it was well, let me back up. I was the chief of CIA counterterrorism
+
+[02:07] operations in Pakistan in the immediate aftermath of 9/11. When I returned to CIA headquarters in May of 2002, I was asked if I wanted to be trained in what they called the use of enhanced interrogation techniques. I had never heard that term before. I didn't know what it meant. And the way it was explained to me in my mind was clearly torture. And I was well read enough to know that we have the Federal Torture Act of
+
+[02:37] 1946. We have the United Nations Convention Against to Torture. We have other laws that that very clearly delineate what we are allowed to do in national security custodial um interrogations. I declined the training. I I was the only one of the 14 people who were approached who declined to be involved. Um at the same time I was promoted because I had led the capture of Abu Zuba who we believed was the
+
+[03:08] number three in al-Qaeda at the time and who was the first person to be subject to torture. So I got promoted to be the U executive assistant to the CIA's deputy director for operations. And in that position, I was able to see for one year, I was able to see literally everything that the CIA was doing around the world. It was 100% crystal clear to me that there were a lot of people inside the CIA who were opposed to the torture program. People
+
+[03:40] were writing cables back to headquarters from the secret site saying, "Whoa, this is not what I I signed up for. I'm not going to do this. I want to come home." That's called a curtailment where you curtail your overseas assignment. It's a careerending decision. There were people who resigned from the secret site. There were nurses who fainted uh while watching the torture sessions. There were doctors from the office of medical services who would write, "Wait a minute. Wait a minute. I took an oath
+
+[04:10] to do no harm, and you want me to be there to revive this guy after you kill him so that you can torture him more? I'm not doing that. So I thought, well, certainly somebody is going to say something. After my tour on the uh executive floor was done, I went to the United Nations for my final tour. And then I resigned from the CIA and I went into the private sector, still thinking somebody's going to say something. And then finally in 2007, I
+
+[04:42] said something to ABC News. My only regret was that I left five and a half years on the table. I learned about the torture in May of 2002. It started on August the 2nd, 2002 and I didn't say anything until December the 11th, 2007 and I wish I had said something sooner. Did more than most. Um, what was the the the source of uh I don't know your your desire to do that? Because
+
+[05:13] I've I've known people opposed to the torture program just for very practical real politic reasons, you know. It doesn't work, right? It it doesn't work and it if it ever comes out, it it degrades US soft power globally. Yeah, it very much does. The reason why I felt so strongly about it is as soon as I like the the moment that I heard about it, my response to the senior officer who approached me was that sounds like a torture program. Torture is illegal. And he said, "No, it's not a torture
+
+[05:44] program. The president signed off on it and the justice department signed off on it. It's perfectly legal." And I said, "I don't know, man. Let me think about it." So besides asking a a senior officer for his opinion and his opinion was quite strongly in opposition to the program, I started to do my own research and what I found was and this was very convincing to me was that in 1945 and 1946 we executed Japanese soldiers who
+
+[06:16] had waterboarded American PS. That was a death penalty crime to waterboard somebody. and we executed several Japanese soldiers for waterboarding. On January the 11th, 1968, the Washington Post ran a front page photograph of an American soldier waterboarding a North Vietnamese prisoner. The day that that picture was published, the Secretary of Defense, Robert S. McNamera, ordered an investigation. The soldier was arrested.
+
+[06:46] He was convicted of torture and he was sentenced to 20 years at hard labor at Levvenworth. Besides that, not only is the US a signatory to the United Nations Convention Against Torture, it's the author of the United Nations Convention Against Torture. So, if waterboarding somebody was a death penalty offense or worthy of 20 years at hard labor, and not only did we feel so strongly about the law here in
+
+[07:18] the United States, but we made it international law by writing the UN Convention, how could it just magically be be legal in 2002? Just poof, by magic. Congress never passed any amendment to the law. We changed. It's like when Bill Clinton, you know, disagreed with what the what the definition of is is. You can't just pretend that the law doesn't exist or pretend that you somehow have the authority to ignore it because you don't like it. And so that's
+
+[07:50] why I felt so strongly about it. And and that's why I felt that the American people had to write had a right to know about it. You know, this really is the definition of an extraordinary rendition. Well, I'll let you decide. It could be just a rendition. Either way, it's illegal. There's no due process here, right? This this guy in from Maryland that has been sent to El Salvador um was not given due process. He's never been charged with a crime and nobody's going to meet with him and he's not going to
+
+[08:20] be released. And then we have the president say, "Actually, we would like to uh finance the building of four or five more of these 30,000 unit, you know, super prisons." Well, what the heck is that? So, is the plan that we just are doing away with with due process? Do Americans or US persons, people who have valid green cards, do they just no longer have civil rights and civil liberties? because it sure looks like that's the road we're taking.
+
+[08:51] I think so, too. I think they're going to force the issue all the way to the Supreme Court. And even then, I'm not sure that the administration can be trusted to abide by a Supreme Court ruling.

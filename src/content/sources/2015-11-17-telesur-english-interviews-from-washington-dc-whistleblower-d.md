@@ -1,0 +1,104 @@
+---
+slug: "2015-11-17-telesur-english-interviews-from-washington-dc-whistleblower-d"
+title: "Interviews from Washington DC - Whistleblower Denounces CIA"
+show: "TeleSUR English"
+date: "2015-11-17"
+url: "https://youtu.be/Tk9q6OCiFXY"
+videoId: "Tk9q6OCiFXY"
+duration: "24.2:00"
+captionSource: auto
+paragraphs: 46
+sponsor_paragraphs_stripped: 0
+source_file: 20151117-Tk9q6OCiFXY.en.vtt
+---
+[00:04] hello I'm Korra chistosa welcome to a new program from Washington on today show the cracking of whistleblowers by the US government our guest John Kiriakou a whistleblower and former CIA analyst mr. kyriacou warm welcome to the program thank you for having me John you have said and I read and I quote your words my case was never about leaking my case was about blowing the whistle on torture and you have said torture is
+
+[00:36] wrong under any circumstance what happened to you I I was talking to a reporter for ABC News the reporter told me he was writing a book on the CIA's rendition detention and interrogation program that's the program where the CIA will will kidnap or snatch a person that they believe to be a member of a terrorist group and send him either to Guantanamo or to a third country I told
+
+[01:06] him I didn't know anybody who was involved in renditions it just wasn't my area so he sent me a list of names and he said can you introduce me to any of these people I said I couldn't he did this a second time finally he said what about the man that you mentioned in your book that you ran into in Pakistan and I said oh that's I'm going to use the name that's John Doe I said I don't know what ever happened to him he's probably retired that was a crime that was a felony and the government prosecuted me
+
+[01:38] because you were the one who really was really blowing the whistle about waterboarding and and this is exactly my point what I what I did really isn't a crime that happens every day in Washington if you read The Washington Post to the new york times you see CIA people quoted all the time or the names of CIA people but the fact of the matter is that in december of 2007 i went on national television and i said three things i said the CIA is torturing its prisoners I said that torture is
+
+[02:09] official US government policy and I said that the himself had approved of that policy they started investigating me within 24 hours the investigation never ended and finally four years later they charged me with five felonies and then you end up in jail and you were serving at 23 months sentence in jail yes then a house arrest and you officially you are in supervised release sort of probation
+
+[02:39] career still today I still am I actually am until the middle of 2018 I'm considered to be a criminal and so if I want to leave the Washington area I have to have written permission at least one week in advance and if i want to go overseas I have to get written permission from my judge one month in advance and then there's petty harassment crossing the borders and each time I say to these border these border
+
+[03:10] agents you can't stop me from coming into my own country you may want to you may try to but you can't stop me from coming into my so you ended up in gym for attending the truth yeah I I said that we were torturing these people that torture was wrong it was wrong under any circumstances and I also said that despite what the Bush administration Justice Department said torture is a violation of both US law and international law and I'll tell you something in January of 1968 The
+
+[03:43] Washington Post ran a photograph of an American soldier waterboarding a North Vietnamese prisoner when that photograph was published the Defense Department initiated an investigation and that soldier was put on trial and he was convicted of torture and he was imprisoned so if waterboarding was torture in 1968 why was it not torture in 2002 the law never changed and indeed the United States is a signatory to many
+
+[04:14] international conventions and treaties that ban torture in many of those cases we wrote those international conventions and treaties so we're telling other countries don't torture torture is illegal but they we torture and it's okay for us talk about the torture that were practice and you correct me something is missing or wrong waterboarding sexual abuse with broomsticks rectal feeding rectal hydration with Hamas power drills making
+
+[04:46] awful noises sleep deprivation up to 180 hours in one case hands shuckle above the heads and all those people who practice that torture are not in jail you were the only ones who ended up in jail I was the only one who ended up in jail and i will add something to that list and this is something that we now know from the Senate torture report and from the CIA inspector general's report and that was what they called the cold cell they they strip a prisoner naked
+
+[05:18] they chained him to an eyebolt in the ceiling and they chill the cell to 50 degrees Fahrenheit and then every hour they throw ice water on him now we murdered a prisoner in that way in fact there was an article in Newsweek in one of the recent issues of Newsweek magazine saying that this CIA officer who murdered the prisoner using the cold cell retired at full pension and is now
+
+[05:50] teaching at a university at a Catholic University no less the former Virginia congressman his name is Jim Moran now retired has said in the Congress that that you deserve a presidential pardon and he didn't get it but you thinking you are thinking eventually to request one to write the letter to the president eventually next year I think I would like to ask next year for the president to pardon me my my thought is I have a
+
+[06:20] great deal of political support not just on the left but on the right to people like John McCain for example on the political right who are opposed to torture and so because being tortured and he has and he is the only member of Congress who has actually been tortured so if anybody in Congress is an authority on the of torture it's Senator John McCain you can disagree with his political positions on other issues but nobody knows torture like John McCain does so I I have a measure of hope that in the
+
+[06:55] final days of President Obama's administration that he may think kindly enough on me that he might issue a pardon if he doesn't the law allows me to apply for a pardon every two years and maybe the next president will decide to part eventual if it's a Democrat because of its a rebellious Republican I have no chance you have already mentioned that president bush and in 2007 he said categorically we do not torture prisoners yes and you said that
+
+[07:26] you knew that was a lie it was a lie you use a word lie and then you say the whole torture program talking about the US was approved by President Bush himself and was a very planned program so there's no room for for discussion no there's no room for discussion or interpretation the president was lying he was lying to the American people in order to cover up this torture program I remember briefing the deputy director of the CIA which is something that I did
+
+[07:58] every morning for a year in in my last year with the organization and I remember that the president's memo had just arrived in which he authorized the torture program and I remember the deputy director just repeating over and over I can't believe he signed that memo it was as though they said well let's ask him if we can torture he'll probably say no but at least we should ask well we asked and he said yes and even at the CIA at the top levels of the CIA they
+
+[08:29] couldn't believe he said yes and not only the if you want international laws being violated but one of the issues here is that the torturing is not giving any results now see this is you're exactly right this is one of the things that that most Americans either don't know or don't understand and it's that torture never works we know from both the Senate torture report and the CIA inspector general's report that no actionable intelligence
+
+[09:01] was collected through the use of torture and we know that no American lives were saved through the use of torture when people are being tortured they'll tell their their interrogator anything that they think that person wants to hear just to make the torture stop even if they give correct information they give so much incorrect information that you can't you can't call through the information you can't you can't analyze it quickly enough to decide what's true
+
+[09:31] and what's not true so none of it ends up being in the case of Vice President Dick Cheney he was really pushing and saying openly that he will do it again and he doesn't repent and he believes that that's a way that was was very positive the results that we got and you have said being asked should he be tried and you say yes yes I think that dick cheney is a war criminal I think that he intentionally violated international law
+
+[10:02] he violated international human rights and he ought to be punished for his crimes the thing about dictating Dick Cheney as well is that he is completely unrepentant he makes no apologies for what he did and says that he would do it again there has to be a country out there whether it's germany or spain or someone who's willing to file criminal charges against him and i know that he'll never be arrested certainly and
+
+[10:33] he'll never be tried for a crime but someone ought to make it official and someone ought to charge him it we just haven't seen that kind of courage yet what about President George Bush well I think George Bush also should be should be charged with crimes against humanity as should George Tenet the the leader of the CIA as should Donald Rumsfeld the former Secretary of Defense see and the reason why so many of these people who were involved in the torture program have really gone all in and and they
+
+[11:05] still say it was right it was good it was successful is because this is their legacy when they die and their obituaries are written it's going to say that they were the leaders of the torture program so dr. regimes you may even mention a torture regime and for the rest of their lives they're going to try to convince the American people that this was the right thing to do and that it worked would you put your hand on the fire that today today the u.s. is not
+
+[11:36] torturing I like to think that the u.s. is not but you wouldn't put your hand I would not bet money I would not put my hand no and going to the subject of whistleblowers you have said that Edward Snowden is a national hero why because Edward Snowden knew what he was getting into and yet still took the risk to tell the American people that their government is spying on them it was illegal when I was working for the CIA it was illegal to collect information on
+
+[12:09] an American citizen if NSA even accidentally initials I'm sorry if the National Security Agency accidentally collected information on an American citizen or collected a phone call from an American citizen they would have to delete it from their systems and then they would have to inform Congress that they had accidentally intercepted an American well now they intercept every American's phone calls emails text messages and they have enough storage
+
+[12:40] space in their new facility in in the state of Utah to save it for 500 years and on top of that address accusation is internationally also they are gathering information there's not a country on Earth that isn't vulnerable to having their personal information collected by the National Security Administration and the CIA the candidate Bernie Sanders Democratic presidential candidate ben Dyson's said regarding Edward Snowden
+
+[13:12] and I quote I think Snowden play a very important role in educating the American people to the in which our civil liberties and our constitutional rights are being undermined you agree I do agree and I think Bernie Sanders is one of only probably two people running for president who has the courage to say something like that I agree with Bernie Sanders position on Eddie stone I think he did a great national service and if it wasn't for ed Snowden we wouldn't
+
+[13:43] have any idea what our own government was doing to us you were mentioning that Obama administration is really cracking down very very hard on whistleblowers we as we had had the opportunity to interview Julian Assange inside the embassy of Ecuador in London first interview after three months only three months after he has getting diplomatic asylum now it's already three years yes and Joe Biden the vice president of the United States has said that Julian
+
+[14:15] Assange is a cyber-terrorist you know Joe Biden used to be the voice of reason I was convicted of violating a law called the intelligence identities Protection Act of nineteen eighty two not only did Joe Biden vote against that law but he wrote an op-ed in the Christian Science Monitor saying that that law was unconstitutional and it caused a chilling effect on our freedom of speech now today the obama-biden administration has prosecuted not just
+
+[14:48] me but eight other whistleblowers under the Espionage Act the Espionage Act was written in 1917 to target German saboteurs during the First World War from 1917 until 2009 it was used three times in American history since barack obama was elected president nine people have been charged under the Espionage Act have none of us i should say have been accused of of giving information to a foreign government or foreign power of
+
+[15:18] any kind we've all been accused of blowing the whistle on waste fraud abuse and illegality where is the US acting like that leaving the word democracy as a way to conduct the life the u.s. is really a democracy because if I realize that for telling the truth you could end up in jail as you did Edward Snowden end up in Russia is Julian essential three years inside the
+
+[15:49] embassy of Ecuador it's a way of creating terror you could be terrorized to tell the truth so it's a way to practice terrorism or not I I gave a radio interview recently and a woman called with a question when she said if you know that they're targeting you you know that they're listening to you you know that they're following you in fact they even sent you to prison she said why are you still speaking out why are you still talking she said I would be
+
+[16:20] completely silent terrorized terrorized that's the definition of terrorism and I said the founding fathers of the United States gave me a constitutional right to freedom of speech and I intend to exercise that right just as those founding fathers intended I said Barack Obama will not silence me george w bush will not silence me I have a right and I intend to use it so you you do not repent of you have done absolutely not I
+
+[16:52] Oh as crazy as it might sound I would do the whole thing again why crazy someone has to stand up and tell these these people that enough is enough that what they're doing is wrong we have problems with civil rights we have problems with human rights we have problems with civil liberties and we're using the most draconian aunty spying law to crackdown on whistleblowers this is not this is not the kind of government that I want
+
+[17:23] jesselyn Radack who is one of my attorneys and who is a whistleblower herself says I want my September 10th country back and that's exactly how I feel so in reality it is hypocrisy and even to be perverse that you guys that are really feeling patriotic because you really want to stay to the principles of the founding fathers yes are trying to be portrayed as the unpatriotic yes the traitors
+
+[17:54] which is exactly the opposite day real the real ones that could be accused is the other part is the other side in fact the day after I I went on ABC News and I said we were torturing prisoners a sitting u.s. senator said that I should be charged with treason which is a death-penalty charge and a woman who works at one of the conservative Republican think tanks wrote an op-ed in the San Francisco Chronicle saying that
+
+[18:25] I should be put to death for the revelations that I made that energized me even more and I'll tell you another thing too about this administration for the first time in American history we're murdering American citizens overseas with the use of drones these are Americans who have not been given their constitutional right to face their accusers in court they have not been charged with any crime for example if
+
+[18:58] unmarked was a Yemeni American Muslim Imam if if he was the terrorist that the government wants us to think he was why didn't they charge him with a crime why did they just murder him and then a week later they murdered his 16 year old son for good measure sitting at a cafe and murdered the cousin who happened to be having tea collateral damage collateral damage never issued an apology we have
+
+[19:28] kidnapped a Canadian professor muharram kidnapped him from a plane at John F Kennedy Airport in New York and sent him to Syria to be tortured never apologized when they determined he was the wrong guy we kidnapped a German citizen named khalid al masah tea and sent him first to Afghanistan and then to Egypt to be tortured and then realized he was the wrong guy we never issued an apology
+
+[19:59] I mean this is the government that that we have now when did this happen how did this happen and that's why I want my September 10th country back I mean that sense why the population is not reacting as you do with with moral principle I think the population in general believes the propaganda that both the Bush and Obama administrations have fed the American people saying we have to do this this is the only way to keep the country safe you know I heard I heard somebody say just recently on the news
+
+[20:30] that yes that these tactics are very hard but we haven't been attacked since September 11th so it works but let me interrupt you there because if you say I heard them in the news but if you dig a little bit deeper only six corporations own ninety percent of the media examined those corporations in a way control ninety percent of the agenda of information that fits almost three hundred millions America so in reality
+
+[21:02] the question is is the news media independent is it you mean news media informing or is misinforming purposely ya iya I will admit to you that that in prison I stopped watching the news the mainstream news why because I don't believe them for the very reason that you mentioned the American news is a corporate owned entity and I'll give you an example the intercept reported
+
+[21:34] recently owned by Greenwald then it has been part of the documentary who owned that's right the Academy Award for Edward Snowden Arab citizen for so the intercept reported on based on leaked documents related to the drone program they said this is the kill list this is how people find themselves on the kill list this is how the president decides who to kill that news appeared in the
+
+[22:06] intercept and on the Huffington Post which is owned by Arianna Huffington it appeared nowhere else it didn't appear in the New York Times The Wall Street Journal the Washington posed and news network the news networks finally a couple of days later CNN had a very small story but there really hasn't been anything out there and it's because large corporations which which have you know a vested interest in maintaining the status quo don't want us to know
+
+[22:37] these kinds of things so I find myself watching foreign news channels and and reading the Alternative Press I now I get my news from Twitter if you if you rewind and you say well and I was a very successful CIA basically analyst and your life has been ruined because of that yes my life has been ruined I can't
+
+[23:08] find a decent job no company will ever employ me again I lost my house at least temporarily I hope to move back into it sometime next year I had to sell all of my possessions to pay my attorneys the government took my pension my federal pension after almost 20 years of government service and i still owe my my lawyers eight hundred and eighty thousand dollars for Sam even though almost a million dollars I actually
+
+[23:38] spent more than a million dollars and they they cut the bill a little bit how I'm going to repay that I don't have any idea but you're well with yourself because you are defending your principles the principles of that you believe that your country are based on yes that's right I can sleep at night my children are proud of me my wife is proud of me and I know in my heart I did the right thing John Kiriakou thank you very much for joining us thanks for having me
