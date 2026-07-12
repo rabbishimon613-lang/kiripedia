@@ -230,19 +230,27 @@
     "quote:fci-loretto:21",
     "dyk:john-kiriakou:13",
     "quote:enhanced-interrogation:2",
-    "dyk:safe-housekeeper:1"
+    "dyk:safe-housekeeper:1",
+    "quote:sharon-scranage:0"
   ],
   "knownSlugs": [
+    "1953-iran-coup",
     "1993-bush-assassination-plot",
-    "abdul-rashid-dostum",
+    "911-attribution-of-responsibility",
+    "abolish-the-cia",
+    "abraham-bolden",
     "abu-nidal-disruption",
-    "abu-zubaydah-capture",
+    "abu-omar-rendition",
     "abu-zubaydah",
     "access-agent",
     "admiral-crowe",
+    "adnan-khashoggi",
     "afghan-heroin-policy",
     "afghan-languages",
     "afghan-war-logs",
+    "afghanistan-2011-kerry-trip",
+    "afia-sadiki",
+    "agnes-von-kurowsky-grave-story",
     "ahmed-chalabi",
     "ahmed-khatib",
     "ai-weiwei",
@@ -250,207 +258,340 @@
     "aipac",
     "akrotiri-village-evacuation",
     "al-qaeda-software",
+    "al-qaeda-training-manual-interrogation-tactics",
+    "alan-dershowitz",
     "albert-stubblebine",
     "aldrich-ames",
+    "alec-baldwin",
     "alex-karp",
+    "alex-padilla",
+    "alex-station",
     "alexa",
+    "alfreda-bikowsky",
     "ali-hassan-al-majid",
+    "ali-mohamed",
     "ali-soufan",
+    "allen-dulles",
     "analysis-corporation",
     "andres-serrano",
+    "andrew-bustamante",
     "andrew-feinstein",
-    "anoir-alaki",
+    "andrew-warren",
+    "andy-warhol-encounter",
     "anwar-al-awlaki",
     "april-glaspie",
     "aq-khan",
+    "arkady-shevchenko",
     "arlington-cemetery-spies",
+    "arnon-milchan",
     "arrais-corporation",
     "asel-al-ghabandi",
+    "assange-plea-deal",
     "asset-acquisition-cycle",
+    "athens-bank-fraud-report",
+    "avril-haines",
+    "bahrain-1994-1996-posting",
+    "bahrain-fishing-officer-demarche",
+    "bahrain-intifada-1994",
+    "bahrain-prime-minister-mr-10-percent",
+    "barack-obama",
+    "barry-pollock",
+    "bashar-al-assad",
     "bay-path-university",
+    "bds-movement",
     "belmarsh-prison",
     "below-worlds-end",
     "benazir-bhutto",
     "benjamin-netanyahu",
     "bernie-kerik",
+    "bezalel-smotrich",
+    "big-assawoman-bay-nasa-launch",
+    "bilderberg-weapon-sales",
     "bill-barr",
+    "bill-binney",
     "bill-buckley",
+    "bill-burns",
     "bill-casey",
+    "bill-clinton",
     "bill-richardson",
     "billy-wall",
-    "bin-laden-tora-bora-escape",
     "black-cube",
     "blackwater",
     "bluffdale-nsa-facility",
     "bob-baer",
     "bob-cia-hr",
+    "bob-grenier",
     "bob-trout",
+    "bob-woodward-cia-access",
     "bojinka-plot",
+    "brett-mcgurk",
     "brian-kelly",
     "brian-ross",
     "british-bases-in-cyprus",
     "bruce-fine",
     "camp-david-final-talks",
     "carlos-the-jackal",
+    "caspar-weinberger",
+    "central-american-task-force",
     "chaos-computer-club-wikileaks",
-    "chelsea-manning-emergence",
+    "charlie-kirk-shooting",
     "chelsea-manning",
-    "church-committee-mk-ultra-investigation",
+    "china-djibouti-base",
+    "china-economic-threat",
+    "china-illegal-fishing",
+    "chinese-spy-balloon-incident",
+    "christopher-steele-dossier",
     "church-committee",
+    "cia-adultery-culture",
+    "cia-animal-surveillance-experiments",
+    "cia-arabic-hiring-practices",
     "cia-cable-priority-levels",
     "cia-car-hacking",
+    "cia-cash-room",
+    "cia-democrats-2016",
+    "cia-disguise-program",
     "cia-drug-facilitation",
-    "cia-insiders-guide-to-lying-and-lie-detection",
+    "cia-fbi-911-interagency-rivalry",
+    "cia-fbi-budget-fearmongering",
+    "cia-fbi-organized-crime",
+    "cia-fbi-social-media-embed",
+    "cia-founding-1947",
+    "cia-gmail-account-felony-case",
     "cia-insiders-guide-to-surveillance",
+    "cia-liaison-relationships",
+    "cia-media-relations",
+    "cia-media-revolving-door",
     "cia-national-resources-division",
+    "cia-political-action-group",
     "cia-political-psychology-division",
+    "cia-record-deniability",
     "cia-remote-vehicle-control",
+    "cia-satan-church-nsa-investigation",
+    "cia-sexpionage",
     "cia-smart-tv-surveillance",
+    "cia-spy-tech-amazon",
     "cia-torture-program-whistleblowing",
     "cia-training-doctrine",
+    "cia-ufo-question",
     "cia",
+    "citizens-united",
+    "classification-compartments",
+    "clint-goswick",
     "cofer-black",
     "cold-cell",
+    "colin-powell",
     "collateral-murder-video",
+    "condoleezza-rice",
+    "consortium-news",
     "cori-bush",
     "cory-booker",
+    "craig-murray",
     "critical-analytic-thinking",
     "curveball",
-    "daniel-domscheit-berg-wikileaks",
     "daniel-domscheit-berg",
     "daniel-ellsberg",
-    "daniel-hail",
     "daniel-hale",
+    "darpa-lifelog",
     "dasht-i-leili-massacre",
-    "dashti-leyli",
     "david-petraeus",
     "david-ransom",
     "david-rockefeller-bahrain",
+    "deloitte-consulting-career",
+    "democratic-party-2025-approval-decline",
     "der-spiegel",
     "dgse",
+    "dianne-feinstein",
     "dick-cheney",
     "dick-clarke",
     "diesel-therapy",
+    "doctor-zhivago-operation",
     "doing-time-like-a-spy",
+    "donald-rumsfeld",
     "donald-trump",
+    "donnie-reynolds-jr",
     "double-agent-capture",
     "double-agent-marriott-trap",
     "drone-base-balochistan",
+    "economic-roots-of-terrorism",
     "edward-snowden",
     "eli-cohen",
     "elizabeth-rouser",
+    "elon-musk",
     "enhanced-interrogation",
     "eric-oneill",
-    "eric-swallwell-fbi-documents",
     "eric-swallwell",
     "erik-prince",
-    "espionage-act-whistleblower-cases",
     "espionage-act",
     "ethan-mccord-collateral-murder",
     "executive-order-12333",
     "extraordinary-rendition",
+    "f-35-israel-avionics",
     "falls-church-mosque",
+    "family-jewels",
+    "fbi-apologies-to-kiriakou",
     "fbi-arrest-strategies",
     "fbi",
     "fci-loretto",
+    "federal-plea-coercion",
     "federal-torture-act",
-    "federal-whistleblower-protection-act",
+    "felix-rodriguez",
+    "fisa-court",
     "fisa",
     "five-eyes",
     "fort-chapman",
     "fort-gordon",
     "francis-gary-powers",
+    "french-village-lsd-bread-experiment",
     "gail-slater",
+    "galls-com-sponsor-story",
+    "gary-webb-kill-the-messenger",
     "gay-diplomat-operation",
     "general-dostum",
     "george-habash",
     "george-tenet",
     "gerald-bull",
-    "gerald-post",
     "ghislaine-maxwell",
     "gina-haspel",
+    "girls-madrasa-raid-error",
     "giuliani-pardon-solicitation",
     "glenn-symington-act",
+    "gore-vidal",
     "government-accountability-project",
     "government-metadata-purchase",
+    "greater-and-lesser-tunb-islands",
+    "greek-intelligence-service",
+    "greenland",
     "ground-branch",
     "grs-global-response-staff",
     "guantanamo-bay",
     "guantanamo-origin",
+    "gulf-security-bargain",
     "gust-avrakotos",
+    "hamas",
+    "hamilton-68",
+    "haqqani-white-house-meeting",
     "harold-james-nicholson",
+    "haroon-yenor-trial",
     "hassan-nasrallah",
     "havana-syndrome",
     "hawala-system",
     "heather-saunders",
     "hezbollah",
+    "hillary-clinton",
     "how-can-i-keep-from-singing",
     "hummus",
+    "hunter-biden-laptop",
     "hussein-kamel",
-    "hypnosis-operation-walk-in",
     "ilhan-omar",
     "imran-khan",
     "in-q-tel",
     "intelligence-agencies",
     "intelligence-identities-protection-act",
-    "intercept",
     "iran-12-day-war",
+    "iran-2024-drone-retaliation",
     "iran-contra",
     "iran-nuclear-assessment",
+    "iran-strike-factions-2026",
+    "iraq-war-israeli-tower-sabotage",
+    "iraq-wmd-intelligence",
+    "irish-intelligence-services",
+    "isa-bin-salman-al-khalifa",
     "isi",
+    "ismail-haniyeh-assassination",
+    "israel-boyd-wonder-bread-story",
+    "israel-iran-cell-phone-assassinations",
+    "israel-united-states-relations",
+    "israeli-art-student-spy-ring",
     "israeli-false-flags",
+    "israeli-intelligence-in-united-states",
     "israeli-nuclear-program",
+    "israeli-torture-of-palestinian-prisoners",
+    "italian-election-covert-action",
+    "itamar-ben-gvir",
+    "jack-murphy-nato-sabotage-story",
+    "jack-teixeira",
     "jamaal-bowman",
     "james-angleton",
+    "james-clapper",
+    "james-fishback",
     "james-jesus-angleton",
     "jane-harman",
+    "japanese-diplomat-fbi-sting",
     "jason-leopold",
     "jean-gately",
     "jeff-fahey",
     "jeffrey-epstein",
     "jeffrey-sterling",
+    "jennifer-keenan-fbi",
+    "jennings-randolph",
+    "jerome-post",
+    "jerry-falwell-jr",
+    "jesselyn-radack",
     "jfk-assassination",
     "jim-pavitt",
+    "joby-warrick-washington-post-resignation",
     "joe-biden",
     "joe-kent",
     "joe-weisberg",
     "joe-wilson",
-    "john-brennan-tuesday-morning-kill-list",
+    "john-bolton",
     "john-brennan",
     "john-kerry",
-    "john-kiriakou-whistleblower-advice",
     "john-kiriakou",
     "john-mccain",
     "john-mccone",
     "john-oneill",
+    "john-paul-ii-cia",
+    "john-ratcliffe",
     "john-rendon",
     "john-walker-lindh",
     "joko-widodo",
     "jonathan-pollard",
+    "jordanian-al-qaeda-detainee",
     "jose-rodriguez",
+    "joseph-b-chambers",
     "josh-shapiro",
     "joshua-schulte",
-    "julian-assange-political-prisoner",
-    "julian-assange-secure-drop",
-    "julian-assange-wikileaks-role",
+    "juan-guaido",
     "julian-assange",
+    "kamala-harris",
     "karl-rove",
     "katherine-gun",
+    "kathy-rumler",
     "ken-dilanian",
+    "kent-state",
     "khaled-el-masri",
     "khaled-mashal",
     "khalid-sheikh-mohammed",
+    "khobar-towers-bombing",
     "kiki-camarena-case",
+    "kim-philby",
+    "kiriakou-and-third-parties",
+    "kiriakou-cuba-trip",
+    "kiriakou-daily-news-diet",
+    "kiriakou-greek-whistleblower-law",
     "kiriakou-introduction-to-wikileaks",
+    "kiriakou-iran-trips",
+    "kiriakou-moneylaundering-tip",
+    "kiriakou-mother-israel-trip",
+    "kiriakou-prison-manipulation-tactics",
+    "kiriakou-russian-media",
+    "kiriakou-serial-killer-letters",
+    "kiriakou-transfer-to-operations",
+    "kite-runner-rescue-mission",
     "kompromat",
     "kuwait-invasion-intelligence",
     "kuwait-liberation-day",
     "kuwait-oil-fires",
+    "larry-raviv",
+    "lawrence-wilkerson",
     "learned-helplessness",
     "lebanon-israeli-conflict",
     "lee-zeldon",
     "leon-panetta",
     "leonie-brinkema",
+    "les-wexner",
+    "letter-from-loretto",
     "lie-detection",
     "lincolns-last-turd",
     "louis-farrakhan",
@@ -459,14 +600,23 @@
     "mack-mclarty",
     "mad-minute",
     "maduro-capture",
+    "magic-box",
     "maher-arar",
     "mahmoud-al-mabhouh",
     "mahmud",
+    "manuel-noriega",
+    "marble-framework",
+    "marco-rubio",
+    "maria-butina",
+    "mark-lanzotti",
     "mark-levin-iran-policy",
     "mark-mcdougall",
     "mark-zuckerberg-angela-merkel-meeting",
     "martha-kesler",
+    "marty-gottesfeld",
+    "mary-margaret-graham",
     "mass-surveillance",
+    "matt-dehart",
     "matthew-cole",
     "mccain-feinstein-amendment",
     "mek",
@@ -480,36 +630,53 @@
     "mike-scheuer",
     "mike-spann",
     "military-ethics",
+    "mir-aimal-kansi-attack",
     "miranda-rights",
     "mitchell-and-jessen",
     "mk-ultra",
     "mohamedou-ould-slahi",
     "mohammed-atef",
+    "monroe-doctrine",
     "moral-injury",
+    "mormons-in-intelligence",
     "mort-halperin",
     "mossad",
     "mount-weather",
     "muhammad-atar",
+    "myanmar-civil-war-kiriakou-view",
+    "national-archives-declassification",
+    "national-bird",
     "national-endowment-for-democracy",
     "national-intelligence-council",
     "national-security-agency",
     "national-security-vs-civil-liberties",
+    "newsguard",
     "ninth-circuit-contractor-ruling-2025",
     "noelle-dunphy",
     "non-personal-communication",
+    "nordstream-pipeline-sabotage",
     "norman-schwarzkopf",
     "nsa-surveillance",
     "nsa",
+    "october-7-attack",
+    "office-of-leadership-analysis",
+    "office-of-special-plans-israeli-leak",
     "one-time-pad",
     "only-fans",
     "operating-directive",
+    "operation-gladio",
+    "operation-mega",
     "operation-midnight-climax",
     "operation-mockingbird",
+    "operation-paperclip",
+    "overcriminalization",
+    "pakistan-islam-economic-critique",
+    "pakistan-station-2002",
     "palantir",
-    "pam-bondi-epstein-scandal",
-    "pam-bondi-eric-swallwell",
     "pam-bondi",
+    "pan-quake",
     "patriot-act",
+    "permanent-wartime-economy",
     "pervez-musharraf",
     "pete-hoekstra",
     "pete-seeger",
@@ -517,44 +684,71 @@
     "peter-strzok",
     "peter-thiel",
     "petra-bank",
+    "petrodollar-kissinger",
     "pflp",
+    "phil-ochs",
     "pick-the-man-principle",
     "pike-committee",
     "plato-cacheris",
     "plus-972",
     "podcast-bros",
+    "presidents-and-the-cia",
     "presidents-daily-brief",
     "prince-muhammad-bin-naif",
     "principals-committee-meeting",
+    "prison-pedophile-accounts",
+    "prison-racial-segregation",
     "private-intelligence",
+    "private-prison-system",
+    "project-gateway",
     "project-stargate",
+    "public-interest-defense",
     "qala-i-jangi-uprising",
+    "radio-and-tv-marti",
     "ramzi-bin-al-shibh",
     "rand-paul-eric-holder",
-    "ray-mcgovern-vault-7",
+    "ray-davis-lahore-shooting",
+    "rdap-program",
+    "recruitment-attempts-on-kiriakou",
+    "remains-of-day-treasury-clerk-story",
+    "remains-of-the-day-book",
     "restraint-camp",
     "revolutionary-organization-17-november",
+    "reza-pahlavi",
     "rfk-assassination",
+    "rhodes-jewish-deportation-family-story",
     "richard-helms",
+    "richard-perle",
     "richard-welch",
+    "robert-f-kennedy-jr",
     "robert-hanssen",
     "robert-maclean",
     "robert-maxwell",
     "robert-mueller",
     "roger-waters",
+    "ron-wyden",
+    "ross-ulbricht",
+    "roy-cohn",
     "ruby-ridge",
     "rudy-giuliani",
     "russell-targ",
-    "russell-tark",
+    "russia-ukraine-war-origins",
+    "russiagate",
     "sacha-baron-cohen",
     "saddam-hussein",
     "safe-housekeeper",
+    "salt-pit",
+    "san-bernardino-iphone-case",
+    "sanctions-effectiveness",
     "sandy-berger",
     "sandy-grimes",
     "sarah-jane-moore",
     "saud-nasir-al-sabah",
+    "saudi-iran-diplomatic-rivalry",
+    "saudi-princes-and-9-11",
     "scholar-in-residence-program",
     "sebastian-gorka",
+    "secret-service",
     "section-702",
     "securedrop",
     "senate-foreign-relations-committee",
@@ -563,185 +757,99 @@
     "sharon-scranage",
     "sheikh-jaber-al-ahmad",
     "sheikh-saad-al-abdullah",
+    "sheldon-adelson",
+    "shin-bet",
+    "shireen-abu-akleh",
+    "signature-strikes",
     "skip-gnehm",
     "sleep-deprivation",
     "sleeper-agent",
     "sociopathic-tendencies",
+    "sofia-bulgaria-dead-drop",
+    "solitary-confinement",
+    "somali-land",
+    "souda-bay-crete-vulnerability",
     "soylent-green-cable-easter-egg",
     "special-activities-division",
+    "st-nectarios-of-aegina",
+    "st-porphyrios-church-gaza",
     "stephen-saunders",
     "steve-kappes",
-    "steven-saunders",
+    "steven-lawless-case",
+    "strait-of-hormuz-transit-fees",
     "strawberry-fields",
     "surveillance-detection-route",
     "sweat-lodge",
-    "taliban-origin-benazir",
+    "taliban-embassy-raid",
+    "targeting-analyst",
+    "taybeh",
     "ted-rall",
     "terry-aubry",
+    "the-drone-papers",
     "the-farm",
+    "the-intercept",
     "the-reluctant-spy",
     "the-sociopath-next-door",
-    "thin-thread-stellar-wind",
     "thin-thread",
     "thomas-drake",
     "thomas-massie",
     "three-felonies-a-day",
-    "three-saudi-princes",
     "ticking-time-bomb",
     "title-10-vs-title-50",
     "todd-blanch",
     "tom-drake",
+    "tommy-mchale",
     "tora-bora",
     "trita-parsi",
+    "truman-cia-op-ed",
+    "trump-assassination-attempt-2024",
+    "trump-cartel-terrorist-designation",
     "trump-dni-replacement",
     "trump-iran-ceasefire-efforts",
     "trump",
+    "tucker-carlson",
     "tuesday-morning-kill-list",
     "tulsi-gabbard",
     "tyrell-vanto",
     "uday-hussein",
+    "uk-secrecy-laws",
+    "united-fruit-arbenz-coup",
+    "us-diplomatic-vacancies",
+    "us-forces-in-syria-legality",
     "us-military-venture-capital",
+    "usaid-cia-front-operations",
     "valerie-plame",
-    "vault-7-revelations",
     "vault-7",
+    "venezuela-boat-strikes",
+    "venezuelan-embassy-2019",
     "vernon-walters",
+    "veteran-intelligence-professionals-for-sanity",
+    "virginia-redistricting-supreme-court-ruling",
+    "volodymyr-zelensky",
     "waco-siege",
+    "walk-in",
     "walling",
+    "watching-naval-movements",
     "waterboarding",
     "watermark",
     "welch-45",
     "wesley-clark",
     "whistleblower-protection-act",
-    "wikileaks-and-trump",
-    "wikileaks-arab-spring",
     "wikileaks-as-a-system",
-    "wikileaks-ngo-transformation",
-    "wikileaks-post-2010",
+    "will-hurd",
     "william-donovan",
     "william-friedman",
     "william-webster",
+    "witness-k-case",
     "yellowcake-niger-forgery",
     "yemen-arrest",
     "yemen",
-    "zbigniew-brzezinski"
+    "zakynthos-holocaust-rescue",
+    "zawahiri-assassination",
+    "zbigniew-brzezinski",
+    "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "katherine-gun",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "lebanon-israeli-conflict",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "lee-zeldon",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "lynn-buchanan",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "mass-surveillance",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "mexican-9-month-work-visas",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "military-ethics",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "miranda-rights",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "national-security-agency",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "national-security-vs-civil-liberties",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "nsa-surveillance",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "nsa",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "pam-bondi",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "pete-hoekstra",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "plus-972",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "presidents-daily-brief",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "project-stargate",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "russell-targ",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "senate-foreign-relations-committee",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "sweat-lodge",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "terry-aubry",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "the-reluctant-spy",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "thin-thread",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "trump-dni-replacement",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "trump",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "tulsi-gabbard",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "us-military-venture-capital",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "watermark",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
-    {
-      "slug": "whistleblower-protection-act",
-      "added": "2026-06-24T03:34:57.975Z"
-    },
     {
       "slug": "ai-whistleblower-initiative",
       "added": "2026-06-29T07:26:23.745Z"
@@ -989,13 +1097,1041 @@
     {
       "slug": "zbigniew-brzezinski",
       "added": "2026-06-29T07:26:23.745Z"
+    },
+    {
+      "slug": "1953-iran-coup",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "911-attribution-of-responsibility",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "abolish-the-cia",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "abraham-bolden",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "abu-omar-rendition",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "adnan-khashoggi",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "afghanistan-2011-kerry-trip",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "afia-sadiki",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "agnes-von-kurowsky-grave-story",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "al-qaeda-training-manual-interrogation-tactics",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "alan-dershowitz",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "alec-baldwin",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "alex-padilla",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "alex-station",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "alfreda-bikowsky",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "ali-mohamed",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "allen-dulles",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "andrew-bustamante",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "andrew-warren",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "andy-warhol-encounter",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "arkady-shevchenko",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "arnon-milchan",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "assange-plea-deal",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "athens-bank-fraud-report",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "avril-haines",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bahrain-1994-1996-posting",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bahrain-fishing-officer-demarche",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bahrain-intifada-1994",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bahrain-prime-minister-mr-10-percent",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "barack-obama",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "barry-pollock",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bashar-al-assad",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bds-movement",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bezalel-smotrich",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "big-assawoman-bay-nasa-launch",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bilderberg-weapon-sales",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bill-binney",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bill-burns",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bill-clinton",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bob-grenier",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "bob-woodward-cia-access",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "brett-mcgurk",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "caspar-weinberger",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "central-american-task-force",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "charlie-kirk-shooting",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "china-djibouti-base",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "china-economic-threat",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "china-illegal-fishing",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "chinese-spy-balloon-incident",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "christopher-steele-dossier",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-adultery-culture",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-animal-surveillance-experiments",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-arabic-hiring-practices",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-cash-room",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-democrats-2016",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-disguise-program",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-fbi-911-interagency-rivalry",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-fbi-budget-fearmongering",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-fbi-organized-crime",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-fbi-social-media-embed",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-founding-1947",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-gmail-account-felony-case",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-liaison-relationships",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-media-relations",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-media-revolving-door",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-political-action-group",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-record-deniability",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-satan-church-nsa-investigation",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-sexpionage",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-spy-tech-amazon",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "cia-ufo-question",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "citizens-united",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "classification-compartments",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "clint-goswick",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "colin-powell",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "condoleezza-rice",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "consortium-news",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "craig-murray",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "darpa-lifelog",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "deloitte-consulting-career",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "democratic-party-2025-approval-decline",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "dianne-feinstein",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "doctor-zhivago-operation",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "donald-rumsfeld",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "donnie-reynolds-jr",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "economic-roots-of-terrorism",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "elon-musk",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "f-35-israel-avionics",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "family-jewels",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "fbi-apologies-to-kiriakou",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "federal-plea-coercion",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "felix-rodriguez",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "fisa-court",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "french-village-lsd-bread-experiment",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "galls-com-sponsor-story",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "gary-webb-kill-the-messenger",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "girls-madrasa-raid-error",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "gore-vidal",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "greater-and-lesser-tunb-islands",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "greek-intelligence-service",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "greenland",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "gulf-security-bargain",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "hamas",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "hamilton-68",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "haqqani-white-house-meeting",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "haroon-yenor-trial",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "hillary-clinton",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "hunter-biden-laptop",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "iran-2024-drone-retaliation",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "iran-strike-factions-2026",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "iraq-war-israeli-tower-sabotage",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "iraq-wmd-intelligence",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "irish-intelligence-services",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "isa-bin-salman-al-khalifa",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "ismail-haniyeh-assassination",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "israel-boyd-wonder-bread-story",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "israel-iran-cell-phone-assassinations",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "israel-united-states-relations",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "israeli-art-student-spy-ring",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "israeli-intelligence-in-united-states",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "israeli-torture-of-palestinian-prisoners",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "italian-election-covert-action",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "itamar-ben-gvir",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "jack-murphy-nato-sabotage-story",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "jack-teixeira",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "james-clapper",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "james-fishback",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "japanese-diplomat-fbi-sting",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "jennifer-keenan-fbi",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "jennings-randolph",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "jerome-post",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "jerry-falwell-jr",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "jesselyn-radack",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "joby-warrick-washington-post-resignation",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "john-bolton",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "john-paul-ii-cia",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "john-ratcliffe",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "jordanian-al-qaeda-detainee",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "joseph-b-chambers",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "juan-guaido",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kamala-harris",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kathy-rumler",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kent-state",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "khobar-towers-bombing",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kim-philby",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-and-third-parties",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-cuba-trip",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-daily-news-diet",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-greek-whistleblower-law",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-iran-trips",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-moneylaundering-tip",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-mother-israel-trip",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-prison-manipulation-tactics",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-russian-media",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-serial-killer-letters",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-transfer-to-operations",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kite-runner-rescue-mission",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "larry-raviv",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "lawrence-wilkerson",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "les-wexner",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "letter-from-loretto",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "magic-box",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "manuel-noriega",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "marble-framework",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "marco-rubio",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "maria-butina",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "mark-lanzotti",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "marty-gottesfeld",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "mary-margaret-graham",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "matt-dehart",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "mir-aimal-kansi-attack",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "monroe-doctrine",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "mormons-in-intelligence",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "myanmar-civil-war-kiriakou-view",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "national-archives-declassification",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "national-bird",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "newsguard",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "nordstream-pipeline-sabotage",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "october-7-attack",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "office-of-leadership-analysis",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "office-of-special-plans-israeli-leak",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "operation-gladio",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "operation-mega",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "operation-paperclip",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "overcriminalization",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "pakistan-islam-economic-critique",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "pakistan-station-2002",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "pan-quake",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "permanent-wartime-economy",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "petrodollar-kissinger",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "phil-ochs",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "presidents-and-the-cia",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "prison-pedophile-accounts",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "prison-racial-segregation",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "private-prison-system",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "project-gateway",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "public-interest-defense",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "radio-and-tv-marti",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "ray-davis-lahore-shooting",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "rdap-program",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "recruitment-attempts-on-kiriakou",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "remains-of-day-treasury-clerk-story",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "remains-of-the-day-book",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "reza-pahlavi",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "rhodes-jewish-deportation-family-story",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "richard-perle",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "robert-f-kennedy-jr",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "ron-wyden",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "ross-ulbricht",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "roy-cohn",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "russia-ukraine-war-origins",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "russiagate",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "salt-pit",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "san-bernardino-iphone-case",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "sanctions-effectiveness",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "saudi-iran-diplomatic-rivalry",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "saudi-princes-and-9-11",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "secret-service",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "sheldon-adelson",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "shin-bet",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "shireen-abu-akleh",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "signature-strikes",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "sofia-bulgaria-dead-drop",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "solitary-confinement",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "somali-land",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "souda-bay-crete-vulnerability",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "st-nectarios-of-aegina",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "st-porphyrios-church-gaza",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "steven-lawless-case",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "strait-of-hormuz-transit-fees",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "taliban-embassy-raid",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "targeting-analyst",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "taybeh",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "the-drone-papers",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "the-intercept",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "tommy-mchale",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "truman-cia-op-ed",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "trump-assassination-attempt-2024",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "trump-cartel-terrorist-designation",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "tucker-carlson",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "uk-secrecy-laws",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "united-fruit-arbenz-coup",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "us-diplomatic-vacancies",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "us-forces-in-syria-legality",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "usaid-cia-front-operations",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "venezuela-boat-strikes",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "venezuelan-embassy-2019",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "veteran-intelligence-professionals-for-sanity",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "virginia-redistricting-supreme-court-ruling",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "volodymyr-zelensky",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "walk-in",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "watching-naval-movements",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "will-hurd",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "witness-k-case",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "zakynthos-holocaust-rescue",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "zawahiri-assassination",
+      "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "zero-dark-thirty",
+      "added": "2026-07-12T03:21:07.921Z"
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
