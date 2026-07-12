@@ -1,0 +1,46 @@
+---
+slug: "2026-01-04-deprogram-ted-rall-on-cia-psychologists-torture-mamdani"
+title: "On CIA Psychologists, Torture, Mamdani"
+show: "DeProgram (Ted Rall)"
+date: "2026-01-04"
+url: "https://youtu.be/c_0g3SxGsqQ"
+videoId: "c_0g3SxGsqQ"
+duration: "8:00"
+captionSource: auto
+paragraphs: 17
+sponsor_paragraphs_stripped: 0
+source_file: 20260104-c_0g3SxGsqQ.en.vtt
+---
+[00:00] Hisham, uh question for you, John. Thanks for the five bucks. Can you please speak a little about the role of clinical psychologists in operations and in other capacities at the CIA? I love that question. That's a terrific question. It's a little bit sensitive. So, there are, as you might guess, there are a lot of psychologists at the CIA. A lot. A small number of them, just a few little uh are assigned to the Office of Medical
+
+[00:31] Services, OMS. And they are there to make sure that the people the CIA sends overseas are not crazy. A lot of them are. You'd be surprised. And then they're they're put on a travel ban until they're less crazy. Um But most of the clinical psychologists at the CIA are split into intelligence and operations. The intelligence ones work with the analysts to do psychological evaluations on foreign leaders, right?
+
+[01:02] How we can then use the psychology of foreign leaders to get a leg up. Whether it's in, you know, trade negotiations or, you know, issues of war and peace or whatever. The other ones are in operations. I worked very closely with the CIA's team of operational psychologists. Um because, let's say I'm recruiting a terrorist.
+
+[01:33] Uh I want to make sure that the guy's not nuts, that we're not going to use him in an operation and he's going to turn around and kill me in the middle of the operation. Mhm. Or make sure that he didn't make the whole thing up. And when he when he volunteered to us that he was a member of XYZ terrorist group. I did I did one operation. I've told the story a couple of times. It was with a psychologist and a hypnotist who was a psychiatrist. And they hypnotized this guy. I won't
+
+[02:03] get into the story here, but oh my god, I've never seen anything like it in my life. And I've spoken about it a number of times. But, um sometimes you need a psychologist to advise you as to just how far you can push a guy before he cracks. Maybe you want him to crack. Maybe you want to ruin his life cuz he's an [ __ ] or he's a double agent or he's a plant or whatever. Or maybe you want to push him so he gives you as much information as he can, but you don't want him to crack. You
+
+[02:33] don't want him to ruin his life. So, it's you you find yourself becoming very close to the psychologist. There were a couple who were my go-to. Two psychol- two psychologists who were my go-to partners on these operations, a man and a woman. And um I still think about them all these years later. I I don't even know if they're still alive. They probably aren't. But, um but yeah, you you end up becoming very close to to the psychologists. John, how
+
+[03:04] how did torture affect morale in the CIA while you couldn't while you couldn't keep with it, I guess, tolerate it. Uh how did your other colleagues look at it at the moment and years later? How does it look in retrospect? It's a good question. That's a very good question. Uh in the beginning, the compartment was so tightly controlled that nobody knew that this tiny band of of officers was torturing people. Nobody knew until um
+
+[03:36] I'm going to say six or eight months after the torture began. Uh it affected morale. It split morale. There there were a lot of guys who were true believers that not only was this something that we should be doing, they were enjoying doing it. And then, um and then by 2005, enough people knew about it and objected to it that George Tenet pulled back.
+
+[04:07] So, they were torturing people from August of 2002 until the middle of 2005. But they kept the secret prisons going and they kept while there wasn't like active torture in the secret prisons after 2005, there was active torture at Guantanamo. >> [clears throat] >> And um more and more people objected as more and more people became informed. It It split morale. It damaged morale. Uh
+
+[04:37] Sodden, thanks for the 20 bucks. Happy New Year, John. We know you've had issues with your former agency. Yeah. Uh can you tell [laughter] us a a few Can you tell us about your co-workers who were awesome, who we never really hear about, like Mike Spann and Bob Baer? Same question for Ted. Yeah. Obviously, I never worked at the agency, but I guess maybe my question would be like LA Times or something like that. Anyway, I liked most of the people that I worked with. Most of them were genuinely great
+
+[05:08] guys, women. They were patriots. Most of them actually happen to be Democrats. And um all they wanted to do is serve their country. But it's like the higher up the chain you go the easier it is to lose your mind. Like there there were there were two guys in particular who I really really liked when we were all junior officers together. One of them became um deputy
+
+[05:40] deputy director of counterterrorism and then deputy director of the FBI for counterterrorism. He became a war criminal. Is what it was. He was a great guy and then all of a sudden he's like murdering people with drones. And then bragging about it. The other became um head of the uh Alec Station, Osama bin Laden unit. Awesome fun guy, hilarious sense of humor. And he just became a stone cold
+
+[06:14] killer. Um besides those two, most of the people that I that I rose through the ranks with were really great great men and women. I I enjoyed their time. Thanks for the nine bucks Jacob Decker. Um 999 actually. Um the CIA is notorious for putting people into power that they want. Do you think they were involved in Mondani winning in New York? What would be the objective of having a Muslim mayor in New York and London? No.
+
+[06:44] It's that's just not something that the CIA is involved in. No. And you know the CIA there's a position in the in the NYPD. It's deputy deputy police commissioner for intelligence. And that traditionally goes to a person coming out of the CIA. Right, the first one was Dave Cohen. He was the the deputy director of the CIA for operations. He retired, he became deputy commissioner for intelligence. So the CIA likes things just the way they are. It doesn't matter who happens to be the
+
+[07:15] mayor so long as they get their position and can liaise with the joint terrorism task force. That's all they care about. John, let me ask you a really highly theoretical question. So if let's say we had uh President Mondani uh and and red and yellow bunting all over the country and hammer and sickle flags if the CIA if the CIA remained in power, would the CIA basically dutifully continue to operate under a new left-wing regime or would that just be too much for them?
+
+[07:47] I'm going to give you a two-pronged like a forked answer. Uh on the on the one hand most of the CIA would continue to operate as if nothing happened because the the president is the chief executive. They serve at the pleasure of the president. With that said, I think there would be elements of the CIA's directorate of operations that would actively seek to remove a president like that. Wow.
+
+[08:17] I mean John Kennedy was a Cold War Democratic hawk, anti-communist. >> War hero. Yeah. And uh that didn't save him. >> [music] [music]
