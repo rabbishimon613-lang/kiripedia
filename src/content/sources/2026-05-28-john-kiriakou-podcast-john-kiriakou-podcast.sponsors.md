@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[35:56] Director or General and what an honor it is, I'm humbled to be here to visit your intelligence service, we so look forward to working together. You do all the right things diplomatically. Um but for the most part, those intelligence services, they just do what you ask them to do. It's as simple as that. And they know that you're going to you're going to do right by them. They'll call and say, "Hey, listen, we we really need like 20 pairs of night vision goggles and we we can't afford them. And we're not talking about the Teemu ones that are
+
+[36:28] 100 bucks. We're talking about real ones that are like 1,500 bucks. And then you say, "How many do you need?" Uh 20 pairs. All right, not a problem. We'll have them shipped over. That's what you do. And so, relations remain good that way. Yeah. I always enjoyed working with those those little agencies. Your first question is a very good one and very complicated. What are my thoughts on the recent CIA operations this year, the insertion of agents in Venezuela
+
+[36:58] prior to the Maduro raid? Um that's aggressive, but that is what the CIA does. That would have been done by something called the Special Activities Division. The Special Activities Division is made up almost exclusively of of military special forces, Navy SEALs, Delta Force, Army Rangers, all the special forces guys on loan from the Pentagon to the CIA, usually for individual operations.
+
+[37:30] Right? So, it's a CIA operation, but it's carried out by special forces on loan to the CIA. I am almost 100% sure that was the case in the Maduro raid. The use of the Ghost Whisperer device. Wow. I've talked to several CIA friends about Ghost Whisperer. If you don't know what Ghost Whisperer is, you know, we lost uh this F-15 in Iran a week ago or so, and one of the pilots was rescued
+
+[38:01] quickly. The other pilot had to hide. He actually held he actually um hid in a crevice between two rocks. So, the Pentagon did one thing while the CIA was doing another. The Pentagon created a diversion using another F-15 and an A-10 Warthog that was about 50 mi away from where the pilot was to draw the Iranian forces away from the pilot's location. And the Warthog was all shot up.
+
+[38:32] Warthogs fly very slowly and they bomb the crap out of things. Mostly they're mostly used for anti-armor operations, attacking tanks and armored personnel carriers. Very, very cool planes. By far the favorite plane of the Pentagon and they were discontinued recently and there was such an uproar that they brought them back. So, 50 miles away the A-10 is shooting at the ground and the ground is shooting at the A-10 and and then the F-15 is screaming by and they're shooting at the F-15 cuz
+
+[39:02] they're they're diverting attention. Ghost murmur is this new technology that was on a drone being controlled by the CIA from CIA headquarters. And if the reporting is to be believed the drone had technology on it that could hear the pilot's heartbeat from 40 miles away. I said to my friends, I said
+
+[39:33] that can't possibly be the case. Like that's some Star Trek right there. They maintained that it was true. I'm going to say it was an exaggeration, but either way they knew exactly where that pilot was because they could detect the heartbeat whether it was from, you know, 40 miles or 4 miles or I don't know, 40 40 feet. I don't know. But they could detect his his heartbeat and they were able to pinpoint his exact location hidden in a crevice between two
+
+[40:06] rocks to successfully rescue him. The CIA attempts to inspire a Kurdish rebellion. Yeah, that's another stupid idea that has CIA written all over it. We did the same thing with the Iraqi Kurds. We did the same thing with the Syrian Kurds. You just you just airdrop shipments of weapons and and hope they, you know, start shooting Iranian military or IRGC or Quds Force or whatever. Instead, they started shooting each other and shooting
+
+[40:37] Iraqi Kurds and, you know, that stuff never works. That was just a dumb idea. But the yeah, that's that's a very typical, you know, low-cost, low blowback potential CIA operation. Thank you, Philosopher Veil, for those outstanding questions. I want to give you a word from our second sponsor, too. If there's one thing that we've learned over the last few years, it is that access to medication can change quickly depending on politics, regulation, and corporate influence. That is why it's important to
+
+[41:07] have a pharmacy that focuses on access and transparency, not on bureaucracy. This is the reason why people are turning to All Family Pharmacy. Instead of scheduling doctor visits, sitting in waiting rooms, and dealing with insurance approvals, the entire process is handled online. You choose the medications you need on their website, you fill out a short medical form, and a licensed doctor reviews your request. If appropriate, they provide the prescription, then your order ships directly to your door. It's a simple way to keep essential medications on hand
+
+[41:39] like antibiotics, antivirals, ivermectin, albendazole, NAD+ and more than 400 other prescription medications that people rely on every day. So, prepare now before you need it in the future. Visit allfamilypharmacy.com/john, j o h n, and use the promo code John10, j o h n 1 0, to save 10% on your next order. And I can tell you, I've done this for an asthma inhaler and

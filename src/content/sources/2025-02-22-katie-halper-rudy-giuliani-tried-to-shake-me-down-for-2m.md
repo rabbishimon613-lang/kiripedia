@@ -1,0 +1,60 @@
+---
+slug: "2025-02-22-katie-halper-rudy-giuliani-tried-to-shake-me-down-for-2m"
+title: "\"Rudy Giuliani Tried To Shake Me Down For $2M\""
+show: "Katie Halper"
+date: "2025-02-22"
+url: "https://youtu.be/V2cJv7Ujeeg"
+videoId: "V2cJv7Ujeeg"
+duration: "12:00"
+captionSource: auto
+paragraphs: 24
+sponsor_paragraphs_stripped: 0
+source_file: 20250222-V2cJv7Ujeeg.en.vtt
+---
+[00:02] [Music] well you know uh John one of the things I wanted to talk to you about uh is your own case because uh people know that you're a whistleblower but people may not know that there's been a kind of bipartisan uh refusal to Pardon you for whistleblowing and I mean it's disgusting you blew the whistle on on the cia's torture program your your punishment for that your prize for being honest and exposing something like that is being uh thrown into jail thrown into prison losing your pension yeah that's
+
+[00:34] the big part yeah and I mean well I I assume as someone who hasn't been um subjected to either of those Horrors I assume they must both be extremely traumatic and and traumatizing and the idea that the only person to pay a price is the person not who engaged in the torture but blew the whistle on it can you shed a little bit of light onto how that happened then I want to ask you about the pardon process because you actually wrote a an article uh on the defunct pardon process which you call for change and you explain what needs to happen so can can you unpack all of that
+
+[01:05] I threw a lot at you no that's okay so I uh I gave a nationally televised interview to ABC News in December of 2007 in which I said that the CIA was torturing its prisoners that torture was official US government policy and that the policy had been personally approved by the president this is when it goes into the Twilight Zone the very next day the CIA filed what's called a crimes report report against me with the FBI saying that I had um revealed classified information top secret information in
+
+[01:36] this interview um the FBI investigated me for a year from December of 07 to December of ' 08 and they uh finally sent my attorneys what's called a declination letter declining to prosecute me they said that uh it was illegal to classify a criminal act torture was a criminal act and so I had not committed a crime by revealing it great I'm home free three weeks later Barack Obama becomes president and he
+
+[02:08] names John Brennan as the deputy National Security adviser for counterterrorism John and I always hated each other and one of the dirty little secrets was that John Brennan was one of the fathers of the cia's torture program he pretended to be you know a progressive Democrat he never was he was a pro torture um independent so I had no idea that as soon as he was uh given this position of Deputy National Security adviser he asked the justice department to secretly
+
+[02:38] reopen the case against me in Discovery later on we we found three memos there was a memo from Brennan to Eric Holder the Attorney General saying charge him with Espionage and holder wrote back and said my people don't think he committed Espionage and then Brennan wrote back and said charge him anyway and make him defend himself and so they charged me with three counts of Espionage mind you Espionage can carry the death penalty right and um and then when I went bankrupt they dropped the charges so I
+
+[03:11] ended up taking a plea to a a lesser charge but I I was looking at my phone a minute ago so I could pull this up I received this email anonymously a month ago and it says Dear John it's nice to finally write to you I've been watching your YouTube videos and I love all the content and I've been wanting to reach out to you for many years I'm one of the FBI agents who wants to personally apologize to you for the disgraceful way that the FBI and our government treated you I worked with both headquarters and the Washington field office team on your
+
+[03:42] case and I know many of the Personnel that you're familiar with that case was directed and driven by senior most officials many mid-level and Street Personnel were against it but nevertheless we just followed orders anyway I've always felt bad about what we did to you and for you and for the way you were treated and I want wanted to personally apologize sincerely Joe wow that's the third one of those I've gotten the third one so you know when you embarrass the CIA and you air the
+
+[04:12] dirty laundry there's going to be a very heavy price to pay it cost me literally everything my my marriage my career my freedom uh my children it cost everything which is the the plan right right one of my attorneys said to me well in the midst of all this they said you know this case isn't isn't just about John kiraku this case is about frightening anybody else in the intelligence Community who might be thinking about coming forward to report
+
+[04:43] on criminal activity inside the organization and that's true you know Ed Snowden said that uh Tom Drake and I inspired him to go public with his uh with his Revelations and that meant the world to me and knowing that there are other whistleblowers out there who who you know if they don't go to the media they go to the oversight committees or they go to an attorney or whatever that makes it all worthwhile now the the pardon process I applied for a pardon with Barack Obama I was ignored I knew I
+
+[05:15] would be then I applied for a pardon from Donald Trump in Trump's first term and I was I was close and it made the papers a couple times once because Rudy Giuliani tried to shake me down for $2 million and I ratted him out to the New York Times and it made the front page I don't think I know this story oh this was a big one so I have a friend who is close to Giuliani and people kept saying oh you're close but if Giuliani gives you the thumbs up Trump's gonna give it
+
+[05:46] to you I said okay how do I get to Giuliani well I know this guy and he works for Giuliani so I called him and he said okay let's meet up at the Trump Hotel um you and your lawyer Giuliani and me I said great so we go to the Trump Hotel giuliani's there and um we're sitting there and and Giuliani says uh so you know the Mets are looking good this year and I'm like yeah great uh are you a football fan I said yeah I I'm a Steelers fan I understand you're a
+
+[06:16] Giants fan yeah I love the Giants I'm like what the [ __ ] is going on finally I said so Mr Mayor I appreciate you taking the time to see me but I wanted to talk about this pardon and he says like this anybody know where the pisser is and he gets up and he walks away I said to the guy what just happened and he said you never talked to Rudy about a pardon you talked to me about a pardon and I talk to Rudy I'm like okay whatever like these guys watch too many episodes of The Sopranos so um he says Rudy's gonna
+
+[06:47] want two million and I laughed and I said I said look I don't have two million I'll never have 2 million but why would I spend $2 million to cover a $700,000 pension that doesn't make any sense I said look I don't want to waste your time I appreciate you uh seeing me and I got up my lawyer and we walked away so that night a friend of mine had a book launch party and I went to the party and there was another whistleblower there that I'm friendly with and he said to me innocently he
+
+[07:19] said so how was your day I said oh how was my day listen to this I said Rudy Giuliani tried to shake me down for two million bucks and I told him and he said did you call the FBI and I said I don't talk to those those rats at the FBI I'm I'm not a snitch right I didn't call the FBI a couple days later I happened to be standing in my attorney's office we were chatting and my phone rang and it was Mike Schmidt from The New York Times and he said that a little birdie had told him that Rudy Giuliani tried to shake me
+
+[07:50] down for $2 million was that true so I said hold on a second I said to my lawyer should I talk to the New York Times he said yeah tell him the truth so I said yeah I'll talk to you he said will you go in the record I said sure use my name I told him the whole story and um he said actually you're the fourth person that he he approached and tried to take $2 million from for a pardon and it's because he was getting a divorce he was a member of 16 country clubs he spent $10,000 a month on cigars
+
+[08:24] and he needed this money to continue you know the lifestyle to which he had grown accustomed no wonder has that terrible hair dye he couldn't afford a good hairdress down his face yeah exactly he does you know just for men or whatever the spray is so um he denied and denied and denied he he said that he had never met me that he hadn't been in Washington that day so I sent the New York Times a picture of the four of us together that we took in the lobby and they wrote The New York Times has seen documentary evidence that the meeting took place
+
+[08:54] when um Noel I forget her last name his assistant went public about her her sexual harassment case she said that he told her the day of the New York Times article that that son of a [ __ ] CIA guy ratted me out to the times and I said yep I did so a long way of saying Giuliani didn't help me but I got that close because Tucker Carlson helped me
+
+[09:26] right I had been on Tucker show a dozen times he loves when I criticized the agency we we became friends and he went to Trump for me and he said he's going to do it then on the last day of the Trump presidency Tucker called me and said that Mitch McConnell had called him and killed it because Mitch McConnell said that if Trump pardoned and this was the original idea Trump was gonna pardon Julian Assange Ed Snowden and me that and and McConnell didn't know me but he said if Trump uh pardoned Assange and
+
+[09:57] Snowden that he couldn't control the Republican caucus in the Senate and that they would probably vote to convict him on the impeachment charges so he dropped our pardons then I go to Biden and I'm friendly with a Greek Orthodox priest who is very very close to Joe Biden he said I can help you so I'm getting you know this guy to write a letter and that guy to write a letter and Senator soand so and Congressman what's his name and I got I
+
+[10:29] got a Anette Benning and and I got Susan Sarandon and Mike Ferell and I got a whole Hollywood contingent and then he passed me over and I said to the priest because the priest was like nobody's as close to him as I am I'm I'm Hunter's Godfather you know blah blah blah and I said well if I had been a crackhead or a Chinese spy or a judge that sold children into bondage maybe I would have I would have gotten so [ __ ] Joe Biden excuse me language and one of those kids
+
+[11:00] killed himself by the way one of the kid one of cash for kids you are exactly correct he killed himself he was like 16 years old yeah and so I'm trying with Trump again and without even trying um Alan dtz called me and said hey are you gonna are you gonna apply for a pardon I said yeah I'd like to I said I'm I'm kind of disillusioned now and he said no he said I'll write a letter and then we can circulate it and maybe get some some other people to sign so I got I got Alan dtz I got Tucker
+
+[11:33] Carlson I got judge napalitano and two two high ranking friends of trump that nobody's ever heard of in in this venue um and so we're gonna go again and I'm gonna I'm gonna try my best we'll see what happens but you know I I like to think that I'm going to get a fair shake from the Republicans on this because it was Barack Obama and John Brennan and Eric Holder that put me in prison and covered up war crimes and crimes against humanity it was not Donald Trump we
+
+[12:04] there are a lot of things we can criticize Donald Trump over sure but this is not one of them

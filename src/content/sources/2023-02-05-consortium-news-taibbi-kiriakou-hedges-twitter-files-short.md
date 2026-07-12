@@ -1,0 +1,52 @@
+---
+slug: "2023-02-05-consortium-news-taibbi-kiriakou-hedges-twitter-files-short"
+title: "Taibbi, Kiriakou & Hedges: Twitter Files (short)"
+show: "Consortium News"
+date: "2023-02-05"
+url: "https://youtu.be/L1DYA1XSB44"
+videoId: "L1DYA1XSB44"
+duration: "9:00"
+captionSource: auto
+paragraphs: 20
+sponsor_paragraphs_stripped: 0
+source_file: 20230205-L1DYA1XSB44.en.vtt
+---
+[00:00] in the latest installment of the Blockbuster Twitter files reporter MattyB has revealed that probably the most important Source behind the maniacal media output on russiagate was based on a lie hundreds of Articles and television segments in the major U.S media which kept the Russia gate Fiasco front and center in American political life for several years was fueled by a website called Hamilton 68. on Hamilton's advisory Council sits former senior U.S officials several wood
+
+[00:30] intelligence backgrounds such as Michael Church of former Homeland Security director former acting CIA Chief Michael Morrell Rick Legend a former NSA deputy director Clint Watts a former FBI counterintelligence officer Mike Rogers another former FBI agent and a member of the U.S House intelligence committee the former U.S ambassador to Russia Michael mcfaul this seems to me to be an intelligence operation the Hamilton 68. it's only fronted by Former Intelligence what kind
+
+[01:02] of relations do they have to current I mean we don't have any proof obviously but what is your speculation about whether this was linked to people who were actually still serving they can't be on a board like this they can't be seen to be involved in any of this but they've got these former people who are now private citizens so I just want to know if you can weigh in on that idea sure all former directors Deputy directors and Associate Deputy directors maintain their security clearances in perpetuity all of them are welcome to go back to
+
+[01:33] headquarters whenever they want they are allowed classified briefings not top secret but up to the secret level they have free access to the director's private dining room in fact I've seen them meeting in the dining room with journalists over the years so there's that tired old saying that most people who are at the CIA never really leave the CIA at that senior level that's true because
+
+[02:03] after 30 years or 25 years all of your contacts are in the intelligence Community everybody's looking to make a lot of money when they leave and they're looking to do something new nobody wants to make his way over to Booz Allen and be yet another former senior Cia person at Booz Allen there are a million of them there they want to do something bigger and more lucrative and I think that's why we're seeing these groups like Hamilton 68 pop up or
+
+[02:34] this group that that gave a red check mark to uh Consortium news newsguard yeah they want to do something new and and big and more lucrative let the lower level guys end up at Booz Allen or at Abraxas Corporation or wherever it is that they go now so yeah even though they all have former in front of their titles now to me that doesn't really mean anything because they have as much access at least to people as they ever had you
+
+[03:06] know sorry there's a political agenda here but it wasn't just about making money I like to ask you my dad absolutely they make money this was an agenda to smear Trump Wikileaks Russia and set the stage for the crisis we've got now I think in many ways well there there was a perfect storm that took place you know going back a little bit further what made John Brennan somebody I listen I worked for John Brennan when he was a gs-14 nobody and what made him somebody was a deep
+
+[03:38] friendship with George Tennant and then when it was time to retire and move on to something else and everybody was going either to the Hillary Clinton campaign or to the John McCain campaign he was literally the only senior Cia retiree that went to the Obama campaign and that made him somebody he decided that he could turn that into something even bigger by then going to the media when he was
+
+[04:08] done you know John used to tell everybody who would listen that he wanted to be Secretary of Defense under the next Democratic president well why why would you want to make two hundred thousand dollars as Secretary of Defense which would then put you into your 70s when you can spend those years at MSNBC making 10 times which you would have made at the Pentagon and then when people saw
+
+[04:38] him making money and uh what's his name the former dni making money and every former four-star Clapper thank you every former four-star general is a talking head for CNN you know and you've got these Democratic credentials because you loyally Faithfully served Barack Obama for six years or eight years whatever it was why not run with it and you know the the other thing too Joe is these guys are
+
+[05:09] very very mainstream they're very DNC there's nothing that's going to carry them out of the mainstream and if the mainstream is telling them that to beat Donald Trump you have to chat up this DNC plan to convince the American people that the first thing Donald Trump does in the morning when he wakes up is he calls his Russian Handler to get his his marching orders for the
+
+[05:40] day then that's what you do it's worked for them isn't that whole story so funny can you imagine Donald Trump having the opsec to keep that secret it's just think about it a cousin of mine who's very much a DNC you know mover and Shaker set me up with a woman who's an attorney at the DNC lovely lovely woman and we went out for one date and through the entire date all she
+
+[06:10] talked about was how the Russians controlled Donald Trump and I said you don't really believe that though deep down I mean at the CIA if there was one thing I took out of my CIA career especially from the analytics side it's that if you're going to say something you absolutely have to have the information to back it up you have to have the facts you can't just throw a grenade into the middle of the room and expect everybody to salute it you have to back it up and she said to me I Believe In My Heart
+
+[06:42] that Donald Trump does exactly what Vladimir Putin tells him to do and you know I I realize there's no sense in carrying on the conversation any longer because they really believed that at the DNC maybe not at that top level that had come up with the big lie but everybody else who was there to implement it they believed it something you were saying John uh it reminded me of just the experience of trump derangement syndrome in general
+
+[07:12] during the whole Russia gay era I mean so this Hamilton 68 this labeling of American citizens and other you know ordinary people's views and expressions of opinion as disinformation as a Russian Bots it was just at this hysterical pitch and I think as Matt was also mentioning earlier it was something that everybody experienced on kind of like the journalist side of it but then as you say John like when you talk to people who really believed it it was like a religious fervor they had about it so I just wanted to you know ask you
+
+[07:42] all kind of about your experience of trump derangement syndrome or what you know that hysteria during the Russia gate era and if that was unique I mean or if you think this is it'll play out the same way again on the next equivalent narrative that the media really pushes I was at the Venezuelan Embassy the night that it was ordered closed and uh as I was leaving with most everybody else some some elected to stay inside I overheard two uniformed Secret Service officers talking one of them said so who are these people
+
+[08:15] and the other one said the ones out here with us the ones inside are with Putin um and the other one kind of chuckled and the second one said no seriously it's like with Trump and you know just to hear something like that and to realize that they that they mean it that you know your initial reaction is you think wow what a couple of simpletons
+
+[08:45] and then you realize no it's not that they're simpletons it's that they've been exposed to this propaganda for so long this this unrelenting reporting that that Donald Trump is a Russian agent and that the Russians have controlled our elections listen there's a guy that I used to work with at the CIA we work together desk to desk for years and now I just read in the Washington Post a couple of weeks ago he was named to head the new office of election
+
+[09:18] Integrity in the office of the Director of National Intelligence like Integrity for what we've already proven that the Russians didn't have any impact in our elections but people really believe that they just refuse to look at the evidence that's placed before them we need more reporting from the likes of Matt taibi to prove to the American people that they're just simply mistaken they've been duped they've been LED astray
+
+[09:48] there's no evidence to back up what they've been told and we have to make sure that this doesn't happen again

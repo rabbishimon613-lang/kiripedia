@@ -1,0 +1,56 @@
+---
+slug: "2025-02-25-katie-halper-we-re-led-by-a-cabal-of-criminals"
+title: "\"We're Led By A Cabal Of Criminals\""
+show: "Katie Halper"
+date: "2025-02-25"
+url: "https://youtu.be/jTh_0DYD5TU"
+videoId: "jTh_0DYD5TU"
+duration: "11:00"
+captionSource: auto
+paragraphs: 22
+sponsor_paragraphs_stripped: 0
+source_file: 20250225-jTh_0DYD5TU.en.vtt
+---
+[00:00] got nous man Cal down I applied for a pardon with Barack Obama I was ignored he gave Manning a commutation yeah Manning's still a convicted felon you know and I'll tell you another story that that answers that question I have very very strong support in the Greek American Community for a for a pardon and I mean like the Archbishop the the bishop of Pittsburgh these two Greek American billionaires
+
+[00:30] the former lieutenant governor of New York Alexi janulus the the Secretary of State of of um Illinois great great support two these two billionaires one of them called me and I went up to New York to meet with the two of them and they said look we know Joe Biden very well and we can get to him directly do you want to meet with him and I said yes so I said listen I have a letter signed by 70 former CIA officers asking that I be pardoned I have a letter written by the man who wrote the law that I was convicted of violating said saying I
+
+[01:01] should never have been charged in the first place I have a floor statement from John McCain saying I should be pardoned from my liberal Democratic Congressman saying I should be pardoned but maybe most importantly right M I have an oped from the Christian Science monitor from Senator Joe Biden saying that the law that I was convicted of violating was unconstitutional and should never have been passed so we go to uh Wilmington to meet with Biden this is like four or five days before Trump became president so we
+
+[01:34] go to Biden I make my pitch and the two Greeks and I got on the train we came to um uh Washington I went home they went to the White House for a dinner that they were invited to I waited up late into the night finally at at midnight they called me and they said you would have been so proud of Joe Biden tonight he went to the mat for you but halfway through his pitch Obama put up his hands and said guys I'm just not going to do this it's either
+
+[02:05] him or it's Manning and Manning got 30 years and I said why are we mutually exclusive right what does it cost Barack Obama to do the right thing but he didn't do it and then Honestly by the time Biden was able to do it he was so demented that I mean I don't I don't have any idea who made that decision I don't think it was Biden wow I don't know wow yeah it sucks well at least you know that a lot of people support you and you
+
+[02:36] know believe in you and and support your work and tune yeah great pride in that thank you and and you know what if I could interrupt you for one second I would do the whole dog on thing over again really I would I mean my wife and I split up um I lost my my pension I lost my security clearance I lost my job and I don't care because it was the right thing to to do and torture is outlawed in this country now and I'm proud to have played a role in that you know you you you come to some
+
+[03:08] issues where you know that you're right and they're wrong and eventually everybody else is going to see that so I don't care you know and this is one of the things when you apply for a pardon when you make a formal application we could talk about the process whenever you want um you have to show proof that you showed contrition and I'm not contrite oh yeah they're like are you sorry for the crime you committed and I said no I'm not no I would do it again did you
+
+[03:39] ever have regrets were you ever like God why did I do the principal thing would have been so much easier not to oh yeah what moments of it yeah yeah when the justice department offered me 45 years in prison and told me that was the best deal I was going to get I I intended to commit suicide that night and my wife and I were up watching TV and she said let's go to bed and I said no I'm going to stay up late I'm going to I'm going to just watch TV I wasn't going to watch TV I was going to go down to the garage and just you know put a pipe in my mouth
+
+[04:09] and I think she sensed it and she said no we should go to bed and she kind of talked me out of it wow yeah so yeah there were times when I I thought oh my god what have I done what have I done and then yeah the more I thought about it the more I thought no somebody had to do it we're led by a cabal of criminals and somebody had to say something yeah so there it is the pardon process if if I may yeah of course the
+
+[04:40] pardon process is supposed to be very simple and very direct you go to www.justice.gov Parton and you fill out apply for clemency and it's supposed to be that easy but what they do is they take your application and they send it to the FBI to do a background investigation on you and they want to know are you sorry for what you did have you said so in public have you committed another crime are you
+
+[05:11] an [ __ ] to people you know all kinds of different things and then they send that whole package to your prosecutors and they say to the prosecutors uh John here wants a uh wants a pardon what do you guys think about that well this is what they think this is what they think about just about everybody then they send it to your sentencing judge and they ask the judge who's 99% of the time a former prosecutor and they say um you wanna you
+
+[05:44] want to give this guy a pardon and the judge usually says no no pardon for him and then it goes to the deputy attorney general the deputy attorney general says no no pardon for him then it goes to the uh white house chief of staff and the white house chief of staff um makes a recommendation to the president that is unless you have money or influence um these these pardons that Donald Trump has been giving nobody applied for those pardons he just gave them you remember this uh this Green
+
+[06:16] Beret war criminal that was pardoned at the very very end of Trump's first term he didn't apply for a pardon Fox News talked about his case every single night for a month and a half and then he got a pardon um another one was uh this crooked judge the the kids for cast judge right he hadn't applied for a pardon and even even governor of Pennsylvania Josh Shapiro said whoa wait a minute where' this pardon come from literally guy who ruins the lives of children for money a
+
+[06:48] judge right he literally sold children into bondage yes so disgusting so if you've got you know you don't get Aon or commutation I think is what that he got right that guy did he get a part commutation maybe yeah but if you if you've got money or you have daily access to to Fox News and you can get in the president's face every night or you have you know a very important and very well-placed friend who can just walk into the Oval Office and say hey do me a
+
+[07:18] solid and pardon this guy otherwise you know your chances are nil and I I point out in this piece that I wrote that the number of Pardons that have been given by the last you know four or five presidents are are dwarfed by the number of Pardons that used to be given I mean even Richard Nixon pardoned 22% of the people who applied well now we're down to more like 2% 2% yeah what happened to forgiveness you know when I got home
+
+[07:49] from prison um I went to the courthouse in um Arlington Virginia to register to vote and um they said did you get an approval from the the governor and I said' oh I didn't realize that I had to get an approval from the governor they said only in Virginia and Florida you have to get the approval of the governor I'm like okay so I go on go on to the governor's website it was uh Terry mcalli at the time and I I said you know I'm a convicted felon I I was convicted
+
+[08:19] of violating the intelligence identities protection act of 1981 and I I would like the right to vote I paid my debt to society right like two weeks later my doorbell rings at 7 o'clock in the morning and it's a courier and he's got this big envelope like this big but it's like a hard stiff cardboard envelope and I pull it out and it's this gooral declaration with a big seal the big gold seal on it and it's
+
+[08:51] signed by the governor and it's a pardon it's a gubinatorial pardon it was a really sweet thing to do I hadn't been convicted of committing a State Crime but what it did was it was symbolic and it allowed me to register to vote that's nice so I I went to register to vote again when I got the big certificate and there's a box have you ever been convicted of a felony and I said yes have you been pardoned by the governor so I checked yes and they said that the guy who handles your kind of cases and
+
+[09:22] the woman Winks at me he's on vacation today and I said oh but today's the last day to register so that I can vote in the elction she said don't worry about it you can vote in the election on the following Monday this guy from the courthouse comes to my house and gives me my voter registration card and he said we know what you did I wanted to make this as easy as possible so people have been awesome it's these presidents who have been dicks and Mitch McConnell I'd like to smack in his in his Turtle
+
+[09:53] face too but that's just me that would be the final his final moments I think he's like yeah I think so pretty well he's pretty well dead as it is because Mitch McConnell said that if Trump pardoned and this was the original idea Trump was going to Pardon Julian Assange Ed Snowden and me that and and McConnell didn't know me but he said if Trump uh pardoned Assange and Snowden that he couldn't control the Republican caucus in the Senate and that they would probably vote to convict him on the impeachment charges so he dropped our
+
+[10:24] pardons you know when I was working on the hill we used to make fun of him because he lives in this townhouse that's literally four doors down from the uh from the heart Senate Office Building so he lives like literally 150 feet from his office and he used to take a limo every morning the 150 feet and we would boo him as he as he drove by like what a loser well what are your thoughts on uh Elon Musk and also on USA because one of the reasons that I I think you're such a great guest is because you're and
+
+[10:55] someone to talk to is you don't have like a particular political formula right so you're critical of Elon mus you're also critical of USA tell us about the connection between USA and the CIA yeah um you Ted Kennedy once called usaid the cia's beach head at the uh State Department
