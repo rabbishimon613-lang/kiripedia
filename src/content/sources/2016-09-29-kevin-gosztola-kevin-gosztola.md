@@ -1,0 +1,88 @@
+---
+slug: "2016-09-29-kevin-gosztola-kevin-gosztola"
+title: "Kevin Gosztola"
+show: "Kevin Gosztola"
+date: "2016-09-29"
+url: "https://youtu.be/0oscOuMADGI"
+videoId: "0oscOuMADGI"
+duration: "19:00"
+captionSource: auto
+paragraphs: 38
+sponsor_paragraphs_stripped: 0
+source_file: 20160929-0oscOuMADGI.en.vtt
+---
+[00:00] hello everyone I'm shadowproof's managing editor Kevin gustola and we're joined with uh John kiriaku former CIA officer and he's been writing at reader supported news about Jeffrey Sterling's case so we're talking to him we want to bring some more attention to what the Bureau of Prisons is doing to Jeffrey so thanks for joining us John happy to be here thanks for having me and so uh we recently published a letter from Jeffrey Sterling at Shadow proof
+
+[00:31] and you've been following what's going on with him in the prison so for people who aren't aware is summarize where things are at right now he's suffering from some very severe heart problems right Jeffrey has a very uh long-standing serious heart arrhythmia that necessitated a hospital stay of more than four days about 10 years ago he was a candidate for a pacemaker immediately before he was incarcerated he didn't have time to uh to have that pacemaker installed so he
+
+[01:03] went to prison with his pre-existing heart condition as you can imagine uh his his health has deteriorated in prison um I'm I know from first-hand experience that prison Health Care is is dismal at best and Jeffrey just seems to be experiencing the worst of of Both Worlds having a pre-existing condition and having to have it treated in prison and so he's had a series really over the last month or so a series of um heart
+
+[01:36] episodes or incidents I think he's calling them where um he experiences arrhythmia tachycardia in some cases uh he fainted in one case and had to be carried on a stretcher to the medical unit and he has literally been begging to be taken to an outside cardiologist for uh for an exam and um the prison refused to approve such an exam until very recently and even then when the
+
+[02:06] outside exam was finally approved after Jeffrey had been Shackled um hands and feet and taken to this outside Medical Professional the prison never gave that doctor his medical records and so the doctor had no idea what he was examining no idea what he was supposed to be looking for and as a result all Jeffrey ended up getting was a prescription for a beta blocker right and there's a few problems with that I mean one if you're in shackles
+
+[02:37] you probably couldn't take the proper tests because you're going to have an elevated heart rate anyways because you're in that uh sort of condition and on top of that uh What Jeffrey is is talking about and describing is symptoms of atrial fibrillation and the a prison is insistent that he does not have this history it would seem uh from what um from what Holly his wife has shared
+
+[03:09] they insist that he doesn't have this serious condition so would you talk about how the the prison is under this or I guess whether they believe it or not we don't know if they actually truly believe this or not but what they're doing publicly is putting on this face that he's fabricating medical information so would you address that yeah um this is a common tactic used in in the Bureau of Prisons it's called malingering and uh if you are determined to be malingering that is uh claiming uh
+
+[03:40] uh Health maladies that you don't have you are subject to a disciplinary action which includes um being committed to solitary confinement losing your visiting privileges your your telephone privileges your email privileges they can really make your life miserable um now why would they do that well they do that because they don't want to treat you they don't want to treat a prisoner that has an expensive uh health problem uh because they don't want to pay for it now couple that with with the fact that
+
+[04:12] the Bureau of Prisons is a Dumping Ground for failed medical professionals and you have just a perfect storm uh it is it is easier for the Bureau of Prisons and certainly cheaper for the Bureau of Prisons for a prisoner to die in their custody than it is to treat them over the course of a period of time and uh from your experience so you were incarcerated for uh what 24 months is that 23 months yes 23 months and and
+
+[04:42] your experience in prison probably reflects what what Jeffrey said I mean exactly at the end of his letter he wraps up saying uh truly uh to FCI Englewood and the Bop the life of an inmate is a cheap commodity it is indeed in the short time that I was incarcerated uh at FCI Loreto in Pennsylvania four other prisoners died and all four of them died of preventable illnesses a couple of heart attacks and
+
+[05:14] and two cases of cancer in one case I actually was friendly with with um with the man he uh he lived in a room that was directly across the hall from the chapel where I worked and uh I used to sit at the same table uh he and I sat at the same table in the cafeteria so I would stop by and say hello one time I stopped by and he complained to me that his back was just killing him and he had gone to medical and uh they gave him Tylenol and the Tylenol did nothing I saw him a week or two later and he was
+
+[05:46] using a cane I saw him a week or two after that and he was using a walker to make a long story short I finally went to the chaplain and I said chaplain this poor guy is obviously in distress and medical is not giving him anything other than Tylenol they won't take him out for an x-ray they certainly wouldn't pay for an MRI they just kept giving him Tylenol every time he would go to the medical unit and they threatened him with a malingering shot so um finally to his credit the the chaplain went to the head of the medical
+
+[06:16] unit and said please give this guy an exam they finally took him out to uh to a hospital where he had an x-ray and it was found to have stage four spinal cancer and he died just a few weeks later so uh you know just to put a cherry on top of this whole this whole story just nights before this poor guy's death uh the warden went to his room and said that he would approve um a compassionate release if the prisoner signed um an agreement to not Sue the Bureau of
+
+[06:49] Prisons and he refused to sign the agreement and he died in his bunk in prison that's just typical of of Medical Care in prisons across the country this wasn't specific to Loreto it wasn't specific to this one prisoner this is what Jeffrey Sterling is up against and it's not going to get any better right and uh there's a it's it's somewhat chilling when you think about it I I shared with him a story you had put in uh or some antidotes that you
+
+[07:19] would put in your last letter from Loretto and how you had uh summarized the problems with medical at Loretto and uh I believe you told a story of one uh prisoner in there who who had suffered from something serious and he came back with okay that's normal um and he named this prisoner who he called William and talked about how William had died um and it first from a situation very similar to what Jeffrey is going through right now so he has this very chilling
+
+[07:49] recent example of what could happen to him so um one other thing that's really critical about Jeffrey's story is that on September 17th he went and had a meeting with medical and they're acting like uh it didn't happen because he was told told that he had elevated levels of troponin which suggests that he probably suffered some kind of a heart attack yes yeah this is also a typical of what the
+
+[08:22] Bureau of Prisons medical units across the country will do it's my own personal belief that uh the medical uh staff member the the Public Health Service staff member who examined Jeffrey purposely did not include a write-up of that appointment uh in Jeffrey's records and it is really meant to to cover himself in the event that Jeffrey has a more serious heart attack or dies while he's still in prison uh you know I I spent 15 years with the CIA Kevin and over the course of those those
+
+[08:52] years I had occasion to come into contact many many times with medical professionals from the U.S Public Health Service and I found them to be just terrific uh people good Medics committed patriotic I had exactly the opposite experience when I was in prison I was shocked to find that Public Health Service professionals were the Physicians assistants that were seeing prisoners seeing patients every day these these folks were the the dregs of the Public
+
+[09:23] Health Service these were the people who just couldn't cut it anywhere else in government and so they were dumped into the prisons and I'll give you another example when I first arrived at Loretto we have a doctor about whom most of the prisoners I knew spoke very highly and about six months into my sentence he resigned he didn't ask to be transferred he resigned and went into private practice because he said the Bureau of Prisons would not allow him to treat Prisoners the way he wanted to treat them which meant to send them to outside
+
+[09:56] uh medical appointments to prescribe the medications that he thought they needed we had a period of about six months with no doctor at all and then after those six months they hired a failed child psychiatrist who had been asked to leave one of the major teaching hospitals here in the United States so really you get the worst of the worst in the medical field don't forget that half of all doctors graduate in the bottom halfs of their class right
+
+[10:27] somebody's got to be ranked last in their class in medical school and frequently those doctors end up in prisons foreign and so on top of all of what you just shared uh is the duress and stress that you go through as a as a family member trying to communicate uh your uh your needs so Holly uh the wife of of Jeffrey has been calling the Bureau of Prisons trying to impress upon them the Need For assistance and um I guess share some of
+
+[11:00] what uh the Bureau of Prisons has been telling her and how this uh compares to well the way you were handled but I guess I guess fortunately you were never really in a situation like Jeffrey no I I was fortunate I did have to go to an outside uh appointment one time because uh just one week into my sentence I broke a finger and um and I I did everything the way I was supposed to I went to Medical I said I have a broken finger and the physician's assistant the PA from the Public Health Service said
+
+[11:31] no it's not broken I said listen I've broken bones before I'm telling you it's broken we went back and forth for for more than two weeks finally 16 days after I broke the finger he allowed me to go uh to an outside hospital to have a an x-ray I was Shackled just like Jeffrey my hands were Shackled In Front of Me my feet were Shackled so I could only take baby steps and then my hands and feet were chained to each other um and I got my uh my x-ray and the
+
+[12:02] doctor said well it's broken it's broken broken but there's nothing we can do it because it's already begun healing itself and so I'll never regain full use of my finger it's just a pinky finger it's no big deal with Jeffrey Sterling it's his heart and these these prison officials just don't want to acknowledge the fact that the guy has an illness a disease that has to be treated or it's going to get worse and it may get worse to the point of death what Holly Sterling has been doing
+
+[12:33] and I've encouraged this in my own writing at reader supported news is uh she's been contacting the Bureau of prison's regional office in Denver and she has spoken with an official there who was really not helpful in any way and in fact threatened Holly a couple of times saying things like I don't have to speak to you you know it's it's a favor that I'm doing for you speaking to you I don't have to tell you anything I don't have to do anything for your husband well that that's not going to help anybody's situation to get into what
+
+[13:06] amounts to a pissing match uh with with the wife of a prisoner if the guy has a medical problem then fix it it's your duty as a medical professional whether you're in the Bureau of Prisons or not it's your duty to get this thing taken care of but uh but they just they seem to be willing to do only the bare minimum and that's only when they're pushed now I know from um from uh responses to my own pieces on reader supported news that uh about 150
+
+[13:36] people have called the regional office in Denver to demand medical care for Jeffrey and I think that it's pissed them off a little bit now perhaps and I like to think this is the truth perhaps it's pissed them off enough that um that it's pushed them into action What Jeffrey certainly thinks that the only reason he was able to see that outside specialist was because of people calling uh the bop and and in
+
+[14:06] conversations with Holly uh this is the sort of pressure that they want to keep up so you know it coincidentally I have the numbers right here and I'll just take a moment I'll do it again at the end of the interview I mean we're almost finished but but for the North Central regional office you can dial 913-621-3939 or you can call FCI Englewood the prison where Jeffrey's being held and that's 303-763-4300 and so those are the
+
+[14:39] numbers and it's working because people you know I guess talk about what your experience was on the inside just to emphasize what it was like knowing that people were paying attention to your case and that is a huge deal and it gives you a lot of power to protect yourself again against prison officials I truly believe and I've written about this that you and Brian sonnenstein at Shadow proof and Jane Hampshire at firedoglake.com before you well you were
+
+[15:10] there as well uh I believe that you three in particular were responsible for my safety uh in prison and I don't mean my safety vis-a-vis other prisoners I mean my safety vis-a-vis the prison Administration I was in danger of being put at one point into something called diesel therapy because of my my writing and blogging and it was because you published that allegation and there were something like 1600 calls to the
+
+[15:40] director of the Bureau of Prisons demanding that I not be put into diesel therapy that I wasn't and that the warden the assistant Warden and most importantly the guards kept their hands off of me what diesel therapy is I'll just say quickly is um if if the prison has a Troublesome prisoner they'll put him into what's called um Transportation status so that means they'll they'll put you on a bus and send you to a Transportation Hub in my
+
+[16:10] case it would have been the the U.S penitentiary in Canaan Pennsylvania now you can sit there for two weeks or you can sit there for up to six months then they put you on a bus to let's say Harrisburg Pennsylvania Airport and then they fly you to another Transportation Hub in Atlanta Georgia at the penitentiary there eventually you make your way to the the Central Transportation Hub in uh Oklahoma City Oklahoma and then maybe Yankton South Dakota or Englewood or California or wherever anywhere in America there there
+
+[16:42] are so many prisons the reason they do that though is because when a prisoner is in transportation status he does not have access to a telephone to an email or to pens and paper and it's the only way really that they can legally silence someone and transport status Transportation status can last up to a year you can be in transportation status for that long well I only had something like a year left on my sentence and uh and they were
+
+[17:14] talking about ways to get me to stop writing I have no doubt in my mind that at FCI Englewood they have had similar conversations about how to silence Jeffrey Sterling uh and I do believe that when I was talking to Holly she mentioned something about uh not just Jeffrey but the entire unit where Jeffrey is being confined being told that they would lose email privileges uh mostly on a whim just an arbitrary whim that this prison official
+
+[17:45] was upset about something someone did and was willing to take that means of communication away so it doesn't need I mean that's how quickly you can lose your connection so my last question is the Demand right now it's just it's to focus on what people should be if they're interested in supporting Jeffrey and and contributing to this outside pressure uh what they need to do is impress upon the officials that he needs a certain thing a holly believes that that demand should be seeing an outside
+
+[18:18] doctor the prison can't take care of this issue they've already failed Jeffrey they will continue to fail him uh what do you think about her her attitude especially based on your experience yeah I think Holly Sterling is is uh exactly on point uh the the prison has already proven several times that they are either unable or unwilling to help Jeffrey Sterling the only way that he can be treated properly and appropriately is by an outside specialist and that's really what we all
+
+[18:49] have to push for all right John I'm just going to read these numbers so people have them again uh if you would like to call the facility and help out Jeffrey the Bureau of Prisons North Central regional office which Colorado is under is 913-621-3939 FCI Englewood the facility where Jeffrey is being held is 303-763-4300 so and again thank you John
+
+[19:19] for joining us we really appreciate it happy to do it thanks for having me

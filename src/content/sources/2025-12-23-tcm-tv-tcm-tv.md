@@ -1,0 +1,76 @@
+---
+slug: "2025-12-23-tcm-tv-tcm-tv"
+title: "TCM TV"
+show: "TCM TV"
+date: "2025-12-23"
+url: "https://youtu.be/iCUpSKD4T4o"
+videoId: "iCUpSKD4T4o"
+duration: "16:00"
+captionSource: auto
+paragraphs: 32
+sponsor_paragraphs_stripped: 0
+source_file: 20251223-iCUpSKD4T4o.en.vtt
+---
+[00:00] got a call from an American journalist who said that he had a source who said that [music] I had tortured Abuza. President Bush said that if there was torture, it was the result of a rogue CIA officer and then nobody said anything. I kept waiting for it to go public. Number one, the CIA was torturing its prisoners. Number two, that torture was official US government policy. it was not the result of a rogue. And number three, that the policy
+
+[00:32] had been approved by the president himself. The day after I blew the whistle on the torture [music] program, a former deputy director of the CIA sent me an email and he said, "You've chosen a difficult road, but I'm glad somebody did it. I believe that torture was a criminal act and so revealing it was an act of patriotism, not an act of criminality. As far as the CIA goes, I'm on record as
+
+[01:02] saying I don't believe there should be a CIA. I think it's a force for evil. My very first week, my boss said, "Come up with a standard operating procedure for taking down an al-Qaeda safe house." Of course, we had something called high value targets, HBTs. And that was the the obvious list. It was it was bin Laden, Zawahi, Abu Zuba, Khalik Muhammad, Ramsey, Benes, the usual cast of [music] characters. And those people
+
+[01:34] who were that cooperative would remain in ISI custody. We [music] believed at the time that Abuazuba was the number three in al-Qaeda. He was not. >> Did you feel comfortable with the techniques? >> Uh, frankly, no. And I elected to uh to forgo the training. I was asked if I wanted to be trained in the enhanced techniques [music] and I sought the counsel of a senior agency officer who's still an agency officer and I said, "What would you do in my situation?" And he said, "Frankly, I think it's a slippery slope. An accident's going to happen and uh I wouldn't do it." I
+
+[02:06] thought that somebody was going to make it public because once they started torturing him, we started getting cables back, reports back from the secret site. I was at headquarters and they were saying, "This is terrible. This is illegal. This is not what I signed up for. I quit. I'm coming home. I can't believe we're doing this. I'm going to call the FBI." And I thought, "Oh, thank God. It's not just me. Other people at the CIA realized this is a criminal act." And then nobody said anything. I
+
+[02:37] kept waiting for it to go public. Then I left the CIA in 2004, early 2004, and still waited for somebody to say something. Somebody blew the whistle on the secret prisons. Somebody else blew the whistle on the rendition program. And I thought, okay, this is good. These were criminal acts as well. Somebody's going to say something about Abu Zubeda. nothing. And then in December of 2007, I got a
+
+[03:07] call from an American journalist who said that he had a source who said that I had tortured Abu Zubeda. I said that was absolutely untrue. I was the only person who was kind to Abu Zubeda. But then a couple of days later, President Bush said that if there was torture, it was the result of a rogue CIA officer. And I said to my wife, who was also in the CIA, I said, "They're going to try to pin
+
+[03:38] this on me because I was the only one who objected internally through the chain of command." So I called the journalist and I said, "I will give you your interview." And I decided that no matter what he asked me, I was going to tell the truth. And so I said three things. Number one, the CIA was torturing its prisoners. Number two, that torture was official US government policy. It was not the result of a rogue. And number three, that the policy had been approved by the president
+
+[04:08] himself. And then everything spun out of control after that. My overall belief for many many years up until up until the torture of Abu Zubeda was that we are the good guys, right? We're the good guys. We're the freedom fighters. And then I realized we're not the good guys.
+
+[04:40] We're no better than the bad guys. The things that we criticize other countries for, we were doing every day at secret sites around the world. Let me give you an example. When I was serving in Bahrain, I mentioned that I was on rotation. I was on on assignment to the State Department and as part of that assignment, I was the embassy's human rights officer. There was a an inifada in Bahrain at the time and a lot of people were were shot and killed by [music] the police or were
+
+[05:12] arrested and then never charged with a crime, just held in communicado in prison. And um I would go to the minister of interior and say, "Your highness, you you can't just shoot a 15year-old boy because he marched in a pro-democracy demonstration. I have to report that to Congress, right? Right? And it might affect arm sales. You can't just kill people just because you don't like their politics. But then what happens when a human rights officer makes a complaint like that and then
+
+[05:44] later in the day a CIA station chief goes in to see the same minister and say and says, "Don't don't listen to the human rights guy. We want you to open a secret prison here where we can bring prisoners to be tortured and we'll share the intelligence with you. Who's he going to listen to? He's going to listen to to me or he's going to listen to the guy with with the suitcases full of money. So I I realized
+
+[06:14] on October I'm sorry on August the 2nd, 2002, I realized we are the bad guys. You know, we talk about human rights and civil rights and civil liberties and rule of law and it's like a joke. I did not think I'd get arrested because we have a law in the United States that says that it is illegal to classify a criminal act for the purpose of keeping
+
+[06:44] it from the American people. I believed that torture was a criminal act. And so revealing it was an act of patriotism, not an act of criminality. And to tell you the truth, I wasn't arrested for revealing the torture program. They found a way around it uh to arrest me for something else, but originally they charged me with three counts of espionage and they had to drop those charges. I hadn't committed espionage. And so it
+
+[07:15] was this legal cat and mouse game that we played for the next uh four or five years, four years until they finally arrested me. [music] You know, a lot of whistleblowers commit suicide uh because the pressure is so great. I was facing 45 years in prison with the original charges. [music] 45 years in prison. One of the prosecutors told me
+
+[07:45] that I was going to die in prison and that I would never meet my grandchildren. But then at the same time, my wife, [music] now my ex-wife, um she said, "You have to embrace this. You didn't do anything wrong, and so you have to keep talking about it because your side of the story needs to become the side of record." And so she was right. and I began talking about it to every media outlet
+
+[08:16] in the world that asked for an interview. I never said no. And she was right in that they eventually moved on to their next target which was Edward Snowden and uh and then Julian Assange. And so my side of the story has become the side of record. Another thing too, and this is something that I didn't appreciate at the time because I felt like the entire weight of the American government had fallen on my head, but my most senior detractors, the CIA officials who
+
+[08:50] wanted me dead or wanted me to die in prison, eventually they died and they're just not around anymore. and this new generation of CIA officers, many of them have reached out to me as recently as two weeks ago to say that I did the right thing and that they still talk about me at the CIA 20 years after I've left saying that I did the right thing. So, you know, in the end, it's all worth it. I'll add one thing, too. Um,
+
+[09:22] the day after I blew the whistle on the torture program, a former deputy director of the CIA sent me an email and he said, "You've chosen a difficult road, but I'm [music] glad somebody did it, and I wish that I had had the courage for it to be me." That meant a lot to me. A lot. It made me realize that it was worth it. [music] My lawyers told me there was probably no
+
+[09:53] way I would get out of it without prison time, but I only ended up getting 23 months. It was actually a relief. As odd as that might sound, it was a relief because there was an end date to it. I knew that this nightmare was going to be over in 23 months. I met a community in the prison that that took care of me and protected me and um I made a lifelong friend in prison. And uh you know, this could have been such a far worse
+
+[10:25] experience. The the Justice Department thought that they would break me. They thought that they were ruin they would ruin me. And all they did was they energized me and they gave me a cause. A cause for the rest of my life. How the CIA taught me to survive and thrive in prison. And I start off, it's kind of like semi humorous, but I start off with 20 lessons that I learned at the CIA and how [music] I implemented those 20 lessons in daily prison life.
+
+[10:58] Never underestimate your mental toughness was one that people can take a lot more stress and abuse than they realize they can take. Another one was kind of a joke at the CIA. was admit nothing, deny everything, make counter accusations. And in my dealings with the guards, I used that all the time. It was very frustrating for them, but I never told them anything. Another was get others to do your dirty work.
+
+[11:28] That way, you're always clean. That was a valuable lesson in prison. And like I said, there are 20 of those. Some of them are tongue and cheek. Some of them are very serious. [music] From my own perspective, there's one philosophical lesson and there's one practical lesson. The philosophical lesson is know the truth and the truth shall set you free. The the truth is should always be paramount even when the
+
+[11:58] truth is painful. We always have to know the truth and to tell the truth. From a practical perspective, I would advise anybody, no matter where you are in the world, if you are considering blowing the whistle on waste, fraud, abuse, illegality, or threats to the public health or public safety, which is the international definition of whistleblowing, hire a lawyer first and have that lawyer sitting next to you when you blew the whistle. As far as the CIA goes, I'm on record as
+
+[12:31] saying I don't believe there should be a CIA. I think it's a force for evil. But if there has to be a CIA, then it's up to the American government and especially the congressional oversight committees to absolutely ensure that the CIA respects the rule of law and respects human rights and human dignity. And we're still not there yet. And also, I feel like I owe so many of these men an apology for what my government did to them. You know, in the darkness, in the shadows, outside the
+
+[13:02] rule of law, they deserve an apology. They deserve compensation, which they'll never get, but at the very least, they deserve an apology. [music] worldwide. Uh the job of intelligence agencies, very simply, is to recruit spies to steal secrets. It's really that simple. And uh I think the most immediate issues are secrets pertaining to terrorism because we're all affected by terrorism.
+
+[13:34] Um at the same time, this is not unique to the United States. I'm talking about every intelligence [music] service in the world. Citizens of every country should remind themselves that these intelligence services and intelligence officers work for us. We are the taxpayers. They are working in the public service and so they should be subject to appropriate oversight. It should be up to every government and every legislature to make sure that
+
+[14:05] their secret services are not violating basic humanitarian laws. I think that most of us fail. Um, most countries fail in that respect. Certainly here in the United States, we have failed many, many, many times over the decades. But we should constantly keep pressure on our governments to keep pressure on our intelligence services to respect the rule of law. And there are a lot of people who um have mental breakdowns because of the
+
+[14:36] pressures associated with this work. You know, it's funny. I'll tell you something personal about myself. Uh many of my colleagues suffered from PTSD, post-traumatic stress disorder, and I never did. It never affected me. I don't know how or why, but I was able to separate the danger, the risk of the job with my personal life. It was only when I got
+
+[15:06] divorced that I got PTSD because of the divorce. And I went to see a doctor, a doctor who I knew from the CIA, and he said, "You know, it's amazing to me that you came back from Islamabad and you had no signs of PTSD." I said I loved Islamabad. I loved the job. I loved the work, the operations, the people. It was like a vacation for me. I loved it. But the breakup of my marriage, I never
+
+[15:38] saw that coming. So for a lot of people, you know, there's turnover because a lot of people literally they lose their minds doing some of these things. They try to weed those people out in the application process. If you're mentally fragile, you're not going to you're not going to cut out be cut out for a CIA job. But sometimes it's just too much. And so you have to you have to be able to recognize when
+
+[16:09] you [music] are when your mental health is in danger and you have to be willing to act on it to protect yourself because the CIA doesn't care if you have a mental breakdown. You have to care if you're having a mental breakdown. The CIA doesn't care if you get better. They just want you to get better enough so they can send you back overseas to do more work. So, you really have to worry about yourself. That's that's the advice I would give.

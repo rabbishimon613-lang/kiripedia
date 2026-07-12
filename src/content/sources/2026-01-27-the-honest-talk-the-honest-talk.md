@@ -1,0 +1,82 @@
+---
+slug: "2026-01-27-the-honest-talk-the-honest-talk"
+title: "The Honest Talk"
+show: "The Honest Talk"
+date: "2026-01-27"
+url: "https://youtu.be/bsnqAS12bO4"
+videoId: "bsnqAS12bO4"
+duration: "17:00"
+captionSource: auto
+paragraphs: 35
+sponsor_paragraphs_stripped: 0
+source_file: 20260127-bsnqAS12bO4.en.vtt
+---
+[00:00] and they're really really smart. And then often times they'll say, "Oh, you know, I've had such a great experience here. I'd like to stay in the United States." Yeah, I bet you would. I bet you would. So you can spy for China. >> Do you think that's happening? >> Every single day. >> You think that Chinese students are in America spying on behalf of China? >> Yes. >> How could you be so sure? >> I'm 1,000% sure. How could you be so sure?
+
+[00:30] >> Because we frequently arrest them and then trade them for Americans who are in Chinese prisons. >> Yeah. >> And they're masquerading as students. >> Mhm. PhD candidates. Always in the hard sciences. Always. >> So, China are the long-term adversary. And what is it that China China want? What is it they're doing >> and what is the outcome? >> I think they want a couple of things. I think that on a more immediate basis they want
+
+[01:01] reunification with Taiwan. It's going to happen someday. Even the Taiwanese will tell you, "Yes, we're a part of China, but we're kind of not a part of China. We're not really independent, but we are kind of independent." And even American policy is that Taiwan is a part of China, and eventually someday they'll be reunited. Do you think with everything that's going on at the moment with Trump in Venezuela and Greenland, this is going to create cover for >> Oh, I was hoping you would ask me a question like that. I think that's very
+
+[01:32] that's a very important issue that that the media really aren't talking about. So, let's put it in the context of what happened last week in Venezuela because they're all moving parts of the same of the same policy. So, we we sent a Delta Force squad into Venezuela a week ago and we snatched President Maduro and he faces international narcotics trafficking
+
+[02:02] charges in New York. Okay, some people are for that, some people are against it. Whether you're for it or against it, it's happened. There's nothing we can do about it now. But that operation may have inadvertently given the green light to something that both the Russians and the Chinese have long sought. The United States really is the only true superpower in the world. You know, the Chinese have a lot more people. They have lots of nuclear missiles, but they have one aircraft
+
+[02:32] carrier. We have 12, soon to be 14. We have way more long-distance bombers. We have way more fighters. The Russians are bogged down in a war in in Ukraine. They're winning the war, but they're bogged down nonetheless. So, did this did this reinstitution of the Monroe Doctrine saying that, you know, from 1814 that that the Western Hemisphere is the is the territory of the United States, it's up to us to
+
+[03:02] protect it from foreign powers. Well, in 1814, that meant the British Navy. We don't really need a Monroe Doctrine and it's not up to us whether the Argentines want to have good relations with China for example. We invoked the Monroe Doctrine in this operation to snatch Maduro. So does that mean then that if we have a sphere of influence that is the Western Hemisphere that the Chinese have a sphere of influence that includes Taiwan that the
+
+[03:32] Russians have a sphere of influence that includes Ukraine? because that's kind of what it seems. It looks like we've given the green light to both of those countries and that we're conceding the fact that it's a unipolar world right now in favor of a multipolar world. Now, personally, I think a multipolar world is safer. >> What's a multipolar world? >> Multip-polar world is where there's not just one superpower. There are three or more. So in terms of policy, this simple act
+
+[04:06] of just sending a team in to grab Maduro has turned international diplomacy on its head. What do we do if the Chinese invade Taiwan? Do we really want to send American soldiers to, you know, to fight and die for Taiwan? >> What do you think would happen if China tomorrow said, "You know what? We're going to take Taiwan." >> You know what? Honest to God, I think nothing would happen. I think we would rush to protect Australia, Japan, South Korea, the
+
+[04:38] Philippines, Thailand. We'd rush to protect them. >> Why? >> Because they're they're major non-NATO allies. They're good friends, close friends. But in terms of going to Taiwan to fight Chinese soldiers, I can't imagine it. >> Trump told the New York Times that whether China moves on Taiwan is ultimately up to Chinese President Xi Jong-ing. not the USA he would be very unhappy if China changed the status quo he claimed he doesn't think will act while he's
+
+[05:09] president >> see and that is actually what the long-term policy is the long-term policy is sure someday to be determined later you guys can unify >> just don't do it while I'm here >> yeah don't do it today >> maybe when Trump goes >> god forbid So going back to this point, you said they want Taiwan. What else do you think China want? >> Well, do they want to see the US fall? >> Yes, sure.
+
+[05:40] >> And are they actively doing things to encourage that? >> Yes, but not the things that that you would expect. Instead of running around the world, you know, overthrowing governments, invading countries, which is what we do, they go to countries and say, "Hey, you need a new highway system, we'll pay for it. You need a new airport, no problem. You need a new hospital, electrical grid, we have plenty of money from our
+
+[06:11] gigantic trade surplus. We'll pay for it. We just want to have really good, friendly relations with you." And that's what they do. The Chinese essentially own Africa right now. >> What are you most concerned about in the world at the moment? What what does actually keep you up at night? >> What frightens me the most is that the US government over the last well really over the last 50 years or 55 years has so inflated its
+
+[06:46] military budget that what we spend on the Pentagon is now more than the next eight largest countries combined. Right? Donald Trump right now spends a a trillion dollars a year on the Pentagon budget. He's asking for next year to be a trillion and a half. We can't afford it. Our interest on the national debt is now the third largest expenditure in government between the
+
+[07:18] Pentagon and social security and then the the interest on the debt. >> And why does this bother you? >> Because we're going bankrupt and all the while the China the Chinese are letting us spend ourselves into oblivion. The Chinese don't spend that kind of money. How come I can't have a bullet train that goes 400 miles an hour? How come I can't get to Chicago in 3 hours by train? You know, how come the airports in my country look like [ __ ] and you go to Chinese airports and they're pristine
+
+[07:49] with like the most amazing services and the best restaurants? How come Chinese roads don't have potholes? And in my town, it's like driving across Bosnia. It's because they decided not to spend their money on weapons. They spend it on infrastructure. Do you think that's likely that the US could go bankrupt effectively? >> I do. >> Yeah, I do. We can't keep up this pace. It's not possible. We're going to have
+
+[08:20] to We're going to have to raise taxes and cut the budget. >> What's the most important thing that we didn't talk about that we should have talked about, John? >> Oh, that's a good question. One of the most important things in my life, to tell you the truth, uh, is the issue of ethics. I love this country more than anything else in the world and I want it to do the right thing. We're a country of laws and we have to obey our laws which is why I blew the whistle on the torture
+
+[08:52] program. >> Who's not obeying the laws? >> Our government. >> In what way? >> We've gotten to the point and it started around the year 2000 or 2001. We got to the point where if we want to do something, we just do it. >> Like what? >> In 1946, we passed something called the Federal Torture Act, which banned torture. Okay. Also in 1946, we executed
+
+[09:24] Japanese soldiers who waterboarded American prisoners of war. That was a death penalty offense to waterboard someone. All right. In 1968, on January the 11th, 1968, the Washington Post ran a front page photograph of an American soldier waterboarding a North Vietnamese prisoner. When the when the picture ran, the Secretary of Defense, Robert McNamera, ordered an immediate investigation. That soldier was
+
+[09:54] arrested. He was charged with torture and he was sentenced to 20 years of hard labor at Levvenworth. And then in 2002, it's legal. We can do it. We can do it because we're the good guys. The law never changed. We changed. And my point was always either we're going to be the good guys or we're not. Either we're going to be what Ronald Reagan called a shining city on a hill or we're
+
+[10:26] not. It when I was when I was stationed in Bahrain, I was the human rights officer. So, I had to write the human rights report every year that we sent to Congress. Well, imagine if John goes in to see the Minister of Interior, and I say, "Your Highness, you cannot pick up a 15-year-old kid for marching in a peaceful pro-democracy demonstration and then murder him, beat him to death in the in the police station, and call his parents to come
+
+[10:56] and pick up the body. You can't do that. I have to report that to Congress and you're going to lose your your rights to buy American military hardware. But then the CIA station chief goes in an hour later and says, "Don't pay any attention to the human rights guy. I'll give you $10 million. If you set up a secret prison here, we're going to send you some prisoners. You torture them and then you give us a write up of everything they say during torture." Who's he going to listen to? Is he going
+
+[11:26] to listen to me? >> Did that happen? Yes. He's not going to listen to me. If all of a sudden torture is legal just cuz we say it is and then Congress is like, "Oh, we don't know anything because it's a secret program, so we can't talk about it." >> Do we still torture people? >> No. I am very proud to say that when the McCain Feinstein anti-torrture amendment was passed into law in
+
+[11:57] December of 2014, John McCain got up on the floor of the Senate and said it was because of me, because of my revelations. He said, "If I had not told the American people that the CIA was torturing prisoners in their name, we would never have known." That's why I say it was worth it. >> Do you think you should be pardoned by by President Trump? >> I do. >> Have you written him? >> I
+
+[12:29] I've I have to be careful with my language here. I applied. My name is in the system. I have very very high level supporters who have approached him personally and I'm hopeful that it happens. John, we have a closing tradition where the last guest leaves a question for the next not knowing who they're going to be
+
+[13:00] leaving it for. And the question left for you is, what's something you stopped doing that improved your life more than anything you started? feeling sorry for myself. I I'll be honest with you. I have struggled with depression my entire life. And after my second divorce, I went through this period where I was just I couldn't pull myself out of bed
+
+[13:31] in the morning because I felt so sorry for myself. Because of the divorce or because of your life or because >> the whole thing I I believed I was just a loser. I was in my 50s, unemployable, convicted felon, barely able to make ends meet, worried about where my rent was coming from one month to the next. And then I thought, "Fuck you. What's wrong with you?
+
+[14:03] You don't have to answer to anybody." And I I told myself, "No more feeling sorry for myself. I was going to go make a career on my own. And so I knew I would never work for government again. I knew I would never work in corporate America again. After I left the CIA, I was the head of the competitive intelligence practice at Deote and Touch, spying on Ernstston Young and PWC and IBM, and it was great fun. I'll never work in in the corporate world again. So I decided I'm going to do what
+
+[14:33] I'm good at. and I'm a I'm a terrific writer and I'm told that I'm a gifted storyteller. So, I'm going to write books. I have two syndicated newspaper columns that run in 212 small town papers around the country. I'm on TV all the time. I have three podcasts, Drogram, every day on on both YouTube and Rumble. Thanks for letting me plug them, by the way. >> Go ahead. uh Deep Focus on YouTube and on Apple Podcast, John Kuryaku's Dead
+
+[15:05] Drop, which is just story after story after story. And now I make a perfectly great living. I I'm in a long-term relationship with the woman I'm crazy about, and life is good. >> And it all started with that decision to stop feeling sorry for yourself. >> Yes. If people around me keep saying, "You've done nothing wrong. You're a hero for what you did." And deep down I would do it again. Then why am I feeling sorry for myself? I'm right. They're wrong. They're criminals. So I'm just
+
+[15:36] going to go on with my life. And that snapped me out of it. So don't feel sorry for yourself. Do something about it. Act. >> John, you are someone that is very good at storytelling. You are. You've written many books. I'm going to link all the books below. Oh, thank you. >> So many incredible books. I've got some of them here with me on the floor. Um, >> I could go through all them, but we need another couple of days. >> Um, John, thank you. >> Thank you. >> Thank you so much for your incredible
+
+[16:06] storytelling, your wisdom, but also just giving us a window into a world that most of us know nothing about because there's so many lessons that I think are pertinent to all of our lives riddled amongst there. And I think, you know, I hope you do get pardoned. >> Thank you. I hope so. I've got my fingers crossed. And when you do, hopefully we can come back again and have another conversation. >> I look forward to that. >> It's been such a pleasure. >> Pleasure is mine. Thanks for the invitation. >> This is something that I've made for you. I realize that the DVO audience are
+
+[16:37] strivvers. Whether it's in business or health, we all have big goals that we want to accomplish. And one of the things I've learned is that when you aim at the big big big goal, it can feel incredibly psychologically uncomfortable because it's kind of like being stood at the foot of Mount Everest and looking upwards. The way to accomplish your goals is by breaking them down into tiny small steps. And we call this in our team the 1%. And actually this philosophy is highly responsible for much of our success here. So, what we've done so that you at home can accomplish
+
+[17:08] any big goal that you have is we've made these 1% diaries and we released these last year and they all sold out. So, I asked my team over and over again to bring the diaries back, but also to introduce some new colors and to make some minor tweaks to the diary. So, now we have a better range for you. So, if you have a big goal in mind and you need a framework and a process and some motivation, then I highly recommend you get one of these diaries before they all sell out once again. And you can get yours now at the diary.com where you can
+
+[17:38] get 20% off our Black Friday bundle. And if you want the link, the link is in the description.
