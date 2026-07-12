@@ -1,0 +1,58 @@
+---
+slug: "2025-09-08-dalton-fischer-podcast-dalton-fischer-podcast"
+title: "Dalton Fischer Podcast"
+show: "Dalton Fischer Podcast"
+date: "2025-09-08"
+url: "https://youtu.be/uXbZWktLmN4"
+videoId: "uXbZWktLmN4"
+duration: "11:00"
+captionSource: auto
+paragraphs: 23
+sponsor_paragraphs_stripped: 0
+source_file: 20250908-uXbZWktLmN4.en.vtt
+---
+[00:00] They are so sophisticated and so far advanced working with the likes of Palunteer, Nvidia, all these cutting edge tech companies. Couple what the CIA was trying to do in the ' 50s with MK Ultra and its subcomponents compared to what it is technologically able to do today and it is terrifying. You mentioned this very briefly. We kind of ran out of time in our last interview where you said something along the lines of like, you know, gone are the days of
+
+[00:31] just being able to cross borders and alias and do a brush pass because >> oh my god with with facial recognition software and AI. I actually posed this question to a current CIA officer. I said, "How do you guys cross borders? How do you get through airports like in different in different uh names?" And he said, "We don't know yet." still struggling. Yeah, the technology is developing so quickly, they just can't keep up with it.
+
+[01:03] >> So, man, that that a lot of things are running through my head right now, but uh something I just thought of, I heard from one of the science and technology people that gave an interview that the agency is involved in or dabbling in VR and AR type stuff. >> Oh, yeah. She didn't want to. She didn't say what, but what would you like what would you imagine that that's about? >> Oh man. Um, I don't know because I've been out a long time, but I will tell you that the DS&T, the sorry, the the
+
+[01:33] Directorate of Science and Technology, which is one of the four directorates at the CIA when I was there was almost an afterthought because mostly what it was responsible for was disguises and um, you know, briefcases with secret pockets in them and you know, supporting operations. Now they are so sophisticated and so far advanced working with the likes of Palunteer
+
+[02:05] and Elon Musk's different companies and AWS and all these like cutting edge you know Nvidia all these cutting edge tech companies they are so far advanced that instead of doing the silly concealment devices and disguises they just pawn that off to, you know, to, you know, individuals or or makeup companies and and and they do the big
+
+[02:36] ticket items. Now, I would say what the DS&T is doing with things like virtual reality are closer now to what DARPA is doing on futuristic tech than what they ever did in the past at the CIA. So, what would you say as an example? Like, what would a big ticket item be in that case? Man, I you know what? I I couldn't even venture to say it. I I don't even know.
+
+[03:08] It's become so sophisticated. I sat next to a guy for years, awesome guy, terrific analyst, and he always had a thing for tech. We used to joke about it cuz we were all young. When we were all in our 20s, we're all techsavvy. Now he's the CIA's chief technical officer. SIS4, he could be the director if the president wanted him to be. And I remember saying to a buddy of mine when when our friend was promoted, I was
+
+[03:38] like, man, he really made it like to the very top. And my friend said it was it was the tech, you know, he I'll I'll tell you what he did just as a favor on his day off. Um, he made a computer program to allow our Middle East analysts to make family trees of the royal families in the countries that they cover, right? No such software existed.
+
+[04:09] There was no such thing as, you know, family treemaker or genealogy.com. There was no such thing as.com. I We're talking about pre-in days. and he took three days off on his own time and made this program this software that everybody in the office used. And I was like, "Wow, he really knows a lot about tech, huh?" And then two or three years later, they invented the internet. Or they didn't invent it then, but they they released the internet to the general public and he just jumped right in and really really made something out of himself. So, he's in charge of all
+
+[04:41] this stuff now. Yeah. >> Did you ever have an experience with DARPA? >> Never. I was never cleared to even know what it was they were doing over there. They're so far advanced, >> right? And that's what they say. They say uh they say DARPA's 20 years ahead of what we can see. >> Mhm. >> And so I would think that is the agency. >> Yeah. One of the things I learned early on at the agency though is that it is far
+
+[05:14] cheaper and far easier to just buy something that's already been invented than it is to develop it from scratch. That was before 9/11. Post 911, money is not an issue at all. And so DARPA's doing it, NSA's doing it, CIA's doing it. And then they're with within QEL, they're financing it uh in the public sector. I'm sorry, in the private sector.
+
+[05:44] So, the sky's is the limit, man. It really is. And I can't even imagine the Russians spending that kind of money on tech. Maybe the Chinese do. I don't know. They've got the money. But since 911, we've gone we've gone whole hog in tech development. >> Chinese could always just steal it from us. I guess >> they steal it from us. Yeah, just like the Israelis do. >> We'll talk about that. >> We'll talk about Oh, we'll talk about the MSAD, don't worry. Um,
+
+[06:14] >> Inkel is the the it's openly the CIA's venture capital firm, right? >> Correct. >> Yeah. and they're I want to say invest they invested in Palunteer or >> they gave Palunteer their first it was like a million and a half to get off the ground very first investment and now look at Palunteer just this year for the first time they have more than a billion dollars in revenue so it's it's a success story >> so Palunteer does commercial stuff now
+
+[06:44] too it's not just um DoD and government contracts >> it's a standalone profitable tech company >> right So, they're selling to civilians, so to speak. But, um, I remember when I remember hearing when Palunteer first came out that people at the agency didn't like it >> at all, >> and maybe they gave him a trial run or something and they were like, "Fuck this. We don't want to use this." Yeah. Do they use it now, you think? >> Yeah. >> What is it? What would they use it for? >> Oh, all kinds of stuff. Mostly mo Well,
+
+[07:15] you know what? I probably shouldn't say I probably shouldn't say. Would it be along the lines of targeting? >> Yes. >> Yes. You know, this this metadata has to come from somewhere, right? So like with Aviseda and remember Avisa was 23 years ago where we're just laying out papers on the ground and trying to connect the dots. It's way more sophisticated now.
+
+[07:45] You can't get away now. You just can't get away. So rather than have analysts pouring over this stuff and you just hoping that your analysts are really really smart, AI does it all. They do all of it and it makes it much easier. That's why, you know, that's why in the Obama administration, John Brennan had the Tuesday morning kill list meetings because the tech got sophisticated
+
+[08:16] enough that you could just write up a list of people that you want to kill that week and you dish out the assignments, the teams go out, they kill everybody that's on the list, and then they meet next Tuesday and get that kill list. And you just do it week after week. you know, when the when the Vault 7 uh documents were released back in what was it 2017, >> what are those? >> Um there was a uh a CIA computer engineer who named Joshua Schulty who
+
+[08:49] swears that he's innocent but is now serving a sentence of 40 years for espionage. He was apparently allegedly a disgruntled engineer. He didn't like his boss. He didn't like his co-workers. They didn't like him. So he just downloaded the crown jewels of the director of science and technology and sent it all to Wikileaks in 2017. Google Vault 7. Vault 7 documents. Vault 7 revelations. It will knock your socks
+
+[09:20] off. Um thousands and thousands of pages. It makes what Chelsea Manning leaked look like, you know, scrawl from a sixth grader. So, he revealed that the CIA has developed technologies to, for example, remotely take over your car by hacking into the chip, right? Why would the CIA want to take over your car? To make you drive off a bridge, maybe? To make you
+
+[09:52] drive into a tree and kill yourself? to make you drive into an abutment and make sure that there's no way you can survive because they've got the thing going 140 miles an hour and you can't control it. They developed technology to to reverse your smart TV to make the speaker into a microphone with the TV still appearing to be off so you don't know that it's broadcasting everything that's being said in your house to CIA headquarters.
+
+[10:23] you know, they were able to they were able to hack into other count's um most sensitive technological systems and to leave little scraps of code, but the scraps of code are written in Russian or in Persian, in Farsy. So people say, "Oh, the [ __ ] Russians hacked into us or the Chinese or the Iranians." And actually, no, it it was us, but you'll never know it.
+
+[10:54] I mean, there's almost too much in Vault 7 to even go into. It's incred. I'm going to give a talk about it at at a hacker conference this coming weekend. So, um, you know, couple what the CIA was trying to do in the 50s with MK Ultra and its subcomponents compared to what it is technologically able to do today. And it is terrifying. Terrifying.
+
+[11:24] >> What's up, guys? Thank you so much for taking the time to watch the interview. If you got anything out of this video at all, please like the video, leave me a comment, tell me what you thought of the video, uh, tell me who you'd like to see on the show. I really appreciate the support. It goes a long way on these platforms, as you guys know. Most importantly, I have some excellent interviews coming up in the future that I'm really, really excited about. So, please subscribe to the channel so you don't miss any of them. But that's it. Thank you for your support.

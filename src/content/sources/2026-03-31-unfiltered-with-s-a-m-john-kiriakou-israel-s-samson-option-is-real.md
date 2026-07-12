@@ -1,0 +1,56 @@
+---
+slug: "2026-03-31-unfiltered-with-s-a-m-john-kiriakou-israel-s-samson-option-is-real"
+title: "JOHN KIRIAKOU: Israel’s “Samson Option” Is Real"
+show: "Unfiltered With S.A.M."
+date: "2026-03-31"
+url: "https://youtu.be/xQvN03PMpYc"
+videoId: "xQvN03PMpYc"
+duration: "12:00"
+captionSource: auto
+paragraphs: 22
+sponsor_paragraphs_stripped: 0
+source_file: 20260331-xQvN03PMpYc.en.vtt
+---
+[00:00] of the ceasefire. They never stopped bombing South Lebanon. Um since then, until February 28th, they had killed through their um attacks and their their uh bombings hundreds of Lebanese civilians. They never stopped um also uh using what do you say? White phosphorus, which Amnesty International uh deems it's it's I mean it's not a legal means of war. It causes long-term injuries, severe burns, and destruction of farmland. We know why they're doing that since people
+
+[00:32] are not deserting South Lebanon. They want to destroy their livelihoods so that they do end up deserting South Lebanon. And the latest is that Israel has issued what do you say a directive that 53 villages and ts of South Lebanon needed to be evacuated. And the sad uh truth of the matter is as we speak 300,000 Lebanese from South Lebanon have acted up on those orders descending upon Beirut and other parts of Lebanon living in tents or in their cars or with family. So
+
+[01:07] uh and they've killed since March 1st um hundreds of civilians, 85 of them being um children. How realistic is the greater Israel project today as we speak? I reg as as far as Lebanon is concerned. Yeah, I think that the Israelis have guaranteed that Lebanon will be a failed state. I don't think any Israeli government is going to allow Lebanon to flourish as a nation.
+
+[01:38] Um, I think we will continue to see Israeli attacks, Israeli forced displacement of civilians. I read a statistic yesterday that by the end of the week, as many as 700,000 Lebanese will be internally displaced. This is a humanitarian disaster and and the world, most of the world isn't focused on it because they're all watching what's unfolding in Iran. Well, Lebanon already doesn't have enough food, enough medical uh care, enough clean water. Uh it's
+
+[02:14] it's only going to get worse. So, take that and couple it with these these incredibly provocative statements made by the by the fascist evangelical American ambassador to Israel, Mike Huckabe, uh to Tucker Carlson two weeks ago that he has no problem with greater Israel and said, quote, "They should just take it." And what what he meant by it was all Arab land from the Euphrates River
+
+[02:45] to the Nile. Just take it. He doesn't care. So if that's the attitude of the of the representative of the president of the United States, then I think we should all be living in fear. Um I wanted to um ask you before we close this, how do you see this ending? I mean, not the war as such, but all this like um thing we're living under, you know, greater Israel and all this shred of greater
+
+[03:18] Israel and it's becoming more and more realistic. And up until a few years ago, it was just like, "Oh, you're a conspiracy theorist for um even mentioning it, but it's all out in the open now. They're making public statements about it." Um, uh, Netanyahu has, uh, been caught on camera publicly stating that it's his lifelong ambition. When the war started, he he he was happy to speak on camera and saying, "This has been 40 years in the making for me, a dream for me, the war with Iran, because Iran is their last um um, what do you say? Um, thing stopping them from realizing
+
+[03:58] the greater Israel project." Well, Iran and Turkey, which is why Nafali Bennett, the former Israeli prime minister, is also now saying after Iran, it's Turkey. Turkeykey's next. So, what do you how do you see all this ending? I mean, do you see them realizing these goals because they they weren't so close to realizing them a few years ago, but now it's it's all, you know, unraveling. I don't see them succeeding. There are too many Arabs. There are too many Muslims. There
+
+[04:29] are too many people who oppose this this naked Israeli aggression. Um, I don't even care. Well, I shouldn't say I don't care because I care very much, but I don't think it matters even if the United States were to support such a crazy position. And and the United States wouldn't support such a crazy position. Um Mike Huckabe is is a fluke in the system, but they have he'll be gone soon, John. They have I mean they're they're not not a not a greater Israel. The the But what
+
+[05:04] are all these wars that the US have been doing has been doing over the last 25 years, the seven nations that um BB kept saying that they need to get out out of the way to topple their regimes, they they've reached the seventh nations. So who has done those wars on their behalf? But it's America who started wars on their behalf. Look at them independently though. Libya was no threat to Israel. Never. Never was, never would be. Libya was was a thorn in the side of the United States. The the US didn't overthrow and kill Gaddafi for Israel. We did it for ourselves.
+
+[05:37] Same in Somalia. Somalia is no threat to Israel at all. Never was. Um they were a threat to the United States or to at least to American commerce, excuse me. Um, Afghanistan, I mean, that was for a while that was a righteous war. It was a war uh to destroy al-Qaeda. It morphed into something that was wrong. It morphed into this never- ending war against the Taliban, who had never attacked the United States. But in the beginning, that was a righteous war. We had to destroy
+
+[06:08] al-Qaeda. It's not that the Israelis wanted us to. Um, it certainly was in Israel's interest, but that was the United States all the way. You know, listen, I I am not a fan of Israel. I am even less of a fan of Israeli leadership, but we can't blame all of our problems on Israel. We can blame the United States for its for its mistakes, too. Well, on Libya, I I I beg to defer because it was Gaddafi and him making the announcement that, you know, he's going to um unhook the um petrol
+
+[06:41] uh uh Yeah. That's what I'm saying. From That's what I'm saying. That was a that was a threat to the American economy. We didn't need the Israelis to egg us on to overthrow Gaddafi. Well, I mean, the Israelis were also uh um purporting that he was funding so-called Arab terrorists and stuff. So, and and yeah, BB has been on record naming the seven. They they've had a strong a strong grip on your politicians for sure for the last 30 years, John.
+
+[07:18] Yeah. Yeah. Yeah. Of course. No, I I'm not denying that American and Israeli interests intersect. I'm just saying that that these seven countries on the list, while some of them absolutely are enemies of of Israel, um the US had in their own national interests reasons to overthrow them. Understood. Okay. Now, my last question, a very concerning one. The Samson option. I mean, I'm sure everyone thinks it's not going to happen. It's very far-fetched, but um with them in power now, BB
+
+[07:51] and everyone, I mean, you can’t tell. So, I mean, do how how plausible do you think they would were they would use it if Israel believed that it was close to losing this very important war for itself or losing support from America on this war? Uh, would they resort to that the new use of nuclear weapons as a last resort? If the Israelis believed that the state of Israel was untenable because of,
+
+[08:24] you know, Arab advances, for example, that there were Arab or Iranian threats that could lead eventually even to the end of the state of Israel. Yes, I think they would use the Samson option. You know, I I gave an interview yesterday in which I said that even a year ago, I would have said that was ridiculous. It was it was it was a a doom uh ideology. And now I I have to say that yeah,
+
+[09:00] I I believe the Israelis would would carry this out if they really believed they were in threat of collapse. Yes, they would take everybody out with them. And analysts say, even though the Israelis have never have never acknowledged the existence of a uh of a nuclear uh program or nuclear arsenal, analysts tell us that they have between 80 and 200 warheads. That's enough to kill everybody. Everybody. Yeah. Very scary. Uh one last question. Your thoughts on the um rapid
+
+[09:33] accumulation of all this this military buildup in Cyprus. You have Spain, you know of them. Um, Spain has uh deployed um a frigate (ESPS Cristóbal Colón) and Italy has deployed um the another air defense frigate (FREMM-class air-defence frigate). France has deployed the um aircraft carrier, Charles de Gaulle with frigate Languedoc and advanced anti-missile anti- drone systems to
+
+[10:05] Cyprus. Greece has deployed um two frigates Kimon & Psaras. Kimon is considered amongst the most technologically advanced frigates currently in operational service worldwide. Four F-16 fighter jets and a Hellenic Air Force C-130 transport aircraft. The United Kingdom is sending over HMS Dragon. This is like uh where is it today? Nine days after the attack, the drone attacked their bases. They’re still going to send the HMS Dragon. They have serious problems with their military. I mean the finances with their military is down the hole. The Netherlands also has sent over a
+
+[10:40] frigate (HNLMS Evertsen) and over the last over a matter of um just six days this small island in the corner of the Mediterranean Sea has seen the most high-level visits we've ever seen in a matter of I don’t know we haven't seen them maybe ever in even in the span of a year. We've had the Greek defense minister visits Cyprus March 3rd with the top brass of the Greek army to coordinate defense planning with the Cypriote counterparts. March 5th, the UK defense minister visits Cyprus to meet with his Cypriot counterpart. Uh March 6th, Friday, the president of the president of
+
+[11:14] the Republic of Cyprus met with MI6 Chief Blaise Metreweli at the presidential palace. And on Monday, March 9th, Emanuel Macron and Greek Prime Minister Kyriakos Mitsotakis visited Cyprus for consultations. just your word on what's happening and why. As bad a policy as this is, the NATO militaries and even more broadly the European Union militaries feel compelled to at least
+
+[11:50] have the appearance of being supportive of Israel and the United States. And so behind closed doors
