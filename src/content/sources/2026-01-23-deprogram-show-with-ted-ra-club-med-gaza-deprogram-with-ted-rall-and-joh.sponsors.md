@@ -1,0 +1,18 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[25:46] my god. Anyway, so let's see. Uh John, you've mentioned on several podcasts, this is from K. Dot, that you like to visit cemeteries a lot during your spare time as part of your writing process. Have you ever had a paranormal or ghost encounter while there? No, that's a fun question. That's a very good question. >> I I never have. I I I was walking through uh Columbia Gardens Cemetery here near my house um one one night. It was nighttime, like legit dark. But I mean, there's no reason to be afraid
+
+[26:17] at night in a cemetery and I heard this screaming that scared the [ __ ] out of me. And it turned out that there's a den of foxes that lives in the uh that lives in the uh cemetery and they were fighting. That's all it was. But no, I've never had a paranormal experience in the cemetery. Foxes make Foxes are are Foxes are so cool. I love them. >> Yeah, we have so many of them around here and they like walk right up to you. They're not afraid or anything. >> Do you have red and black foxes? We have both. Okay. >> Most Mostly red. I see mostly red ones.
+
+[26:48] Thanks for the two bucks on on Pat. Um Okay. Angela Falla la I'm sure I think this is for you I'm pretty sure this is for you, John. Thanks for the fiver. Um have you ever met Evy Pom Pomporos? Former Secret Service now all over YouTube and Greek like you. Yeah, I've seen her I've seen her in church a couple of times. She's She's quite good. She's very very bright. She was a Secret Service agent for I don't know 12, 15 years.
+
+[27:19] Um I remember she took a lot of [ __ ] from the the male Secret Service agents. They were real jerks to her. She left to become an author and a journalist and her book was quite well received. It was kind of a combination memoir um self-help book. I don't remember the name of it, but but it was quite well received and now she's out on the speaking circuit all the time. And she's she's she's done well for herself. Uh another one for you, John. Alfred two bucks, thank you very much. Um Joby
+
+[27:50] Warrick is releasing a new book The Jackal. I know we've talked about that here before. Were you a reference for the book and would you consider having him on Dead Drop to talk about it? Uh yeah, I I was a reference for the book. He and I talked about it as recently as I don't know, six or eight months ago. And it it's funny. I've known Joby for years. He's a He's a brilliant journalist and a multiple Pulitzer Prize winner. Serious like deep investigative journalist who somehow finds the time to bang out number one New York Times
+
+[28:21] best-selling books in his spare time. I don't know how he does it. Research assistant is helpful. Yeah, a good one. A good one. Um and uh yeah, he called me and he said that a friend of his said that I had been teaching this class at the University of Salamanca and that I was spending a lot of time talking about Carlos the Jackal. And I said, "Yeah. Yeah, I I have." And um and he said, "Well, I'm I'm doing this book. Would you Would you talk to me about it?" I said, "Absolutely." So we
+
+[28:53] had coffee. We spent a couple of hours talking about Carlos the Jackal and then he came out with his book. He's doing well for himself, too. Good old Joby. Robbie, do we have an ad? >> Hey, there's Robbie. No. Okay. >> [laughter] >> I thought that would be funny way to do it. Um Okay, so uh Okay, so Um Fras Matos says, "Target shelves empty near DC. How's the Pentagon gay bar and pizza index looking? My money is
