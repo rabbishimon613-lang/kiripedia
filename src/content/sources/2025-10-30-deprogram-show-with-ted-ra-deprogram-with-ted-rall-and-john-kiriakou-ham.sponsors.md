@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[23:54] worth it? Spoiler, it is. Go to 1775 coffee.com/studio and grab your starter kit before they're gone. Bold beans, clean fuel, and a morning routine that stands for something just like Rumble does. Okay. So, so obviously we all know what happened on October 7th, 2023. Not going to re revisit all that. We all know what's happened to Gaza. Um but right now as we're talking um you know it looks like uh Trump secretly behind the scenes was really pissed off at BB
+
+[24:25] Netanyahu and has >> he embarrassed Netanyahu embarrassed him by bombing gutter. That was the breaking point. >> That was it. That did him in. That's why he was like okay you're going to call and apply to the cuttery uh apologize to the cutteries and promise to never do anything like that again. And hilariously, Donald Trump has now personally given a uh protection packed to the cutteries like I will protect you militarily in the event of an attack presumably that would involve an maybe
+
+[24:55] against an attack by the IDF. I mean that would that would be an attack is an attack, right? That's the attack that happens most recently and therefore most likely to happen in the future. Um, and so, you know, and then he when the uh when Hamas cleverly dragged their feet and said, you know, like, okay, we'll give you back all the hostages, Donald Trump said, peace is at hand. Peace in our time. Neville Chamberlain, we're done. We're good. Everyone come home. You know, like victory parade, >> Nobel Nobel Prize. And like, and that
+
+[25:27] and now Netanyahu is between a rock and a hard place. He can't say no, but he has to say no. So, he's going to scuttle things. I agree with you that like he's attacking Iran or something like it. Most likely Iran is going to be his way out or at least so he hopes. I don't know if that'll work with Donald Trump because someone around the table has to have been have told Donald Trump this is what BB's going to do. Um and so he Trump's going to have seen it coming and
+
+[25:59] not like it. Um >> yeah, >> I think that the Hamas Hamas won the war. Hamas uh carried out one of the most brilliant um you know um raids in mo in the modern history of warfare. I mean they were outmatched militarily, economically uh in in certainly in terms of diplomatically uh in every way and they waged asymmetric warfare um and they and and they've prevailed
+
+[26:31] and like you could say okay well you know tens if not hundreds of thousands of Gazins are dead as a as a result and that's true. >> Yes. But they're going to end up with something that feels like a Palestinian state. And I don't think it'll be a demilitarized bound. I think it's going to be the real [ __ ] thing. And I think it's going to be sooner rather than later. I think that's probably right. Something is going to happen in favor of the Palestinians.
+
+[27:02] Netanyahu has put Israel into an untenable position when your only choices are to continue fighting in an unpopular war. And we talked yesterday about about tripling in the number of IDF uh soldiers who are committing suicide. Uh or your second choice is to bomb Iran again unprovoked again. Those are not winning combinations. >> No. And you don't have to love Iran to
+
+[27:35] put your foot down this time and say, "Look, enough is enough. You can't just bomb your way out of this, right? They bombed Gaza. They bombed Lebanon. They bombed Iran. They bombed Iran a second time. They bombed Iran a third time. They bombed Yemen and killed the prime minister. And it hasn't gotten them anything. So, it's time to negotiate a settlement." And I agree with you, Ted, that anything the Palestinians get is better what they have than what they have now. >> Yeah. And better, and I would argue
+
+[28:06] better than what they had before 2023. Um, >> they were they were living in in misery. Uh, >> well, they had what, two two hours of of electricity a day, five hours of water, or maybe I got it reversed. >> Hyperinflation. um you know, every uh staggeringly high unemployment. Um the and and the you know, the Israelis would sometimes let workers out. Um you know, but then on a drop of a hat, like if they had an itchy
+
+[28:38] ass, they would like they would close the border. Um you know, no, I mean, these are these are two I mean, I think to me all eyes are going to be turning to the West Bank. That to me is the really sticky wiki now. Um, you know, if if I'm and of course there's the question, I guess Hamas gets to keep Gaza and Fatah gets to keep the whatever's left of the West Bank. >> Yeah. >> But, you know, I mean, what do you do about these 700,000 colonists in the
+
+[29:08] West Bank who have no legal basis to be in, you know, on Palestinian land? >> Yeah. Well, they've got to go, but I mean, you know, you know the argument like >> they're not going to go. >> Yeah. They're not going to go. It's like the the Yeah, they're the facts on the ground. These are children who were born here and raised here. This is their homes, too. Why can't the Palestinians share? Why are they so chish? >> Yeah. You know, that's why that's why
+
+[29:38] people are just now beginning to talk about a three-state solution, right? The the West Bank is independent Palestine. The Israelis get to keep Israel plus whatever settlements they're able to negotiate and somebody administers Gaza. >> Well, that would solve one problem, but it would create at least one more, right? So, it would solve the issue of the fact that you have two non-ontiguous

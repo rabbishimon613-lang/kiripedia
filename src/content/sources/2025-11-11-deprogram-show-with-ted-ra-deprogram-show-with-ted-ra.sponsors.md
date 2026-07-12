@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[49:37] That's where they're all they're all buried there. So, and it's it's just in a state of complete just breakdown, chaos, you know, trees growing through cracks in the tombstones and stuff like that. So, they're going to make it nice. And And just in the last couple of years they decided to allow former royal family members to visit on tourist visas. And that's it. And then they can get the hell out cuz they're not welcome. It's all Yeah. See, I wouldn't That That's a move I wouldn't have made if I
+
+[50:07] were the Greek government. >> Really? Yeah, it's like, you know, it's like you guys do you can we like you better somewhere else outside of Greece. I mean Yeah. I mean they're they're you know, they're they are a objectively a little bit of a danger, right? Uh Longhorn Clemens is asking if we're going to name and shame Robbie's employer >> Ah, good question. >> we may choose not to do business with them in the future. I'm just going to without giving it away, I don't think that they're the kind of business that we would you would probably be likely to
+
+[50:38] come into contact with. But we'll leave that to Robbie to answer that question. It seems to me like vengeance is best served by the person who was aggrieved. Um also Do we Do we Oh, better Thanksgiving Yeah, Fuso Buck, better Thanksgiving dinner, Charlie Brown or Trump Walmart? >> [laughter] >> I don't know what Trump Walmart means. I gave my second son $5 once
+
+[51:09] and I asked him to go to the Walmart meat counter and ask if where where he could find the turducken. And just to watch the guy's face like, what? So, I was able to take a picture, yeah. >> Grossest idea. It might be really yummy. >> Constantine asking for a turducken. I don't like duck though, so I don't want the and I don't like turkey. So, yeah. I barely like chicken. I Indian chicken. >> Robbie's got a question. John, can you say Greece is democratic when it arrests for speech? I'll pass. Uh yeah, I I I
+
+[51:39] call it democratic. Um of course. Now, I will admit to you that in today's uh edition of Kathimerini, there's an article that Greece is now 88th in the world in terms of press freedom up from 107th, but still last in the European Union. And part of that is they do not allow pro-Nazi hate speech. That's what the fight is about. So, you know, is it Is it democratic? Of course it is. It has 36 different political parties, six or seven of which are represented in
+
+[52:10] parliament. Uh just cuz they don't allow the Nazis to spew their hate. And this is a country that lost more people per capita like as a percentage of the country's population of any country in the world during the Second World War. So, yeah. I say they're democratic. Oh, Fraz Matraz, I think maybe I made myself unclear. He says he's surprised that we trust he or she that we trust Trump over
+
+[52:41] Rashid Dostum, the Uzbek warlord. >> thought that's what you said. That's not what I said at all. I trust Dostum. Oh, I I trust Trump more than Dostum. I mean, Dostum Dostum never lied to me. And Dostum told me a some uncomfortable truths that um Wow. Dostum, if I had been in the room with Dostum, it would have taken all my energy not to shoot him in the brain. Uh it took it took my all my energy to not like die of of fear. Um
+
+[53:11] >> [laughter] >> I mean, I was absolutely terrified, you know? But I mean, he he had no reason to be to do >> to me, but that >> if the But if the mood had struck him Yeah. Yeah. No, he's he's absolutely a psychopath. No question about it. >> Without any doubt. Um I mean, it's kind of like, you know, what is a psychopath? Let's uh Let's go take a look at that. Um You're welcome, Fraz Matraz. All right, well, I think we're we're winding Oh, well, God, we got to talk Maybe we'll get around to this tomorrow. Um so,
+
+[53:43] uh Israeli Israel's ITV um basically has a documentary. It's sort of like the Winter Soldier for Israel. Um and basically uh they have a bunch of IDF troops admitting Yes. uh it was a free fire zone in Gaza. And now, of course, they're suffering from PTSD. Of course they are. They did terrible things. >> back and either and and basically they were they forced Palestinians into into tunnels that were mined uh in order to map them out. They did all sorts of [ __ ]
+
+[54:15] that was just absolutely crazy. None of this is surprising. No. But it's good that it's coming out. It's actually probably good for the mental health of [snorts] the soldiers who are the veterans who are coming forward. >> And I'm going to make a prediction. It's going to come out more and more and more and we're going to see that all the stuff that ICRC said or Human Rights Watch or Amnesty International that it's all going to end up being true. And we're going to see more and more Israeli whistleblowers. Mark my words. It's going to come. >> No question.
+
+[54:46] >> [snorts] >> All right. Well, with that, um we're going to go ahead and call it a show. We'll be back uh tomorrow as we always are, Monday through Friday, 9:00 a.m. Eastern Time. Thank you so much for joining us. John, always a pleasure. Good to see you, Ted. And uh we will talk to you then. Thanks for tuning in. Please stay tuned for the TMI show with Ted Rall and Manila Chan, that's me. Uh for a lighter take on the news, we've got some fun stories including the fact that the Trump administration doesn't want to let fat people into the United States on tourist visas anymore.
+
+[55:16] >> [snorts] >> Strange but true. No. Bye, everybody. Bye.

@@ -1,0 +1,14 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[33:19] >> Hold that thought because we're about to lose an ad if I don't like read. Very short. Looking for a comfortable but unique option for your gaming setup? Check out technosportusa.com with a wide range of ergonomic chairs in a array of colors. You'll definitely make bring your setup to the next level. Always comfy, never boring. Technosport. Use code rumble for 10% off your entire order. Sorry, John. As you were. >> No, no worries. No worries. Um, yeah. So, they love Trump in Greece. I don't know why, but they love Trump. And I think that this love of Kimberly
+
+[33:50] Gilfoil is an extension of their love for Trump. >> Um, all right. So, a little more housekeeping. Bringing in Robbie to remind people who are new to the show and maybe people who just are stubborn uh why they need to watch us on Rumble. Robbie. >> Uh, hi. Fuzzy Robbiey's here, but apparently he's going to be clear thanks to one of our uh one of our fans is going to generously has offered to buy him a new camera. So, thank you if you're watching. >> Thank you. y'all will be able to see me in all of my shinyheaded, non-fuzzy glory [laughter] once that happens. Uh,
+
+[34:21] but no, the reason why we are why we're on Rumble, well, it's it's twofold. One, and most pertinent to John and Ted, is that it pays significantly better for every nickel that YouTube pays at ads because they're in the Rumble creator program, Rumble pays about 90 cents per dollar. So, if you watch on Rumble, they get paid more and because they have bills, they appreciate getting paid more. So, watch us on Rumble and it really does help a ton. Second, Rumble is a free speech platform. They put out content on Rumble that you cannot see
+
+[34:51] anywhere else. And if you are a a channel subscriber for $5 a month on Rumble, you have access to all of that to uh all of that content. Plus, unlike YouTube, Rumble sends 100% of that money to the show. They don't take a cut out of it at all. YouTube takes about 35 to 40%. Rumble gives every dime of it to the show hosts. So if you all want this to continue, follow us on Rumble. See content you you don't get anywhere else and stand for free speech. >> All right. Thank you very much for that,
+
+[35:22] Robbie. Okay, so we have we can do more. We should do more. Let's bang out the questions and then we need to get to our remaining stories. Um >> uh real quick, uh Greek drones to Ukraine. I didn't um you know for for me personally I think I think it's I don't know it's a good idea if you're Ukraine and Greece because the Greeks have this nent defense contracting industry and it's going to be good for the economy but you know just I don't know prolongs the war I suppose. >> Yeah it does. I mean we know the inev I
