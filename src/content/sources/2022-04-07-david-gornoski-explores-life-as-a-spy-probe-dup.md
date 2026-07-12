@@ -1,0 +1,70 @@
+---
+slug: "2022-04-07-david-gornoski-explores-life-as-a-spy-probe-dup"
+title: "Explores Life as a Spy (probe dup)"
+show: "David Gornoski"
+date: "2022-04-07"
+url: "https://youtu.be/WrFr4-_B1Lk"
+videoId: "WrFr4-_B1Lk"
+duration: "14:00"
+captionSource: auto
+paragraphs: 29
+sponsor_paragraphs_stripped: 0
+source_file: 20220407-WrFr4-_B1Lk.en.vtt
+---
+[00:00] I'm here with John kiraku and those of us who listen to the radio show we do we've had him on recently uh to talk about his story but I wanted you to you know tell us a little bit about yourself for those who haven't seen our radio interview to have some context for what you uh did in the CIA sure uh my name is John kiraku I am a former CIA counterterrorism officer I spent 15 years in the CIA the first half of my career was in analysis most ly in the
+
+[00:30] Middle East all of it in the Middle East and uh the second half of my career was in counterterrorism operations I was the chief of CIA counterterrorism operations in Pakistan after the 911 attacks and um I led a series of raids One Night in late March 2002 that resulted in the capture of Abu zubeda who we believed at the time was the number three in al-Qaeda uh we also captured I'm not allowed to say the number but many dozens of other Al-Qaeda Fighters I left the CIA in 2004 to go into the private
+
+[01:03] sector and in December 2007 I decided to blow the whistle on the cia's torture program which I believed was was patently illegal in addition to being immoral and unethical I gave a nationally televised interview on ABC News with Brian Ross and I said that the CIA was torturing its prisoners I said that torture was official US government policy it was not the result of a rogue officer as President Bush had intimated
+
+[01:33] and I said that the the program had been personally approved by the president himself as you might imagine the FBI began investigating me uh the very next day and uh they investigated me for a full year from December of 2007 until December 2008 uh I ended up going up to Capitol Hill and uh worked as the chief investigator on the Senate Foreign Relations Committee and and then in January of 2012 so this is four years and a month
+
+[02:05] after blowing the whistle um I was arrested by the FBI I was charged with five felonies including three counts of Espionage coming out of that original ABC news interview of course I hadn't committed Espionage those charges were all dropped eventually um but to make a long story short I had to take a plea to a lesser charge to make the whole thing go away I was more than a million dollars in debt thanks to uh legal fees and um the CIA wanted
+
+[02:37] their pound of Flesh and so I agreed to take a plea to violating the intelligence identities protection act of 1981 I sered 23 months in a federal prison I have zero regrets and uh now I've kind of become a deao spokesman for issues pertaining to to Liberty and civil rights civil liberties human rights uh the rule of law I believe in the
+
+[03:07] Constitution and I think that politically the country is getting to a point where people understand that and they're beginning to really appreciate what that means to stand for Liberty in the Constitution did you do interrogation work I did uh not the violent torture interrogation work I was always the good cop at the CIA and so when we would capture prisoners my Arabic was absolutely excellent so I would sit down with these prisoners at first and begin
+
+[03:38] interviewing them more often than not they uh did not want to have a conversation this was in Pakistan this was in Pakistan would you go into a room like this like we're in oh none of the rooms were as nice as not as this H okay no so but would you have a little desk or a table right had a table that had an eyebolt uh uh in it so we could chain the The Prisoner to the table so he was a metal table or it was a metal table yeah real cold uh no that came later okay that came later in the
+
+[04:08] secret sites so you'd come in in a little small table similar to the size of this table and I would say Will May peace be upon you will you cooperate with us sometimes they said yes usually they said no even if they said no I'd press them a little bit would you like to have so how would they say yes if they were did they say it with pride or with desperation or with resignation they said it with resignation the first one that ever said yes to me I said
+
+[04:38] really and he said yes and I said why would you cooperate with me and he looks at me and he says because I'm your prisoner I get nothing out of not cooperating yeah I said good answer and he really did cooperate I mean I laid out maps of the Border area in front of him and he told me like foot by by foot how he got across the mountains through the passes from Afghanistan to Pakistan he identified the locations of the safe houses that Al-Qaeda was using both
+
+[05:08] along the border on the Pakistani side and then in the cities which we then used to raid those new new uh houses and and capture even more Al-Qaeda prisoners so you know the ones that said yes and cooperated gave us great stuff the ones who said no by and large went to Guantanamo and the important ones who said no went to a secret site it wasn't nice at the secret site were you in charge of sending them to which one they went to well I would make
+
+[05:39] a call and I'd say where do you want them to go and uh they had read at headquarters they had read my reporting who had been Cooperative who hadn't been Cooperative most of them we would just load onto a C12 and they would fly to Cuba and the others we would send a different way what was their body language like when you would would they heard their go or they went no they're just going to go you know they were mostly so they sff Dazed And so confused by what was happening to them most of
+
+[06:11] them just just walked like sheep onto the back of the of the plane why were they dazed because this was all all of this is happening in the middle of the night right so they're exhausted they're terrified they've just escaped from torab Bora which we bombed the Daylights out of and uh and here at 2:00 in the morning the Americans broke down the door and just grabbed them now a lot of them were married and had kids so we separated the women and children from The Men We ended
+
+[06:42] up sending the women and children just back to their home countries but we didn't tell the prisoners that so we we LED them to believe that we still had the the wives in custody were these all Al-Qaeda or other groups too Taliban every once in a while we would capture somebody else we we caught several Taliban not a lot but a handful we caught a whole house full of ji Muhammad the Kashmir separatist group and then we would get a lot of Egyptian Islamic Jihad eij guys now they had merged with
+
+[07:14] Al-Qaeda but they still kept kind of a separate ethnic identity because they were all Egyptians in Pakistan in Pakistan they came over there to help or oh yeah they went to see Iman is aahi the who's now the head of uh of alqaeda was the founder of Egyptian Islamic Jihad he was one of the masterminds of the saddad assassination in 1978 so um when he pledged fty to Usama Bin Laden he took the entire group with him and eij merged into
+
+[07:44] Al-Qaeda what was your favorite thing about your experience with the Pakistani people with the Pakistani people I did actually become friends with my Pakistani counterparts as crazy as that might sound because because you can't really trust anybody in Pakistan they're working both sides of the of the fence right they're they're working with you to help capture these people yet they created the Taliban do you know how the Taliban were created no how was it created well first look at the word
+
+[08:14] Taliban Taliban is a plural of Talib which means student or students so the pakistanis were having a problem with their trucks their trucks were being hijacked as they were crossing Afghanistan on the way to Iran just to trade to deliver goods and so benzer B came up with this idea why don't we take some of these students some of these Taliban that we have in the madrasas here in Pakistan we have them ride with the trucks on the
+
+[08:45] truck drivers or ride in the trucks with the truck drivers so that they can protect the truck as it's Crossing Afghanistan and they did that for a while and it worked people stopped attacking the trucks and then they said said well wouldn't it be more efficient instead of leaving these guys in the trucks all the time just to put them in the Villages that line the road connecting Pakistan to Iran across kahar and Helman provinces in southern Afghanistan well once these guys got
+
+[09:15] into these Villages they decided they're taking over The Villages so rather than you know running for the Village Council or becoming the May or whatever they just decided I'm one of the Taliban we're these students that just arrived here these Villages are ours now and they were ethnic pashos and the villagers were ethnic pashos and you know Law and Order can be a good thing when there's a lack of Law and Order so that's how the Taliban were born and they became more and more
+
+[09:46] fundamentalist more and more radicalized very well-armed so they were actually a creation of the Pakistani intelligence service this was a creation that got out of hand and just spun out of control now you've got the pakistanis who created the Taliban also helping us capture Taliban and Al-Qaeda while at the same time funding and arming Kashmir separatist groups so who do you trust you can't trust anybody
+
+[10:19] you just have to hope that they're going to be the good guys on the operation with you and then what they do in their spare time just hope that it doesn't cause you any damage so I became friendly with these guys to the point where they had me over to their house for dinner I met their wives and kids and um and everything was uh was copacetic were these small homes or big homes or very small homes the only big homes were were the generals homes they were all corrupt Taliban generals
+
+[10:50] oh no no Pakistani generals who were taking money from the Taliban who are growing Poppy and selling heroin and you know I thought the Taliban banned this the growing of poppies in Afghanistan is that true that's what they like to tell everybody that's their pitch in fact um uh poppy cultivation was banned until the 911 attacks and so they decided that they just needed the money more than they needed to ban drugs and now the whole country is just covered in heroin poppy but but but the Taliban banned it prior to 911 yes they did and virtually
+
+[11:23] out why did the 911 thing change their mind about legalizing well because drug use drug addiction is unlam right the Quran specifically says not to do things like that but they decided that their survival was more important than a strict uh adherence to the coron so they legalized it to raise funds to battle America when they came into Afghanistan cor correct now the irony of this is Afghanistan produces 93% of the world's heroin 93% of the world's heroin almost
+
+[11:56] all of it goes to Iran and Russia and so Iran has the highest opioid addiction rates in the world followed closely by Russia none of that heroin makes its way here does it go to Europe though right some of it goes to Europe but most of it Iran and Russia so do our troops like protect those poppy fields or why don't we stomp that out since we're drug Warriors I'll I'll tell you a story when I was the chief investigator on the Senate Foreign Relations Committee I wanted to do a an indepth report on Cy
+
+[12:29] cultivation in Afghanistan so I flew to Afghanistan and I flew into bamir airbase and I told U my contact there I need to go to lashara which is the capital of Helman province that is the center of the world's heroin cultivation no it's too dangerous I said no I have flag status because I'm a senior Congressional staff I'm saying we're going to go so we got in a helicopter and we went
+
+[12:59] and I had a translator with me I don't speak pashu and we found a poppy farmer in his field cultivating the the poppy and I asked him quite naively in retrospect why don't you grow instead of poppy things with two growing Seasons you can grow uh winter wheat summer wheat pomegranates tomatoes onions he has this look of exasperation on his face he
+
+[13:30] says the Americans told me in 2001 that if I told them where the Arabs were I could grow as much poppy as I wanted now you come here and you tell me I can't grow poppy and I said what Americans told you in 2001 you could grow poppy well I know who the only Americans were in Afghanistan in 2001 and my military Handler says we have to end this interview we've got to go back to buam and that was the end of it so later on I met with the British
+
+[14:01] ambassador to Afghanistan and the Italian Ambassador and they said the same thing that they can't Wipe Out the poppy crop we can't because if we use Napalm that's a war crime if we use Roundup anytime any Afghan child is born with a birth defect or with mental retardation or whatever they're going to blame us because we poisoned the atmosphere right we poisoned the environment we keep that in Quaker roats for us do you yeah right keep it in Quake roads for us to eat which we eat
+
+[14:31] every day but the bottom line is that that Poppy that heroin just doesn't come here it's not our problem but it does it does it does it decrease Kim okay sure excuse me one second

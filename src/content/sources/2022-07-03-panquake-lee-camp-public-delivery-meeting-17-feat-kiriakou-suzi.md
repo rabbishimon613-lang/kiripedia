@@ -1,0 +1,86 @@
+---
+slug: "2022-07-03-panquake-lee-camp-public-delivery-meeting-17-feat-kiriakou-suzi"
+title: "Public Delivery Meeting #17 feat. Kiriakou, Suzie Dawson"
+show: "Panquake / Lee Camp"
+date: "2022-07-03"
+url: "https://youtu.be/Yum0-P_5_uA"
+videoId: "Yum0-P_5_uA"
+duration: "19:00"
+captionSource: auto
+paragraphs: 37
+sponsor_paragraphs_stripped: 0
+source_file: 20220703-Yum0-P_5_uA.en.vtt
+---
+[00:05] hi everybody i'm john kiriakou pan quakes brand ambassador i want to tell you that uh as part of our june public delivery meeting uh we do this every month we give you the the latest developments in pan quake i just got the latest update and i have to say that there are so many new exciting features to pan quake i almost can't wait to talk about it uh everything from from emojis to uh to
+
+[00:35] new colors and the structure of the of the dashboard it's really incredible the progress that's been made uh we're here with susie dawson the founder of pan quake she's going to walk us through some of the specifics but before we get to susie i just have to say how excited i am about the development of pan quake how quickly things are moving forward and how much i think you're going to enjoy what pan quake has to offer there's no other social media network out there like pan quake this is really something special let's go over to susie
+
+[01:08] dawson hi john thank you so much for being here for that awesome intro um everyone welcome to the stream really happy to be here again with you um june has probably been the most prolific month we've ever had for the pancake development team i know that i've told you that in the last couple of months and every month it's been true the velocity of our build just increases exponentially and the level of completion of the application does as
+
+[01:39] well we are now so close to the end of the application build that we can taste it and we have been doing an enormous amount of work also simultaneously on operational planning so i'm going to take you into my presentation for this month and show you what we have all been up to so here we go we are at the one year market now since we first began coding pancake we are in the final phase of our fundraising campaign we've achieved 27
+
+[02:13] of the amount that we will need in order to launch the product so you can expect a huge marketing push from us in the coming months to polish that off we are working towards delivery of our beta our version 1.0 of the product we are currently working really hard on refining our network protocol which is a key component of our blockchain and various service integrations which i'll talk through a bit more with you in terms of marketing you may have may
+
+[02:44] have seen that sean o'brien and john kiriakou have been out there doing interviews we've got print press coming up we've got some amazing new youtube channels that we'll be appearing on as well we are still accepting beta applications if you would like to apply to be one of the first 5 000 users of pancake.com you can do so at pancwake.com 5000 we will keep that application process open right up until the release
+
+[03:14] of the beta so there is still time to apply if you haven't already in terms of talk liberation our privacy and technology focus block we haven't spent an enormous amount of time in the last couple of months on that because we've been so deeply into the build of pain quick we really didn't want to lose any time on that however i can tell you that wl dragnet part 2 which is the second part of a huge investigation that we released back in october november last year it's about 75
+
+[03:47] complete and you can expect to see that in the near future and it's pretty hard hitting and i'm expecting it's going to make some waves so very soon you can look out for that okay in terms of development progress we have had a huge month we can now send quakes to the timeline so we can now write messages on pan quick we can attach files we can schedule the quakes in advance for an advanced date and time we can add emojis we've got every emoji
+
+[04:19] under the sun very soon we will have a gif library in there as well and we can hit that send button and we can see that message appear in real time on our timeline we also have got our inline compose for replies so once that quake hits the timeline you can now click on the reply button a blank message template drops down underneath and you can directly reply to that message and then it appears correctly in the thread we also literally today have completed
+
+[04:52] all of the profile editing functions that means that you can now select a thumbnail for to be your avatar on the application you can customize your bio information we have got a 1 000 character biospace which is a dramatic improvement on certain other short messaging systems that i will shall remain nameless so you get to tell your story and your bio and people can swipe up or mouse wheel scroll to read through as
+
+[05:23] much or or as little of it as they like you can add a public email contact if you want one but of course you don't have to it's totally optional you can perform your self-verification process or you can add in public website information as well if you want people to uh go out to other links that you have um so that's another huge piece of work that's been done and that's the completion of another major panel on our drag and drop interface um you can also delete quakes now as well
+
+[05:56] so if you change your mind and want to get rid of something you can do that the search function and the search panel is now working you can also clear your search terms as well in one click the ability to accept terms of service on sign up in our signup user flow is also working and pretty spectacularly we now have the ability to have the interface in nine different languages which is
+
+[06:27] pretty impressive for the beta so you can expect to be able to use pan quake in english and french and german and spanish and portuguese and russian and arabic and mandarin chinese and in hindi so pretty impressive coverage for what is just the first iteration of this product we also have really cool digital animations that have been created super cute fun little animations in the interface and um we also now have a bug reporting
+
+[06:58] function that we've created where if users find any bugs or you know with whatever your browser version or operating system version is you can actually report that to us and our development team can address that straight away which is really a critical part of why we're doing a beta release we want you guys to be able to be our users our user testers and to be able to communicate to us any changes that you think need to be made other major delivery achievements and these are huge enormous pieces of work
+
+[07:30] that have been months and months and months coming which we've made massive progress on our stat service integration is happening now i'm going to let sean talk more about the stat service because it was really his baby but this is the service that allows us to tally and display follower counts following counts number of quakes that you've quaked accounts numbers of replies of likes of shares of quakes that have been built into or included into fan quakes so
+
+[08:01] really integral part of the system really major component and that is right now being integrated into the application service planning we have designed our back-end software which our staff will use to administrate our system months of work has gone into that maybe four months of work has gone into that we're extremely happy with the quality and the level of that design our staff can now build that out
+
+[08:31] and we will have the systems that we need in place to deliver and support this application for our users as part of that we're also doing a live chat integration we've already been working on the preliminary configuration for that so the subscribed pan quick users will be able to chat live with pancreatic customer support staff members so no more getting obscure nonsensical emails five days or two weeks after you file a report you'll be able to have
+
+[09:02] live feedback that makes sense from someone who really cares in terms of operations we've also scoped all of our hosting requirements and our legal requirements and compliance requirements for the first um iteration for the beta application and those um scopes have now been issued and are ready for implementation and properly scheduled as well our oh yes and we're actually testing this other amazing thing that has happened is
+
+[09:33] that we already are doing our quality assurance testing that means we are ourselves testing the application in multiple different environments testing every single function and form and where we find bugs within logging tasks for those issues to be resolved and we have already performed multiple bug fixes so you can be sure that we're really doing our due diligence on this in in every respect okay every month we talk through our
+
+[10:03] talk lab publication metrics um having not published anything through this last couple of months that we've been just heads down on and tails up on the build i'm amazed to see that we still somehow are gaining subscribers and that we haven't lost any you guys are amazing to continue supporting us what talk liberation.substitute.com does is it gives you a way to make a monthly recurring donation only five
+
+[10:33] dollars a month um to the pan quake build so every dollar coming through talk liberation supports the pan quake project so thank you to those who are continuing to sign up and continuing to support us through that channel even though we haven't yet been publishing uh further content that will change however as i mentioned with the impending wl dragon part two um so what else is happening coming soon very soon you can expect this definitely in the next week
+
+[11:03] um you will get to see more of the pancake ui in action and this will be released first on our telegram channel so if you want to see that go to t dot me slash pancake uh follow our channel and you will get to see a super cool video of the pancake application being used in real time okay so in terms of the campaign the crowdfunder we completed phase one in record time we completed phase two which
+
+[11:34] was um a huge you know a huge thing to pull off but we did it and that is what is fun excuse me that is what is funded the build so all this amazing development progress that is happening right now is because of your support through phase two now we must finish phase three so that we can employ the team that will support this product that means customer service reps that means technical support 24 7 on the ground in iceland it means
+
+[12:04] content moderators it means account administrators and together just like we did with phase one and phase two together we're gonna pull this off the 500k that we need to raise is a tiny fraction of what other businesses spend when they're building comparable products so pan quake staff have delivered record amounts of work for tiny amounts of money and we now just need to all pull together push through that final phase and
+
+[12:36] pancreate will be in your hands then it will be you sending paper sending quakes it will be you stacking pan quakes it will be you with your own user data stored on your device it will be you enjoying the privacy and the respect for users that quake brings you every step of the way so thank you so so much for being here with us i'm now going to pass over to sean o'brien who's going to tell you a bit more about what has been going on from a dev perspective and around the
+
+[13:06] stat service and other cool innovations in the meantime please reward the hard work of the team by getting to pancake.com donate contributing to the completion of the campaign so that we can get this to you faster thank you so much hi sean awesome thank you susie and thank you john as well um i'm excited yet again for another amazing month um it's just been so much progress so quickly and seeing the network alive which you all will soon see yourselves um i i think
+
+[13:37] it's just been so much fun uh but also the dev teams coming together in like you know the way a dev team should right um doing bug fixes and you know testing and doing real qa even at this point in the build um and having that sort of continuous development process um you know constantly improving is really awesome so um yeah it's amazing stuff on the stats service you know that's a piece we probably haven't talked very much about um so just to recap a little bit because we've kind of hinted at it
+
+[14:08] or talked about it in different ways so the data you intend to be private stays on your machine right in pan quake um but on your machine on the app that you're running on your device um the data that you intend to be public that goes in the public blockchain right so those are your quakes your pan quakes et cetera et cetera but this is a living breathing social network right it's not just some dry spreadsheet or something so there's interactions between users and there's also you know um trends and there's also
+
+[14:40] you know sort of high level metrics so like how many users are in the network you know what's the most you know popular pan quake who are the leaders and the leader board for most quakes that sort of thing and that's what the staff service is sort of there to do as folks who may have worked on you know a blockchain based network or even just a database application may know um it's helpful to have another service sort of um reading information tallying information you know putting together
+
+[15:11] those uh stats those metrics um for users and in this case for the end user application um so that will make sure that you know unlike in other social networks um you can verify that trends are correct right the trend numbers are the right trend numbers coming from this service which is reading directly from the block and that can obviously be verified back and forth it'll also make sure that the follower numbers that you're getting when people see your profile on a machine you know
+
+[15:42] on the other side of the world that they're seeing you know the correct follower following numbers and so on um so that seems like a small piece but it's actually kind of a big deal and doing that push and pull and sort of having that information flow through the network is a really central piece to making the application alive right so i'm very excited about that and we're we're gonna keep building on that so um so yeah another piece you know not completely done but uh getting very
+
+[16:14] very close so um i think you'll see pieces of that within the next week thanks so much sean um i'm just absolutely thrilled about our progress i really don't even know how to describe what a pleasure it is to see this all coming together and i'm super excited about the next steps because like i said we're nearly at the end of the application build and on the other side of this is the steps to delivery it is the network operations it is the system
+
+[16:45] that underpins that application and makes it all work and from there we are literally an end game we are in that final phase heading towards delivery and so really now we just need to have our amazing community who has got us this far carry us through to that delivery the moment that we can put this in your hands is going to be an enormous celebration for many many people not just in our team but everybody who's ever been frustrated by
+
+[17:16] the way that they've been treated by big tech by corporations by government interests by security agencies by all of the powerful people who've been meddling in our abilities to maintain relationships to build new relationships and to have really important conversations and to circulate really important information that's what pain quake is really doing it's putting the power back in your hands to manage your own relationships unimpeded and to circulate information without interference so
+
+[17:48] really help us guys you've got us this far we've we've kept every promise to you we really have kept all the promises we made in the fourth and front of our minds and it is now manifested in the application so we're going to be talking a lot more we're going to be releasing a lot more we're going to be showing you a lot more so that you can really see and get excited about how close we now are to being able to bring this to you thank you so much for your support thank you
+
+[18:20] for your amazing emails and messages thank you everyone who has helped to this point and we will see you next month with another delivery update and a whole bunch more progress see you
+
+[19:00] you
