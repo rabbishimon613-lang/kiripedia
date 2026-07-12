@@ -1,0 +1,20 @@
+---
+slug: "2025-02-05-covertaction-magazine-former-cia-counter-terrorism-specialist-john"
+title: "Former CIA Counter Terrorism Specialist John Kiriakou: Final"
+show: "CovertAction Magazine"
+date: "2025-02-05"
+url: "https://youtu.be/Ek6ot2JKi2g"
+videoId: "Ek6ot2JKi2g"
+duration: "2:00"
+captionSource: auto
+paragraphs: 4
+sponsor_paragraphs_stripped: 0
+source_file: 20250205-Ek6ot2JKi2g.en.vtt
+---
+[00:07] when I was at the CIA we had an ongoing joke during the uh the George W Bush Administration that none of us had ever seen an Administration that worked so hard to not talk to our enemies we had a state department with thousands and thousands of employees who just sat there twiddling their thumbs and doing nothing because we don't talk to the Cubans or the Iranians or the Chinese or the Venezuelans or the Russians or the libyans or a dozen other countries we don't talk to them I went on an overseas
+
+[00:39] trip when I was working on the Senate Foreign Relations Committee I went to jibuti Somalia Ethiopia and I was forbidden from going to Atria not by the Eritrean government but by the state department and the only reason they gave me is oh you don't want to go to erria that's the North Korea of Africa that's what I was told I was recently invited to dinner at their at the arrian ambassador's residence here in Washington I can go do that but I can't go to Atria because we
+
+[01:09] don't like them as I said I hope that this begins to change under Donald Trump I'm not sure that it will change markedly and even if it does change I'm just not of the belief that those changes are going to be necessarily longstanding and that's why it's up to us to keep riding our elected officials to keep writing and speaking and marching and making sure that our elected officials
+
+[01:40] know what we want in a government foreign policy and in a government intelligence policy we should be at these at these hearings we should be taking notes and writing op ads and speaking to friends and doing podcasts and making sure that our voices are heard

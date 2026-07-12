@@ -1,0 +1,20 @@
+---
+slug: "2025-02-06-covertaction-magazine-former-cia-counter-terrorism-specialist-john"
+title: "Former CIA Counter Terrorism Specialist John Kiriakou on Rub"
+show: "CovertAction Magazine"
+date: "2025-02-06"
+url: "https://youtu.be/D3kxtqefUPg"
+videoId: "D3kxtqefUPg"
+duration: "2:00"
+captionSource: auto
+paragraphs: 4
+sponsor_paragraphs_stripped: 0
+source_file: 20250206-D3kxtqefUPg.en.vtt
+---
+[00:09] I'm hoping and remember what they say in in business school hope is not a strategy but I'm hoping that Donald Trump is sincere about ending the war in Ukraine about staying out of other Count's business about leaving Syria to its own devices and about some sort of an agreement eventually somehow with the government of Iran otherwise I don't think we're going to get it from some of these other players
+
+[00:40] I also wanted to talk for a minute or two about Senator Marco Rubio I'm as mystified as anybody as to why in the world Donald Trump chose Marco Rubio to be Secretary of State Marco Rubio is is a republican in the mold of George W bush and any every other neoconservative that came before him he's known for his especially um hardcore stances against Cuba and against
+
+[01:11] Venezuela I was very fortunate a year ago to go to Cuba and uh and to see it for myself and to meet with average Cubans on the street and and official Cubans up to uh one of the vice presidents of the country uh with whom a group of us uh Americans had dinner and talked about Rel ations between our two countries I'm not at all sanguin that Donald Trump or Marco Rubio on behalf of Donald Trump is going to do anything at all to improve us relations with Cuba I
+
+[01:44] think the situation with Ben as whale is worse I think that that what we're going to see under Donald Trump is a continuation of the Joe Biden policy on Venezuela which in turn was a continuation of the first Donald Trump policy toward Venezuela I think we're going to remain in a virtual state of war with that country and nothing good is going to come of it

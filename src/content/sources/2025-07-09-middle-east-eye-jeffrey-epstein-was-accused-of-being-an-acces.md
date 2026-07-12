@@ -1,0 +1,30 @@
+---
+slug: "2025-07-09-middle-east-eye-jeffrey-epstein-was-accused-of-being-an-acces"
+title: "Jeffrey Epstein was accused of being 'an access agent for th"
+show: "Middle East Eye"
+date: "2025-07-09"
+url: "https://youtu.be/kPCRVN3yjAA"
+videoId: "kPCRVN3yjAA"
+duration: "4.5:00"
+captionSource: auto
+paragraphs: 9
+sponsor_paragraphs_stripped: 0
+source_file: 20250709-kPCRVN3yjAA.en.vtt
+---
+[00:00] Yes, I do smell a rat. And I'd like to know why no one in the media is talking about the investigation or the fact that there should have been an investigation into whether or not Jeffrey Epstein was working for a foreign intelligence service. You know, let's So, so that's really interesting. So, look, you you've studied into this. What is the evidence that he might have been? He is the a textbook example of an of an access agent. You're, like I said the last time I was on the show, Pierce, you're not going to recruit Bill
+
+[00:31] Clinton. You're not going to recruit Bill Gates. You're not going to recruit Alan Dersowitz, but you can recruit someone who gets close to those people. You can give them something that you can hold over their heads if you have to in the end, and then you report back to your handlers everything that they say. And in exchange, you get untold wealth and a house in the Caribbean and the the biggest townhouse in Manhattan and a private plane. And that's a pretty good life, especially if you're a pedophile and you enjoy doing things like that.
+
+[01:04] And nobody's talking about whether or not he was an access agent. Yeah. I mean, that's really interesting. I mean, does the intelligence community believe that there is merit to that suggestion? Yes, it does. It does. But the problem here is the accusation is that he was an access agent for the Israelis. And that's something that the intelligence community really doesn't like to touch. Why? Because we have this special relationship with Israel. Not like a five eyes relationship like we have with
+
+[01:34] the UK, Canada, Australia, New Zealand, but this special relationship where we share so much. We provide so much. We work with the Israelis on issues all around the region, at least around the world. on a handful of issues. Why upset the balance over one dead pedophile? Isn't it easier just to cover it up? Brian, what do you think of that? Um, I I I believe that Jeffrey Epstein surrounded himself with a lot of uh
+
+[02:05] powerful people. It is very very possible that he could have been working for a government agency. Very very possible. as well. I I would tend to agree with the fact that this needs to be investigated more. The media needs to talk about it more. And I don't think this is just a situation where Jeffrey Epstein was getting people to come on his island and sadly do horrible things to young girls. I think there's a lot more to this story. I think there's a lot of people hiding a lot of information. So, I I certainly agree with what he just said. I mean, um,
+
+[02:36] Jack, one of the I mean, one of the conspiracy theories I've seen online a lot in the last few days is it's not a coincidence that Netanyahu is coming to the White House, that he's been there, I think, three times in the last few months, that he has a much better relationship with Trump now than they did when he uh pissed Trump off by, you know, going to see Biden and so on. Um, and that suddenly the Epstein files disappear. if you were working as a conspiracy theorist and you bought into the idea that he was some kind of agent
+
+[03:08] for the Israelis, which is not completely implausible um given all the connections he had and know has there been some tacit agreement with Netanyahu to get rid of this problem? I mean, stranger things have happened. I think the perception is horrible. I think the perception is absolutely horrible and uh it puts a huge huge onus on the entire administration and certainly coming from Pam Bondi for her mismanagement of this. I wanted to go back to something that John was saying as well, but uh Galileain Maxwell's
+
+[03:40] father Robert uh this is some so Robert Maxwell is someone who's highly fingered in a lot of these conspiracies or a lot of these allegations. his entire career, there were allegation after allegation that he was involved somehow with Israeli intelligence going all the way back even to the 1940s and serious questions about some of the work that he did all the way through this. And then of course, as it goes, she becomes the recruiter for Epstein. And so these questions have really gone deeper and
+
+[04:11] deeper and deeper. And of course, there's no actual evidence or, you know, just hearing of the evidence or release of the evidence, release of the file, a task force, even a press conference, you know, and instead we get, oh, well, we're just going to move on and here's a press release on a, you know, on a Sunday night when it's, you know, it's a holiday here in the

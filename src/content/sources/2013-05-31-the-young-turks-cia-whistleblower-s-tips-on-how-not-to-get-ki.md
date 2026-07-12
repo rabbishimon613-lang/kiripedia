@@ -1,0 +1,30 @@
+---
+slug: "2013-05-31-the-young-turks-cia-whistleblower-s-tips-on-how-not-to-get-ki"
+title: "CIA Whistleblower's Tips On How Not to Get Killed in Jail"
+show: "The Young Turks"
+date: "2013-05-31"
+url: "https://youtu.be/HVtBEQIzLxk"
+videoId: "HVtBEQIzLxk"
+duration: "4.4:00"
+captionSource: auto
+paragraphs: 9
+sponsor_paragraphs_stripped: 0
+source_file: 20130531-HVtBEQIzLxk.en.vtt
+---
+[00:00] john carry out the so it was a lot of the c_i_a_ he told us about the cause of leon president model who said look we don't look back we look forward asking anyone who did it occur but he did prosecution jerry opera uh... who told us about the torture so if you get your free to go if you told us about it well even though a bomb a promise change she continued to bush administration policies and more and one of the way after me now they're taking to excuse was that he really said the name of a c_i_a_ agent
+
+[00:30] which he thought was retired but is the one dime the c_i_a_ that they can order the one guy who's a whistleblower come on so it's pretty obvious of the message don't want to be sent bacteria who says as bad as it was just a part was we didn't see this kind of vindictive selective prosecution people that we see under obama uh... now he is in jail he got thirty months in prison he thought that he was gonna wind up uh... in uh... work and police in actual present any wrote a letter from that prison
+
+[01:00] there's a serious side to it and then there is a fascinating slightly more humorous side to it uh... first he says in truth this is my punishment for blowing the whistle on the c_i_a_'s allyl torture program befor tell the public that torture was official u_s_ government policy and i think he's right about that one other many many reasons why president all mama uh... has been terrible on civil liberties and uh... in certainly in regards to whistle blowers and carry out was a great example that so he was a fire that is whether
+
+[01:31] uh... he's in federal correctional institution in loretta pals mania now he finds a little what's called work and he wound up in a real present that as of size and downsized now one of the downsizings you've got a survivor not present okay and then i'll plan around the area nation is their and you've got gangs of all the different races there and then you also the correctional officers a different problem carryout group are first of all has a problem a c_e_o_ who apparently in every day and will call cam perhaps is named to said calls in cure account carol loom teriyaki
+
+[02:03] they reacted by favored uh... and then apparently she stopped the one day and ask them are you the mother fucker whose name i can't pronounce he said yes and then he presses matriarchal answers you pronounce it they got mad he throws a wise ass comic actresses name correctly they were paid and actually shipped down is ceylon life in prison now we're just getting warms up wait till you get a load of how he has come two terms of the gangs in the present
+
+[02:33] so he explains his letter i've also had some luck in this regard in terms of get along with those guys my reputation preceded me in a rumor that sort of that i was a c_i_a_ hit men the areas was for that i was a muslim hunter if that's awesome but the muslims on the strength of my arabic language skills and oh well time sickness support from louis farrakhan have a lot of me as a champion of muslim human rights meanwhile the tides of dana lighting to meet his unpatriotic as they are and i a visceral dislike of the f_b_i_ which they do as well
+
+[03:05] i have good relations with the blacks because i've held several of them right commutation appeals or letters to judges and i don't read the review for anesthetics respect me because of my cell mates who represent a myriad eleven drug gangs have told them to do so so far you know what this is great man there's a how-to manual how to survive in prison you know ob gyn the c_i_a_ guy is the view c_y_a_ that's cover your ass and usually means a you write a memo and you let people
+
+[03:37] know wasn't me uh... hey i told i guy so this is my c_y_a_ memo imprison of course you buy a beat somebody else did brierley and apparently key factors figured out how to be a great c_y_a_ man in prison as well i don't know the letter gives it away though but im highly it's not that i did it for the areas is that all i am owes a lot of mail from snapped their necks receptors in the month beta cell anchorman a delayed part although a console on have erin's
+
+[04:09] by the way my favorite rick in there i would do the same vein the minute i got in their amin i was a laura like sixteen years ago i'd like ever any legal yeah i'll come right here freeman free service does a lot of those let him and i'm here all day

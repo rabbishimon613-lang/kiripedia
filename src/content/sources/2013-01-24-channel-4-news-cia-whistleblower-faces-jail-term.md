@@ -1,0 +1,32 @@
+---
+slug: "2013-01-24-channel-4-news-cia-whistleblower-faces-jail-term"
+title: "CIA whistleblower faces jail term"
+show: "Channel 4 News"
+date: "2013-01-24"
+url: "https://youtu.be/FdnU_2u_FY4"
+videoId: "FdnU_2u_FY4"
+duration: "5.0:00"
+captionSource: auto
+paragraphs: 10
+sponsor_paragraphs_stripped: 0
+source_file: 20130124-FdnU_2u_FY4.en.vtt
+---
+[00:03] now in the United States the first CIA officer ever to be jailed for leaking information is about to discover how long he's to spend in prison CIA veteran John kyaku has pleaded guilty to revealing the name of an agent who was involved in waterboarding Terror suspect but his supporters say he's been pursued for blowing the whistle on torture who's our Washington correspondent Matt Fry can I be honest with you I am bad
+
+[00:33] news I'm not your friend I'm not going to help you I'm going to break you any questions Zero Dark 30 the movie based on the true story of how America's most elusive foe was tracked down and killed the film doesn't skirt around the fact that Osama Bin Laden would not have been found without information extracted by torture we'll never find him and the film itself would never have been made without information leaked by
+
+[01:05] someone in Authority this is a movie The White House wants you to see I became the chief of counterterrorist operations in Pakistan uh where I helped capture many dozens of al-Qaeda terrorist suspects including Abu zua who at the time was thought to be the third ranking official in al-Qaeda when John Kaku talks about his Feats he sounds at first like one of the cia's hero but listen more closely after we captured abuaba I spent uh several days as his soul minder while
+
+[01:38] the agency figured out what to do with him and what they ended up doing with him was to take him to a secret prison and to torture him mercilessly uh including to waterboard him 83 times we need to know the names of the people water boarding an enhanced interrogation technique or in plain English torture systematically used by the CIA after 9/11 kyaku was the first agent to go public about it and is paying the price what are you going to do he's gone from decorated spy to
+
+[02:09] disgrace convict don't kick me soon he won't be playing with his kids in their Suburban Washington Garden he will serve a 30mon sentence the first American ever to go behind bars for waterboarding and not for having committed it but for having blown the whistle on it none of the high pressure situations I ever found myself uh in overseas working in counterterrorism including two uh attempts on My Life by different terrorist groups uh could
+
+[02:40] compare with the the notion of the entire weight of the US government coming down on Meo will be closed uh no later than one year from now remember this day one of his freshly minted presidency four years later guantan Bay remains open for business there we go yes this Administration has stopped waterboarding but it's also gone after leakers like John kako with a Vengeance Barack Obama was elected on a platform of transparency and change and
+
+[03:11] has led the worst clamp down on whistleblowers in history in your opinion torture or not torture I think yes torture John kako broke the cia's Code of Silence he went public on waterboarding called it torture and then cashed in on the publicity with a book and lectures here you are sir but that in itself wasn't enough to trigger an investigation this was his revelation of the identity of undercover agents involved in the torture of inmates like
+
+[03:42] these at Guantanamo Bay got him into trouble with the Obama Administration first there were spying charges but they were then dropped after a deal in which kako pled guilty to revealing the name of One agent your client did after all plead guilty to revealing the name of an undercover operative that is a no no yeah he plead guilty to confirming the identity of a torturer the administration would say that if you allow such leaks to go ahead the clandestine Services can no longer
+
+[04:12] operate in a clandestine way do you buy that argument at all I do not the government is the biggest leaker in the United States this Administration seems to sanction leaks and indiscretion whenever it suits them for instance telling the makers of zero duck 30 some of the details of the the raid on Usama Bin Laden or indeed providing details of drone attacks and targeted killings to the New York Times in the middle of last year's heated election campaign at the same time it's a fact that the Obama
+
+[04:43] Administration has prosecuted more leakers than all other administrations put together so where does that contradiction leave this administration's much touted belief in openness and transparency Matt Fry Channel 4 News Washington t

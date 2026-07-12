@@ -1,0 +1,20 @@
+---
+slug: "2025-04-21-mintpress-news-former-cia-officer-john-kiriakou-reveals-why"
+title: "Former CIA officer John Kiriakou reveals why he exposed the"
+show: "MintPress News"
+date: "2025-04-21"
+url: "https://youtu.be/e1VgVU63D6s"
+videoId: "e1VgVU63D6s"
+duration: "2:00"
+captionSource: auto
+paragraphs: 4
+sponsor_paragraphs_stripped: 0
+source_file: 20250421-e1VgVU63D6s.en.vtt
+---
+[00:00] I was the chief of CIA counterterrorism operations in Pakistan in the immediate aftermath of 9/11. When I returned to CIA headquarters in May of 2002, I was asked if I wanted to be trained in what they called the use of enhanced interrogation techniques. I had never heard that term before. I didn't know what it meant. And the way it was explained to me in my mind was clearly torture. And I was well read enough to know that we have the Federal Torture Act of 1946. We have the United Nations
+
+[00:30] Convention Against to Torture. We have other laws that very clearly delineate what we are allowed to do in national security custodial interrogations. I declined the training. I I was the only one of the 14 people who were approached who declined to be involved. It was 100% crystal clear to me that there were a lot of people inside the CIA who were opposed to the torture program. People were writing cables back to headquarters from the secret site saying, "Whoa, this
+
+[01:02] is not what I I signed up for. I'm not going to do this. I want to come home." That's called a curtailment where you curtail your overseas assignment. It's a careerending decision to just say, "Send me home. I'm not doing this." There were people who resigned from the secret site. There were nurses who fainted while watching the torture sessions. There were doctors from the Office of Medical Services who would write, "Wait a minute. Wait a minute. I took an oath to do no harm and you want me to be there to revive this guy after you kill him so that you can torture him more?
+
+[01:34] I'm not doing that. And then finally in 2007, I said something to ABC News. My only regret was that I left five and a half years on the
