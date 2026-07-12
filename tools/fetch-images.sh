@@ -15,6 +15,7 @@ CREDITS="$DEST/credits.json"
 
 # slug=wikipedia_title (URL-encoded as needed)
 MAPPING=(
+  "trump-assassination-attempt-2024=Attempted_assassination_of_Donald_Trump_in_Butler,_Pennsylvania"
   "afia-sadiki=Aafia_Siddiqui"
   "agnes-von-kurowsky-grave-story=Agnes_von_Kurowsky"
   "alan-dershowitz=Alan_Dershowitz"
