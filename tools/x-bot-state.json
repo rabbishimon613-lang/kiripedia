@@ -233,7 +233,8 @@
     "dyk:safe-housekeeper:1",
     "quote:sharon-scranage:0",
     "dyk:william-webster:0",
-    "quote:brian-ross:0"
+    "quote:brian-ross:0",
+    "new:ai-whistleblower-initiative"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -853,10 +854,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "ai-whistleblower-initiative",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
     {
       "slug": "akrotiri-village-evacuation",
       "added": "2026-06-29T07:26:23.745Z"
@@ -2135,10 +2132,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
