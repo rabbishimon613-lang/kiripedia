@@ -232,7 +232,8 @@
     "quote:enhanced-interrogation:2",
     "dyk:safe-housekeeper:1",
     "quote:sharon-scranage:0",
-    "dyk:william-webster:0"
+    "dyk:william-webster:0",
+    "quote:brian-ross:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -2134,10 +2135,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
