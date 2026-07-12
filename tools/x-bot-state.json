@@ -231,7 +231,8 @@
     "dyk:john-kiriakou:13",
     "quote:enhanced-interrogation:2",
     "dyk:safe-housekeeper:1",
-    "quote:sharon-scranage:0"
+    "quote:sharon-scranage:0",
+    "dyk:william-webster:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -574,6 +575,7 @@
     "kiriakou-iran-trips",
     "kiriakou-moneylaundering-tip",
     "kiriakou-mother-israel-trip",
+    "kiriakou-on-the-israeli-occupation",
     "kiriakou-prison-manipulation-tactics",
     "kiriakou-russian-media",
     "kiriakou-serial-killer-letters",
@@ -2125,13 +2127,17 @@
     {
       "slug": "zero-dark-thirty",
       "added": "2026-07-12T03:21:07.921Z"
+    },
+    {
+      "slug": "kiriakou-on-the-israeli-occupation",
+      "added": "2026-07-12T08:26:04.231Z"
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
