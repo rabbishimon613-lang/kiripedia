@@ -1,0 +1,48 @@
+---
+slug: "2025-11-12-the-america-report-john-kiriakou-explains-cia-s-torture-program"
+title: "John Kiriakou Explains CIA's \" Torture Program\" To Joe Rogan"
+show: "The America Report"
+date: "2025-11-12"
+url: "https://youtu.be/v7c4xvvBYNw"
+videoId: "v7c4xvvBYNw"
+duration: "9:00"
+captionSource: auto
+paragraphs: 18
+sponsor_paragraphs_stripped: 0
+source_file: 20251112-v7c4xvvBYNw.en.vtt
+---
+[00:00] Hello everyone. In this video, we break down John's shocking story from his appearance on the Joe Rogan podcast, where he talks about his encounter with the CIA's so-called interrogation program. You'll learn how he was first introduced to the program, how refusing to participate nearly cost him his entire career, and how a senior colleague ultimately helped save his future. Jon also reveals the nickname he earned inside the CIA after rejecting the program along with more eye-opening
+
+[00:32] details about how it all worked. Everything is presented in short, easy to watch segments for those who don't want to sit through the full hourong podcast. The full conversation is publicly available on YouTube and on the official Joe Rogan podcast. Links to both are in the description. And so when I got back to headquarters in May of that year, I was just standing
+
+[01:02] in the sandwich line at the CIA cafeteria and one of the senior guys from the counterterrorism center came up to me very casually and he said, "Oh, hey. I'm glad I ran into you. I meant to ask you, do you want to be certified in the use of enhanced interrogation techniques?" And I had never heard that term before. This was May of 2002. I said, "Enhanced interrogation techniques. What's that mean?" And he goes, "We're going to start getting rough with these guys like that." I said, "What's that mean?" So he
+
+[01:33] describes these 10 techniques. And I said, "I don't know, man. That sounds like a torture program." And he said, "It's not a torture program. We got it cleared by the Justice Department and the president signed it." He says, "Think about it." I said, "Yeah, give me an hour. I need an hour to think about it." I walked out of the cafeteria. I went up to the seventh floor, which is the executive floor. And um there was a very, very senior officer up there for whom I had worked 10 years earlier in the Middle East. Knocked on his door, no
+
+[02:04] appointment or anything. And I said, "Hey, I need some advice. I was just asked if I wanted to be trained in these enhanced interrogation techniques. What do you think of that?" And he said, "First of all, let's call a spade a spade." He said, "This is a torture program. They can use whatever euphemism they want, but this is a torture program, and torture is a slippery slope." He said, "You know how these guys are. Somebody's going to be a cowboy. They're going to go overboard and they're going to kill a prisoner. And when that happens, there's going to be a congressional investigation. Then
+
+[02:35] there's going to be a Justice Department investigation, and somebody's going to go to prison. Do you want to go to prison?" I said, "No, I don't want to go to prison." As it turned out, I was the only person who went to prison. But I said, "No, I don't want to go to prison." I went back downstairs. I said, "Listen, I have a a moral and ethical problem with this. I think it's illegal, and I don't want any part of it." I went back downstairs. I said, "Listen, I have a a moral and ethical problem with this. I think it's illegal, and I
+
+[03:06] don't want any part of it." The funny thing is I had just captured Abu Zubeda who we believed was the number three in al-Qaeda and I got passed over for promotion. And the reason I got passed over they said was because I turned down the training. The head of the counterterrorism center said in my promotion panel that I had displayed a shocking lack of commitment to counterterrorism. And then the guy who had given me the advice saw that my name wasn't on the promotion list and he promoted me out of cycle.
+
+[03:44] Before we jump back into the video, I've got something really useful for anyone living in the US. We all know that insurance is something you just can't live without here, but finding the right one, that's a nightmare. There are thousands of plans out there and most of us just end up picking whatever's in front of us, even if it's overpriced or not the best fit. That's exactly where The Swiftest comes in. They're a familyrun organization that does one thing, and they do it really
+
+[04:14] well. They compare insurance plans across the country using their own Swift Score algorithm to rank them based on things like coverage, price, customer satisfaction, and more. Basically, they cut through all the noise and show you only the best options, saving you time, money, and helping you avoid scams or bad deals. I've personally researched them a lot, and I actually reached out to them for a partnership, not the other way around.
+
+[04:46] I've been working with them for about a year now, and I can confidently say they're the real deal. So, if you're looking for a better, more affordable insurance plan, check out The Swiftest through the link below. All right, now let's get back to the video. So, I I realized then I was up against something that was going to be tough. And then there was a psychiatrist at the agency whom I had known for years. We we
+
+[05:18] earned the same men's group. We went to the same church. and he happens to be both a brigadier general in the army and a CIA psychiatrist. And he said to me one day, "Buddy, you know they call you the human rights guy behind your back." And I said, "Yeah, I don't care." And he said, "You know that's not a compliment, right?" And I said, "Steve, they're wrong about this and I'm right about it." I said, "I'm I'm comfortable with the decision that I made." And I just
+
+[05:49] left it at that. I didn't realize though how much I had pissed them off until later on. >> So all you had done essentially was stand up for your beliefs, your morals, your ethics, and the law and you said, "I don't want to participate in anything that I know to be illegal." >> That was the start. Listen, I >> But you're standing out against the group. And I was the only one I'm I'm I'm almost ashamed to tell you that they asked 14 of us if they wanted if we wanted to be trained in the enhanced
+
+[06:20] interrogation techniques. I was the only one who said no. >> Now this doesn't necessarily mean that you would have to use them. You were just going to be trained in them. >> Oh no no they were they were to use >> and then but you would be required to use these techniques. So if you were not trained in them, then what would happen? Would would that preclude you from ever being involved in any sort of a
+
+[06:50] questioning interrogation? >> Yes. Which is funny for a couple of reasons. Number one, there was no such thing at the time as an interrogation class, right? The FBI has deep yearslong interrogation classes. We never had to interrogate anybody. >> So what exactly did you know what enhanced
+
+[07:21] interrogation techniques they were going to implement? >> Oh yeah. That day in the cafeteria uh my colleague explained it in great detail. And a lot of these techniques are not torture. Right. If I grab you by the lapels and say, "Dog on you. Answer my questions." That's not torture. Or the the first one was called the belly slap, uh, or the intention slap was another way they called it, where I smack you in the belly, it makes a cracking sound, maybe it leaves a handprint. It's a little bit embarrassing. That's not torture. But
+
+[07:53] then it graduated quickly to things like waterboarding, which everybody knows about. But there were techniques that were that were in my view that were worse than water boarding. Like for example, there was the cold cell. So they strip you naked. They chain you to an eyebolt in the ceiling. So you can't you can't lay or kneel or sit or anything. You can't get comfortable in any way. And um they they chill the cell to 50° Fahrenheit and then every hour somebody comes in and throws a bucket of
+
+[08:24] ice water on you. >> Oh. But we killed people with that technique. The Justice Department never said we could kill people. And when we would kill >> people died with that >> at least two with that technique that that hypothermia admitted to from hypothermia >> and there wasn't a protocol in place to stop them from dying. >> No, there was later, but in those early days, no. Later, we always had a doctor on scene. Like for example, with Abu Zuba, his heart actually stopped during a waterboarding session and the doctor
+
+[08:54] revived him just so he could be tortured more. It's like, you know, didn't the Germans do that? Come on now. Now we're doing it. That's not cool.

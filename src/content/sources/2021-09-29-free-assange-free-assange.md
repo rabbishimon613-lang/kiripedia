@@ -1,0 +1,52 @@
+---
+slug: "2021-09-29-free-assange-free-assange"
+title: "Free Assange"
+show: "Free Assange"
+date: "2021-09-29"
+url: "https://youtu.be/bpyMh1pFcAY"
+videoId: "bpyMh1pFcAY"
+duration: "10:00"
+captionSource: auto
+paragraphs: 20
+sponsor_paragraphs_stripped: 0
+source_file: 20210929-bpyMh1pFcAY.en.vtt
+---
+[00:06] i woke up this morning to a half a dozen different friends having emailed me this article um and uh there were accompanying expressions of shock that's the only word i can really think of to use here is is shock mike isikoff is a pulitzer prize-winning investigative journalist he's worked at the biggest most important best funded news outlets in america the guy's a serious journalist and uh you know for mike isikoff to say
+
+[00:38] something as definitive as the cia was trying to murder julian assange or to capture julian assange and then to go into detail of exactly how they were planning to do that you have to take that very seriously he interviews more than 30 current and former cia officers and former administration officials who were privy to this information it's so well sourced 99 of it it's so well covered
+
+[01:10] that i i have to believe it we we know that that the cia was obsessed that pompeo specifically was obsessed with julian assange and wikileaks because of the vault seven revelations that was that was akin to the the crown jewels of the 19 mid 1970s uh being released and by god uh uh pompeo and gina haspel were determined to put an end to julian assange and to put an end
+
+[01:41] to wikileaks so it wasn't just these insane plans to murder assange but there were accompanying plans to infiltrate and to neutralize wikileaks as an organization and isikoff says in the article that the cia had some success in infiltrating wikileaks in um in collecting information from inside the organization in determining wikileaks future plans and intentions uh they they
+
+[02:12] really targeted wikileaks directly and went after wikileaks so you know disruption is the easy part collection against wikileaks is the easy part i'm stuck on this murder plot this is just so you know if if i were still at the cia if this were 2004 and somebody said oh listen we're gonna we're gonna plan to murder this australian national because he keeps publishing our stuff
+
+[02:44] and we don't like his politics that would have been like a bad joke i mean i i don't even know anybody in 2004 who would have said words like that out loud it's just so outrageous and now you know we read it and we say wow you know cia they were pretty mad but uh this is what they do they have to go after wikileaks no this this whole thing bothers me there were a couple of revelations in this piece kevin that were very very disturbing to me to the point where
+
+[03:16] like i am i i'm having trouble wrapping my brain around it for example they talked about the possibility of having to engage in a shootout in the streets of london outside the ecuadorian embassy they talked about the possibility of shooting the tires out of a russian diplomatic plane so it couldn't lift off from an airport outside london if julian assange had been on the plane okay these are acts of war you can't do
+
+[03:48] things like this and then almost as an aside isakoff says uh the british agreed that they would be the do with the ones doing the shooting well that doesn't make it any less of an act of war if if julian assange had been released for example and if he had uh been granted asylum in russia and if the russians had sent a plane to pick him up that is a diplomatic vehicle right it has all the same diplomatic protections that an embassy would or an embassy car would you can't shoot the
+
+[04:20] tires out that is like firing a rocket at the russian mainland you just can't do things like that but apparently mike pompeo was so obsessed with taking down julian assange that that's exactly what they were planning to do now there is a way at the cia that you go about doing something like this first of all you have to declare a person a clear and present uh danger to the united states
+
+[04:51] it appears that that's what they did with julian they they said he is a clear and present danger to the safety and security of the united states and as such he has to be executed but he's an australian national he's an australian national and australia is one of the five eyes countries and so the united states would have had to bring the australians in on the operation they would have had to have australian permission to go ahead and murder an australian national there's no paragraph saying the
+
+[05:22] australian said now pompeo wait a minute he's an australian national and while we don't like him either you can't kill an australian national we didn't see any of that so what are we supposed to conclude that the us did not inform australia or the that the australians were in on it now um it says in the article that the british certainly were in on it that the british were the ones who agreed to shoot out the russian planes or to carry out the
+
+[05:54] the gun battle that would have taken place in front of the the ecuadorian embassy does that mean australia has changed too and the australians were willing to allow the british and the americans to conspire to murder one of their nationals so number one you've got to get permission from the the justice department's office of legal counsel it appears that they got that number two you would have to get the agreement of the australian government it appears that they got that too uh number three
+
+[06:25] and this is one that sort of makes me want to swallow my tongue uh you have to get the approval of the congressional oversight committees now if they were serious about this operation and the planning for the operation went as far as it did that means that they got the permission of the oversight committees i complain a lot in a lot of interviews that the oversight committees are little more than cheerleaders for the cia and they've been little more than
+
+[06:56] cheerleaders from the cia since the 1990s but this is ridiculous this is murder murder of a of an australian national murder of somebody who has never been convicted uh in a u.s court of committing any crime in fact the british courts deemed his the accusation of his crime is not even worthy of of extradition so you know the revelations in this article if if they're even half true and like i
+
+[07:28] say he interviewed something like 30 former cia people and administration officials we have to believe him i mean this is just over the top the fact that they were talking about killing him but then also seriously considering a rendition operation against uh uh uh uh an editor a publisher of a media organization this is insane shooting out the the the tires of a russian diplomatic flight
+
+[08:00] that would have you know taken him into exile in russia you can't do that you might as well shoot the plane down out of the sky it's an act of war you can't do it you know we see these cute little scenes on law and order where they trick this iranian diplomatic car into opening its doors and they grab the guy out of the diplomatic car that doesn't happen in real life you can't do that because then what's going to happen if the russians decide to shoot the wheels shoot out the
+
+[08:30] tires of an american diplomatic plane or to violate american diplomatic uh sovereignty maybe go into a classified diplomatic pouch you can't do things like that so the fact that it went all the way to the president wow i i don't even have words so uh so yeah i mean when you add in the fbi's informant when you add in the fbi's information you add in what the cia's conduct is in this and then also i should mention um the fbi stole julian
+
+[09:01] assange's legally privileged materials we know that he confiscated yeah all that together there is no reason why this case should still be going no any any criminal defense attorney of any repute at all should be able to pick this case apart in a day the entire the government's entire case is based on a convicted pedophiles lies
+
+[09:33] now he for whatever reason he he confessed to uh to a an icelandic uh journalist that he lied about his access to julian assange he lied about his position in wikileaks he embezzled money from wikileaks and then went on to molest young boys and was convicted of pedophilia and that's their star witness
+
+[10:04] you

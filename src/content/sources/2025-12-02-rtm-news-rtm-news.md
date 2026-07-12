@@ -1,0 +1,48 @@
+---
+slug: "2025-12-02-rtm-news-rtm-news"
+title: "RTM News"
+show: "RTM News"
+date: "2025-12-02"
+url: "https://youtu.be/_AYU0D1JUig"
+videoId: "_AYU0D1JUig"
+duration: "9:00"
+captionSource: auto
+paragraphs: 18
+sponsor_paragraphs_stripped: 0
+source_file: 20251202-_AYU0D1JUig.en.vtt
+---
+[00:00] I've come to the conclusion that the CIA, at the top levels of the CIA, they they really love it when a new president is elected and he has no background in intelligence or foreign policy. Usually, Donald Trump is a very unique figure in this in this scenario. Very unusual. But Barack Obama, >> two years as a senator. >> Check it out, folks. It's gonna be interesting. You're about to see a former CIA officer tell Tucker quite a
+
+[00:30] bit of crazy stuff about the organizations and their operations and how they relate to United States presidents with a bit of Barack Hussein Obama thrown into the mix. So without further ado, we are we're going to get right into it. But first, do me a big favor here. Like our video, share it around, and that way we can keep bringing you all this great hard-hitting content. As always, patriots, I'm your real Darian and this is Resist the Mainstream. >> We're contacted either one of us. >> So then 2008 rolls around, Bush leaves
+
+[01:00] after two terms, Obama gets elected >> and he's very much the peace candidate. He's for transparency. >> Well, I like to say that it was Saint Obama that came down from the heavens >> into the into the White House returns. >> That's right. And um but he's very much a I mean I remember um in fact being on uh on television saying you know he was this wildeyed peace neck lefty guy. >> Mhm. Oh no he wasn't. >> Oh he wasn't. You know this is something that I've puzzled over for a long time. And I've come to the conclusion that the
+
+[01:34] CIA, at the top levels of the CIA, they they really love it when a new president is elected and he has no background in intelligence or foreign policy. Usually Donald Trump is a very unique figure in this in this scenario. Very unusual. But Barack Obama, two years as a senator, two years as a senator, no experience in foreign policy, no experience in intelligence. The day after an election, the director of the CIA authorizes a
+
+[02:06] president-elect to begin receiving a PDB, a president's daily brief. And so the day after the election, they go with this this 16-page document marked at six levels above top secret, and they say, "Mr. president-elect. Wait till you see the cool things we're doing all around the world. And they've sucked him in. They made him one of the guys. And every day they were like, "Wait till you see the update on what we told you yesterday. It's incredible." And then we get the the feedback at the CIA. Oh, the
+
+[02:37] president loved this. The president had a follow-up question on that. Oh, the president said, "Oh my god," when he read this. Well, that's >> almost psychologically profiling the president. >> Oh, I think I think that's exactly what they do. And don't forget, they have an entire staff of psychiatrists and psychologists that do exactly that. >> I mean, it's not surprising given that the CIA provably has experimented with weird things, including mind control. This was revealed in Foya documents. Just check out MK Ultra. Give that a quick little Google search and read
+
+[03:08] about it on Wikipedia and maybe some other sources if you're interested to learn more. Now, as far as Donald Trump goes, he famously did not like the CIA at all. I suppose he had a bit of a better intuition than some of the other presidents. I mean, you can't blame the guy. You know, he had to deal with a lot. And more and more info on what the CIA is is and what they've done to specifically President Trump is still coming out. Just take a look at this briefing from March 2024. All right. According to these documents here drafted up by the House Judiciary Committee, the CIA, particularly
+
+[03:39] President Obama CIA Director John Brennan, actually worked to weaponize the agency against the American people. And they said very specifically that CIA director Brendan identified 26 Trump associates for the five eyes intelligence line nations. These are the United States, United Kingdom, Canada, Australia, and New Zealand specifically to target them into intelligence operations and that he approved a plan to request that foreign intelligence agencies spy on people affiliated with
+
+[04:09] the Trump campaign. And they also say that, you know, Russia played a big hand in hurting the Democrats and helping Trump win the election. And that's something that Trump has repeatedly rejected. In fact, Trump very famously said, "There is nobody who feels stronger about the intelligence agency than Donald Trump." And you know, hey, I can't blame the guy. He arguably has had the most political weaponization against him by government agencies of any president in US history and at the very least in our many of our lifetimes. That
+
+[04:40] much is fatly clear. >> And so they use the tools um that they have employed for decades to subvert foreign governments to subvert their own government. >> Yes. But they smile while they're doing it and they say, "No, no, we're just trying to forge a good working relationship with the president." In fact, for a while in the '9s, they didn't even call him the president. They called him the first customer. >> Swear to swear to God. >> Is there I know we're getting farfield and we will get back to your story, but
+
+[05:13] it it it doesn't sound like So, if you look at the org chart, the president controls CIA. >> Yes. >> But you're describing a a situation where CIA kind of controls the president. >> You know, this is another problem. It's that presidents come and go every four years, every 8 years, but these these CIA people, they're there for 25, 30, 35 years, they don't go anywhere. And so if they don't like a president or if a president orders them to do something that they don't want to do, they just
+
+[05:44] wait because they know they can wait him out and then he's not going to be president anymore and they can continue on with whatever plan the blob or the deep state wants to implement. You know, Russian President Vladimir Putin actually said something very eerily similar to this. Check it out.
+
+[06:47] forchech.
+
+[07:20] You know, like him or hate them, you can't deny the undeniable and sad, scary reality of that. It makes you question sometimes. Is the founding father's whole idea of self-governance, is that actually being put into practice in our current nation? Or is the illusion of choice just that, nothing but an illusion? You know, Donald Trump took a lot of guff in his first term when he used on a regular basis the term deep state. And I argued from the very beginning, it is a deep state. Maybe you
+
+[07:52] don't like the terminology. You don't have to call it the deep state. You can call it the federal bureaucracy. You can call it the state. But the truth is that it exists. I I would say by definition, I mean, you just described it, the president. And by the way, the elected representatives who are the instrument of the population through which they control their government um you know are perennial. They come and go, but the people who carry out those orders remain. So over time they are the ones with the power,
+
+[08:22] right? >> And then when they get caught, they scramble. I remember Jane Harmon, she was a congress congresswoman from uh Venice, California. She was the chairwoman of the House Intelligence Committee during the Iraq war. And uh she was briefed on the torture program. Well, when I went public on the torture program, reporters had questions. Well, did Congress approve this? Of course, Congress approved it and Congress appropriated money for it. So, she's the chairman and reporters went to her and said, "Hey, what about this torture
+
+[08:52] program?" And she said, "I didn't know anything about the torture program." >> She's a liar. >> She was lying. And I said, and I remember saying it to the New York Times, I said she was in the room when it was briefed. A fun fact about Jane Harmon that maybe you don't know. She allegedly said that she wanted to go ahead and lobby the DOJ to actually reduce espionage charges on two people who worked with Apac, the American Israeli Political Action Committee. Why did she want to do this? Of course, in
+
+[09:24] exchange for becoming the chair of the House Intelligence Committee. I'm not kidding. That is the allegation. Like George Carlin once said, it's a big club and you're not in it. Folks, thank you for tuning in. Really appreciate it. As always, if you haven't already, make sure you comment below. Let us know what you liked about the clip, what kind of stuff you want to see in the future, and hit that subscribe button. And that way, we will see you again soon. And to those who have subscribed, thank you so much. We appreciate you.

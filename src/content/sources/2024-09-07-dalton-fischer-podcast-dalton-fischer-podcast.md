@@ -1,0 +1,46 @@
+---
+slug: "2024-09-07-dalton-fischer-podcast-dalton-fischer-podcast"
+title: "Dalton Fischer Podcast"
+show: "Dalton Fischer Podcast"
+date: "2024-09-07"
+url: "https://youtu.be/ga_wjLljvaM"
+videoId: "ga_wjLljvaM"
+duration: "8:00"
+captionSource: auto
+paragraphs: 17
+sponsor_paragraphs_stripped: 0
+source_file: 20240907-ga_wjLljvaM.en.vtt
+---
+[00:00] on July the 6th 2001 I remember it like it was yesterday I had a visiting delegation of Intelligence Officers from the Middle East kofer black came along with the chief of operations for the Osama Bin Laden Group and they sit down and cover starts and he says something terrible is going to happen we're picking up chatter with code words where were you 911 happened I was at CIA headquarters um you know this the story's kind of quaint now after all
+
+[00:32] these years and and all that has happened over the course of all these years um the on the morning of 911 I was supposed to go to the White House with uh kofer black who was the director of the cia's counterterrorism center we had a meeting scheduled with condalisa rice who was the National Security adviser at the time on a on an issue related to Greek terrorism and so um I got a call at my desk uh saying that the driver was
+
+[01:03] uh was ready to take us down to the White House so I walked over to Ker's office to tell him that the driver was ready and his secretary had a TV on her desk now they're on every computer but back then it was kind of unusual to have a TV and she had a she had a TV on and one of the towers of the World Trade Center was burning and I said what happened to the World Trade Center and she said a plane flew into it and I I naively said you know that happened once before in
+
+[01:36] 1932 a bomber flew into the Empire estate building but it was really foggy then it's so Crystal Clear today like how can you not see that you're flying into the World Trade Center and just as I said those words the second plane hit and then she turned to me I was standing behind her she turned to me and she said did you see that or did I imagine it and I ran back to my office and I said guys two planes just hit both towers of the World Trade Center I think we're under
+
+[02:06] attack so everybody ran back up to the front office now Ker's office had TVs mounted above the door like CNN MSNBC Fox BBC Russian Iranian whatever Chinese and um and they were all starting to switch over to a live feed silence and I mean there were you know 150 200 people just standing there staring at the TVs in silence and then finally somebody shouts will somebody
+
+[02:38] please lead and then kofer snapped back into you know real life and said you uh go to the director's office you go to security you talk to this guy you um finally a cop came in to the it to the office and said we're evacuating headquarters everybody get out nobody budged and then an hour later he came back and said if you don't evacuate you'll be arrested which they
+
+[03:08] meant so I mean talk about chaos we all evacuated um I got about halfway home I lived about I lived about five or six miles from headquarters I got about halfway and I just couldn't get any closer to my place so I just abandoned my car on the side of the highway um my then what was she girlfriend she became my wife uh met me at my place we walked
+
+[03:39] to the roof of my building we watched the Pentagon burn and um we tried to donate blood but the lines were so long we just couldn't wow and um and then I said to her this is ridiculous we got to get back to work so we walked back to my car and I made a u-turn on the the grassy me and we went back to headquarters and then I didn't leave headquarters for another 4 days I just slept under the desk and we got a bolt cutters and we we cut the chain on the cafeteria doors and
+
+[04:11] we took all the food and cooked the food and then laid it out on tables in the hallway we ended up writing a check to the Marriott for 10 or 15,000 bucks we we stripped the place yeah yeah but you know the story really begins a little earlier than that I was working on on Greek terrorism and on um training so on July the 6 2001 I remember it like it was yesterday I had a visiting delegation of
+
+[04:43] Intelligence Officers from the Middle East and so my job was to welcome them at the airport take them to their hotel they get freshened up take them to CIA headquarters they have a full day of briefings we exchange gifts I take to the director's office for a handshake and a photo then I take him to uh uh a steakhouse that night and then back to the airport the next day so they come in and I set up the full day of briefings
+
+[05:15] and I got some Junior analyst to come and talk to us about Al-Qaeda I didn't know anything about Al-Qaeda I was so focused on European terrorism so um this is 2000 2001 July the 6th so instead of this junior analyst coming kofer black came along with the chief of operations for the Osama Bin Laden Group and I was like oh oh I said kofer I said gentlemen this is Ambassador
+
+[05:47] kofer black he's the director of counterterrorism for the CIA and this is our chief of operations for the Osama Bin Laden Group I was like so shocked to see them and they sit down and cover starts and he says something terrible is going to happen we don't know exactly what and we don't know where but we know it's going to be something on a scale that we've never seen before he said we're picking up chatter with code words for a massive
+
+[06:19] attack the honey salesman is coming with great quantities of honey there's going to be a massive wedding uh there's going to be a great suck ER match they're all codes for an attack he said we're hearing Al-Qaeda Camp commanders talking to their students and they're crying on the phone and saying I'll see you in Paradise so he said I beg you gentlemen if you have any sources inside
+
+[06:51] Al-Qaeda please help us they all just sat there because they weren't focused on Al-Qaeda either right so at the end of the day I took him back to the hotel there were a few hours we had uh before uh dinner and I went back to Ker's office to thank him and I said kofer I got to ask you was that just for their benefit or were you serious he said oh I'm deadly serious he said something terrible is going to happen I said that briefing scared the hell out of
+
+[07:21] me well that was July 6th September 11th it happens and I said to the there was a guy I sat next to really great guy I said this is what he was talking about in July this is it the thing is is we never expected it to happen here we expected maybe another American Embassy someplace a US military base a hijacking we didn't expect they would attack us right here but they did and so literally
+
+[07:54] everything changed that day and it's never returned to the pre- 911 with of Life what's up guys thank you so much for taking the time to watch the interview um as you could probably tell this is a brand new channel so if you got anything out of this at all please like the video leave me a comment tell me what you thought tell me who you'd like to see on the show um I see every like I read every comment and I appreciate all of it especially in the
+
+[08:24] beginning because as you know that kind of support goes a long way on these platforms so most importantly I have some awesome guests coming up in the future for interviews um so please subscribe to the channel so you don't miss any of them but again thank you for your time appreciate the support and hope to see you again soon
