@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[1:28:13] Saudi parents in Baton Rouge, Louisiana. I was there for five. Oh, my hometown. Very nice. It was a very nice experience. Bizarrely, many inmates wore business suits during our visit and others filmed it. Now, just this is not like from the uh tourism uh chamber of commerce or something from Saudi Arabia. This is for Face the Nation on CBS said for the prison's TV station. Saudi officials accompanied us at all times and denied allegations of torture at the facility. After growing up mainly in
+
+[1:28:45] Saudi Arabia, Hamdi told us he traveled to Afghanistan to train with the Taliban just before the 9/11 attacks. I watch action movies a lot and I wanted like to have uh I want to try I want to try doing stuff like that. He was captured, held in Guantanamo Bay and then US military prisons before agreeing to give up his American citizenship and returning to Saudi Arabia a free man. He was later arrested by Saudi authorities though he was vague about why.
+
+[1:29:16] I don't want to speak about it a lot. Yeah. Okay. Yeah. Uh but uh talking and stuff like that and because of that I came back to prison. But Hamdi and several other prisoners were happy to describe their upbringing in an ultra-conservative closed off kingdom exposed to religious fundamentalism if you weren't looking for extremism. Yeah, if you weren't looking for fundamentalism. Exactly. You can find them. You can find them. You can learn from them and they will misguide you.
+
+[1:29:47] The same factors helped radicalize the 15 September 11th hijackers who were Saudi citizens according to some. And Saudi Arabia has been criticized for being slow to fix the problem. Now Saudi Arabia says it's reforming. Extremist preaching been banned. Women have greater freedom than ever before. By the way, I can't help notice this like this weird sword shot has been criticized for being slow to fix the problem. Now Saudi Arabia says it's reforming. Right after talking
+
+[1:30:18] about reforming banned women have greater freedom than ever before including finally the right to know I kind of wish justified violence against non-Muslims have been he's not wearing his mask right tries to rehabilitate its image and stamped out extremism Hamdi told us he's also been successfully reformed all people do mistakes I did the mistake I was an extremist extremist once, but
+
+[1:30:49] now I am not. I like the fade. The Saudi government has always denied any 911 attacks. Country has people make mistakes to combat terrorists, but is still widely criticized over. Why are they doing this now? It seems like such a a hand job. I guess that's what they're there for. I guess they asked. I guess they put the call like all right kind of it it just seemed like what the problem was for me was that didn't seem to have
+
+[1:31:19] a lot to offer to the American viewers like it wasn't like a big touristy pitch like has been going on right no more reform reform is here it's weird it's like something you would see like in like a country we had bombed a few years ago like that would be the followup like oh this is Libya now like this is the like when but the this, you know, KSA press tour started off with like, oh, we have WWE shows, right? Like, oh, I uh KSM well I hang out with
+
+[1:31:52] uh The Rock and [ __ ] Like they were hanging out with like Hollywood stars. It was a big like media push, media blitz originally and then the, you know, dismemberment happened and now they're coming to us with the like, for lack of a better term, like the third world nation is doing good type puff piece when before it was like, "Oh, we're here. We got all this money. We're just like we're like, you know, China has all this money now. Hey, we do too now and like look at us. Come visit us."
+
+[1:32:23] Yeah. Yeah. It's very It's weird. It's uh it's it's very it's it's like a little bit too over the top for for I just think it's bad PR, I guess. Yeah. It's not the good PR, especially when propaganda when you were so bombastic when it was so bombastic before when it was really about the glitz and the glamour, you know? So like like all these lane these humble people are, you know, just learning to, you know, enter the modern world now finally.
+
+[1:32:53] Yeah. Um, and then I thought there was another video we could react to that's uh has this was from uh Meet the Press this weekend. Oh yeah. Oh, and people are asking about Nicki Minaj. We could give our Oh, we got to do that. Okay. Well, let's should we watch Should we do that? I think we have time for both. Can we do a quick uh face and nation? Sure. And then we'll do then we'll end on Nikki. Sorry, not face. Uh yeah, hold on.
+
+[1:33:26] Um, when the towers began Okay, let me unmute this. Tuck tad. This is uh meet the press. Okay, it's been a weekend of remembrance recalling that day 20 years ago on September 11th when our world suddenly changed. We asked 10 people, some of whom were in government, others who helped us through that terrible time, to tell us of their experience that day and their reflections on the two decades that followed.
+
+[1:33:58] That day was a day where we thought it was going to be an easy day. I was actually in a meeting caddy corner from the White House. My daughter called me and told me to turn on the TV. What's most vivid to me on that day is hearing the the first report and thinking it was an accident. I actually saw with my own eyes the second plane at I heard the capital police evacuate. Get out of here right away. I just told him a second plane hit the second tower. America was under attack.
