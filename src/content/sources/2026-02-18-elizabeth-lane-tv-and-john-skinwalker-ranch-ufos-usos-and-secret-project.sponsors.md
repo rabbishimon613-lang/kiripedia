@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[07:50] was hosting a uh a visiting uh physician, a doctor, a scientist who had worked at Area 51 whose number one item on his bucket list was to visit Skinwalker Ranch. And he'd been denied by the previous owner, Mr. Bigalow the opportunity and and I had I had approved his uh his coming to visit under the condition that he would keep my identity confidential and sign the the reg was a you know confidentiality agreements and liability waiverss. Well, that day
+
+[08:20] changed everything for me on that day which was October 14th of 2016. Uh I went from being a skeptic to not just a believer but like you an experiencer. after witnessing electromagnetic anomalies, equipment malfunction, even our smartphones all drained from 80% to zero within a matter of minutes and and one person was rendered uh completely cat catatonic um during the visit, an
+
+[08:51] attending security officer as we were driving across the ranch to retrieve our smartphones hours into the visit. Uh, the gentleman in the back of this openair Polaris UTV Ranger that I was driving started shouting, "Stop the vehicle." And I looked back at him and he was waving his arms up in the air and I thought, "What what is he talking about?" And as I brought that vehicle to an abrupt stop and there was dust flying everywhere. I looked where he was pointing right up ahead. Right ahead of
+
+[09:23] us above this messa plateau that runs the entire expanse of the property east west was a silver disc-like object. A 4050 foot long silver grayish disc-like object that was about 100 ft above the mesa in broad daylight >> right above us. And we were all sitting there pointing at it in awe. And within seconds it changed position. and it darted to the left. >> See, they defy the laws of physics. >> It was in the blink of an eye. It could change position. Seconds later, it
+
+[09:54] dropped to what appeared to be a low hover above the ran above the ranch mesa there. Few seconds later, after we all expressed our continued shock, it darted to the right. And then within moments, it was gone. In the blink of an eye, it either darted off at some mock 100 at some speed that uh >> that would be difficult to to quantify or it just blinked out of this reality or was able to cloak its
+
+[10:24] identity. But it was gone. The entire incident which changed my entire world view in that moment and took me from being a skeptic to an experiencer was all of 20 seconds. >> But it was life-changing. From that point forward, I had to either acknowledge the reality that there's more at play in our in our world than meets the eye, or I could deny it and simply ignore it and move on and pretend that it didn't happen. And I,
+
+[10:55] >> as as you've seen, I I ended up doubling down, spending millions of dollars. And from that point forward, I began using science and technology uh to monitor and document the reality of the phenomena at this very strange 512 acre assemblage. >> And like you, it just it was a life-changing experience. And you know, I didn't meet any little green men that came out of the or anything like that, but >> unfortunate, [laughter]
+
+[11:26] >> but I have to tell you, it was undeniable. and with multiple witnesses, >> right, >> who I had never met before that day. >> And that morning, they had actually the two security officers had expressed their skepticism. I asked them, "Do you believe in UFOs? Do you do you believe that there's any credibility?" And the two gentlemen who were accompanying the doctor both smiled and shook their heads and said, "No, we don't think there's anything to it, but we're here to maintain safety and to make sure everything goes well." Those gentlemen
+
+[11:57] were just as in shock as I was. >> And so to have multiple witnesses, >> electromagnetic anomalies, equipment malfunction, an acute medical episode occur that very afternoon. >> Oh my. >> And rapid battery depletion that all preceded this life-changing event. Uh it's undeniable the reality that our skies are being visited, our airspace is being violated by craft,
+
+[12:28] objects of unknown origin using advanced physics and propulsion technology that defy any conventional explanation is an absolute reality. And anyone who would deny it now, I just saw the recent Wall Street Journal article which was laughable, which was the most stupid, insane thing that I've ever seen. if anyone believes. >> Could you tell us what was that about it? Like >> oh well recently this this is current current events. Last week, the Wall Street Journal came out with an article uh long um piece that essentially said that oh that that the the government has
+
+[13:01] come out and that certain individuals have said that this was all part of a SCOP, a psychological operation and that it was part of a hazing process going back decades um where the government was staging and showing what they purported to be evidence to just simply trick or fool or haze these um pilots and military officers and that the entire UFO phenomena they're saying is is nothing more than just a government scop which is the biggest the government.
+
+[13:32] >> No, [laughter] >> it's the biggest bunch of >> They're they're lying. Yeah. >> Yeah. I'll tell you when I was a little kid um my father's cousin owned a restaurant in Alexandria, Virginia, and we used to go down every summer and visit with the relatives. Well, the owner's son had a best friend who was an F-18 pilot >> in Norfick, Virginia. And I remember as clearly as the day is, that he said very
