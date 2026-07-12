@@ -1,0 +1,66 @@
+---
+slug: "2026-06-26-the-third-way-orthodox-t-the-third-way-orthodox-t"
+title: "The Third Way - Orthodox T"
+show: "The Third Way - Orthodox T"
+date: "2026-06-26"
+url: "https://youtu.be/sgtnG9v_5bU"
+videoId: "sgtnG9v_5bU"
+duration: "13:00"
+captionSource: auto
+paragraphs: 27
+sponsor_paragraphs_stripped: 0
+source_file: 20260626-sgtnG9v_5bU.en.vtt
+---
+[00:00] You're going to tell me the first thing that comes to your mind. Vladimir Putin. >> [snorts] [laughter] >> But there's there is something right now going on in the Middle East. Obviously, there's a war there. And it's it's politics are seeping into American foreign policy in the current American administration. And I mean specifically Zionism. That idea. And there are now Christian groups that are picking up this idea of Zionism and making it um
+
+[00:30] trying to make it biblical and biblically sound. >> it's not. >> And it's not. >> There's literally nothing in scripture to support Zionism. Nothing. >> I would argue it's it's theology is anti-orthodox because it >> I would agree without any reservation. >> Yeah. The way it negatively impacts the people in the Middle East, right? And how have you seen that really in your time there? >> You know, in the not too distant past, Palestine used to be 10% Christian. And now almost all of those Christians live in Michigan.
+
+[01:01] Because they were forced out. >> Yeah. >> What the Israeli government has done in Palestine, not just to Christians, but to the Muslims as well, is literally the definition of ethnic cleansing. You force people out of their ancestral land and just take it by force. Uh we see it every day, literally every day in the West Bank. We see it in Gaza. But this conflict in Gaza has brought out the worst, I think, in the Israelis. You know, when 24 women and children
+
+[01:32] take refuge in St. Porphyrios Church in Gaza, the oldest continuously operating church on the planet, and the Israelis then bomb it using fighter jets, killing all 24 women and children. We've got a problem. I don't understand how these poor, deluded, misguided American evangelicals think that supporting Zionism is somehow supporting Christ and Christianity. It's anti-Christian. I saw
+
+[02:05] an Orthodox priest um on a podcast a couple of days ago saying that it is Israel that is the Antichrist. Right? Because what is an Antichrist? An Antichrist is someone who acts in opposition to the teachings of the Christ. It's that simple. It's not a guy with horns and a 666 on his head. It's people acting in opposition to Christianity, the teachings of Christ. And we're seeing it every day in the West Bank and Gaza Strip. >> Sure. On the kind of the topic of the
+
+[02:36] government kind of pushing stuff, um in a lot of our circles, we have a lot of people who are really interested in uh kind of like Western propaganda in movies and things like that. So, in your time uh at the CIA, did you kind of see that propaganda machine at work uh actively? >> Every day. >> What kind of stuff? >> There's even a word for it. It's called active measures. Yeah. It can be something as stupid as a pirate radio station in Yemen playing jazz
+
+[03:06] so that young Yemeni men will say, "Wow, what cool music. That makes me want to be pro-American." That was actually >> Wow. >> an operation. Yeah. Um so, yeah, you see it every single day. And 99 times out of 100, it's a stupid idea. >> Yeah. >> Do you see it in like CIA like sorry, uh Hollywood movies that come out today? >> gosh, yes. This is something that the CIA was late to to the game with. Starting in the late 1930s, the FBI forged this uh
+
+[03:36] relationship with Hollywood so that literally everything that came out of Hollywood having to do with the FBI was pro-FBI. Right? G-Man and uh the Untouchables and you know, all these movies and and TV series, they were all over the top pro FBI. The CIA didn't start doing that until relatively recently, like around 9/11. They They had worked with studios in the past, but they set up a dedicated branch within the office of public affairs
+
+[04:07] just to liaise with Hollywood studios so that everything that comes out of Hollywood that is CIA related is pro CIA. Like Zero Dark Thirty, for example. Zero Dark Thirty caused so many problems because it perpetuated the lie that torture led to the location of Osama bin Laden. It did not. Really great analysis led to the location of Osama bin Laden. Uh but
+
+[04:40] Kathryn Bigelow, the the director and producer of uh Zero Dark Thirty and Mark Boal, the writer and producer of Zero Dark Thirty, received classified briefings over a classified mock-up of the bin Laden compound. How is that not a violation of the Espionage Act? Providing national defense information to any person not entitled to receive it. It's as simple as that. And then in in repayment every CIA analyst or operations officer
+
+[05:12] that worked with the writer and the director got an invitation to the to the premiere in Hollywood. And if they couldn't make it, they got a watch. Okay, that's also illegal. You can't do that. You can't accept any gift worth more than $25. And they did it anyway. And then Leon Panetta invited them to a classified speech that he gave in the CIA auditorium, the bubble, in which he outed the names of the six Navy SEALs
+
+[05:44] that killed Osama bin Laden. Later saying, "Oh, my bad. I didn't know they were in the audience." You invited them to the audience. How is that not a violation of the Espionage Act? But there's this overwhelming desire to be made to look like the good guys that they just want to be break the law to get there. >> Kind of to pivot a little bit. So, I had a personal question again. I've heard you be relatively I guess anti-monarchy, at least modern monarchies. I'm wondering how you square kind of
+
+[06:15] being pro-democracy with like Byzantine symphonia and that kind of Orthodox idea of monarchy. >> That's a great question. And I am a staunch, like a militant supporter of the Byzantine Empire. [laughter] I admit it. I even own a Byzantine I I own a 10th century Byzantine hand grenade. >> What? >> Yeah, made out of mud in the shape of a fish with crosses on it. >> Wow. >> Uh-huh. Uh, I bought it at a at an antiquities
+
+[06:47] auction in London. >> [laughter] >> That's interesting. >> Um back then people weren't educated, they weren't literate. They they couldn't, you know, lead themselves. There were, you know, parts of the world that tried and anarchy ensued and the church was really the guiding light back in those early centuries. And so, yeah, I had no I had no problem with with Byzantium or with with royal Constantinople after that. But I'm also staunchly opposed to the to the
+
+[07:20] Greek royal family, which has not one drop of Greek blood. They're Bavarian and Danish. Thank you very much. >> Yeah. >> You're welcome to stay in Bavaria and Denmark. And um and yeah, I've been taking it on the chin lately for my opposition to the return of the Iranian so-called royal family. >> Okay. >> Yeah. >> Yeah, I heard you talking about that specifically in in a podcast the your opposition to it. Um where does that like opposition to
+
+[07:52] monarchy stem from? I guess monarchy in the modern world are we too far advanced for maybe monarchy now and democracy is the best form of government? >> I I think so. >> Okay. Kind of touched on this in the beginning a little bit, but the idea that your spirituality played a big part in um your time at the CIA and you mentioned something in your in a previous podcast you said we thought we were the good guys. >> Yes. >> Right? Did Did your faith play a role in that idea and like >> Absolutely yes. >> Okay. >> Absolutely positively yes.
+
+[08:22] >> Elaborate on that. >> Either we're going to live according to the principles that we profess to live by or we're not. I say this all the time. Ronald Reagan said in the 1984 Republican Convention that the United States was a shining city on a hill. We were a beacon of hope for human rights and civil rights and civil liberties. But we're not. >> Mhm. >> We like to tell people we are. We say it all the time.
+
+[08:53] In 1977 Congress mandated that the State Department produce every year a human rights report for every country on Earth with which we have diplomatic relations. I was the human rights officer both in Kuwait and in Bahrain. I took it very seriously. And so as an example, it's an example I use all the time. I once had to go to the Minister of Interior and say, "Your Highness, you cannot beat to death a 15-year-old child
+
+[09:23] because he marched in a pro-democracy demonstration. I have to report that to Congress and it's going to jeopardize your weapons purchases. You got to stop doing that. You can't just beat people to death because you don't like their politics. But then I say, what happens then when hypothetically speaking, the CIA station chief goes in and says, "Don't listen to the human rights guy. We'll give you $10 million.
+
+[09:53] If you set up a torture chamber and you torture people for us and then you just give us a transcript of what they say." You know, are we going to be the good guys? Or are we not going to be the good guys? Are we going to be the shining city on the hill? Or are we going to be the country that runs torture chambers and and secret prisons and does international secret kidnappings and sends out assassination squads? Cuz we can't be both. >> You you can't be both. You have you
+
+[10:25] can't be lukewarm, right? You have to be hot or cold. Um, choose one and I'm assuming that orthodoxy and the Orthodox faith played a huge role in your decision to whistleblow at the end of the segment. >> really did. >> Okay. >> I say all the time, too, that at the CIA the culture is such that they want you to think that everything is a shade of gray, right? And that's just not true. Some things are black and white. They're either right or wrong. And so, we should do what's right.
+
+[10:56] And if you don't like the law, let's say you and I disagree about torture and you want to torture. Okay, knock yourself out, but you have to change the law because the law is clear. You can't just pretend that the law doesn't apply to you or pretend that the law doesn't exist or pretend that the law says exactly the opposite of what it actually says in black and white. That's just not real life. >> Now, John, we have our final few segments here in the show. Thank you again for all your answers. They've been
+
+[11:27] spectacular. >> My pleasure. >> Um, I would say at the end of our show we we like to conclude with a quick fire segment. I think it gives us the opportunity gives you the opportunity to kind of just say the first thing that comes to your mind, right? So for the first question um I'm going to say a list of names and you're going to tell me the first thing that comes to your mind. Vladimir Putin. >> [laughter]
+
+[11:58] >> Baptized. >> Okay. >> [laughter] >> Donald Trump. >> Confused. >> George W. Bush. >> Clueless. >> Benjamin Netanyahu. >> The Antichrist. >> Tucker Carlson. >> One of the sweetest, most genuine men I've ever met in my life. >> And finally Piers Morgan. >> Respect.
+
+[12:29] >> Okay. >> Yeah. I like and respect Piers. >> Good. Who would you hand pick as the next president if you could? >> Tucker Carlson. I really would. Tucker and I disagree on a lot of issues, but I've come to know the guy very well and he is as honest as the day is long. >> In preparing for this interview we actually were practicing this question and he assumed you would say that, which was funny. Um >> I spoke to him a couple of weeks ago and I said I said I always tell him he should run for
+
+[12:59] president. And he's like, "No, no, no. No, I'm not interested." And then I went up there the other day and I said I I'd spoken to a mutual friend and I know that the mutual friend had told him you you have to run for president. So I said to him, "Listen, I know I say it all the time and I know you heard it from our friend the other day, but you have to run for president." And much to my shock, he said "I have no plans to run for president." And I was like,
+
+[13:30] "Yes! The non-denial denial." >> [laughter]

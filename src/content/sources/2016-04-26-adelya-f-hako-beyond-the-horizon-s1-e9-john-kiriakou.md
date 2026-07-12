@@ -1,0 +1,64 @@
+---
+slug: "2016-04-26-adelya-f-hako-beyond-the-horizon-s1-e9-john-kiriakou"
+title: "BEYOND THE HORIZON / S1 : E9 / JOHN KIRIAKOU"
+show: "Adelya F. Hako"
+date: "2016-04-26"
+url: "https://youtu.be/2bFaSv86j4M"
+videoId: "2bFaSv86j4M"
+duration: "13:00"
+captionSource: auto
+paragraphs: 26
+sponsor_paragraphs_stripped: 0
+source_file: 20160426-2bFaSv86j4M.en.vtt
+---
+[00:00] [Music] howdy hey any secrets you want to tell us oh that got me two and a half years in prison I should probably keep my mouth [Music] shut
+
+[00:41] what's life like as a spy oh Jared it was so much fun I miss it very much actually got to see the world 65 countries recruited nine spies over the years to work for us it was fun well let's get this part of the story out of the way you were actually my high school teacher I was indeed I was American government and American history I do remember you because every once in a while there's a teacher who stands out who actually for some reason or another
+
+[01:13] gets you to pay attention to listen so thank you for that thank you that's very kind of you it's insane man this is a pretty weird world to go from high school teacher to International Spy you know Jared life takes these very odd twists and turns you just never know what's in store for [Music] you that last semester that I had you in class I went to see the professor and he said listen I ought to tell you I'm not
+
+[01:46] really a professor here I'm actually undercover as a professor I'm a senior Cia officer would you be interested in joining the CIA and I said sure hadn't really thought of it but I was getting married soon after graduation I had no job and I thought well this sounds like fun so next thing I know a few months later I was in the CIA when I first arrived somebody met me at the front gate and they took me into
+
+[02:17] an auditorium with about 30 other people and I raised my right hand and I swore to uphold the Constitution I didn't swear to to you know keep the agency's uh crimes a secret but I swear to uphold the Constitution and and I meant it and they put me to work on Iraq and they said the reason I was being assigned to Iraq was that nothing ever happened there so I had been there about 9 months and just as I begin to feel like I really know what I'm talking about Iraq
+
+[02:48] invades Kuwait so next thing I know I'm I'm going to the White House and briefing the president and taking a call at my desk from Colin Powell when he was the National Security adviser and then I went went into Kuwait City with the Marines on Liberation day March 1st 1991 I went through the whole traditional clandestine operations training guns explosives counterterrorism driving jumping out of an airplane swimming through a swamp to
+
+[03:21] you know make a dead drop on an island you're all covered with leeches you have to fight the cotton mouths that are swimming across the the bog it it was it was rough but one thing that I was really really good at was convincing people to commit treason now often times they'll want money but a lot of times it's not about the money they want their children to go to an American University one guy wanted a new vesa I mean he was willing to commit treason for me Espionage in
+
+[03:52] exchange for a vesa one guy did it just because he loved the United States so what happened after that in the the summer of 2000 there was an attempt on my life in Athens there was a terrorist group there they planned to kill me on the way to work one day but they saw that I was in an armored car and they knew from earlier surveillance that I was carrying a weapon and so instead they killed my nextd door neighbor Steven Saunders who was the British defense atache so I was deemed to be a little bit too hot meaning too many um of our
+
+[04:24] enemies knew my true identity and so I was pulled back from the Middle East and then September 11th [Applause] hit it was in Pakistan as the chief of counterterrorism operations that I led what became the biggest counterterrorism raid in cia's history we captured Abu zua who we believed at the time was the number three in al-Qaeda we picked him
+
+[04:55] up and we threw him into the back of a filthy Toyota pickup truck and then he went to what ended up being the first CIA secret prison where is he now he's in Guantanamo now he's been in CIA custody for almost 14 years now he's not been charged with a crime I'll add what are they waiting for they can't legally charge him with a crime because everything that he ever told the CIA was as a result of
+
+[05:28] torture they began with the most entry level of the torture techniques they would grab him by the lapels and shove them up against a plywood wall and all that stuff is humiliating but it's not painful in any way but then things get very serious very quickly after that abuaba for example had an irrational fear of cockroaches and so they would keep him in a dog cage and they would fill the cage with cockroaches just to make him insane they ended up waterboarding him 83 times and even
+
+[06:02] after 83 times uh he gave up no actionable intelligence he saved no American lives he disrupted no attacks against the United States the torture just simply doesn't work and so it was it was a crime with no outcome that you can show the American people actually helped anybody there were techniques too Jared that I that I thought were worse than water boarding there was something called the cold cell where we strip a prisoner
+
+[06:33] naked you chain him to an eyebolt in the ceiling so his arms are up and he can't get comfortable he can't kneel or sit or lay down his cell is chilled to 50° and every hour somebody goes in and throws ice water on them that's illegal okay we killed three people using that technique but no one was ever charged with a crime I mean the investigation found that H yep he died well sorry too bad was an accident we can't lose who we are as
+
+[07:04] Americans in the name of counterterrorism you know we have civil liberties in this country and I want my September 10th country back I left the CIA in 2004 I went into the private sector and I kept my mouth shut for five and a half years and in 2007 I got a call from Brian Ross at ABC News so I went down to the ABC News studio in Washington Brian Ross flew in from New
+
+[07:36] York and I said three things in that interview that utterly changed the course of the rest of my life I said the CIA was torturing its prisoners I said that torture was official US government policy and I said the policy was approved by and signed by the president of the United States the CIA was very angry with me for airing the dirty laundry and so they asked the justice department to uh to
+
+[08:07] charge me in January of 2012 I was charged with three counts of Espionage for the ABC news interview now the the point really was not to find me guilty the point was to make an example of me to deter other whistleblowers from coming forward and the justice department really has this down to a science they know that your attorneys are very expensive I had 11 attorneys and I was looking at 45 years in prison
+
+[08:39] I said I'm not doing 45 minutes I'm going to fight this I don't care what it costs that's not really what your defense attorneys want to hear and you know we got up over a million bucks and they said look I think we should investigate the idea of a plea and they said well what do you want us to offer them I said tell them I'll do a year and a day a year and a day would make me eligible for early release at 10 and 1/2 months so we offered a year and a day and they came back with three years we went with two they said 2 and a half and they said it's our final offer so what
+
+[09:10] do you do I have five kids at home do you roll the dice knowing that the government wins 98.2% of its cases according to propublica I couldn't take that chance so I took the deal and then uh just a couple of months later my attorneys drove me up to prison and dropped me [Music] off anything that keeps you up at night I'm not sure that we can trust our
+
+[09:43] government everything that the CIA has told us since 2001 has been a lie and it doesn't matter who's in the White House in August of this year 2015 the White House killed 424 people in August these are these are people who've never been charged with a crime they've never faced their accusers in court they've never had their day to explain themselves we're just supposed to take the cia's word for it that that these are bad people but then we have these independent voices Human Rights
+
+[10:14] Watch Amnesty International the international Committee of the Red Cross saying wait a minute 90% of these people are innocent civilians who just happen to be near the sight of these drone attacks one of my attorneys is representing a drone whistle right now and he told me recently that he was operating his drone from a basin I think it was Nevada or New Mexico he's connected by radio and the guy in centcom says you see the
+
+[10:44] target launch and the guy said I can't launch there's a child next to him and the guy at sencom said it's not a child it's a goat and he said man I'm looking at it it's a child and he told him launch but the guy said I couldn't launch that thing and he didn't well now he's facing Court Marshal and possibly other charges including a dishonorable discharge for refusing to kill a child I mean is is this really where we want our country to
+
+[11:16] be have we so turned our backs on civil liberty since September 11th in the name of National Security it was a child where Americans were better than that and it's not too late to turn this thing around Ed Snowden opened so many doors for people around the world to discuss these issues that courage is just so rare and so special he risked everything and because he did it in such
+
+[11:48] a public fashion the big guns were pulled out against him and I told him don't come home I said you won't get a fair trial in the the eastern district of Virginia your jury will be made up of people from the CIA FBI DOD Homeland Security and every intelligence and defense contractor in Washington I said don't come home not until the American people come to their senses and realize what a national service you've
+
+[12:19] provided what's the worst case scenario the worst case scenario is that the courts uphold the ability of NSA to keep spying on American citizens and that NSA continues to build facilities like the new one they have in Utah that has enough storage space to record and hold every telephone call text message and email from Every American citizen for the next 500 years and that the American people don't
+
+[12:50] realize what we're losing here in terms of our civil liberties you know there there are no demonstrations in the street and I just don't understand why that is so the worst case scenario really is that the American people don't come to their censes in time to save the
+
+[13:27] country [Music]

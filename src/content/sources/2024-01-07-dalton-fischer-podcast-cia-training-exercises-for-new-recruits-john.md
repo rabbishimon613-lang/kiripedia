@@ -1,0 +1,62 @@
+---
+slug: "2024-01-07-dalton-fischer-podcast-cia-training-exercises-for-new-recruits-john"
+title: "3 CIA Training Exercises For New Recruits / John Kiriakou"
+show: "Dalton Fischer Podcast"
+date: "2024-01-07"
+url: "https://youtu.be/BZwmVBLm2mo"
+videoId: "BZwmVBLm2mo"
+duration: "13:00"
+captionSource: auto
+paragraphs: 25
+sponsor_paragraphs_stripped: 0
+source_file: 20240107-BZwmVBLm2mo.en.vtt
+---
+[00:00] the farm is the cia's uh clandestine training facility it's in it's in Virginia it's in Virginia and uh it's where almost all of your operational training is going to take place everything from counterterrorist driving to all of your weapons qualifications to a born where they they
+
+[00:31] train you how to jump out of a plane and how to use a parachute um then they they do the the nuts and bolts um how to recruit spies to steal Secrets exercises you know that there are other facilities too uh things like um bomb training um specialized stuff out in the desert out west but most of it 80% of it is at the farm
+
+[01:05] so you go they've got they've got dorms I guess you could call them dorms um and uh classrooms and tracks and shooting ranges and anything you need I mean the thing is like thousands of Acres so anything you need to do you can do with the farm what was your favorite thing that you did there you know everybody loved shooting the most uh I it it was the driving for
+
+[01:39] me it was the driving for me my God I got so much out of that class I still use it I still use what I learned all these years later um we did things like the the course was colloquially known as crash and bang so you crash cars and you shoot guns and you know and then you do cool stuff like one one night we did well we did we did night shooting a lot but we we did like rocket launchers like where else are you g to do rocket launchers grenade launchers and blow
+
+[02:12] [ __ ] up and blow cars up and that was so much fun but for me the driving was better because they put you in these scenarios where I gotta be careful I don't go into too much detail but you got a blindfold on okay you're in the driver's seat and you're driving like a mile an hour with a blindfold on and they're steering for you and they say okay I'm going to take the blindfold
+
+[02:42] off and you have two seconds to react okay so they take the blindfold off and just as they take the blindfold off you notice in your peripheral vision there's a guy with an AK-47 who's trying to open your door and then there are two guys in front of you you and they're they have their cars in a V but which way is it is it a v like this or is it a v like this so if it's a v like this you got to gun it and crash right through if it's a
+
+[03:14] v like this you're just going to wedge yourself and they're going to blow your brains out so you have to put it in reverse before this guy shoots you with a paintball um and you got to go reverse you know 50 60 70 m an hour they teach you how to hit the brakes neutral spin around drive without ever coming to a stop and you take off and they they call it getting off the
+
+[03:46] X so you do this three times and you know you [ __ ] it up one time you're dead that's it you're dead so I was good at that that my response time was very quick it was under a second and and it's little stuff that that people forget that get you killed you forget to lock your door always always always lock the door always I mean even now the the risk of
+
+[04:19] being carjacked at a red light or stop sign or something is is is real that lock may buy you an extra second or two seconds which is really all you need to get off the dime so I was good at that and then they marry the two guns and cars so you go through these very elaborate complicated
+
+[04:49] exercises where they they have a device on all the cars where they can kill the engine remotely so you're just driving down the track mining your own business and your car dies and and so you you drive over you're you you drift over to the side now we're using all live ammo here by the way um and so really yeah you pull over and you hear a gunshot now they haven't shot directly at you they shot in the air so you hear The Gunshot so you have to you have to
+
+[05:21] crouch down so that they can't get you through the you have live ammo they don't uh they can't get through the windshield and then you put it in park you crawl across the the seat get out the passenger side lay on the ground you've got your gun and you have to look to see where the shooting's coming from well the the shooting is coming from these robots that they have they're they're automated and they've got little
+
+[05:53] Targets on them black and white rings so the thing is shooting at you it's shooting blanks and you're on the ground and you have to you know bang bang and then you hear a shot over there bang bang but sometimes you can't quite get it cu the robots turn to the side or the the targets turn to the side so on your belly you have to go to the back of the car and then get it from that angle well there was one there was one point that I just couldn't get a clear shot what it was across the way there was a van and
+
+[06:26] the the sliding door of the van had opened and the robot was in the van and the robot's firing at me and I just can't get a clean shot so I pop up and I shoot out my own Windows they give you these beater Ford Tauruses I shoot out my own windows and I go bang bang and I get it so they they sound this air horn which means you know weapons down so you holster your weapon and the guy the instructor comes out he goes well you passed
+
+[06:59] but damn it karako you just cost me $900 in broken windshields I said I couldn't get a clean shot I'm sorry we did this one exercise it was at night we drew straws to see who would go first and I went first so all you know in this scenario is you are in a flea bag hotel in in El Salvador good luck
+
+[07:30] so it's just a a table and a chair and and it it looks like a flea bag Hotel I mean it's like a Hollywood set I mean they they this is real life they make it look like it really is going to look in real life so you're sitting there you're not really sure what to expect and there's a knock on the door and you say who is it and then the door opens and it's these two guys and one of them is holding a a a vacuum cleaner and
+
+[08:04] they're saying housekeeping seor housekeeping and I go I don't need housekeeping I don't need housekeeping and then the guy the second guy behind him pulls out a gun and goes bang bang he shoots me with two paint pellets I go [ __ ] I said I never saw that coming and one of the instructors says if you're in a [ __ ] hole Motel in a [ __ ] hole country and two people just walk into your room kill
+
+[08:36] them and he's like don't tell anybody else what the exercise is so I go back out to the van we're all sitting in the van waiting our turn and I got these two paint things here and one of them just says [ __ ] and I said yeah I can't talk about it all eight of us failed all eight of us failed that was such an important lesson I never ever forgot it and so anytime I felt threatened or anytime I
+
+[09:09] felt you know what in this situation I'm in right now I can see a point 10 seconds down the road where I might feel threatened I would draw my weapon just in case it happened twice just in case then we went through something you've I'm sure Seen On TV it's a shooting Gallery so you've got your you've got your gun out and the instructor's right behind you and he's got his hand on your
+
+[09:39] shoulder and a guy pops up in a window and he's got a a machine gun and you go bang bang and he plops down and then a woman pops up holding a baby over here and you know you have to make sure not to shoot her if you shoot her you fail I have chills thinking about it it taken me back I haven't talked about this in decades and so um crazy as it sounds I got 100% I was like a freaking Marksman and the funny thing is on the
+
+[10:09] very first day of of the weapons training um like I say there were eight of us and the instructor said anybody here not own a gun and I I raised my hand and I kind of looked around and I was the only guy that had his hand up he goes you don't own a gun and I said truth be told I've never actually touched a real gun and he goes oh my God okay we're going to have to start from the very beginning and I ended up testing first
+
+[10:40] in the class to the point where one of the instructors said you should give some thought to competitive shooting wow and so I did and I ended up like winning trophies in ski I just had a knack for it I had a very steady hand and um it served me well wow mhm that's so interesting about the scenarios they set up like you said at the motel and with the blindfold is it a matter of like how fast can you process information and
+
+[11:12] make decisions with the available information is that kind of what they're T that's exactly what it is and not just in the shooting but in the driving too you know you might have seen on on one of these oldtime cop shows like atam 12 for example i' I've seen this on atam 12 um you're you're speeding toward three red lights right there there are three lanes you're in the middle Lane red red red and one second before you get to the red lights one of them turns green and
+
+[11:44] you have to Swerve as fast as you can to the green light and if you go through the lane with the red light you fail and if you fail you can't go overseas and so it was the same thing with the driving man I aced the counterterrorism driving I AC it to the point where um they came up to me afterwards and said when are you leaving for for overseas and I said oh I still have two more months and they said we want you to take the advanced driving class it's out in the Nevada desert he said that's real
+
+[12:16] counterterrorism driving and so I went out there and it was like driving over sand dunes and what do you do if you get stuck in the sand and it was it was good stuff I learned a lot what's up guys thank you so much for taking the time to watch the interview um as you could probably tell this is a brand new channel so if you got anything out of this at all please like the video leave me a comment tell me what you thought tell me who you'd like to see on the show um I see every like I read
+
+[12:49] every comment and I appreciate all of it especially in the beginning because as you know that kind of support goes a long way on these platforms so most importantly I have some awesome guests coming up in the future for interviews um so please subscribe to the channel so you don't miss any of them but again thank you for your time appreciate the support and hope to see you again soon

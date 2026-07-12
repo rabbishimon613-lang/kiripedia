@@ -1,0 +1,60 @@
+---
+slug: "2013-02-15-michael-h-rhee-cia-whistleblower-john-kiriakou-if-i-tortured"
+title: "CIA Whistleblower John Kiriakou  'If I Tortured, I'd Be Free'"
+show: "Michael H. Rhee"
+date: "2013-02-15"
+url: "https://youtu.be/qUl2cHLx9Ug"
+videoId: "qUl2cHLx9Ug"
+duration: "13:00"
+captionSource: auto
+paragraphs: 24
+sponsor_paragraphs_stripped: 0
+source_file: 20130215-qUl2cHLx9Ug.en.vtt
+---
+[00:00] you may remember the earlier this month that I highlighted a man who's been under siege by the u_s_ government for blowing the whistle on torture I'm referring to a former CIA analyst and senior investigator for the senate foreign relations committee John Kiriakou and while he isn't the only whistleblower charge with this administration but his stories particularly unique see he actually left his position at the CIA in two thousand three years later when waterboarding was becoming a point of a contention he was referred to the media circus as a commentor mentioned disclose the name of the culvert CIA officer
+
+[00:31] to freelance reporter simply wanting to help the journalists find a good source but little did he know that's the information would cost him his career just last week he was sentence to two and a half years in prison as part of a plea deal and he now stands is the first CIA officer to be convicted under the espionage act extremely archaic piece of world war one legislation now because of the legal proceedings Kiriakou has been silenced unable to speak to the media Not any more in fact he's here right now to talk to me that his personal case, torture
+
+[01:05] and the crusade against whistle-blowers in this country, John thank you so much for coming in, Thanks so much for having me so, John you're the CIA official to go to jail, and not for torturing people simply for exposing torture i mean how does it feel for your life to be sacrificed to make an example of the same government that you dedicated your life to. i've come to realize that this case is so much bigger than than I am for myself I feel bad that i'm going to prison it makes me sad i'm gonna miss my family it's gonna
+
+[01:35] be tough on them it's so much more important for issues of free speech and uh... freedom of association it's so much more important for freedom of of the press and more important of the press uh... and i just hope that there's enough outrage out there but once I go to prison that uh... that'd help someone in the future to uh... stand up to the justice they help someone in the future to uh... stand up to the justice department did stand up to these infringements on ur civil liberties I do too John ah... I know you divulge the name I mean
+
+[02:07] at i can help but think, you have been in the media supporting waterboarding would this happening to you. I've always thought that if i had actually tortured someone i would be free today unbelievable I mean you do think that the the real people who oversaw codified tortured john you Alberto gonzalez's, donald rumsfeld shouldn't they be the one sitting in prison John, they should be the ones in there there are others even put aside the the people who actually did day-to-day torture
+
+[02:37] what about the people who conceived of the policy who implemented the policy where the attorneys that papered over it with with crazed legal analysis or the man who uh... uh... who destroyed evidence of the torture in the tapes uh... he's enjoying a book tour right now and he's going around washington giving speeches on how great torture is. None of them are in prison and none of them whatever be prosecuted for the crimes that they've committed uh... it's a truly astounding i mean you're representing a two-tier justice system on the wrong side out and really showing the lawlessness,that the other impunity that
+
+[03:08] the lawlessness the energy to get the regal tortures war criminals have retired element on the world selling books talking about their their careers on something that's particularly disturbing is that the prosecution along with multiple other people have said that your punishments not harsh enough right i mean it's not surprising in it crash they say that you deserve more jail time yes in in october two thousand twelve when i accepted depleted violating the intelligence identities protection act the judge called thirty months fair and appropriate uh... just a couple of
+
+[03:42] months later on friday she said that uh... it was dot quote we two lights unquote and that if she had not had her hands tied by this plea deal that she would have given me ten years uh... i don't know what changed between october in january other than the fact that the courtroom in january was full of reporters and she may have wanted to appear top confirms reporters in national security cancers v prosecutors are allowed to happen ex parte a communication with the judge that's a communication to which the defense and the defense
+
+[04:16] attorneys are not pretty they had such a communication just before i was formally sentenced the prosecutors also gave the judge the so-called victim impact statements i have no idea what was in that impact statement because i wasn't permitted to see it but whatever it was and whatever uh... the prosecutors told the judge uh... they somehow convinced to go on the record as saying that uh... i deserve to ten years in prison so you had no mazlin tent i mean i don't understand i had no knowledge that
+
+[04:46] not only did the on there at the intelligence activities protection act volunteered to serve as an expert witness for my defense previous judicial rulings indicating that intent was the crux of the law but the government had to prove that i had the intent to harm the national security the judge dismissed those precedents and should have known better let's go back to the beginning i've john and i don't know if you can speak on this if you cancel cable what
+
+[05:16] was the trigger for you to even speak out in the first is did you see something that kind of moved you it all started for me in two thousand two and had been the chief of counter-terrorism operations for the c_i_a_ in pakistan i returned to headquarters early in the summer of two thousand two and a senior officer approached me to ask if i was interested in being trained in so-called enhanced interrogation techniques torture techniques ike told him that i had a moral problem with them i didn't want to be associated with the program and i moved on to a different job
+
+[05:47] so in two thousand seven or by two thousand seven human rights watch an amnesty international on the red cross had reported that but they were credible uh... reports that the c_i_a_ was was torturing prisoners and president bush at the time said we don't torture we're not engaging torture and if anyone is being tortured it's because of rogue c_i_a_ officers well that just was simply not true marceau i want on a_b_c_ news to talk about the capture of opposite data
+
+[06:18] the uh... the reporter asked me if opposite data have been torture i said he had and i said that it was torture and that it was official u_s_ government policy the very next day the c_i_a_ filed what's called a crimes reported against me uh... the justice department began investigating the and never stopped investigating me since december two thousand seven in addition that i've even been honored by the i_r_s_ every single year since i gave that interview so just yeah i mean just the chilling effect kind of punishing you in any
+
+[06:50] sense of the way it's a program of of uh... harassed absolutely a stop some of the n_ f_ course you know passing about the status of your grocery offices just like i have a parrot gripe where they're just like a institutionalize i mean we know that it was from the top down you know yeah i just can't help but thinking of of the portrayal of obama got elected he said he condemns torture really when you look at the evidence of dr gordon guantanamo bay the continued practice of rendition exporting portrait a different country solitary confinement for indefinite detention i mean
+
+[07:22] didn't want to really in with obama you know i think it didn't and i'll tell you why it all depends on your definition of torture the enhanced interrogation techniques included everything from from an officer grabbing the prisoners lapels and giving him a shake up to waterboarding and sleep deprivation and cold cell with ice water being thrown on you were putting you into a in a dog cajun keeping their for days at a time it depends on what the on what the definition of torturous my guests is that
+
+[07:52] coercive techniques uh... have not done that because the president formally band torture there's a and efforts at least in efforts to at key to the u_s_ army field manual but uh... i don't think we know that foreign backed down absolutely uh... i can't help but think about yesterday being the forty th anniversary of watergate com near the supreme court ruled nixon was not above the law it were hailing whistleblowers is really bringing down the present united states yes for
+
+[08:24] resolver lawlessness we've straight so far johnnie how did we get from where we are prosecuting the criminal janelle prosecuting the messenger business at how we've had this incremental loss in our civil liberties uh... all these years accelerated of course after nine eleven and there's been no public outrage ten years ago i think americans would have been flabbergasted to know that an essay that was intercepting their telephone calls in their emails without a warrant and now
+
+[08:54] nobody seems to really care i think people would have been objects ten years ago if we were vapor rising teenage american citizens with predator drones american citizens who have never been accused of a crime who have never had a day in court who have never uh... i had the benefit to have uh... of uh... judicial the judicial process firing drilling missiles at the men and uh... again killing him instantly and there's no regent street i'd just don't understand how americans have accepted this loss of civil
+
+[09:28] liberties without a fight very disappointing i don't either john and i ask that everyday with why don't people carried of course even that the extra dutiful fascination wit and classify and why who were targeting while you work hard you know i mean all that classified as that is classic one every things that matter of national security i mean and we just signed shut down the office i was working to close on time and i did write yet days after about its elected the first he does that symbolic gesture worry cited a closed-end days after he gets reelected closes the office and i what is this a outlet something is in the site to it's
+
+[10:00] actually crime in the united states to over classify and no one has ever ever been charged with committing that crime and we have about a minute left by irene you hear about so many acts committed facials exit which was going on but worth talking about over their experiences i mean what chilling the fact is this really sending to people like u from speaking out i think the messages if you want to write a book saying how great the c_i_a_ is that how great government policy is they're going to help you get that book out
+
+[10:30] the publications review board at the c_i_a_ is the clear quickly and you're welcome to go in your book tour but if you could starts if u blow the whistle if you point out incidents of waste fraud abuse any illegality report be prepared for a tough road you can expect the loss of your friends the loss of your job stability in my case the loss of my pension the loss of my head your life is gonna change dramatically and we all really should be speaking up john on your the latest on a along morgan's whistleblowers and if we don't
+
+[11:04] stop this now where were going to go with the thank you so much for taking time out your heritage apreciate on crack a former c_i_a_ in the sand whistleblower thank you formal allen hai on plume
+
+[11:49] family room green
+
+[12:25] has going on let me know

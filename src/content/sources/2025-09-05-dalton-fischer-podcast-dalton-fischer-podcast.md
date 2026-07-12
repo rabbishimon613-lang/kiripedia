@@ -1,0 +1,64 @@
+---
+slug: "2025-09-05-dalton-fischer-podcast-dalton-fischer-podcast"
+title: "Dalton Fischer Podcast"
+show: "Dalton Fischer Podcast"
+date: "2025-09-05"
+url: "https://youtu.be/GRrm29eEzQ0"
+videoId: "GRrm29eEzQ0"
+duration: "13:00"
+captionSource: auto
+paragraphs: 26
+sponsor_paragraphs_stripped: 0
+source_file: 20250905-GRrm29eEzQ0.en.vtt
+---
+[00:00] It's parachuting in somewhere, stealing a van, and snatching somebody off the street, and then you meet the helicopter at the departure point, and then just fly the guy to wherever it is you're going to fly him. It's very dangerous. >> Were you at the agency when they stood up the GRS program? >> I was dating a woman who's soon to be ex-husband was in GRS, and she said, "My husband's a GRS officer." I said, "What's GRS?" She looked at me kind of funny and she told me and I said, "Oh they've made it official."
+
+[00:30] >> What has been your experience with Ground Branch and Special Activities and whatever they're calling it now? >> Honestly, my experience with all of those special activities groups was seeing them in the in the office and saying, "Hope you had a good weekend." Those guys, first of all, almost none of them are career CIA officers. They had long successful careers in special forces of some sort, the Navy Seals, the Army Rangers, you know, whatever, Delta
+
+[01:01] Force. And at first, post 911, they were secunded to the CIA for, you know, quick strike operations. And then as the years went by, the agency decided to make many of them official. So you put them under global services or special activities division or counterterrorism center and um and they are actually CIA employees. Others have retired from the military
+
+[01:33] and are at CIA as contractors. So it's a much more efficient way of of bringing them on board. But what they do is so secret. I mean, the the nuts and bolts of it is so secret that they just don't talk about that stuff. You know what they're doing. I know what they're doing. Everybody in the office knows what they're doing. Nobody mentions it. >> Can you explain like what it is that they actually do to people?
+
+[02:03] >> Yeah. The job is to kill or kidnap uh and render anybody who might be a threat to the United States, to an American citizen or to an American installation. Now, at the top of the food chain, yeah, we we want those guys to be out there killing the Osama bin Ladens and the Imanis of the world. We want them dead.
+
+[02:34] On the other hand, you know, mistakes get made and you've got people being snatched off the street and rendered to third countries and then tortured in those third countries only then to have that country's intelligence service come back to the CIA and say, "Look, this is the wrong guy." And here you've been torturing him mercilessly for the last nine months, which has happened repeatedly. So, on the one hand, it's it's great. Like, you know, who was it that said it
+
+[03:05] was it was Jose Rodriguez, the former deputy director for operations, that you need somebody who's willing to um who's willing to take these tough decisions, right? On the other hand, as as American government officials, we live by the rule of law and by the Constitution. And so you also have to protect the Constitution. And just going out there wantingly murdering people and
+
+[03:37] kidnapping people and torturing people, that's not upholding the Constitution. So when I when I think about ground branch or special activities division, I think about like you said all those retired special operations guys, ex Delta Force guys, ex SEAL team 6 guys that basically go there to do the same exact that they were doing, >> you know, a special operations mission set like put, like you said before, put a charge on a door, blow it open, shoot people in the face, and leave. But then
+
+[04:08] you hear about things like, we'll get into the MSAD, but that you know they uh that one it was Khaled Mashal the attempted uh assassination in Jordan >> where they sprayed him with poison but like so my question is at the CIA is it how is special activities structured? Do they have like specialized units? There are two different special activities components. one is its own division within the CIA's
+
+[04:38] director of operations called the special activities division before 911. That's that that were the that was the only one, right? And they would go do things in the cover of darkness that nobody talked about. Then after 9/11, the counterterrorism center created its own special activities group. So these were guys that were on loan to CTC who would go out and specifically target
+
+[05:09] terrorists, people who were planning operations against us. I left before they could really figure out who was going to do what over the long term. So I don't know how it's structured. I do know that both organizations still exist and a lot of what the special activities guys do in CTC is not assassinations, it's kidnappings. So, you know, it's it's parachuting in somewhere,
+
+[05:41] stealing a van, and snatching somebody off the street. and then you meet the helicopter at the at the uh departure point and then just fly the guy to wherever it is you're going to fly him. It's very dangerous, very very dangerous work cuz you're you're not snatching people off the street in Dubai or Abu Dhabi for example. You're snatching them off the street in Benghazi or Kartum or you know Karachi or something. So, a lot of
+
+[06:13] moving parts, very, very dangerous. And if CIA people are being killed, we wouldn't even know it because they get their star on the wall of honor and there's no name attached to the star. So, we we don't really know what's going on with these groups. >> So, you said what um people were on loan to CTC from special activities? >> No, from the military. Oh. >> Mhm. >> Would that be like um I forget what it was called? The Omega program. Do Do you Does that ring a bell?
+
+[06:44] >> I think that was uh >> You've been after my time. >> So that was when the CIA worked with uh JC components. So I think it was I think it was mainly Seal Team 6. I want to say it wasn't uh Delta Force, but JC and >> the CIA worked together. You know, I will tell you in CTC at the time post 911. Picture picture picture this. It's a big bullpen. Got 150 people all in cubicles. So many people I said this before that
+
+[07:14] we had to name the aisles, right? So there's like Bin Laden Boulevard. Seriously, Hezbollah Highway. So you could tell people, "Oh, I I sit at the intersection of whatever." Um, and then around the perimeter of that big bullpen are all the private offices. You have the chief CTC, deputy chief for ops, deputy chief for analysis, deputy chief for military affairs, and then the group chiefs, and all the big mucky mucks have their own small private offices.
+
+[07:46] Once those guys on loan from say Seal Team Six came to the office, they never interacted with any of us. I mean, not even so much as a good morning. And so, I mean, we we kind of knew what these guys were there to do. We knew who they were. They just appeared one day, you know, in the weeks after 9/11 and then they would vanish for a week at a time or two weeks at a time and then come back whispering to each other and not interacting with you.
+
+[08:17] So, it was pretty easy to figure out who they were and what they were up to. I want to talk to you about CTC specifically, but not related to CTC necessarily. Was there a point when you were at the agency after 9/11 where you saw it turning into a paramilitary organization? >> The day after 911. Seriously, the day after 911. Kofheer Black. An hour after the attacks began, Kofheer Black stood on a chair right outside of
+
+[08:49] his office. And it was dead silent. There were hundreds of us, silence. And he said, "Today, we're at war and we're all going to have to fight. Not all of us are going to come home. So if you want to walk out now, walk out and no one will think less of you. One woman walked out and then her branch went to went to the deputy director for
+
+[09:20] analysis and said we don't have confidence in her leadership. And so she was removed. But uh I mean everybody volunteered. It was literally within 24 hours that we began this transition into a paramilitary force. There was no more um focus on recruiting spies to steal secrets, right? It was just about destroying al-Qaeda,
+
+[09:50] destroying it permanently. And to tell you the truth, among core al-Qaeda, that that core of al-Qaeda that was based in Afghanistan, they were destroyed by Christmas, right? The Senate Foreign Relations Committee um years before I joined it, of course, came out with a with a study that probably should have been classified and wasn't. And they said that by the end of 2001 there were 25 active al-Qaeda
+
+[10:23] members still in Afghanistan. 25. It had been destroyed. And everybody else who had made their way across the border into Pakistan we were capturing. So it was done. Now of course there was al-Qaeda in the Arabian Peninsula. There was al-Qaeda in the Islamic Levant. There was al-Qaeda in North Africa. They were all in al-Qaeda inspired. but but weren't coordinating operations. And and also, of course, we hadn't yet killed either Bin Laden or Zawahi. But
+
+[10:56] in terms of al-Qaeda as a fighting force, it was done by Christmas of 01. >> Were you at the agency when they stood up the GRS program? >> No, I had already gone. I had already gone, but I was dating a woman at the time whose soontobe ex-husband was in GRS. And she said, my husband's a GRS officer. I said, "What's GRS?" She looked at me kind of funny and she told me and I said, "Oh they've made it official." >> So, what was it before they made it
+
+[11:27] official? >> It was just like, "Hey, uh, you doing anything for the next week? We're going to need for you to do this thing. Don't tell anybody." Yeah. Now it's an office. >> But wasn't it wasn't it stood up to be like security for case officers? >> Security for leaders more than case well no that's not true. Security for case officers. Yes. Especially as it related to operating in the green zone in Baghdad. That that's where most of them were doing their work cuz the green zone
+
+[11:58] was easily infiltrated. Yeah. Moving from point A to point B, it took your life into your hands every time. those guys. I mean, you have to be a brave son of a gun to to do a job like that. I mean, you can say about a lot of different agency jobs, oh, that job's not for everybody. That job, you really have to be fearless. You really do. Cuz your your job is literally to throw your body in front of the other guy so
+
+[12:31] the other guy doesn't get killed and can complete the meeting. Yeah, thankless. >> What's up, guys? Thank you so much for taking the time to watch the interview. If you got anything out of this video at all, please like the video, leave me a comment, tell me what you thought of the video, uh, tell me who you'd like to see on the show. I really appreciate the support. It goes a long way on these platforms, as you guys know. Most importantly, I have some excellent interviews coming up in the future that
+
+[13:01] I'm really, really excited about. So, please subscribe to the channel so you don't miss any of them. But that's it. Thank you for your support.
