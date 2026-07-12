@@ -234,7 +234,8 @@
     "quote:sharon-scranage:0",
     "dyk:william-webster:0",
     "quote:brian-ross:0",
-    "new:ai-whistleblower-initiative"
+    "new:ai-whistleblower-initiative",
+    "dyk:asset-acquisition-cycle:6"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -2132,10 +2133,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
