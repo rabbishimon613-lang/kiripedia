@@ -1,0 +1,104 @@
+---
+slug: "2022-11-07-indie-news-network-inn-indie-news-network-inn"
+title: "Indie News Network (INN)"
+show: "Indie News Network (INN)"
+date: "2022-11-07"
+url: "https://youtu.be/H-UjcZkxcU4"
+videoId: "H-UjcZkxcU4"
+duration: "24:00"
+captionSource: auto
+paragraphs: 46
+sponsor_paragraphs_stripped: 0
+source_file: 20221107-H-UjcZkxcU4.en.vtt
+---
+[00:04] who are these people it leads us to our next story um which is definitely in line with that um so this story is from John kiriaku right titled American gulag um but and it's from Consortium um which they've been doing great work um but it's it's about Western journalists who are providing breathless depictions of the harsh conditions facing U.S basketball star Brittany Greiner in Russia and kiraku is asking have none of
+
+[00:36] these been inside a U.S prison like you know completely unaware but um yeah we've talked about uh Brittany Greiner a few times in this in this light before a little bit especially in regards to narrative management of the Ukraine situation you know that sort of thing um right but you know um so all the major media Outlets announced
+
+[01:07] recently that former American women's basketball sensation Brittany Greiner has been moved to a Russian penal colony after an appellate court rejected the appeal of her conviction and the sentence of nine years for trying to smuggle a vial of THC oil into Russia so the sentence is Draconian but it's not unlike Other Drug sentences here in the United States but that's not the point that kiraku wants to make here what I do want to point out is the U.S media's use of the term Russian penal
+
+[01:39] colony other outlets have thrown out the word Gulag hearkening back to the days of Yosef Stalin um NBC News reported that Greiner was transferred to a penal colony the successor to the infamous Russian Gulag Insider magazine said that Greiner uh fears facing inhumane treatment at Russia's penal colonies where abuse is common disease is rampant and labor is forced um even the storied UPI United Press
+
+[02:11] International said that Greiner is going to a penal colony the descendants of the notorious Soviet era gulags where prisoners have been subjected to harsh treatment and poor conditions prisoners in the system have been beaten by other inmates endured torture and forced to watch Russian propaganda for hours every day um any of this sound familiar to you know what's happening closer to home any any of that yeah okay I just want to see where this is going
+
+[02:43] because I haven't read this yet this is it gets heavy um these breathless admonitions are nothing more than a bad joke have none of these journalists and writers ever been inside an American prison they wouldn't have far to look to see that the U.S prison system gains Nothing by casting aspirations on the Russian system or pretty much any other system including Haiti
+
+[03:13] like anyway um so um kiryaku wants to point out a particular um American Alec Arapaho a Native American was 21 when he arrived at the bop's medium Security Federal Correctional Institute in Florence Colorado he tried to hide his homosexuality but another Native American prisoner William Mexican a gang member had already heard
+
+[03:44] that Arapahoe was gay Mexican attacked Arapahoe extorted money from him accused him of being gay and threatened to rape him eventually the Native Americans at the prison met on the recreation yard and after a disagreement that neared violence a faction led by Mexican voted Arapahoe off the yard due to his sexual orientation that meant Arapahoe had to leave the prison immediately or be beaten Arapahoe asked his stepmother to call
+
+[04:16] the prison and intervene to help him seek protective custody status she did and he was placed in the segregating housing unit at USP Florence a maximum security facility adjacent to the prison wait what he went from like medium now he's at maximum right so staff who investigated the protective custody request found a video recording of the meeting in the yard and interviewed Mexican who said there would
+
+[04:48] be trouble for Arapahoe if he returned they nonetheless filed a report stating they could find no evidence to support arapaho's claim that he was in danger Mexican was later transferred to the USP and because a staff member only looked at his paperwork not arapahoes he was placed in a cell with him Arapahoe told the guards who escorted
+
+[05:19] Mexican to his cell and he was nervous about having Mexican selling with him but Mexican assured them there would be no problems and they left over the course of the next three days Mexican repeatedly assaulted Arapahoe forced him to perform oral sex and anally raped him Arapaho repeatedly stationed stationed himself in front of the sales video camera often covered in blood and hit the cell's distress button but no one came to investigate Mexico
+
+[05:51] forced Arapaho to face the back wall when food was delivered so staff could not see his injuries finally Mexican left a cell to go to Recreation and as soon as the cell door closed Arapahoe told the escorning guards he was in danger he was moved to another cell and a medical examination yielded evidence of the sexual assaults um an eternal Bop investigation found that staff had failed to conduct sell checks every 30 minutes as required by uh regulations and his falsified
+
+[06:23] documentation to show they had performed the rounds on time the investigation sustained allegations of inattention to duty failure to follow policy and falsification of documents against 26 employees Arapahoe won 750 000 in a lawsuit against the Bop yeah he should have gotten more more yeah this is ridiculous
+
+[06:55] um like oh um there's more so earlier this year a federal judge in New York awarded 273 246 uh dollars and 88 cents to a prisoner who alleged who alleged that a guard beat him brutally and lied about the incident Morgan greenberger a mentally ill prisoner told a guard that he had eaten a toothbrush and he asked to be taken to the medical unit
+
+[07:25] he was placed on special watch where he was supposed to be under constant supervision so as to not hurt himself again greenberger asked guard Philip Brown tree for a bottle so that he could urinate Roundtree told him to wait 15 minutes greenberger asked again 15 minutes later and Roundtree responded you sure you want it he then placed the bottle just inside green Burger cell when greenberger
+
+[07:55] reached down to pick it up Roundtree began pummeling him with a baton on the back arms head and shoulders so hard that the Baton splintered into pieces two hours later other guards took greenberger to a hospital where he received five Staples to close the wound on his head greenberger was also charged with initiating an assault and refusing a direct order he was given 50 days in solitary confinement nearly a year later after greenberger
+
+[08:27] was released from solitary the verdict was reversed and he filed his Federal action as if this wasn't bad enough we're supposed to believe that Medical Care in American prisons is so much better than it is in Russian prisons kiriaku asks um I mean thought so far on any of those two stories I mean this reminds me what's that HBO prison show called
+
+[08:57] um shoot someone in the chat I know um saw in the chat I know some of you know but um you know this is kind of what it reminds me of um but I think in terms of like Oz there we go thank you not to be confused with our Oz yeah thanks Lauren but um but yeah I mean we've talked about this before but I think you know and I shout out to Savvy for making this point
+
+[09:27] I think weeks ago it's her stream but I think we've been indoctrinated to hate Russia from like really I think for me the time I've been alive you know look at you know the movies especially in the 80s given the Cold War you know like there's always this thing of like Russia versus the United States you know and I feel like a lot of why
+
+[09:59] would kind of like so I think people feel so passionately about Ukraine is because Russia is involved and I think we've been kind of more or less indoctrinated to hate Russia you know and so the idea that what look Yoko is kind of saying here is like yeah what's happening to Greiner yeah it's [ __ ] you know like and I'm kind of mixed about it you know like should she be in jail for that long for having THC no but then again like
+
+[10:33] you know as a person who travels not a lot but often enough to know you know when you're in another country you go by the rules you know and that may include you know how you uh use your weed or whatever substance so if you're not following the rules you're going to get consequences for it so you know like but the idea of like oh she's almost like she's a political prisoner
+
+[11:04] you know in Russia I think this is kind of like where it was kind of going you know to make it seem like oh Russian you know uh gulags are [ __ ] they're bad you know she's gonna suffer but if she were here it wouldn't make it much of a difference she would be still suffering you know on looking at the prison population and our prisons here so I think it's kind of like the propaganda in terms of like us immediate being like luscious [ __ ] and not looking at us and
+
+[11:34] being like wish it you know I would argue that in a lot of ways we're shittier because at least in Russia they have Universal Health Care you know so there's certain things that they're doing a lot better in Russia and look I'm saying this because you know I'm not a fan of Putin I've never happened he's a capitalist through and through so he's under the same [ __ ] that you know that people are in the West but at least for him there are certain things that are pretty standard that he
+
+[12:06] you know he has provided for his people you know like Nick reporting on this I no what's it Nick I think it was even Nick or Savvy I think this week reported that Putin has a 75 to 80 percent uh approval rating in Russia right now yeah compared to like Biden who's like in the 40s like what no president in my lifetime has ever hit maybe 60. maybe Obama at his best was maybe at 60. I don't remember any president in my lifetime that hit like
+
+[12:39] 70 or more you know so all you want but he's at least doing something to kind of help the Russian people that people are recognizing yeah and that they're rewarding him with their loyalty me you know me and indy have been having this talk um about Putin and this will take us off on a tangent but I'd love if people would you know hash that out among themselves on on the
+
+[13:10] twitters and and all the spaces they're in do you think Putin is socialist like would you consider him as so even a Democratic Socialist no well I mean if you think about what his country has and what he's like how much policy do you think he's you know again I would give him the marker of yes funny like I feel like people I think that's actually a good question you know we don't think about that no you know
+
+[13:43] communism be curious it would be curious like put that on Twitter people like and see but even in the chat like where do you think um poon falls on the Overton window like for me I mean I was almost argue like like poly assault if to our equivalent of a social doubt yeah in a lot of ways Maybe more to the center
+
+[14:15] but this one actually you know but to some degree but I think then again less than being centered in Europe means a different thing here here because so I think kind of removing it from that context you know like I think for us he will definitely be classified poly as a you know damn social yeah but I think like in the Europe you would consider more Centrist you know but the idea of like your Centrist like there are a lot of social policies that
+
+[14:45] even if you're to the right you're full you know like he's not gotten rid of or that he's not right like you know I mean maybe in terms so maybe in terms of like the world he's probably like a true Center versus like our Center here yeah which is more shifted to the right I mean just as a leader you know right like as a leader of a country like let alone what he's done in his personal life and like how much he has kept control of Russia that kind of
+
+[15:15] stuff like right you know but yeah I mean Warren's saying he's pretty conservative yeah I could see that but again compared to here compared to here sure but I think Europe sure but again even as a conservative there are certain issues you don't touch like I'd love to look at like what policies he's actually supported over the entire like you know span he's been a leader but you know I mean if we're just gonna go
+
+[15:45] point for point you know that could be that actually sounds like a segment that we should do yeah I I feel like it's a lot of work though too you know true but I feel like I don't think it'll be that hard to kind of look at what is his ideology like yeah yeah that's not gonna be that hard you know and then they're kind of determined like where does he fall politically but again you know at bare minimum he is providing for Russia right now yeah infrastructure and
+
+[16:17] health information and all that so it's like you do socialist things people are going to reward you with as I said their loyalty yeah so you know so yeah I would agree probably more conservative but again relative to Europe Europe yeah I would say in terms of here he's probably more what we considered like a social Dem probably a little bit more to the right center
+
+[16:48] um but at least you know for certain things they have in Russia that he hasn't gotten rid of as you said so kiraku wants to point out another example um what's happening here in our gulags um as just one example let's look at the case of Marquette Davies the 27 year old was a prisoner in the Kansas Department of Corrections where Corazon the largest prison Healthcare Solutions provider has an exclusive contract to provide medical care Davis went to Horizon I guess
+
+[17:20] that's what it is nurse saying that he felt weakness in his arms and legs the nurse determined that Davies was malingering that is making it all up so he didn't have to work he was fined two dollars and told not to do it again months later with the numbness worsening Davis began to complain that he felt like something was quote eating his brain in fact something was eating his brain it was an untreated fungus that
+
+[17:51] caused his fission to blur his speech to slur and his cognition to become so impaired they began to drink his own urine oh Davies finally had a heart attack and was taken to a local Kansas City Hospital a CT scan revealed dramatic swelling of the brain a day later he was dead Davy's lawyer hopes to prove in court that this was not an isolated incident
+
+[18:21] but a clear and consistent pattern of horizon delaying post-poding or not providing necessary medical treatment and ACLU spokesman said corizon is simply writing off the damages that they're having to pay as the cost of doing business without doing anything meaningful to improve and what about forced labor this is perhaps the biggest joke of all Western coverage of greiner's imprisonment the Constitution of the United States actually enshrines forced prison labor
+
+[18:53] right the 13th Amendment states quite clearly in section one Colin would you like to read that for the people in the people in the chat sure neither slavery or involuntary servitude except as an punishment for Crime where of the party shall have been fully shall have duly convicted right that's within the United States or any other place subject to their jurisdiction except key key word there um so slavery exists in the United
+
+[19:25] States it's literally in writing um so kiryaku wants to write I feel sorry for Brittany Greiner uh I really do she got a raw deal she didn't appear to have Criminal Intent and Russia's drug laws are draconian but so are Americas the media are remiss and pointing fingers at the Russians while ignoring exactly the same problems in the U.S prison system how's that work Colin you point one finger at that somebody how
+
+[19:57] many are pointing back at you great yeah okay just making sure you knew how many fingers I was holding up um perhaps they should reflect on something that Russian author fyodo doskefsky uh opined on when he wrote the degree of civilization in the society can be judged by entering its prisons he was right not calling yeah it kind of yeah it kind of actually kind of took a turn I didn't expect it to go in that direction but
+
+[20:29] again you know my thought still stands it's just the idea that we've been publicized propagandized with Russia bad Russia bad Russia bad Russia bad Russia bad since really like not even since 2016 I can argue since the 80s especially given the Cold War like 70s 80s you know and it's just a deflection you know and like pointing at Russia and saying Russian [ __ ] but then I'm not not looking at American being like we're [ __ ] too and if anything may be worse so
+
+[21:00] again as I said and Kyoko said in the article yeah like I feel bad for bitly yeah but again like like lesson for you all check the country status on drugs to see if you are able to take them you know because if you're caught especially in there a country you're not necessarily going to get the same you know uh license as you might get but
+
+[21:32] then again I would almost argue if she was here I mean the same [ __ ] will probably happen here for her honestly I mean like as a normal citizen like you know she since she's you know an athlete I'm sure it wouldn't be as bad for her if she got caught here but again for regular people like black people we're getting arrested all the time for repossession here so what the [ __ ] is the difference you know she got caught in Russia for THC black people are getting locked up
+
+[22:02] here for barely having any weed you know and they're probably in the worst prisons than the property are in Russia so yeah I think you know it's just the hypocrisy is just astounding and I think it's just kind of amazing that people who don't think critically enough or not able to kind of look at it oh they will say oh it's what about ISM no it's not what about ISM it's the idea of like you know we're calling out Russia
+
+[22:33] for their [ __ ] fine but you gotta do that without not calling on our ship because we're not any better like in many cases we're probably worse yeah far worse in some respects right and given you know like as I said this reminds me of an Oz episode yes yeah black for those kids at home that's that's their version right so the one the one that always got me there was a scene in that where they he put
+
+[23:04] like I'm in The Longest Yard uh where he put like some explosive in a light bulb that one was always crazy you turn the light bulb and it blows up um like that's [ __ ] up um but yeah no it [ __ ] great article from kiryaki who they are that was good so thank you um showcase some terrible stories but yeah um well and it leads us to what else
+
+[23:34] America is doing meanwhile well is America doing that you know like speaking of us in the chat right hi guys not that Oz he's Ozymandias if no one's read that poem they should um it's not the the prison show that's not what he's named after um but anyway [Music]

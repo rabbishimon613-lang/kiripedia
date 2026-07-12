@@ -1,0 +1,122 @@
+---
+slug: "2019-03-07-orca-media-house-at-pooh-corner-imprisoning-the-heroes-j"
+title: "House at Pooh Corner - Imprisoning the Heroes - John Kiriakou"
+show: "ORCA Media"
+date: "2019-03-07"
+url: "https://youtu.be/KqU-Yr0OsMc"
+videoId: "KqU-Yr0OsMc"
+duration: "28:00"
+captionSource: auto
+paragraphs: 55
+sponsor_paragraphs_stripped: 0
+source_file: 20190307-KqU-Yr0OsMc.en.vtt
+---
+[00:05] [Music] hello this is Jim at the house at Pooh Corner again and there's the camera so I
+
+[00:35] will look at that camera and we have had a number of very important guests over the last few months from geoengineering to all kinds of imperialistic Imperial adventures and today your guest is John Corey aku who is one of my heroes most of my heroes actually kind of fall into the whistleblower category from Daniel Ellsberg whom I interviewed ages
+
+[01:05] ago and Sibel Edmonds whom I've interviewed a few times on the radio and here we are with another very important whistleblower so important that Obama threw him in jail and we're going to talk a little bit about what he did having to do with the Bush administration's torture program and he'll update us on certain status that where he is and maybe talk a little bit
+
+[01:38] about mr. Binney and mr. Shipp Kevin chip and Bill Binney and all right so let's John tell us a little bit about yourself and what happened and we'll go from there well my name is John Kuryakin I'm a 15-year CIA veteran I was in the CIA from 1990 through 2014 and resigned in 2014 actually was effective 2015 and
+
+[02:09] then in 2000 on you know what let me fix that that's not right 1990 to 2005 9:15 and in 2007 I blew the whistle on the CIA's torture program I had kept it inside for four years just waiting for somebody to come forward and to say something nobody said anything and fine I decided that that it had to be out there and and so I said something in a nationally televised interview on ABC
+
+[02:40] News to make a long story short I paid for it with my freedom I was I was arrested by the FBI charged with five felonies including three counts of espionage coming out of that interview I hadn't committed espionage and those charges were dropped but but I ended up going to prison for 23 months all worth it in the end the price was high certainly but it was all worth it because I thought that this was this was a war crime a crime against
+
+[03:11] humanity it was a violation of US law was a violation of international law certainly the United Nations Convention Against Torture and I thought that our government shouldn't be in the business of doing it so I got out of prison in February of 2015 and I've been talking about it and writing about it ever since all right now a couple of questions one is what kind of support or communication
+
+[03:41] of any kind have you had with your peers with your former peers and I'm also interested in the kind of communication you've had with bill Binney and with Kevin ship and that's already two questions and my third one is the Bush administration handled it one way and the Obama administration really went
+
+[04:12] whole hog that's a very important component of this whole story well to answer your first question first my support inside the CIA especially at the working level has been absolutely fantastic 70 of my former CIA colleagues signed a letter to President Obama asking him to pardon me all 70 signed a second letter this one to president Trump asking him to pardon me so my support inside the agency has been
+
+[04:43] fantastic this was this torture program was was a blaspheming against what we were supposed to stand for you know when I put my right hand up in the air and I swore to uphold the Constitution against all enemies foreign and domestic I meant it and sometimes the enemy is ourselves and so I'm glad to say that I wasn't the only one who recognized that one of the weird things about entering the the world of whistleblowers is that we have something
+
+[05:17] of a club where we've all become friends you know Dan Ellsberg is the is the granddaddy of all modern national security whistleblowers he's an icon to all of us and then there's bill Binney and Kirk Wiebe and Ed Loomis and and Tom Drake and Jesslyn ray back and so many others it's known even we've all become friends we stay in close touch those of us who are here in the DC area get
+
+[05:48] together frequently socially and really you need that support network because when you blow the whistle on something relative to the national security there's nothing in the world that makes you feel more alone and more isolated and more endangered than that without that support you couldn't get through it you literally couldn't get through it yeah I'm surprised frankly that more people charged with these national security crimes don't commit suicide than than the handful that we've already
+
+[06:19] seen um Kevin ship is another one Kevin it's funny Kevin believed that he was alone Kevin ship blew the whistle on CIA malfeasance and they went after his family for it and finally I reached out to him after reading his story in The Washington Post and I said listen buddy you're not alone you've got some some friends here you probably have never even met but you shouldn't be going through this alone and so we've we've
+
+[06:49] pulled him into it as well we even have an organization called VIPs veteran intelligence professionals for sanity Oh we right yeah yeah we were policy recommendations for the president they're usually ignored but at least we get ourselves on paper yeah I know quite well yes Raymond got the support for people yeah remind me your third question oh the third question had to do with the ramping up of prosecutions
+
+[07:21] against whistleblowers under Obama yes when when I went on ABC News in 2007 and blew the whistle I said three things I said that the CIA was torturing its prisoners I said that torture was official US government policy not the result of a rogue as President Bush had intimated and I said that the policy had been personally approved by the president the FBI began investigating me the very next day and they investigated
+
+[07:51] me for a full year from December of 2007 until December of 2008 they determined in 2008 that I had not committed a crime and they closed the case not only did they closed the case they sent my attorneys what's called a declination letter saying that they were declining to prosecute me three weeks later Barack Obama's inaugurated as president and styles himself the most transparent president history he secretly ordered that the case against me be reopened I
+
+[08:23] had no idea I was under investigation again mm-hmm it was investigated for three more years and then finally arrested in January of 2012 and charged with those five felonies and you don't forget that that espionage is one of the gravest crimes with which an American can be charged and if sometimes carries with it the death penalty so this was a serious policy decision that the Obama people
+
+[08:53] made beyond that this isn't just because they didn't like John Kiriakou beyond that Obama prosecuted eight national security whistleblowers in the entire previous history of the United States only three whistleblowers were prosecuted the espionage act so Obama was almost three times the number of all previous presidents combined really Barack Obama was the enemy of transparency he was the enemy of whistleblowing really in my
+
+[09:23] view the enemy of human rights yeah well then my the question that I have been wondering about for years and I'll let you have it is who was ordering Barack Obama to do this because it just my brain tells me that Obama couldn't have cared less but that somehow he was being pressured to do this and when I follow when I follow that logic and I have
+
+[09:55] often in the past as a journalist it turns out to be someone connect someone like Jamie Dimon someone connected with the central banks someone connected with something to gain and we found that because of visage we discovered that but go ahead why could tell you with 100% certainty it was John Brennan John Brennan on national security called all the shots and I'll tell you why it's actually it's actually an important lesson I think for future presidents and
+
+[10:25] that is that the CIA loves inexperienced presidents they they love them because when a president is elected and he has little or no foreign policy or or national security policy experience that gives the CIA an opportunity to to recruit that president and what I mean by that is if you've just been elected president you don't know anything about national security or intelligence today
+
+[10:56] after the election when you're you're on your first day as president-elect you're entitled to a CIA briefing a president's Daily Brief briefing that's PDB that's at levels multiple levels above top secret well as soon as the CIA gets in front of you and they say mr. president-elect we want to tell you about all the cool things we're doing and they show you your first blue border report or black border or multiple levels over top-secret human
+
+[11:28] intelligence penetrations of foreign intelligence services access agents next to world leaders you know that stuff's fascinating and it's fun and it's cool it's exciting and they're able to suck that president right in and make him one of the boys Barack Obama head he was a senator for what four years he wasn't even one full term as a senator and he was only on the Senate Foreign Relations Committee for two years and even then had no access to classified information
+
+[11:58] and then on sudden he's the most important man in the world so it's it's heady stuff and present president-elect really loved it on top of that he had an alpha dog in the form of John Brennan whispering in his ear all day long and John Brennan certainly had his own agenda besides that I want to make a third point in the book doubled down by Mark Halperin and John Holliman it was about the 2012
+
+[12:30] presidential election Obama is set for an interview and in that interview he said two things that I think we're really telling first he said very matter-of-factly I never said I was a liberal and that was true he actually never did say he was a liberal we said he was a liberal but he wasn't and then talking about the drone program he said kind of wistfully I never had any idea that I would be so good at killing
+
+[13:00] people well it's because he never said he was opposed to the drone program no he never said he was opposed to long distance you know cruise missile launches we we sort of placed that on him because that's what we wanted to believe hmm that's the anti Hillary that we wanted to be elected president and their Nobel Prize nothing progressive about him at all on foreign policy military policy and intelligence mm-hmm
+
+[13:32] well then two questions come to mind is that he was clearly Wall Street's pick and he was practically appointed to his Senate position it was a coronation he slid in yeah he was coronated into the Senate then Citibank appointed his entire staff essentially the upper levels of staff and when I looked at who they were yeah and Jamie
+
+[14:11] Dimon at all were the ones who did that picking and I remember I wrote an article and I said this is not small it's beautiful you know we're going for centralization here with all the big players who have been central central players right from the beginning and so I told that to people on my radio program that you know if you're voting for Obama I want you to know this and this was when he was running for president and anyway in Vermont he was a
+
+[14:43] shoo-in because you know people don't care how many Palestinians you kill as long as you get your anyway so what is your opinion as to the relationship between this is a tricky question between Brennan and wall street meaning Goldman Sachs at all and and then I'll throw in another villain which is Muller
+
+[15:15] Robert smaller and I've done two I've done to expose about robert muller over the years going back to 1984 and he is one piece of work he is my opinion the number one fixer for the deep state so go ahead and see what you can do with those questions yeah I will see John Brennan John Brennan intellectually was in over his head John Brennan rose far beyond what his intellect should have
+
+[15:45] allowed and it was because he became a close friend and protege of George ten most retired directors of Central Intelligence or directors of the CIA they became known later on end up on Wall Street in some capacity George has become the principal in a vulture fund in New York City that has made him rich beyond his wildest dreams ah Steve kappes who was the number two at the CIA is doing the same thing right
+
+[16:16] now for a vulture fund based here in Washington DC so this is a normal thing where they go to Wall Street and they make tens of millions of dollars and they live happily ever after John's not done that my own opinion is that John's not smart enough to do it so what job has ended up doing is he is teaching a class at Fordham which is his alma mater and he's a talking head on MSNBC and he's on the board of a couple of smallish defense contractors he's
+
+[16:46] actually having to work for a living he's not making anywhere near the money that his predecessors have made so he really doesn't have those deep Wall Street ties not because he doesn't want them but because he's just not smart enough to do it Robert Muller I have a personal beef with Robert Muller I would think so other was the CIA director when I was arrested not only was he the CIA director you mean FBI director sorry I'm sorry
+
+[17:17] the FBI director but not only was he that but he created the John Kiriakou task force inside the FBI he appointed 12 FBI agents who tapped my phones intercepted my emails had groups of two agents in cars following me to work to church to the grocery store out with my family 24/7 coverage trying to catch me committing a crime I wasn't committing any crimes that went
+
+[17:47] on for three years they did that in addition it was John Brennan who when Obama became president sent a memo to Eric Holder at the Justice Department saying charge him with espionage and then Eric came back and said my people don't think he committed espionage meaning the Muller John Kuryakin task force and then Brendan responded charged him anyway and make him defend himself and then on January the 12th 2012 a
+
+[18:21] fellow by the name of Peter struck mm-hmm but he saw me behind my back and took me to a holding cell underneath the federal courthouse in Alexandria Virginia so these same people who are going after Donald Trump at all are the ones who after me it is deep state and you don't have to call it a deep state you can call it whatever you want you can call it the state you can call it the federal bureaucracy whatever it is the deep state actually exists and these are the guys who run it okay then
+
+[18:53] that leads me into the next question which is well I'll preface it by saying that I realized as Trump went through the candidacy and the RNC was trying to cut him off at the knees and of course the the Democrats just laughed him off didn't get it and well I won't go into it but all the way through until today as we speak there are elements of what I
+
+[19:26] will call the deep state I mean they're right out in the open now so it's just I feel silly saying the deep sate because you've got Muller and Brennan and then the entire the entire DNC you've got you know Pelosi the whole gang and the New York Times and the rest of the mainstream media who seemed to be able and the CIA who seemed to be able to have a way of turning Trump from somebody who was out of the loop who was
+
+[19:58] trying to demilitarize and and pull our troops back turn him into some kind of a madman what is your take on what if anything happened to Trump and how are they getting him to do this I think I know the answer but I really want to hear from you I think he was more or less forced into it because there were so many Republicans
+
+[20:28] important Republicans who joined that so-called nevertrump movement mm-hmm so when Trump finally became president I mean look at this way Hillary Clinton had a hundred and seventy five people on her Middle East transition team right Donald Trump had 25 people on his entire transition team and it's because Donald Trump never thought he was going to be elected president so he wasn't prepared for it that coupled with the fact that
+
+[21:00] there are all these nevertrump erse men he just simply didn't have enough people to fill senior level positions at the State Department the Defense Department at the White House and so little by little he had to start bringing these never Trump errs into the administration or the never Trump errs by and large were neo cons who made their bones in the Bush administration and so little by little and it was really incremental
+
+[21:30] they came to the White House they became assistant secretaries of state assistant secretaries of defense the next thing you know they're running foreign policy not Trump not the White House and not the people he brought with him from the campaign and that's how they did it yeah another thing too you know I've I've spent most of my adult life dealing with with senior intelligence officials senior diplomats generals at the Pentagon and they can all be very convincing you know when when you're
+
+[22:02] getting a briefing on let's say the situation in Afghanistan or the situation in Syria the situation in Libya they can make it sound like we're winning it we're on the cusp of finishing this thing off and if you pull out now it's gonna be a disaster we're gonna lose our international prestige people are gonna die so give us six more months give us 12 more months and then six four months later they repeat the same thing and they do every year year after year after year and the next thing you know you're bogged down in
+
+[22:35] some kind of foreign entanglements yeah and the Democrats are right but right with that opinion and this the braided egg one so even worse there's no there's no real difference between the Democrats and the Republicans on these foreign policy issues there there's some minor tweaks around the edges but they're both neo cons and neoliberals they all believe in exactly the same thing and that is that we really do need to have a military presence in a hundred and ten
+
+[23:06] countries around the world we need to have military bases in 86 countries around the world we need to have the newest nuclear weapons and the biggest ships and the best airplanes and and the biggest bombs they all believe this stuff that's 700 countries they're 144 countries in the world and we have 110 we have oh I don't know why I thought it was 700 I've I had that number stuck in
+
+[23:36] my head alright well that's a relief [Laughter] so okay and getting back to people like Jamie Dimon and the central banks who owned Obama what it struck me that they were panicking as they began to realize you can see the expressions on the on the Talking Heads faces they they were
+
+[24:08] struck dumb and and that kind of paralyzed mode because they were talking gibberish as as Trump's numbers went up so here we have a guy entering the presidency who was out of the loop and I think you've explained how they put him in the loop and how he would be behaving gradually and I was so disappointed in him when he appointed some of the people he appointed it was god-awful and then
+
+[24:39] he goes back to Reagan he drags up the bottom of barrel that an embarrassment to the US I mean who's who's been more embarrassing to the US than Bolton except maybe Abrams was gonna say Elliott Abrams is at least as offensive and horrible a human being as John Bolton is yeah I remember yes Mira legitimate war criminals legitimate war criminals on their hands yeah so what why did Trump
+
+[25:12] do that well like I say there was just nobody to take these jobs at one point almost a year into the administration there were 13 vacant assistant secretaries of state positions so you can't have a foreign policy if you have no Assistant Secretary of State to run that foreign policy the only thing that he could do was to start drawing from either previous administrations more conservative think tanks and those were the neocons they're the ones that have
+
+[25:42] all the money and staff the think tanks in Washington he really had no choice yeah well our friend Ray McGovern I think was one of the ones railing against this and there were a lot of good people like Paul Craig Roberts who were saying what are you doing you know you have a chance mr. president of at least appointing decent human beings to these positions and you're going to the bottom of the barrel to pull up war criminals to be in these positions and I said that Trump can't be that ignorant
+
+[26:15] but maybe maybe it's a combination of his ignorance and and his maybe he's evil like they are I don't know what do you think about that I think that's a possibility you know if every mccabe is to be believed and this passage in his book he recounts a a meeting at the White House where they're talking about foreign policy and then Trump says what about Venezuela that's the country we should be a war with no another week and they have all that oil yeah I know that
+
+[26:46] quote yeah if that's if that's how you determine your foreign policy then you need help from somewhere unfortunately you looked at the wrong place for that help yeah oh we only have a minute 30 seconds left so ladies and gentlemen I'm sorry I haven't said his name 100 times John Kiriakou a whistleblower who brought out the bush torture program and has been in the thick of what's happening today ever since and as I said one of my heroes
+
+[27:19] along with bill Binney and we will do another interview with John Kiriakou when he is free very busy and hopefully you and I will be fortunate enough to continue this I think we've hit an awful lot of key points that of course the mainstream media and and the alternative media doesn't even know enough to hit if they were allowed to do it so closing words well my pleasure you know I think
+
+[27:51] we ought to be talking about these issues because they're important and nobody else is talking about them so thanks for having me I look forward to seeing you again soon okay well thanks again oh sorry we lost sound okay well ladies and gentlemen we will be back with more from John Kiriakou and maybe even some more whistleblowers as as time
+
+[28:22] goes by so thanks a lot for listening to the house at Pooh Corner with Jim Hoge [Music] you [Music]
