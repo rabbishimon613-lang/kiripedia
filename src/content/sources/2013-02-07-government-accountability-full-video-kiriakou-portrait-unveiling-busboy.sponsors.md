@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[24:54] people which I admit I do so I'm going to try to stick by these so first of all my first three paragraphs were introducing myself you know who I am and then I go on to say I won't revisit the details of my case I've already angered the judge enough in that respect um so first I want to thank Rob shedly this is just so overwhelming and so humbling I I can't believe I'm standing here looking at something like this it's just incredible thank you very much
+
+[25:25] where did he go there he is Rob thank you I don't even have words to thank you for something like this something that I'm very proud of and I I think my kids are just going to love I'm going to start by saying that I accept my sentence of 30 years in prison 30 oh my God 30 months in prison ohy it was the 30 years I was trying not to get 30 months in prison without bitterness and I mean that I accept it without bitterness I'm sorry for the
+
+[25:57] pain that I've caused my family which has been considerable U but I believe that when people see something that's wrong and cruel and unjust and undemocratic that they have to step up and say something about it I'm not naive I know that National Security and intelligence and counterterrorism is a very tough Arena I knew that there was a a risk to what I was doing but I also know that debasing another person and serializing human rights abuses under legal paper is not
+
+[26:28] the American way and it's not something that as Americans we should be engaged in it's not what our democracy stands for and I didn't want any part of it I still don't in December of 2007 I said on ABC News that we should not be torturing because America is better than that Americans are more principled we're more honorable we're more Humane and we are more responsible we are not a lowest
+
+[26:58] common denominator country measuring what is right by what others do and the American way stands for something and it is not torture so I head to prison accepting responsibility for my actions and hoping that maybe the country is better and more informed and more transparent for the debate that I helped to initiate I've never gained anything for what I've said publicly in fact I've lost everything and I believe I was prosecuted not for what I did but for who I am a c I
+
+[27:29] officer who said torture was wrong and ineffective and went against the grain if I'm actually guilty of a crime then I should uh have a lot of company in prison a long list of people whose books and articles and TV interviews and sexual Dianes have compromised National Security and violated the country's secrecy but that's a different issue um I will be able to tell my children that they Dad paid his debt to society in the hope that just maybe
+
+[28:01] Society comes out the better for it the irony as just R pointed out a few minutes ago is that I never tortured anybody uh but I'm heading to prison while the torturers and the lawyers who papered over it and the people who deceived it and the man who destroyed the proof of it the tapes will never face Justice and that's the saddest part of this story there are many people I'd like to thank people who have stuck by me through this nightmare and who have been generous with their time time friendship and in many cases their money first
+
+[28:31] again to Rob shedly it's just so it's just so overwhelming Rob I I don't know what to say other than I absolutely love it and I'm I'm humbled that you would have even thought to choose me for this series thanks also to bus boys and Poets terrific venue and to the zened foundation or zened project rather for tonight's event thank you very very much to Jess Rak to Kathleen mlen and to the government accountability project J R seriously JN R is the first person that
+
+[29:03] I spoke to that is we jine is the first person I spoke to after my arrest I didn't know where to turn and a friend of mine texted me uh with a link to an article that jeline was quoted in and he said you have to get in touch with this woman and that was the smartest thing that I've done in the past year I want to thank also um two legal advisers who have become friends Bruce Fine who is one of the most honorable and one of the most brilliant constitutional attorneys in our country
+
+[29:35] and John ker I have a large I have a large legal team as you might expect so a very quick thank you to Plato cacheris Bob Trout John Hundley Jesse winterr Mark mcdal Jim Sher and Karen Williams [Applause] uh I also want to thank somebody who's become a dear friend in this whole in this whole mess and that's Tom Drake Tom Drake is a real
+
+[30:08] hero Tom was the first person to be charged with Espionage by the Obama Administration multiple counts of Espionage of course he had never committed Espionage they just didn't like what he had to say and in fact what he had to say was unclassified but they charged him with Espionage he faced something like 35 years in prison and and he remained steadfast and tough to the point where the entire case collapsed around him and he walked away
+
+[30:38] a free man the reason why Tom is so heroic to me is that he didn't have the support network that I have there was no Tom Drake to help Tom Drake like there is Tom Drake helping me and so I have nothing but admiration for him he's he's been a very good and true friend uh Alex georgiadis who's here tonight uh Gus Moses Rich Klein Bruth Bruce and Elizabeth ryell former CIA uh colleagues of mine Chuck Murphy Don Roberts Tom and
