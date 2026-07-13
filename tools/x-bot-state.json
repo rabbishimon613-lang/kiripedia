@@ -243,7 +243,8 @@
     "dyk:rand-paul-eric-holder:1",
     "new:1953-iran-coup",
     "dyk:fci-loretto:12",
-    "quote:iran-nuclear-assessment:11"
+    "quote:iran-nuclear-assessment:11",
+    "new:911-attribution-of-responsibility"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -863,10 +864,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "911-attribution-of-responsibility",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "abolish-the-cia",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1893,10 +1890,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
