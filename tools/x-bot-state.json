@@ -244,7 +244,8 @@
     "new:1953-iran-coup",
     "dyk:fci-loretto:12",
     "quote:iran-nuclear-assessment:11",
-    "new:911-attribution-of-responsibility"
+    "new:911-attribution-of-responsibility",
+    "quote:juan-guaido:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1890,10 +1891,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "quote"
   ]
 }
