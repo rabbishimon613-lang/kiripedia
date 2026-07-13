@@ -239,7 +239,8 @@
     "quote:john-kiriakou:133",
     "dyk:john-paul-ii-cia:0",
     "quote:section-702:6",
-    "new:akrotiri-village-evacuation"
+    "new:akrotiri-village-evacuation",
+    "dyk:rand-paul-eric-holder:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -859,246 +860,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "al-qaeda-software",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "albert-stubblebine",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "alexa",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "andrew-feinstein",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "anoir-alaki",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "bay-path-university",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "belmarsh-prison",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "benjamin-netanyahu",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "bob-trout",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "british-bases-in-cyprus",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "chaos-computer-club-wikileaks",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "chelsea-manning-emergence",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "chelsea-manning",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "church-committee-mk-ultra-investigation",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "cia-remote-vehicle-control",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "cia-torture-program-whistleblowing",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "cia-training-doctrine",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "collateral-murder-video",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "cory-booker",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "daniel-domscheit-berg-wikileaks",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "der-spiegel",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "donald-trump",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "eric-swallwell",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "espionage-act-whistleblower-cases",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "ethan-mccord-collateral-murder",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "james-jesus-angleton",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "joe-kent",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "joe-weisberg",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "john-kiriakou-whistleblower-advice",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "julian-assange-political-prisoner",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "julian-assange-secure-drop",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "julian-assange-wikileaks-role",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "julian-assange",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "kiriakou-introduction-to-wikileaks",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "lsd-mind-manipulation",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "mark-levin-iran-policy",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "mark-zuckerberg-angela-merkel-meeting",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "mccain-feinstein-amendment",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "meredith-whittaker",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "only-fans",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "pam-bondi-epstein-scandal",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "pam-bondi-eric-swallwell",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "podcast-bros",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "rand-paul-eric-holder",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "ray-mcgovern-vault-7",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "restraint-camp",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "russell-tark",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "securedrop",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "steven-saunders",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "the-sociopath-next-door",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "thomas-drake",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "todd-blanch",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "trump-iran-ceasefire-efforts",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "vault-7-revelations",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "wikileaks-and-trump",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "wikileaks-arab-spring",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "wikileaks-as-a-system",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "wikileaks-ngo-transformation",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "wikileaks-post-2010",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
-    {
-      "slug": "zbigniew-brzezinski",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
     {
       "slug": "1953-iran-coup",
       "added": "2026-07-12T03:21:07.921Z"
@@ -2133,10 +1894,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
