@@ -238,7 +238,8 @@
     "dyk:asset-acquisition-cycle:6",
     "quote:john-kiriakou:133",
     "dyk:john-paul-ii-cia:0",
-    "quote:section-702:6"
+    "quote:section-702:6",
+    "new:akrotiri-village-evacuation"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -858,10 +859,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "akrotiri-village-evacuation",
-      "added": "2026-06-29T07:26:23.745Z"
-    },
     {
       "slug": "al-qaeda-software",
       "added": "2026-06-29T07:26:23.745Z"
@@ -2136,10 +2133,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
