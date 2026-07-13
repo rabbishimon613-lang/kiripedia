@@ -240,7 +240,8 @@
     "dyk:john-paul-ii-cia:0",
     "quote:section-702:6",
     "new:akrotiri-village-evacuation",
-    "dyk:rand-paul-eric-holder:1"
+    "dyk:rand-paul-eric-holder:1",
+    "new:1953-iran-coup"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -860,10 +861,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "1953-iran-coup",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "911-attribution-of-responsibility",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1894,10 +1891,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
