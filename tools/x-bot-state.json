@@ -241,7 +241,8 @@
     "quote:section-702:6",
     "new:akrotiri-village-evacuation",
     "dyk:rand-paul-eric-holder:1",
-    "new:1953-iran-coup"
+    "new:1953-iran-coup",
+    "dyk:fci-loretto:12"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1891,10 +1892,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
