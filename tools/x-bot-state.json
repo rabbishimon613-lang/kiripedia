@@ -252,7 +252,8 @@
     "dyk:abu-zubaydah:14",
     "quote:palantir:1",
     "dyk:iran-contra:2",
-    "new:abu-omar-rendition"
+    "new:abu-omar-rendition",
+    "dyk:andres-serrano:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1886,10 +1887,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
