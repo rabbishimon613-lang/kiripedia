@@ -249,7 +249,8 @@
     "new:abolish-the-cia",
     "dyk:kiriakou-introduction-to-wikileaks:0",
     "new:abraham-bolden",
-    "dyk:abu-zubaydah:14"
+    "dyk:abu-zubaydah:14",
+    "quote:palantir:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1887,10 +1888,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
