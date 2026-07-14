@@ -247,7 +247,8 @@
     "new:911-attribution-of-responsibility",
     "quote:juan-guaido:0",
     "new:abolish-the-cia",
-    "dyk:kiriakou-introduction-to-wikileaks:0"
+    "dyk:kiriakou-introduction-to-wikileaks:0",
+    "new:abraham-bolden"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -867,10 +868,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "abraham-bolden",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "abu-omar-rendition",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1889,10 +1886,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
