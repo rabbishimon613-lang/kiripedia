@@ -251,7 +251,8 @@
     "new:abraham-bolden",
     "dyk:abu-zubaydah:14",
     "quote:palantir:1",
-    "dyk:iran-contra:2"
+    "dyk:iran-contra:2",
+    "new:abu-omar-rendition"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -871,10 +872,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "abu-omar-rendition",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "adnan-khashoggi",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1889,10 +1886,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
