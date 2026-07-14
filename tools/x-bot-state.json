@@ -246,7 +246,8 @@
     "quote:iran-nuclear-assessment:11",
     "new:911-attribution-of-responsibility",
     "quote:juan-guaido:0",
-    "new:abolish-the-cia"
+    "new:abolish-the-cia",
+    "dyk:kiriakou-introduction-to-wikileaks:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1888,10 +1889,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
