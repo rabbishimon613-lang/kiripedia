@@ -250,7 +250,8 @@
     "dyk:kiriakou-introduction-to-wikileaks:0",
     "new:abraham-bolden",
     "dyk:abu-zubaydah:14",
-    "quote:palantir:1"
+    "quote:palantir:1",
+    "dyk:iran-contra:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1888,10 +1889,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
