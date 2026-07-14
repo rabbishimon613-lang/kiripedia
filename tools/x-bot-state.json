@@ -245,7 +245,8 @@
     "dyk:fci-loretto:12",
     "quote:iran-nuclear-assessment:11",
     "new:911-attribution-of-responsibility",
-    "quote:juan-guaido:0"
+    "quote:juan-guaido:0",
+    "new:abolish-the-cia"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -865,10 +866,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "abolish-the-cia",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "abraham-bolden",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1891,10 +1888,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "new",
-    "quote"
+    "quote",
+    "new"
   ]
 }
