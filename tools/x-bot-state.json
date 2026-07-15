@@ -259,7 +259,8 @@
     "dyk:greenland:0",
     "new:afghanistan-2011-kerry-trip",
     "dyk:bilderberg-weapon-sales:0",
-    "quote:abu-zubaydah:21"
+    "quote:abu-zubaydah:21",
+    "dyk:james-clapper:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1885,10 +1886,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
