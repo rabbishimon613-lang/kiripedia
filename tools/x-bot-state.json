@@ -257,7 +257,8 @@
     "quote:cia-drug-facilitation:1",
     "new:adnan-khashoggi",
     "dyk:greenland:0",
-    "new:afghanistan-2011-kerry-trip"
+    "new:afghanistan-2011-kerry-trip",
+    "dyk:bilderberg-weapon-sales:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1883,10 +1884,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
