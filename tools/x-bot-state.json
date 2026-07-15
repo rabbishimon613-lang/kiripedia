@@ -254,7 +254,8 @@
     "dyk:iran-contra:2",
     "new:abu-omar-rendition",
     "dyk:andres-serrano:1",
-    "quote:cia-drug-facilitation:1"
+    "quote:cia-drug-facilitation:1",
+    "new:adnan-khashoggi"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -874,10 +875,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "adnan-khashoggi",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "afghanistan-2011-kerry-trip",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1888,10 +1885,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
