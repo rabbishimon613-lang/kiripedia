@@ -256,7 +256,8 @@
     "dyk:andres-serrano:1",
     "quote:cia-drug-facilitation:1",
     "new:adnan-khashoggi",
-    "dyk:greenland:0"
+    "dyk:greenland:0",
+    "new:afghanistan-2011-kerry-trip"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -876,10 +877,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "afghanistan-2011-kerry-trip",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "afia-sadiki",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1886,10 +1883,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
