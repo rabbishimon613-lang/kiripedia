@@ -255,7 +255,8 @@
     "new:abu-omar-rendition",
     "dyk:andres-serrano:1",
     "quote:cia-drug-facilitation:1",
-    "new:adnan-khashoggi"
+    "new:adnan-khashoggi",
+    "dyk:greenland:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1885,10 +1886,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
