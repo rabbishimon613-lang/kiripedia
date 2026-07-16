@@ -264,7 +264,8 @@
     "quote:israeli-art-student-spy-ring:2",
     "dyk:doing-time-like-a-spy:7",
     "quote:john-kiriakou:166",
-    "dyk:robert-hanssen:6"
+    "dyk:robert-hanssen:6",
+    "quote:john-kiriakou:149"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1890,10 +1891,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
