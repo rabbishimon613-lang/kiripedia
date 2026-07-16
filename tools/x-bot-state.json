@@ -265,7 +265,8 @@
     "dyk:doing-time-like-a-spy:7",
     "quote:john-kiriakou:166",
     "dyk:robert-hanssen:6",
-    "quote:john-kiriakou:149"
+    "quote:john-kiriakou:149",
+    "dyk:zawahiri-assassination:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1891,10 +1892,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
