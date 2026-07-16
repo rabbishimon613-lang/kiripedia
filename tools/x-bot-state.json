@@ -268,7 +268,8 @@
     "quote:john-kiriakou:149",
     "dyk:zawahiri-assassination:0",
     "quote:john-kiriakou:67",
-    "dyk:tulsi-gabbard:2"
+    "dyk:tulsi-gabbard:2",
+    "new:afia-sadiki"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -888,10 +889,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "afia-sadiki",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "agnes-von-kurowsky-grave-story",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1894,10 +1891,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
