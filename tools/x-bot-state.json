@@ -262,7 +262,8 @@
     "quote:abu-zubaydah:21",
     "dyk:james-clapper:2",
     "quote:israeli-art-student-spy-ring:2",
-    "dyk:doing-time-like-a-spy:7"
+    "dyk:doing-time-like-a-spy:7",
+    "quote:john-kiriakou:166"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1888,10 +1889,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
