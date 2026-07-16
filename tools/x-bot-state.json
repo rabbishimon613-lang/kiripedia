@@ -267,7 +267,8 @@
     "dyk:robert-hanssen:6",
     "quote:john-kiriakou:149",
     "dyk:zawahiri-assassination:0",
-    "quote:john-kiriakou:67"
+    "quote:john-kiriakou:67",
+    "dyk:tulsi-gabbard:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1893,10 +1894,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
