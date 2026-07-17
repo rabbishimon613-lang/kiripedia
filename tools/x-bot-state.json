@@ -274,7 +274,8 @@
     "new:agnes-von-kurowsky-grave-story",
     "dyk:bojinka-plot:2",
     "new:al-qaeda-training-manual-interrogation-tactics",
-    "quote:enhanced-interrogation:1"
+    "quote:enhanced-interrogation:1",
+    "new:alan-dershowitz"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -894,10 +895,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "alan-dershowitz",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "alec-baldwin",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1888,10 +1885,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "new",
-    "quote"
+    "quote",
+    "new"
   ]
 }
