@@ -272,7 +272,8 @@
     "new:afia-sadiki",
     "quote:george-tenet:11",
     "new:agnes-von-kurowsky-grave-story",
-    "dyk:bojinka-plot:2"
+    "dyk:bojinka-plot:2",
+    "new:al-qaeda-training-manual-interrogation-tactics"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -892,10 +893,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "al-qaeda-training-manual-interrogation-tactics",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "alan-dershowitz",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1890,10 +1887,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
