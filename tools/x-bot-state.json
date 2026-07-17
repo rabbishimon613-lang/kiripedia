@@ -275,7 +275,8 @@
     "dyk:bojinka-plot:2",
     "new:al-qaeda-training-manual-interrogation-tactics",
     "quote:enhanced-interrogation:1",
-    "new:alan-dershowitz"
+    "new:alan-dershowitz",
+    "quote:fci-loretto:5"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1885,10 +1886,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "quote",
-    "new"
+    "new",
+    "quote"
   ]
 }
