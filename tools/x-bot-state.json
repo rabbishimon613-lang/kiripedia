@@ -269,7 +269,8 @@
     "dyk:zawahiri-assassination:0",
     "quote:john-kiriakou:67",
     "dyk:tulsi-gabbard:2",
-    "new:afia-sadiki"
+    "new:afia-sadiki",
+    "quote:george-tenet:11"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1891,10 +1892,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "new"
+    "new",
+    "quote"
   ]
 }
