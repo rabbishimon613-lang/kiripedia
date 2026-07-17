@@ -273,7 +273,8 @@
     "quote:george-tenet:11",
     "new:agnes-von-kurowsky-grave-story",
     "dyk:bojinka-plot:2",
-    "new:al-qaeda-training-manual-interrogation-tactics"
+    "new:al-qaeda-training-manual-interrogation-tactics",
+    "quote:enhanced-interrogation:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1887,10 +1888,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "new",
     "dyk",
-    "new"
+    "new",
+    "quote"
   ]
 }
