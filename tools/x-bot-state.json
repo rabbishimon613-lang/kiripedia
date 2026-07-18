@@ -283,7 +283,8 @@
     "quote:volodymyr-zelensky:0",
     "new:alex-padilla",
     "quote:asset-acquisition-cycle:1",
-    "dyk:noelle-dunphy:1"
+    "dyk:noelle-dunphy:1",
+    "quote:jfk-assassination:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1885,10 +1886,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
