@@ -276,7 +276,8 @@
     "new:al-qaeda-training-manual-interrogation-tactics",
     "quote:enhanced-interrogation:1",
     "new:alan-dershowitz",
-    "quote:fci-loretto:5"
+    "quote:fci-loretto:5",
+    "dyk:john-kiriakou:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1886,10 +1887,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "quote",
     "new",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
