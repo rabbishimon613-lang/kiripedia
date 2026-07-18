@@ -277,7 +277,8 @@
     "quote:enhanced-interrogation:1",
     "new:alan-dershowitz",
     "quote:fci-loretto:5",
-    "dyk:john-kiriakou:1"
+    "dyk:john-kiriakou:1",
+    "new:alec-baldwin"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -897,10 +898,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "alec-baldwin",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "alex-padilla",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1887,10 +1884,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "new",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
