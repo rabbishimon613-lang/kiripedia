@@ -278,7 +278,8 @@
     "new:alan-dershowitz",
     "quote:fci-loretto:5",
     "dyk:john-kiriakou:1",
-    "new:alec-baldwin"
+    "new:alec-baldwin",
+    "dyk:bill-binney:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1884,10 +1885,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
