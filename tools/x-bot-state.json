@@ -280,7 +280,8 @@
     "dyk:john-kiriakou:1",
     "new:alec-baldwin",
     "dyk:bill-binney:0",
-    "quote:volodymyr-zelensky:0"
+    "quote:volodymyr-zelensky:0",
+    "new:alex-padilla"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -900,10 +901,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "alex-padilla",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "alex-station",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1886,10 +1883,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
