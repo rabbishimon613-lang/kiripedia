@@ -282,7 +282,8 @@
     "dyk:bill-binney:0",
     "quote:volodymyr-zelensky:0",
     "new:alex-padilla",
-    "quote:asset-acquisition-cycle:1"
+    "quote:asset-acquisition-cycle:1",
+    "dyk:noelle-dunphy:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1884,10 +1885,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "new",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
