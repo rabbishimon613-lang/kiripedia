@@ -289,7 +289,8 @@
     "dyk:recruitment-attempts-on-kiriakou:2",
     "new:alfreda-bikowsky",
     "quote:abu-zubaydah:7",
-    "dyk:intelligence-identities-protection-act:1"
+    "dyk:intelligence-identities-protection-act:1",
+    "new:ali-mohamed"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -909,10 +910,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "ali-mohamed",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "allen-dulles",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1883,10 +1880,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
