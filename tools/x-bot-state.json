@@ -284,7 +284,8 @@
     "new:alex-padilla",
     "quote:asset-acquisition-cycle:1",
     "dyk:noelle-dunphy:1",
-    "quote:jfk-assassination:1"
+    "quote:jfk-assassination:1",
+    "new:alex-station"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -904,10 +905,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "alex-station",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "alfreda-bikowsky",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1886,10 +1883,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
