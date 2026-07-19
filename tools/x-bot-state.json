@@ -285,7 +285,8 @@
     "quote:asset-acquisition-cycle:1",
     "dyk:noelle-dunphy:1",
     "quote:jfk-assassination:1",
-    "new:alex-station"
+    "new:alex-station",
+    "dyk:recruitment-attempts-on-kiriakou:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1883,10 +1884,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
