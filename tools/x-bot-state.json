@@ -291,7 +291,8 @@
     "quote:abu-zubaydah:7",
     "dyk:intelligence-identities-protection-act:1",
     "new:ali-mohamed",
-    "quote:shin-bet:0"
+    "quote:shin-bet:0",
+    "new:allen-dulles"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -911,10 +912,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "allen-dulles",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "andrew-bustamante",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1881,10 +1878,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "dyk",
     "new",
-    "quote"
+    "quote",
+    "new"
   ]
 }
