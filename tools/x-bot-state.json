@@ -288,7 +288,8 @@
     "new:alex-station",
     "dyk:recruitment-attempts-on-kiriakou:2",
     "new:alfreda-bikowsky",
-    "quote:abu-zubaydah:7"
+    "quote:abu-zubaydah:7",
+    "dyk:intelligence-identities-protection-act:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1882,10 +1883,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "new",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
