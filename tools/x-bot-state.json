@@ -286,7 +286,8 @@
     "dyk:noelle-dunphy:1",
     "quote:jfk-assassination:1",
     "new:alex-station",
-    "dyk:recruitment-attempts-on-kiriakou:2"
+    "dyk:recruitment-attempts-on-kiriakou:2",
+    "new:alfreda-bikowsky"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -906,10 +907,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "alfreda-bikowsky",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "ali-mohamed",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1884,10 +1881,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
