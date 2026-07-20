@@ -293,7 +293,8 @@
     "new:ali-mohamed",
     "quote:shin-bet:0",
     "new:allen-dulles",
-    "dyk:bill-binney:1"
+    "dyk:bill-binney:1",
+    "new:andrew-bustamante"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -913,10 +914,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "andrew-bustamante",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "andrew-warren",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1879,10 +1876,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
