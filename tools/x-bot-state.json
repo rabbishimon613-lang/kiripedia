@@ -292,7 +292,8 @@
     "dyk:intelligence-identities-protection-act:1",
     "new:ali-mohamed",
     "quote:shin-bet:0",
-    "new:allen-dulles"
+    "new:allen-dulles",
+    "dyk:bill-binney:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1878,10 +1879,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "new",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
