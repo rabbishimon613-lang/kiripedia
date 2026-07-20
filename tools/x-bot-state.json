@@ -297,7 +297,8 @@
     "new:andrew-bustamante",
     "dyk:kiriakou-cuba-trip:3",
     "quote:blackwater:1",
-    "dyk:below-worlds-end:0"
+    "dyk:below-worlds-end:0",
+    "quote:tuesday-morning-kill-list:6"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1879,10 +1880,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
