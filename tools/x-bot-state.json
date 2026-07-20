@@ -298,7 +298,8 @@
     "dyk:kiriakou-cuba-trip:3",
     "quote:blackwater:1",
     "dyk:below-worlds-end:0",
-    "quote:tuesday-morning-kill-list:6"
+    "quote:tuesday-morning-kill-list:6",
+    "new:andrew-warren"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -918,10 +919,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "andrew-warren",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "andy-warhol-encounter",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1880,10 +1877,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
