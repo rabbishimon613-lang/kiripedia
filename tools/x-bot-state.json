@@ -299,7 +299,8 @@
     "quote:blackwater:1",
     "dyk:below-worlds-end:0",
     "quote:tuesday-morning-kill-list:6",
-    "new:andrew-warren"
+    "new:andrew-warren",
+    "quote:john-kiriakou:111"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1877,10 +1878,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "quote"
   ]
 }
