@@ -301,7 +301,8 @@
     "quote:tuesday-morning-kill-list:6",
     "new:andrew-warren",
     "quote:john-kiriakou:111",
-    "new:andy-warhol-encounter"
+    "new:andy-warhol-encounter",
+    "dyk:robert-mueller:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1875,10 +1876,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
