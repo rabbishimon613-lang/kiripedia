@@ -305,7 +305,8 @@
     "dyk:robert-mueller:1",
     "otd:kamala-harris:2024-07-21",
     "quote:fci-loretto:22",
-    "new:arkady-shevchenko"
+    "new:arkady-shevchenko",
+    "quote:mk-ultra:8"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1875,10 +1876,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "otd",
     "quote",
-    "new"
+    "new",
+    "quote"
   ]
 }
