@@ -306,7 +306,8 @@
     "otd:kamala-harris:2024-07-21",
     "quote:fci-loretto:22",
     "new:arkady-shevchenko",
-    "quote:mk-ultra:8"
+    "quote:mk-ultra:8",
+    "new:arnon-milchan"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -926,10 +927,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "arnon-milchan",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "assange-plea-deal",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1876,10 +1873,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "otd",
     "quote",
     "new",
-    "quote"
+    "quote",
+    "new"
   ]
 }
