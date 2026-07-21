@@ -307,7 +307,8 @@
     "quote:fci-loretto:22",
     "new:arkady-shevchenko",
     "quote:mk-ultra:8",
-    "new:arnon-milchan"
+    "new:arnon-milchan",
+    "quote:dgse:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1873,10 +1874,10 @@
     }
   ],
   "lastTypes": [
-    "otd",
     "quote",
     "new",
     "quote",
-    "new"
+    "new",
+    "quote"
   ]
 }
