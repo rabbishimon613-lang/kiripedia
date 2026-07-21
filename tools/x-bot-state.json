@@ -300,7 +300,8 @@
     "dyk:below-worlds-end:0",
     "quote:tuesday-morning-kill-list:6",
     "new:andrew-warren",
-    "quote:john-kiriakou:111"
+    "quote:john-kiriakou:111",
+    "new:andy-warhol-encounter"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -920,10 +921,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "andy-warhol-encounter",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "arkady-shevchenko",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1878,10 +1875,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "new",
-    "quote"
+    "quote",
+    "new"
   ]
 }
