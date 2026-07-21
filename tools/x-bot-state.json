@@ -304,7 +304,8 @@
     "new:andy-warhol-encounter",
     "dyk:robert-mueller:1",
     "otd:kamala-harris:2024-07-21",
-    "quote:fci-loretto:22"
+    "quote:fci-loretto:22",
+    "new:arkady-shevchenko"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -924,10 +925,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "arkady-shevchenko",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "arnon-milchan",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1878,10 +1875,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "otd",
-    "quote"
+    "quote",
+    "new"
   ]
 }
