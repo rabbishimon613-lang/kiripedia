@@ -302,7 +302,8 @@
     "new:andrew-warren",
     "quote:john-kiriakou:111",
     "new:andy-warhol-encounter",
-    "dyk:robert-mueller:1"
+    "dyk:robert-mueller:1",
+    "otd:kamala-harris:2024-07-21"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1876,10 +1877,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "otd"
   ]
 }
