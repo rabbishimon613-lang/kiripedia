@@ -310,7 +310,8 @@
     "new:arnon-milchan",
     "quote:dgse:2",
     "new:assange-plea-deal",
-    "dyk:intelligence-identities-protection-act:2"
+    "dyk:intelligence-identities-protection-act:2",
+    "new:athens-bank-fraud-report"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -930,10 +931,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "athens-bank-fraud-report",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "avril-haines",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1872,10 +1869,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
