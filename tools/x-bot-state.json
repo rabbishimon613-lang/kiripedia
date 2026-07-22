@@ -314,7 +314,8 @@
     "new:athens-bank-fraud-report",
     "dyk:edward-snowden:3",
     "new:avril-haines",
-    "dyk:cia-cash-room:0"
+    "dyk:cia-cash-room:0",
+    "quote:surveillance-detection-route:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1868,10 +1869,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
