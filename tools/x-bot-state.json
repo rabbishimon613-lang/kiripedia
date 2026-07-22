@@ -312,7 +312,8 @@
     "new:assange-plea-deal",
     "dyk:intelligence-identities-protection-act:2",
     "new:athens-bank-fraud-report",
-    "dyk:edward-snowden:3"
+    "dyk:edward-snowden:3",
+    "new:avril-haines"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -932,10 +933,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "avril-haines",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "bahrain-1994-1996-posting",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1870,10 +1867,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
