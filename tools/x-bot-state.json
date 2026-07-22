@@ -311,7 +311,8 @@
     "quote:dgse:2",
     "new:assange-plea-deal",
     "dyk:intelligence-identities-protection-act:2",
-    "new:athens-bank-fraud-report"
+    "new:athens-bank-fraud-report",
+    "dyk:edward-snowden:3"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1869,10 +1870,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "new",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
