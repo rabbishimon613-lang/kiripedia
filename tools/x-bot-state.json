@@ -308,7 +308,8 @@
     "new:arkady-shevchenko",
     "quote:mk-ultra:8",
     "new:arnon-milchan",
-    "quote:dgse:2"
+    "quote:dgse:2",
+    "new:assange-plea-deal"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -928,10 +929,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "assange-plea-deal",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "athens-bank-fraud-report",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1874,10 +1871,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "new",
-    "quote"
+    "quote",
+    "new"
   ]
 }
