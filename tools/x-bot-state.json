@@ -315,7 +315,8 @@
     "dyk:edward-snowden:3",
     "new:avril-haines",
     "dyk:cia-cash-room:0",
-    "quote:surveillance-detection-route:1"
+    "quote:surveillance-detection-route:1",
+    "new:bahrain-1994-1996-posting"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -935,10 +936,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "bahrain-1994-1996-posting",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "bahrain-fishing-officer-demarche",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1869,10 +1866,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "new",
     "dyk",
-    "quote"
+    "quote",
+    "new"
   ]
 }
