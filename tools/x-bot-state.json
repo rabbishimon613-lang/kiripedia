@@ -320,7 +320,8 @@
     "dyk:access-agent:2",
     "quote:mossad:9",
     "dyk:mark-mcdougall:0",
-    "quote:cia:19"
+    "quote:cia:19",
+    "dyk:abu-zubaydah:13"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1870,10 +1871,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
