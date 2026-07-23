@@ -316,7 +316,8 @@
     "new:avril-haines",
     "dyk:cia-cash-room:0",
     "quote:surveillance-detection-route:1",
-    "new:bahrain-1994-1996-posting"
+    "new:bahrain-1994-1996-posting",
+    "dyk:access-agent:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1866,10 +1867,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "quote",
-    "new"
+    "new",
+    "dyk"
   ]
 }
