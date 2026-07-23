@@ -319,7 +319,8 @@
     "new:bahrain-1994-1996-posting",
     "dyk:access-agent:2",
     "quote:mossad:9",
-    "dyk:mark-mcdougall:0"
+    "dyk:mark-mcdougall:0",
+    "quote:cia:19"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1869,10 +1870,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
