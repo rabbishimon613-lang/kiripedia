@@ -322,7 +322,8 @@
     "dyk:mark-mcdougall:0",
     "quote:cia:19",
     "dyk:abu-zubaydah:13",
-    "quote:john-oneill:0"
+    "quote:john-oneill:0",
+    "dyk:national-security-agency:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1872,10 +1873,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
