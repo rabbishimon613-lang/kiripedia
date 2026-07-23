@@ -317,7 +317,8 @@
     "dyk:cia-cash-room:0",
     "quote:surveillance-detection-route:1",
     "new:bahrain-1994-1996-posting",
-    "dyk:access-agent:2"
+    "dyk:access-agent:2",
+    "quote:mossad:9"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1867,10 +1868,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "new",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
