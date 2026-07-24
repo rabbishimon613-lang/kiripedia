@@ -329,7 +329,8 @@
     "new:bahrain-intifada-1994",
     "dyk:abu-zubaydah:16",
     "quote:mossad:5",
-    "dyk:kiriakou-transfer-to-operations:0"
+    "dyk:kiriakou-transfer-to-operations:0",
+    "quote:mi6:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1871,10 +1872,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "new",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
