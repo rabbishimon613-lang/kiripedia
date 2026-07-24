@@ -325,7 +325,8 @@
     "quote:john-oneill:0",
     "dyk:national-security-agency:1",
     "new:bahrain-fishing-officer-demarche",
-    "dyk:cia:0"
+    "dyk:cia:0",
+    "new:bahrain-intifada-1994"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -945,10 +946,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "bahrain-intifada-1994",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "bahrain-prime-minister-mr-10-percent",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1871,10 +1868,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "new",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
