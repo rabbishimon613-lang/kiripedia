@@ -326,7 +326,8 @@
     "dyk:national-security-agency:1",
     "new:bahrain-fishing-officer-demarche",
     "dyk:cia:0",
-    "new:bahrain-intifada-1994"
+    "new:bahrain-intifada-1994",
+    "dyk:abu-zubaydah:16"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1868,10 +1869,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "new",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
