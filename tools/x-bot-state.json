@@ -324,7 +324,8 @@
     "dyk:abu-zubaydah:13",
     "quote:john-oneill:0",
     "dyk:national-security-agency:1",
-    "new:bahrain-fishing-officer-demarche"
+    "new:bahrain-fishing-officer-demarche",
+    "dyk:cia:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1870,10 +1871,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
