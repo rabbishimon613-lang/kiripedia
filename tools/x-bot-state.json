@@ -331,7 +331,8 @@
     "quote:mossad:5",
     "dyk:kiriakou-transfer-to-operations:0",
     "quote:mi6:2",
-    "dyk:plato-cacheris:0"
+    "dyk:plato-cacheris:0",
+    "quote:harold-james-nicholson:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1873,10 +1874,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
