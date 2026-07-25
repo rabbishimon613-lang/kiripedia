@@ -8,13 +8,10 @@ dist
 .vercel/
 .vercel
 
-# The pixel-office is a separate git repo (forked upstream).
-# Its static build output at public/office/ IS committed.
+# Local scratch from the retired research-fleet build (untracked, kept on disk).
 /office/
-
-# Botnet runtime state — never commit the SQLite store or quarantine dumps.
-botnet/data/
-botnet/quarantine/
+/botnet/
+/fleet/
 
 # Working scratch from prior ingest sessions.
 codex articles/
