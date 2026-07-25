@@ -338,7 +338,8 @@
     "quote:saddam-hussein:6",
     "dyk:ross-ulbricht:0",
     "quote:jeffrey-epstein:19",
-    "dyk:sociopathic-tendencies:3"
+    "dyk:sociopathic-tendencies:3",
+    "new:barack-obama"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -385,6 +386,7 @@
     "andrew-feinstein",
     "andrew-warren",
     "andy-warhol-encounter",
+    "angry-birds",
     "anwar-al-awlaki",
     "april-glaspie",
     "aq-khan",
@@ -958,10 +960,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "barack-obama",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "barry-pollock",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1873,13 +1871,17 @@
     {
       "slug": "kiriakou-on-the-israeli-occupation",
       "added": "2026-07-12T08:26:04.231Z"
+    },
+    {
+      "slug": "angry-birds",
+      "added": "2026-07-25T19:11:54.126Z"
     }
   ],
   "lastTypes": [
-    "new",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
