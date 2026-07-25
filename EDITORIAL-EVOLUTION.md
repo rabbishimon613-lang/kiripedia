@@ -139,6 +139,7 @@ That is the editorial inheritance. Workers are dumb; doctrine lives in prompts; 
 
 - Doctrine (locked in): `ARTICLE-WORKFLOW.md` §"Doctrine constraints", §"STRICT events: rule", §"Wikilink integrity".
 - Per-ingest playbook (current automation): `INGEST.md`.
-- Fleet roles (Era 4): `fleet/HARBOR-MASTER.md`, `fleet/plant/prompts/{filleting,deboning,canning}.md`.
-- Research team rework (Era 5 plan): `RESEARCH-TEAM.md`, `TEAM-REWORK.md`.
+- Fleet roles (Era 4) and the research-team rework (Era 5): the code, prompts and
+  planning docs for both were retired and removed from the repo. They survive only
+  in git history — see the commit that removed `botnet/`, `fleet/` and `evaluations/`.
 - Voice calibration: see the project memory on "per Kiriakou" being acceptable in summaries; ≤2 body attributions per article.
