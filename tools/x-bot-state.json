@@ -335,7 +335,8 @@
     "quote:harold-james-nicholson:0",
     "dyk:abu-omar-rendition:0",
     "new:bahrain-prime-minister-mr-10-percent",
-    "quote:saddam-hussein:6"
+    "quote:saddam-hussein:6",
+    "dyk:ross-ulbricht:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1873,10 +1874,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "new",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
