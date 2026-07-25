@@ -339,7 +339,8 @@
     "dyk:ross-ulbricht:0",
     "quote:jeffrey-epstein:19",
     "dyk:sociopathic-tendencies:3",
-    "new:barack-obama"
+    "new:barack-obama",
+    "dyk:mir-aimal-kansi-attack:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1878,10 +1879,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "new"
+    "new",
+    "dyk"
   ]
 }
