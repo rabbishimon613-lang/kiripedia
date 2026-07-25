@@ -333,7 +333,8 @@
     "quote:mi6:2",
     "dyk:plato-cacheris:0",
     "quote:harold-james-nicholson:0",
-    "dyk:abu-omar-rendition:0"
+    "dyk:abu-omar-rendition:0",
+    "new:bahrain-prime-minister-mr-10-percent"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -953,10 +954,6 @@
     "zero-dark-thirty"
   ],
   "queue": [
-    {
-      "slug": "bahrain-prime-minister-mr-10-percent",
-      "added": "2026-07-12T03:21:07.921Z"
-    },
     {
       "slug": "barack-obama",
       "added": "2026-07-12T03:21:07.921Z"
@@ -1875,10 +1872,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
