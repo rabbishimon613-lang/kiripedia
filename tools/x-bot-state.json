@@ -345,7 +345,8 @@
     "new:kiriakou-on-the-israeli-occupation",
     "quote:national-intelligence-council:0",
     "dyk:plato-cacheris:6",
-    "quote:eric-oneill:1"
+    "quote:eric-oneill:1",
+    "dyk:ted-rall:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -972,10 +973,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "new",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
