@@ -344,7 +344,8 @@
     "quote:abu-nidal-disruption:0",
     "new:kiriakou-on-the-israeli-occupation",
     "quote:national-intelligence-council:0",
-    "dyk:plato-cacheris:6"
+    "dyk:plato-cacheris:6",
+    "quote:eric-oneill:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -971,10 +972,10 @@
     }
   ],
   "lastTypes": [
-    "dyk",
     "quote",
     "new",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
