@@ -343,7 +343,8 @@
     "dyk:mir-aimal-kansi-attack:1",
     "quote:abu-nidal-disruption:0",
     "new:kiriakou-on-the-israeli-occupation",
-    "quote:national-intelligence-council:0"
+    "quote:national-intelligence-council:0",
+    "dyk:plato-cacheris:6"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -970,10 +971,10 @@
     }
   ],
   "lastTypes": [
-    "new",
     "dyk",
     "quote",
     "new",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
