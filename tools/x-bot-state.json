@@ -347,7 +347,8 @@
     "dyk:plato-cacheris:6",
     "quote:eric-oneill:1",
     "dyk:ted-rall:0",
-    "quote:doing-time-like-a-spy:15"
+    "quote:doing-time-like-a-spy:15",
+    "dyk:richard-perle:3"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -974,10 +975,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
