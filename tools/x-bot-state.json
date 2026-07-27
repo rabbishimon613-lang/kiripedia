@@ -354,7 +354,8 @@
     "new:angry-birds",
     "quote:john-kiriakou:98",
     "dyk:john-kerry:2",
-    "quote:the-farm:8"
+    "quote:the-farm:8",
+    "dyk:ilhan-omar:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -976,10 +977,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "new",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
