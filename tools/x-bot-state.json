@@ -350,7 +350,8 @@
     "quote:doing-time-like-a-spy:15",
     "dyk:richard-perle:3",
     "quote:john-kerry:6",
-    "dyk:mexican-9-month-work-visas:0"
+    "dyk:mexican-9-month-work-visas:0",
+    "new:angry-birds"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -970,17 +971,12 @@
     "zbigniew-brzezinski",
     "zero-dark-thirty"
   ],
-  "queue": [
-    {
-      "slug": "angry-birds",
-      "added": "2026-07-25T19:11:54.126Z"
-    }
-  ],
+  "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "new"
   ]
 }
