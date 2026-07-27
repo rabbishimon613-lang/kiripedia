@@ -355,7 +355,8 @@
     "quote:john-kiriakou:98",
     "dyk:john-kerry:2",
     "quote:the-farm:8",
-    "dyk:ilhan-omar:1"
+    "dyk:ilhan-omar:1",
+    "quote:john-kiriakou:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -977,10 +978,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "new",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
