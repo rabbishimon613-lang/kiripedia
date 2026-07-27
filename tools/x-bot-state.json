@@ -351,7 +351,8 @@
     "dyk:richard-perle:3",
     "quote:john-kerry:6",
     "dyk:mexican-9-month-work-visas:0",
-    "new:angry-birds"
+    "new:angry-birds",
+    "quote:john-kiriakou:98"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -973,10 +974,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "new"
+    "new",
+    "quote"
   ]
 }
