@@ -349,7 +349,8 @@
     "dyk:ted-rall:0",
     "quote:doing-time-like-a-spy:15",
     "dyk:richard-perle:3",
-    "quote:john-kerry:6"
+    "quote:john-kerry:6",
+    "dyk:mexican-9-month-work-visas:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -976,10 +977,10 @@
     }
   ],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
