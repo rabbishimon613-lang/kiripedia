@@ -360,7 +360,8 @@
     "dyk:maduro-capture:3",
     "quote:cia:23",
     "dyk:israeli-intelligence-in-united-states:4",
-    "quote:john-kiriakou:27"
+    "quote:john-kiriakou:27",
+    "dyk:richard-perle:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -982,10 +983,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
