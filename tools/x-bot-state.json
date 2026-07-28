@@ -362,7 +362,8 @@
     "dyk:israeli-intelligence-in-united-states:4",
     "quote:john-kiriakou:27",
     "dyk:richard-perle:0",
-    "quote:skip-gnehm:3"
+    "quote:skip-gnehm:3",
+    "dyk:bojinka-plot:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -984,10 +985,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
