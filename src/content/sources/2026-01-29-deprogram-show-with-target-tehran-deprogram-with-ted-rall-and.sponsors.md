@@ -1,0 +1,22 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[54:31] normally the argument was always like, you know, there's one girl is cuter than the other. So, you'd be like, can I have her? Like, no, you get her. Whatever. Um, but with him it was the opposite. He'd be like, ah, look at her. She's disgusting. I can't wait to lick her from head to toe and be like what? And it was just like I mean best wingman ever, you know. No. And then he'd be like the next day I'd be like uh so what happened with uh you know the beefy one and he'd be like ah she was great. She
+
+[55:02] smelled terrible. She was even more horrible naked. It was like a it was a it was a fetish. I've never heard anyone talk about this fetish, but no. >> At least one person has it. Wow. >> People, human beings are weird as [ __ ] >> Yeah, we are. Yeah. [laughter] Yeah. >> Uh I mentioned John says, "Frasmat Dane Wigington is the person I have regarding that geoengineeringwatch.com or something like that." Solar. >> I remember that. I went to the website.
+
+[55:32] Yeah. >> Aluminum in the air. Dementia rates up. >> Yeah. I mean, there's also some conspiracy theories which I do not believe say that it's already started. No, I don't believe in chemtrails and all that silliness. No, >> no, that there's no Well, there's just no evidence. Just >> No, it's water vapor. >> Yeah. Yeah. No, exactly. Um, >> let's talk about the voter uh the Bonire thing, climate change. So, um, Bonire is a tiny little island diver. It's in the It's in the southwestern Caribbean.
+
+[56:04] >> Um, and, uh, it's a Dutch colony. Um the uh the the Bonire's Bonarians and the Grand Greenpeace went to court. Uh Dutch court ruled in their favor that uh Holland has not been doing a good job protecting them from the effect of climate change. The Dutch of all people should know the problems with rising sea levels. Um considering they have so much reclaimed land. Um Bonire was destroyed by a hurricane a few years ago. Um that was probably you know part at least in part climate change. um this we're gonna
+
+[56:35] see more and more of this kind of thing. I think it's kind of great, but it's of course too late. But I mean, >> well, I don't understand how the court could expect the Netherlands to be able to save Bonire. >> Well, because it's their because because it's their well, because it's their responsibility. They own it. >> Yeah. But what can they do to to reverse? >> Oh, they could climate change mitigation, right? like like they could build levies, they could uh the seaw
+
+[57:06] walls, that kind of thing. >> Okay. >> Um also, um this we should talk about Fulton County. Um >> yeah, we should. >> Trump's after is Trump's about he's we have a minute. Trump is after voting records. He's after Minnesota's voting records. Now the FBI has uh stolen Americans voter records from from Georgia. What's going on? What's what's the administration trying to do? you know, the the coverage of this was mocking in tone. Um,
+
+[57:37] I I honestly I don't know what he's trying to do. I mean, 2020 has come and gone. Joe Biden's not the president anymore. These allegations have have been debunked. Move on. Move on. I mean, even even if there was a crime, which nobody thinks there was, the statute of limitations would be over unless it's charged as a conspiracy. But even then, it's such an incredible stretch that even by the time you get to court, Donald Trump wouldn't be president
+
+[58:08] anymore. Just move on. >> But do you think this is an attempt to flip elections coming this fall? >> It's possible. Sure. >> And I don't know how it works. I mean, if anyone has any insight, please chime in. let us know. I'd be interested >> because I'm I have to admit I'm kind of the mind reels. Although it might occur to me in the shower tonight or something, right? >> Um anyway, thanks John for joining. Thanks everyone for liking, following, and sharing the show. Please stay tuned. TMI show with me and Mila Chan coming right up. Uh no DMZ America podcast. Not my fault. Scott is on the road today. We
+
+[58:40] will be doing DMZ um I don't know, probably over the weekend rescheduling Mr. Fish. Kind of a bummer. >> Oh shoot. He's terrific. >> He is great. But we'll get him back. Uh if not, we'll do it next week. I have an email out to him. Um okay. Anyway, thanks John. >> Thanks Ted. >> See you later. >> Bye everybody. >> Enjoy all your podcast today. Bye. [music]
