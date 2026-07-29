@@ -366,7 +366,8 @@
     "dyk:bojinka-plot:1",
     "quote:enhanced-interrogation:24",
     "dyk:operation-midnight-climax:2",
-    "quote:critical-analytic-thinking:1"
+    "quote:critical-analytic-thinking:1",
+    "dyk:julian-assange:3"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -988,10 +989,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
