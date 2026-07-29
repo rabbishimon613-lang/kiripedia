@@ -9,31 +9,71 @@ const DEFAULT_OG_IMAGE = `${SITE}/og.png`;
 
 const {
   title,
+  seoTitle,
+  titleQualifier,
   description = DEFAULT_DESCRIPTION,
   image = DEFAULT_OG_IMAGE,
   type = 'article',
+  robots,
   pathname = Astro.url.pathname,
 } = Astro.props;
 
-const fullTitle = title ? `${title} — KiriPedia` : 'KiriPedia';
+// Default robots directive for indexable pages: let Google show large image
+// thumbnails and full-length snippets (both raise CTR and AI-Overview
+// eligibility). Pages that pass their own `robots` (e.g. noindex on thin/
+// utility pages) keep that value untouched.
+const robotsContent =
+  robots ?? 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+
+// Google shows ~155–160 chars of the description; our article summaries run
+// ~300 median, so almost every snippet was truncated mid-word by Google. Trim
+// to a clean word boundary here (the full summary still renders on the page).
+function clampDescription(s, max = 155) {
+  const text = String(s ?? '').replace(/\s+/g, ' ').trim();
+  if (text.length <= max) return text;
+  const slice = text.slice(0, max - 1);
+  const cut = slice.slice(0, slice.lastIndexOf(' ') > 40 ? slice.lastIndexOf(' ') : slice.length);
+  return cut.replace(/[\s,;:.!—-]+$/, '') + '…';
+}
+
+const metaDescription = clampDescription(description);
+// Title precedence: explicit per-page seoTitle > headword + short qualifier >
+// bare headword. The qualifier ("Gust Avrakotos, CIA case officer") gives the
+// SERP a reason to click; the brand suffix stays last so the informative words
+// survive Google's ~60-char title truncation.
+const baseTitle = seoTitle
+  ? seoTitle
+  : (title
+      ? (titleQualifier ? `${title}, ${titleQualifier}` : title)
+      : null);
+const fullTitle = baseTitle ? `${baseTitle} — KiriPedia` : 'KiriPedia';
 const canonical = `${SITE}${pathname}`;
 const imageURL = image.startsWith('http') ? image : `${SITE}${image}`;
+const isDefaultImage = imageURL === DEFAULT_OG_IMAGE;
 ---
 <title>{fullTitle}</title>
-<meta name="description" content={description} />
+<meta name="description" content={metaDescription} />
 <link rel="canonical" href={canonical} />
+<meta name="robots" content={robotsContent} />
 
 <!-- Open Graph -->
 <meta property="og:type" content={type} />
 <meta property="og:site_name" content="KiriPedia" />
 <meta property="og:title" content={fullTitle} />
-<meta property="og:description" content={description} />
+<meta property="og:description" content={metaDescription} />
 <meta property="og:url" content={canonical} />
 <meta property="og:image" content={imageURL} />
+<meta property="og:image:alt" content={fullTitle} />
+{isDefaultImage && (
+  <>
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+  </>
+)}
 <meta property="og:locale" content="en_US" />
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={fullTitle} />
-<meta name="twitter:description" content={description} />
+<meta name="twitter:description" content={metaDescription} />
 <meta name="twitter:image" content={imageURL} />

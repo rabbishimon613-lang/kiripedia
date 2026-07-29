@@ -33,6 +33,13 @@ while ((m = citeRegex.exec(article.body)) !== null) {
   slug={article.id.replace(/\.mdx?$/, '')}
   infobox={article.data.infobox}
   updated={article.data.updated}
+  published={article.data.published}
+  wikidata={article.data.wikidata}
+  wikipedia={article.data.wikipedia}
+  seoTitle={article.data.seoTitle}
+  deck={article.data.deck}
+  noindex={article.data.noindex}
+  wordCount={(article.body ?? '').split(/\s+/).filter(Boolean).length}
   headings={headings}
 >
   {article.data.infobox && (

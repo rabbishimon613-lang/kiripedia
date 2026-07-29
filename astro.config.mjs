@@ -1,6 +1,16 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import { readFileSync } from 'node:fs';
+
+// Real per-article modified dates (last git commit), so the sitemap advertises
+// genuine freshness per URL instead of stamping the whole corpus "changed
+// today" on every deploy — the same distrust signal we already stripped from
+// JSON-LD dateModified. Fail soft to an empty map if the file is missing.
+let articleDates = {};
+try {
+  articleDates = JSON.parse(readFileSync(new URL('./src/data/article-dates.json', import.meta.url), 'utf8'));
+} catch { /* keep {} — falls back to build-time lastmod below */ }
 
 export default defineConfig({
   site: 'https://www.kiripedia.org',
@@ -51,6 +61,11 @@ export default defineConfig({
   integrations: [
     mdx(),
     sitemap({
+      // Keep thin/utility pages out of the sitemap: don't advertise the
+      // robots-blocked /search, the /random redirect endpoint, or low-value
+      // maintenance/index pages. These are also noindex'd at the page level.
+      filter: (page) =>
+        !/\/(search|random|needs-image|on-this-day|recent-changes|special\/all-pages)\/?$/.test(page),
       // Articles and stable browse pages get higher priority + weekly cadence.
       // Date-driven pages (on-this-day, sources/X) get daily.
       changefreq: 'weekly',
@@ -60,6 +75,10 @@ export default defineConfig({
         if (item.url.includes('/wiki/')) {
           item.priority = 0.8;
           item.changefreq = 'monthly';
+          // Stamp the article's real last-commit date, not the build time.
+          const slug = item.url.replace(/.*\/wiki\//, '').replace(/\/$/, '');
+          const mod = articleDates[slug]?.modified;
+          if (mod) item.lastmod = new Date(`${mod}T00:00:00Z`).toISOString();
         } else if (item.url.endsWith('www.kiripedia.org/')) {
           item.priority = 1.0;
           item.changefreq = 'daily';

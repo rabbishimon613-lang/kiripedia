@@ -232,11 +232,12 @@ const dykPoolHtml = allDyk.map((d) => mdLite(d.text));
 const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const todayDisplay = `${monthNames[Number(today.slice(5,7)) - 1]} ${Number(today.slice(8,10))}`;
 ---
-<WikiLayout title="Main Page">
+<WikiLayout title="Main Page" type="website">
   <div class="wiki-content">
     <div class="mainpage-welcome">
       <h1>Welcome to <strong>KiriPedia</strong>,</h1>
       <p>the free encyclopedia of the world as seen through John Kiriakou's eyes — drawn entirely from his publicly available interviews, podcasts, and short-form video appearances.</p>
+      <p>KiriPedia collects what <a href="/wiki/john-kiriakou">John Kiriakou</a> — the former <a href="/wiki/cia">CIA</a> officer who exposed the agency's post-9/11 <a href="/wiki/cia-torture-program-whistleblowing">torture program</a> and became the only official jailed in connection with it — has said, on the record, about the people, agencies, and events he witnessed. Every claim is tied to a timestamp in a specific recording: his account of <a href="/wiki/waterboarding">waterboarding</a> and <a href="/wiki/enhanced-interrogation">enhanced interrogation</a>, of <a href="/wiki/gina-haspel">Gina Haspel</a> and the destroyed <a href="/wiki/jose-rodriguez">interrogation tapes</a>, of the <a href="/wiki/espionage-act">Espionage Act</a> prosecutions of whistleblowers, and of decades of covert operations from <a href="/wiki/abu-zubaydah">Abu Zubaydah</a> to <a href="/wiki/julian-assange">Julian Assange</a>. This is not a neutral encyclopedia — it is the world as John Kiriakou describes it, with every source cited.</p>
       <p class="mainpage-stats">
         <strong>{count.toLocaleString()}</strong> articles ({peopleCount} <a href="/category/people">people</a>, {organizationsCount} <a href="/category/organizations">organizations</a>, {placesCount} <a href="/category/places">places</a>, {programsCount} <a href="/category/programs">programs</a>, {proceduresCount} <a href="/category/procedures">procedures</a>, {eventsCount} <a href="/category/events">events</a>), anchored to <strong>{citationsCount.toLocaleString()}</strong> cited timestamps across <strong>{sources.length}</strong> <a href="/sources">source recordings</a> totaling {totalSourceHours} hours of transcribed video and {totalWords.toLocaleString()} words written.
       </p>

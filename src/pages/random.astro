@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 const articles = await getCollection('articles');
 const slugs = articles.map((a) => a.id.replace(/\.mdx?$/, ''));
 ---
-<WikiLayout title="Random article">
+<WikiLayout title="Random article" robots="noindex, follow">
   <div class="wiki-content">
     <article class="wiki-body" style="text-align:center; padding:60px 20px">
       <p style="font-size:16px">Picking a random article…</p>

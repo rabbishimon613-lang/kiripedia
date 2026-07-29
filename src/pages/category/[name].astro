@@ -48,6 +48,7 @@ const collectionSchema = {
 <WikiLayout
   title={`Category: ${display}`}
   description={`${matching.length} KiriPedia articles in the ${display} category.`}
+  type="website"
 >
   <div class="wiki-content">
     <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />

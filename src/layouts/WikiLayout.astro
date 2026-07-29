@@ -2,32 +2,55 @@
 import '../styles/wiki.css';
 import Analytics from '@vercel/analytics/astro';
 import SEO from '../components/SEO.astro';
-const { title, description, image, type } = Astro.props;
+const { title, seoTitle, titleQualifier, description, image, type, robots } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <SEO title={title} description={description} image={image} type={type} />
+  <SEO title={title} seoTitle={seoTitle} titleQualifier={titleQualifier} description={description} image={image} type={type} robots={robots} />
   <meta name="google-site-verification" content="JvKQVSSl8FDIvQ5B7Lpd2l6dur8qW-T-jm3rmUerB20" />
   <link rel="icon" href="/logo.png" />
   <link rel="apple-touch-icon" href="/logo.png" />
   <link rel="alternate" type="application/rss+xml" title="KiriPedia — recent articles" href="/rss.xml" />
 
-  {/* Site-wide structured data: WebSite with SearchAction (gets sitelinks search box in Google) */}
+  {/* Site-wide structured data: Organization (brand entity) + WebSite with
+      SearchAction (sitelinks search box). Both carry stable @ids so per-article
+      Article/Person schema can reference them and Google can build one graph. */}
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "KiriPedia",
-    "alternateName": "Kiripedia",
-    "url": "https://www.kiripedia.org",
-    "description": "The free encyclopedia of the world as seen through John Kiriakou's eyes.",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://www.kiripedia.org/search?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.kiripedia.org/#org",
+        "name": "KiriPedia",
+        "alternateName": "Kiripedia",
+        "url": "https://www.kiripedia.org",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.kiripedia.org/logo.png",
+          "width": 512,
+          "height": 512
+        },
+        "description": "An encyclopedia compiled by Claude from the public statements of former CIA officer and whistleblower John Kiriakou."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.kiripedia.org/#website",
+        "name": "KiriPedia",
+        "alternateName": "Kiripedia",
+        "url": "https://www.kiripedia.org",
+        "description": "The free encyclopedia of the world as seen through John Kiriakou's eyes.",
+        "publisher": { "@id": "https://www.kiripedia.org/#org" },
+        "inLanguage": "en",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.kiripedia.org/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
   })} />
 </head>
 <body>

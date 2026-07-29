@@ -2,21 +2,127 @@
 import WikiLayout from './WikiLayout.astro';
 import References from '../components/References.astro';
 import TOC from '../components/TOC.astro';
+import { list, tsToSeconds } from '../lib/citations.mjs';
+import { getEntry } from 'astro:content';
+import articleDates from '../data/article-dates.json';
+
 const {
   title, subtitle, categories = [], image, slug,
-  infobox, updated, datePublished, headings = [],
+  infobox, updated, datePublished, published, wikidata, wikipedia, headings = [],
+  seoTitle, deck, noindex, wordCount,
 } = Astro.props;
 
 const SITE = 'https://www.kiripedia.org';
-const articleURL = slug ? `${SITE}/wiki/${slug}` : undefined;
+const ORG_ID = `${SITE}/#org`;
+const WEBSITE_ID = `${SITE}/#website`;
+const articleURL = slug ? `${SITE}/wiki/${slug}/` : undefined;
+const entityID = articleURL ? `${articleURL}#entity` : undefined;
 const isPerson = categories.includes('People');
 const primaryCategory = categories[0];
 const imageURL = image
   ? (image.startsWith('http') ? image : `${SITE}${image}`)
   : `${SITE}/og.png`;
 
-// JSON-LD: Article — enriched with mainEntityOfPage, dateModified, articleSection,
-// keywords (from categories), so Google can categorize the page properly.
+// --- Real dates (git-derived, stable across rebuilds) -----------------------
+// Prior behaviour stamped every page dateModified = build date, which marked
+// the whole corpus "modified today" on each deploy — a distrust signal. Now we
+// use per-article git history (published = first commit, modified = last).
+const gd = articleDates[slug] || {};
+const pubDate = published ?? datePublished ?? gd.published ?? '2025-01-01';
+const modDate = updated ?? gd.modified ?? pubDate;
+
+// --- sameAs grounding (Wikipedia / Wikidata) --------------------------------
+function normWikidata(v) {
+  if (!v) return null;
+  return v.startsWith('http') ? v : `https://www.wikidata.org/wiki/${v}`;
+}
+function normWikipedia(v) {
+  if (!v) return null;
+  if (v.startsWith('http')) return v;
+  return `https://en.wikipedia.org/wiki/${encodeURIComponent(v.replace(/ /g, '_'))}`;
+}
+const sameAs = [normWikidata(wikidata), normWikipedia(wikipedia)].filter(Boolean);
+
+// --- Subject entity (Person / Organization / Place / Event) -----------------
+// Non-People articles previously got only a generic Article with no typed
+// entity. Model the subject so agencies/places/events join the knowledge graph.
+const CATEGORY_TO_TYPE = {
+  People: 'Person',
+  Organizations: 'Organization',
+  Agencies: 'GovernmentOrganization',
+  Places: 'Place',
+  Events: 'Event',
+  Operations: 'Event',
+};
+// If a category isn't typed but the article carries Wikipedia/Wikidata
+// grounding, still emit a generic Thing entity so the sameAs links surface —
+// otherwise the grounding is added to frontmatter but never rendered.
+const entityType = CATEGORY_TO_TYPE[primaryCategory] || (sameAs.length ? 'Thing' : null);
+
+function cleanInfoboxValue(v) {
+  return v == null ? undefined : String(v).replace(/\[(.+?)\]\(.+?\)/g, '$1').trim();
+}
+function infoboxValue(box, keys) {
+  if (!box?.data) return undefined;
+  for (const k of keys) {
+    if (box.data[k]) return cleanInfoboxValue(box.data[k]);
+  }
+  return undefined;
+}
+// ISO-parseable date only (YYYY or YYYY-MM-DD); Born/Died are free-text so we
+// gate to avoid emitting "circa 1943, Kabul" as a schema date.
+function isoDate(v) {
+  if (!v) return undefined;
+  const m = String(v).match(/\b(\d{4}(?:-\d{2}-\d{2})?)\b/);
+  return m ? m[1] : undefined;
+}
+
+const jobTitle = isPerson
+  ? infoboxValue(infobox, ['Position', 'Role', 'Title', 'Job title', 'Occupation', 'Vocation', 'Function', 'Affiliation', 'Profession'])
+  : undefined;
+
+let entitySchema = null;
+if (entityType && articleURL) {
+  entitySchema = {
+    "@type": entityType,
+    "@id": entityID,
+    "name": title,
+    "description": subtitle ?? undefined,
+    "url": articleURL,
+    "mainEntityOfPage": articleURL,
+  };
+  if (image) entitySchema.image = imageURL;
+  if (sameAs.length) entitySchema.sameAs = sameAs;
+  if (entityType === 'Person') {
+    if (jobTitle) entitySchema.jobTitle = jobTitle;
+    const birth = isoDate(infoboxValue(infobox, ['Born', 'Birth date', 'Date of birth']));
+    const death = isoDate(infoboxValue(infobox, ['Died', 'Death date', 'Date of death']));
+    const nationality = infoboxValue(infobox, ['Nationality', 'Citizenship']);
+    if (birth) entitySchema.birthDate = birth;
+    if (death) entitySchema.deathDate = death;
+    if (nationality) entitySchema.nationality = nationality;
+  }
+}
+
+// --- Citations → machine-readable sources -----------------------------------
+// The whole value of the site is WHICH interview / timestamp a claim comes
+// from. Expose that as Article.citation so AI search can attribute a lifted
+// claim back to this page. The per-page store is populated by the wiki route
+// before this layout renders (same source References uses).
+const rawCites = list(Astro.url.pathname);
+const citation = (await Promise.all(rawCites.map(async (c) => {
+  const src = await getEntry('sources', c.s);
+  const d = src?.data ?? {};
+  const url = d.videoId
+    ? `https://www.youtube.com/watch?v=${d.videoId}&t=${tsToSeconds(c.t)}s`
+    : (d.url ?? undefined);
+  const node = { "@type": "CreativeWork", "name": d.title || d.show || c.s };
+  if (d.date) node.datePublished = d.date;
+  if (url) node.url = url;
+  return node;
+}))).filter(Boolean);
+
+// --- Article --------------------------------------------------------------
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -28,50 +134,19 @@ const articleSchema = {
   "inLanguage": "en",
   "articleSection": primaryCategory,
   "keywords": categories.join(', '),
-  "datePublished": datePublished ?? '2025-01-01',
-  "dateModified": updated ?? new Date().toISOString().slice(0, 10),
-  "author": {
-    "@type": "Organization",
-    "name": "KiriPedia",
-    "url": SITE,
-  },
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "KiriPedia",
-    "url": SITE,
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "KiriPedia",
-    "logo": { "@type": "ImageObject", "url": `${SITE}/logo.png` },
-  },
+  "datePublished": pubDate,
+  "dateModified": modDate,
+  "isAccessibleForFree": true,
+  "creditText": "Compiled by Claude from the public statements of John Kiriakou.",
+  "author": { "@type": "Organization", "@id": ORG_ID, "name": "KiriPedia", "url": SITE },
+  "isPartOf": { "@id": WEBSITE_ID },
+  "publisher": { "@id": ORG_ID },
 };
+if (entitySchema) articleSchema.about = { "@id": entityID };
+if (citation.length) articleSchema.citation = citation;
+if (wordCount) articleSchema.wordCount = wordCount;
 
-// Person schema for People-category articles. Pull jobTitle from the
-// infobox if there's a Position/Role/Title-style key. Canon-safe: only
-// uses what the article author already put in the infobox; no external
-// data lookups.
-function jobTitleFromInfobox(box) {
-  if (!box?.data) return undefined;
-  const candidateKeys = ['Position', 'Role', 'Title', 'Job title', 'Occupation', 'Vocation', 'Function'];
-  for (const k of candidateKeys) {
-    if (box.data[k]) return String(box.data[k]).replace(/\[(.+?)\]\(.+?\)/g, '$1');
-  }
-  return undefined;
-}
-
-const personSchema = isPerson ? {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": title,
-  "description": subtitle ?? undefined,
-  "image": image ? imageURL : undefined,
-  "url": articleURL,
-  "jobTitle": jobTitleFromInfobox(infobox),
-  "mainEntityOfPage": articleURL,
-} : null;
-
-// Breadcrumbs: Main page › Category › Article
+// --- Breadcrumbs: Main page › Category › Article ----------------------------
 const breadcrumbItems = [
   { "@type": "ListItem", position: 1, name: "Main page", item: `${SITE}/` },
 ];
@@ -80,7 +155,7 @@ if (primaryCategory) {
     "@type": "ListItem",
     position: 2,
     name: primaryCategory,
-    item: `${SITE}/category/${primaryCategory.toLowerCase()}`,
+    item: `${SITE}/category/${primaryCategory.toLowerCase()}/`,
   });
   breadcrumbItems.push({
     "@type": "ListItem",
@@ -102,42 +177,52 @@ const breadcrumbSchema = {
   itemListElement: breadcrumbItems,
 };
 
-// FAQPage schema. We build one genuine Q&A pair from the article summary —
-// "Who is X?" for people, "What is X?" otherwise — answered by the summary.
-// Conservative on purpose: DYKs are self-contained trivia, not clean
-// question/answer pairs, so we don't force them into FAQ markup.
-function stripMarkdown(s) {
-  if (!s) return '';
-  return String(s)
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // [text](url) -> text
-    .replace(/[*_`]/g, '')                    // emphasis marks
-    .trim();
+// Entity node carries its own @context when emitted standalone.
+const entitySchemaFull = entitySchema
+  ? { "@context": "https://schema.org", ...entitySchema }
+  : null;
+
+// Meta description: prefer a purpose-written `deck` (front-loaded ~150-char
+// hook) when the article provides one; otherwise fall back to the summary. No
+// boilerplate prefix (it wasted the first ~19 snippet chars on every page and
+// duplicated across the corpus). Truncation happens centrally in SEO.astro.
+const metaDescription = deck
+  ? deck
+  : (subtitle ? subtitle : `John Kiriakou's account of ${title}.`);
+
+// --- Search-visible title qualifier -----------------------------------------
+// A bare headword ("Gust Avrakotos — KiriPedia") signals nothing in the SERP
+// and loses the click to Wikipedia. For people, append a short role/descriptor
+// pulled from the infobox so the title earns the click. Kept short and clean:
+// first clause only, markdown stripped, capped so Google won't truncate it.
+function shortQualifier(v) {
+  if (!v) return undefined;
+  let s = String(v).split(/[;—–(]/)[0].replace(/\*/g, '').trim();
+  s = s.replace(/[\s,.:]+$/, '');
+  if (!s || s.length > 38) return undefined;
+  return s;
 }
-const faqAnswer = stripMarkdown(subtitle);
-const faqSchema = faqAnswer ? {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": `${isPerson ? 'Who is' : 'What is'} ${title}?`,
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": `Per John Kiriakou: ${faqAnswer}`,
-    },
-  }],
-} : null;
+const titleQualifier = seoTitle
+  ? undefined
+  : (isPerson
+      ? shortQualifier(jobTitle || infoboxValue(infobox, ['Known for', 'Known For']))
+      : undefined);
+
+const robots = noindex ? 'noindex, follow' : undefined;
 ---
 <WikiLayout
   title={title}
-  description={subtitle ? `Per John Kiriakou: ${subtitle}` : `John Kiriakou's account of ${title}.`}
+  seoTitle={seoTitle}
+  titleQualifier={titleQualifier}
+  description={metaDescription}
   image={image}
+  robots={robots}
 >
   <div class="wiki-content" data-pagefind-body>
     {/* JSON-LD structured data — Google reads these anywhere in the HTML */}
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
-    {personSchema && <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />}
+    {entitySchemaFull && <script type="application/ld+json" set:html={JSON.stringify(entitySchemaFull)} />}
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
-    {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
     {/* Visible breadcrumb nav */}
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="/">Main page</a>
