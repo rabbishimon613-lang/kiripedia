@@ -370,7 +370,8 @@
     "dyk:julian-assange:3",
     "quote:dick-cheney:2",
     "dyk:kuwait-invasion-intelligence:1",
-    "quote:ted-rall:1"
+    "quote:ted-rall:1",
+    "dyk:cia-disguise-program:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -992,10 +993,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
