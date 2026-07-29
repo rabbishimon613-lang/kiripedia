@@ -492,3 +492,62 @@ channel), plus the clip/dupe appendix in section D.
 
 **Suggested intake order:** A (Briefing Room, his own unfiltered voice) → F1 (National
 Security Files, 10 real sit-downs) → G1 (freshest material in the corpus) → B → C → F3 → G2 → G3.
+
+---
+
+# PART 4 — CORRECTION (2026-07-28, after intake)
+
+**PART 3's all-clear was wrong. The re-cut channels are re-cut channels.**
+
+The PART 3 test sampled both sides sparsely — the video's shingles at step 10, looked
+up in a corpus index built at step 4. Aligned shingles rarely met, so genuine re-uploads
+scored under 35% and read as "new material." Two independent flaws compounded it: the
+comparison also could not see the Briefing Room episodes, because they were not yet in
+the corpus when the test ran.
+
+**Redone properly** — dense step-1 shingling, 5.0M shingles across the 803 pre-existing
+transcripts, plus an all-pairs comparison within the new batch:
+
+| | Count |
+|---|---|
+| Newly intaken sources | 131 |
+| Re-uploads of material already in the corpus (>50%, most 70–94%) | 76 |
+| Duplicates within the new batch itself | 10 |
+| **Genuinely new** | **45** |
+
+## What these channels actually are
+
+`The JK Report`, `National Security Files`, `Covert Strategies Revealed`,
+`Covert Operations Insight`, `The Insight Network` and `Rated R TV` are **re-upload
+channels**. They re-post his interviews from elsewhere under new titles, and they
+re-post each other. Several carry Briefing Room episodes verbatim:
+
+- NSF "The Mystery That Remains 40 Years After the Swedish PM's Assassination"
+  = Briefing Room **Ep. 2** (94% match, same 5,789 words)
+- JK Report "The Art of Seduction in the World of Intelligence" = Briefing Room **Ep. 2**
+- JK Report "Why Iran's Missiles Won't Stop" = Briefing Room **Ep. 3** (88%)
+- Rated R TV "Doesn't Hold Back on Lindsey Graham" = Briefing Room **Ep. 1** (91%)
+
+**This kills PART 2's "National Security Files is the best find" claim.** It is not a
+new interviewer; it is a mirror. Ten sit-downs in fourteen days was the tell, not the
+prize.
+
+## Still true
+
+- **Briefing Room is real and is the find.** New series, launched 2026-07-14, twice
+  weekly, his own unfiltered voice, nothing of it indexed before this run.
+- **The Deep Focus backfill is real** — his own show, genuine episodes.
+- **The DeProgram backfill (Jan–Apr 2026) is real** — genuine co-host episodes. Only the
+  post-June DeProgram uploads are Rall/Thomas without him.
+- The guest spots (Tucker, TYT, Steiny, Jay Dyer, To My Sons and Daughters, Interests
+  Align) are real.
+
+**86 duplicate source files were deleted from the corpus** in commit `26d593f`; the
+canonical copy of each cluster was kept, preferring his own channel over a re-upload.
+
+## Standing lesson for the playbook
+
+Dedupe by videoId is not enough and neither is a sparse shingle test. Compare **dense**,
+and compare the new batch **against itself** as well as against the corpus — a re-upload
+farm's output is invisible to a corpus-only check when the thing being mirrored is also
+new.
