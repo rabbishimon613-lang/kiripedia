@@ -368,7 +368,8 @@
     "dyk:operation-midnight-climax:2",
     "quote:critical-analytic-thinking:1",
     "dyk:julian-assange:3",
-    "quote:dick-cheney:2"
+    "quote:dick-cheney:2",
+    "dyk:kuwait-invasion-intelligence:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -990,10 +991,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
