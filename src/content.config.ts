@@ -8,8 +8,25 @@ const articles = defineCollection({
     category: z.enum(['People', 'Organizations', 'Places', 'Programs', 'Procedures', 'Events']).optional(),
     categories: z.array(z.string()).optional(),
     summary: z.string().optional(),
+    // Optional SEO overrides. `seoTitle` replaces the <title>/OG title (H1 keeps
+    // `title`); use when the search-visible title should be more descriptive
+    // than the wiki headword. `deck` is a purpose-written ~150-char meta
+    // description (front-loaded hook) used instead of the clamped summary.
+    seoTitle: z.string().optional(),
+    deck: z.string().optional(),
+    // Set true to keep a thin/low-value page out of the index (robots noindex,
+    // follow). Consolidation candidates get flagged here rather than deleted.
+    noindex: z.boolean().optional(),
     infobox: z.record(z.any()).optional(),
     updated: z.string().optional(),
+    // Optional real publish date (YYYY-MM-DD). Falls back to git history.
+    published: z.string().optional(),
+    // Knowledge-graph grounding: link this entity to the global web so Google
+    // and LLMs can reconcile it. Emitted as schema.org `sameAs`.
+    // `wikidata` accepts a full URL or a bare Q-id (e.g. "Q42").
+    // `wikipedia` accepts a full URL or a bare page title.
+    wikidata: z.string().optional(),
+    wikipedia: z.string().optional(),
     // Auto-aggregated into the homepage "On this day" and /on-this-day page
     events: z.array(z.object({
       date: z.union([z.string(), z.date()]).transform((d) =>
