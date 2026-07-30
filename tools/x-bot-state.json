@@ -377,7 +377,8 @@
     "quote:john-kiriakou:157",
     "dyk:watermark:0",
     "quote:walling:3",
-    "dyk:double-agent-marriott-trap:2"
+    "dyk:double-agent-marriott-trap:2",
+    "quote:doing-time-like-a-spy:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -999,10 +1000,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
