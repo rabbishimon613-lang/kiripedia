@@ -8,7 +8,11 @@ cd "$(dirname "$0")/.." || exit 1
 
 TYPE_FILTER="${1:?usage: churn.sh <youtube|url|audio>}"
 X="${X:-25}"
-BRANCH="kiriakou-intake-churn"
+# BRANCH/PUSH are overridable so an orchestrated run (e.g. the 7am routine) can own its own
+# single commit + single deploy instead of having the driver push mid-run. PUSH=0 → fetch and
+# normalize only; leave the tree dirty for the caller to commit.
+BRANCH="${BRANCH:-kiriakou-intake-churn}"
+PUSH="${PUSH:-1}"
 WORK="${WORK:-.kir-worklist.tsv}"
 PROG=".kir-intake-progress.tsv"
 FAIL=".kir-intake-failures.log"
@@ -33,6 +37,7 @@ commit_count=0
 success_total=$(grep -cP '\tdone\t' "$PROG" 2>/dev/null || echo 0)
 
 checkpoint(){
+  if [ "$PUSH" != 1 ]; then echo "[checkpoint] PUSH=0 — leaving $1 sources uncommitted"; return 0; fi
   git add "$SRCDIR" "$RAWDIR" "$PROG" 2>/dev/null
   git commit -q -m "intake churn: +$1 sources (running total $success_total)" 2>&1 | tail -1
   git push -q -u origin "$BRANCH" 2>&1 | tail -2

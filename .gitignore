@@ -16,3 +16,6 @@ dist
 # Working scratch from prior ingest sessions.
 codex articles/
 sonnet writeups/
+
+# Morning-routine run scratch (worklists, manifests, logs).
+.kir-morning/
