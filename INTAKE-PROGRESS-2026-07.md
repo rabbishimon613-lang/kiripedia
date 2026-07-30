@@ -1,87 +1,91 @@
-# Intake progress — 2026-07 sweep
+# Intake run complete — 2026-07 sweep
 
-Resume file. The genuinely-new sources from `KIRIAKOU-NEW-VIDS-2026-07-28.md`
-(see PART 4 there for why the batch is 45 and not 131).
+**All 45 sources processed.** Started from `KIRIAKOU-NEW-VIDS-2026-07-28.md`
+(see PART 4 there for why the batch was 45 and not the 131 originally intaken).
 
-**Status: 21 of 45 sources processed. 41 sources now stand (4 dropped as non-sources).**
+## Final numbers
 
-## Articles produced so far — 19
+| | |
+|---|---|
+| Videos originally intaken | 131 |
+| Dropped as re-uploads / internal duplicates | 86 |
+| Dropped after reading — not Kiriakou sources | 13 |
+| **Real sources kept** | **32** |
+| Articles created | 24 |
+| Articles substantially expanded | 14 |
 
-**New (13):** strait-of-hormuz · olof-palme-assassination · jd-vance · 2026-iran-war ·
+## The 13 dropped after reading
+
+Under single-source doctrine, canon is Kiriakou's own spoken words. These carried none.
+
+**Nine guest-hosted Deep Focus episodes (June–July 2026)** — hosted by Richard Wolff,
+Matt Hoh and Arin Menone. Across 64,000 words Kiriakou is never mentioned and never
+speaks. These are other people's programmes on his channel.
+
+**Four secondary sources** — `blackfiles` (narrated documentary, zero first-person),
+`liberty-vault` ×2 (reaction videos talking over his clips; the June one is built on the
+Theo Von interview already in the corpus), `interests-align` (Kubrick conspiracy show,
+names him once).
+
+## Three sources read that yielded nothing new
+
+Not dropped — he is present — but everything citable was already covered:
+- JK Report / Richard Wolff (07-07) — his part is scene-setting on tariffs
+- JK Report / Nick Bryant (07-13) — host framing; Epstein material already in the corpus
+- Covert Operations Insight (05-17) — the Aug 2 1990 Oval Office briefing and the
+  Habash/PFLP exchange are already in `john-kiriakou`, `ahmed-khatib`, `george-habash`
+
+## Articles created (24)
+
+strait-of-hormuz · olof-palme-assassination · jd-vance · 2026-iran-war ·
 cia-culture-of-lying · congressional-intelligence-oversight · christian-zionism · india ·
 fbi-manufactured-terrorism-cases · cameo · oman · decapitation-strikes ·
-2026-iran-war-economic-shock
+2026-iran-war-economic-shock · field-loadout · cia-big-tech-revolving-door ·
+cia-feeder-schools · kiriakou-writing-process · 2028-presidential-field · kashmir ·
+beirut · publications-review-board · kiriakou-father-and-grandfather ·
+iranian-sleeper-cells · trump-glorification-and-the-iran-war ·
+venezuela-regime-change-2026 · deep-state
 
-**Expanded (6):** lindsey-graham (375→~2,400) · yemen (~1,040→~2,600) ·
-cia-sexpionage (~430→~1,700) · jeffrey-sterling · the-intercept (420→~1,300) ·
-tulsi-gabbard · iran-nuclear-assessment
+## Articles expanded (14)
 
-## Sources processed
+lindsey-graham (375→~2,400) · yemen (~1,040→~2,600) · cia-sexpionage (~430→~1,700) ·
+the-intercept (420→~1,300) · jeffrey-sterling · tulsi-gabbard · iran-nuclear-assessment ·
+osama-bin-laden · fci-loretto · aafia-siddiqui · steven-lalas · greek-intelligence-service ·
+curveball · vladimir-putin · tucker-carlson · remains-of-the-day-book ·
+principals-committee-meeting
 
-| Source | Yield |
-|---|---|
-| Briefing Room Ep. 1–5 | 7 articles |
-| Tucker Carlson Network | 2 new + Sterling |
-| Jay Dyer | christian-zionism |
-| One Night with Steiny | the-intercept, india |
-| To My Sons and Daughters | fbi-manufactured-terrorism-cases, cameo |
-| DeProgram — Target Tehran | oman, iran-nuclear-assessment |
-| DeProgram — Gabby Tulsi | decapitation-strikes, tulsi-gabbard |
-| DeProgram — Drop Dead / Going to Ground | 2026-iran-war-economic-shock |
-| DeProgram — Bidening Out / Allies / Lynching / Two More Weeks | read, no safe yield (see below) |
+## Data-quality fixes made along the way
 
-## DROPPED — 4 non-sources
+- **`afia-sadiki` → `aafia-siddiqui`** — the article carried the auto-caption's phonetic
+  spelling as its title and slug while already linking the correct Wikipedia and Wikidata
+  entries, making a named-entity page unfindable under the subject's real name.
+- **`steven-lawless-case` → `steven-lalas`** — same class of error. Verified against
+  external reporting before renaming. A sentence-length discrepancy between his tellings
+  and the contemporaneous record is now flagged in the article rather than resolved
+  silently.
+- Both old slugs redirect in `astro.config.mjs`.
+- **Citation audit** — every `<Cite s="...">` in the corpus is now validated against the
+  source collection. Found and fixed one placeholder introduced during this run and three
+  long-standing dangling cites in `abu-zubaydah.mdx`. Corpus is at zero dangling citations.
 
-Not Kiriakou speaking. Under single-source doctrine these are secondary sources about him.
+## Standing hazards for the next run
 
-- `blackfiles` — narrated documentary, zero first-person across 4,340 words
-- `liberty-vault` ×2 — reaction videos; host plays clips and talks over them. The June
-  one is built on the Theo Von interview already in the corpus, so citing it would
-  double-cite the same speech
-- `interests-align` — TikTok-conspiracy show about Kubrick; Kiriakou named once, never appears
+- **DeProgram transcripts have no reliable speaker markers.** Two-host show; long stretches
+  are Ted Rall. Only cite where the speaker is unambiguous — he is addressed by name and
+  answers, or the content is first-person agency experience. The 2026-03-31 Knesset
+  death-penalty material was left uncited for exactly this reason.
+- **Replayed clips are not new findings.** The Colin Powell / "we killed the janitor" story
+  in Briefing Room Ep. 3 is Kiriakou reacting to a fan's re-post of his own old clip.
+- **Check who is hosting before intaking a Deep Focus episode.** The channel runs
+  guest-host months.
+- **Sweep the corpus for more phonetic-name corruptions.** Two found in two sessions, both
+  on named-entity pages. Worth a systematic pass: compare article titles against their own
+  `wikipedia:` frontmatter values.
 
-## DeProgram attribution hazard — read before citing any DeProgram source
+## Recommended next
 
-**Normalized DeProgram transcripts have no reliable speaker markers.** It is a two-host
-show (Ted Rall + Kiriakou, sometimes Jamarl Thomas). Long stretches are Rall talking, and
-the turn markers are stripped or inconsistent.
+The phonetic-name sweep above. Then: Briefing Room publishes Tuesdays and Thursdays, so
+this gap reopens twice a week — add `youtube.com/@realjohnkiriakou` to a standing watch.
 
-**Only cite a DeProgram passage when the speaker is unambiguous:**
-- Rall addresses him by name and he answers ("John, who came up with that list?" → answer)
-- The content is first-person CIA/agency experience only Kiriakou could have
-
-The 2026-03-31 "Israel Legalizes Lynching" episode has strong material on the Knesset
-death-penalty law, but the substantive passages cannot be safely attributed — most read as
-Rall. **Left uncited rather than risk putting the co-host's words in his mouth.** Same for
-the leftover portions of Bidening Out, With Allies Like These, and Two More Weeks.
-
-## Not yet processed — 20
-
-**The JK Report originals (8)** — genuine interviews, not re-cuts. He *hosts* these, so
-guests speak; same attribution care needed:
-- Clive Stafford Smith (2026-07-02)
-- Inside FBI recruiting / CIA secrets (2026-07-03)
-- Aaron Good (2026-07-06)
-- Prof. Richard D. Wolff (2026-07-07)
-- Inside CIA recruiting + prison (2026-07-08)
-- Nick Bryant on Epstein (2026-07-13)
-- Biggest unanswered questions about Epstein (2026-07-20)
-- Jackson Hinkle (2026-07-21)
-
-**Deep Focus, his own show (11)** — he interviews guests; lower canon density:
-2026-02-03 · 02-17 · 03-03 · 06-02 · 06-09 · 06-16 · 06-23 · 06-30 · 07-07 · 07-14 ·
-07-21 · 07-28
-
-**Misc (4)**: 2026-01-13 NewsNation (verify he appears) · 2026-03-05 Paper Trail ·
-2026-03-17 Paper Trail · 2026-05-17 Covert Operations Insight (canonical of its cluster)
-
-## Method notes
-
-- **Verify every timestamp before citing.** Replayed clips are the main trap: the Colin
-  Powell / Sabri al-Douri / "we killed the janitor" story in Briefing Room Ep. 3 is Kiriakou
-  reacting to a fan's re-post of his own old clip, and is already fully covered in
-  `1993-bush-assassination-plot.mdx`.
-- Ads are stripped to `.sponsors.md` sidecars. The DeleteMe / gold / MCG Tactical reads
-  recur in every Briefing Room episode and are not canon.
-- Build gate: `npm run build` to `Total: 0 bugs`.
-- Deploy: `vercel build --prod --yes` then `vercel deploy --prebuilt --prod`. Manual only.
+Build gate `npm run build` → `Total: 0 bugs`. Deploy `vercel build --prod --yes` then
+`vercel deploy --prebuilt --prod`. Manual only.
