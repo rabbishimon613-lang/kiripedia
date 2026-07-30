@@ -1,7 +1,7 @@
 ---
 slug: "2026-06-16-julian-dorey-daily-mkultra-twin-experiment"
 title: "CIA Spy Reveals MKUltra's More Sinister Twin Experiment"
-show: "Julian Dorey Daily"
+show: "Julian Dorey Podcast"
 date: "2026-06-16"
 url: "https://www.youtube.com/watch?v=jy8EslNPwKU"
 videoId: "jy8EslNPwKU"
