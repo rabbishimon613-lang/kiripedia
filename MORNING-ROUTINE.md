@@ -144,8 +144,12 @@ Then **one** commit, **one** push, **one** deploy:
 git add -A
 git commit -m "morning intake <date>: N sources, X new + Y enrich"
 git push
-vercel --prod --yes
+vercel build --prod && vercel deploy --prebuilt --prod
 ```
+
+Build **locally**, then upload prebuilt: some build-time generators (recent-changes, article
+dates) read git history, which a remote Vercel build may not have. They fail soft, so plain
+`vercel --prod --yes` also ships — use it only if the prebuilt path errors.
 
 **Frozen-deploy discipline is absolute:** exactly one `vercel --prod --yes` per run, at the very
 end. Never re-enable git auto-deploy (`vercel.json` keeps `main` disabled on purpose — the
