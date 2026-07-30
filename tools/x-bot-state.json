@@ -375,7 +375,8 @@
     "quote:khalid-sheikh-mohammed:1",
     "dyk:tom-drake:6",
     "quote:john-kiriakou:157",
-    "dyk:watermark:0"
+    "dyk:watermark:0",
+    "quote:walling:3"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -997,10 +998,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
