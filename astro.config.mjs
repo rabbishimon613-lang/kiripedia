@@ -19,6 +19,8 @@ export default defineConfig({
     '/wiki/hunter-biden-laptop-letter': '/wiki/hunter-biden-laptop',
     '/wiki/avril-haynes': '/wiki/avril-haines',
     '/wiki/kiriakou-recruitment-attempts': '/wiki/recruitment-attempts-on-kiriakou',
+    // Auto-caption phonetic spelling corrected to the real name (2026-07-29).
+    '/wiki/afia-sadiki': '/wiki/aafia-siddiqui',
     // Duplicate/typo articles merged into their canonical entries.
     '/wiki/gerald-post': '/wiki/jerome-post',
     '/wiki/dashti-leyli': '/wiki/dasht-i-leili-massacre',
