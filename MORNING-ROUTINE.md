@@ -92,10 +92,12 @@ For each source in the manifest:
    per body, single-source canon — are in `INGEST.md` §5–6). Weave into existing sections;
    never append a `## From <show>` block.
 
-**Scale-up:** with 3+ new sources, fan out per `KIRIPEDIA-VIDEO-INTAKE-PLAYBOOK.md` §2 — one
-extraction agent per source (findings TSV only, no article edits), then weave agents with
-disjoint article ownership. With 1–2 sources, do it inline. Either way the integrator (you)
-owns the build, the commit, and the deploy.
+**Scale-up: NO AGENT FAN-OUT. Ever.** (Locked 2026-07-30, supersedes the old "one extraction
+agent per source, then weave lanes" instruction and the parallelization model in
+`KIRIPEDIA-VIDEO-INTAKE-PLAYBOOK.md` §2.) Read, map, verify and write **yourself, in the main
+context, one source at a time**. If the volume won't fit in one sitting, shrink the batch and
+take more turns — never shard it across agents. No `Workflow`, no worktree fan-outs, no
+agents spawning agents.
 
 ---
 

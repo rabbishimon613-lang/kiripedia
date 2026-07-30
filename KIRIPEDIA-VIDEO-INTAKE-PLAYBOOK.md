@@ -62,10 +62,11 @@ Discovery → Fetch+Normalize → Extract (parallel) → Aggregate/Route → Wea
   deleted 28 min of a real episode once. Keep the raw VTTs so you can re-normalize.
 - Result: `src/content/sources/<YYYY-MM-DD-show-topic>.md` — frontmatter + `[mm:ss]` paragraphs.
 
-### C. Extraction wave (parallel, collision-free)
-- One Sonnet writer per **disjoint batch of sources** (~24k words each). Balance by word count.
-- Each reads its transcripts fully and emits a **findings TSV** — nothing else, no article edits
-  (so agents can't collide). 5 columns: `target ⇥ src-slug ⇥ timestamp ⇥ claim ⇥ quote`.
+### C. Extraction pass (sequential — one source at a time, by you, no agents)
+- Take **one source at a time**, in queue order. Read it fully, then write its findings out.
+- Emit a **findings TSV** before touching any article — separating "what did I find" from
+  "where does it go" is what keeps the weave honest. 5 columns:
+  `target ⇥ src-slug ⇥ timestamp ⇥ claim ⇥ quote`.
   `target` = existing article slug, or `NEW:slug`. Verify each timestamp against the source.
 - A 3-hour transcript yields 40–120 findings; a 30-min one 10–25. Reading the source **once**
   here is what keeps cost down — everything downstream works off the findings, not the transcript.
@@ -80,8 +81,8 @@ Discovery → Fetch+Normalize → Extract (parallel) → Aggregate/Route → Wea
 - **Split mega-targets:** `fci-loretto` (83 findings) and `abu-zubaydah` (51) each get their own
   agent; a lane over ~95 findings gets halved.
 
-### E. Weave wave (parallel, disjoint by article)
-- One writer per lane; each **owns its article files** — no two agents touch the same MDX.
+### E. Weave pass (sequential, article by article — no agents)
+- Work the bundles one at a time yourself.
 - For each existing target: read the whole article, verify + weave the findings into the right
   sections, **dedup stacked sections** while you're there (one article had a section repeated
   17×), keep every `<Cite>`, add `events:`/`dyk:` where datable/DYK-worthy.
@@ -108,15 +109,19 @@ Discovery → Fetch+Normalize → Extract (parallel) → Aggregate/Route → Wea
 
 ---
 
-## 2. Parallelization model
-- **Writers = Sonnet** (cheap, self-contained prompts). **Integrator = Opus** (holds the plan,
-  makes merge calls, runs the build gate, does the one deploy).
-- **Extract-once, weave-by-article.** Extraction reads each transcript exactly once (parallel by
-  source); weaving works off findings + only the target article (parallel by article). Both
-  phases are collision-free because the unit of ownership is disjoint (a source, then an article).
-- **Batch/width:** ~24k words per extractor; one weaver per lane; run in waves of ~6–11.
-- **Contended files** (`astro.config.mjs`, `fetch-images.sh`, deletions) are touched **only**
-  centrally, via the hand-off lines — writers never edit them.
+## 2. Execution model — SEQUENTIAL, NO AGENT FAN-OUT (locked 2026-07-30)
+
+**The old parallelization model is dead.** No extraction waves, no weave lanes, no one-agent-
+per-source, no `Workflow`, no worktree fan-outs, no agents spawning agents. Claude does the
+whole pipeline itself, in its own context.
+
+- **Extract-once, weave-by-article still holds** — it's just done serially by one worker.
+  Read a transcript once, write its findings down, weave them, move to the next transcript.
+- **Sizing:** if the batch won't fit in one context, make the batch smaller and take more
+  turns. Never solve a context problem by sharding it across agents.
+- Everything below that says "each agent" / "per writer" now means "each pass you make".
+- Contended files (`astro.config.mjs`, `fetch-images.sh`, deletions) are edited once, at the
+  end, by the same worker.
 
 ## 3. The art — judgment calls & traps that bit us
 - **Weave ≠ append.** If you're adding a section titled "From the X show," you're doing it wrong.

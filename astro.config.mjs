@@ -19,6 +19,10 @@ export default defineConfig({
     '/wiki/hunter-biden-laptop-letter': '/wiki/hunter-biden-laptop',
     '/wiki/avril-haynes': '/wiki/avril-haines',
     '/wiki/kiriakou-recruitment-attempts': '/wiki/recruitment-attempts-on-kiriakou',
+    '/wiki/abraxas-corporation': '/wiki/arrais-corporation',
+    '/wiki/cia-france-rift-1990s': '/wiki/dgse',
+    '/wiki/robert-jackson-federal-prosecutor-speech': '/wiki/pick-the-man-principle',
+    '/wiki/bahrain-dole-campaign-solicitation': '/wiki/david-ransom',
     // Auto-caption phonetic spellings corrected to the real names (2026-07-29).
     '/wiki/afia-sadiki': '/wiki/aafia-siddiqui',
     '/wiki/steven-lawless-case': '/wiki/steven-lalas',

@@ -515,7 +515,15 @@ git push
 Three optimizations layered on top of the slim pipeline to cut main-context
 token cost by ~50% without quality loss:
 
-### 1. Subagent outliner (the big one)
+### 1. Subagent outliner — REVOKED 2026-07-30
+
+**Do not use this.** No sub-agent fan-outs, no outliner agents, no `Workflow`. Read the
+transcript yourself in the main context and write the outline yourself; if it's too big for
+one sitting, do fewer sources per turn. The `OUTLINE-PROMPT.md` / `validate-outline.mjs`
+tooling stays on disk only because the outline *format* is still useful — the delegation is
+not. The rest of this section is kept for historical context and must not be followed.
+
+<details><summary>Historical (revoked)</summary>
 
 For ingests from a desktop/Mac Claude Code session, the transcript-reading
 work is offloaded to an isolated Agent subagent. The subagent reads the
@@ -543,6 +551,8 @@ Per-ingest workflow when subagents are available:
 Phone-flow ingests (claude.ai connector) can't spawn subagents, so the
 user pastes the transcript directly into chat and the writing context
 absorbs it — the outline shortcut doesn't apply there.
+
+</details>
 
 ### 2. Citation shorthand: `<Cite t="..." />`
 
