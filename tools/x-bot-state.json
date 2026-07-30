@@ -376,7 +376,8 @@
     "dyk:tom-drake:6",
     "quote:john-kiriakou:157",
     "dyk:watermark:0",
-    "quote:walling:3"
+    "quote:walling:3",
+    "dyk:double-agent-marriott-trap:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -998,10 +999,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
