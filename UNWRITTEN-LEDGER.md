@@ -24,19 +24,19 @@ A row disappears on its own once any article cites it, so `written` is belt-and-
 | 4 | written | 2026-07-10 | ? | Kiriakou Takes Ana & Cenk Behind the Curtain | 155:00 | 24,746 | `2026-07-10-kiriakou-takes-ana-cenk-behind-the-curtain` |
 | 5 | written | 2025-02-25 | ? | #278 — MK Ultra, USAID, Overthrowing Governments | 137:00 | 24,692 | `2025-02-25-mk-ultra-usaid-overthrowing-governments` |
 | 6 | written | 2026-07-08 | Voxera Production Official | Voxera Production Official | 141:00 | 23,941 | `2026-07-08-voxera-production-official-voxera-production-official` |
-| 7 | pending | 2026-04-23 | PBD Podcast | #783 — Ex-CIA Officer Confronted Over Zionist Accusations | 114:00 | 20,681 | `2026-04-23-pbd-podcast-ex-cia-officer-confronted-over-zionist-accusa` |
-| 8 | pending | 2025-11-16 | Consortium News | Consortium News | 142:00 | 19,813 | `2025-11-16-consortium-news-consortium-news` |
-| 9 | pending | 2022-09-20 | The Roundtable — Gonzalo L | The Roundtable #21: Suzie Dawson, John Kiriakou, Ray McGovern | 115:00 | 18,228 | `2022-09-20-the-roundtable-gonzalo-l-the-roundtable-21-suzie-dawson-john-kiriakou` |
-| 10 | pending | 2020-05-20 | Slow News Day | #FreeAssangeVigil Week 46.1 w/ John Kiriakou, Fiorella of Co | 53:00 | 17,441 | `2020-05-20-slow-news-day-freeassangevigil-week-46-1-w-john-kiriakou-fi` |
-| 11 | pending | 2020-05-20 | Action 4 Assange | Action 4 Assange | 113:00 | 16,862 | `2020-05-20-action-4-assange-action-4-assange` |
-| 12 | pending | 2026-07-08 | Covert Strategies Revealed | Covert Strategies Revealed | 83:00 | 13,821 | `2026-07-08-covert-strategies-revealed-covert-strategies-revealed` |
-| 13 | pending | 2026-03-20 | The Jason Jones Show | John Kiriakou on God, Courage, and Becoming a Gen Z Icon: Es | 84:00 | 13,728 | `2026-03-20-the-jason-jones-show-john-kiriakou-on-god-courage-and-becoming-a-g` |
-| 14 | pending | 2026-05-26 | Covert Strategies Revealed | Covert Strategies Revealed | 76:00 | 13,087 | `2026-05-26-covert-strategies-revealed-covert-strategies-revealed` |
-| 15 | pending | 2021-11-05 | Live on the Fly with Randy | Live on the Fly with Randy | 82:00 | 13,051 | `2021-11-05-live-on-the-fly-with-randy-live-on-the-fly-with-randy` |
-| 16 | pending | 2023-02-02 | Consortium News | Matt Taibbi, Chris Hedges & Kiriakou: TWITTER FILES | 82:00 | 12,989 | `2023-02-02-consortium-news-matt-taibbi-chris-hedges-kiriakou-twitter-fil` |
-| 17 | pending | 2026-07-06 | The Pocket (Chris Griffin) | \ | 72:00 | 12,828 | `2026-07-06-the-pocket-chris-griffin-never-trust-the-government-resolves-a-batch-4` |
-| 18 | pending | 2026-07-10 | ? | The Untold Stories of John Kiriakou | 72:00 | 12,609 | `2026-07-10-the-untold-stories-of-john-kiriakou` |
-| 19 | pending | 2026-07-17 | National Security Files | John Kiriakou - Ex-CIA Officer Warns America Is Repeating Its War Mist | 63:00 | 12,494 | `2026-07-17-national-security-files-john-kiriakou-ex-cia-officer-warns-america-is` |
+| 7 | written | 2026-04-23 | PBD Podcast | #783 — Ex-CIA Officer Confronted Over Zionist Accusations | 114:00 | 20,681 | `2026-04-23-pbd-podcast-ex-cia-officer-confronted-over-zionist-accusa` |
+| 8 | written | 2025-11-16 | Consortium News | Consortium News | 142:00 | 19,813 | `2025-11-16-consortium-news-consortium-news` |
+| 9 | written | 2022-09-20 | The Roundtable — Gonzalo L | The Roundtable #21: Suzie Dawson, John Kiriakou, Ray McGovern | 115:00 | 18,228 | `2022-09-20-the-roundtable-gonzalo-l-the-roundtable-21-suzie-dawson-john-kiriakou` |
+| 10 | written | 2020-05-20 | Slow News Day | #FreeAssangeVigil Week 46.1 w/ John Kiriakou, Fiorella of Co | 53:00 | 17,441 | `2020-05-20-slow-news-day-freeassangevigil-week-46-1-w-john-kiriakou-fi` |
+| 11 | rejected (re-upload of same #FreeAssangeVigil 46.1 event as row 10; different channel) | 2020-05-20 | Action 4 Assange | Action 4 Assange | 113:00 | 16,862 | `2020-05-20-action-4-assange-action-4-assange` |
+| 12 | written | 2026-07-08 | Covert Strategies Revealed | Covert Strategies Revealed | 83:00 | 13,821 | `2026-07-08-covert-strategies-revealed-covert-strategies-revealed` |
+| 13 | written | 2026-03-20 | The Jason Jones Show | John Kiriakou on God, Courage, and Becoming a Gen Z Icon: Es | 84:00 | 13,728 | `2026-03-20-the-jason-jones-show-john-kiriakou-on-god-courage-and-becoming-a-g` |
+| 14 | written | 2026-05-26 | Covert Strategies Revealed | Covert Strategies Revealed | 76:00 | 13,087 | `2026-05-26-covert-strategies-revealed-covert-strategies-revealed` |
+| 15 | written | 2021-11-05 | Live on the Fly with Randy | Live on the Fly with Randy | 82:00 | 13,051 | `2021-11-05-live-on-the-fly-with-randy-live-on-the-fly-with-randy` |
+| 16 | written | 2023-02-02 | Consortium News | Matt Taibbi, Chris Hedges & Kiriakou: TWITTER FILES | 82:00 | 12,989 | `2023-02-02-consortium-news-matt-taibbi-chris-hedges-kiriakou-twitter-fil` |
+| 17 | written | 2026-07-06 | The Pocket (Chris Griffin) | \ | 72:00 | 12,828 | `2026-07-06-the-pocket-chris-griffin-never-trust-the-government-resolves-a-batch-4` |
+| 18 | written | 2026-07-10 | ? | The Untold Stories of John Kiriakou | 72:00 | 12,609 | `2026-07-10-the-untold-stories-of-john-kiriakou` |
+| 19 | written | 2026-07-17 | National Security Files | John Kiriakou - Ex-CIA Officer Warns America Is Repeating Its War Mist | 63:00 | 12,494 | `2026-07-17-national-security-files-john-kiriakou-ex-cia-officer-warns-america-is` |
 | 20 | rejected (host recap + unrelated guest interview; Kiriakou never speaks) | 2018-01-30 | Ian Discussions | Ian | 92:00 | 12,334 | `2018-01-30-ian-discussions-ian-s-discussions-with-john-kiriakou` |
 | 21 | pending | 2026-03-24 | Michael Franzese | Iran, Israel & Epstein Are All Connected | 76:00 | 12,295 | `2026-03-24-michael-franzese-iran-israel-epstein-are-all-connected` |
 | 22 | pending | 2026-06-02 | Covert Strategies Revealed | corpus has osXgMj89FwQ from this show | 68:00 | 12,114 | `2026-06-02-covert-strategies-revealed-corpus-has-osxgmj89fwq-from-this-show` |

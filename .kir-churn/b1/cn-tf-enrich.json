@@ -1,0 +1,36 @@
+{
+  "_defaults": {
+    "source_slug": "2023-02-02-consortium-news-matt-taibbi-chris-hedges-kiriakou-twitter-fil"
+  },
+  "articles": {
+    "cia": {
+      "_enrich": true,
+      "dyk_append": [
+        "… that from his office as the associate deputy director for operations, [John Kiriakou](/wiki/john-kiriakou) once watched Bob Woodward stroll past unescorted — and learned from his secretary that the [CIA](/wiki/cia) director had issued a memo ordering *\"all of us\"* to co-operate with Woodward's Iraq-War book, a moment Kiriakou treats as the point the agency openly conceded it owned the mainstream press?"
+      ],
+      "body_append": "## 'The director's memo about Bob Woodward'\n\nOn Consortium News Live in February 2023, [John Kiriakou](/wiki/john-kiriakou) recounted the moment he says crystallised the [CIA](/wiki/cia)'s post-9/11 attitude toward the press. Sitting as the executive assistant to the associate deputy director for operations, he watched from his own office door as Bob Woodward walked past *\"without a security escort — just walking around like he owned the place.\"* Kiriakou asked his secretary if he had seen what he had just seen. She answered that the director had circulated a memo ordering *\"we've all been ordered to cooperate with him\"* because Woodward was writing a book on the Iraq War. Kiriakou reads the memo as the moment the agency stopped pretending it did not own the media: *\"they came to the realisation, I guess, that they controlled the media, they owned the media — why not let Bob Woodward walk around like he owned the place? He's going to write exactly what you tell him to write.\"*<Cite t=\"35:06\" /><Cite t=\"35:38\" /><Cite t=\"36:11\" />"
+    },
+    "john-brennan": {
+      "_enrich": true,
+      "dyk_append": [
+        "… that [John Kiriakou](/wiki/john-kiriakou) says [John Brennan](/wiki/john-brennan) *\"used to tell everybody who would listen that he wanted to be Secretary of Defense under the next Democratic president\"* — until Brennan reasoned that a $200,000 cabinet salary in his seventies was worth less than the roughly ten-fold television-network payday available at MSNBC?"
+      ],
+      "body_append": "## The Secretary of Defense he never became\n\nOn Consortium News Live in February 2023, [John Kiriakou](/wiki/john-kiriakou) said [John Brennan](/wiki/john-brennan) used to tell colleagues openly that he intended to be Secretary of Defense under the next Democratic president: *\"John used to tell everybody who would listen.\"* Kiriakou treats the subsequent television career as a rational tradeoff Brennan calculated in his sixties: *\"why would you want to make $200,000 as Secretary of Defense — which would then put you into your seventies — when you can spend those years at MSNBC making ten times what you would have made at the Pentagon?\"*<Cite t=\"52:28\" /><Cite t=\"53:00\" /><Cite t=\"53:32\" />"
+    },
+    "john-kiriakou": {
+      "_enrich": true,
+      "dyk_append": [
+        "… that [John Kiriakou](/wiki/john-kiriakou) says he went on one date with a Democratic National Committee lawyer during the [Russiagate](/wiki/russiagate) years and had to end the evening after she told him *\"I believe in my heart that [Donald Trump](/wiki/donald-trump) does exactly what Vladimir Putin tells him to do\"* — a certainty he says was held with religious fervour by rank-and-file DNC staff?",
+        "… that on the night the Venezuelan Embassy in Washington was ordered closed, [John Kiriakou](/wiki/john-kiriakou) overheard two uniformed Secret Service officers debate who they were guarding: *\"the ones out here with us — the ones inside are with Putin,\"* one said, adding after the other chuckled *\"no, seriously, it's like with Trump\"*?"
+      ],
+      "body_append": "## Two Secret Service officers at the Venezuelan Embassy\n\n[John Kiriakou](/wiki/john-kiriakou) was present at the Venezuelan Embassy in Washington on the night it was ordered closed and, as he was leaving with most of the crowd, he overheard an exchange between two uniformed Secret Service officers he treats as diagnostic of how deep the Russiagate narrative had penetrated the federal workforce. The first officer asked *\"so, who are these people?\"* The second answered *\"the ones out here with us — the ones inside are with Putin.\"* When the first officer chuckled, the second doubled down: *\"no, seriously — it's like with [Trump](/wiki/donald-trump).\"* Kiriakou treats the moment as evidence the belief system was not confined to television commentators.<Cite t=\"1:00:51\" /><Cite t=\"1:01:22\" /><Cite t=\"1:01:52\" />\n\n## The DNC-lawyer one-date rule\n\nOn the same panel, Kiriakou recounted a blind date arranged by a cousin *\"who's very much a DNC mover and shaker\"* with an attorney at the Democratic National Committee. The evening did not survive her sincere articulation of the operating premise of the era: *\"I believe in my heart that Donald Trump does exactly what Vladimir Putin tells him to do.\"* Kiriakou, whose default rule from his CIA analytics training is that assertions must be backed by evidence, ended the conversation there. He treats the anecdote as evidence that even at the DNC's staff level *— \"maybe not at that top level that had come up with the big lie\" —* the [Russiagate](/wiki/russiagate) story was believed with something like religious conviction.<Cite t=\"55:06\" /><Cite t=\"55:37\" /><Cite t=\"56:09\" />"
+    },
+    "ken-dilanian": {
+      "_enrich": true,
+      "dyk_append": [
+        "… that [John Kiriakou](/wiki/john-kiriakou) has now retold on multiple corpus appearances that [Jason Leopold](/wiki/jason-leopold)'s FOIA request for all [CIA](/wiki/cia)-journalist correspondence surfaced [Ken Dilanian](/wiki/ken-dilanian) sending drafts to Langley *\"before he even sends them to his own editor\"* — a practice Kiriakou treats as the paradigmatic case of laundered national-security propaganda?"
+      ],
+      "body_append": "## Consortium News Live 2023 retelling\n\nOn Consortium News Live in February 2023, [John Kiriakou](/wiki/john-kiriakou) restated for a panel of Matt Taibbi, Chris Hedges and Joe Lauria that the [Jason Leopold](/wiki/jason-leopold) FOIA of [CIA](/wiki/cia)-journalist correspondence documented [Ken Dilanian](/wiki/ken-dilanian) — then of NBC News and MS Now — sending pieces to Langley *\"for their clearance before sending them to his own editor.\"* Kiriakou's verdict: *\"that's not national security journalism — that's essentially doing what Bob Woodward has always done for whomever happens to be sitting in the White House.\"*<Cite t=\"39:53\" /><Cite t=\"40:27\" /><Cite t=\"40:59\" />"
+    }
+  }
+}

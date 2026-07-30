@@ -1,0 +1,35 @@
+{
+  "_defaults": {
+    "source_slug": "2025-11-16-consortium-news-consortium-news"
+  },
+  "articles": {
+    "john-kiriakou": {
+      "_enrich": true,
+      "dyk_append": [
+        "… that [John Kiriakou](/wiki/john-kiriakou) says he gets most of his news from a carefully curated feed on X and Blue Sky consisting of a dozen or so writers he trusts — Patrick Lawrence, [Ray McGovern](/wiki/ray-mcgovern), Mary Kostakidis and Joe Lauria among them — and offers a standing insult of the alternative: *\"any slob can roll out of bed and make a YouTube video\"*?"
+      ],
+      "body_append": "## News consumption habits (Consortium News 30th)\n\nAt [Consortium News](/wiki/consortium-news)'s 30th-anniversary panel in November 2025, [John Kiriakou](/wiki/john-kiriakou) said he *\"defaults to the written word\"* and cannot watch most video news, offering a standing insult for the format: *\"any slob can roll out of bed and make a YouTube video — you live in your parents' basement, you wake up in the morning, you roll out of bed, you eat some Doritos, and then you put on a news show on YouTube.\"*<Cite t=\"1:26:34\" /><Cite t=\"1:27:06\" /> He said he has, over the years, curated his X and Blue Sky feeds around a dozen or so writers whose judgment he trusts — naming Patrick Lawrence, [Ray McGovern](/wiki/ray-mcgovern), Mary Kostakidis and Joe Lauria — and now gets *\"most of my news\"* from those platforms rather than from television or written mainstream press, defending his continued use of X against friends who criticise him for it on the grounds that *\"so long as the people whose judgment I trust are able to publish on these platforms, I'll seek them out on those platforms.\"*<Cite t=\"1:27:36\" /><Cite t=\"1:28:09\" />"
+    },
+    "tucker-carlson": {
+      "_enrich": true,
+      "dyk_append": [
+        "… that [John Kiriakou](/wiki/john-kiriakou) says [Tucker Carlson](/wiki/tucker-carlson) is *\"genuinely worried\"* about being cancelled or attacked over his independent journalism — a fear he says Judge Andrew Napolitano has lived with for five years, and one Kiriakou treats as new for Carlson personally?"
+      ],
+      "body_append": "## 'Genuinely worried' about being cancelled (2025)\n\nAt the [Consortium News](/wiki/consortium-news) 30th-anniversary panel in November 2025, [John Kiriakou](/wiki/john-kiriakou) said [Tucker Carlson](/wiki/tucker-carlson) *\"genuinely is worried\"* about being cancelled or targeted over his independent-media output, and that the worry is *\"new\"* for Carlson personally — whereas the friend Kiriakou also cites, Judge Andrew Napolitano, has been living with the same worry for five years. Kiriakou linked the shift to a public break the same day between [Donald Trump](/wiki/donald-trump) and Marjorie Taylor Greene, in which Trump publicly *\"called her a traitor and withdrew his political endorsement of her.\"*<Cite t=\"2:01:40\" /><Cite t=\"2:02:11\" /><Cite t=\"2:02:43\" />"
+    },
+    "ray-mcgovern": {
+      "_enrich": true,
+      "dyk_append": [
+        "… that [John Kiriakou](/wiki/john-kiriakou) named [Ray McGovern](/wiki/ray-mcgovern) among the small handful of writers on X and Blue Sky whose judgment he trusts enough to rely on for most of his news, alongside Patrick Lawrence, Mary Kostakidis and Joe Lauria at [Consortium News](/wiki/consortium-news)?"
+      ],
+      "body_append": "## In Kiriakou's trusted-feed cohort (2025)\n\n[John Kiriakou](/wiki/john-kiriakou) named [Ray McGovern](/wiki/ray-mcgovern) at the [Consortium News](/wiki/consortium-news) 30th-anniversary panel in November 2025 as one of the small handful of writers whose feeds he checks daily on X and Blue Sky for news — the same short list on which he placed Patrick Lawrence, Mary Kostakidis and Joe Lauria — as the mechanism by which he now escapes what he calls the intolerable ecosystem of *\"any slob\"* rolling out of bed to make a YouTube show.<Cite t=\"1:27:36\" /><Cite t=\"1:28:09\" />"
+    },
+    "consortium-news": {
+      "_enrich": true,
+      "dyk_append": [
+        "… that at [Consortium News](/wiki/consortium-news)'s 30th-anniversary live panel in November 2025, columnist [John Kiriakou](/wiki/john-kiriakou) argued the outlet's continuing role is to publish writers whose judgment can substitute for television news — and named colleagues Patrick Lawrence, [Ray McGovern](/wiki/ray-mcgovern), Mary Kostakidis and Joe Lauria as the core of his own trusted feed?"
+      ],
+      "body_append": "## 30th-anniversary panel (November 2025)\n\nOn 15 November 2025 [Consortium News](/wiki/consortium-news) marked its thirtieth birthday with a live panel featuring editor Joe Lauria in Washington, executive producer Kathy Vogans in Sydney, Elizabeth Vos in Arkansas and columnists Mary Kostakidis, Patrick Lawrence, [Ray McGovern](/wiki/ray-mcgovern) and [John Kiriakou](/wiki/john-kiriakou).<Cite t=\"11:34\" /> Kiriakou used his contributions to argue that the outlet's continuing role is to publish a small stable of writers — Patrick Lawrence, McGovern, Kostakidis and Lauria — whose judgment can substitute for the video news he refuses to consume, and to defend the survival of independent outlets by way of curated distribution through X and Blue Sky where those writers can still be found.<Cite t=\"1:26:34\" /><Cite t=\"1:27:36\" /><Cite t=\"1:28:09\" />"
+    }
+  }
+}
