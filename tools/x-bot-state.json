@@ -374,7 +374,8 @@
     "dyk:cia-disguise-program:1",
     "quote:khalid-sheikh-mohammed:1",
     "dyk:tom-drake:6",
-    "quote:john-kiriakou:157"
+    "quote:john-kiriakou:157",
+    "dyk:watermark:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -996,10 +997,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
