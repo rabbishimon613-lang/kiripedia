@@ -372,7 +372,8 @@
     "dyk:kuwait-invasion-intelligence:1",
     "quote:ted-rall:1",
     "dyk:cia-disguise-program:1",
-    "quote:khalid-sheikh-mohammed:1"
+    "quote:khalid-sheikh-mohammed:1",
+    "dyk:tom-drake:6"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -994,10 +995,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
