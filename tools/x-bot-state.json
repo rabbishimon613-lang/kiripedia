@@ -381,7 +381,8 @@
     "quote:doing-time-like-a-spy:0",
     "dyk:cia-disguise-program:0",
     "quote:john-kiriakou:71",
-    "otd:george-tenet:2002-07-31"
+    "otd:george-tenet:2002-07-31",
+    "dyk:kent-state:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1003,10 +1004,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "otd"
+    "otd",
+    "dyk"
   ]
 }
