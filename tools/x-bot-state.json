@@ -384,7 +384,8 @@
     "otd:george-tenet:2002-07-31",
     "dyk:kent-state:1",
     "otd:robert-mueller:2002-07-31",
-    "dyk:jason-leopold:0"
+    "dyk:jason-leopold:0",
+    "quote:abu-zubaydah:19"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1006,10 +1007,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "otd",
     "dyk",
     "otd",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
