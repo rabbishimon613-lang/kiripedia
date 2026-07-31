@@ -383,7 +383,8 @@
     "quote:john-kiriakou:71",
     "otd:george-tenet:2002-07-31",
     "dyk:kent-state:1",
-    "otd:robert-mueller:2002-07-31"
+    "otd:robert-mueller:2002-07-31",
+    "dyk:jason-leopold:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1005,10 +1006,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "otd",
     "dyk",
-    "otd"
+    "otd",
+    "dyk"
   ]
 }
