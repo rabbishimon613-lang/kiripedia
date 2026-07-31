@@ -464,6 +464,12 @@ MAPPING=(
   "bay-path-university=Bay_Path_University"
   "fort-gordon=Fort_Eisenhower"
   "guantanamo-origin=Guantanamo_Bay_detention_camp"
+  "richard-wolff=Richard_D._Wolff"
+  "youngstown-sheet-and-tube=Youngstown_Sheet_and_Tube"
+  "trump-tariffs=Tariffs_in_the_second_Trump_administration"
+  "germany-and-israel=Germany–Israel_relations"
+  "antisemitism-and-anti-zionism=Anti-Zionism"
+  "gaza-famine=Gaza_famine"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.
