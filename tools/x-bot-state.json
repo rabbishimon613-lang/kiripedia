@@ -387,7 +387,8 @@
     "dyk:jason-leopold:0",
     "quote:abu-zubaydah:19",
     "dyk:maduro-capture:6",
-    "quote:federal-torture-act:1"
+    "quote:federal-torture-act:1",
+    "dyk:afghan-heroin-policy:4"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1009,10 +1010,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "otd",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
