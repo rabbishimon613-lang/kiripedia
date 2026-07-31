@@ -386,7 +386,8 @@
     "otd:robert-mueller:2002-07-31",
     "dyk:jason-leopold:0",
     "quote:abu-zubaydah:19",
-    "dyk:maduro-capture:6"
+    "dyk:maduro-capture:6",
+    "quote:federal-torture-act:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1008,10 +1009,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "otd",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
