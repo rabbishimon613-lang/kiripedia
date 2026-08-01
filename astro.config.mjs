@@ -23,9 +23,16 @@ export default defineConfig({
     '/wiki/cia-france-rift-1990s': '/wiki/dgse',
     '/wiki/robert-jackson-federal-prosecutor-speech': '/wiki/pick-the-man-principle',
     '/wiki/bahrain-dole-campaign-solicitation': '/wiki/david-ransom',
-    // Auto-caption phonetic spellings corrected to the real names (2026-07-29).
+    // Auto-caption phonetic spellings corrected to the real names (2026-07-29/30).
+    // Each was verified against the article's own wikipedia: frontmatter.
     '/wiki/afia-sadiki': '/wiki/aafia-siddiqui',
     '/wiki/steven-lawless-case': '/wiki/steven-lalas',
+    '/wiki/bruce-fine': '/wiki/bruce-fein',
+    '/wiki/brian-kelly': '/wiki/brian-kelley',
+    '/wiki/sarah-jane-moore': '/wiki/sara-jane-moore',
+    '/wiki/khaled-el-masri': '/wiki/khalid-el-masri',
+    // Duplicate article merged (same Wikidata Q2422025).
+    '/wiki/tom-drake': '/wiki/thomas-drake',
     // Duplicate/typo articles merged into their canonical entries.
     '/wiki/gerald-post': '/wiki/jerome-post',
     '/wiki/dashti-leyli': '/wiki/dasht-i-leili-massacre',
