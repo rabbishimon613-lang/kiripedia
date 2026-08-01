@@ -390,7 +390,8 @@
     "quote:federal-torture-act:1",
     "dyk:afghan-heroin-policy:4",
     "quote:sociopathic-tendencies:1",
-    "dyk:kiriakou-moneylaundering-tip:1"
+    "dyk:kiriakou-moneylaundering-tip:1",
+    "quote:tyrell-vanto:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1012,10 +1013,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
