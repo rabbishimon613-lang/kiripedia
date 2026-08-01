@@ -15,6 +15,7 @@ CREDITS="$DEST/credits.json"
 
 # slug=wikipedia_title (URL-encoded as needed)
 MAPPING=(
+  "liberty-university=Liberty University"
   "james-woolsey=James_Woolsey"
   "yasser-arafat=Yasser_Arafat"
   "houthis=Houthi_movement"
