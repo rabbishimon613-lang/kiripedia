@@ -392,7 +392,8 @@
     "quote:sociopathic-tendencies:1",
     "dyk:kiriakou-moneylaundering-tip:1",
     "quote:tyrell-vanto:0",
-    "otd:bahrain-1994-1996-posting:1994-08-01"
+    "otd:bahrain-1994-1996-posting:1994-08-01",
+    "dyk:jerome-post:4"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1014,10 +1015,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "otd"
+    "otd",
+    "dyk"
   ]
 }
