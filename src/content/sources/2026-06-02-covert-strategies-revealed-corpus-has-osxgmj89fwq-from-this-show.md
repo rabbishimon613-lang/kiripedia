@@ -1,7 +1,7 @@
 ---
 slug: "2026-06-02-covert-strategies-revealed-corpus-has-osxgmj89fwq-from-this-show"
-title: "corpus has osXgMj89FwQ from this show"
-show: "Covert Strategies Revealed"
+title: "Part of the Problem — John Kiriakou"
+show: "Part of the Problem"
 date: "2026-06-02"
 url: "https://youtu.be/BQ93Fy1jfbA"
 videoId: "BQ93Fy1jfbA"

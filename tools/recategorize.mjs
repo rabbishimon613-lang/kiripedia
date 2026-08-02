@@ -31,7 +31,7 @@ const MAP = {
   'bill-buckley': ['People'],
   'bill-casey': ['People'],
   'bill-richardson': ['People'],
-  'billy-wall': ['People'],
+  'billy-waugh': ['People'],
   'bob-cia-hr': ['People'],
   'cofer-black': ['People'],
   'cori-bush': ['People'],
