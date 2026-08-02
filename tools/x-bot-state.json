@@ -401,7 +401,8 @@
     "dyk:sociopathic-tendencies:2",
     "quote:below-worlds-end:2",
     "otd:abu-zubaydah:2002-08-02",
-    "dyk:john-kiriakou:42"
+    "dyk:john-kiriakou:42",
+    "otd:john-kiriakou:1990-08-02"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1023,10 +1024,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "otd",
-    "dyk"
+    "dyk",
+    "otd"
   ]
 }
