@@ -471,6 +471,8 @@ MAPPING=(
   "germany-and-israel=Germany–Israel_relations"
   "antisemitism-and-anti-zionism=Anti-Zionism"
   "gaza-famine=Gaza_famine"
+  "9-11-commission=9/11_Commission"
+  "omar-al-bayoumi=Omar_al-Bayoumi"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.
