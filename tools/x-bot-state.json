@@ -398,7 +398,8 @@
     "quote:guantanamo-origin:1",
     "dyk:gay-diplomat-operation:1",
     "quote:enhanced-interrogation:15",
-    "dyk:sociopathic-tendencies:2"
+    "dyk:sociopathic-tendencies:2",
+    "quote:below-worlds-end:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1020,10 +1021,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "otd",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
