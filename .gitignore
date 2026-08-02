@@ -19,3 +19,4 @@ sonnet writeups/
 
 # Morning-routine run scratch (worklists, manifests, logs).
 .kir-morning/
+.kir-indexnow-state.json
