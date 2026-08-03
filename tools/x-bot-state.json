@@ -406,7 +406,8 @@
     "quote:lawrence-wilkerson:1",
     "dyk:saudi-iran-diplomatic-rivalry:3",
     "quote:mossad:13",
-    "dyk:targeting-analyst:1"
+    "dyk:targeting-analyst:1",
+    "quote:fci-loretto:39"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1028,10 +1029,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "otd",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
