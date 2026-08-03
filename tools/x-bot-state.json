@@ -407,7 +407,8 @@
     "dyk:saudi-iran-diplomatic-rivalry:3",
     "quote:mossad:13",
     "dyk:targeting-analyst:1",
-    "quote:fci-loretto:39"
+    "quote:fci-loretto:39",
+    "dyk:isi:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1029,10 +1030,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
