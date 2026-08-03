@@ -409,7 +409,8 @@
     "dyk:targeting-analyst:1",
     "quote:fci-loretto:39",
     "dyk:isi:0",
-    "quote:cia:10"
+    "quote:cia:10",
+    "dyk:eli-cohen:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1031,10 +1032,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
