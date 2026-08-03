@@ -405,7 +405,8 @@
     "otd:john-kiriakou:1990-08-02",
     "quote:lawrence-wilkerson:1",
     "dyk:saudi-iran-diplomatic-rivalry:3",
-    "quote:mossad:13"
+    "quote:mossad:13",
+    "dyk:targeting-analyst:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1027,10 +1028,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "otd",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
