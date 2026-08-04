@@ -509,3 +509,140 @@ so they were committed along with the metadata rather than surgically removed.
 - "Search Console is not connected" — it is connected and readable, and has been
   since 2026-08-01. Three sweeps reported this as blocking because they looked
   for a service-account credential rather than using the signed-in browser.
+
+---
+
+## 2026-08-04 — evening analytics pass (7pm routine, first automated run)
+
+First run of the armed `kiripedia-7pm-seo` routine. Ran clean end to end and
+**deployed**, which closes the standing "NOT deployed" note from both of this
+morning's entries.
+
+### Measured
+
+Both dashboards read directly. **Note: Search Console last refreshed 6.5 hours
+before this run, so its figures are the same snapshot the 7am pass read.** No
+delta is claimed against them, and nothing this morning changed could have moved
+them yet.
+
+- **Search Console, last 3 months (May 24 – Aug 2):** 112 clicks, 5,540
+  impressions, 2.0% CTR, average position 16.6. Indexing: 1,440 indexed / 499
+  not — 340 "Alternate page with proper canonical tag", 92 "Crawled - currently
+  not indexed", 57 "Discovered - currently not indexed", 4 redirects, 3
+  not-found, 2 noindex, 1 soft 404. Identical to the 7am read on every figure.
+- **Vercel Analytics, last 30 days:** 788 visitors (+178%), 3,845 page views
+  (+165%), bounce rate 77% (+22%). Up slightly from this morning's 778 / 3,830.
+  Referrers: Google 351, DuckDuckGo 82, Bing 19, Reddit 9, ChatGPT 6, Brave 3,
+  Yahoo 3. 73% United States, 62% desktop, 33% GNU/Linux (still unexplained;
+  carried).
+- **Corpus audit (`tools/seo-daily.mjs`):** 856 articles (+34 since this
+  morning), 117 orphans by wikilink (+4), 368 thin (+9), 734 clamped snippets
+  (+15), 0 related-orphans, 39 with `seoTitle`, 59 with `deck`.
+
+### Confirmed live: this morning's work did ship
+
+Both 08-04 entries recorded their changes as committed-but-not-deployed. A
+later deploy carried them. Verified against production this run: the
+trailing-slash 308 fires (`/wiki/hummus` → `/wiki/hummus/`), and the purpose-
+written titles and decks for hummus, afghan-languages and gust-avrakotos are
+all serving. Nothing was stranded.
+
+### Changed
+
+- **11 zero-click pages got a purpose-written `seoTitle` and `deck`**, picked
+  straight off the impressions table — each carries 26–95 impressions over three
+  months at **zero** clicks and had no purpose-written metadata:
+
+  | page | impressions | driving queries |
+  |---|---|---|
+  | `doing-time-like-a-spy` | 95 (65 + 30 slash-less) | book title, "john kiriakou books" |
+  | `sheikh-saad-al-abdullah` | 88 | Kuwait / Gulf War cluster |
+  | `carlos-the-jackal` | 59 | name |
+  | `curveball` | 39 | name |
+  | `moral-injury` | 35 | "john kiriakou moral injury" (8) |
+  | `united-fruit-arbenz-coup` | 28 | "united fruit company coup" (5), "guatemala united fruit company" (4), "united fruit company cia" (3) |
+  | `jfk-assassination` | 27 | "who was the cia director in 1963" (3) |
+  | `greater-and-lesser-tunb-islands` | 27 | "greater tunb" (7), "tunb" (5), "tunb islands" (4), "lesser tunb" (4) |
+  | `uday-hussein` | 26 | name |
+  | `kuwait-liberation-day` | 26 | "kuwait liberation" (8), "liberation kuwait" (5) |
+  | `general-dostum` | 43 across the query cluster | "dostum" (13), "general dostum" (10), "general abdul rashid dostum" (8), "rashid dostum" (5), "dostum afghanistan" (4), "abdul rashid dostum" (3) |
+
+  Every `seoTitle` is 44–50 characters, every `deck` 141–152. Verified in the
+  built HTML: 11 of 11 serve an untruncated description. No new facts — each
+  line compresses material already in that article, per the single-source
+  doctrine.
+
+- **A misrouted redirect fixed.** `/wiki/three-saudi-princes` pointed at
+  `/wiki/abu-zubaydah` when `/wiki/saudi-princes-and-9-11` — the article
+  actually about the three princes — exists. That URL took **59 impressions in
+  three months and returned 0 clicks**, and anyone who did click landed on the
+  general Abu Zubaydah page rather than the one answering their search.
+  Repointed. Verified live.
+
+### Found, not changed — the redirect stubs are being served
+
+New this run, and worth acting on later. Two **`noindex` meta-refresh redirect
+stubs are still accruing impressions in Search Console**:
+`/wiki/abdul-rashid-dostum` 55 and `/wiki/three-saudi-princes` 59 — 114
+impressions over three months landing on a blank "Redirecting to:" page, at a
+structurally guaranteed 0% CTR.
+
+This is the measured cost of an item flagged and deferred twice before (first
+sweep, third sweep): redirects are Astro-generated meta-refresh HTML rather than
+real 301/308s, so Google keeps the stub as its own URL. The fix is to move the
+48 entries in `astro.config.mjs` into `vercel.json` as edge redirects, the same
+mechanism the trailing-slash rollout already uses.
+
+**Deliberately not done this run.** The trailing-slash edge rule went live only
+today; stacking a second routing change on top of it before its effect can be
+observed is the riskier option on an unattended run. Recommended for a run once
+the trailing-slash consolidation shows up in the indexing report.
+
+### Verified
+
+- `npm run build` → `Total: 0 bugs, 600 suspicious, 0 dead`.
+- **URL shape held:** 0 slash-less internal links across 1,784 built pages, and
+  0 in the `vercel build --prod` output.
+- **Related blocks:** 856 articles, 778 rescue links, **0 with no inbound
+  related-link**, 3 with an empty block. The 34 new articles from intake did not
+  re-orphan anything; the generator absorbed them.
+- **Build completeness checked against source** (per the known flaky-drive
+  behaviour on this volume): 856 source articles → 904 built wiki pages (856 +
+  48 redirect stubs), 1,729 sitemap URLs. The 254-file gap between
+  `src/content/sources` and `dist/sources` is the `.sponsors.md` audit sidecars,
+  which are deliberately not rendered — not a dropped write.
+
+### IndexNow
+
+**511 URLs submitted, HTTP 200.** Higher than a normal night and legitimate:
+606 article files were touched by the intake and image-lane commits sitting
+between the last submission and this one, so their last-commit dates — and
+therefore their sitemap `lastmod` — genuinely changed.
+
+### Deployed
+
+Yes. One commit (`bad84c4`), staged by explicit path only, pushed, then
+`vercel build --prod` + `vercel deploy --prebuilt --prod`, aliased to
+`www.kiripedia.org`. Verified live afterwards. Working tree was clean at the
+start of this run — no other session's work was in flight, and nothing was
+staged with `git add -A`.
+
+### Blocked — needs the user
+
+Unchanged from this morning:
+
+- **Backlinks — still the real ceiling.** 18 links, all from one r/intelligence
+  post, is why average position sits at 16.6. Kiriakou sharing the site himself
+  is the highest-value unlock. That one Reddit post produced all 18 existing
+  links, so more posts of that kind demonstrably work.
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia** for the Organization `sameAs` (carried from
+  2026-07-09).
+
+### Standing items, unchanged
+
+734 clamped snippets (was 719 — the rise is corpus growth, not regression; at
+~10–20 a night the high-traffic slice closes first, which is what matters), 117
+wikilink orphans, 600 suspicious wikilinks, 532 articles without
+`wikidata`/`wikipedia` grounding, 368 thin articles. Reasoning unchanged from
+2026-08-04.
