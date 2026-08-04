@@ -84,8 +84,15 @@ export default defineConfig({
       // Date-driven pages (on-this-day, sources/X) get daily.
       changefreq: 'weekly',
       priority: 0.7,
-      lastmod: new Date(),
+      // No blanket `lastmod: new Date()`. A build-time stamp is a lie for every
+      // page whose content did not change, and it had a concrete cost: the
+      // nightly IndexNow sweep diffs on lastmod, so 876 unchanged URLs were
+      // being resubmitted to Bing/Yandex on every single deploy. Each branch
+      // below sets a real date where one exists and deletes lastmod where none
+      // does — omitting it is valid sitemap XML and reads as "unknown" rather
+      // than as "changed just now".
       serialize(item) {
+        delete item.lastmod;
         if (item.url.includes('/wiki/')) {
           item.priority = 0.8;
           item.changefreq = 'monthly';
@@ -93,6 +100,13 @@ export default defineConfig({
           const slug = item.url.replace(/.*\/wiki\//, '').replace(/\/$/, '');
           const mod = articleDates[slug]?.modified;
           if (mod) item.lastmod = new Date(`${mod}T00:00:00Z`).toISOString();
+        } else if (item.url.includes('/sources/')) {
+          // Source pages are immutable transcripts: the publication date in the
+          // slug is the only date they will ever have.
+          item.priority = 0.6;
+          item.changefreq = 'yearly';
+          const d = /\/sources\/(\d{4}-\d{2}-\d{2})/.exec(item.url);
+          if (d) item.lastmod = new Date(`${d[1]}T00:00:00Z`).toISOString();
         } else if (item.url.endsWith('www.kiripedia.org/')) {
           item.priority = 1.0;
           item.changefreq = 'daily';
