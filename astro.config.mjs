@@ -48,7 +48,7 @@ export default defineConfig({
     // Wave 1 facet folds (2026-07-05): child sub-articles folded into canonical parents.
     '/wiki/abdul-rashid-dostum': '/wiki/general-dostum/',
     '/wiki/abu-zubaydah-capture': '/wiki/abu-zubaydah/',
-    '/wiki/three-saudi-princes': '/wiki/abu-zubaydah/',
+    '/wiki/three-saudi-princes': '/wiki/saudi-princes-and-9-11/',
     '/wiki/taliban-origin-benazir': '/wiki/benazir-bhutto/',
     '/wiki/bin-laden-tora-bora-escape': '/wiki/tora-bora/',
     '/wiki/chelsea-manning-emergence': '/wiki/chelsea-manning/',
