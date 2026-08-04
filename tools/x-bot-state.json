@@ -412,7 +412,8 @@
     "quote:cia:10",
     "dyk:eli-cohen:0",
     "quote:waterboarding:0",
-    "dyk:john-kiriakou:55"
+    "dyk:john-kiriakou:55",
+    "otd:abu-zubaydah:2002-08-04"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1034,10 +1035,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "otd"
   ]
 }
