@@ -22,7 +22,7 @@ A row disappears on its own once any article cites it, so `written` is belt-and-
 | 2 | rejected (re-upload of same #FreeAssangeVigil 46.1 event as row 10; different channel) | 2020-05-20 | Action 4 Assange | Action 4 Assange | 113:00 | 16,862 | `2020-05-20-action-4-assange-action-4-assange` |
 | 3 | rejected (host recap + unrelated guest interview; Kiriakou never speaks) | 2018-01-30 | Ian Discussions | Ian | 92:00 | 12,334 | `2018-01-30-ian-discussions-ian-s-discussions-with-john-kiriakou` |
 | 4 | written | 2021-11-27 | Live on the Fly (Randy Credico) | Ellsberg, Kiriakou & Rowley: Hail to the Whistleblower | 72:00 | 10,761 | `2021-11-27-live-on-the-fly-randy-credico-ellsberg-kiriakou-rowley-hail-to-the-whistleb` |
-| 5 | in-progress | 2026-06-08 | DDGeopolitics | John Kiriakou: The CIA Whistleblower Who Went to Prison for Telling th | 1:04:00 | 10,692 | `2026-06-08-ddgeopolitics-prison-for-truth` |
+| 5 | written | 2026-06-08 | DDGeopolitics | John Kiriakou: The CIA Whistleblower Who Went to Prison for Telling th | 1:04:00 | 10,692 | `2026-06-08-ddgeopolitics-prison-for-truth` |
 | 6 | in-progress | 2025-03-01 | Truthwire | Where the Hell Is Panquake? Surveillance & The Technocratic | 71:00 | 10,417 | `2025-03-01-truthwire-where-the-hell-is-panquake-surveillance-the-t` |
 | 7 | in-progress | 2026-03-19 | DMZ America Podcast | Scott Has Questions for John Kiriakou / DMZ America Podcast | 63:00 | 10,351 | `2026-03-19-dmz-america-podcast-scott-has-questions-for-john-kiriakou-dmz-ame` |
 | 8 | in-progress | 2026-03-30 | Piers Morgan Uncensored | \ | 60:00 | 10,214 | `2026-03-30-piers-morgan-uncensored-you-don-t-stand-up-to-evil-you-lose-iran` |
