@@ -10,6 +10,7 @@
 set -uo pipefail
 
 DEST="public/images"
+UA="KiriPedia/1.0 (https://kiripedia.org; contact projectmamad48@gmail.com)"
 mkdir -p "$DEST"
 CREDITS="$DEST/credits.json"
 
@@ -511,6 +512,624 @@ MAPPING=(
   "gaza-famine=Gaza_famine"
   "9-11-commission=9/11_Commission"
   "omar-al-bayoumi=Omar_al-Bayoumi"
+  # ===== Ledger clear-out — 2026-08-04 (all remaining imageless articles) =====
+  "1953-iran-coup=1953_Iranian_coup_d'état"
+  "aafia-siddiqui=Aafia_Siddiqui"
+  "abraham-accords=Abraham_Accords"
+  "abraham-bolden=Abraham_Bolden"
+  "abu-omar-rendition=Abu_Omar_case"
+  "alex-padilla=Alex_Padilla"
+  "alfreda-bikowsky=Alfreda_Frances_Bikowsky"
+  "ali-mohamed=Ali_Mohamed_(double_agent)"
+  "american-psychological-association=American_Psychological_Association"
+  "amnesty-international=Amnesty_International"
+  "andrew-bustamante=Andrew_Bustamante"
+  "arianna-huffington=Arianna_Huffington"
+  "aryan-brotherhood=Aryan_Brotherhood"
+  "bahrain-prime-minister-mr-10-percent=Khalifa_bin_Salman_Al_Khalifa"
+  "bds-movement=Boycott,_Divestment_and_Sanctions"
+  "beirut=Beirut"
+  "bill-buckley=William_Francis_Buckley"
+  "brian-kelley=Brian_Kelley_(CIA_officer)"
+  "bruce-fein=Bruce_Fein"
+  "bureau-of-prisons=Federal_Bureau_of_Prisons"
+  "china-djibouti-base=Djibouti"
+  "citizens-united=Citizens_United_v._FEC"
+  "code-pink=Code_Pink"
+  "cold-war=Cold_War"
+  "counterterrorism-center=Counterterrorism_Center"
+  "covertaction-magazine=CovertAction_Quarterly"
+  "curveball=Curveball_(informant)"
+  "daniel-hale=Daniel_Hale"
+  "dead-drop=Dead_drop"
+  "der-spiegel=Der_Spiegel"
+  "elon-musk=Elon_Musk"
+  "enhanced-interrogation=Enhanced_interrogation_techniques"
+  "eric-oneill=Eric_O'Neill"
+  "extraordinary-rendition=Extraordinary_rendition"
+  "felix-rodriguez=Félix_Rodríguez_(soldier)"
+  "fisa-court=United_States_Foreign_Intelligence_Surveillance_Court"
+  "fisa=Foreign_Intelligence_Surveillance_Act"
+  "fort-chapman=Camp_Chapman_attack"
+  "freedom-of-information-act=Freedom_of_Information_Act_(United_States)"
+  "geneva-conventions=Geneva_Conventions"
+  "george-hw-bush=George_H._W._Bush"
+  "george-w-bush=George_W._Bush"
+  "gerald-bull=Gerald_Bull"
+  "government-accountability-project=Government_Accountability_Project"
+  "henry-kissinger=Henry_Kissinger"
+  "human-rights-watch=Human_Rights_Watch"
+  "in-q-tel=In-Q-Tel"
+  "india=India"
+  "iraq-wmd-intelligence=Iraq_and_weapons_of_mass_destruction"
+  "isis=Islamic_State"
+  "ismail-haniyeh-assassination=Assassination_of_Ismail_Haniyeh"
+  "j-edgar-hoover=J._Edgar_Hoover"
+  "jack-teixeira=Jack_Teixeira"
+  "jake-tapper=Jake_Tapper"
+  "james-bond=James_Bond"
+  "james-fishback=James_Fishback"
+  "jd-vance=JD_Vance"
+  "jeffrey-sterling=Jeffrey_Alexander_Sterling"
+  "jerome-post=Jerrold_Post"
+  "jim-pavitt=James_Pavitt"
+  "joe-rogan=Joe_Rogan"
+  "joe-weisberg=Joe_Weisberg"
+  "juan-guaido=Juan_Guaidó"
+  "kandahar=Kandahar"
+  "kashmir=Kashmir"
+  "ken-dilanian=Ken_Dilanian"
+  "khalid-el-masri=Khalid_El-Masri"
+  "khobar-towers-bombing=Khobar_Towers_bombing"
+  "kurds=Kurds"
+  "kuwait-invasion-intelligence=Iraqi_invasion_of_Kuwait"
+  "langley=Langley,_Virginia"
+  "leonie-brinkema=Leonie_Brinkema"
+  "lindsey-graham=Lindsey_Graham"
+  "maher-arar=Maher_Arar"
+  "maria-butina=Maria_Butina"
+  "martin-luther-king=Martin_Luther_King_Jr."
+  "matt-dehart=Matt_DeHart"
+  "mek=People's_Mojahedin_Organization_of_Iran"
+  "mike-pompeo=Mike_Pompeo"
+  "mike-scheuer=Michael_Scheuer"
+  "monroe-doctrine=Monroe_Doctrine"
+  "mort-halperin=Morton_Halperin"
+  "muammar-gaddafi=Muammar_Gaddafi"
+  "national-security-act=National_Security_Act_of_1947"
+  "national-security-council=United_States_National_Security_Council"
+  "nobel-peace-prize=Nobel_Peace_Prize"
+  "nordstream-pipeline-sabotage=Nord_Stream_pipelines_sabotage"
+  "olof-palme-assassination=Assassination_of_Olof_Palme"
+  "oman=Oman"
+  "operation-mockingbird=Operation_Mockingbird"
+  "osama-bin-laden=Osama_bin_Laden"
+  "piers-morgan=Piers_Morgan"
+  "plato-cacheris=Plato_Cacheris"
+  "pricewaterhousecoopers=PricewaterhouseCoopers"
+  "project-stargate=Stargate_Project_(U.S._Army_unit)"
+  "ptsd=Post-traumatic_stress_disorder"
+  "radio-and-tv-marti=Radio_y_Televisión_Martí"
+  "ray-mcgovern=Ray_McGovern"
+  "robert-maclean=Robert_MacLean"
+  "ross-ulbricht=Ross_Ulbricht"
+  "roy-cohn=Roy_Cohn"
+  "sam-adams-award=Sam_Adams_Award"
+  "sara-jane-moore=Sara_Jane_Moore"
+  "senate-intelligence-committee=United_States_Senate_Select_Committee_on_Intelligence"
+  "somali-land=Somaliland"
+  "soviet-union=Soviet_Union"
+  "stephen-saunders=Stephen_Saunders_(British_Army_officer)"
+  "steven-lalas=Steven_John_Lalas"
+  "strait-of-hormuz=Strait_of_Hormuz"
+  "tucker-carlson=Tucker_Carlson"
+  "united-food-and-commercial-workers=United_Food_and_Commercial_Workers"
+  "united-fruit-arbenz-coup=1954_Guatemalan_coup_d'état"
+  "vietnam-war=Vietnam_War"
+  "vladimir-putin=Vladimir_Putin"
+  "volodymyr-zelensky=Volodymyr_Zelenskyy"
+  "watergate=Watergate_scandal"
+  "world-trade-center=World_Trade_Center_(1973–2001)"
+  "zawahiri-assassination=Killing_of_Ayman_al-Zawahiri"
+  "1993-bush-assassination-plot=George_H._W._Bush"
+  "2026-iran-war-economic-shock=Price_of_oil"
+  "2026-iran-war=Iran–Israel_war"
+  "2028-presidential-field=White_House"
+  "9-11-plea-agreements=Guantanamo_Bay_detention_camp"
+  "911-attribution-of-responsibility=September_11_attacks"
+  "abolish-the-cia=Central_Intelligence_Agency"
+  "abraham-lincoln-collection=Abraham_Lincoln"
+  "abu-nidal-disruption=Abu_Nidal"
+  "administrative-remedy-process=United_States_Department_of_Justice"
+  "afghan-languages=Pashto"
+  "afghan-war-logs=Afghan_War_documents_leak"
+  "afghanistan-2011-kerry-trip=John_Kerry"
+  "ai-whistleblower-initiative=Artificial_intelligence"
+  "aipac-foreign-agent-registration=American_Israel_Public_Affairs_Committee"
+  "akrotiri-village-evacuation=RAF_Akrotiri"
+  "al-qaeda-software=Al-Qaeda"
+  "al-qaeda-training-manual-interrogation-tactics=Al-Qaeda"
+  "albert-stubblebine=Albert_Stubblebine"
+  "alex-station=Alec_Station"
+  "alexa=Amazon_Alexa"
+  "amaryllis-fox-kennedy=Amaryllis_Fox"
+  "andrew-feinstein=Andrew_Feinstein"
+  "andrew-warren=Central_Intelligence_Agency"
+  "andy-warhol-encounter=Andy_Warhol"
+  "angry-birds=Angry_Birds_(video_game)"
+  "antisemitism-and-anti-zionism=Antisemitism"
+  "arrais-corporation=Espionage"
+  "asel-al-ghabandi=Invasion_of_Kuwait"
+  "assange-plea-deal=Julian_Assange"
+  "athens-bank-fraud-report=Athens"
+  "bahrain-fishing-officer-demarche=Bahrain"
+  "bahrain-intifada-1994=1990s_uprising_in_Bahrain"
+  "barry-pollock=Julian_Assange"
+  "big-assawoman-bay-nasa-launch=Wallops_Flight_Facility"
+  "bilderberg-weapon-sales=Bilderberg_meeting"
+  "bill-pulte=Bill_Pulte"
+  "billy-waugh=Billy_Waugh"
+  "bob-trout=Plato_Cacheris"
+  "bob-woodward-cia-access=Bob_Woodward"
+  "british-bases-in-cyprus=Akrotiri_and_Dhekelia"
+  "bureau-of-prisons-advisory-board=United_States_Department_of_Justice"
+  "cameo=Cameo_(website)"
+  "central-american-task-force=Contras"
+  "chaos-computer-club-wikileaks=Chaos_Computer_Club"
+  "charles-samuels=Charles_E._Samuels_Jr."
+  "charlie-kirk-shooting=Charlie_Kirk"
+  "chas-freeman-gaza-plan-1991=Chas_Freeman"
+  "china-economic-threat=Economy_of_China"
+  "china-illegal-fishing=Fishing_industry_in_China"
+  "chinese-spy-balloon-incident=2023_Chinese_balloon_incident"
+  "christian-zionism=Christian_Zionism"
+  "christopher-hitchens=Christopher_Hitchens"
+  "christopher-steele-dossier=Steele_dossier"
+  "cia-adultery-culture=Central_Intelligence_Agency"
+  "cia-animal-surveillance-experiments=Acoustic_Kitty"
+  "cia-arabic-hiring-practices=Arabic"
+  "cia-big-tech-revolving-door=Silicon_Valley"
+  "cia-car-hacking=Vault_7"
+  "cia-cash-room=United_States_one_hundred-dollar_bill"
+  "cia-culture-of-lying=Deception"
+  "cia-democrats-2016=United_States_House_of_Representatives"
+  "cia-disguise-program=Disguise"
+  "cia-fbi-911-interagency-rivalry=J._Edgar_Hoover"
+  "cia-fbi-budget-fearmongering=J._Edgar_Hoover"
+  "cia-fbi-organized-crime=American_Mafia"
+  "cia-fbi-social-media-embed=Twitter_Files"
+  "cia-feeder-schools=Georgetown_University"
+  "cia-founding-1947=National_Security_Act_of_1947"
+  "cia-gmail-account-felony-case=Gmail"
+  "cia-insiders-guide-to-surveillance=Surveillance"
+  "cia-intelligence-failures=Central_Intelligence_Agency"
+  "cia-liaison-relationships=Espionage"
+  "cia-media-relations=Operation_Mockingbird"
+  "cia-media-revolving-door=Television_news"
+  "cia-political-action-group=Propaganda"
+  "cia-political-neutrality-tradition=George_H._W._Bush"
+  "cia-record-deniability=Plausible_deniability"
+  "cia-remote-vehicle-control=Vault_7"
+  "cia-satan-church-nsa-investigation=Satanic_panic"
+  "cia-sexpionage=Honey_trapping"
+  "cia-smart-tv-surveillance=Smart_TV"
+  "cia-spy-tech-amazon=Amazon_(company)"
+  "cia-torture-program-whistleblowing=Enhanced_interrogation_techniques"
+  "cia-training-doctrine=Camp_Peary"
+  "cia-ufo-question=Unidentified_flying_object"
+  "classification-compartments=Classified_information_in_the_United_States"
+  "clint-goswick=Wichita_Falls,_Texas"
+  "collateral-murder-video=Collateral_Murder"
+  "commercial-off-the-shelf-tradecraft=Commercial_off-the-shelf"
+  "communications-management-unit=Communications_management_unit"
+  "congressional-intelligence-oversight=United_States_Senate_Select_Committee_on_Intelligence"
+  "consortium-news=Robert_Parry_(journalist)"
+  "cover-position=Espionage"
+  "critical-analytic-thinking=Critical_thinking"
+  "dark-alliance=Gary_Webb"
+  "darpa-lifelog=DARPA"
+  "david-rockefeller-bahrain=David_Rockefeller"
+  "dead-drop-podcast=Podcast"
+  "death-threats-against-kiriakou=John_Kiriakou"
+  "decapitation-strikes=Decapitation_strike"
+  "deep-state=Deep_state_in_the_United_States"
+  "deloitte-consulting-career=Deloitte"
+  "democratic-party-2025-approval-decline=Democratic_Party_(United_States)"
+  "democratic-redistricting-collapse=Gerrymandering"
+  "diary-of-a-ceo-january-2026=Steven_Bartlett"
+  "doctor-zhivago-operation=Doctor_Zhivago_(novel)"
+  "domino-theory=Ronald_Reagan"
+  "donnie-reynolds-jr=Tennessee"
+  "double-agent-capture=Double_agent"
+  "double-agent-marriott-trap=Marriott_International"
+  "drone-base-balochistan=Shamsi_Airfield"
+  "eastern-district-of-virginia=United_States_District_Court_for_the_Eastern_District_of_Virginia"
+  "economic-roots-of-terrorism=Poverty"
+  "epstein-files-transparency-act=Jeffrey_Epstein"
+  "ethan-mccord-collateral-murder=Collateral_Murder"
+  "f-35-israel-avionics=Lockheed_Martin_F-35_Lightning_II"
+  "fbi-apologies-to-kiriakou=Federal_Bureau_of_Investigation"
+  "fbi-arrest-strategies=Federal_Bureau_of_Investigation"
+  "fbi-manufactured-terrorism-cases=Federal_Bureau_of_Investigation"
+  "federal-plea-coercion=Plea_bargain"
+  "federal-torture-act=Torture"
+  "fentanyl-and-china=Fentanyl"
+  "field-loadout=Passport"
+  "flock-cameras=Automatic_number-plate_recognition"
+  "french-village-lsd-bread-experiment=Pont-Saint-Esprit_mass_poisoning"
+  "gail-slater=United_States_Department_of_Justice"
+  "galls-com-sponsor-story=Islamabad"
+  "gary-webb-kill-the-messenger=Kill_the_Messenger_(2014_film)"
+  "george-mcgovern=George_McGovern"
+  "girls-madrasa-raid-error=Madrasa"
+  "giuliani-pardon-solicitation=Trump_International_Hotel_Washington,_D.C."
+  "glenn-symington-act=John_Glenn"
+  "graham-netanyahu-icc-tapes=Lindsey_Graham"
+  "greek-death-rituals=Ossuary"
+  "gulf-security-bargain=Franklin_D._Roosevelt"
+  "hague-invasion-act=International_Criminal_Court"
+  "hamilton-68=Disinformation"
+  "haqqani-white-house-meeting=Ronald_Reagan"
+  "haroon-yenor-trial=Terrorism"
+  "heather-saunders=Athens"
+  "how-can-i-keep-from-singing=Pete_Seeger"
+  "hunter-biden-laptop=Hunter_Biden"
+  "intelligence-agencies=United_States_Intelligence_Community"
+  "intelligence-identities-protection-act=Central_Intelligence_Agency"
+  "iran-2024-drone-retaliation=2024_Iranian_strikes_against_Israel"
+  "iran-nuclear-assessment=Nuclear_program_of_Iran"
+  "iran-regional-war-2026=Iran"
+  "iran-strike-factions-2026=White_House"
+  "iranian-sleeper-cells=Islamic_Revolutionary_Guard_Corps"
+  "iraq-war-israeli-tower-sabotage=Iraq_War"
+  "irish-intelligence-services=Garda_Síochána"
+  "israel-boyd-wonder-bread-story=Cemetery"
+  "israel-counterintelligence-threat-ranking=Israel–United_States_relations"
+  "israel-iran-cell-phone-assassinations=Tehran"
+  "israel-turkey-nato-article-5=NATO"
+  "israel-united-states-relations=Israel–United_States_relations"
+  "israeli-art-student-spy-ring=Mossad"
+  "israeli-drone-factories-in-serbia=Serbia"
+  "israeli-false-flags=False_flag"
+  "israeli-foreknowledge-of-9-11=September_11_attacks"
+  "israeli-integration-into-us-agencies=Israel–United_States_relations"
+  "israeli-intelligence-in-united-states=Mossad"
+  "israeli-property-acquisition-in-greece-and-cyprus=Greece"
+  "israeli-torture-of-palestinian-prisoners=Israel_Prison_Service"
+  "israeli-training-of-us-police=Israel_Police"
+  "italian-election-covert-action=1948_Italian_general_election"
+  "italians-at-loretto=American_Mafia"
+  "jack-murphy-nato-sabotage-story=NATO"
+  "japanese-diplomat-fbi-sting=Federal_Bureau_of_Investigation"
+  "jennifer-keenan-fbi=Federal_Bureau_of_Investigation"
+  "jim-moran=James_P._Moran"
+  "joby-warrick-washington-post-resignation=The_Washington_Post"
+  "joe-kent=Joe_Kent_(American_politician)"
+  "johns-briefing-room=John_Kiriakou"
+  "jordanian-al-qaeda-detainee=Al-Qaeda"
+  "joseph-b-chambers=Medal_of_Honor"
+  "katherine-gun=Katharine_Gun"
+  "kathryn-ruemmler=Kathryn_Ruemmler"
+  "kiki-camarena-case=Kiki_Camarena"
+  "king-abdullah-ii=Abdullah_II_of_Jordan"
+  "kiriakou-and-cenk-uygur=Cenk_Uygur"
+  "kiriakou-and-third-parties=Third-party_and_independent_candidates_for_the_2016_United_States_presidential_election"
+  "kiriakou-cameo-practice=Cameo_(website)"
+  "kiriakou-cuba-trip=Havana"
+  "kiriakou-cypriot-ancestry=Cyprus"
+  "kiriakou-daily-news-diet=Newspaper"
+  "kiriakou-death-threats=John_Kiriakou"
+  "kiriakou-family-name=Rhodes"
+  "kiriakou-father-and-grandfather=Family"
+  "kiriakou-greek-whistleblower-law=Hellenic_Parliament"
+  "kiriakou-introduction-to-wikileaks=WikiLeaks"
+  "kiriakou-iran-trips=Iran"
+  "kiriakou-islamabad-surveillance-incident=Islamabad"
+  "kiriakou-moneylaundering-tip=Money_laundering"
+  "kiriakou-mother-israel-trip=West_Bank"
+  "kiriakou-on-travel=Greece"
+  "kiriakou-pardon-request=Donald_Trump"
+  "kiriakou-podcast-breakthrough=Podcast"
+  "kiriakou-prison-designation=Federal_Correctional_Institution,_Loretto"
+  "kiriakou-prison-manipulation-tactics=Prison"
+  "kiriakou-public-speaking-training=Rhetoric"
+  "kiriakou-russian-media=Sputnik_(news_agency)"
+  "kiriakou-serial-killer-letters=Serial_killer"
+  "kiriakou-situational-awareness=Situation_awareness"
+  "kiriakou-television-pilots=Television_pilot"
+  "kiriakou-tiktok-fan-edits=TikTok"
+  "kiriakou-transfer-to-operations=Central_Intelligence_Agency"
+  "kiriakou-writing-process=Writing"
+  "kite-runner-rescue-mission=The_Kite_Runner"
+  "larry-raviv=Prison"
+  "leadership-profiling=Offender_profiling"
+  "lebanon-israeli-conflict=Lebanon"
+  "letter-from-loretto=Letter_from_Birmingham_Jail"
+  "liberty-university=Liberty_University"
+  "loretto-correctional-officers=Prison_officer"
+  "loretto-education-department=Federal_Correctional_Institution,_Loretto"
+  "lsd-mind-manipulation=Lysergic_acid_diethylamide"
+  "lynn-buchanan=Remote_viewing"
+  "magic-box=Mobile_phone_tracking"
+  "mar-a-lago-pardon-pitch=Mar-a-Lago"
+  "marble-framework=Vault_7"
+  "mark-lanzotti=Life_imprisonment"
+  "mark-levin-iran-policy=Mark_Levin"
+  "mark-mcdougall=Law"
+  "mark-zuckerberg-angela-merkel-meeting=Mark_Zuckerberg"
+  "martha-kesler=Syria"
+  "mass-incarceration-critique=Prison"
+  "mass-surveillance=Mass_surveillance"
+  "matthew-cole=Journalism"
+  "mccain-feinstein-amendment=John_McCain"
+  "meredith-whittaker=Signal_(software)"
+  "mexican-9-month-work-visas=Mexico–United_States_border"
+  "mike-baker=Central_Intelligence_Agency"
+  "military-ethics=Military_ethics"
+  "mir-aimal-kansi-attack=Mir_Aimal_Kansi"
+  "miranda-rights=Miranda_warning"
+  "mitchell-and-jessen=Enhanced_interrogation_techniques"
+  "mlk-assassination=Assassination_of_Martin_Luther_King_Jr."
+  "mohsen-rafighdoost=Mohsen_Rafighdoost"
+  "moral-injury=Moral_injury"
+  "mormons-in-intelligence=The_Church_of_Jesus_Christ_of_Latter-day_Saints"
+  "myanmar-civil-war-kiriakou-view=Myanmar_civil_war_(2021–present)"
+  "national-security-vs-civil-liberties=Civil_liberties"
+  "ndaa-2027-israel-fusion=National_Defense_Authorization_Act"
+  "ndaa-section-219=United_States_Congress"
+  "netanyahu-arrest-poll=Benjamin_Netanyahu"
+  "newsguard=NewsGuard"
+  "nick-bryant=Jeffrey_Epstein"
+  "non-personal-communication=Dead_drop"
+  "nsa-surveillance=National_Security_Agency"
+  "october-7-attack=October_7_attacks"
+  "office-of-leadership-analysis=Central_Intelligence_Agency"
+  "office-of-special-plans-israeli-leak=Office_of_Special_Plans"
+  "office-of-the-director-of-national-intelligence=Director_of_National_Intelligence"
+  "omar-al-bayoumi=September_11_attacks"
+  "only-fans=OnlyFans"
+  "operation-mega=Federal_Bureau_of_Investigation"
+  "operational-vehicles=Toyota_Land_Cruiser"
+  "oscar-blandon=Contras"
+  "overcriminalization=Prison"
+  "pakistan-islam-economic-critique=Pakistan"
+  "pakistan-station-2002=Islamabad"
+  "palestinians-in-the-gulf=Kuwait"
+  "pan-quake=Iceland"
+  "panetta-bin-laden-disclosure=Leon_Panetta"
+  "permanent-wartime-economy=Military–industrial_complex"
+  "petra-bank=Amman"
+  "petrodollar-kissinger=Henry_Kissinger"
+  "pickaxe-mountain=Natanz"
+  "plus-972=Israel"
+  "podcast-bros=Podcast"
+  "population-decline-analysis=Population_decline"
+  "presidents-and-the-cia=Oval_Office"
+  "presidents-daily-brief=President's_Daily_Brief"
+  "prince-andrew=Prince_Andrew,_Duke_of_York"
+  "principals-committee-meeting=United_States_National_Security_Council"
+  "prison-food-economy=Prison_food"
+  "prison-legal-news=Prison"
+  "prison-medical-care=Federal_Correctional_Institution,_Loretto"
+  "prison-pedophile-accounts=Prison"
+  "prison-phone-monitoring=Telephone"
+  "prison-racial-segregation=Prison"
+  "private-intelligence=Espionage"
+  "private-prison-system=Private_prison"
+  "project-gateway=Remote_viewing"
+  "prosecutorial-careerism=United_States_Attorney"
+  "public-interest-defense=Espionage_Act_of_1917"
+  "public-safety-factor=Prison"
+  "publications-review-board=Central_Intelligence_Agency"
+  "rand-paul-eric-holder=Rand_Paul"
+  "ray-davis-lahore-shooting=Raymond_Allen_Davis_incident"
+  "rdap-program=Drug_rehabilitation"
+  "recruitment-attempts-on-kiriakou=Espionage"
+  "remains-of-day-treasury-clerk-story=United_States_Department_of_the_Treasury"
+  "remains-of-the-day-book=Cemetery"
+  "restraint-camp=Isolationism"
+  "rhodes-jewish-deportation-family-story=Rhodes"
+  "rhodes-jewish-deportation=Kahal_Shalom_Synagogue"
+  "richard-wolff=Marxian_economics"
+  "russell-targ=Remote_viewing"
+  "russia-ukraine-war-origins=Russo-Ukrainian_War"
+  "russiagate=Russian_interference_in_the_2016_United_States_elections"
+  "safe-housekeeper=Safe_house"
+  "salt-pit=Salt_Pit"
+  "san-bernardino-iphone-case=FBI–Apple_encryption_dispute"
+  "sanctions-effectiveness=Economic_sanctions"
+  "saudi-iran-diplomatic-rivalry=Iran–Saudi_Arabia_relations"
+  "saudi-military-composition=Saudi_Arabian_Army"
+  "saudi-princes-and-9-11=Abu_Zubaydah"
+  "section-702=Foreign_Intelligence_Surveillance_Act"
+  "securedrop=SecureDrop"
+  "senate-foreign-relations-committee=United_States_Senate_Committee_on_Foreign_Relations"
+  "sharia-law=Islam"
+  "sharon-scranage=Ghana"
+  "signature-strikes=General_Atomics_MQ-1_Predator"
+  "sigurdur-thordarson=Iceland"
+  "sociopathic-tendencies=Antisocial_personality_disorder"
+  "sofia-bulgaria-dead-drop=Sofia"
+  "souda-bay-crete-vulnerability=Naval_Support_Activity_Souda_Bay"
+  "south-caucasus-realignment=South_Caucasus"
+  "splc-2025-indictment=Southern_Poverty_Law_Center"
+  "spy-films-accuracy=Argo_(2012_film)"
+  "strait-of-hormuz-transit-fees=Strait_of_Hormuz"
+  "superdelegates=Superdelegate"
+  "sweat-lodge=Sweat_lodge"
+  "taliban-embassy-raid=Peshawar"
+  "taliban-spokesman-setup=Taliban"
+  "targeting-analyst=Intelligence_analysis"
+  "taybeh=Taybeh_Brewing_Company"
+  "terry-aubry=Federal_Bureau_of_Investigation"
+  "the-botched-pitch=Espionage"
+  "the-drone-papers=The_Intercept"
+  "the-false-volunteer=Espionage"
+  "the-farm=Camp_Peary"
+  "the-reluctant-spy=John_Kiriakou"
+  "the-sociopath-next-door=Antisocial_personality_disorder"
+  "the-spy-shop=London"
+  "thin-thread=ThinThread"
+  "this-desk-kills-fascism=This_Machine_Kills_Fascists"
+  "three-felonies-a-day=Harvey_Silverglate"
+  "ticking-time-bomb=Torture"
+  "todd-blanch=Todd_Blanche"
+  "tommy-mchale=Port_Authority_of_New_York_and_New_Jersey"
+  "truck-and-cat-in-the-hat=The_Cat_in_the_Hat"
+  "truman-cia-op-ed=Harry_S._Truman"
+  "trump-cartel-terrorist-designation=Drug_cartel"
+  "trump-dni-replacement=Director_of_National_Intelligence"
+  "trump-glorification-and-the-iran-war=Donald_Trump"
+  "trump-iran-ceasefire-efforts=Donald_Trump"
+  "trump-tariffs=Donald_Trump"
+  "trump=Donald_Trump"
+  "tucker-carlson-2026-fara-referral=Tucker_Carlson"
+  "tyrell-vanto=Hollywood,_Los_Angeles"
+  "uk-secrecy-laws=Official_Secrets_Act"
+  "us-diplomatic-vacancies=United_States_Department_of_State"
+  "us-forces-in-syria-legality=Syria"
+  "us-military-venture-capital=Venture_capital"
+  "usaid-cia-front-operations=United_States_Agency_for_International_Development"
+  "va-benefits-for-idf-service=Israel_Defense_Forces"
+  "venezuela-boat-strikes=Caribbean_Sea"
+  "venezuela-regime-change-2026=Venezuela"
+  "venezuelan-embassy-2019=Embassy_of_Venezuela,_Washington,_D.C."
+  "veteran-intelligence-professionals-for-sanity=Veteran_Intelligence_Professionals_for_Sanity"
+  "virginia-redistricting-supreme-court-ruling=Supreme_Court_of_the_United_States"
+  "walk-in=Espionage"
+  "walter-pincus=The_Washington_Post"
+  "watching-naval-movements=United_States_Navy"
+  "watermark=Watermark"
+  "wealth-concentration=Wealth_inequality_in_the_United_States"
+  "whispers-in-the-dirt-book=Green-Wood_Cemetery"
+  "whistleblower-protection-act=Whistleblower"
+  "whistleblower-psychology=Whistleblower"
+  "wikileaks-as-a-system=WikiLeaks"
+  "witness-k-case=Australian_Secret_Intelligence_Service"
+  "yalta-conference=Yalta_Conference"
+  "yemen-arrest=Sanaa"
+  "zakynthos-holocaust-rescue=Zakynthos"
+  # ===== Ledger clear-out fallbacks — 2026-08-04 (targets whose first
+  # choice has no free lead image in the Wikipedia summary API) =====
+  "dark-alliance=Cocaine"
+  "liberty-university=Lynchburg,_Virginia"
+  "jerome-post=Central_Intelligence_Agency"
+  "gerald-post=Central_Intelligence_Agency"
+  "ray-davis-lahore-shooting=Lahore"
+  "andrew-bustamante=Central_Intelligence_Agency"
+  "taybeh=Ramallah"
+  "enhanced-interrogation=Abu_Ghraib_torture_and_prisoner_abuse"
+  "mitchell-and-jessen=Abu_Ghraib_torture_and_prisoner_abuse"
+  "stephen-saunders=Athens"
+  "the-farm=Williamsburg,_Virginia"
+  "ken-dilanian=NBC_News"
+  "brian-kelly=Federal_Bureau_of_Investigation"
+  "brian-kelley=Federal_Bureau_of_Investigation"
+  "mike-scheuer=Osama_bin_Laden"
+  "jim-pavitt=Central_Intelligence_Agency"
+  "mort-halperin=The_Pentagon"
+  "gerald-bull=Project_Babylon"
+  "in-q-tel=Central_Intelligence_Agency"
+  "operation-mockingbird=Propaganda"
+  "drone-base-balochistan=Balochistan"
+  "maher-arar=Syria"
+  "khaled-el-masri=Skopje"
+  "khalid-el-masri=Skopje"
+  "eric-oneill=Robert_Hanssen"
+  "leonie-brinkema=United_States_District_Court_for_the_Eastern_District_of_Virginia"
+  "jeffrey-sterling=Central_Intelligence_Agency"
+  "extraordinary-rendition=Guantanamo_Bay_detention_camp"
+  "katherine-gun=Government_Communications_Headquarters"
+  "plato-cacheris=Washington,_D.C."
+  "bob-trout=Washington,_D.C."
+  "joe-kent=Washington_(state)"
+  "government-accountability-project=Washington,_D.C."
+  "antisemitism-and-anti-zionism=Theodor_Herzl"
+  "abraham-bolden=United_States_Secret_Service"
+  "abu-omar-rendition=Milan"
+  "alfreda-bikowsky=Central_Intelligence_Agency"
+  "citizens-united=Supreme_Court_of_the_United_States"
+  "covertaction-magazine=Magazine"
+  "jack-teixeira=United_States_Air_Force"
+  "project-stargate=Remote_viewing"
+  "ptsd=Combat_stress_reaction"
+  "steven-lalas=Athens"
+  "united-food-and-commercial-workers=Strike_action"
+  "afghan-war-logs=WikiLeaks"
+  "ai-whistleblower-initiative=ChatGPT"
+  "alex-station=Osama_bin_Laden"
+  "amaryllis-fox-kennedy=Central_Intelligence_Agency"
+  "asel-al-ghabandi=Kuwait"
+  "cameo=Smartphone"
+  "kiriakou-cameo-practice=Smartphone"
+  "christian-zionism=Jerusalem"
+  "cia-animal-surveillance-experiments=Cat"
+  "cia-culture-of-lying=Polygraph"
+  "cia-fbi-organized-crime=Al_Capone"
+  "cia-fbi-social-media-embed=Twitter"
+  "cia-media-relations=CNN"
+  "cia-media-revolving-door=CNN"
+  "cia-record-deniability=Central_Intelligence_Agency"
+  "cia-satan-church-nsa-investigation=Church_of_Satan"
+  "cia-sexpionage=Espionage"
+  "cia-torture-program-whistleblowing=Abu_Ghraib_torture_and_prisoner_abuse"
+  "cia-training-doctrine=Williamsburg,_Virginia"
+  "classification-compartments=Classified_information"
+  "commercial-off-the-shelf-tradecraft=Consumer_electronics"
+  "communications-management-unit=Solitary_confinement"
+  "consortium-news=Washington,_D.C."
+  "critical-analytic-thinking=Logic"
+  "decapitation-strikes=General_Atomics_MQ-9_Reaper"
+  "deep-state=United_States_Capitol"
+  "deloitte-consulting-career=New_York_City"
+  "democratic-party-2025-approval-decline=United_States_Congress"
+  "diary-of-a-ceo-january-2026=Podcast"
+  "double-agent-capture=Espionage"
+  "federal-plea-coercion=Prison"
+  "french-village-lsd-bread-experiment=Lysergic_acid_diethylamide"
+  "girls-madrasa-raid-error=Pakistan"
+  "iran-2024-drone-retaliation=Israel_Defense_Forces"
+  "iran-nuclear-assessment=Natanz"
+  "italians-at-loretto=Al_Capone"
+  "kiriakou-and-third-parties=Ralph_Nader"
+  "kiriakou-russian-media=Moscow"
+  "kiriakou-situational-awareness=Surveillance"
+  "kiriakou-television-pilots=Television"
+  "mark-lanzotti=Prison"
+  "matthew-cole=The_Intercept"
+  "military-ethics=United_States_Department_of_Defense"
+  "moral-injury=War"
+  "mormons-in-intelligence=Salt_Lake_Temple"
+  "national-security-vs-civil-liberties=United_States_Bill_of_Rights"
+  "ndaa-2027-israel-fusion=The_Pentagon"
+  "newsguard=Fake_news"
+  "office-of-special-plans-israeli-leak=The_Pentagon"
+  "only-fans=Internet"
+  "private-prison-system=Prison"
+  "public-interest-defense=Daniel_Ellsberg"
+  "rdap-program=Alcoholics_Anonymous"
+  "restraint-camp=United_States_Capitol"
+  "rhodes-jewish-deportation=Rhodes"
+  "sanctions-effectiveness=United_Nations"
+  "sociopathic-tendencies=Amygdala"
+  "the-sociopath-next-door=Amygdala"
+  "splc-2025-indictment=Montgomery,_Alabama"
+  "spy-films-accuracy=Ben_Affleck"
+  "superdelegates=Democratic_National_Convention"
+  "targeting-analyst=Central_Intelligence_Agency"
+  "three-felonies-a-day=Harvard_University"
+  "trump-cartel-terrorist-designation=Sinaloa_Cartel"
+  "us-military-venture-capital=The_Pentagon"
+  "veteran-intelligence-professionals-for-sanity=Ray_McGovern"
+  "whistleblower-protection-act=Daniel_Ellsberg"
+  "whistleblower-psychology=Daniel_Ellsberg"
+  "witness-k-case=Australia"
+  "yemen-arrest=Yemen"
+  "zakynthos-holocaust-rescue=Ionian_Islands"
+  "butler-rally-shooting=Attempted_assassination_of_Donald_Trump_in_Pennsylvania"
+  "washington-political-culture=United_States_Capitol"
+  "cia-directorates=Central_Intelligence_Agency"
+  "advanced-counterterrorism-operations=Counterterrorism"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.
@@ -519,6 +1138,43 @@ trap "rm -rf $TMP" EXIT
 
 got=0
 miss=0
+
+# Carry forward credits for slugs that already have both an image on disk and
+# a good credits entry. Without this, every run re-queries ~700 unchanged
+# entries and the resulting load starves the handful that still need fetching.
+# Set REFRESH_CREDITS=1 to re-query everything from scratch.
+if [ "${REFRESH_CREDITS:-0}" != "1" ] && [ -s "$CREDITS" ]; then
+  carried=$(jq -r 'keys[]' "$CREDITS" 2>/dev/null)
+  for slug in $carried; do
+    [ -n "$(ls "$DEST/$slug".* 2>/dev/null | head -1)" ] || continue
+    jq -c --arg k "$slug" '.[$k]' "$CREDITS" > "$TMP/$slug.json"
+  done
+  echo "Carried forward $(ls "$TMP" | wc -l | tr -d ' ') existing credits (REFRESH_CREDITS=1 to redo)."
+fi
+
+# Ask Wikipedia for a page's lead image. Retries with backoff — under
+# parallel load the REST API drops requests, and a single miss would
+# otherwise be indistinguishable from "this page has no picture".
+wp_thumb() {
+  local title="$1" attempt json thumb
+  for attempt in 1 2 3 4; do
+    json=$(curl -sL --max-time 25 -A "$UA" \
+      "https://en.wikipedia.org/api/rest_v1/page/summary/$title" 2>/dev/null)
+    thumb=$(echo "$json" | jq -r '.originalimage.source // .thumbnail.source // empty' 2>/dev/null)
+    if [ -n "$thumb" ] && [ "$thumb" != "null" ]; then
+      echo "$thumb"
+      return 0
+    fi
+    # A real page summary that simply has no image: stop, don't retry.
+    # Error bodies (429 rate-limit, 404) also carry a "title" field, so key
+    # off .titles.canonical, which only a genuine page summary has.
+    if echo "$json" | jq -e '.titles.canonical' >/dev/null 2>&1; then
+      return 1
+    fi
+    sleep $((attempt * 2))
+  done
+  return 1
+}
 
 fetch_credit() {
   local thumb="$1"
@@ -529,7 +1185,7 @@ fetch_credit() {
   fi
 
   local meta_json
-  meta_json=$(curl -sL -A "KiriPedia/1.0" "https://commons.wikimedia.org/w/api.php?action=query&titles=File:${file_for_meta}&prop=imageinfo&iiprop=extmetadata&format=json" 2>/dev/null)
+  meta_json=$(curl -sL -A "$UA" "https://commons.wikimedia.org/w/api.php?action=query&titles=File:${file_for_meta}&prop=imageinfo&iiprop=extmetadata&format=json" 2>/dev/null)
   local artist license
   artist=$(echo "$meta_json" | jq -r '.. | objects | .Artist?.value // empty' 2>/dev/null | head -1 | sed -E 's/<[^>]+>//g' | tr -d '\n' | head -c 200)
   license=$(echo "$meta_json" | jq -r '.. | objects | .LicenseShortName?.value // empty' 2>/dev/null | head -1 | tr -d '\n')
@@ -538,65 +1194,109 @@ fetch_credit() {
   echo "$artist|||$license"
 }
 
-for entry in "${MAPPING[@]}"; do
-  slug="${entry%%=*}"
-  title="${entry#*=}"
+do_entry() {
+  local entry="$1"
+  local slug="${entry%%=*}"
+  local titles="${entry#*=}"
+  local existing ext thumb url_basename out artist license title
 
-  sleep 1.2
+  # Candidate titles, tried in order — later entries in MAPPING act as
+  # fallbacks for a slug whose first title has no lead image.
+  local -a candidates
+  IFS='|' read -r -a candidates <<< "$titles"
+  title="${candidates[0]}"
+
+  # Already carried forward from a previous run — nothing to do.
+  [ -s "$TMP/$slug.json" ] && return 0
 
   # If image already exists, just rebuild the credits entry from Wikipedia/Commons.
   existing=$(ls "$DEST/$slug".* 2>/dev/null | head -1)
   if [ -n "$existing" ]; then
     ext="${existing##*.}"
     # Re-derive the thumb URL so we can fetch up-to-date Commons metadata.
-    json=$(curl -sL -A "KiriPedia/1.0" "https://en.wikipedia.org/api/rest_v1/page/summary/$title" 2>/dev/null)
-    thumb=$(echo "$json" | jq -r '.originalimage.source // .thumbnail.source // empty' 2>/dev/null)
-    if [ -z "$thumb" ] || [ "$thumb" = "null" ]; then
+    thumb=""
+    for title in "${candidates[@]}"; do
+      thumb=$(wp_thumb "$title")
+      [ -n "$thumb" ] && break
+    done
+    if [ -z "$thumb" ]; then
+      title="${candidates[0]}"
       echo "→ $slug (image present, credit unavailable)"
       printf '{"file":"/images/%s.%s","source_article":%s,"artist":"Unknown","license":"See Wikimedia Commons","via":"Wikimedia Commons"}' \
-        "$slug" "$ext" "$(echo "$title" | jq -Rs .)" > "$TMP/$slug.json"
-      got=$((got + 1))
-      continue
+        "$slug" "$ext" "$(jq -Rn --arg v "$title" '$v')" > "$TMP/$slug.json"
+      return 0
     fi
     IFS='|||' read -r artist _ _ license <<< "$(fetch_credit "$thumb")"
     printf '{"file":"/images/%s.%s","source_article":%s,"artist":%s,"license":%s,"via":"Wikimedia Commons"}' \
-      "$slug" "$ext" "$(echo "$title" | jq -Rs .)" "$(echo "$artist" | jq -Rs .)" "$(echo "$license" | jq -Rs .)" > "$TMP/$slug.json"
+      "$slug" "$ext" "$(jq -Rn --arg v "$title" '$v')" "$(jq -Rn --arg v "$artist" '$v')" "$(jq -Rn --arg v "$license" '$v')" > "$TMP/$slug.json"
     echo "→ $slug.$ext (credit refreshed: $license)"
-    got=$((got + 1))
-    continue
+    return 0
   fi
 
-  # No image yet — fetch from Wikipedia (with one retry on empty response)
-  json=$(curl -sL -A "KiriPedia/1.0" "https://en.wikipedia.org/api/rest_v1/page/summary/$title" 2>/dev/null)
-  thumb=$(echo "$json" | jq -r '.originalimage.source // .thumbnail.source // empty' 2>/dev/null)
-  if [ -z "$thumb" ] || [ "$thumb" = "null" ]; then
-    sleep 2
-    json=$(curl -sL -A "KiriPedia/1.0" "https://en.wikipedia.org/api/rest_v1/page/summary/$title" 2>/dev/null)
-    thumb=$(echo "$json" | jq -r '.originalimage.source // .thumbnail.source // empty' 2>/dev/null)
+  # No image yet — fetch from Wikipedia, trying each candidate title.
+  thumb=""
+  for title in "${candidates[@]}"; do
+    thumb=$(wp_thumb "$title")
+    [ -n "$thumb" ] && break
+  done
+  if [ -z "$thumb" ]; then
+    echo "✗ $slug (${candidates[*]}) — no lead image"
+    return 1
   fi
 
-  if [ -z "$thumb" ] || [ "$thumb" = "null" ]; then
-    echo "✗ $slug ($title) — no lead image"
-    miss=$((miss + 1))
-    continue
-  fi
-
+  # Extension comes from the file name only — strip any query string or
+  # fragment, and fall back to .jpg if what's left isn't a real image suffix.
   url_basename="${thumb##*/}"
+  url_basename="${url_basename%%\?*}"
+  url_basename="${url_basename%%#*}"
   ext=$(echo "${url_basename##*.}" | tr '[:upper:]' '[:lower:]')
+  case "$ext" in
+    jpg|jpeg|png|gif|svg|webp|tif|tiff) ;;
+    *) ext="jpg" ;;
+  esac
   out="$DEST/$slug.$ext"
-  curl -sL -A "KiriPedia/1.0" -o "$out" "$thumb"
-  if [ ! -s "$out" ]; then
-    echo "✗ $slug — download empty"
-    miss=$((miss + 1))
-    continue
+  # upload.wikimedia.org throttles bulk downloads by serving an HTML error
+  # page with a 200. Verify we actually got an image, and retry if not.
+  local dl_ok=0 dl_try mime
+  for dl_try in 1 2 3 4; do
+    curl -sL --max-time 60 --retry 0 -A "$UA" -o "$out" "$thumb"
+    if [ -s "$out" ]; then
+      mime=$(file -b --mime-type "$out" 2>/dev/null)
+      case "$mime" in
+        image/*) dl_ok=1; break ;;
+      esac
+    fi
+    # 429 from upload.wikimedia.org — back off hard, it is a shared budget.
+    sleep $((dl_try * dl_try * 15))
+  done
+  if [ "$dl_ok" != "1" ]; then
+    echo "✗ $slug — download did not yield an image (last type: ${mime:-empty})"
+    rm -f "$out"
+    return 1
   fi
 
   IFS='|||' read -r artist _ _ license <<< "$(fetch_credit "$thumb")"
   printf '{"file":"/images/%s.%s","source_article":%s,"artist":%s,"license":%s,"via":"Wikimedia Commons"}' \
-    "$slug" "$ext" "$(echo "$title" | jq -Rs .)" "$(echo "$artist" | jq -Rs .)" "$(echo "$license" | jq -Rs .)" > "$TMP/$slug.json"
+    "$slug" "$ext" "$(jq -Rn --arg v "$title" '$v')" "$(jq -Rn --arg v "$artist" '$v')" "$(jq -Rn --arg v "$license" '$v')" > "$TMP/$slug.json"
   echo "✓ $slug.$ext ($license)"
-  got=$((got + 1))
-done
+  return 0
+}
+
+# Run the mapping in parallel — a serial pass over ~1,000 entries takes hours.
+# Set PARALLEL=1 to crawl when upload.wikimedia.org starts throttling downloads.
+export -f do_entry fetch_credit wp_thumb
+export DEST TMP UA
+ENTRIES=$(printf '%s\n' "${MAPPING[@]}" | awk -F= '
+  { slug=$1; sub(/^[^=]*=/, "", $0); title=$0
+    if (!(slug in seen)) { order[++n]=slug; seen[slug]=title }
+    else if (index("|" seen[slug] "|", "|" title "|") == 0) { seen[slug]=seen[slug] "|" title } }
+  END { for (i=1;i<=n;i++) print order[i] "=" seen[order[i]] }')
+
+printf '%s\n' "$ENTRIES" | tr '\n' '\0' | \
+  xargs -0 -P "${PARALLEL:-4}" -I{} bash -c 'do_entry "$@"' _ {}
+
+got=$(ls "$TMP"/*.json 2>/dev/null | wc -l | tr -d ' ')
+miss=$(( $(printf '%s\n' "$ENTRIES" | wc -l | tr -d ' ') - got ))
 
 # Assemble credits.json
 echo "{" > "$CREDITS"

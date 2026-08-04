@@ -1,6 +1,8 @@
 # KiriPedia article maintenance ledger
 
-_Generated 2026-07-06 across 509 articles._
+_Generated 2026-07-06 across 509 articles. The pictures bucket (§5) was re-counted and
+cleared on 2026-08-04 across 826 articles; the other buckets below are still the July
+figures and have not been re-measured._
 
 | Bucket | Count |
 |---|---|
@@ -8,7 +10,7 @@ _Generated 2026-07-06 across 509 articles._
 | Extend (stub / thin sourcing) | 214 |
 | Weave (under-linked, <3 outbound) | 145 |
 | Orphans (0 inbound links) | 133 |
-| Need a pic | 253 |
+| Need a pic | ~~253~~ → **0 — CLEARED 2026-08-04** (825 of 826 articles illustrated; 1 deliberately blank) |
 | Thin DYK (<2) | 110 |
 | Missing summary | 0 |
 
@@ -559,261 +561,56 @@ _133 articles with 0 inbound links (dead-ends readers can only reach by search).
 | **Zawahiri assassination** `zawahiri-assassination` | Cases | 3 |
 | **Zbigniew Brzezinski** `zbigniew-brzezinski` | Concepts | 2 |
 
-## 5. Need a pic
-_253 articles with no infobox image._
+## 5. Need a pic — CLEARED 2026-08-04
 
-| Article | Status |
+**Bucket closed.** All 826 articles now carry an infobox image except one, which is
+deliberately left blank (see below). Nothing here is outstanding.
+
+| | |
 |---|---|
-| **Albert Stubblebine** `albert-stubblebine` | image on disk, NOT wired |
-| **Curveball** `curveball` | image on disk, NOT wired |
-| **FISA** `fisa` | image on disk, NOT wired |
-| **1993 Bush Kuwait assassination plot** `1993-bush-assassination-plot` | no image |
-| **Abolish the CIA** `abolish-the-cia` | no image |
-| **Abu Nidal Organization — CIA-Manufactured Internal Chaos** `abu-nidal-disruption` | no image |
-| **Abu Omar rendition** `abu-omar-rendition` | no image |
-| **Afghan Languages** `afghan-languages` | no image |
-| **Afghan War Logs** `afghan-war-logs` | no image |
-| **Ai Whistleblower Initiative** `ai-whistleblower-initiative` | no image |
-| **Akrotiri Village Evacuation** `akrotiri-village-evacuation` | no image |
-| **Al Qaeda Software** `al-qaeda-software` | no image |
-| **Alexa** `alexa` | no image |
-| **Andrew Bustamante** `andrew-bustamante` | no image |
-| **Andrew Feinstein** `andrew-feinstein` | no image |
-| **Anoir Alaki** `anoir-alaki` | no image |
-| **Arrais Corporation** `arrais-corporation` | no image |
-| **Asel al-Ghabandi** `asel-al-ghabandi` | no image |
-| **Assange plea deal** `assange-plea-deal` | no image |
-| **Athens bank fraud report** `athens-bank-fraud-report` | no image |
-| **Balochistan drone base** `drone-base-balochistan` | no image |
-| **Barry Pollock** `barry-pollock` | no image |
-| **Bay Path University** `bay-path-university` | no image |
-| **BDS movement** `bds-movement` | no image |
-| **Belmarsh Prison** `belmarsh-prison` | no image |
-| **Benjamin Netanyahu** `benjamin-netanyahu` | no image |
-| **Bilderberg and weapon sales** `bilderberg-weapon-sales` | no image |
-| **Bill Barr** `bill-barr` | no image |
-| **Bill Buckley** `bill-buckley` | no image |
-| **Billy Wall** `billy-wall` | no image |
-| **Bob Trout** `bob-trout` | no image |
-| **Brian Kelly** `brian-kelly` | no image |
-| **British Bases in Cyprus** `british-bases-in-cyprus` | no image |
-| **Chaos Computer Club Wikileaks** `chaos-computer-club-wikileaks` | no image |
-| **Chelsea Manning** `chelsea-manning` | no image |
-| **Chelsea Manning Emergence** `chelsea-manning-emergence` | no image |
-| **China as economic threat** `china-economic-threat` | no image |
-| **Church Committee Mk Ultra Investigation** `church-committee-mk-ultra-investigation` | no image |
-| **CIA adultery culture** `cia-adultery-culture` | no image |
-| **CIA and FBI embedded at social media firms** `cia-fbi-social-media-embed` | no image |
-| **CIA and FBI ties to organized crime** `cia-fbi-organized-crime` | no image |
-| **CIA and the UFO question** `cia-ufo-question` | no image |
-| **CIA animal surveillance experiments** `cia-animal-surveillance-experiments` | no image |
-| **CIA Car Hacking** `cia-car-hacking` | no image |
-| **CIA cash room** `cia-cash-room` | no image |
-| **CIA disguise program** `cia-disguise-program` | no image |
-| **CIA media revolving door** `cia-media-revolving-door` | no image |
-| **CIA political action group** `cia-political-action-group` | no image |
-| **CIA record deniability** `cia-record-deniability` | no image |
-| **CIA Remote Vehicle Control** `cia-remote-vehicle-control` | no image |
-| **CIA sexpionage** `cia-sexpionage` | no image |
-| **CIA Smart TV Surveillance** `cia-smart-tv-surveillance` | no image |
-| **CIA Torture Program Whistleblowing** `cia-torture-program-whistleblowing` | no image |
-| **CIA Training Doctrine** `cia-training-doctrine` | no image |
-| **Citizens United** `citizens-united` | no image |
-| **Classification compartments** `classification-compartments` | no image |
-| **Collateral Murder Video** `collateral-murder-video` | no image |
-| **Cory Booker** `cory-booker` | no image |
-| **Critical Analytic Thinking** `critical-analytic-thinking` | no image |
-| **Daniel Domscheit Berg** `daniel-domscheit-berg` | no image |
-| **Daniel Domscheit Berg Wikileaks** `daniel-domscheit-berg-wikileaks` | no image |
-| **Daniel Ellsberg** `daniel-ellsberg` | no image |
-| **Daniel Hale** `daniel-hale` | no image |
-| **DARPA LifeLog** `darpa-lifelog` | no image |
-| **David Rockefeller in Bahrain** `david-rockefeller-bahrain` | no image |
-| **Der Spiegel** `der-spiegel` | no image |
-| **Doctor Zhivago operation** `doctor-zhivago-operation` | no image |
-| **Donald Trump** `donald-trump` | no image |
-| **Double Agent — Marriott Trap** `double-agent-marriott-trap` | no image |
-| **Double-Agent Capture** `double-agent-capture` | no image |
-| **Economic roots of terrorism** `economic-roots-of-terrorism` | no image |
-| **Elizabeth Rouser** `elizabeth-rouser` | no image |
-| **Enhanced interrogation techniques** `enhanced-interrogation` | no image |
-| **Eric O'Neill** `eric-oneill` | no image |
-| **Eric Swallwell** `eric-swallwell` | no image |
-| **Eric Swallwell FBI Documents** `eric-swallwell-fbi-documents` | no image |
-| **Espionage Act Whistleblower Cases** `espionage-act-whistleblower-cases` | no image |
-| **Ethan Mccord Collateral Murder** `ethan-mccord-collateral-murder` | no image |
-| **Extraordinary Rendition** `extraordinary-rendition` | no image |
-| **F-35 avionics dispute with Israel** `f-35-israel-avionics` | no image |
-| **FBI** `fbi` | no image |
-| **FBI apologies to Kiriakou** `fbi-apologies-to-kiriakou` | no image |
-| **FBI Arrest Strategies** `fbi-arrest-strategies` | no image |
-| **Federal plea coercion** `federal-plea-coercion` | no image |
-| **Federal Torture Act** `federal-torture-act` | no image |
-| **Federal Whistleblower Protection Act** `federal-whistleblower-protection-act` | no image |
-| **FISA court** `fisa-court` | no image |
-| **Fort Gordon** `fort-gordon` | no image |
-| **Forward Operating Base Chapman Attack** `fort-chapman` | no image |
-| **Founding of the CIA (1947)** `cia-founding-1947` | no image |
-| **French village LSD bread experiment** `french-village-lsd-bread-experiment` | no image |
-| **Gail Slater** `gail-slater` | no image |
-| **Gerald Bull** `gerald-bull` | no image |
-| **Gerald Post** `gerald-post` | no image |
-| **Giuliani Pardon Solicitation** `giuliani-pardon-solicitation` | no image |
-| **Glenn-Symington Act** `glenn-symington-act` | no image |
-| **Government Accountability Project** `government-accountability-project` | no image |
-| **Guantanamo — Origin Account** `guantanamo-origin` | no image |
-| **Gulf security bargain** `gulf-security-bargain` | no image |
-| **Heather Saunders** `heather-saunders` | no image |
-| **How Can I Keep from Singing** `how-can-i-keep-from-singing` | no image |
-| **Hypnosis Operation — Walk-In Assassination Witness** `hypnosis-operation-walk-in` | no image |
-| **Ilhan Omar** `ilhan-omar` | no image |
-| **In-Q-Tel** `in-q-tel` | no image |
-| **Intelligence Agencies** `intelligence-agencies` | no image |
-| **Intelligence Identities Protection Act** `intelligence-identities-protection-act` | no image |
-| **Iran Nuclear Assessment** `iran-nuclear-assessment` | no image |
-| **Iran strike factions (2026)** `iran-strike-factions-2026` | no image |
-| **Iran's 2024 drone retaliation** `iran-2024-drone-retaliation` | no image |
-| **Iraq WMD intelligence** `iraq-wmd-intelligence` | no image |
-| **Israel's cell-phone assassinations in Iran** `israel-iran-cell-phone-assassinations` | no image |
-| **Israeli False Flags** `israeli-false-flags` | no image |
-| **Israeli torture of Palestinian prisoners** `israeli-torture-of-palestinian-prisoners` | no image |
-| **Italian election covert action** `italian-election-covert-action` | no image |
-| **James Jesus Angleton** `james-jesus-angleton` | no image |
-| **Japanese diplomat FBI sting** `japanese-diplomat-fbi-sting` | no image |
-| **Jeffrey Sterling** `jeffrey-sterling` | no image |
-| **Jim Pavitt** `jim-pavitt` | no image |
-| **Joe Kent** `joe-kent` | no image |
-| **Joe Weisberg** `joe-weisberg` | no image |
-| **John Brennan Tuesday Morning Kill List** `john-brennan-tuesday-morning-kill-list` | no image |
-| **John Kiriakou Whistleblower Advice** `john-kiriakou-whistleblower-advice` | no image |
-| **Jordanian al-Qaeda detainee** `jordanian-al-qaeda-detainee` | no image |
-| **Julian Assange** `julian-assange` | no image |
-| **Julian Assange Political Prisoner** `julian-assange-political-prisoner` | no image |
-| **Julian Assange Secure Drop** `julian-assange-secure-drop` | no image |
-| **Julian Assange Wikileaks Role** `julian-assange-wikileaks-role` | no image |
-| **Katherine Gun** `katherine-gun` | no image |
-| **Kathy Rumler** `kathy-rumler` | no image |
-| **Ken Dilanian** `ken-dilanian` | no image |
-| **Khaled El-Masri** `khaled-el-masri` | no image |
-| **Kiki Camarena case** `kiki-camarena-case` | no image |
-| **Kiriakou and third parties** `kiriakou-and-third-parties` | no image |
-| **Kiriakou Introduction to Wikileaks** `kiriakou-introduction-to-wikileaks` | no image |
-| **Kiriakou's Cuba trip** `kiriakou-cuba-trip` | no image |
-| **Kiriakou's Russian media work** `kiriakou-russian-media` | no image |
-| **Kissinger and the petrodollar** `petrodollar-kissinger` | no image |
-| **Kuwait Invasion — CIA Intelligence Account** `kuwait-invasion-intelligence` | no image |
-| **Lebanon Israeli Conflict** `lebanon-israeli-conflict` | no image |
-| **Lee Zeldon** `lee-zeldon` | no image |
-| **Leonie Brinkema** `leonie-brinkema` | no image |
-| **Lsd Mind Manipulation** `lsd-mind-manipulation` | no image |
-| **Lynn Buchanan** `lynn-buchanan` | no image |
-| **Magic box** `magic-box` | no image |
-| **Maher Arar** `maher-arar` | no image |
-| **Marble Framework** `marble-framework` | no image |
-| **Mark Lanzotti** `mark-lanzotti` | no image |
-| **Mark Levin Iran Policy** `mark-levin-iran-policy` | no image |
-| **Mark McDougall** `mark-mcdougall` | no image |
-| **Mark Zuckerberg Angela Merkel Meeting** `mark-zuckerberg-angela-merkel-meeting` | no image |
-| **Martha Kesler** `martha-kesler` | no image |
-| **Mass Surveillance** `mass-surveillance` | no image |
-| **Matthew Cole** `matthew-cole` | no image |
-| **Mccain Feinstein Amendment** `mccain-feinstein-amendment` | no image |
-| **Meredith Whittaker** `meredith-whittaker` | no image |
-| **Mexican 9 Month Work Visas** `mexican-9-month-work-visas` | no image |
-| **Mike Baker** `mike-baker` | no image |
-| **Mike Scheuer** `mike-scheuer` | no image |
-| **Military Ethics** `military-ethics` | no image |
-| **Miranda Rights** `miranda-rights` | no image |
-| **Mitchell and Jessen** `mitchell-and-jessen` | no image |
-| **Monroe Doctrine** `monroe-doctrine` | no image |
-| **Moral Injury** `moral-injury` | no image |
-| **Mormons in intelligence** `mormons-in-intelligence` | no image |
-| **Mort Halperin** `mort-halperin` | no image |
-| **Mujahedin-e Khalq (MEK)** `mek` | no image |
-| **National Bird** `national-bird` | no image |
-| **National Security Agency** `national-security-agency` | no image |
-| **National Security vs Civil Liberties** `national-security-vs-civil-liberties` | no image |
-| **Non-Personal Communication** `non-personal-communication` | no image |
-| **NSA** `nsa` | no image |
-| **NSA Surveillance** `nsa-surveillance` | no image |
-| **October 7 attack** `october-7-attack` | no image |
-| **Only Fans** `only-fans` | no image |
-| **Operation Mockingbird** `operation-mockingbird` | no image |
-| **Overcriminalization** `overcriminalization` | no image |
-| **Pam Bondi** `pam-bondi` | no image |
-| **Pam Bondi Epstein Scandal** `pam-bondi-epstein-scandal` | no image |
-| **Pam Bondi Eric Swallwell** `pam-bondi-eric-swallwell` | no image |
-| **Permanent wartime economy** `permanent-wartime-economy` | no image |
-| **Pete Hoekstra** `pete-hoekstra` | no image |
-| **Petra Bank** `petra-bank` | no image |
-| **Plato Cacheris** `plato-cacheris` | no image |
-| **Plus 972** `plus-972` | no image |
-| **Podcast Bros** `podcast-bros` | no image |
-| **Presidents Daily Brief** `presidents-daily-brief` | no image |
-| **Principals Committee Meeting (February 2003)** `principals-committee-meeting` | no image |
-| **Prison racial segregation** `prison-racial-segregation` | no image |
-| **Private Intelligence** `private-intelligence` | no image |
-| **Private prison system** `private-prison-system` | no image |
-| **Project Gateway** `project-gateway` | no image |
-| **Project Stargate** `project-stargate` | no image |
-| **Public-interest defense** `public-interest-defense` | no image |
-| **Radio and TV Martí** `radio-and-tv-marti` | no image |
-| **Rand Paul Eric Holder** `rand-paul-eric-holder` | no image |
-| **Ray Mcgovern Vault 7** `ray-mcgovern-vault-7` | no image |
-| **RDAP program** `rdap-program` | no image |
-| **Recruitment attempts on Kiriakou** `recruitment-attempts-on-kiriakou` | no image |
-| **Restraint Camp** `restraint-camp` | no image |
-| **Robert MacLean** `robert-maclean` | no image |
-| **Russell Targ** `russell-targ` | no image |
-| **Russia-Ukraine war origins** `russia-ukraine-war-origins` | no image |
-| **Russiagate** `russiagate` | no image |
-| **Safe Housekeeper** `safe-housekeeper` | no image |
-| **Saudi princes and 9/11** `saudi-princes-and-9-11` | no image |
-| **Section 702** `section-702` | no image |
-| **Securedrop** `securedrop` | no image |
-| **Senate Foreign Relations Committee** `senate-foreign-relations-committee` | no image |
-| **Sharon Scranage** `sharon-scranage` | no image |
-| **Signature strikes** `signature-strikes` | no image |
-| **Sociopathic Tendencies** `sociopathic-tendencies` | no image |
-| **Stephen Saunders** `stephen-saunders` | no image |
-| **Sweat Lodge** `sweat-lodge` | no image |
-| **Taliban embassy raid** `taliban-embassy-raid` | no image |
-| **Taliban Origin — Benazir Bhutto's Truck Protection Scheme** `taliban-origin-benazir` | no image |
-| **Targeting analyst** `targeting-analyst` | no image |
-| **Taybeh** `taybeh` | no image |
-| **Terry Aubry** `terry-aubry` | no image |
-| **The CIA Insider's Guide to Lying and Lie Detection** `cia-insiders-guide-to-lying-and-lie-detection` | no image |
-| **The CIA Insider's Guide to Surveillance and Surveillance Detection** `cia-insiders-guide-to-surveillance` | no image |
-| **The Drone Papers** `the-drone-papers` | no image |
-| **The Farm** `the-farm` | no image |
-| **The Reluctant Spy** `the-reluctant-spy` | no image |
-| **The Sociopath Next Door** `the-sociopath-next-door` | no image |
-| **Thin Thread** `thin-thread` | no image |
-| **Thomas Drake** `thomas-drake` | no image |
-| **Three Felonies a Day** `three-felonies-a-day` | no image |
-| **Ticking time bomb scenario** `ticking-time-bomb` | no image |
-| **Todd Blanch** `todd-blanch` | no image |
-| **Truman's CIA op-ed** `truman-cia-op-ed` | no image |
-| **Trump** `trump` | no image |
-| **Trump Dni Replacement** `trump-dni-replacement` | no image |
-| **Trump Iran Ceasefire Efforts** `trump-iran-ceasefire-efforts` | no image |
-| **Tulsi Gabbard** `tulsi-gabbard` | no image |
-| **Tyrell Vanto** `tyrell-vanto` | no image |
-| **U.S. diplomatic vacancies** `us-diplomatic-vacancies` | no image |
-| **UK secrecy laws** `uk-secrecy-laws` | no image |
-| **United Fruit and the Arbenz coup** `united-fruit-arbenz-coup` | no image |
-| **US Military Venture Capital** `us-military-venture-capital` | no image |
-| **Vault 7 Revelations** `vault-7-revelations` | no image |
-| **Veteran Intelligence Professionals for Sanity** `veteran-intelligence-professionals-for-sanity` | no image |
-| **Walk-in** `walk-in` | no image |
-| **Watching naval movements** `watching-naval-movements` | no image |
-| **Watermark** `watermark` | no image |
-| **Whistleblower Protection Act** `whistleblower-protection-act` | no image |
-| **Wikileaks and Trump** `wikileaks-and-trump` | no image |
-| **Wikileaks Arab Spring** `wikileaks-arab-spring` | no image |
-| **Wikileaks as a System** `wikileaks-as-a-system` | no image |
-| **Wikileaks Ngo Transformation** `wikileaks-ngo-transformation` | no image |
-| **Wikileaks Post 2010** `wikileaks-post-2010` | no image |
-| **Yemen Diplomatic Pouch Arrest** `yemen-arrest` | no image |
-| **Zawahiri assassination** `zawahiri-assassination` | no image |
-| **Zbigniew Brzezinski** `zbigniew-brzezinski` | no image |
+| Articles | 826 |
+| With an infobox image | 825 |
+| Deliberately imageless | 1 |
+| Image files on disk | 838 |
+| Credited in `public/images/credits.json` | 838 |
+
+**How they were sourced.** Same protocol as the rest of the site: each slug is mapped
+to a Wikipedia article in `tools/fetch-images.sh`, that page's lead image is pulled
+with its Commons attribution, and `tools/wire-images.mjs` injects `infobox.image` and
+`infobox.imageCredit` into the frontmatter. Subjects with no portrait of their own
+(abstract concepts, procedures, unphotographed people) are mapped to a closely related
+article — the same illustrative approach already used for `waterboarding`, `kompromat`
+and `one-time-pad`.
+
+### 5a. Deliberately imageless (NO-IMAGE-OK)
+
+- **Elizabeth Rouser** `elizabeth-rouser` — the article exists only to record that the
+  corpus contains no verified Kiriakou statement about her; she is named once, in a
+  producer's voiceover. There is no defensible image subject, so the infobox correctly
+  renders `[no image]`.
+
+### 5b. Fixes made to the image tooling along the way
+
+`tools/fetch-images.sh` needed five repairs before a run of this size would complete:
+
+1. **Serial execution** — a single pass over ~900 mappings took hours. Now runs 4-way
+   parallel, with `PARALLEL=1` to crawl when Wikimedia starts throttling.
+2. **Extensions taken from query strings** — a thumbnail URL ending in
+   `...jpg?utm_source=...` produced a file literally named
+   `<slug>.org&utm_campaign=api&utm_content=thumbnail_unscaled`. Extensions are now
+   parsed from the filename only, with a whitelist and a `.jpg` fallback.
+3. **Duplicate slugs clobbering each other** — the same slug appearing twice in
+   `MAPPING` had two workers writing one temp file at once, producing corrupt JSON that
+   made `credits.json` unparseable. Mappings are now collapsed per slug, and the extra
+   titles are used as ordered fallbacks — which is what those retry entries were always
+   meant to be.
+4. **Rate limits read as "no picture"** — a 429 response body carries a `title` field,
+   so the "this page genuinely has no image" check matched it and skipped the retry.
+   The check now keys off `.titles.canonical`, which only a real page summary has.
+5. **HTML error pages saved as `.jpg`** — `upload.wikimedia.org` answers bulk downloads
+   with a throttle page under a `200`. 71 such files had already landed on disk.
+   Downloads are now verified with `file --mime-type` and retried with backoff, and the
+   User-Agent carries a contact address as Wikimedia's policy asks.
+
+Credits are also carried forward between runs now, so a re-run only queries what
+actually changed instead of re-hitting the API ~800 times.
