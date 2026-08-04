@@ -74,7 +74,52 @@ const QUERIES = [
   'John Kiriakou full episode',
 ];
 
+// ---- Kiriakou's OWN channels ------------------------------------------------
+// Keyword search cannot find these: he doesn't put his own name in his own episode titles
+// ("Is It Over For Netanyahu? | Ep. 6"), so the off-topic filter below would bin every one.
+// His show also runs 44–58 min, under the long-form floor tuned for guest podcasts.
+// So own channels get enumerated directly and judged by their own rules — see OWN_* below.
+const OWN_CHANNELS = ['@realjohnkiriakou'];
+// His channel posts three things: full episodes (44–58 min), cut-downs of those same episodes
+// (4–15 min, sometimes labelled HIGHLIGHT and sometimes not), and promos/shorts (<2 min).
+// A 2026-08-03 overlap check found every sub-15-minute item was ≥76% duplicate text of an
+// episode already in the corpus. 20 minutes cleanly separates the real thing from the offcuts.
+const OWN_MIN_MINUTES = 20;
+
 const candidates = new Map(); // videoId → {id, title, durationSec, uploader, date, queryFound}
+const ownIds = new Set();     // ids that came from an own channel — exempt from title/floor rules
+
+for (const ch of OWN_CHANNELS) {
+  const cmd = `yt-dlp --flat-playlist --no-warnings --print "%(id)s|%(title)s|%(duration)s|%(uploader)s" ` +
+              `"https://www.youtube.com/${ch}/videos" 2>&1`;
+  let out;
+  try { out = execSync(cmd, { encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 }); }
+  catch (e) {
+    const tail = (e.stdout || e.stderr || e.message || '').toString().trim().split('\n').slice(-2).join(' | ');
+    console.warn(`  own-channel sweep failed: ${ch} :: ${tail}`);
+    continue;
+  }
+  let n = 0;
+  for (const line of out.split('\n').filter(Boolean)) {
+    if (line.startsWith('ERROR') || line.startsWith('WARNING')) continue;
+    const [id, title, dur, uploader] = line.split('|');
+    if (!id || !title) continue;
+    // Unaired premieres come back with no duration. They'll be picked up the morning after.
+    if (!dur || dur === 'NA') continue;
+    ownIds.add(id);
+    if (candidates.has(id)) continue;
+    candidates.set(id, {
+      id, title,
+      durationSec: parseInt(dur) || 0,
+      uploader: uploader || 'John Kiriakou',
+      date: '',
+      queryFound: `own:${ch}`,
+    });
+    n++;
+  }
+  console.log(`  own channel ${ch}: ${n} videos`);
+}
+
 
 // Search sweeps run --flat-playlist: no format selection (which errors out on search results),
 // no player round-trip per hit, and it's fast. The trade is upload_date comes back NA — dates
@@ -124,10 +169,12 @@ const CLIP_CHANNEL_PAT = /(\bclips?\b|\bcuts\b|\bhighlights?\b|\bshorts\b|\bdail
 const CLIP_TITLE_PAT = /(\bclip\b|\bhighlights?\b|\bbest moments\b|\bfull (?:episode|interview)\b is)/i;
 
 for (const v of candidates.values()) {
+  const own = ownIds.has(v.id);
   if (known.has(v.id)) { seen.push(v); continue; }
-  if (v.durationSec < MIN_MINUTES * 60) { tooShort.push(v); continue; }
-  // Off-topic filter: title must mention Kiriakou
-  if (!/kiriakou|kiryaku|kiraku/i.test(v.title)) { offTopic.push(v); continue; }
+  if (v.durationSec < (own ? OWN_MIN_MINUTES : MIN_MINUTES) * 60) { tooShort.push(v); continue; }
+  // Off-topic filter: title must mention Kiriakou. Skipped on his own channel, where every
+  // video is him by definition and the titles are news headlines, not billing.
+  if (!own && !/kiriakou|kiryaku|kiraku/i.test(v.title)) { offTopic.push(v); continue; }
   // Clip filter
   if (CLIP_CHANNEL_PAT.test(v.uploader) || CLIP_TITLE_PAT.test(v.title)) {
     isClipChannel.push(v); continue;
@@ -174,7 +221,10 @@ function daysBetween(a, b) {
 }
 const grouped = []; // [{rep, members:[]}]
 for (const v of candidatesOut) {
-  const match = grouped.find(g =>
+  // Own channel is exempt: he legitimately posts a full episode and a separate standalone
+  // segment in the same week, and the 20-minute floor has already removed the offcuts.
+  // Without this, the "keep the longest" rule would silently bin one of two real sources.
+  const match = ownIds.has(v.id) ? null : grouped.find(g =>
     g.rep.uploader === v.uploader && daysBetween(g.rep.date, v.date) <= DAYS_WINDOW
   );
   if (match) match.members.push(v);

@@ -12,6 +12,11 @@ automation contract on top of them.
 Anything without English auto-captions is pushed to `.kir-whisper-queue.tsv` and left for the
 separate audio routine. Do not chase it this morning.
 
+> **Blind spot this creates:** *Dead Drop*, his own narrative podcast, is audio-only and will
+> never appear here — it drifted four episodes behind before anyone noticed on 2026-08-03. It
+> publishes Mondays and has its own weekly lane: `bash tools/dead-drop-run.sh` (`--dry-run` to
+> just see the gap). Not part of the morning run; whisper is far too slow for it.
+
 ---
 
 ## 1. The mandate
@@ -50,6 +55,16 @@ bash tools/morning-run.sh
 That does discovery (search sweep, dedup against the corpus *and* `.kir-intake-progress.tsv`
 *and* `.kir-exclude.txt`, reject clips/shorts/re-uploads/under-45-minute items, probe survivors
 for upload dates), then captions + normalize + ad-strip into `src/content/sources/`.
+
+Discovery runs **two** passes. The keyword sweep finds guest appearances. Separately, his own
+channel `@realjohnkiriakou` (*The Briefing Room* / JKBR, Tue+Thu) is enumerated directly,
+because keyword search structurally cannot see it: he doesn't put his own name in his own
+episode titles, and his episodes run 44–58 minutes, under the guest-podcast floor. Own-channel
+items skip the name-in-title test and the same-week "keep the longest" winnow, and use a
+20-minute floor instead of 45 — that number separates real episodes and standalone segments
+from the cut-downs he posts off them. Premieres that haven't aired come back with no duration
+and are skipped; they arrive the next morning. New own channels go in `OWN_CHANNELS` in
+`tools/find-new-kiriakou-videos.mjs`.
 
 It **does not commit, push, or deploy** — that's yours, once, at the end.
 
