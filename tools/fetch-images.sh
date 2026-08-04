@@ -15,6 +15,15 @@ CREDITS="$DEST/credits.json"
 
 # slug=wikipedia_title (URL-encoded as needed)
 MAPPING=(
+  "jim-moran=Jim_Moran"
+  "charles-samuels=Federal_Bureau_of_Prisons"
+  "prison-legal-news=Prison_Legal_News"
+  "this-desk-kills-fascism=Woody_Guthrie"
+  "prison-medical-care=Federal_Correctional_Institution,_Loretto"
+  "mass-incarceration-critique=Incarceration_in_the_United_States"
+  "administrative-remedy-process=Federal_Bureau_of_Prisons"
+  "public-safety-factor=Federal_Bureau_of_Prisons"
+  "panetta-bin-laden-disclosure=Leon_Panetta"
   "seyyed-hossein-nasr=Seyyed_Hossein_Nasr"
   "walter-pincus=Walter_Pincus"
   "oscar-blandon=Oscar_Danilo_Blandón"
