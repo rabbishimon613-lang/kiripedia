@@ -231,3 +231,121 @@ session's 37 uncommitted files were left untouched.
 - The standing items from the first sweep — suspicious wikilinks, orphan
   articles, missing wikidata grounding, thin articles, meta-refresh redirects —
   were not revisited and their reasoning is unchanged.
+
+---
+
+## 2026-08-04 — third sweep
+
+Ran clean. The sitemap `lastmod` fix from the last sweep **is live** — the
+production sitemap now carries a real per-article date on 1,682 of 1,698 URLs
+and a build timestamp on none, so IndexNow is no longer being flooded with
+unchanged URLs. That was the previous sweep's main open item and it is closed.
+
+### Checked
+
+- **Corpus:** 822 articles (up from 810), 1,698 sitemap URLs.
+- **Live vs local:** the production sitemap and a fresh local build agree
+  exactly — same 1,698 URLs, no additions, no stale entries. Everything on disk
+  before this sweep is already deployed.
+- **Search Console:** still **blocked**, third sweep running. Re-checked this
+  run: no service account, no `gcloud` config, no Google environment variables,
+  and none of the keyring's 28 entries is a Google credential. **No indexing,
+  impression or ranking figures appear in this entry because none were
+  measurable.**
+- **Build gate:** `Total: 0 bugs, 558 suspicious, 0 dead`. Zero dead internal
+  links across the whole corpus.
+- **robots.txt / canonicals / noindex:** unchanged and correct. 48 `noindex`
+  pages, all of them the redirect stubs, none in the sitemap.
+- **Structured data:** Article schema on all 822 article pages; a random sample
+  of 40 pages parsed 145 JSON-LD blocks with zero errors.
+- **IndexNow:** dry run reported **0 new or changed URLs**. Nothing was sent,
+  correctly — the 01:16 run had already covered the whole set.
+
+### Changed
+
+- **21 high-traffic pages got a purpose-written title and/or description.**
+  These were the top of the corpus by inbound links and every one of them was
+  still falling back to an auto-derived snippet:
+  - `john-kiriakou` — **783 inbound links, 29,115 words, the single most
+    important page on the site** — was serving the bare title
+    `John Kiriakou — KiriPedia` and an 85-character résumé line. It now reads
+    `John Kiriakou, CIA torture whistleblower` with a description naming the
+    Abu Zubaydah capture and the 2007 disclosure.
+  - `cia` (283 inbound), `abu-zubaydah`, `enhanced-interrogation`,
+    `fci-loretto`, `mossad`, `donald-trump`, `benjamin-netanyahu`,
+    `john-brennan`, `espionage-act`, `george-tenet`, `aipac`, `jeffrey-epstein`,
+    `bureau-of-prisons`, `cofer-black`, `edward-snowden`, `guantanamo-bay`,
+    `letter-from-loretto`, `senate-torture-report`,
+    `cia-torture-program-whistleblowing`, `john-kerry`.
+  - Several of these had summaries that were being cut hard: `edward-snowden`
+    725 characters, `cia-torture-program-whistleblowing` 612,
+    `bureau-of-prisons` 581, `john-kerry` 476, `jeffrey-epstein` 396. All now
+    serve a clean sentence under 155 characters.
+  - Every line compresses material already in that article's own summary or
+    lede. No new facts, per the single-source doctrine. Verified in the built
+    HTML: 21 of 21 serve an untruncated description.
+  - Four candidates in the same list — `fbi`, `julian-assange`,
+    `revolutionary-organization-17-november`, `asset-acquisition-cycle` — were
+    **deliberately left alone**: their existing summaries already fit inside the
+    snippet window, so a rewrite would have been churn.
+- **6 orphan articles wired in.** `beirut`, `china-djibouti-base`, `jim-moran`,
+  `marjorie-taylor-greene`, `roy-cohn`, `tony-blinken`. Each link replaces a
+  plain-prose mention that already existed in the linking article, so no
+  sentence was invented. Each was inspected in context before applying — e.g.
+  `bab-al-mandab` already read "nine miles of water across from Djibouti", and
+  the `china-djibouti-base` article is titled "Djibouti" and is Kiriakou's
+  account of the country, so the target matches the mention.
+
+### Blocked — needs the user, once
+
+- **Search Console is not connected for kiripedia.org.** Unchanged for three
+  sweeps. To unblock: verify `www.kiripedia.org` in Search Console, create a
+  Google Cloud service account, enable the Search Console API, add the
+  service-account email as a *full* user on the property, and drop the JSON key
+  where this routine can read it. Until then, no sweep can report a single real
+  indexing or ranking number for this site.
+
+### NOT deployed — and why
+
+**This sweep did not deploy, deliberately.** A second session is running an
+image lane in this working directory right now: `tools/fetch-images.sh` was
+live throughout the sweep (still writing at 03:29), `public/images/` grew past
+689 files during the run, and that session also has uncommitted changes to
+`astro.config.mjs`, `vercel.json`, `src/layouts/ArticleLayout.astro` and
+`package.json` — a trailing-slash canonicalization that is mid-rollout.
+
+Deploying would have shipped that lane's half-finished state to production,
+which is exactly the mistake recorded in the previous entry. The conservative
+choice was to commit and stop.
+
+As before, **nothing was staged with `git add -A`.** This sweep's 25 article
+files were committed by explicit path. The other session's 9 modified articles
+and its config changes were not touched, and its files were excluded from the
+orphan-wiring pass by name so no edit could land in a file it had open.
+
+The 21 metadata fixes and 6 links will go live with whatever deploy comes next.
+
+### Found, not changed — with reasons
+
+- **700 article pages still serve a description that ends in an ellipsis.** This
+  is the corpus-wide version of the problem fixed above: the summary is longer
+  than the snippet window and there is no `deck` to override it. Fixing them
+  properly means writing 700 grounded sentences, which is editorial work, not a
+  sweep. The sensible pattern is what this sweep did — take the top slice by
+  inbound links each night and work down. At ~21 a night this closes in about a
+  month, and the highest-traffic pages are already done.
+- **113 orphan articles remain** (was 118, and the corpus has grown by 74 since
+  that count). Only 6 were wireable this run because the rest are not named in
+  prose anywhere in the corpus. Unchanged reasoning: linking them means writing
+  new sentences.
+- **558 "suspicious" wikilinks** (was 460 — the rise tracks corpus growth, not a
+  regression). Still overwhelmingly legitimate prose links. Unchanged.
+- **498 articles have no `wikidata` / `wikipedia` grounding** (324 of 822 are
+  grounded). Still a candidate for a dedicated verified pass; a wrong Q-id is
+  worse than none.
+- **359 articles under 300 words, 124 under 150.** Unchanged reasoning: they are
+  thin because that is all Kiriakou has said. Deciding which should carry
+  `noindex` is an editorial call.
+- **Redirects are still meta-refresh stubs rather than 301s.** Unchanged: it
+  touches deploy config, and the other session is currently editing exactly that
+  file. Left well alone this run.
