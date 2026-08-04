@@ -413,7 +413,8 @@
     "dyk:eli-cohen:0",
     "quote:waterboarding:0",
     "dyk:john-kiriakou:55",
-    "otd:abu-zubaydah:2002-08-04"
+    "otd:abu-zubaydah:2002-08-04",
+    "quote:china-economic-threat:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1035,10 +1036,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "otd"
+    "otd",
+    "quote"
   ]
 }
