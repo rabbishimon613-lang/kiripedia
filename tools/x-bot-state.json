@@ -417,7 +417,8 @@
     "quote:china-economic-threat:2",
     "dyk:sheldon-adelson:4",
     "quote:maduro-capture:2",
-    "dyk:section-702:2"
+    "dyk:section-702:2",
+    "quote:jennings-randolph:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1039,10 +1040,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "otd",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
