@@ -7,13 +7,31 @@ url: "https://sphinx.acast.com/p/open/s/68e695c6d798804c9e4bbd13/e/6a5445d2e31e3
 videoId: "2026-07-20-dead-drop-s2e10-food-glorious-food"
 duration: "50:48"
 captionSource: auto
-paragraphs: 85
-sponsor_paragraphs_stripped: 25
+paragraphs: 105
+sponsor_paragraphs_stripped: 5
 source_file: 2026-07-20-dead-drop-s2e10-food-glorious-food.vtt
 ---
 [00:00] Optimal Fibers in the House! Y'all know the number! 877-393-4448 Optimal Fibers so fast, so fine Got another provider, leaving behind Come on everybody, let's get online 30 a month, gonna blow your mind Five or years don't hesitate Like it in now, before it's too late 877-393-4448 Time to apply, see Optimal.com for details
 
 [00:30] I'm Jake Stouck, co-founder and CEO of Serval We built Serval to automate the IT work that slows companies down Onboarding, password resets, accessed applications My laptop stopped working While employees wait for help, their real work is put on hold IT desperately wants to automate this work And that's why they need Serval You just tell Serval what you want to automate in plain English And it's built! No drag and drop workflows No expensive consultants Employees get unblocked and IT teams
+
+[02:36] Starring Zoe Saldana, Michael Kelly, with Morgan Freeman and Nicole Kidman Now streaming only on Paramount Plus This podcast, it's accosted in touchstone production I've talked a lot over the years about food in prison I hate to even call it food, to tell you the truth It was slop On my very first full day in prison, it was a Friday One of the Italians with whom I became very friendly, Pete Calabrese Mentioned offhandedly that it's Friday, that means it's fish day
+
+[03:08] And I responded by saying, oh great, I love fish And he said, oh, don't eat this fish We call it sewer trout and it's not fit for human consumption Well, he and I walked down to the chow hall together And what I saw was something that I'll never forget The guys in the chow line were slopping the slop onto your tray But behind them were boxes, boxes of fish And on the side of these boxes, every one of them It was clearly marked Alaskan cod, product of China
+
+[03:42] Feed use only, not for human consumption And that's what they were putting on our plates I looked at Pete, he said, I told ya And so I never, ever, ever ate the fish I've also talked about another incident that happened about halfway through my sentence Where every Wednesday night was so-called taco night And excuse the filthy thing I'm gonna say I once threw away the entire taco And the warden saw me throw the whole thing away
+
+[04:12] And he said, in the old days you could get written up for that And I responded, I've eaten ass that tasted better than this taco What do you do if you can't eat the food? If you won't eat the food? If you shouldn't eat the food? If the food is gonna make you sick? I'm John Kiriakou Welcome to Dead Drop What Makes a Spy Tick? This is episode 10 in our series Doing Time Like a Spy And as always, we thank you for listening We thank you even more for liking, rating, reviewing And commenting on the podcast on whatever platform you happen to be listening to it
+
+[04:47] Prison food is institutional food That other institutional food laughs at No, that's actually not true, it sneers at it And with good reason The prison authorities don't want to spend a single dollar more than they have to Fold in a bunch of competing interests Plenty of corruption and greed And the result is a hellish jambalaya of gastronomic awfulness There was one incident where for taco night, they accidentally fed us dog food The reason we know that is that the warden, months after the fact, sent everybody a memo saying
+
+[05:23] Hey, sorry, but a couple of months ago on taco night, we accidentally fed you dog food It's not our fault, the packaging was mixed up at the meat plant Yeah They labeled dog food as ground beef and they labeled the ground beef as dog food The shame is not even that we were fed dog food The shame is that we were fed dog food and we couldn't even tell the difference So what did we do? We relied on people like our guest tonight, Joey Castlell
+
+[05:56] Joey Castlell was one of the finest, I'm going to call him chefs at FCI Loretto A lot of guys cook, the Mexicans all cook, right? You have a trash can of water, you throw in a live electrical wire called a stinger It immediately brings the water to a boil, you put some food in a plastic bag Next thing you know, you've got a gourmet meal The Mexicans ate to survive We ate, and I say we, I'm including myself with the Italians
+
+[06:28] We ate as a culinary experience Yes Joey, welcome, good to have you Thank you, John Joey, walk us through this man When I first saw a stinger, I unplugged it I said, oh my God, what a health hazard This is a live electrical wire, and the Mexicans are like, are you out of your mind? We're making dinner I didn't know what the heck they were doing But then when you cooked, when Mark Lanzalotti cooked It was like being in a restaurant in Little Italy
+
+[06:58] How did you do that? Walk us through it Well, when I first came to the prison, let me say this real quick I didn't know nothing about prison just like you Sure So I walked in, and this guy comes up to me I forget his name, a black guy, and he says, what's your name, sir? I said, Joey, and I'm thinking to myself, wow, nice people here They're talking to me So everybody's laughing, and I'm like, what are you laughing at? He says, we'll tell you later, just keep talking to this guy
 
 [07:30] So I'm talking to him, he says, if there's anything you need, Joey, you let me know And I said, okay So then I go back to myself, three guys come in that were laughing And I said, can you tell me why were you laughing? He says, the guy is gay He wants to pick you up right away because you're new in the prison Well, the word got out to Peter Calabrese When he found out, he said, Joey, stay away from them guys
 
@@ -178,5 +196,27 @@ source_file: 2026-07-20-dead-drop-s2e10-food-glorious-food.vtt
 [48:54] And then he said something that was so odd to me He said, at least they didn't draw an asshole There's nothing worse than the human asshole Nothing is filthier than the human asshole Well, that's all he had to say So I told you And then the next time he went out to play soccer You wrote on it Asshole you are And then you wrote underneath Yoda Yeah I don't know what stuff like that
 
 [49:26] After John Before we killed him Yeah, we were gonna kill him And then he finally lost his mind I ran down to the unit manager's office And I said I said, Cher's having a mental breakdown So he called Well, the cops, SIS They ran up You could hear the keys jingling from a quarter mile away practically And somebody from medical And they cuffed him He was screaming, swearing
+
+[49:56] He was gonna fuck our mothers He was gonna fuck our sisters He was gonna fuck us up the ass He's gonna shove his fist up our asses And that was the last I heard of him He was just screaming, screaming these obscenities So they transferred him, right? They got him out of town Yeah, they got him They transferred him out before I left Yeah, that's a way And what really pissed He had these two cousins Or a cousin and a brother-in-law They would come like every week and visit him And nobody told them that he wasn't in the prison anymore
+
+[50:27] And these guys drove up And came all the way to the prison From Washington And they were like, yeah, he doesn't live here Where is he? New Jersey, maybe, I don't know Oh, those guys were so mad That's in the book too, isn't it? Yeah The book, right? Yeah Oh, man, we made his life miserable Yeah, I couldn't take that guy no more We had to get him out We had to For our own mental health, we had to get him out
+
+[50:58] Even the Muslims Would not allow him to pray with them Right He was nuts And he was judgmental And he was cruel And he would call Because most of the Muslims are black Muslims They're converts And he would call them fake Muslims Oh, yeah, I remember Yeah And you're gonna tell these Totally ripped, stacked, giant black guys That they're fake Muslims And they don't know what they're doing
+
+[51:29] And they're gonna destroy them And do you remember what we finally did Or you did You put pork salami under his pillow Oh, yeah Yes Wait, you cut it You cut it, I remember I did, I cut it I cut it into slices And we laid it out under his pillow And it was there all day And it was so hot In the summer we didn't have air conditioning So it was like 90 degrees in there We used to soak our bath towels in water Yeah And lay on our beds with a wet bath towel Just to try to cool off So that salami was cooking
+
+[52:00] Fermenting all day under his pillow And I remember after he freaked out And they took him to solitary These black Muslims came to the cell And they stood at the entrance And the stain from the salami Was on the pillow in the sheets And one of them said They'd done him in with the swine Yeah Honest to God, if it wasn't for Joey And Mark and Pete I'm not sure how I could have gotten through it
+
+[52:30] Yeah, because when you came in everybody was like Oh, the CIA, the cops Don't go near that guy The first like four weeks I kept my distance, I kept my mouth shut And I went to get a haircut And Pete was in there Getting a haircut Yep And I just started making small talk with him And he said to me Listen, I gotta tell ya I know who you are And you carry yourself far better Than I expected you would And I said I appreciate that I was trying to be as tough as I could
+
+[53:01] I said truth be told I'm not afraid of anybody Which was bullshit of course But I said I'm not afraid of anybody And he said good, keep that up We were friends from then on I still talk to Nicky's main guy there George, I don't know if you remember George I remember George well With that raspy voice I talk to him all the time Excellent And I'm in constant touch with Mark And with Brett Which came up in that trial the other day Well, you brag that you're still in touch
+
+[53:33] With members of organized crime And I said yes, I am And they're good and honorable men Which was not the response they expected They expected me to say no, no, no That was a lifetime ago I said yeah, I talk to them all the time And they're dear friends And then I turned to the jury Oh, I'm so proud of myself I turned to the jury And I said there was a crooked congressman from Ohio Named Nye N-Y-E
+
+[54:03] He was in prison in Ohio Federal prison on a corruption charge He did 23 months just like I did When he got out of prison he said Nobody goes to prison to make friends But the friends that I made in prison Are lifelong friends That was true There are a lot of people in prison who are innocent There are a lot of people in prison who are guilty But who don't deserve to be in prison There are a lot of people in prison who are good And decent people And those are my friends And as I hope you now agree One of those very good and decent people
+
+[54:34] Is my friend Joey Thank you again for sitting in with me, Joey I think I owe you dinner A really good one In our next episode we'll get back to the prison grind As my out date approaches I've got more reason than ever to keep my head down But, you know, it's still prison Prison rule is still applied Unfinished business that needed attending to A whistleblowing federal prisoner's got to do What a whistleblowing federal prisoner's got to do Until then, please don't forget to like, rate, review
+
+[55:05] Or comment on the podcast It really does help Until next time, I'm John Kiriakou Dead Drop is written by John Kiriakou and Alan Katz Costart and Touchstone Productions produces the podcast And John Kiriakou, Alan Katz and Nick Mechanic Are its executive producers His podcast, it's a costume and touchstone production
 
 [56:12] Try it free at MaintainX.com Back to school is busy enough The last thing you need is shopping that makes it harder Whether you're moving into a dorm, your first department Or just getting organized for the semester Wayfair makes it easy to get everything you need in one place Furniture, bedding, storage, decor, study essentials All at prices you'll love With fast shipping before move-in day Get everything you need for back-to-school season Shop Wayfair.com today
