@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import trailingSlashLinks from './tools/astro-trailing-slash.mjs';
 import { readFileSync } from 'node:fs';
 
 // Real per-article modified dates (last git commit), so the sitemap advertises
@@ -14,66 +15,71 @@ try {
 
 export default defineConfig({
   site: 'https://www.kiripedia.org',
+  // One canonical URL shape for the whole site. Canonical tags, JSON-LD and the
+  // sitemap already used the slash form; the links did not, so Google indexed
+  // both and split every page's signals. See tools/astro-trailing-slash.mjs.
+  trailingSlash: 'always',
   redirects: {
     // 2026-07-08 video-intake run: merged/typo slugs folded into canonical entries.
-    '/wiki/hunter-biden-laptop-letter': '/wiki/hunter-biden-laptop',
-    '/wiki/avril-haynes': '/wiki/avril-haines',
-    '/wiki/kiriakou-recruitment-attempts': '/wiki/recruitment-attempts-on-kiriakou',
-    '/wiki/abraxas-corporation': '/wiki/arrais-corporation',
-    '/wiki/cia-france-rift-1990s': '/wiki/dgse',
-    '/wiki/robert-jackson-federal-prosecutor-speech': '/wiki/pick-the-man-principle',
-    '/wiki/bahrain-dole-campaign-solicitation': '/wiki/david-ransom',
+    '/wiki/hunter-biden-laptop-letter': '/wiki/hunter-biden-laptop/',
+    '/wiki/avril-haynes': '/wiki/avril-haines/',
+    '/wiki/kiriakou-recruitment-attempts': '/wiki/recruitment-attempts-on-kiriakou/',
+    '/wiki/abraxas-corporation': '/wiki/arrais-corporation/',
+    '/wiki/cia-france-rift-1990s': '/wiki/dgse/',
+    '/wiki/robert-jackson-federal-prosecutor-speech': '/wiki/pick-the-man-principle/',
+    '/wiki/bahrain-dole-campaign-solicitation': '/wiki/david-ransom/',
     // Auto-caption phonetic spellings corrected to the real names (2026-07-29/30).
     // Each was verified against the article's own wikipedia: frontmatter.
-    '/wiki/afia-sadiki': '/wiki/aafia-siddiqui',
-    '/wiki/steven-lawless-case': '/wiki/steven-lalas',
-    '/wiki/bruce-fine': '/wiki/bruce-fein',
-    '/wiki/brian-kelly': '/wiki/brian-kelley',
-    '/wiki/sarah-jane-moore': '/wiki/sara-jane-moore',
-    '/wiki/khaled-el-masri': '/wiki/khalid-el-masri',
+    '/wiki/afia-sadiki': '/wiki/aafia-siddiqui/',
+    '/wiki/steven-lawless-case': '/wiki/steven-lalas/',
+    '/wiki/bruce-fine': '/wiki/bruce-fein/',
+    '/wiki/brian-kelly': '/wiki/brian-kelley/',
+    '/wiki/sarah-jane-moore': '/wiki/sara-jane-moore/',
+    '/wiki/khaled-el-masri': '/wiki/khalid-el-masri/',
     // Duplicate article merged (same Wikidata Q2422025).
-    '/wiki/tom-drake': '/wiki/thomas-drake',
+    '/wiki/tom-drake': '/wiki/thomas-drake/',
     // Duplicate/typo articles merged into their canonical entries.
-    '/wiki/gerald-post': '/wiki/jerome-post',
-    '/wiki/dashti-leyli': '/wiki/dasht-i-leili-massacre',
-    '/wiki/daniel-hail': '/wiki/daniel-hale',
-    '/wiki/russell-tark': '/wiki/russell-targ',
-    '/wiki/steven-saunders': '/wiki/stephen-saunders',
-    '/wiki/intercept': '/wiki/the-intercept',
+    '/wiki/gerald-post': '/wiki/jerome-post/',
+    '/wiki/dashti-leyli': '/wiki/dasht-i-leili-massacre/',
+    '/wiki/daniel-hail': '/wiki/daniel-hale/',
+    '/wiki/russell-tark': '/wiki/russell-targ/',
+    '/wiki/steven-saunders': '/wiki/stephen-saunders/',
+    '/wiki/intercept': '/wiki/the-intercept/',
     // Wave 1 facet folds (2026-07-05): child sub-articles folded into canonical parents.
-    '/wiki/abdul-rashid-dostum': '/wiki/general-dostum',
-    '/wiki/abu-zubaydah-capture': '/wiki/abu-zubaydah',
-    '/wiki/three-saudi-princes': '/wiki/abu-zubaydah',
-    '/wiki/taliban-origin-benazir': '/wiki/benazir-bhutto',
-    '/wiki/bin-laden-tora-bora-escape': '/wiki/tora-bora',
-    '/wiki/chelsea-manning-emergence': '/wiki/chelsea-manning',
-    '/wiki/daniel-domscheit-berg-wikileaks': '/wiki/daniel-domscheit-berg',
-    '/wiki/julian-assange-political-prisoner': '/wiki/julian-assange',
-    '/wiki/julian-assange-secure-drop': '/wiki/julian-assange',
-    '/wiki/julian-assange-wikileaks-role': '/wiki/julian-assange',
-    '/wiki/church-committee-mk-ultra-investigation': '/wiki/church-committee',
-    '/wiki/cia-insiders-guide-to-lying-and-lie-detection': '/wiki/lie-detection',
-    '/wiki/eric-swallwell-fbi-documents': '/wiki/eric-swallwell',
-    '/wiki/pam-bondi-eric-swallwell': '/wiki/eric-swallwell',
-    '/wiki/pam-bondi-epstein-scandal': '/wiki/pam-bondi',
-    '/wiki/espionage-act-whistleblower-cases': '/wiki/espionage-act',
-    '/wiki/federal-whistleblower-protection-act': '/wiki/whistleblower-protection-act',
-    '/wiki/hypnosis-operation-walk-in': '/wiki/walk-in',
-    '/wiki/john-brennan-tuesday-morning-kill-list': '/wiki/john-brennan',
-    '/wiki/john-kiriakou-whistleblower-advice': '/wiki/john-kiriakou',
-    '/wiki/ray-mcgovern-vault-7': '/wiki/vault-7',
-    '/wiki/thin-thread-stellar-wind': '/wiki/thin-thread',
-    '/wiki/vault-7-revelations': '/wiki/vault-7',
+    '/wiki/abdul-rashid-dostum': '/wiki/general-dostum/',
+    '/wiki/abu-zubaydah-capture': '/wiki/abu-zubaydah/',
+    '/wiki/three-saudi-princes': '/wiki/abu-zubaydah/',
+    '/wiki/taliban-origin-benazir': '/wiki/benazir-bhutto/',
+    '/wiki/bin-laden-tora-bora-escape': '/wiki/tora-bora/',
+    '/wiki/chelsea-manning-emergence': '/wiki/chelsea-manning/',
+    '/wiki/daniel-domscheit-berg-wikileaks': '/wiki/daniel-domscheit-berg/',
+    '/wiki/julian-assange-political-prisoner': '/wiki/julian-assange/',
+    '/wiki/julian-assange-secure-drop': '/wiki/julian-assange/',
+    '/wiki/julian-assange-wikileaks-role': '/wiki/julian-assange/',
+    '/wiki/church-committee-mk-ultra-investigation': '/wiki/church-committee/',
+    '/wiki/cia-insiders-guide-to-lying-and-lie-detection': '/wiki/lie-detection/',
+    '/wiki/eric-swallwell-fbi-documents': '/wiki/eric-swallwell/',
+    '/wiki/pam-bondi-eric-swallwell': '/wiki/eric-swallwell/',
+    '/wiki/pam-bondi-epstein-scandal': '/wiki/pam-bondi/',
+    '/wiki/espionage-act-whistleblower-cases': '/wiki/espionage-act/',
+    '/wiki/federal-whistleblower-protection-act': '/wiki/whistleblower-protection-act/',
+    '/wiki/hypnosis-operation-walk-in': '/wiki/walk-in/',
+    '/wiki/john-brennan-tuesday-morning-kill-list': '/wiki/john-brennan/',
+    '/wiki/john-kiriakou-whistleblower-advice': '/wiki/john-kiriakou/',
+    '/wiki/ray-mcgovern-vault-7': '/wiki/vault-7/',
+    '/wiki/thin-thread-stellar-wind': '/wiki/thin-thread/',
+    '/wiki/vault-7-revelations': '/wiki/vault-7/',
     // Wave 3 mini-merge (2026-07-05): WikiLeaks stubs subsumed by wikileaks-as-a-system.
-    '/wiki/wikileaks-and-trump': '/wiki/wikileaks-as-a-system',
-    '/wiki/wikileaks-arab-spring': '/wiki/wikileaks-as-a-system',
-    '/wiki/wikileaks-ngo-transformation': '/wiki/wikileaks-as-a-system',
-    '/wiki/wikileaks-post-2010': '/wiki/wikileaks-as-a-system',
+    '/wiki/wikileaks-and-trump': '/wiki/wikileaks-as-a-system/',
+    '/wiki/wikileaks-arab-spring': '/wiki/wikileaks-as-a-system/',
+    '/wiki/wikileaks-ngo-transformation': '/wiki/wikileaks-as-a-system/',
+    '/wiki/wikileaks-post-2010': '/wiki/wikileaks-as-a-system/',
     // Fold: duplicate spelling of Anwar al-Awlaki.
-    '/wiki/anoir-alaki': '/wiki/anwar-al-awlaki',
+    '/wiki/anoir-alaki': '/wiki/anwar-al-awlaki/',
   },
   integrations: [
     mdx(),
+    trailingSlashLinks(),
     sitemap({
       // Keep thin/utility pages out of the sitemap: don't advertise the
       // robots-blocked /search, the /random redirect endpoint, or low-value

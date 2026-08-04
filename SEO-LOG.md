@@ -355,3 +355,157 @@ this sweep ended, but its work is still uncommitted — the config changes, the
 trailing-slash rollout, ~700 images and 9 modified articles. So the position is
 unchanged: the next deploy, whoever runs it, will carry that lane's work and
 this sweep's 21 metadata fixes and 6 links together. Nothing here is live yet.
+
+---
+
+## 2026-08-04 — analytics pass (manual, 7am; separate from the 3am sweep)
+
+First run where **real numbers were readable**. The three prior sweeps all
+recorded Search Console as blocked and reported no indexing or ranking figures.
+That entry can now be closed: `kiripedia.org` is a verified property and both
+dashboards are reachable through the signed-in browser. No service account or
+API key was needed — the earlier sweeps were looking for the wrong kind of
+credential.
+
+This pass is analytics-driven and is now armed as a daily 7pm routine
+(`kiripedia-7pm-seo`), deliberately offset from the 3am crawl-hygiene sweep so
+the two don't collide on the working tree.
+
+### Measured
+
+**Vercel Analytics, last 30 days:** 778 visitors (+174%), 3,830 page views
+(+163%), bounce rate 77% (+22%). Traffic is almost entirely search — Google 345,
+DuckDuckGo 81, Bing 19, Reddit 9, ChatGPT 6. 73% United States, 62% desktop.
+Top landing pages: homepage 168, bob-grenier 70, nordstream-pipeline-sabotage
+38, alan-dershowitz 32, /category/people 27, hummus 25.
+
+Worth a look on a future run: 33% of visitors report GNU/Linux, high for a
+general-audience wiki, and possibly scraper traffic that still runs JavaScript.
+
+**Search Console, last 3 months:** 112 clicks, 5,540 impressions, 2.0% CTR,
+average position 16.6. Impressions climbed from roughly 25/day in late May to
+roughly 180/day at the end of July; clicks stayed flat near 3/day. Against the
+2026-07-09 baseline (46 clicks / 2,003 impressions / 2.30% CTR): impressions
+2.8x, clicks 2.4x, CTR flat.
+
+**Read those two together and the diagnosis is unambiguous.** The site is not
+struggling to be found or indexed — visibility is compounding on its own. It
+loses at the two steps after that: it ranks on page two (16.6), and when shown
+it is not clicked (2%).
+
+Highest-impression queries and their clicks: "why does cia put hummus up ass"
+105/0, "gust avrakotos" 54/0, "kiripedia" 45/9, "afghanistan language" 45/0,
+"remains of the day … john kiriakou" 40/0, "mary margaret graham john kiriakou"
+34/1, "'if it weren't for john kiriakou' mccain" 28/0, "afghan language" 23/0,
+"kuwait oil fires" 15/0, "kuwaiti oil fires" 14/0. 418 queries in total. The
+pattern holds all the way down: these are exactly the questions this corpus is
+uniquely able to answer, and every one of them is being shown and ignored.
+
+**Indexing:** 1,440 indexed, 499 not. Reasons: 340 "Alternate page with proper
+canonical tag", 92 "Crawled - currently not indexed", 57 "Discovered - currently
+not indexed", 4 redirects, 3 not-found, 2 noindex, 1 soft 404.
+
+**Links:** 18 external backlinks in total, every one from a single Reddit post
+in r/intelligence. 8,677 internal links, of which about 8,620 point at the
+homepage and the six category pages.
+
+### Two structural faults, both now fixed
+
+**1. The entire corpus was indexed at two URLs each.** Canonical tags, JSON-LD
+and the sitemap emitted the trailing-slash form (`/wiki/hummus/`), but every
+link the site actually rendered — nav, breadcrumbs, category lists and roughly
+10,000 wikilinks inside article bodies — pointed at the slash-less form. Search
+Console showed `/wiki/hummus/` at 347 impressions sitting directly next to
+`/wiki/hummus` at 257, and the 340 URLs parked under "Alternate page with proper
+canonical" are the rest of the corpus doing the same thing. Canonical was doing
+its job, so this was never a crisis, but the site was paying twice in crawl
+budget for every page and splitting its own ranking signals. The same split was
+visible in the internal-link report, where `/category/procedures` (1,467 links,
+no slash) and `/category/people/` (1,466 links, slash) were being counted as two
+different pages.
+
+**2. Internal link equity was going almost entirely to the nav.** 8,620 of 8,677
+internal links pointed at seven pages. Individual articles got almost nothing —
+abu-zubaydah 53, david-rockefeller-bahrain 4, most of the corpus 0. Separately,
+113 of 822 articles had no inbound wikilink from anywhere in the corpus, and the
+median article had 2. That is the mechanism behind the 92 "Crawled - currently
+not indexed" and 57 "Discovered - currently not indexed": Google can reach those
+pages, but nothing on the site vouches for them. Prior sweeps treated this as an
+editorial problem ("linking them means writing new sentences") and wired 6 a
+night. It is also solvable structurally, which is what was done here.
+
+### Changed
+
+- **One canonical URL shape, enforced at two layers.** `trailingSlash: true` in
+  `vercel.json` makes the edge 308 the slash-less form, so already-indexed URLs
+  and inbound links consolidate rather than merely being canonicalised away. A
+  new build integration (`tools/astro-trailing-slash.mjs`) rewrites every
+  internal link in the emitted HTML to match — 5,285 links normalized on the
+  first pass. The 48 redirect targets in `astro.config.mjs` were slash-terminated
+  too, so a redirect now lands in one hop instead of two. Verified in the built
+  output: **zero slash-less internal page links remain** across 1,752 pages, and
+  canonical, JSON-LD and links now all agree.
+
+  This also closes a standing item from the first sweep, which noted redirects
+  were meta-refresh stubs and left the deploy config alone.
+
+- **A "Related articles" block on every article** (`tools/build-related.mjs` →
+  `src/components/Related.astro`, wired into the build). Relatedness is scored
+  from what the corpus already knows rather than guessed: shared cited source
+  recordings weigh heaviest (two articles citing the same interview are usually
+  the same story), then direct wikilinks, then shared outbound links, then shared
+  categories. `john-kiriakou` and `cia` are excluded as coupling terms — they
+  appear in 805 and 306 articles respectively and so carry no information. An
+  orphan-rescue pass then guarantees every article is surfaced by at least three
+  others, repeating until stable so that trimming a full block cannot re-orphan
+  someone. Result: 819 of 822 articles carry a block and **no article is
+  unreachable by link any more** (was 113). This should also work on the 77%
+  bounce rate, since a reader arriving from a search now has a next click.
+
+- **Purpose-written titles and descriptions on nine zero-click pages**, chosen
+  directly off the impressions table above rather than by inbound links:
+  gust-avrakotos, afghan-languages, john-mccain, kuwait-oil-fires,
+  mary-margaret-graham, the-farm, saddam-hussein, david-rockefeller-bahrain,
+  remains-of-the-day-book. Each got a `seoTitle` under 50 characters and a `deck`
+  near 150, written to answer the query that is actually surfacing the page. No
+  new facts — each line compresses material already in that article. This is the
+  one lever with direct evidence behind it on this site: hummus went from 0
+  clicks to 9 after exactly this treatment on 2026-07-23, and it is now the
+  site's second-best page.
+
+- **A daily audit script** (`tools/seo-daily.mjs`) that prints the deterministic
+  half of this pass — orphans, thin pages, related-block coverage, how many pages
+  still lack a purpose-written title, and the change since the previous run —
+  plus a ranked queue of what to write next. Today: 822 articles, 113 orphans by
+  wikilink, 359 thin, 719 still serving a truncated summary, 0 related-orphans.
+
+### NOT deployed — and why
+
+Same reason as the 03:54 sweep, and the position is unchanged: the image lane's
+work is still uncommitted in this working tree — 597 modified articles and 509
+untracked files, mostly newly fetched images. Deploying would ship that lane's
+state as a side effect.
+
+Nothing was staged with `git add -A`. This pass committed its own files by
+explicit path only. Note that four of the nine articles it edited
+(afghan-languages, the-farm, david-rockefeller-bahrain, remains-of-the-day-book)
+had also picked up an `image:` infobox line from the image lane by the time they
+were committed; those lines are complete and the four image files exist on disk,
+so they were committed along with the metadata rather than surgically removed.
+
+### Blocked — needs the user
+
+- **Backlinks. This is the real ceiling and nothing in the codebase can move
+  it.** 18 links from one Reddit thread is why average position sits at 16.6.
+  Kiriakou sharing the site himself is the highest-value unlock available.
+  Second best: that single r/intelligence post produced all 18 existing links,
+  so more posts of that kind demonstrably work.
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia** for the Organization `sameAs` (carried from
+  2026-07-09).
+
+### Closed as no longer true
+
+- "Search Console is not connected" — it is connected and readable, and has been
+  since 2026-08-01. Three sweeps reported this as blocking because they looked
+  for a service-account credential rather than using the signed-in browser.

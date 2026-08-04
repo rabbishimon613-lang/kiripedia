@@ -1,6 +1,7 @@
 ---
 import WikiLayout from './WikiLayout.astro';
 import References from '../components/References.astro';
+import Related from '../components/Related.astro';
 import TOC from '../components/TOC.astro';
 import { list, tsToSeconds } from '../lib/citations.mjs';
 import { getEntry } from 'astro:content';
@@ -243,6 +244,7 @@ const robots = noindex ? 'noindex, follow' : undefined;
       <slot />
     </article>
     <References />
+    <Related slug={slug} />
     {categories.length > 0 && (
       <div class="catlinks">
         <span class="label">Categories:</span>

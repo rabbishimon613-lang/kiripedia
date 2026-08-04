@@ -1,0 +1,54 @@
+---
+// "Related articles" block. Data is precomputed at build time by
+// tools/build-related.mjs — see that file for why this exists (internal link
+// equity was being absorbed almost entirely by the nav chrome, and 106
+// articles had no inbound wikilink at all).
+//
+// Rendered as real crawlable <a> links inside the article body, below the
+// references, so it counts as editorial linking rather than boilerplate.
+import related from '../data/related.json';
+
+const { slug } = Astro.props;
+const items = (related[slug] ?? []).slice(0, 6);
+---
+{items.length > 0 && (
+  <nav class="related" aria-labelledby="related-heading">
+    <h2 id="related-heading">Related articles</h2>
+    <ul>
+      {items.map((r) => (
+        <li>
+          <a href={`/wiki/${r.slug}/`}>{r.title}</a>
+          {r.summary && <span class="related-summary"> — {r.summary}</span>}
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
+
+<style>
+  .related {
+    margin: 2em 0 0;
+    padding-top: 0.6em;
+    border-top: 1px solid var(--color-border);
+  }
+  .related h2 {
+    font-size: 1.1em;
+    font-family: var(--font-serif, Georgia, serif);
+    font-weight: normal;
+    margin: 0 0 0.4em;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .related ul {
+    margin: 0;
+    padding-left: 1.4em;
+  }
+  .related li {
+    margin-bottom: 0.35em;
+    line-height: 1.5;
+  }
+  .related-summary {
+    color: var(--color-base--subtle);
+    font-size: 0.9em;
+  }
+</style>
