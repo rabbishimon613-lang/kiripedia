@@ -349,3 +349,9 @@ The 21 metadata fixes and 6 links will go live with whatever deploy comes next.
 - **Redirects are still meta-refresh stubs rather than 301s.** Unchanged: it
   touches deploy config, and the other session is currently editing exactly that
   file. Left well alone this run.
+
+**Late note, same run:** the other session's image lane finished shortly after
+this sweep ended, but its work is still uncommitted — the config changes, the
+trailing-slash rollout, ~700 images and 9 modified articles. So the position is
+unchanged: the next deploy, whoever runs it, will carry that lane's work and
+this sweep's 21 metadata fixes and 6 links together. Nothing here is live yet.
