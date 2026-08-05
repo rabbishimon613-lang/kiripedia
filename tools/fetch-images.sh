@@ -146,7 +146,6 @@ MAPPING=(
   "peter-mandelson=Peter_Mandelson"
   "below-worlds-end=John_Kiriakou"
   "abu-zubaydah=Abu_Zubaydah"
-  "asset-acquisition-cycle=Espionage"
   "benazir-bhutto=Benazir_Bhutto"
   "bill-casey=William_J._Casey"
   "bob-cia-hr=Central_Intelligence_Agency"
@@ -309,7 +308,6 @@ MAPPING=(
   "analysis-corporation=The_Analysis_Corporation"
 
   # Concepts / Procedures
-  "mad-minute=Espionage"
   "hawala-system=Hawala"
   "cia-cable-priority-levels=Diplomatic_cable"
   "executive-order-12333=Executive_Order_12333"
@@ -464,7 +462,6 @@ MAPPING=(
   "senior-executive-service=Executive_Office_of_the_President_of_the_United_States"
   "dashti-leyli=Northern_Alliance"
   "camp-david-final-talks=Israeli–Palestinian_conflict"
-  "access-agent=Espionage"
   "gay-diplomat-operation=KGB"
   "government-metadata-purchase=PRISM"
   "the-intercept=The_Intercept"
@@ -658,7 +655,7 @@ MAPPING=(
   "andy-warhol-encounter=Andy_Warhol"
   "angry-birds=Angry_Birds_(video_game)"
   "antisemitism-and-anti-zionism=Antisemitism"
-  "arrais-corporation=Espionage"
+  "arrais-corporation=Tysons,_Virginia"
   "asel-al-ghabandi=Invasion_of_Kuwait"
   "assange-plea-deal=Julian_Assange"
   "athens-bank-fraud-report=Athens"
@@ -703,7 +700,7 @@ MAPPING=(
   "cia-gmail-account-felony-case=Gmail"
   "cia-insiders-guide-to-surveillance=Surveillance"
   "cia-intelligence-failures=Central_Intelligence_Agency"
-  "cia-liaison-relationships=Espionage"
+  "cia-liaison-relationships=Intelligence_agency"
   "cia-media-relations=Operation_Mockingbird"
   "cia-media-revolving-door=Television_news"
   "cia-political-action-group=Propaganda"
@@ -724,7 +721,7 @@ MAPPING=(
   "communications-management-unit=Communications_management_unit"
   "congressional-intelligence-oversight=United_States_Senate_Select_Committee_on_Intelligence"
   "consortium-news=Robert_Parry_(journalist)"
-  "cover-position=Espionage"
+  "cover-position=Diplomatic_mission"
   "critical-analytic-thinking=Critical_thinking"
   "dark-alliance=Gary_Webb"
   "darpa-lifelog=DARPA"
@@ -914,7 +911,7 @@ MAPPING=(
   "prison-pedophile-accounts=Prison"
   "prison-phone-monitoring=Telephone"
   "prison-racial-segregation=Prison"
-  "private-intelligence=Espionage"
+  "private-intelligence=Private_military_company"
   "private-prison-system=Private_prison"
   "project-gateway=Remote_viewing"
   "prosecutorial-careerism=United_States_Attorney"
@@ -924,7 +921,7 @@ MAPPING=(
   "rand-paul-eric-holder=Rand_Paul"
   "ray-davis-lahore-shooting=Raymond_Allen_Davis_incident"
   "rdap-program=Drug_rehabilitation"
-  "recruitment-attempts-on-kiriakou=Espionage"
+  "recruitment-attempts-on-kiriakou=John_Kiriakou"
   "remains-of-day-treasury-clerk-story=United_States_Department_of_the_Treasury"
   "remains-of-the-day-book=Cemetery"
   "restraint-camp=Isolationism"
@@ -962,9 +959,9 @@ MAPPING=(
   "targeting-analyst=Intelligence_analysis"
   "taybeh=Taybeh_Brewing_Company"
   "terry-aubry=Federal_Bureau_of_Investigation"
-  "the-botched-pitch=Espionage"
+  "the-botched-pitch=Tradecraft"
   "the-drone-papers=The_Intercept"
-  "the-false-volunteer=Espionage"
+  "the-false-volunteer=Interrogation"
   "the-farm=Camp_Peary"
   "the-reluctant-spy=John_Kiriakou"
   "the-sociopath-next-door=Antisocial_personality_disorder"
@@ -996,7 +993,7 @@ MAPPING=(
   "venezuelan-embassy-2019=Embassy_of_Venezuela,_Washington,_D.C."
   "veteran-intelligence-professionals-for-sanity=Veteran_Intelligence_Professionals_for_Sanity"
   "virginia-redistricting-supreme-court-ruling=Supreme_Court_of_the_United_States"
-  "walk-in=Espionage"
+  "walk-in=Defection"
   "walter-pincus=The_Washington_Post"
   "watching-naval-movements=United_States_Navy"
   "watermark=Watermark"
@@ -1071,7 +1068,6 @@ MAPPING=(
   "cia-media-revolving-door=CNN"
   "cia-record-deniability=Central_Intelligence_Agency"
   "cia-satan-church-nsa-investigation=Church_of_Satan"
-  "cia-sexpionage=Espionage"
   "cia-torture-program-whistleblowing=Abu_Ghraib_torture_and_prisoner_abuse"
   "cia-training-doctrine=Williamsburg,_Virginia"
   "classification-compartments=Classified_information"
@@ -1084,7 +1080,7 @@ MAPPING=(
   "deloitte-consulting-career=New_York_City"
   "democratic-party-2025-approval-decline=United_States_Congress"
   "diary-of-a-ceo-january-2026=Podcast"
-  "double-agent-capture=Espionage"
+  "double-agent-capture=Sting_operation"
   "federal-plea-coercion=Prison"
   "french-village-lsd-bread-experiment=Lysergic_acid_diethylamide"
   "girls-madrasa-raid-error=Pakistan"
@@ -1130,6 +1126,9 @@ MAPPING=(
   "washington-political-culture=United_States_Capitol"
   "cia-directorates=Central_Intelligence_Agency"
   "advanced-counterterrorism-operations=Counterterrorism"
+  "asset-acquisition-cycle=Human_intelligence_(intelligence_gathering)"
+  "mad-minute=Counterintelligence"
+  "access-agent=Social_network"
   "kiriakou-gastrectomy=Gastrectomy"
   "kiriakou-post-gastrectomy-complications=Peptic_ulcer_disease"
   "kiriakou-type-2-diabetes=Type_2_diabetes"
@@ -1144,6 +1143,49 @@ trap "rm -rf $TMP" EXIT
 
 got=0
 miss=0
+
+# ---------------------------------------------------------------------------
+# Duplicate-image guard.
+#
+# A slug may list several titles; later ones are fallbacks for when the first
+# has no lead image. That is useful, but a *generic* fallback shared by many
+# slugs quietly gives all of them the same picture — this is how nine unrelated
+# tradecraft articles ended up illustrated with the same 1920s couple from the
+# "Espionage" page. The reuse was invisible because each slug writes its own
+# file name.
+#
+# So: claim each image by content hash. A first-choice title is allowed to
+# collide (the CIA seal genuinely belongs on several CIA articles), but a
+# fallback that lands on a picture another article already uses is rejected —
+# no image beats the wrong image, and the miss shows up in the run summary.
+HASHDIR="$TMP/hashes"
+mkdir -p "$HASHDIR"
+
+hash_of() { md5 -q "$1" 2>/dev/null || md5sum "$1" 2>/dev/null | cut -d' ' -f1; }
+
+# Returns 0 if this slug now owns the hash, 1 if another slug already does.
+claim_hash() {
+  local h="$1" slug="$2"
+  if mkdir "$HASHDIR/$h" 2>/dev/null; then
+    printf '%s' "$slug" > "$HASHDIR/$h/owner"
+    return 0
+  fi
+  [ "$(cat "$HASHDIR/$h/owner" 2>/dev/null)" = "$slug" ]
+}
+
+hash_owner() { cat "$HASHDIR/$1/owner" 2>/dev/null; }
+
+# Seed the claims with every image already on disk, so a new fetch can tell it
+# is about to duplicate one of them.
+for existing_img in "$DEST"/*; do
+  [ -f "$existing_img" ] || continue
+  case "$(basename "$existing_img")" in credits.json) continue ;; esac
+  seed_slug=$(basename "$existing_img"); seed_slug="${seed_slug%.*}"
+  claim_hash "$(hash_of "$existing_img")" "$seed_slug" >/dev/null 2>&1 || true
+done
+
+export HASHDIR
+export -f hash_of claim_hash hash_owner
 
 # Carry forward credits for slugs that already have both an image on disk and
 # a good credits entry. Without this, every run re-queries ~700 unchanged
@@ -1240,10 +1282,17 @@ do_entry() {
   fi
 
   # No image yet — fetch from Wikipedia, trying each candidate title.
+  # Remember whether we had to fall back; the duplicate guard below is strict
+  # about fallbacks and lenient about a slug's own first choice.
+  local from_fallback=0 cand_idx=0
   thumb=""
   for title in "${candidates[@]}"; do
     thumb=$(wp_thumb "$title")
-    [ -n "$thumb" ] && break
+    if [ -n "$thumb" ]; then
+      [ "$cand_idx" -gt 0 ] && from_fallback=1
+      break
+    fi
+    cand_idx=$((cand_idx + 1))
   done
   if [ -z "$thumb" ]; then
     echo "✗ $slug (${candidates[*]}) — no lead image"
@@ -1279,6 +1328,19 @@ do_entry() {
     echo "✗ $slug — download did not yield an image (last type: ${mime:-empty})"
     rm -f "$out"
     return 1
+  fi
+
+  # Duplicate guard — see the note above the hash helpers.
+  local img_hash owner
+  img_hash=$(hash_of "$out")
+  if [ -n "$img_hash" ] && ! claim_hash "$img_hash" "$slug"; then
+    owner=$(hash_owner "$img_hash")
+    if [ "$from_fallback" = "1" ]; then
+      echo "✗ $slug — fallback '$title' duplicates the image already used by '$owner'; left without one"
+      rm -f "$out"
+      return 1
+    fi
+    echo "! $slug — shares '$title' image with '$owner' (first-choice title, kept)"
   fi
 
   IFS='|||' read -r artist _ _ license <<< "$(fetch_credit "$thumb")"
