@@ -4,7 +4,6 @@ title: "S2E10 Food, Glorious Food!"
 show: "John Kiriakou's Dead Drop"
 date: "2026-07-20"
 url: "https://sphinx.acast.com/p/open/s/68e695c6d798804c9e4bbd13/e/6a5445d2e31e37bb56364cb3/media.mp3"
-videoId: "2026-07-20-dead-drop-s2e10-food-glorious-food"
 duration: "50:48"
 captionSource: auto
 paragraphs: 105

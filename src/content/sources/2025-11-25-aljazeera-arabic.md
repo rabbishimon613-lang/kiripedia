@@ -1,7 +1,7 @@
 ---
 slug: "2025-11-25-aljazeera-arabic"
 title: "ضابط سابق في الاستخبارات الأمريكية: إسرائيل طلبت من كل رئيس"
-show: "AlJazeera Arabic"
+show: "Al Jazeera Arabic (الجزيرة)"
 date: "2025-11-25"
 url: "https://youtu.be/mUeTxPRrYXU"
 videoId: "mUeTxPRrYXU"

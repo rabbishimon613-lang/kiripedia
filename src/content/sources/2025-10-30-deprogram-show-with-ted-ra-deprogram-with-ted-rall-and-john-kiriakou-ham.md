@@ -1,7 +1,7 @@
 ---
 slug: "2025-10-30-deprogram-show-with-ted-ra-deprogram-with-ted-rall-and-john-kiriakou-ham"
 title: "Deprogram with Ted Rall and John Kiriakou: “Hamas Has Won\""
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2025-10-30"
 url: "https://youtu.be/tZ1gVL3EvcU"
 videoId: "tZ1gVL3EvcU"

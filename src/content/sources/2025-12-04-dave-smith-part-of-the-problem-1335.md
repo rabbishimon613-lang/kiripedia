@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-04-dave-smith-part-of-the-problem-1335"
 title: "Dave Smith | John Kiriakou | Part Of The Problem 1335"
-show: "Part of the Problem"
+show: "Dave Smith"
 date: "2025-12-04"
 url: "https://www.youtube.com/watch?v=rQD9soOOCf8"
 videoId: "rQD9soOOCf8"

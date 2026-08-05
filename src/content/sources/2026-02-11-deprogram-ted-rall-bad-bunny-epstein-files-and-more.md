@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-11-deprogram-ted-rall-bad-bunny-epstein-files-and-more"
 title: "Bad Bunny, Epstein Files, and more!"
-show: "DeProgram (Ted Rall)"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-02-11"
 url: "https://youtu.be/pfFvuCYmaXs"
 videoId: "pfFvuCYmaXs"

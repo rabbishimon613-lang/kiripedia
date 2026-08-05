@@ -1,7 +1,7 @@
 ---
 slug: "2024-01-16-fortress-on-a-hill-henri"
 title: "Fortress On A Hill (Henri)"
-show: "?"
+show: "Fortress On A Hill"
 date: "2024-01-16"
 url: "https://youtu.be/6kmi7Tkpf7Q"
 videoId: "6kmi7Tkpf7Q"

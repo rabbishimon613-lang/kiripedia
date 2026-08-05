@@ -1,7 +1,7 @@
 ---
 slug: "2019-10-03-kiriakou-on-the-cia-obama-vs-trump"
 title: "Kiriakou on the CIA, Obama vs Trump"
-show: "?"
+show: "Hard Lens Media"
 date: "2019-10-03"
 url: "https://youtu.be/V6eXin4Blys"
 videoId: "V6eXin4Blys"

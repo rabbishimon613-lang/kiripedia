@@ -1,7 +1,7 @@
 ---
 slug: "2020-02-17-the-bitter-truth-abe-abdelhadi"
 title: "The Bitter Truth (Abe Abdelhadi)"
-show: "?"
+show: "The Bitter Truth with Abe Abdelhadi"
 date: "2020-02-17"
 url: "https://youtu.be/6Dc3VQJIJRw"
 videoId: "6Dc3VQJIJRw"

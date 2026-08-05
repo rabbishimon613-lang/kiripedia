@@ -3,7 +3,7 @@ duration: "1:05:04"
 videoId: FPsVPf4UIc0
 url: "https://www.youtube.com/watch?v=FPsVPf4UIc0"
 date: 2026-02-18
-show: Barracks Media inc
+show: "Barracks Media"
 title: "John Kiriakou: Whistleblower Inside the CIA’s Torture Program"
 slug: 2026-02-18-barracks-media-inc-john-kiriakou-whistleblower-inside-the-cia-s-tortu
 captionSource: auto

@@ -1,7 +1,7 @@
 ---
 slug: "2020-02-25-cafe-weltschmerz-dutch-dutch-language-framing-confirm-john-speaks-no"
 title: "Dutch-language framing — confirm John speaks / not a dub"
-show: "Cafe Weltschmerz (Dutch)"
+show: "Cafe Weltschmerz"
 date: "2020-02-25"
 url: "https://youtu.be/bqWcgBb6GDM"
 videoId: "bqWcgBb6GDM"

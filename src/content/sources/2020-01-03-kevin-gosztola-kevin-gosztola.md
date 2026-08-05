@@ -1,7 +1,7 @@
 ---
 slug: "2020-01-03-kevin-gosztola-kevin-gosztola"
 title: "Kevin Gosztola"
-show: "Kevin Gosztola"
+show: "Kevin Gosztola (The Dissenter)"
 date: "2020-01-03"
 url: "https://youtu.be/OeU8ioca92M"
 videoId: "OeU8ioca92M"

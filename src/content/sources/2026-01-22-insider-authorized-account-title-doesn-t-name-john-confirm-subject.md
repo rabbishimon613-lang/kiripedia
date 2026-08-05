@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-22-insider-authorized-account-title-doesn-t-name-john-confirm-subject"
 title: "title doesn't name John — confirm subject"
-show: "Insider — \"Authorized Account\""
+show: "Insider"
 date: "2026-01-22"
 url: "https://youtu.be/Pcfwx50zl40"
 videoId: "Pcfwx50zl40"

@@ -1,7 +1,7 @@
 ---
 slug: "2025-02-28-epstein-bin-laden-china-israel"
 title: "#279 — Epstein, Bin Laden, China & Israel"
-show: "?"
+show: "Julian Dorey Podcast"
 date: "2025-02-28"
 url: "https://youtu.be/scrGRKVa-Q4"
 videoId: "scrGRKVa-Q4"

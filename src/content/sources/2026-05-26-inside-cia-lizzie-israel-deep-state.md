@@ -1,7 +1,7 @@
 ---
 slug: "2026-05-26-inside-cia-lizzie-israel-deep-state"
 title: "Inside the CIA with John Kiriakou"
-show: "Inside the CIA with Lizzie"
+show: "Elizabeth Lane TV"
 date: "2026-05-26"
 url: "https://www.youtube.com/watch?v=RXjcBoplc_c"
 videoId: "RXjcBoplc_c"

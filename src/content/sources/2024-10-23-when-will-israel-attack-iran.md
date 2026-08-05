@@ -1,7 +1,7 @@
 ---
 slug: "2024-10-23-when-will-israel-attack-iran"
 title: "When Will Israel Attack Iran?"
-show: "?"
+show: "Rachel Blevins"
 date: "2024-10-23"
 url: "https://youtu.be/JKpyBR-tmuk"
 videoId: "JKpyBR-tmuk"

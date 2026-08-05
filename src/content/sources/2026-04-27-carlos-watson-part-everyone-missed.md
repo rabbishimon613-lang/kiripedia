@@ -1,7 +1,7 @@
 ---
 slug: "2026-04-27-carlos-watson-part-everyone-missed"
 title: "Former CIA Officer John Kiriakou Explains the Part Everyone Missed"
-show: "Carlos Watson Conversations"
+show: "The Carlos Watson Podcast"
 date: "2026-04-27"
 url: "https://www.youtube.com/watch?v=b-wc8tRNoJk"
 videoId: "b-wc8tRNoJk"

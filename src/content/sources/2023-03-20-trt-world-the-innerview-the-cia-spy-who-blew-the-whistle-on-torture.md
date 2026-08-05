@@ -1,7 +1,7 @@
 ---
 slug: "2023-03-20-trt-world-the-innerview-the-cia-spy-who-blew-the-whistle-on-torture"
 title: "The CIA spy who blew the whistle on torture"
-show: "TRT World — The InnerView"
+show: "TRT World"
 date: "2023-03-20"
 url: "https://youtu.be/SBCSSQ0bpBA"
 videoId: "SBCSSQ0bpBA"

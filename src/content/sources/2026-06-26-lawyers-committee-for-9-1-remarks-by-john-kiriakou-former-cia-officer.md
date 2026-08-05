@@ -1,7 +1,7 @@
 ---
 slug: "2026-06-26-lawyers-committee-for-9-1-remarks-by-john-kiriakou-former-cia-officer"
 title: "Remarks by John Kiriakou, former CIA officer"
-show: "Lawyers' Committee for 9/1"
+show: "Lawyers' Committee for 9/11 Inquiry"
 date: "2026-06-26"
 url: "https://youtu.be/ibhnui-G5T4"
 videoId: "ibhnui-G5T4"

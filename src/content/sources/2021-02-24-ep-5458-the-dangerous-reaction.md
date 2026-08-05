@@ -1,7 +1,7 @@
 ---
 slug: "2021-02-24-ep-5458-the-dangerous-reaction"
 title: "Ep 5458 — The Dangerous Reaction"
-show: "?"
+show: "Scott Horton"
 date: "2021-02-24"
 url: "https://youtu.be/_zGMFZ1Kgww"
 videoId: "_zGMFZ1Kgww"

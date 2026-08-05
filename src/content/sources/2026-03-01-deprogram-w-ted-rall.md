@@ -1,7 +1,7 @@
 ---
 slug: "2026-03-01-deprogram-w-ted-rall"
 title: "EXTRA! Mideast in Flames"
-show: "DeProgram w/ Ted Rall"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-03-01"
 url: "https://youtu.be/aMGfqMyZz5s"
 videoId: "aMGfqMyZz5s"

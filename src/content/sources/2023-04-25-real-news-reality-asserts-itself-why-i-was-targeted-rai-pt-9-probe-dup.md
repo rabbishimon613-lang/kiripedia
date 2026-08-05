@@ -1,7 +1,7 @@
 ---
 slug: "2023-04-25-real-news-reality-asserts-itself-why-i-was-targeted-rai-pt-9-probe-dup"
 title: "Why I Was Targeted (RAI pt 9, probe dup)"
-show: "Real News — Reality Asserts Itself"
+show: "Reality Asserts Itself (Paul Jay)"
 date: "2023-04-25"
 url: "https://youtu.be/yh7Ujo6BsEs"
 videoId: "yh7Ujo6BsEs"

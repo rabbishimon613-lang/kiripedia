@@ -1,7 +1,7 @@
 ---
 slug: "2026-07-09-part-2-how-well-do-you-really-know-him"
 title: "Part 2: How Well Do You Really Know Him?"
-show: "?"
+show: "Unfiltered With S.A.M."
 date: "2026-07-09"
 url: "https://youtu.be/bKx-CsyO_zI"
 videoId: "bKx-CsyO_zI"

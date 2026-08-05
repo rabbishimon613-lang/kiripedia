@@ -1,7 +1,7 @@
 ---
 slug: "2013-02-07-government-accountability-full-video-kiriakou-portrait-unveiling-busboy"
 title: "Full Video: Kiriakou Portrait Unveiling @ Busboys & Poets"
-show: "Government Accountability"
+show: "Government Accountability Project"
 date: "2013-02-07"
 url: "https://youtu.be/iJf88y5NwJw"
 videoId: "iJf88y5NwJw"

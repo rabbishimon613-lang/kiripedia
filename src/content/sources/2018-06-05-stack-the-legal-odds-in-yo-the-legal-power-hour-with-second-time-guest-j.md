@@ -1,7 +1,7 @@
 ---
 slug: "2018-06-05-stack-the-legal-odds-in-yo-the-legal-power-hour-with-second-time-guest-j"
 title: "The Legal Power Hour - with Second-Time Guest: John Kiriakou"
-show: "Stack The Legal Odds In Yo"
+show: "Stack The Legal Odds In Your Favor"
 date: "2018-06-05"
 url: "https://youtu.be/J-YSYuGX7IE"
 videoId: "J-YSYuGX7IE"

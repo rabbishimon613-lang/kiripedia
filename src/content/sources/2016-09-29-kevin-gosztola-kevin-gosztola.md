@@ -1,7 +1,7 @@
 ---
 slug: "2016-09-29-kevin-gosztola-kevin-gosztola"
 title: "Kevin Gosztola"
-show: "Kevin Gosztola"
+show: "Kevin Gosztola (The Dissenter)"
 date: "2016-09-29"
 url: "https://youtu.be/0oscOuMADGI"
 videoId: "0oscOuMADGI"

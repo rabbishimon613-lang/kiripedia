@@ -1,7 +1,7 @@
 ---
 slug: "2025-10-20-the-cia-is-the-greatest-threat-to-the-planet"
 title: "The CIA Is the Greatest Threat to the Planet"
-show: "?"
+show: "The Jimmy Dore Show"
 date: "2025-10-20"
 url: "https://youtu.be/CiRyux1t9TQ"
 videoId: "CiRyux1t9TQ"

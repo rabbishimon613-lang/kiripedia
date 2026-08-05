@@ -1,7 +1,7 @@
 ---
 slug: "2026-04-06-due-dissidence-and-liberty-trump-s-unhinged-threat-kiriakou-spills-tea-o"
 title: "Trump's UNHINGED Threat, Kiriakou SPILLS TEA on Israel, Dill"
-show: "Due Dissidence and Liberty"
+show: "Due Dissidence"
 date: "2026-04-06"
 url: "https://youtu.be/JyxFQVWJ3Eo"
 videoId: "JyxFQVWJ3Eo"

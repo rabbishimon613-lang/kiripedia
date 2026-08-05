@@ -1,7 +1,7 @@
 ---
 slug: "2015-02-10-alittlepart-ofme-callmeco-alittlepart-ofme-callmeco"
 title: "Alittlepart Ofme (CallMeCo"
-show: "Alittlepart Ofme (CallMeCo"
+show: "Alittlepart Ofme (CallMeCookie)"
 date: "2015-02-10"
 url: "https://youtu.be/dO5QB3MDotg"
 videoId: "dO5QB3MDotg"

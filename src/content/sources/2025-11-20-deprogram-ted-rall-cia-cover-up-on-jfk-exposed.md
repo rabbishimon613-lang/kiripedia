@@ -1,7 +1,7 @@
 ---
 slug: "2025-11-20-deprogram-ted-rall-cia-cover-up-on-jfk-exposed"
 title: "CIA Cover-Up on JFK Exposed"
-show: "DeProgram (Ted Rall)"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2025-11-20"
 url: "https://youtu.be/xcrldA-Golc"
 videoId: "xcrldA-Golc"

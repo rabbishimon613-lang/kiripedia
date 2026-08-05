@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-05-lee-camp-unredacted-toni"
 title: "LIVE: Former CIA Officer John Kiriakou on Venezuela, 9/11"
-show: "Lee Camp - Unredacted Toni"
+show: "Lee Camp — Unredacted Tonight"
 date: "2026-01-05"
 url: "https://youtu.be/ZO0GpNURRRk"
 videoId: "ZO0GpNURRRk"

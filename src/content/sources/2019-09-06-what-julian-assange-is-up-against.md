@@ -1,7 +1,7 @@
 ---
 slug: "2019-09-06-what-julian-assange-is-up-against"
 title: "What Julian Assange Is Up Against"
-show: "?"
+show: "Action 4 Assange"
 date: "2019-09-06"
 url: "https://youtu.be/wg-aHgwFdCY"
 videoId: "wg-aHgwFdCY"

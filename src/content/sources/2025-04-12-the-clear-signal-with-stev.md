@@ -1,7 +1,7 @@
 ---
 slug: "2025-04-12-the-clear-signal-with-stev"
 title: "Ex-CIA Whistleblower Reveals: How Australia Gets Classifie"
-show: "The Clear Signal with Stev"
+show: "The Clear Signal (Steve Visscher)"
 date: "2025-04-12"
 url: "https://youtu.be/Qxbw5cWqL9c"
 videoId: "Qxbw5cWqL9c"

@@ -1,7 +1,7 @@
 ---
 slug: "2025-07-14-danny-jones"
 title: "CIA Spy Breaks Silence on Epstein Cover-Up, Mossad & Trump"
-show: "Danny Jones"
+show: "Danny Jones Podcast"
 date: "2025-07-14"
 url: "https://youtu.be/HStqERfZbPw"
 videoId: "HStqERfZbPw"

@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-09-judge-napolitano-judging-john-kiriakou-how-rogue-is-us-intelligence"
 title: "John Kiriakou  :  How Rogue Is US Intelligence?"
-show: "Judge Napolitano - Judging"
+show: "Judging Freedom (Judge Napolitano)"
 date: "2026-02-09"
 url: "https://youtu.be/hdfJ51hKM9E"
 videoId: "hdfJ51hKM9E"

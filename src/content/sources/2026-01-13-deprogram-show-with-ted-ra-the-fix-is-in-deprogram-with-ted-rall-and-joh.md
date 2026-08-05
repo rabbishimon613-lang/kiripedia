@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-13-deprogram-show-with-ted-ra-the-fix-is-in-deprogram-with-ted-rall-and-joh"
 title: "The Fix Is In / DeProgram with Ted Rall and John Kiriakou"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-01-13"
 url: "https://youtu.be/rdzab0KqbA8"
 videoId: "rdzab0KqbA8"

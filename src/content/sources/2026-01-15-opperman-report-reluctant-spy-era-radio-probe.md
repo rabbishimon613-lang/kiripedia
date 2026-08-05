@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-15-opperman-report-reluctant-spy-era-radio-probe"
 title: "\"Reluctant Spy\" era radio — probe"
-show: "Opperman Report"
+show: "The Opperman Report"
 date: "2026-01-15"
 url: "https://youtu.be/grlBxKDqYrQ"
 videoId: "grlBxKDqYrQ"

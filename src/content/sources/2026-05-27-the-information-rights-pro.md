@@ -1,7 +1,7 @@
 ---
 slug: "2026-05-27-the-information-rights-pro"
 title: "Whistleblower Diaries #1 — John Kiriakou with Greg Barns S"
-show: "The Information Rights Pro"
+show: "The Information Rights Project"
 date: "2026-05-27"
 url: "https://youtu.be/4AACmzGfitg"
 videoId: "4AACmzGfitg"

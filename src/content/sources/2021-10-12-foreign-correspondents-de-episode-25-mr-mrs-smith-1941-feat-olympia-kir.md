@@ -1,7 +1,7 @@
 ---
 slug: "2021-10-12-foreign-correspondents-de-episode-25-mr-mrs-smith-1941-feat-olympia-kir"
 title: "Episode 25: \"Mr. & Mrs. Smith\" (1941) feat. Olympia Kiriakou"
-show: "Foreign Correspondents: De"
+show: "Foreign Correspondents: Deeper into Hitchcock"
 date: "2021-10-12"
 url: "https://youtu.be/IoD9wBwNH8I"
 videoId: "IoD9wBwNH8I"

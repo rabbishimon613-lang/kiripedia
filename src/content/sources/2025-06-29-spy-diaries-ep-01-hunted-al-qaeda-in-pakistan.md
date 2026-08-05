@@ -1,7 +1,7 @@
 ---
 slug: "2025-06-29-spy-diaries-ep-01-hunted-al-qaeda-in-pakistan"
 title: "Spy Diaries Ep 01 — Hunted Al-Qaeda in Pakistan"
-show: "?"
+show: "TCM"
 date: "2025-06-29"
 url: "https://youtu.be/6aDKlkV4G2A"
 videoId: "6aDKlkV4G2A"

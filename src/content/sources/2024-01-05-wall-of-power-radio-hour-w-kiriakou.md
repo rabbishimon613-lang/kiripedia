@@ -1,7 +1,7 @@
 ---
 slug: "2024-01-05-wall-of-power-radio-hour-w-kiriakou"
 title: "Wall Of Power Radio Hour w/ Kiriakou"
-show: "?"
+show: "AM950 The Progressive Voice of Minnesota"
 date: "2024-01-05"
 url: "https://youtu.be/cEa_k3SAguU"
 videoId: "cEa_k3SAguU"

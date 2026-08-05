@@ -1,7 +1,7 @@
 ---
 slug: "2015-04-01-a-cia-whistleblower-speaks"
 title: "A CIA Whistleblower Speaks"
-show: "?"
+show: "The Zero Hour (RJ Eskow)"
 date: "2015-04-01"
 url: "https://youtu.be/nQZGD1d9aeI"
 videoId: "nQZGD1d9aeI"

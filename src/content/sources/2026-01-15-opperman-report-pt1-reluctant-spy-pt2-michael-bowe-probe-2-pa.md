@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-15-opperman-report-pt1-reluctant-spy-pt2-michael-bowe-probe-2-pa"
 title: "Pt1 Reluctant Spy / Pt2 Michael Bowe (probe: 2-part)"
-show: "Opperman Report"
+show: "The Opperman Report"
 date: "2026-01-15"
 url: "https://youtu.be/nlcNzPkfo6M"
 videoId: "nlcNzPkfo6M"

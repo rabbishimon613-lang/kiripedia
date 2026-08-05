@@ -1,7 +1,7 @@
 ---
 slug: "2019-06-29-what-will-happen-to-julian-assange"
 title: "What Will Happen to Julian Assange"
-show: "?"
+show: "The Yellow Brick Road"
 date: "2019-06-29"
 url: "https://youtu.be/ozUzW_3pBcw"
 videoId: "ozUzW_3pBcw"

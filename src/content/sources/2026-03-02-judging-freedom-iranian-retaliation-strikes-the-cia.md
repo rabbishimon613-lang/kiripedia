@@ -1,7 +1,7 @@
 ---
 slug: "2026-03-02-judging-freedom-iranian-retaliation-strikes-the-cia"
 title: "Iranian Retaliation Strikes the CIA"
-show: "Judging Freedom"
+show: "Judging Freedom (Judge Napolitano)"
 date: "2026-03-02"
 url: "https://youtu.be/nJ6yjjr1ogA"
 videoId: "nJ6yjjr1ogA"

@@ -1,7 +1,7 @@
 ---
 slug: "2023-01-28-kevin-gosztola-every-official-everywhere-with-classified-doc"
 title: "Every Official Everywhere With Classified Documents"
-show: "Kevin Gosztola"
+show: "Kevin Gosztola (The Dissenter)"
 date: "2023-01-28"
 url: "https://youtu.be/zWTHWRbcuyI"
 videoId: "zWTHWRbcuyI"

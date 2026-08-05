@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-29-bidoun-waraq-how-cia-runs-world"
 title: "How Does The CIA Run The World? | John Kiriakou | Bidoun Waraq Podcast"
-show: "Bidoun Waraq Podcast"
+show: "Bidoun Waraq (بدون ورق)"
 date: "2026-01-29"
 url: "https://www.youtube.com/watch?v=Jh0s0SBE7a0"
 videoId: "Jh0s0SBE7a0"

@@ -4,7 +4,6 @@ title: "The 9/9/2001 Massoud Assassination"
 show: "CovertAction Bulletin"
 date: "2021-12-11"
 url: "https://www.buzzsprout.com/1903718/episodes/9721047-the-9-9-2001-massoud-assassination.mp3"
-videoId: "rssc2f2ab95"
 duration: "9:00"
 captionSource: auto
 paragraphs: 17

@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-19-mad-that-podcast-cia-spy-9-11"
 title: "CIA Spy vs 9/11 | John Kiriakou | MAD THAT | S2E1"
-show: "MAD THAT Podcast"
+show: "MAD THAT"
 date: "2026-02-19"
 url: "https://www.youtube.com/watch?v=0IOQcOyTdPg"
 videoId: "0IOQcOyTdPg"

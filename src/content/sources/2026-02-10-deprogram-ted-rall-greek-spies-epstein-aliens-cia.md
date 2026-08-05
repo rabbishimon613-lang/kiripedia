@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-10-deprogram-ted-rall-greek-spies-epstein-aliens-cia"
 title: "Greek Spies, Epstein, Aliens, CIA"
-show: "DeProgram (Ted Rall)"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-02-10"
 url: "https://youtu.be/ZwuKmPsXKPs"
 videoId: "ZwuKmPsXKPs"

@@ -1,7 +1,7 @@
 ---
 slug: "2026-03-02-carlos-watson-conversations-cia-deep-state"
 title: "Ex-CIA, John Kiriakou Opens Up About the CIA's Deep State Ties and Political Influence"
-show: "Carlos Watson Conversations"
+show: "The Carlos Watson Podcast"
 date: "2026-03-02"
 url: "https://www.youtube.com/watch?v=fGfCnX_ZpQ8"
 videoId: "fGfCnX_ZpQ8"

@@ -4,26 +4,45 @@ import { getCollection } from 'astro:content';
 
 const sources = await getCollection('sources');
 
-// Group by show, sort each group by date desc
+const href = (s) => `/sources/${s.id.replace(/\.md$/, '')}`;
+const byDateDesc = (a, b) => (b.data.date ?? '').localeCompare(a.data.date ?? '');
+
+// Group by show. Shows Kiriakou came back to get their own section; the long
+// tail of one-off appearances would otherwise be 180-odd single-item headings,
+// so those collapse into one date-ordered list at the bottom.
 const byShow = new Map();
 for (const s of sources) {
-  const show = s.data.show ?? 'Unknown';
+  const show = s.data.show?.trim() || 'Unidentified channel';
   if (!byShow.has(show)) byShow.set(show, []);
   byShow.get(show).push(s);
 }
-for (const arr of byShow.values()) {
-  arr.sort((a, b) => (b.data.date ?? '').localeCompare(a.data.date ?? ''));
-}
-const shows = [...byShow.keys()].sort();
+for (const arr of byShow.values()) arr.sort(byDateDesc);
+
+const recurring = [...byShow.entries()]
+  .filter(([, arr]) => arr.length > 1)
+  .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+
+const oneOffs = [...byShow.entries()]
+  .filter(([, arr]) => arr.length === 1)
+  .map(([show, arr]) => ({ show, s: arr[0] }))
+  .sort((a, b) => byDateDesc(a.s, b.s));
+
 const total = sources.length;
+const showCount = byShow.size;
+const anchor = (name) => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+// Audio-only sources come from podcast feeds, not video platforms.
+const linkLabel = (url) => (/\.(mp3|m4a|wav)(\?|$)/i.test(url) ? 'listen' : 'watch');
+
+const years = [...new Set(sources.map((s) => (s.data.date ?? '').slice(0, 4)).filter(Boolean))].sort();
+const span = years.length ? `${years[0]}–${years[years.length - 1]}` : '';
 
 const SITE = 'https://www.kiripedia.org';
-const sortedAll = [...sources].sort((a, b) => (b.data.date ?? '').localeCompare(a.data.date ?? ''));
+const sortedAll = [...sources].sort(byDateDesc);
 const collectionSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "KiriPedia source index",
-  "description": `Index of ${total} public appearances by John Kiriakou ingested into KiriPedia, across ${shows.length} shows.`,
+  "description": `Index of ${total} public appearances by John Kiriakou ingested into KiriPedia, across ${showCount} shows.`,
   "url": `${SITE}/sources`,
   "inLanguage": "en",
   "isPartOf": { "@type": "WebSite", "name": "KiriPedia", "url": SITE },
@@ -33,7 +52,7 @@ const collectionSchema = {
     "itemListElement": sortedAll.map((s, i) => ({
       "@type": "ListItem",
       "position": i + 1,
-      "url": `${SITE}/sources/${s.id.replace(/\.md$/, '')}`,
+      "url": `${SITE}${href(s)}`,
       "name": s.data.title,
     })),
   },
@@ -41,7 +60,7 @@ const collectionSchema = {
 ---
 <WikiLayout
   title="Source index"
-  description={`${total} John Kiriakou interviews across ${shows.length} shows, every one with full annotated transcript and citable timestamps.`}
+  description={`${total} John Kiriakou interviews across ${showCount} shows, every one with full annotated transcript and citable timestamps.`}
 >
   <div class="wiki-content">
     <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
@@ -54,27 +73,59 @@ const collectionSchema = {
       </p>
 
       <p>
-        <strong>{total}</strong> source{total === 1 ? '' : 's'} ingested across <strong>{shows.length}</strong> show{shows.length === 1 ? '' : 's'}.
+        <strong>{total}</strong> recording{total === 1 ? '' : 's'} spanning {span}, across <strong>{showCount}</strong> show{showCount === 1 ? '' : 's'} — <strong>{recurring.length}</strong> he appeared on more than once, and <strong>{oneOffs.length}</strong> single appearances.
       </p>
 
-      {shows.map((show) => (
+      <nav aria-label="Jump to a show" style="margin:20px 0; padding:14px 16px; border:1px solid var(--color-border-subtle); border-radius:4px">
+        <div style="font-size:13px; font-weight:600; margin-bottom:8px">Recurring shows</div>
+        <div style="display:flex; flex-wrap:wrap; gap:6px 14px; font-size:14px; line-height:1.6">
+          {recurring.map(([show, arr]) => (
+            <a href={`#${anchor(show)}`}>{show} <span style="color:var(--color-base--subtle)">({arr.length})</span></a>
+          ))}
+        </div>
+        <div style="margin-top:10px; font-size:14px">
+          <a href="#one-off-appearances"><strong>One-off appearances</strong> ({oneOffs.length})</a>
+        </div>
+      </nav>
+
+      {recurring.map(([show, arr]) => (
         <section style="margin-top:24px">
-          <h2>{show}</h2>
+          <h2 id={anchor(show)}>{show} <span style="font-size:14px; font-weight:400; color:var(--color-base--subtle)">· {arr.length} recordings</span></h2>
           <ul style="list-style:none; padding:0; margin:0">
-            {byShow.get(show).map((s) => (
+            {arr.map((s) => (
               <li style="padding:8px 0; border-bottom:1px solid var(--color-border-subtle)">
-                <a href={`/sources/${s.id.replace(/\.md$/, '')}`}><strong>{s.data.title}</strong></a>
+                <a href={href(s)}><strong>{s.data.title}</strong></a>
                 <div style="font-size:13px; color:var(--color-base--subtle); margin-top:2px">
                   {s.data.date}
                   {s.data.duration && <> · {s.data.duration}</>}
                   {s.data.captionSource && <> · captions: {s.data.captionSource}</>}
-                  {s.data.url && <> · <a href={s.data.url} target="_blank" rel="noopener">YouTube</a></>}
+                  {s.data.url && <> · <a href={s.data.url} target="_blank" rel="noopener">{linkLabel(s.data.url)}</a></>}
                 </div>
               </li>
             ))}
           </ul>
         </section>
       ))}
+
+      <section style="margin-top:32px">
+        <h2 id="one-off-appearances">One-off appearances <span style="font-size:14px; font-weight:400; color:var(--color-base--subtle)">· {oneOffs.length} shows</span></h2>
+        <p style="font-size:14px; color:var(--color-base--subtle)">
+          Shows Kiriakou appeared on exactly once, newest first.
+        </p>
+        <ul style="list-style:none; padding:0; margin:0">
+          {oneOffs.map(({ show, s }) => (
+            <li style="padding:8px 0; border-bottom:1px solid var(--color-border-subtle)">
+              <a href={href(s)}><strong>{s.data.title}</strong></a>
+              <div style="font-size:13px; color:var(--color-base--subtle); margin-top:2px">
+                {show} · {s.data.date}
+                {s.data.duration && <> · {s.data.duration}</>}
+                {s.data.captionSource && <> · captions: {s.data.captionSource}</>}
+                {s.data.url && <> · <a href={s.data.url} target="_blank" rel="noopener">{linkLabel(s.data.url)}</a></>}
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
     </article>
   </div>
 </WikiLayout>

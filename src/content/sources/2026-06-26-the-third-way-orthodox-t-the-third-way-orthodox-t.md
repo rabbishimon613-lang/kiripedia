@@ -1,7 +1,7 @@
 ---
 slug: "2026-06-26-the-third-way-orthodox-t-the-third-way-orthodox-t"
 title: "The Third Way - Orthodox T"
-show: "The Third Way - Orthodox T"
+show: "The Third Way (Orthodox Thought)"
 date: "2026-06-26"
 url: "https://youtu.be/sgtnG9v_5bU"
 videoId: "sgtnG9v_5bU"

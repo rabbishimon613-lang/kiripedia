@@ -1,7 +1,7 @@
 ---
 slug: "2022-08-27-kevin-gosztola-mar-a-lago-affidavit-unsealed"
 title: "FBI's Mar-a-Lago Search Affidavit Is Unsealed: CIA Whistleblower John Kiriakou"
-show: "The Dissenter (Kevin Gosztola)"
+show: "Kevin Gosztola (The Dissenter)"
 date: "2022-08-27"
 url: "https://www.youtube.com/watch?v=UFmZiLO0vI8"
 videoId: "UFmZiLO0vI8"

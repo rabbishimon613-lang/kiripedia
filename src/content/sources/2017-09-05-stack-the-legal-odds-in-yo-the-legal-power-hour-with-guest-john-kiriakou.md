@@ -1,7 +1,7 @@
 ---
 slug: "2017-09-05-stack-the-legal-odds-in-yo-the-legal-power-hour-with-guest-john-kiriakou"
 title: "The Legal Power Hour - with Guest: John Kiriakou"
-show: "Stack The Legal Odds In Yo"
+show: "Stack The Legal Odds In Your Favor"
 date: "2017-09-05"
 url: "https://youtu.be/t87STIG3TpY"
 videoId: "t87STIG3TpY"

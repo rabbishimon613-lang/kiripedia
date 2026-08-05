@@ -1,7 +1,7 @@
 ---
 slug: "2024-07-16-danny-jones-trump-assassination-attempt-john-is-co-guest"
 title: "#249 — Trump Assassination Attempt (John is co-guest w/ Matt Cox ✓)"
-show: "Danny Jones"
+show: "Danny Jones Podcast"
 date: "2024-07-16"
 url: "https://youtu.be/vcgJXirykZE"
 videoId: "vcgJXirykZE"

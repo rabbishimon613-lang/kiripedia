@@ -1,7 +1,7 @@
 ---
 slug: "2019-12-19-jared-leto-beyond-the-horizon-jared-leto-beyond-the-horizon"
 title: "Jared Leto (Beyond the Horizon)"
-show: "Jared Leto (Beyond the Horizon)"
+show: "Jared Leto — Beyond the Horizon"
 date: "2019-12-19"
 url: "https://youtu.be/Ndpaua_S5lg"
 videoId: "Ndpaua_S5lg"

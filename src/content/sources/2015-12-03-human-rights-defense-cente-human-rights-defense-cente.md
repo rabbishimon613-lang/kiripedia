@@ -1,7 +1,7 @@
 ---
 slug: "2015-12-03-human-rights-defense-cente-human-rights-defense-cente"
 title: "Human Rights Defense Cente"
-show: "Human Rights Defense Cente"
+show: "Human Rights Defense Center"
 date: "2015-12-03"
 url: "https://youtu.be/FSF4K6A8VyM"
 videoId: "FSF4K6A8VyM"

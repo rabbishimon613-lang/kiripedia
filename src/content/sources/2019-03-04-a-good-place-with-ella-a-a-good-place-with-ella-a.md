@@ -1,7 +1,7 @@
 ---
 slug: "2019-03-04-a-good-place-with-ella-a-a-good-place-with-ella-a"
 title: "A Good Place with Ella & A"
-show: "A Good Place with Ella & A"
+show: "A Good Place with Ella"
 date: "2019-03-04"
 url: "https://youtu.be/GygbALerANE"
 videoId: "GygbALerANE"

@@ -1,7 +1,7 @@
 ---
 slug: "2021-09-30-kiriakou-nixon-on-the-latest-assange-news"
 title: "Kiriakou & Nixon on the Latest Assange News"
-show: "?"
+show: "Garland Nixon"
 date: "2021-09-30"
 url: "https://youtu.be/N0SqIILhQN4"
 videoId: "N0SqIILhQN4"

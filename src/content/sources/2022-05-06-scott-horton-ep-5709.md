@@ -1,7 +1,7 @@
 ---
 slug: "2022-05-06-scott-horton-ep-5709"
 title: "John Kiriakou on the War on Alternative Media"
-show: "Scott Horton (Ep. 5709)"
+show: "Scott Horton"
 date: "2022-05-06"
 url: "https://youtu.be/IW1kBeG4444"
 videoId: "IW1kBeG4444"

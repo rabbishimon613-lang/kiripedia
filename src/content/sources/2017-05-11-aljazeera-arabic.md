@@ -1,7 +1,7 @@
 ---
 slug: "2017-05-11-aljazeera-arabic"
 title: "لقاء اليوم / الأسرار والانتهاكات في سجون أمريكا - جون كيرياك"
-show: "AlJazeera Arabic"
+show: "Al Jazeera Arabic (الجزيرة)"
 date: "2017-05-11"
 url: "https://youtu.be/3CSvSw_UWD8"
 videoId: "3CSvSw_UWD8"

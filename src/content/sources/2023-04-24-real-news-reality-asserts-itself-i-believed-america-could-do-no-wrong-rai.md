@@ -1,7 +1,7 @@
 ---
 slug: "2023-04-24-real-news-reality-asserts-itself-i-believed-america-could-do-no-wrong-rai"
 title: "I Believed America Could Do No Wrong (RAI)"
-show: "Real News — Reality Asserts Itself"
+show: "Reality Asserts Itself (Paul Jay)"
 date: "2023-04-24"
 url: "https://youtu.be/T25WBmQsOho"
 videoId: "T25WBmQsOho"

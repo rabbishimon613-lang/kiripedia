@@ -1,7 +1,7 @@
 ---
 slug: "2019-08-08-david-gornoski-archives-david-gornoski-archives-W6OZ4C"
 title: "David Gornoski Archives"
-show: "David Gornoski Archives"
+show: "David Gornoski"
 date: "2019-08-08"
 url: "https://youtu.be/W6OZ4ClS_uQ"
 videoId: "W6OZ4ClS_uQ"

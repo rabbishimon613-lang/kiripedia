@@ -1,7 +1,7 @@
 ---
 slug: "2018-06-05-tedx-foggybottom-how-i-became-a-cia-whistleblower"
 title: "How I Became a CIA Whistleblower"
-show: "TEDx FoggyBottom"
+show: "TEDx Talks"
 date: "2018-06-05"
 url: "https://youtu.be/fX2YMB6dWJw"
 videoId: "fX2YMB6dWJw"

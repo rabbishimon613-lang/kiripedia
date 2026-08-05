@@ -1,7 +1,7 @@
 ---
 slug: "2021-03-10-heidi-weber-no-stop-heidi"
 title: "Ex-CIA John Kiriakou-waterlogged whistleblower S3Ep4"
-show: "Heidi Weber (No Stop Heidi"
+show: "Heidi Weber"
 date: "2021-03-10"
 url: "https://youtu.be/J82Ry2N8jbM"
 videoId: "J82Ry2N8jbM"

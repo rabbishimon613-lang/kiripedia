@@ -1,7 +1,7 @@
 ---
 slug: "2022-12-27-the-roundtable-gonzalo-l-the-roundtable-gonzalo-l"
 title: "The Roundtable — Gonzalo L"
-show: "The Roundtable — Gonzalo L"
+show: "The Roundtable (Gonzalo Lira)"
 date: "2022-12-27"
 url: "https://youtu.be/nrGSOXvNrdw"
 videoId: "nrGSOXvNrdw"

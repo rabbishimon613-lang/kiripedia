@@ -1,7 +1,7 @@
 ---
 slug: "2022-07-03-panquake-lee-camp-public-delivery-meeting-17-feat-kiriakou-suzi"
 title: "Public Delivery Meeting #17 feat. Kiriakou, Suzie Dawson"
-show: "Panquake / Lee Camp"
+show: "Panquake / #TalkLiberation"
 date: "2022-07-03"
 url: "https://youtu.be/Yum0-P_5_uA"
 videoId: "Yum0-P_5_uA"

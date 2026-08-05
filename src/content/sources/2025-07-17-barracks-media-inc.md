@@ -1,7 +1,7 @@
 ---
 slug: "2025-07-17-barracks-media-inc"
 title: "“CIA Whistleblower John Kiriakou: Torture, Truth & Traum"
-show: "Barracks Media inc"
+show: "Barracks Media"
 date: "2025-07-17"
 url: "https://youtu.be/9Oi61wpeGnA"
 videoId: "9Oi61wpeGnA"

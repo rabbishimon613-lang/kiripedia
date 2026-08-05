@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-13-aljazeera-arabic"
 title: "ضابط استخبارات أمريكي سابق للجزيرة: إسرائيل حاولت تجنيدي - ج"
-show: "AlJazeera Arabic"
+show: "Al Jazeera Arabic (الجزيرة)"
 date: "2026-02-13"
 url: "https://youtu.be/6GRPgGQX_5M"
 videoId: "6GRPgGQX_5M"

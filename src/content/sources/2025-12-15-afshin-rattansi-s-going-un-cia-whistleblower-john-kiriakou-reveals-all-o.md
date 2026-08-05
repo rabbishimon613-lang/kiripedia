@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-15-afshin-rattansi-s-going-un-cia-whistleblower-john-kiriakou-reveals-all-o"
 title: "CIA Whistleblower John Kiriakou REVEALS ALL on US-Israel All"
-show: "Afshin Rattansi's Going Un"
+show: "Afshin Rattansi's Going Underground"
 date: "2025-12-15"
 url: "https://youtu.be/9jbpBecvpQ0"
 videoId: "9jbpBecvpQ0"

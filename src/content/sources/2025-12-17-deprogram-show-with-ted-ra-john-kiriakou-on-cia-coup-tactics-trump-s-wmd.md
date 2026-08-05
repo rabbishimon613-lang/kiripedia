@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-17-deprogram-show-with-ted-ra-john-kiriakou-on-cia-coup-tactics-trump-s-wmd"
 title: "John Kiriakou on CIA Coup Tactics, Trump's WMD, New MI6 Chief"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2025-12-17"
 url: "https://youtu.be/2WIKj6XP27w"
 videoId: "2WIKj6XP27w"

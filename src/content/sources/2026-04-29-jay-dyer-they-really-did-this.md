@@ -1,7 +1,7 @@
 ---
 slug: "2026-04-29-jay-dyer-they-really-did-this"
 title: "John Kiriakou: THEY Really Did THIS — Jay Dyer Show"
-show: "The Jay Dyer Show"
+show: "Jay Dyer"
 date: "2026-04-29"
 url: "https://www.youtube.com/watch?v=jqx0uSr1yYk"
 videoId: "jqx0uSr1yYk"

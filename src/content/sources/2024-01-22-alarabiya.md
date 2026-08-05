@@ -1,7 +1,7 @@
 ---
 slug: "2024-01-22-alarabiya"
 title: "فضح جون كيرياكو أسرارا كبيرة عن المخابرات الأميركية وتحول لخ"
-show: "AlArabiya العربية"
+show: "Al Arabiya (العربية)"
 date: "2024-01-22"
 url: "https://youtu.be/LjBCKQYdB3U"
 videoId: "LjBCKQYdB3U"

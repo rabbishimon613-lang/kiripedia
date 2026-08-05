@@ -1,7 +1,7 @@
 ---
 slug: "2016-07-11-adventures-in-the-free-sta"
 title: "John Kiriakou Addresses the 2016 NHLA Liberty Dinner"
-show: "adventures in the free sta"
+show: "Adventures in the Free State"
 date: "2016-07-11"
 url: "https://youtu.be/_1Un-IY3vlc"
 videoId: "_1Un-IY3vlc"

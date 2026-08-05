@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-12-dialogue-works-highlights-us-lacks-long-term-middle-east-strategy"
 title: "US lacks long-term Middle East strategy"
-show: "Dialogue Works Highlights"
+show: "Dialogue Works"
 date: "2025-12-12"
 url: "https://youtu.be/Dnc4DmtWkGw"
 videoId: "Dnc4DmtWkGw"

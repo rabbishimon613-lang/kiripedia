@@ -1,7 +1,7 @@
 ---
 slug: "2024-09-18-opperman-report-john-kiriakou-reluctant-spy"
 title: "John Kiriakou - Reluctant Spy"
-show: "Opperman Report"
+show: "The Opperman Report"
 date: "2024-09-18"
 url: "https://youtu.be/x0fzn4Ur3ZU"
 videoId: "x0fzn4Ur3ZU"

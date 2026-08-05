@@ -4,7 +4,6 @@ title: "S2E12 Dangerous"
 show: "John Kiriakou's Dead Drop"
 date: "2026-08-03"
 url: "https://sphinx.acast.com/p/open/s/68e695c6d798804c9e4bbd13/e/6a6eaae961ae402f61b96f44/media.mp3"
-videoId: "2026-08-03-dead-drop-s2e12-dangerous"
 duration: "36:25"
 captionSource: auto
 paragraphs: 72

@@ -1,7 +1,7 @@
 ---
 slug: "2026-03-03-deprogram-show-with-ted-ra-regime-derange-deprogram-with-ted-rall-and-jo"
 title: "Regime Derange / DeProgram with Ted Rall and John Kiriakou"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-03-03"
 url: "https://youtu.be/75Fa5y2PaKY"
 videoId: "75Fa5y2PaKY"

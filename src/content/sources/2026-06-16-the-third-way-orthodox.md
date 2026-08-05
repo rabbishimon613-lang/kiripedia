@@ -1,7 +1,7 @@
 ---
 slug: "2026-06-16-the-third-way-orthodox"
 title: "CIA and the Vatican, Christian Zionism, and Living the Faith"
-show: "The Third Way (Orthodox)"
+show: "The Third Way (Orthodox Thought)"
 date: "2026-06-16"
 url: "https://youtu.be/99-EzDMH7ck"
 videoId: "99-EzDMH7ck"

@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-26-bidoun-waraq-invasion-kuwait-intelligence"
 title: "Invasion of Kuwait: The American Intelligence Account"
-show: "Bidoun Waraq Podcast"
+show: "Bidoun Waraq (بدون ورق)"
 date: "2026-02-26"
 url: "https://www.youtube.com/watch?v=RJq6inqowW4"
 videoId: "RJq6inqowW4"

@@ -1,7 +1,7 @@
 ---
 slug: "2021-01-05-talks-with-kiriakou-about-the-assange-extradi"
 title: "Talks With Kiriakou About the Assange Extradition"
-show: "?"
+show: "Kevin Gosztola (The Dissenter)"
 date: "2021-01-05"
 url: "https://youtu.be/GmDLt0eVZJc"
 videoId: "GmDLt0eVZJc"

@@ -1,7 +1,7 @@
 ---
 slug: "2024-12-06-reveals-all-about-us-involvement-in-syria"
 title: "Reveals All About US Involvement in Syria"
-show: "?"
+show: "Jamarl Thomas"
 date: "2024-12-06"
 url: "https://youtu.be/lBBVyHHIWwU"
 videoId: "lBBVyHHIWwU"

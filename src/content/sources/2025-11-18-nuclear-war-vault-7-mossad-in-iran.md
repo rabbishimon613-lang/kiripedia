@@ -1,7 +1,7 @@
 ---
 slug: "2025-11-18-nuclear-war-vault-7-mossad-in-iran"
 title: "#356 — Nuclear War, Vault 7, Mossad in Iran"
-show: "?"
+show: "Julian Dorey Podcast"
 date: "2025-11-18"
 url: "https://youtu.be/F3MFGJFh4Ps"
 videoId: "F3MFGJFh4Ps"

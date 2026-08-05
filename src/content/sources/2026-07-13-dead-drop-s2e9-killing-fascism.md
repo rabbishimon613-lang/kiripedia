@@ -4,7 +4,6 @@ title: "S2E9 Killing Fascism"
 show: "John Kiriakou's Dead Drop"
 date: "2026-07-13"
 url: "https://sphinx.acast.com/p/open/s/68e695c6d798804c9e4bbd13/e/6a4eaf521c8f5a97d879ac70/media.mp3"
-videoId: "2026-07-13-dead-drop-s2e9-killing-fascism"
 duration: "35:35"
 captionSource: auto
 paragraphs: 70

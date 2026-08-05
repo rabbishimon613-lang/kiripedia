@@ -1,7 +1,7 @@
 ---
 slug: "2026-07-04-deep-focus-network-john-kiriakou-the-truth-about-america-s-priso"
 title: "John Kiriakou: The Truth About America's Prison System"
-show: "Deep Focus Network"
+show: "The Deep Focus Show"
 date: "2026-07-04"
 url: "https://youtu.be/djGUiuyziYE"
 videoId: "djGUiuyziYE"

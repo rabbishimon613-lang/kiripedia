@@ -1,7 +1,7 @@
 ---
 slug: "2022-08-13-kevin-gosztola"
 title: "CIA Whistleblower John Kiriakou: Trump, Espionage Act &"
-show: "Kevin Gosztola"
+show: "Kevin Gosztola (The Dissenter)"
 date: "2022-08-13"
 url: "https://youtu.be/UvD5cUtGSZM"
 videoId: "UvD5cUtGSZM"

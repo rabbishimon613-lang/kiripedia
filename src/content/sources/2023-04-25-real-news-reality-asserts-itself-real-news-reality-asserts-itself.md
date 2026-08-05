@@ -1,7 +1,7 @@
 ---
 slug: "2023-04-25-real-news-reality-asserts-itself-real-news-reality-asserts-itself"
 title: "Real News — Reality Asserts Itself"
-show: "Real News — Reality Asserts Itself"
+show: "Reality Asserts Itself (Paul Jay)"
 date: "2023-04-25"
 url: "https://youtu.be/azE9ZRPJdvk"
 videoId: "azE9ZRPJdvk"

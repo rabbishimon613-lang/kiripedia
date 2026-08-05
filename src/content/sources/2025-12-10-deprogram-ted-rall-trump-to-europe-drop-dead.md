@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-10-deprogram-ted-rall-trump-to-europe-drop-dead"
 title: "Trump to Europe: DROP DEAD"
-show: "DeProgram (Ted Rall)"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2025-12-10"
 url: "https://youtu.be/ClPOKa97jQg"
 videoId: "ClPOKa97jQg"

@@ -1,7 +1,7 @@
 ---
 slug: "2025-09-06-connecting-the-dots-podcas"
 title: "John Kiriakou on Venezuela Strikes, Regime Change Talk,"
-show: "Connecting the Dots Podcas"
+show: "Connecting the Dots (Dr. Wilmer Leon)"
 date: "2025-09-06"
 url: "https://youtu.be/_RqBVs-P6WY"
 videoId: "_RqBVs-P6WY"

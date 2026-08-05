@@ -1,7 +1,7 @@
 ---
 slug: "2023-04-12-danny-jones"
 title: "CIA Spy Breaks Silence On Elon Musk's Twitter Files — John"
-show: "Danny Jones"
+show: "Danny Jones Podcast"
 date: "2023-04-12"
 url: "https://youtu.be/RmPpOps1yeI"
 videoId: "RmPpOps1yeI"

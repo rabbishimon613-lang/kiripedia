@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-25-deprogram-show-with-ted-ra-is-war-with-iran-imminent-ted-rall-john-kiria"
 title: "Is War with Iran Imminent? / Ted Rall & John Kiriakou"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-02-25"
 url: "https://youtu.be/sdltAgkEcrM"
 videoId: "sdltAgkEcrM"

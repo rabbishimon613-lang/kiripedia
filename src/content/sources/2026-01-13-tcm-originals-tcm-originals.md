@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-13-tcm-originals-tcm-originals"
 title: "TCM Originals"
-show: "TCM Originals"
+show: "TCM"
 date: "2026-01-13"
 url: "https://youtu.be/ybQ-x4y8ZEo"
 videoId: "ybQ-x4y8ZEo"

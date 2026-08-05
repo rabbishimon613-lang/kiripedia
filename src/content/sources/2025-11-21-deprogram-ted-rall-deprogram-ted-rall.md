@@ -1,7 +1,7 @@
 ---
 slug: "2025-11-21-deprogram-ted-rall-deprogram-ted-rall"
 title: "DeProgram (Ted Rall)"
-show: "DeProgram (Ted Rall)"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2025-11-21"
 url: "https://youtu.be/4uyLgnRHjk4"
 videoId: "4uyLgnRHjk4"

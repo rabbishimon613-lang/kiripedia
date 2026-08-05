@@ -1,7 +1,7 @@
 ---
 slug: "2022-05-23-how-cia-s-rogue-agent-survived-prison-probe-v"
 title: "How CIA's \"Rogue\" Agent Survived Prison (probe vs 2022 ep)"
-show: "?"
+show: "Danny Jones Podcast"
 date: "2022-05-23"
 url: "https://youtu.be/mP17LjLLXhk"
 videoId: "mP17LjLLXhk"

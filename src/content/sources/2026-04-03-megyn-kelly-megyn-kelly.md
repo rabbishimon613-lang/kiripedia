@@ -1,7 +1,7 @@
 ---
 slug: "2026-04-03-megyn-kelly-megyn-kelly"
 title: "Megyn Kelly"
-show: "Megyn Kelly"
+show: "The Megyn Kelly Show"
 date: "2026-04-03"
 url: "https://youtu.be/IqwXauqwSwQ"
 videoId: "IqwXauqwSwQ"

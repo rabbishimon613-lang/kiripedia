@@ -1,7 +1,7 @@
 ---
 slug: "2022-04-01-addy-adds-official-publi-addy-adds-official-publi"
 title: "Addy Adds Official - Publi"
-show: "Addy Adds Official - Publi"
+show: "Addy Adds Official"
 date: "2022-04-01"
 url: "https://youtu.be/0wyH1-MSOaw"
 videoId: "0wyH1-MSOaw"

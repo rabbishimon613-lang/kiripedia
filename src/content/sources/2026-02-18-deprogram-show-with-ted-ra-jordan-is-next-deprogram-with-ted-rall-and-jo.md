@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-18-deprogram-show-with-ted-ra-jordan-is-next-deprogram-with-ted-rall-and-jo"
 title: "Jordan Is Next / DeProgram with Ted Rall and John Kiriakou"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-02-18"
 url: "https://youtu.be/0VbSt6pHILg"
 videoId: "0VbSt6pHILg"

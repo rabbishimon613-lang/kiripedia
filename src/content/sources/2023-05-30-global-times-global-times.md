@@ -1,7 +1,7 @@
 ---
 slug: "2023-05-30-global-times-global-times"
 title: "环球时报 Global Times"
-show: "环球时报 Global Times"
+show: "Global Times (环球时报)"
 date: "2023-05-30"
 url: "https://youtu.be/88S43X0oUpE"
 videoId: "88S43X0oUpE"

@@ -1,7 +1,7 @@
 ---
 slug: "2022-04-21-lee-camp-unredacted-toni-cia-whistleblower-john-kiriakou-joins-lee-cam"
 title: "CIA Whistleblower John Kiriakou Joins Lee Camp"
-show: "Lee Camp - Unredacted Toni"
+show: "Lee Camp — Unredacted Tonight"
 date: "2022-04-21"
 url: "https://youtu.be/uhketm9NKeM"
 videoId: "uhketm9NKeM"

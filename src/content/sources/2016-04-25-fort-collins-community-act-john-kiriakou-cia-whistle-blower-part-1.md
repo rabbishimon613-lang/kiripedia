@@ -1,7 +1,7 @@
 ---
 slug: "2016-04-25-fort-collins-community-act-john-kiriakou-cia-whistle-blower-part-1"
 title: "John Kiriakou, CIA whistle blower part 1"
-show: "Fort Collins Community Act"
+show: "Fort Collins Community Action Network"
 date: "2016-04-25"
 url: "https://youtu.be/PCAYwyiEbY8"
 videoId: "PCAYwyiEbY8"

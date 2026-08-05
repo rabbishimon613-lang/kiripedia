@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-09-unfiltered-with-s-a-m"
 title: "Venezuela, Cuba, Greenland, Iran — Empire in Plain Sight"
-show: "Unfiltered with S.A.M."
+show: "Unfiltered With S.A.M."
 date: "2026-01-09"
 url: "https://youtu.be/gbvuY-IqXvQ"
 videoId: "gbvuY-IqXvQ"

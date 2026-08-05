@@ -1,7 +1,7 @@
 ---
 slug: "2025-04-11-the-clear-signal"
 title: "Ex-CIA Spy on Torture, Trump & How Australia's Intelligence Ran"
-show: "The Clear Signal"
+show: "The Clear Signal (Steve Visscher)"
 date: "2025-04-11"
 url: "https://youtu.be/cQNedgdX0oM"
 videoId: "cQNedgdX0oM"

@@ -1,7 +1,7 @@
 ---
 slug: "2026-03-01-deprogram-show-with-ted-ra-ted-rall-john-kiriakou-react-as-iran-war-rage"
 title: "Ted Rall & John Kiriakou React as Iran War Rages On"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-03-01"
 url: "https://youtu.be/kWTiAbJ2m2I"
 videoId: "kWTiAbJ2m2I"

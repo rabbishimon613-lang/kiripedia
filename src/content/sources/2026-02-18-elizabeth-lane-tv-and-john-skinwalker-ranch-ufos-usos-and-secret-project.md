@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-18-elizabeth-lane-tv-and-john-skinwalker-ranch-ufos-usos-and-secret-project"
 title: "Skinwalker Ranch, UFOs, USOs and Secret Projects"
-show: "Elizabeth Lane TV and John"
+show: "Elizabeth Lane TV"
 date: "2026-02-18"
 url: "https://youtu.be/AqY21KZDOzg"
 videoId: "AqY21KZDOzg"

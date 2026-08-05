@@ -1,7 +1,7 @@
 ---
 slug: "2025-07-11-useful-idiots-halper-mat-they-destroyed-epstein-files"
 title: "\"They DESTROYED Epstein Files\""
-show: "Useful Idiots (Halper & Maté)"
+show: "Useful Idiots"
 date: "2025-07-11"
 url: "https://youtu.be/wVQjgd1Tqz4"
 videoId: "wVQjgd1Tqz4"

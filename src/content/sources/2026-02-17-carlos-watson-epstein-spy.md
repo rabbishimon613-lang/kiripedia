@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-17-carlos-watson-epstein-spy"
 title: "John Kiriakou on Jeffrey Epstein: Was He a Spy, and Did He Really Die by Suicide"
-show: "Carlos Watson Conversations"
+show: "The Carlos Watson Podcast"
 date: "2026-02-17"
 url: "https://www.youtube.com/watch?v=Vdbi6wUsDV4"
 videoId: "Vdbi6wUsDV4"

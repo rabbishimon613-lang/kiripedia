@@ -1,7 +1,7 @@
 ---
 slug: "2021-01-24-the-grayzone-parampil-pay-for-pardons-trump-s-final-flop"
 title: "Pay for pardons? Trump's final flop"
-show: "The Grayzone (Parampil)"
+show: "The Grayzone"
 date: "2021-01-24"
 url: "https://youtu.be/G4nd6oOC4iU"
 videoId: "G4nd6oOC4iU"

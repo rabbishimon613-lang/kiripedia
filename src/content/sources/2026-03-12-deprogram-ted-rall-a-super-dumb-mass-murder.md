@@ -1,7 +1,7 @@
 ---
 slug: "2026-03-12-deprogram-ted-rall-a-super-dumb-mass-murder"
 title: "A Super Dumb Mass Murder"
-show: "DeProgram (Ted Rall)"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-03-12"
 url: "https://youtu.be/guXefViRMCk"
 videoId: "guXefViRMCk"

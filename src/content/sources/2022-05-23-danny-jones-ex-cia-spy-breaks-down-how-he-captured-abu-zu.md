@@ -1,7 +1,7 @@
 ---
 slug: "2022-05-23-danny-jones-ex-cia-spy-breaks-down-how-he-captured-abu-zu"
 title: "Ex-CIA Spy Breaks Down How He Captured Abu Zubaydah / John K"
-show: "Danny Jones"
+show: "Danny Jones Podcast"
 date: "2022-05-23"
 url: "https://youtu.be/xeL0QGTHOho"
 videoId: "xeL0QGTHOho"

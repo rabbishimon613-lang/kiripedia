@@ -3,7 +3,7 @@ duration: "1:22:11"
 videoId: 8RkpK67B9mQ
 url: "https://www.youtube.com/watch?v=8RkpK67B9mQ"
 date: 2025-01-19
-show: Eyes Wide Open I Conor Ryan
+show: "Eyes Wide Open (Conor Ryan)"
 title: "Ex-CIA Spy John Kiriakou: Hunting Terrorists, Torture, Guantanamo Bay......and Going to JAIL"
 slug: 2025-01-19-eyes-wide-open-i-conor-ryan-ex-cia-spy-john-kiriakou-hunting-terroris
 captionSource: auto

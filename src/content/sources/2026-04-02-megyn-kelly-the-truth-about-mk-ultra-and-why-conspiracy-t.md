@@ -1,7 +1,7 @@
 ---
 slug: "2026-04-02-megyn-kelly-the-truth-about-mk-ultra-and-why-conspiracy-t"
 title: "The TRUTH About \"MK Ultra\" and Why Conspiracy Theories Grow"
-show: "Megyn Kelly"
+show: "The Megyn Kelly Show"
 date: "2026-04-02"
 url: "https://youtu.be/AsQUErTJYOE"
 videoId: "AsQUErTJYOE"

@@ -1,7 +1,7 @@
 ---
 slug: "2025-09-08-deprogram-show-with-ted-ra-deprogram-with-ted-rall-and-john-kiriakou-fra"
 title: "DeProgram with Ted Rall and John Kiriakou: “France In Crisis”"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2025-09-08"
 url: "https://youtu.be/lDOspNoh9IA"
 videoId: "lDOspNoh9IA"

@@ -1,7 +1,7 @@
 ---
 slug: "2023-04-14-kevin-gosztola"
 title: "Former CIA Officer John Kiriakou On Espionage Act Prosec"
-show: "Kevin Gosztola"
+show: "Kevin Gosztola (The Dissenter)"
 date: "2023-04-14"
 url: "https://youtu.be/vmY7r4ggP6o"
 videoId: "vmY7r4ggP6o"

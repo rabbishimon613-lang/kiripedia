@@ -1,7 +1,7 @@
 ---
 slug: "2026-05-20-the-devory-darkins-intervi"
 title: "John Kiriakou: These people should be in prison #002"
-show: "The DeVory Darkins Intervi"
+show: "The DeVory Darkins Interview"
 date: "2026-05-20"
 url: "https://youtu.be/WbOFlL1ingk"
 videoId: "WbOFlL1ingk"

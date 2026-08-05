@@ -1,7 +1,7 @@
 ---
 slug: "2025-11-01-deprogram-show-with-ted-ra-deprogram-with-ted-rall-and-john-kiriakou-gaz"
 title: "DeProgram with Ted Rall and John Kiriakou: “Gaza-istan?”"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2025-11-01"
 url: "https://youtu.be/V7-d0Y6eESc"
 videoId: "V7-d0Y6eESc"

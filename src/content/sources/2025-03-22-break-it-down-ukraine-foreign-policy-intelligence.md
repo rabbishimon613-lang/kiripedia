@@ -1,7 +1,7 @@
 ---
 slug: "2025-03-22-break-it-down-ukraine-foreign-policy-intelligence"
 title: "John Kiriakou — Ukraine, Foreign Policy and Intelligence"
-show: "Break It Down Show"
+show: "Pete A Turner"
 date: "2025-03-22"
 url: "https://www.youtube.com/watch?v=SEzC9xFLWAo"
 videoId: "SEzC9xFLWAo"

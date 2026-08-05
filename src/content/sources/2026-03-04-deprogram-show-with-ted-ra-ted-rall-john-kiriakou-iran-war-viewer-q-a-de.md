@@ -1,7 +1,7 @@
 ---
 slug: "2026-03-04-deprogram-show-with-ted-ra-ted-rall-john-kiriakou-iran-war-viewer-q-a-de"
 title: "Ted Rall & John Kiriakou Iran War Viewer Q&A / DeProgram Show"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-03-04"
 url: "https://youtu.be/jNGeaQ5ZA28"
 videoId: "jNGeaQ5ZA28"

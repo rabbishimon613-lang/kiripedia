@@ -1,7 +1,7 @@
 ---
 slug: "2026-07-01-deep-focus-network-deep-focus-network"
 title: "Deep Focus Network"
-show: "Deep Focus Network"
+show: "The Deep Focus Show"
 date: "2026-07-01"
 url: "https://youtu.be/ECWpfM0cJDE"
 videoId: "ECWpfM0cJDE"

@@ -1,7 +1,7 @@
 ---
 slug: "2021-02-01-the-bitter-truth-with-abe-the-bitter-truth-with-abe"
 title: "The Bitter Truth with Abe"
-show: "The Bitter Truth with Abe"
+show: "The Bitter Truth with Abe Abdelhadi"
 date: "2021-02-01"
 url: "https://youtu.be/5ETk7Q-8Ez4"
 videoId: "5ETk7Q-8Ez4"

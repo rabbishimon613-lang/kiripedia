@@ -4,7 +4,6 @@ title: "S2E11 Unfinished Business"
 show: "John Kiriakou's Dead Drop"
 date: "2026-07-27"
 url: "https://sphinx.acast.com/p/open/s/68e695c6d798804c9e4bbd13/e/6a62505222500f71202ce878/media.mp3"
-videoId: "2026-07-27-dead-drop-s2e11-unfinished-business"
 duration: "35:00"
 captionSource: auto
 paragraphs: 63

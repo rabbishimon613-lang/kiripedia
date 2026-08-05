@@ -1,7 +1,7 @@
 ---
 slug: "2026-06-28-deep-focus-global-power-struggles"
 title: "Deep Focus Podcast with John Kiriakou — The Global Power Struggles Reshaping the World"
-show: "Deep Focus"
+show: "The Deep Focus Show"
 date: "2026-06-28"
 url: "https://www.youtube.com/watch?v=7M0SqrsekWQ"
 videoId: "7M0SqrsekWQ"

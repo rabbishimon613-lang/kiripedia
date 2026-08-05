@@ -1,7 +1,7 @@
 ---
 slug: "2026-06-10-zeteo-abolish-the-cia"
 title: "Meet the Former CIA Agent Who Wants to Abolish the CIA"
-show: "Zeteo (Mehdi Unfiltered)"
+show: "Zeteo"
 date: "2026-06-10"
 url: "https://www.youtube.com/watch?v=ZmaIRlBhsS8"
 videoId: "ZmaIRlBhsS8"

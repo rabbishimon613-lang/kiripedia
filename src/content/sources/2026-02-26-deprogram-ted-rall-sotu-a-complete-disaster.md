@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-26-deprogram-ted-rall-sotu-a-complete-disaster"
 title: "SOTU: A Complete Disaster"
-show: "DeProgram (Ted Rall)"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-02-26"
 url: "https://youtu.be/My6xUH_kOwo"
 videoId: "My6xUH_kOwo"

@@ -1,7 +1,7 @@
 ---
 slug: "2022-03-06-washington-report-on-mid-east-israel-s-negative-influence-on-us-security"
 title: "Israel's negative influence on US security"
-show: "Washington Report on Mid-East"
+show: "Washington Report on Middle East Affairs"
 date: "2022-03-06"
 url: "https://youtu.be/c5B-fzDvyO8"
 videoId: "c5B-fzDvyO8"

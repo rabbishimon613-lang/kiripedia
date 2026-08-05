@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-13-deprogram-ted-rall-pam-bondi-s-embarrassing-epstein-hearing"
 title: "Pam Bondi's Embarrassing Epstein Hearing"
-show: "DeProgram (Ted Rall)"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-02-13"
 url: "https://youtu.be/rL2Gn9LbwCU"
 videoId: "rL2Gn9LbwCU"

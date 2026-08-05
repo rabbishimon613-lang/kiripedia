@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-09-the-unfettered-speech-podc"
 title: "EP:22 [GUEST] John Kiriakou : Inside The CIA: Torture, Cov"
-show: "The Unfettered Speech Podc"
+show: "The Unfettered Speech Podcast"
 date: "2025-12-09"
 url: "https://youtu.be/kopDfgn8Bas"
 videoId: "kopDfgn8Bas"

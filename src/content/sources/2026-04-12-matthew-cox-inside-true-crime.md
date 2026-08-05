@@ -1,7 +1,7 @@
 ---
 slug: "2026-04-12-matthew-cox-inside-true-crime"
 title: "CIA Spy Arrested For Exposing Secrets"
-show: "Matthew Cox / Inside True Crime"
+show: "Inside True Crime (Matthew Cox)"
 date: "2026-04-12"
 url: "https://youtu.be/q3O2MpP7fzY"
 videoId: "q3O2MpP7fzY"

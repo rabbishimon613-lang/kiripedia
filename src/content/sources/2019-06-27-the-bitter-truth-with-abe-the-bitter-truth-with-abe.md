@@ -1,7 +1,7 @@
 ---
 slug: "2019-06-27-the-bitter-truth-with-abe-the-bitter-truth-with-abe"
 title: "The Bitter Truth with Abe"
-show: "The Bitter Truth with Abe"
+show: "The Bitter Truth with Abe Abdelhadi"
 date: "2019-06-27"
 url: "https://youtu.be/q1Pt_pZgzqw"
 videoId: "q1Pt_pZgzqw"

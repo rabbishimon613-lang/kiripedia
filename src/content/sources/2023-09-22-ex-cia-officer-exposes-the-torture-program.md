@@ -1,7 +1,7 @@
 ---
 slug: "2023-09-22-ex-cia-officer-exposes-the-torture-program"
 title: "Ex-CIA Officer Exposes the Torture Program"
-show: "?"
+show: "ScheerPost"
 date: "2023-09-22"
 url: "https://youtu.be/72EuwXMxSAQ"
 videoId: "72EuwXMxSAQ"

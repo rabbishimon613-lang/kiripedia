@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-23-tcm-tv-tcm-tv"
 title: "TCM TV"
-show: "TCM TV"
+show: "TCM"
 date: "2025-12-23"
 url: "https://youtu.be/iCUpSKD4T4o"
 videoId: "iCUpSKD4T4o"

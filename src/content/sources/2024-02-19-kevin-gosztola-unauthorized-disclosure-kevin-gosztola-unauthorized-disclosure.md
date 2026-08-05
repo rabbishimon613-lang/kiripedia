@@ -1,7 +1,7 @@
 ---
 slug: "2024-02-19-kevin-gosztola-unauthorized-disclosure-kevin-gosztola-unauthorized-disclosure"
 title: "Kevin Gosztola (Unauthorized Disclosure)"
-show: "Kevin Gosztola (Unauthorized Disclosure)"
+show: "Kevin Gosztola (The Dissenter)"
 date: "2024-02-19"
 url: "https://youtu.be/Y1E8EypwzPA"
 videoId: "Y1E8EypwzPA"

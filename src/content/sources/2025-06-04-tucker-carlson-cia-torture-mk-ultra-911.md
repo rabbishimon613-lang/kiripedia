@@ -1,7 +1,7 @@
 ---
 slug: "2025-06-04-tucker-carlson-cia-torture-mk-ultra-911"
 title: "John Kiriakou: CIA's Secret Torture Programs, Mk-Ultra, 9-11, and Why Obama Threw Him in Jail"
-show: "Tucker Carlson"
+show: "Tucker Carlson Network"
 date: "2025-06-04"
 url: "https://www.youtube.com/watch?v=XwBMKwt14IU"
 videoId: "XwBMKwt14IU"

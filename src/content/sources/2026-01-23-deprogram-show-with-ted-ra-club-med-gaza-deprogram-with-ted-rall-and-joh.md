@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-23-deprogram-show-with-ted-ra-club-med-gaza-deprogram-with-ted-rall-and-joh"
 title: "Club Med Gaza / DeProgram with Ted Rall and John Kiriakou"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-01-23"
 url: "https://youtu.be/c0crs_0HgAU"
 videoId: "c0crs_0HgAU"

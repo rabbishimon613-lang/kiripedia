@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-08-how-epstein-was-used-by-mossad-cia-mi6"
 title: "How Epstein Was Used by Mossad, CIA & MI6"
-show: "?"
+show: "Redacted"
 date: "2026-02-08"
 url: "https://youtu.be/FUGHG0Yy6BA"
 videoId: "FUGHG0Yy6BA"

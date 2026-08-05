@@ -1,7 +1,7 @@
 ---
 slug: "2012-05-15-government-accountability-gap-s-jesselyn-radack-on-nsa-whistleblower-to"
 title: "GAP's Jesselyn Radack on NSA Whistleblower Tom Drake and CIA"
-show: "Government Accountability"
+show: "Government Accountability Project"
 date: "2012-05-15"
 url: "https://youtu.be/gpkfBmA2oH4"
 videoId: "gpkfBmA2oH4"

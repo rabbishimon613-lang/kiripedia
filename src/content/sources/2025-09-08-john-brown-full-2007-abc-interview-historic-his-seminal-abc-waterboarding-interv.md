@@ -1,7 +1,7 @@
 ---
 slug: "2025-09-08-john-brown-full-2007-abc-interview-historic-his-seminal-abc-waterboarding-interv"
 title: "historic (his seminal ABC waterboarding interview) but a re-upload; confirm source"
-show: "john brown — \"Full 2007 ABC Interview\""
+show: "john brown"
 date: "2025-09-08"
 url: "https://youtu.be/n-6kQ-PmRgM"
 videoId: "n-6kQ-PmRgM"

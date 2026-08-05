@@ -1,7 +1,7 @@
 ---
 slug: "2020-02-25-london-report-on-the-assange-extradition-hear"
 title: "London report on the Assange extradition hearing"
-show: "?"
+show: "Potkaars podcast"
 date: "2020-02-25"
 url: "https://youtu.be/Ef--cDAHlp8"
 videoId: "Ef--cDAHlp8"

@@ -1,7 +1,7 @@
 ---
 slug: "2021-11-05-live-on-the-fly-with-randy-live-on-the-fly-with-randy"
 title: "Live on the Fly with Randy"
-show: "Live on the Fly with Randy"
+show: "Live on the Fly (Randy Credico)"
 date: "2021-11-05"
 url: "https://youtu.be/XYd28m0_Zfo"
 videoId: "XYd28m0_Zfo"

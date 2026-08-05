@@ -1,7 +1,7 @@
 ---
 slug: "2026-03-09-deprogram-show-with-ted-ra-ecocide-in-iran-deprogram-with-ted-rall-and-j"
 title: "Ecocide in Iran / DeProgram with Ted Rall and John Kiriakou"
-show: "DeProgram Show with Ted Ra"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-03-09"
 url: "https://youtu.be/wM_qsmuiY5I"
 videoId: "wM_qsmuiY5I"

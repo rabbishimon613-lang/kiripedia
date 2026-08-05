@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-19-diary-of-a-ceo-they-can-see-all-your-messages"
 title: "CIA Whistleblower John Kiriakou: They Can See All Your Messages!"
-show: "Diary of a CEO"
+show: "The Diary of a CEO"
 date: "2026-01-19"
 url: "https://www.youtube.com/watch?v=yUNoJ32eLBc"
 videoId: "yUNoJ32eLBc"

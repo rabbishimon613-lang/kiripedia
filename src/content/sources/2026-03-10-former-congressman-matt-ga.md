@@ -1,7 +1,7 @@
 ---
 slug: "2026-03-10-former-congressman-matt-ga"
 title: "The Anchormen Show EP 105 - Spy Games w/ Pearson Sharp &"
-show: "Former Congressman Matt Ga"
+show: "Former Congressman Matt Gaetz"
 date: "2026-03-10"
 url: "https://youtu.be/_B70u_5YXNk"
 videoId: "_B70u_5YXNk"

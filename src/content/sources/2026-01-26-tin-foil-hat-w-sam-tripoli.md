@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-26-tin-foil-hat-w-sam-tripoli"
 title: "Spy vs Spy — Ep 959"
-show: "Tin Foil Hat w/ Sam Tripoli"
+show: "Tin Foil Hat with Sam Tripoli"
 date: "2026-01-26"
 url: "https://youtu.be/uLD02oLoGHU"
 videoId: "uLD02oLoGHU"

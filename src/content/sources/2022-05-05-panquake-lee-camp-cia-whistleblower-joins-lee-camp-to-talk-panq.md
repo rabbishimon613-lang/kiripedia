@@ -1,7 +1,7 @@
 ---
 slug: "2022-05-05-panquake-lee-camp-cia-whistleblower-joins-lee-camp-to-talk-panq"
 title: "CIA Whistleblower Joins Lee Camp to talk Panquake"
-show: "Panquake / Lee Camp"
+show: "Panquake / #TalkLiberation"
 date: "2022-05-05"
 url: "https://youtu.be/O_EGMUFABEg"
 videoId: "O_EGMUFABEg"

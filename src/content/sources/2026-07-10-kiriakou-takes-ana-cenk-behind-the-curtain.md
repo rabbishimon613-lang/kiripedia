@@ -1,7 +1,7 @@
 ---
 slug: "2026-07-10-kiriakou-takes-ana-cenk-behind-the-curtain"
 title: "Kiriakou Takes Ana & Cenk Behind the Curtain"
-show: "?"
+show: "The Young Turks"
 date: "2026-07-10"
 url: "https://youtu.be/OCtooapE9Ho"
 videoId: "OCtooapE9Ho"

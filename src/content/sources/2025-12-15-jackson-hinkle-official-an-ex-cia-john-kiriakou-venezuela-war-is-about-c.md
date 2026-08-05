@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-15-jackson-hinkle-official-an-ex-cia-john-kiriakou-venezuela-war-is-about-c"
 title: "EX-CIA JOHN KIRIAKOU: VENEZUELA WAR IS ABOUT CHINA"
-show: "Jackson Hinkle Official an"
+show: "Jackson Hinkle Official"
 date: "2025-12-15"
 url: "https://youtu.be/lmh18pD_RKM"
 videoId: "lmh18pD_RKM"

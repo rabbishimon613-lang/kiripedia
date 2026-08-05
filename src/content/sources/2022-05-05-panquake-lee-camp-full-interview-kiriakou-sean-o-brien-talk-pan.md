@@ -1,7 +1,7 @@
 ---
 slug: "2022-05-05-panquake-lee-camp-full-interview-kiriakou-sean-o-brien-talk-pan"
 title: "FULL INTERVIEW: Kiriakou & Sean O'Brien talk Panquake"
-show: "Panquake / Lee Camp"
+show: "Panquake / #TalkLiberation"
 date: "2022-05-05"
 url: "https://youtu.be/jwO3anoP4ho"
 videoId: "jwO3anoP4ho"

@@ -1,7 +1,7 @@
 ---
 slug: "2026-07-10-the-untold-stories-of-john-kiriakou"
 title: "The Untold Stories of John Kiriakou"
-show: "?"
+show: "The Farah Shammas Podcast"
 date: "2026-07-10"
 url: "https://youtu.be/eIfwisOJH1E"
 videoId: "eIfwisOJH1E"

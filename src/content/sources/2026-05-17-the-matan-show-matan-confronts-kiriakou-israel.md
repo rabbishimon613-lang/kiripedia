@@ -1,7 +1,7 @@
 ---
 slug: "2026-05-17-the-matan-show-matan-confronts-kiriakou-israel"
 title: "Matan Confronts Kiriakou (Israel)"
-show: "The Matan Show"
+show: "Matan Even"
 date: "2026-05-17"
 url: "https://youtu.be/drZH5_d9Xg0"
 videoId: "drZH5_d9Xg0"

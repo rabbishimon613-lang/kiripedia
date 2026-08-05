@@ -1,7 +1,7 @@
 ---
 slug: "2020-07-31-kevin-gosztola-how-politicians-disqualify-whistleblowers"
 title: "How Politicians Disqualify Whistleblowers"
-show: "Kevin Gosztola"
+show: "Kevin Gosztola (The Dissenter)"
 date: "2020-07-31"
 url: "https://youtu.be/zABTCtNuOFc"
 videoId: "zABTCtNuOFc"

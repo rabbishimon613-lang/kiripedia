@@ -1,7 +1,7 @@
 ---
 slug: "2026-07-03-deep-focus-dorey-examines-epstein"
 title: "Deep Focus Podcast with John Kiriakou — Julian Dorey Examines the Epstein Case"
-show: "Deep Focus"
+show: "The Deep Focus Show"
 date: "2026-07-03"
 url: "https://www.youtube.com/watch?v=p1797tzC5lo"
 videoId: "p1797tzC5lo"

@@ -1,7 +1,7 @@
 ---
 slug: "2017-05-25-tulwave-unknown-unknown-re-upload-channel"
 title: "unknown/re-upload channel"
-show: "\"tulwave\" (unknown)"
+show: "tulwave"
 date: "2017-05-25"
 url: "https://youtu.be/tN4O6xu4SQk"
 videoId: "tN4O6xu4SQk"

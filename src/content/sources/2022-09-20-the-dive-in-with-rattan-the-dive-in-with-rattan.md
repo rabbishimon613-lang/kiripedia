@@ -1,7 +1,7 @@
 ---
 slug: "2022-09-20-the-dive-in-with-rattan-the-dive-in-with-rattan"
 title: "THE DIVE IN WITH RATTAN"
-show: "THE DIVE IN WITH RATTAN"
+show: "The Dive In With Rattan"
 date: "2022-09-20"
 url: "https://youtu.be/IYF3-fJ8QEY"
 videoId: "IYF3-fJ8QEY"

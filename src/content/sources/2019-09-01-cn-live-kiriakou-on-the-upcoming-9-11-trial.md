@@ -1,7 +1,7 @@
 ---
 slug: "2019-09-01-cn-live-kiriakou-on-the-upcoming-9-11-trial"
 title: "CN LIVE! Kiriakou on the Upcoming 9/11 Trial"
-show: "?"
+show: "Consortium News"
 date: "2019-09-01"
 url: "https://youtu.be/4eWtn8RQ9_g"
 videoId: "4eWtn8RQ9_g"

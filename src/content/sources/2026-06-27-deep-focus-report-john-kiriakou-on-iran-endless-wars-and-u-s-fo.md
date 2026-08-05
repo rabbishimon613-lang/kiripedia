@@ -1,7 +1,7 @@
 ---
 slug: "2026-06-27-deep-focus-report-john-kiriakou-on-iran-endless-wars-and-u-s-fo"
 title: "John Kiriakou on Iran, Endless Wars and U.S. Foreign Policy"
-show: "Deep Focus Report"
+show: "The Deep Focus Show"
 date: "2026-06-27"
 url: "https://youtu.be/uRmZX8Psw8A"
 videoId: "uRmZX8Psw8A"

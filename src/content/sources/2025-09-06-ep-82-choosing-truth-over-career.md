@@ -1,7 +1,7 @@
 ---
 slug: "2025-09-06-ep-82-choosing-truth-over-career"
 title: "Ep.82 — Choosing Truth Over Career"
-show: "?"
+show: "Dr. Johann D'Souza"
 date: "2025-09-06"
 url: "https://youtu.be/rzDSowz83y8"
 videoId: "rzDSowz83y8"

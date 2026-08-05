@@ -1,7 +1,7 @@
 ---
 slug: "2026-04-09-finding-truth-with-harjeet-finding-truth-with-harjeet"
 title: "Finding Truth With Harjeet"
-show: "Finding Truth With Harjeet"
+show: "Finding Truth With Harjeet (English)"
 date: "2026-04-09"
 url: "https://youtu.be/_j2hACrlzVA"
 videoId: "_j2hACrlzVA"

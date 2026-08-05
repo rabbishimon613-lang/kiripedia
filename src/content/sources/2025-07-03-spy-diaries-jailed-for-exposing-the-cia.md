@@ -1,7 +1,7 @@
 ---
 slug: "2025-07-03-spy-diaries-jailed-for-exposing-the-cia"
 title: "Spy Diaries — Jailed for Exposing the CIA"
-show: "?"
+show: "TCM"
 date: "2025-07-03"
 url: "https://youtu.be/WEKxuNFf308"
 videoId: "WEKxuNFf308"

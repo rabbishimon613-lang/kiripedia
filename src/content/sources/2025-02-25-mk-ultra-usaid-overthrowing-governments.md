@@ -1,7 +1,7 @@
 ---
 slug: "2025-02-25-mk-ultra-usaid-overthrowing-governments"
 title: "#278 — MK Ultra, USAID, Overthrowing Governments"
-show: "?"
+show: "Julian Dorey Podcast"
 date: "2025-02-25"
 url: "https://youtu.be/_CFWmuIgQIE"
 videoId: "_CFWmuIgQIE"

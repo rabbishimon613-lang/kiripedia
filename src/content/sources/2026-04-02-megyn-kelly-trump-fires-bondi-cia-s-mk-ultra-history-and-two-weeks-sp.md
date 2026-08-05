@@ -3,7 +3,7 @@ duration: "1:40:46"
 videoId: 5pZp0HSDaa0
 url: "https://www.youtube.com/watch?v=5pZp0HSDaa0"
 date: 2026-04-02
-show: Megyn Kelly
+show: "The Megyn Kelly Show"
 title: "Trump FIRES Bondi, CIA's \"MK Ultra\" History, and \"Two Weeks\" Spin, with Kiriakou, Davis and Ahmari"
 slug: 2026-04-02-megyn-kelly-trump-fires-bondi-cia-s-mk-ultra-history-and-two-weeks-sp
 captionSource: auto

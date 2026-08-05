@@ -1,7 +1,7 @@
 ---
 slug: "2026-02-23-epstein-lies-satanic-elite-mossad"
 title: "#388 — \"Epstein LIES!\" Satanic Elite, Mossad"
-show: "?"
+show: "Julian Dorey Podcast"
 date: "2026-02-23"
 url: "https://youtu.be/vmDn8YzxVeQ"
 videoId: "vmDn8YzxVeQ"

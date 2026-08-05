@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-15-epstein-was-an-access-agent-for-mossad"
 title: "\"Epstein Was an Access Agent for Mossad\""
-show: "?"
+show: "TMJ News Network"
 date: "2025-12-15"
 url: "https://youtu.be/Eyt8t7fVjlE"
 videoId: "Eyt8t7fVjlE"

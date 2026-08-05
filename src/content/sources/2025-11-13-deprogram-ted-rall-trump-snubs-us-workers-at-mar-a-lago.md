@@ -1,7 +1,7 @@
 ---
 slug: "2025-11-13-deprogram-ted-rall-trump-snubs-us-workers-at-mar-a-lago"
 title: "Trump Snubs US Workers at Mar-a-Lago"
-show: "DeProgram (Ted Rall)"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2025-11-13"
 url: "https://youtu.be/ICmAUQl5FXA"
 videoId: "ICmAUQl5FXA"

@@ -1,7 +1,7 @@
 ---
 slug: "2026-01-04-deprogram-ted-rall-on-cia-psychologists-torture-mamdani"
 title: "On CIA Psychologists, Torture, Mamdani"
-show: "DeProgram (Ted Rall)"
+show: "DeProgram Show with Ted Rall and Jamarl Thomas"
 date: "2026-01-04"
 url: "https://youtu.be/c_0g3SxGsqQ"
 videoId: "c_0g3SxGsqQ"

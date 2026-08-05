@@ -1,7 +1,7 @@
 ---
 slug: "2022-09-20-the-roundtable-gonzalo-l-the-roundtable-21-suzie-dawson-john-kiriakou"
 title: "The Roundtable #21: Suzie Dawson, John Kiriakou, Ray McGovern"
-show: "The Roundtable — Gonzalo L"
+show: "The Roundtable (Gonzalo Lira)"
 date: "2022-09-20"
 url: "https://youtu.be/TqRitpA92Ws"
 videoId: "TqRitpA92Ws"

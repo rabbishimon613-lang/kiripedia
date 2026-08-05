@@ -1,7 +1,7 @@
 ---
 slug: "2023-06-26-kevin-gosztola"
 title: "Unauthorized Disclosure: What Will Happen To Assange Nex"
-show: "Kevin Gosztola"
+show: "Kevin Gosztola (The Dissenter)"
 date: "2023-06-26"
 url: "https://youtu.be/TCBF2avfMHU"
 videoId: "TCBF2avfMHU"

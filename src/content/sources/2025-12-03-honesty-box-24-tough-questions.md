@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-03-honesty-box-24-tough-questions"
 title: "We Asked a CIA Officer 24 Tough Questions"
-show: "Honesty Box (LADbible)"
+show: "LADbible Stories"
 date: "2025-12-03"
 url: "https://www.youtube.com/watch?v=BXtDH2IXKY8"
 videoId: "BXtDH2IXKY8"

@@ -1,7 +1,7 @@
 ---
 slug: "2026-04-28-warren-smith-secret-scho-warren-smith-secret-scho"
 title: "Warren Smith - Secret Scho"
-show: "Warren Smith - Secret Scho"
+show: "Warren Smith — Secret Scholar Society"
 date: "2026-04-28"
 url: "https://youtu.be/n8iDa-IGDKk"
 videoId: "n8iDa-IGDKk"

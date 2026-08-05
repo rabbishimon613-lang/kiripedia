@@ -1,7 +1,7 @@
 ---
 slug: "2024-02-04-fortress-on-a-hill-henri"
 title: "John Kiriakou – Ep 133"
-show: "Fortress On A Hill (Henri)"
+show: "Fortress On A Hill"
 date: "2024-02-04"
 url: "https://youtu.be/xHbpdELKO3o"
 videoId: "xHbpdELKO3o"

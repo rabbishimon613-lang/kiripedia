@@ -1,7 +1,7 @@
 ---
 slug: "2015-05-21-the-scholars-john-kiriakou"
 title: "The Scholars: John Kiriakou"
-show: "?"
+show: "UDC-TV"
 date: "2015-05-21"
 url: "https://youtu.be/mfsdrNvEuL8"
 videoId: "mfsdrNvEuL8"

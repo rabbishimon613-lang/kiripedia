@@ -1,7 +1,7 @@
 ---
 slug: "2026-04-27-tucker-carlson-iran-false-flags"
 title: "Ex-CIA Officer John Kiriakou on the Truth About Iran, False Flags, and What's Really Happening in DC"
-show: "Tucker Carlson"
+show: "Tucker Carlson Network"
 date: "2026-04-27"
 url: "https://www.youtube.com/watch?v=S3aYb4j6XAc"
 videoId: "S3aYb4j6XAc"

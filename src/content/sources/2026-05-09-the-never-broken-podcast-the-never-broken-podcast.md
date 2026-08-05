@@ -1,7 +1,7 @@
 ---
 slug: "2026-05-09-the-never-broken-podcast-the-never-broken-podcast"
 title: "THE NEVER BROKEN PODCAST"
-show: "THE NEVER BROKEN PODCAST"
+show: "The Never Broken Podcast"
 date: "2026-05-09"
 url: "https://youtu.be/il_KYmRx24Q"
 videoId: "il_KYmRx24Q"

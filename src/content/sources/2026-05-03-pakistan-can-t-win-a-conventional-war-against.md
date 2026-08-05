@@ -1,7 +1,7 @@
 ---
 slug: "2026-05-03-pakistan-can-t-win-a-conventional-war-against"
 title: "\"Pakistan Can't Win a Conventional War Against India\""
-show: "?"
+show: "ANI News"
 date: "2026-05-03"
 url: "https://youtu.be/Trdw3Ykm53Y"
 videoId: "Trdw3Ykm53Y"

@@ -1,7 +1,7 @@
 ---
 slug: "2025-10-24-pakistan-nuclear-secrets-cia-lies"
 title: "Pakistan's Nuclear Secrets, CIA Lies, ISI's Double Game: Ex-CIA John Kiriakou"
-show: "Pakistan Nuclear Secrets"
+show: "ANI News"
 date: "2025-10-24"
 url: "https://www.youtube.com/watch?v=XIyrvsi1nTw"
 videoId: "XIyrvsi1nTw"

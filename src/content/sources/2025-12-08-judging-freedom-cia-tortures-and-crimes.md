@@ -1,7 +1,7 @@
 ---
 slug: "2025-12-08-judging-freedom-cia-tortures-and-crimes"
 title: "John Kiriakou: The CIA's Tortures and Crimes"
-show: "Judge Napolitano - Judging Freedom"
+show: "Judging Freedom (Judge Napolitano)"
 date: "2025-12-08"
 url: "https://youtube.com/watch?v=2qVZ2KGc9-g"
 videoId: "2qVZ2KGc9-g"
