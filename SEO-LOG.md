@@ -783,3 +783,56 @@ Unchanged, and repeated every run until fixed:
 - **Bing Webmaster Tools** signup (carried from 2026-07-09).
 - **A Wikidata item for KiriPedia** for the Organization `sameAs` (carried from
   2026-07-09).
+
+### Deployed — yes, but the push is blocked
+
+**Production is live and carries everything in this entry.** Verified against
+`www.kiripedia.org` after deploying:
+
+- The 8 new titles serve (`john-mccone`, `mossad`, `lincolns-last-turd`
+  spot-checked).
+- **The former redirect stubs now resolve to their canonical article with a
+  200**, via real 308s: `three-saudi-princes` → `saudi-princes-and-9-11`,
+  `abdul-rashid-dostum` → `general-dostum`, `tom-drake` → `thomas-drake`,
+  `afia-sadiki` → `aafia-siddiqui`.
+- **Known and accepted: this is a 2-hop chain**, not 1. Vercel evaluates
+  `trailingSlash` normalization before the redirect table, so `/wiki/tom-drake`
+  first 308s to `/wiki/tom-drake/` and only then to the destination. Both hops
+  are 308s and the chain terminates at a 200, which Google follows without
+  penalty. The slash-less entries in the table are therefore never reached, but
+  they are harmless and were kept because the evaluation order is Vercel's to
+  change, not ours.
+- **IndexNow: 180 new-or-changed URLs submitted, HTTP 200.**
+
+Deploy needed `--archive=tgz`. The plain `vercel deploy --prebuilt --prod`
+failed with `api-upload-free` — more than 5,000 file uploads in 24 hours, a
+free-tier cap that the 1,849-page corpus now trips on a normal day. **Future
+sweeps should use `vercel deploy --prebuilt --prod --archive=tgz` directly**
+rather than discovering this again.
+
+### Blocked — `git push` is rejected, and it is not this routine's doing
+
+The commit for this sweep (`3487c4d`) is **local only**. `git push` is rejected
+by GitHub:
+
+> File public/article-mentions-index.json is 160.36 MB; this exceeds GitHub's
+> file size limit of 100.00 MB
+
+`public/article-mentions-index.json` sat at 5 MB for months and jumped to
+**160 MB** in commit `1aa54b6` ("Bruce Fein, and a batch of tradecraft
+articles"), from the intake routine. **Six unpushed commits now carry the
+oversized blob, so every push from this branch fails**, including ones that
+have nothing to do with it. There are 12 unpushed commits on
+`kiriakou-intake-churn` in total.
+
+This was deliberately not fixed here. Clearing it means either rewriting the
+history of a branch that two other routines are actively committing to, or
+migrating the file to Git LFS — both destructive, both racy against a running
+intake, and neither appropriate for an unattended run.
+
+**What the user (or a dedicated session) has to decide:** whether that index
+belongs in `public/` and in git at all. It is a build input that ships to the
+CDN; if it is not fetched by the browser it should be moved out of `public/`
+and gitignored, after which the six commits still need rewriting or squashing
+before any push will succeed. Until then KiriPedia's source history is
+diverging from GitHub — **production is fine, the backup is not**.
