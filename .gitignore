@@ -20,3 +20,6 @@ sonnet writeups/
 # Morning-routine run scratch (worklists, manifests, logs).
 .kir-morning/
 .kir-indexnow-state.json
+
+# 160MB generated mentions index — regenerate with tools/build-mentions-index.mjs
+public/article-mentions-index.json
