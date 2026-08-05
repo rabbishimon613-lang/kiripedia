@@ -93,7 +93,6 @@ Because the content is drawn from one first-hand source and is timestamp-cited t
 - [All articles](${SITE}/special/all-pages)
 - [Source recordings index](${SITE}/sources) — every interview/podcast the claims are drawn from
 - [About KiriPedia](${SITE}/about) — how the site is made and its editorial rules
-- [Recent changes](${SITE}/recent-changes)
 `;
 
 for (const c of cats) {

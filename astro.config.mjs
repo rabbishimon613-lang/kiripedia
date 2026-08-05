@@ -85,7 +85,7 @@ export default defineConfig({
       // robots-blocked /search, the /random redirect endpoint, or low-value
       // maintenance/index pages. These are also noindex'd at the page level.
       filter: (page) =>
-        !/\/(search|random|needs-image|on-this-day|recent-changes|special\/all-pages)\/?$/.test(page),
+        !/\/(search|random|needs-image|on-this-day|special\/all-pages)\/?$/.test(page),
       // Articles and stable browse pages get higher priority + weekly cadence.
       // Date-driven pages (on-this-day, sources/X) get daily.
       changefreq: 'weekly',

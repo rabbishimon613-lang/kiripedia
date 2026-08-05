@@ -11,7 +11,6 @@ Because the content is drawn from one first-hand source and is timestamp-cited t
 - [All articles](https://www.kiripedia.org/special/all-pages)
 - [Source recordings index](https://www.kiripedia.org/sources) — every interview/podcast the claims are drawn from
 - [About KiriPedia](https://www.kiripedia.org/about) — how the site is made and its editorial rules
-- [Recent changes](https://www.kiripedia.org/recent-changes)
 - [People](https://www.kiripedia.org/category/people)
 - [Organizations](https://www.kiripedia.org/category/organizations)
 - [Places](https://www.kiripedia.org/category/places)
