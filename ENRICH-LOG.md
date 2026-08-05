@@ -102,4 +102,21 @@ sources, not enrichment.
 - Per doctrine rule 5, the Indonesian general's name in the Rove story is retained as
   the captions render it, with the transcription artefact flagged in the article.
 
-Build clean (0 bugs, 0 dead links, 982 articles). Committed, pushed and deployed.
+### Ship status
+
+Build clean (0 bugs, 0 dead links, 982 articles). Committed as `da76186`.
+**Deployed and live** — `vercel deploy --prebuilt --prod` hit the free-tier
+5,000-file upload cap, so the deploy went out via `--archive=tgz`.
+www.kiripedia.org returns 200, all fifteen pages verified live by content, and
+IndexNow accepted 117 changed URLs (HTTP 200).
+
+**Push is still blocked, and not by anything this run did.** The branch is 17
+commits ahead of origin, and somewhere in that unpushed history sits
+`public/article-mentions-index.json` at 160MB — past GitHub's 100MB per-file
+ceiling, so the pre-receive hook rejects the whole push. The 2026-08-05 SEO log
+records the same blocker. This commit untracks the file and adds it to
+`.gitignore` so it stops growing the problem, but the existing blob still has to
+be stripped from the unpushed commits before `git push` will go through, and that
+is a history rewrite this routine is explicitly not allowed to perform. Someone
+needs to do that cleanup by hand; until then every routine on this branch will
+keep deploying without pushing.
