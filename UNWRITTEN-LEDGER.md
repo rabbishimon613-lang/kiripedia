@@ -53,7 +53,7 @@ A row disappears on its own once any article cites it, so `written` is belt-and-
 | 33 | pending | 2026-05-28 | John Kiriakou Podcast | John Kiriakou Podcast | 51:00 | 7,230 | `2026-05-28-john-kiriakou-podcast-john-kiriakou-podcast` |
 | 34 | pending | 2023-08-24 | London Real | Ukraine War, Mass Surveillance, Trump, UFOs & CIA Torture Ta | 45:00 | 6,947 | `2023-08-24-london-real-ukraine-war-mass-surveillance-trump-ufos-cia` |
 | 35 | pending | 2021-09-30 | Garland Nixon | Kiriakou & Nixon on the Latest Assange News | 38:00 | 6,794 | `2021-09-30-kiriakou-nixon-on-the-latest-assange-news` |
-| 36 | pending | 2021-09-02 | Garland Nixon | After Afghanistan | 34:00 | 6,705 | `2021-09-02-garland-nixon-after-afghanistan` |
+| 36 | rejected (host-only episode; Kiriakou lost power in a storm and never appears) | 2021-09-02 | Garland Nixon | After Afghanistan | 34:00 | 6,705 | `2021-09-02-garland-nixon-after-afghanistan` |
 | 37 | pending | 2021-10-02 | Garland Nixon | Talk About the US Congress | 37:00 | 6,680 | `2021-10-02-garland-nixon-talk-about-the-us-congress` |
 | 38 | rejected (93.7% five-word-shingle re-cut of 2026-05-08-jay-dyer-real-cia-history) | 2026-05-30 | John Kiriakou Podcast | John Kiriakou Podcast | 35:00 | 6,615 | `2026-05-30-john-kiriakou-podcast-john-kiriakou-podcast` |
 | 39 | pending | 2024-04-18 | Dr. David Oualaalou | Iran-Israel Possible Open War | 39:00 | 6,565 | `2024-04-18-dr-david-oualaalou-iran-israel-possible-open-war` |
