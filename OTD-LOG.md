@@ -12,7 +12,7 @@ See `ON-THIS-DAY-PLAN.md` for the lanes and `ARTICLE-WORKFLOW.md` for binding do
 ## 2026-08-05 — run 1 (first run; log created)
 
 **Coverage: 74 → 90 distinct calendar days. Events: 116 → 132 day-precise.**
-16 added, 6 existing entries enriched, 0 duplicates created.
+16 added, 5 existing entries enriched, 0 duplicates created.
 
 Note: `ON-THIS-DAY-PLAN.md` is stale — it states 38 events / 26 days. Measured baseline at
 the start of this run was 116 events / 74 days.
@@ -38,7 +38,7 @@ the start of this run was 116 events / 74 days.
 | 2022-05-25 | john-kiriakou | The *CIA Insider's Guide* trilogy published |
 | 2023-10-08 | october-7-attack | Israel asks the U.S. to join a war on Iran; refused |
 
-### Enriched (6 existing entries — no second entry created)
+### Enriched (5 existing entries — no second entry created)
 
 - **bill-buckley 1985-03-16 → 1984-03-16.** Kiriakou's own Dead Drop narration dates the
   kidnapping to March 16 **1984** ("Hezbollah kidnapped Bill as he headed into work"),
@@ -61,8 +61,9 @@ the start of this run was 116 events / 74 days.
   entry on the same day — the exact stacking the routine forbids. Rewritten to carry this
   article's own angle (the liaison services in the room he later argued had already
   penetrated al-Qaeda) instead of restating the Cofer Black warning.
-- **cofer-black 2001-07-10** is new but deliberately kept distinct from the existing
-  2001-07-06 entry on the same article — different meeting, different warning.
+(The new **cofer-black 2001-07-10** entry, counted above under Added, was deliberately
+written to stay distinct from that article's existing 2001-07-06 entry — different meeting,
+different warning.)
 
 ### Rejected, with reasons
 
