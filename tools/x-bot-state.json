@@ -426,7 +426,8 @@
     "dyk:john-kiriakou:45",
     "quote:john-kiriakou:130",
     "dyk:donald-trump:6",
-    "quote:cia-cable-priority-levels:1"
+    "quote:cia-cable-priority-levels:1",
+    "dyk:chelsea-manning:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1048,10 +1049,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
