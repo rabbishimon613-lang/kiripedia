@@ -423,7 +423,8 @@
     "quote:tom-drake:1",
     "dyk:witness-k-case:2",
     "quote:mack-mclarty:1",
-    "dyk:john-kiriakou:45"
+    "dyk:john-kiriakou:45",
+    "quote:john-kiriakou:130"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1045,10 +1046,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
