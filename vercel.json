@@ -3,7 +3,489 @@
   "trailingSlash": true,
   "git": {
     "deploymentEnabled": {
-      "main": true
+      "main": false
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/wiki/hunter-biden-laptop-letter",
+      "destination": "/wiki/hunter-biden-laptop/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/hunter-biden-laptop-letter/",
+      "destination": "/wiki/hunter-biden-laptop/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/avril-haynes",
+      "destination": "/wiki/avril-haines/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/avril-haynes/",
+      "destination": "/wiki/avril-haines/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/kiriakou-recruitment-attempts",
+      "destination": "/wiki/recruitment-attempts-on-kiriakou/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/kiriakou-recruitment-attempts/",
+      "destination": "/wiki/recruitment-attempts-on-kiriakou/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/abraxas-corporation",
+      "destination": "/wiki/arrais-corporation/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/abraxas-corporation/",
+      "destination": "/wiki/arrais-corporation/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cia-france-rift-1990s",
+      "destination": "/wiki/dgse/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cia-france-rift-1990s/",
+      "destination": "/wiki/dgse/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/robert-jackson-federal-prosecutor-speech",
+      "destination": "/wiki/pick-the-man-principle/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/robert-jackson-federal-prosecutor-speech/",
+      "destination": "/wiki/pick-the-man-principle/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bahrain-dole-campaign-solicitation",
+      "destination": "/wiki/david-ransom/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bahrain-dole-campaign-solicitation/",
+      "destination": "/wiki/david-ransom/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/afia-sadiki",
+      "destination": "/wiki/aafia-siddiqui/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/afia-sadiki/",
+      "destination": "/wiki/aafia-siddiqui/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/steven-lawless-case",
+      "destination": "/wiki/steven-lalas/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/steven-lawless-case/",
+      "destination": "/wiki/steven-lalas/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bruce-fine",
+      "destination": "/wiki/bruce-fein/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bruce-fine/",
+      "destination": "/wiki/bruce-fein/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/brian-kelly",
+      "destination": "/wiki/brian-kelley/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/brian-kelly/",
+      "destination": "/wiki/brian-kelley/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/sarah-jane-moore",
+      "destination": "/wiki/sara-jane-moore/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/sarah-jane-moore/",
+      "destination": "/wiki/sara-jane-moore/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/khaled-el-masri",
+      "destination": "/wiki/khalid-el-masri/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/khaled-el-masri/",
+      "destination": "/wiki/khalid-el-masri/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/tom-drake",
+      "destination": "/wiki/thomas-drake/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/tom-drake/",
+      "destination": "/wiki/thomas-drake/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/gerald-post",
+      "destination": "/wiki/jerome-post/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/gerald-post/",
+      "destination": "/wiki/jerome-post/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/dashti-leyli",
+      "destination": "/wiki/dasht-i-leili-massacre/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/dashti-leyli/",
+      "destination": "/wiki/dasht-i-leili-massacre/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/daniel-hail",
+      "destination": "/wiki/daniel-hale/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/daniel-hail/",
+      "destination": "/wiki/daniel-hale/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/russell-tark",
+      "destination": "/wiki/russell-targ/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/russell-tark/",
+      "destination": "/wiki/russell-targ/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/steven-saunders",
+      "destination": "/wiki/stephen-saunders/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/steven-saunders/",
+      "destination": "/wiki/stephen-saunders/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/intercept",
+      "destination": "/wiki/the-intercept/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/intercept/",
+      "destination": "/wiki/the-intercept/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/abdul-rashid-dostum",
+      "destination": "/wiki/general-dostum/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/abdul-rashid-dostum/",
+      "destination": "/wiki/general-dostum/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/abu-zubaydah-capture",
+      "destination": "/wiki/abu-zubaydah/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/abu-zubaydah-capture/",
+      "destination": "/wiki/abu-zubaydah/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/three-saudi-princes",
+      "destination": "/wiki/saudi-princes-and-9-11/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/three-saudi-princes/",
+      "destination": "/wiki/saudi-princes-and-9-11/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/taliban-origin-benazir",
+      "destination": "/wiki/benazir-bhutto/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/taliban-origin-benazir/",
+      "destination": "/wiki/benazir-bhutto/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bin-laden-tora-bora-escape",
+      "destination": "/wiki/tora-bora/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bin-laden-tora-bora-escape/",
+      "destination": "/wiki/tora-bora/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/chelsea-manning-emergence",
+      "destination": "/wiki/chelsea-manning/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/chelsea-manning-emergence/",
+      "destination": "/wiki/chelsea-manning/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/daniel-domscheit-berg-wikileaks",
+      "destination": "/wiki/daniel-domscheit-berg/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/daniel-domscheit-berg-wikileaks/",
+      "destination": "/wiki/daniel-domscheit-berg/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/julian-assange-political-prisoner",
+      "destination": "/wiki/julian-assange/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/julian-assange-political-prisoner/",
+      "destination": "/wiki/julian-assange/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/julian-assange-secure-drop",
+      "destination": "/wiki/julian-assange/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/julian-assange-secure-drop/",
+      "destination": "/wiki/julian-assange/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/julian-assange-wikileaks-role",
+      "destination": "/wiki/julian-assange/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/julian-assange-wikileaks-role/",
+      "destination": "/wiki/julian-assange/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/church-committee-mk-ultra-investigation",
+      "destination": "/wiki/church-committee/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/church-committee-mk-ultra-investigation/",
+      "destination": "/wiki/church-committee/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cia-insiders-guide-to-lying-and-lie-detection",
+      "destination": "/wiki/lie-detection/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cia-insiders-guide-to-lying-and-lie-detection/",
+      "destination": "/wiki/lie-detection/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/eric-swallwell-fbi-documents",
+      "destination": "/wiki/eric-swallwell/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/eric-swallwell-fbi-documents/",
+      "destination": "/wiki/eric-swallwell/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pam-bondi-eric-swallwell",
+      "destination": "/wiki/eric-swallwell/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pam-bondi-eric-swallwell/",
+      "destination": "/wiki/eric-swallwell/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pam-bondi-epstein-scandal",
+      "destination": "/wiki/pam-bondi/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pam-bondi-epstein-scandal/",
+      "destination": "/wiki/pam-bondi/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/espionage-act-whistleblower-cases",
+      "destination": "/wiki/espionage-act/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/espionage-act-whistleblower-cases/",
+      "destination": "/wiki/espionage-act/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/federal-whistleblower-protection-act",
+      "destination": "/wiki/whistleblower-protection-act/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/federal-whistleblower-protection-act/",
+      "destination": "/wiki/whistleblower-protection-act/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/hypnosis-operation-walk-in",
+      "destination": "/wiki/walk-in/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/hypnosis-operation-walk-in/",
+      "destination": "/wiki/walk-in/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/john-brennan-tuesday-morning-kill-list",
+      "destination": "/wiki/john-brennan/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/john-brennan-tuesday-morning-kill-list/",
+      "destination": "/wiki/john-brennan/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/john-kiriakou-whistleblower-advice",
+      "destination": "/wiki/john-kiriakou/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/john-kiriakou-whistleblower-advice/",
+      "destination": "/wiki/john-kiriakou/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ray-mcgovern-vault-7",
+      "destination": "/wiki/vault-7/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ray-mcgovern-vault-7/",
+      "destination": "/wiki/vault-7/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/thin-thread-stellar-wind",
+      "destination": "/wiki/thin-thread/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/thin-thread-stellar-wind/",
+      "destination": "/wiki/thin-thread/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/vault-7-revelations",
+      "destination": "/wiki/vault-7/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/vault-7-revelations/",
+      "destination": "/wiki/vault-7/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/wikileaks-and-trump",
+      "destination": "/wiki/wikileaks-as-a-system/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/wikileaks-and-trump/",
+      "destination": "/wiki/wikileaks-as-a-system/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/wikileaks-arab-spring",
+      "destination": "/wiki/wikileaks-as-a-system/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/wikileaks-arab-spring/",
+      "destination": "/wiki/wikileaks-as-a-system/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/wikileaks-ngo-transformation",
+      "destination": "/wiki/wikileaks-as-a-system/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/wikileaks-ngo-transformation/",
+      "destination": "/wiki/wikileaks-as-a-system/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/wikileaks-post-2010",
+      "destination": "/wiki/wikileaks-as-a-system/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/wikileaks-post-2010/",
+      "destination": "/wiki/wikileaks-as-a-system/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/anoir-alaki",
+      "destination": "/wiki/anwar-al-awlaki/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/anoir-alaki/",
+      "destination": "/wiki/anwar-al-awlaki/",
+      "permanent": true
+    }
+  ]
 }

@@ -646,3 +646,140 @@ Unchanged from this morning:
 wikilink orphans, 600 suspicious wikilinks, 532 articles without
 `wikidata`/`wikipedia` grounding, 368 thin articles. Reasoning unchanged from
 2026-08-04.
+
+---
+
+## 2026-08-05 — nightly sweep
+
+### Read
+
+- **Search Console, last 3 months:** 112 clicks, 5.54K impressions, 2.0% CTR,
+  average position 16.6. Indexing: **1,440 indexed / 499 not** — 340 "Alternate
+  page with proper canonical tag", 92 "Crawled - currently not indexed", 57
+  "Discovered - currently not indexed", 4 redirects, 3 not-found, 2 noindex,
+  1 soft 404.
+  **Every figure is identical to the 2026-08-04 evening read.** The trailing-
+  slash edge rule went live on 08-04 and Google has not recrawled since; the
+  report has not moved a single page. This matters for the deferral decision
+  below.
+- **Sitemap:** `sitemap-index.xml`, last read Aug 3, **Success, 1,622 pages
+  discovered.** Healthy.
+- **Vercel Analytics, last 30 days:** 778 visitors (+177%), 3,805 page views
+  (+157%), bounce rate 77% (+22%). Slightly *below* last night's 788 / 3,845 —
+  this is the rolling 30-day window dropping older days off the back, not a
+  traffic drop. Referrers: Google 346, DuckDuckGo 80, Bing 19, Reddit 9,
+  ChatGPT 6, Brave 3, Yahoo 3.
+  Top landing pages: `/` 166, `bob-grenier` 70, `nordstream-pipeline-sabotage`
+  38, `alan-dershowitz` 32, `/category/people` 27, `hummus` 26,
+  `john-kiriakou` 23. `bob-grenier` at 70 visitors barely registers in Search
+  Console, so that traffic is arriving from somewhere other than Google —
+  worth identifying on a future run.
+- **Corpus audit (`tools/seo-daily.mjs`):** 975 articles (**+119**), 150
+  orphans by wikilink (+33), 405 thin (+37), 843 clamped snippets (+109), 0
+  related-orphans, 50 with `seoTitle` (+11), 70 with `deck` (+11). The +119 is
+  the intake routine; the orphan and thin rises are that growth, not
+  regression.
+
+### Changed
+
+- **8 pages with impressions and no purpose-written title got one.** Taken off
+  the live impressions table, all of them missing `seoTitle`:
+
+  | page | impressions | clicks |
+  |---|---|---|
+  | `john-mccone` | 79 | 1 |
+  | `cofer-black` | 69 | 2 |
+  | `lincolns-last-turd` | 51 | 1 |
+  | `abu-zubaydah` | 47 | 0 |
+  | `jean-gately` | 35 | 6 |
+  | `ali-hassan-al-majid` | 34 | 1 |
+  | `kuwait-invasion-intelligence` | 29 | 1 |
+  | `mossad` | 28 | 0 |
+
+  `seoTitle` 33–43 characters, `deck` 134–147 where one was written (four
+  already had a usable deck and kept it). Verified in the built HTML: all 8
+  serve the new title and an untruncated description. No new facts — each line
+  compresses material already in that article, per the single-source doctrine.
+
+- **The 48 redirect stubs are now real 308s at the edge.** Flagged and deferred
+  on three previous sweeps; the measured cost had reached **114 impressions at
+  a structurally guaranteed 0% CTR** (`/wiki/three-saudi-princes` 59,
+  `/wiki/abdul-rashid-dostum` 55), because Astro emits them as `noindex`
+  meta-refresh HTML that Google keeps as its own URL.
+
+  Moved into `vercel.json` as 96 permanent redirects — **both the slash-less
+  and the trailing-slash form of each of the 48 sources**, because with
+  `trailingSlash: true` the edge may normalize the URL before or after the
+  redirect table is consulted and covering both makes the hit
+  order-independent. Before writing: no source is also a destination (no
+  chains, no loops), and all 41 unique destinations were confirmed to exist as
+  built pages.
+
+  **The Astro stubs were deliberately left in place.** Edge redirects are
+  evaluated before the filesystem, so the stubs become unreachable dead weight
+  rather than a competing URL — and if a redirect rule ever fails to match,
+  the page still resolves instead of 404ing. Defence in depth for a routing
+  change made on an unattended run.
+
+  This reverses the previous two sweeps' deferral, and the reason is that the
+  deferral condition turned out to be unreachable: it was "wait until the
+  trailing-slash consolidation shows up in the indexing report", and the
+  report has not moved at all in a day because Google has not recrawled. That
+  could take a week or more, during which the bleed continues. The change is
+  independently verifiable with a single request per URL, which is what made
+  it safe to do now rather than wait.
+
+- **Vercel git auto-deploy on `main` was found switched back ON, and has been
+  switched off again.** `vercel.json` set `git.deploymentEnabled.main = false`
+  on 2026-07-05 (commit `e2fd6ca`, "Automation permanently disabled per owner
+  decision"). Last night's image-lane commit `f096a96` flipped it to `true`
+  with the note "Also lifts the Vercel deployment freeze on main."
+
+  Restored to `false`. It contradicts the standing rule that deploys are
+  explicit CLI actions, and with it on, the `git push` in this routine fires
+  its own build that races the explicit `vercel deploy` immediately after.
+  **Flagged for the user:** if the image lane genuinely needs deploy-on-push,
+  this is the one to argue about — it was reverted on doctrine, not on a
+  measurement.
+
+### Verified
+
+- `npm run build` → **`Total: 0 bugs, 723 suspicious, 0 dead.`**
+- **URL shape held:** `grep -rhoE 'href="/(wiki|category|sources)/[a-z0-9._-]+"' dist | wc -l`
+  prints **0** across 1,831 indexed pages. The normalizer did not regress.
+- **Related blocks:** 975 articles, 832 rescue links, **0 with no inbound
+  related-link**, 3 with an empty block. The 119 new intake articles did not
+  re-orphan anything.
+- **Build completeness checked against source** (per the flaky-drive rule on
+  this volume): 975 source articles → 1,022 built wiki pages (975 + 47
+  redirect stubs), 1,849 sitemap URLs. A surplus, not a deficit — no dropped
+  writes.
+- Canonical tags carry the trailing slash; JSON-LD on a sampled article emits
+  Organization + WebSite + Article + Person + BreadcrumbList and parses clean.
+
+### Found, not changed — with reasons
+
+- **`/wiki/hummus` (slash-less) still shows 257 impressions and 3 clicks** next
+  to `/wiki/hummus/` at 347 and 6. This is three months of history that spans
+  the pre-fix period, not evidence the fix failed. Re-read it once Google has
+  recrawled.
+- **`/category/people` and `/category/procedures` appear in the impressions
+  table without trailing slashes** (28 and 88 impressions). Same consolidation
+  in progress; the edge rule covers them. No action.
+- **Standing items, unchanged:** 843 clamped snippets, 150 wikilink orphans,
+  723 suspicious wikilinks, 405 thin articles. Reasoning unchanged from
+  2026-08-04 — these track corpus growth, and the high-traffic slice is what
+  gets closed first.
+
+### Blocked — needs the user
+
+Unchanged, and repeated every run until fixed:
+
+- **Backlinks are still the real ceiling.** 18 links, all from one
+  r/intelligence post, is why average position sits at 16.6 and why 5.54K
+  impressions only convert to 112 clicks. Kiriakou sharing the site himself is
+  the highest-value unlock available. That one Reddit post produced all 18
+  existing links, so more posts of that kind demonstrably work.
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia** for the Organization `sameAs` (carried from
+  2026-07-09).
