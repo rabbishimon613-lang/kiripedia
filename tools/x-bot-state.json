@@ -419,7 +419,8 @@
     "quote:maduro-capture:2",
     "dyk:section-702:2",
     "quote:jennings-randolph:0",
-    "dyk:cia-training-doctrine:0"
+    "dyk:cia-training-doctrine:0",
+    "quote:tom-drake:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1041,10 +1042,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
