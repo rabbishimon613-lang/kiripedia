@@ -169,3 +169,22 @@ panels, audiobook samples, reactions and dupes excluded. **Dates not yet backfil
 
 - **John Kiriakou's Dead Drop** — `ingested` (42 eps, Acast feed → whisper).
 - **Sputnik dailies** (Political Misfits, Loud & Clear) — **skip, low value**: daily 2h news roundtables he co-hosted; sparse canon, murky attribution, ages badly. Not queued.
+
+---
+
+## Archaeology dig — 2026-08-05
+
+Full detail, including every angle worked and every rejection, is in `ARCHAEOLOGY-LOG.md`.
+
+| Status | Date | Len | Show | Title | videoId | URL |
+|---|---|---|---|---|---|---|
+| ingested | 2026-05-08 | 75m | Cyprus Diaspora Forum | John Kiriakou Fireside Chat (rec. 8 May, uploaded 23 Jul) | vCB56HbNvOo | https://youtu.be/vCB56HbNvOo |
+| audio | 2015-03-31 | 89m | Edmond & Lily Safra Center | American Whistleblower Tour: Essential Voices for Accountability | jcg5aO_H9OU | https://youtu.be/jcg5aO_H9OU |
+| skip | 2026-07-30 | 51m | Piers Morgan Uncensored (via Roja Multimedia) | Full Debate — 5-way panel, speaker attribution unsafe | WF8NOMGWI2o | https://youtu.be/WF8NOMGWI2o |
+| skip | 2026-08-05 | 70m | World Affairs Podcast | Same Cyprus fireside chat as vCB56HbNvOo | jEamop1gJxw | https://youtu.be/jEamop1gJxw |
+| skip | 2026-06-06 | 78m | Jay Dyer | Kiriakou hosts Dyer — his own show, low canon | uxHODlAhiBk | https://youtu.be/uxHODlAhiBk |
+
+> **Warning for the next dig:** `National Security Files`, `Covert Strategies Revealed`,
+> `Covert Operations Insight`, `The Insight Network` and `Rated R TV` are all **re-cut farms**.
+> They dedupe clean by videoId but are duplicate by content. `NEW-VIDS-2026-07-28.md` §F1 is
+> wrong to call National Security Files genuine. Do not spend a run on them.
