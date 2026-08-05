@@ -3,7 +3,7 @@
   "trailingSlash": true,
   "git": {
     "deploymentEnabled": {
-      "main": false
+      "main": true
     }
   }
 }
