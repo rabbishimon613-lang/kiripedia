@@ -45,7 +45,7 @@ A row disappears on its own once any article cites it, so `written` is belt-and-
 | 25 | pending | 2022-05-23 | Danny Jones Podcast | Ex-CIA Spy Breaks Down How He Captured Abu Zubaydah / John K | 58:00 | 7,630 | `2022-05-23-danny-jones-ex-cia-spy-breaks-down-how-he-captured-abu-zu` |
 | 26 | pending | 2025-11-06 | Elizabeth Lane TV | co-branded personal channel — confirm real interview | 42:00 | 7,575 | `2025-11-06-elizabeth-lane-tv-co-branded-personal-channel-confirm-real-inte` |
 | 27 | pending | 2026-05-17 | Matan Even | Matan Confronts Kiriakou (Israel) | 43:00 | 7,575 | `2026-05-17-the-matan-show-matan-confronts-kiriakou-israel` |
-| 28 | pending | 2024-01-16 | Fortress On A Hill | Fortress On A Hill (Henri) | 48:00 | 7,495 | `2024-01-16-fortress-on-a-hill-henri` |
+| 28 | rejected (99.2% duplicate of 2024-02-04-fortress-on-a-hill-henri) | 2024-01-16 | Fortress On A Hill | Fortress On A Hill (Henri) | 48:00 | 7,495 | `2024-01-16-fortress-on-a-hill-henri` |
 | 29 | pending | 2026-05-11 | Covert Operations Insight | channel re-cuts heavily; corpus has 5 of its eps | 39:00 | 7,393 | `2026-05-11-covert-operations-insight-channel-re-cuts-heavily-corpus-has-5-of-its-e` |
 | 30 | pending | 2025-11-03 | HispaUnidad | HispaUnidad | 46:00 | 7,362 | `2025-11-03-hispaunidad-hispaunidad` |
 | 31 | pending | 2026-05-23 | Covert Operations Insight | Dark Secrets Behind the Torture Program | 42:00 | 7,345 | `2026-05-23-covert-operations-insight-dark-secrets-behind-the-torture-program` |
