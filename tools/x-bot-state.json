@@ -421,7 +421,8 @@
     "quote:jennings-randolph:0",
     "dyk:cia-training-doctrine:0",
     "quote:tom-drake:1",
-    "dyk:witness-k-case:2"
+    "dyk:witness-k-case:2",
+    "quote:mack-mclarty:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1043,10 +1044,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
