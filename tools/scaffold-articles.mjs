@@ -88,7 +88,8 @@ function titleForSlug(slug) {
   const path = `${articlesDir}/${slug}.mdx`;
   if (!existsSync(path)) return null;
   const raw = readFileSync(path, 'utf8');
-  const m = raw.match(/^---\n[\s\S]*?\ntitle:\s*['"]?(.+?)['"]?\n/);
+  // `title:` may be the very first frontmatter line, so the leading block is optional.
+  const m = raw.match(/^---\n(?:[\s\S]*?\n)??title:\s*['"]?(.+?)['"]?\n/);
   return m ? m[1].replace(/''/g, "'") : null;
 }
 
