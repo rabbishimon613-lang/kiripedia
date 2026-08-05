@@ -55,10 +55,10 @@ A row disappears on its own once any article cites it, so `written` is belt-and-
 | 35 | pending | 2021-09-30 | Garland Nixon | Kiriakou & Nixon on the Latest Assange News | 38:00 | 6,794 | `2021-09-30-kiriakou-nixon-on-the-latest-assange-news` |
 | 36 | pending | 2021-09-02 | Garland Nixon | After Afghanistan | 34:00 | 6,705 | `2021-09-02-garland-nixon-after-afghanistan` |
 | 37 | pending | 2021-10-02 | Garland Nixon | Talk About the US Congress | 37:00 | 6,680 | `2021-10-02-garland-nixon-talk-about-the-us-congress` |
-| 38 | pending | 2026-05-30 | John Kiriakou Podcast | John Kiriakou Podcast | 35:00 | 6,615 | `2026-05-30-john-kiriakou-podcast-john-kiriakou-podcast` |
+| 38 | rejected (93.7% five-word-shingle re-cut of 2026-05-08-jay-dyer-real-cia-history) | 2026-05-30 | John Kiriakou Podcast | John Kiriakou Podcast | 35:00 | 6,615 | `2026-05-30-john-kiriakou-podcast-john-kiriakou-podcast` |
 | 39 | pending | 2024-04-18 | Dr. David Oualaalou | Iran-Israel Possible Open War | 39:00 | 6,565 | `2024-04-18-dr-david-oualaalou-iran-israel-possible-open-war` |
 | 40 | pending | 2024-02-19 | Kevin Gosztola (The Dissenter) | Kevin Gosztola (Unauthorized Disclosure) | 44:00 | 6,559 | `2024-02-19-kevin-gosztola-unauthorized-disclosure-kevin-gosztola-unauthorized-disclosure` |
-| 41 | pending | 2026-05-22 | John Kiriakou Podcast | John Kiriakou Podcast | 42:00 | 6,535 | `2026-05-22-john-kiriakou-podcast-john-kiriakou-podcast` |
+| 41 | rejected (86.3% re-cut of the 2023-08-09 London Real interview) | 2026-05-22 | John Kiriakou Podcast | John Kiriakou Podcast | 42:00 | 6,535 | `2026-05-22-john-kiriakou-podcast-john-kiriakou-podcast` |
 | 42 | pending | 2019-07-22 | Free MartyG | John Kiriakou & Dana Gottesfeld conversation | 42:00 | 6,433 | `2019-07-22-free-martyg-john-kiriakou-dana-gottesfeld-conversation` |
 | 43 | pending | 2025-10-11 | Dialogue Works | Charlie Kirk | 45:00 | 6,431 | `2025-10-11-dialogue-works-charlie-kirk-s-story-crumbles-iran` |
 | 44 | pending | 2025-09-06 | Dr. Johann D | Ep.82 — Choosing Truth Over Career | 36:00 | 6,358 | `2025-09-06-ep-82-choosing-truth-over-career` |
