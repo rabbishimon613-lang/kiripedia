@@ -1,11 +1,11 @@
 ---
 slug: "2026-06-01-giorgos-omirou-clickbait-title-personal-channel-probe"
-title: "clickbait title, personal channel — probe"
+title: "CIA Whistleblower John Kiriakou — 'They Physically Removed My Stomach'"
 show: "Giorgos Omirou"
 date: "2026-06-01"
 url: "https://youtu.be/CAmAja1Rly0"
 videoId: "CAmAja1Rly0"
-duration: "34:00"
+duration: "34:52"
 captionSource: auto
 paragraphs: 67
 sponsor_paragraphs_stripped: 0

@@ -1130,6 +1130,12 @@ MAPPING=(
   "washington-political-culture=United_States_Capitol"
   "cia-directorates=Central_Intelligence_Agency"
   "advanced-counterterrorism-operations=Counterterrorism"
+  "kiriakou-gastrectomy=Gastrectomy"
+  "kiriakou-post-gastrectomy-complications=Peptic_ulcer_disease"
+  "kiriakou-type-2-diabetes=Type_2_diabetes"
+  "kiriakou-on-diet-and-nutrition=Nutrition"
+  "kiriakou-on-greek-and-cypriot-food=Halloumi"
+  "three-legal-ways-to-enter-a-country=United_Nations_Security_Council"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.
