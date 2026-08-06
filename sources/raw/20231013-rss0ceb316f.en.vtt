@@ -1,0 +1,1934 @@
+WEBVTT
+
+00:00:00.370 --> 00:00:09.220
+Hi everybody, Cheryl Ackerson here.
+
+00:00:09.220 --> 00:00:12.420
+Welcome to another edition of the Cheryl Ackerson Podcast.
+
+00:00:12.420 --> 00:00:19.340
+Today a fascinating discussion with a former CIA officer, John Kiriakou, the only person
+
+00:00:19.340 --> 00:00:25.780
+prosecuted and imprisoned over the CIA torture program not for taking part in it, but for
+
+00:00:25.780 --> 00:00:27.940
+blowing the whistle on it.
+
+00:00:27.940 --> 00:00:32.260
+He will also talk about a new internet product you can use to search the internet
+
+00:00:32.260 --> 00:00:34.340
+without big brother keeping track.
+
+00:00:34.340 --> 00:00:41.340
+It's called Panquake, P-A-N-Q-U-A-K-E, and he'll talk about what happened to him and
+
+00:00:41.340 --> 00:00:50.860
+what could very well happen to you with a weaponized government growing out of control.
+
+00:00:50.860 --> 00:01:01.380
+My name is John Kiriakou, K-I-R-I-A-K-O-U, and I am, what is my title?
+
+00:01:01.380 --> 00:01:07.340
+I guess it's Brand Spokesman for Panquake.
+
+00:01:07.340 --> 00:01:11.180
+Where'd you get the name, by the way, Panquake?
+
+00:01:11.180 --> 00:01:14.660
+You know, they talked about that a lot in the beginning.
+
+00:01:14.660 --> 00:01:19.580
+These people that are involved in the development of Panquake are far more creative than I
+
+00:01:19.580 --> 00:01:20.580
+am.
+
+00:01:20.580 --> 00:01:28.620
+I'm just not creative in that way, and they wanted it to sort of give the feeling
+
+00:01:28.620 --> 00:01:35.380
+of an earthquake in that it's shaking up the industry, and Pan meaning it covers the
+
+00:01:35.380 --> 00:01:42.940
+whole spectrum and the whole world, which is what they're hoping to finally do, and yeah,
+
+00:01:42.940 --> 00:01:43.940
+that's what they came up with.
+
+00:01:43.940 --> 00:01:49.660
+Let me read a little bit about, just to get you started on describing what's going
+
+00:01:49.660 --> 00:01:53.620
+on from, I guess, a news release.
+
+00:01:53.620 --> 00:02:00.700
+It says that Julian Assange supporters take on Big Tech, release new anti-spying archiving
+
+00:02:00.700 --> 00:02:01.700
+tool.
+
+00:02:01.700 --> 00:02:07.180
+It says supporters of WikiLeaks founder Julian Assange have just changed the balance of power
+
+00:02:07.180 --> 00:02:13.860
+between internet users and Big Tech launching Panquake.me, a free app that protects users
+
+00:02:13.860 --> 00:02:19.260
+from being spied on by web trackers and preserves the original web content.
+
+00:02:19.260 --> 00:02:20.940
+Okay, let's break it down.
+
+00:02:20.940 --> 00:02:26.020
+Let's assume we're talking to people like me, they may use the internet, know something
+
+00:02:26.020 --> 00:02:31.540
+of it, but let's try to be fairly simple in terms of how we describe things.
+
+00:02:31.540 --> 00:02:37.260
+What is the idea behind the need for this tool or this site that you all have created?
+
+00:02:37.260 --> 00:02:38.260
+Right.
+
+00:02:38.260 --> 00:02:46.580
+Well, the need is for users, and that could be just the everyday, you know, Joe or
+
+00:02:46.580 --> 00:02:48.980
+Jane sitting at their computer.
+
+00:02:48.980 --> 00:02:56.100
+It could be journalists, it could be activists who just don't want to be tracked.
+
+00:02:56.100 --> 00:03:00.980
+And for me, as a user, that's the most important thing here.
+
+00:03:00.980 --> 00:03:04.020
+There were several things that were so important to the developers.
+
+00:03:04.020 --> 00:03:10.300
+One was transparency, and the code is open so anybody can see how this thing is set up.
+
+00:03:10.300 --> 00:03:15.740
+The second thing was privacy, and privacy and transparency are not mutually exclusive.
+
+00:03:15.740 --> 00:03:20.860
+You know, social media sites like Twitter and Facebook and Instagram and really all
+
+00:03:20.860 --> 00:03:24.420
+of them, they collect your personal data.
+
+00:03:24.420 --> 00:03:29.220
+They collect your metadata, they know what you share, they know what you forward, and
+
+00:03:29.220 --> 00:03:32.260
+then they package that information and they sell it.
+
+00:03:32.260 --> 00:03:39.620
+They sell it to other companies, but more sinisterly, they sell it to the FBI and
+
+00:03:39.620 --> 00:03:42.020
+SA and CIA.
+
+00:03:42.020 --> 00:03:43.180
+How do we know that?
+
+00:03:43.180 --> 00:03:44.180
+I believe you.
+
+00:03:44.180 --> 00:03:47.980
+How do we know that they have contracts with them that we're able to see or what?
+
+00:03:47.980 --> 00:03:52.060
+Yeah, through the Freedom of Information Act, there was actually a statement by the FBI
+
+00:03:52.060 --> 00:03:57.180
+just a few weeks ago in which they said that now instead of going to a court and asking
+
+00:03:57.180 --> 00:04:03.580
+for a warrant or a court order to purchase metadata, I mean to get metadata, they just
+
+00:04:03.580 --> 00:04:08.900
+purchased it directly from the social media company, which is perfectly legal because
+
+00:04:08.900 --> 00:04:14.260
+when you open an account, like let's say when you first set up your Facebook account, the
+
+00:04:14.260 --> 00:04:20.220
+terms and conditions include a provision that you do not own the data.
+
+00:04:20.220 --> 00:04:26.060
+So any website you go to, you know, any news article you read, they collect information
+
+00:04:26.060 --> 00:04:29.940
+on that and then they package it for sale.
+
+00:04:30.060 --> 00:04:40.220
+So literally everything you do on the internet can be purchased by the FBI, NSA, CIA or frankly
+
+00:04:40.220 --> 00:04:42.020
+anybody else.
+
+00:04:42.020 --> 00:04:48.260
+But if you've agreed to that, let's say you have a Facebook account and you visit things
+
+00:04:48.260 --> 00:04:52.500
+outside of your new development, outside of the thing that you all have developed,
+
+00:04:52.500 --> 00:04:56.020
+is Facebook tracking what you do when you're not logged into Facebook somehow or is
+
+00:04:56.020 --> 00:04:58.500
+it only the stuff you're doing while you're logged in?
+
+00:04:58.500 --> 00:05:00.580
+No, that's a great question.
+
+00:05:00.580 --> 00:05:05.180
+And you know, for a long time, people suspected that Facebook was tracking them continually
+
+00:05:05.180 --> 00:05:09.540
+and finally Facebook came out just in the last year and said, yes, that they do actually
+
+00:05:09.540 --> 00:05:10.540
+track us.
+
+00:05:10.540 --> 00:05:16.340
+For example, I was talking to a friend of mine on the phone.
+
+00:05:16.340 --> 00:05:17.620
+I was not on Facebook.
+
+00:05:17.620 --> 00:05:23.300
+I was just on the phone and I was telling him, oh, you know, I'm accosted by lunatics
+
+00:05:23.300 --> 00:05:29.660
+all the time and, you know, there was this woman that came after me and she had fantasized
+
+00:05:29.660 --> 00:05:37.220
+that we were engaged and she actually flew to Washington with a gun to shoot my wife
+
+00:05:37.220 --> 00:05:40.220
+so that she and I could be together.
+
+00:05:40.220 --> 00:05:42.660
+And he said, oh, buddy, you know what you need?
+
+00:05:42.660 --> 00:05:44.620
+You need a concealed carry class.
+
+00:05:44.620 --> 00:05:48.220
+And I said, yeah, but I'm not allowed to carry a gun.
+
+00:05:48.220 --> 00:05:54.300
+As soon as I hung up the phone, I went on Facebook and literally every single advertisement
+
+00:05:54.300 --> 00:05:58.100
+was for a concealed carry course in my area.
+
+00:05:58.100 --> 00:06:00.740
+So yeah, isn't that awful?
+
+00:06:00.740 --> 00:06:04.580
+So you know, it's like, it's like another example.
+
+00:06:04.580 --> 00:06:07.420
+I told my sister, oh, I need to buy a new desk.
+
+00:06:07.420 --> 00:06:08.500
+I don't like my desk.
+
+00:06:08.500 --> 00:06:09.500
+It's really old.
+
+00:06:09.500 --> 00:06:12.700
+I want one that has, you know, a USB port.
+
+00:06:12.700 --> 00:06:15.180
+No sooner did I hang up the phone.
+
+00:06:15.180 --> 00:06:21.060
+I go into the Pittsburgh Post Gazette and every pop-up ad on the Pittsburgh Post Gazette
+
+00:06:21.060 --> 00:06:23.580
+is for a computer desk.
+
+00:06:23.580 --> 00:06:26.740
+You know, that's just not acceptable.
+
+00:06:26.740 --> 00:06:30.460
+Many of us I think don't want to live our lives like that or we're tired of living
+
+00:06:30.460 --> 00:06:32.060
+our lives like that.
+
+00:06:32.060 --> 00:06:38.180
+And we want to be able to surf the web or read an article or communicate with friends
+
+00:06:38.180 --> 00:06:43.660
+or colleagues or journalists or whomever and just not be tracked.
+
+00:06:43.660 --> 00:06:44.660
+That's what this is.
+
+00:06:45.300 --> 00:06:52.860
+Before we go into some more details about Panquake or panquake.ne, it wouldn't stop that, would
+
+00:06:52.860 --> 00:06:53.860
+it?
+
+00:06:53.860 --> 00:06:57.380
+Like if you're, you have a Facebook account and they're tracking you and you're on the
+
+00:06:57.380 --> 00:07:02.660
+phone, but you're not going through Panquake, Panquake can't impact that, can it?
+
+00:07:02.660 --> 00:07:04.440
+No, that it won't impact.
+
+00:07:04.440 --> 00:07:11.260
+But what it can impact is if you want to send somebody an article, for example,
+
+00:07:11.700 --> 00:07:17.220
+Now if you see an article on Facebook and you open it, Facebook knows you've opened it.
+
+00:07:17.220 --> 00:07:22.940
+They know how long you were in it to read it and then they know if you sent it to somebody.
+
+00:07:22.940 --> 00:07:27.060
+Once you send it to that person, they know if that person opened it, how long they
+
+00:07:27.060 --> 00:07:30.020
+read it and what they did with it.
+
+00:07:30.020 --> 00:07:37.980
+What you can do at Panquake is you can go into the site.
+
+00:07:37.980 --> 00:07:41.060
+It's something called a link shortener, right?
+
+00:07:41.100 --> 00:07:49.540
+So you go to pnqk.me, you put in the URL there, you're able to read the article, it cleans
+
+00:07:49.540 --> 00:07:56.220
+your links of any marketing or ad tracking cookies, you're able to send it to somebody
+
+00:07:56.220 --> 00:08:02.340
+else through the Panquake site and then it actually archives the link.
+
+00:08:02.340 --> 00:08:07.660
+One of the things that I hate and I'm sure that you do too because you're a prominent
+
+00:08:07.660 --> 00:08:12.420
+journalist and you've done it for a long time, is you'll use something as a source
+
+00:08:12.620 --> 00:08:15.220
+and then the link goes dead.
+
+00:08:15.420 --> 00:08:19.420
+And so you go back to it a year, two years, five years later
+
+00:08:19.620 --> 00:08:22.660
+because you want to refer to it and the link no longer works.
+
+00:08:22.860 --> 00:08:30.100
+But Panquake will archive the link so that it will always be available to you.
+
+00:08:30.300 --> 00:08:35.460
+As long as you save it in the new, shortened, translated version that you got.
+
+00:08:35.620 --> 00:08:38.380
+Right, which the site does for you.
+
+00:08:38.580 --> 00:08:39.980
+Cool. Yeah.
+
+00:08:40.180 --> 00:08:42.020
+Well, I think one we should discuss.
+
+00:08:42.220 --> 00:08:47.940
+One of the things people ought to consider today is it's one thing.
+
+00:08:48.140 --> 00:08:50.180
+I guess it's less nefarious in a way.
+
+00:08:50.380 --> 00:08:54.300
+People are trying to advertise, send their products to you, listen in on you and
+
+00:08:54.500 --> 00:08:57.300
+track you to send you advertising.
+
+00:08:57.500 --> 00:09:00.820
+Not that that's good, but you agree to that and that's the presumed
+
+00:09:01.020 --> 00:09:02.420
+correct goal.
+
+00:09:02.620 --> 00:09:06.860
+But we now have learned so much about what the government is doing.
+
+00:09:07.060 --> 00:09:12.420
+So the government can access this data in many different ways and use it against
+
+00:09:12.620 --> 00:09:15.740
+you in ways you never imagined, even if you've done nothing wrong.
+
+00:09:15.940 --> 00:09:17.820
+Oh, my God, that's so true.
+
+00:09:18.020 --> 00:09:22.340
+Find out if you happen to be in a city like Washington, D.C.
+
+00:09:22.340 --> 00:09:25.500
+on January 6th, even if you broke no laws or did nothing wrong.
+
+00:09:25.700 --> 00:09:26.100
+Amen.
+
+00:09:26.300 --> 00:09:28.940
+You may end up by your behavior, being able to be tracked there and
+
+00:09:28.940 --> 00:09:35.540
+targeted unfairly by this, you know, weaponized institutions, the institutions
+
+00:09:35.740 --> 00:09:39.500
+we now have that are so politically weaponized.
+
+00:09:39.700 --> 00:09:42.140
+You're absolutely right.
+
+00:09:42.340 --> 00:09:43.580
+Absolutely right.
+
+00:09:43.780 --> 00:09:49.940
+You know, companies or the government can
+
+00:09:50.140 --> 00:09:53.740
+entail a lot just by your metadata.
+
+00:09:53.940 --> 00:09:54.100
+Right.
+
+00:09:54.300 --> 00:09:56.100
+They don't have to interview you.
+
+00:09:56.260 --> 00:10:02.980
+They don't have to put a team of spies to surveil you and track you just from your
+
+00:10:03.180 --> 00:10:08.100
+metadata, they can get a pretty darn good view of what you're doing on a
+
+00:10:08.300 --> 00:10:10.180
+day to day basis and how you're living your life.
+
+00:10:10.380 --> 00:10:15.980
+Like you say, even with your phone off or in airplane mode, they can still
+
+00:10:16.180 --> 00:10:19.540
+track you to within three feet of your location.
+
+00:10:19.740 --> 00:10:25.220
+And besides that, what if you what if you are, you know,
+
+00:10:25.420 --> 00:10:32.500
+chatting with, let's say, an abortion clinic or a boyfriend or girlfriend
+
+00:10:32.700 --> 00:10:37.700
+or, you know, a psychiatrist or psychologist.
+
+00:10:37.900 --> 00:10:40.980
+Don't you think you deserve a little bit of privacy?
+
+00:10:41.180 --> 00:10:41.780
+I think so.
+
+00:10:41.980 --> 00:10:45.340
+And not that they deserve to butt into your life anyway,
+
+00:10:45.540 --> 00:10:50.420
+but the conclusions they may mistakenly draw from your histories as a
+
+00:10:50.460 --> 00:10:54.260
+journalist, I sometimes look for
+
+00:10:54.460 --> 00:10:55.860
+incorrect information.
+
+00:10:55.860 --> 00:10:59.180
+You know, one of my big gripes about all the censorship is sometimes I want to
+
+00:10:59.380 --> 00:11:03.860
+see what people are saying that may not be right or may be right, but other people
+
+00:11:03.860 --> 00:11:04.860
+are trying to disparage it.
+
+00:11:05.060 --> 00:11:08.300
+I don't want a third party divining truth for me.
+
+00:11:08.500 --> 00:11:12.380
+And by the same token, and I may be researching predators, but you could
+
+00:11:12.580 --> 00:11:17.460
+look at the search history for me and wrongly assume that I am a predator.
+
+00:11:17.660 --> 00:11:18.380
+There's all kinds of.
+
+00:11:18.580 --> 00:11:19.460
+Oh, yeah.
+
+00:11:19.500 --> 00:11:22.980
+But the government peeking into your private life, of course.
+
+00:11:23.180 --> 00:11:25.460
+Oh, you're absolutely right.
+
+00:11:25.660 --> 00:11:29.380
+Can you imagine how potentially dangerous that is?
+
+00:11:29.580 --> 00:11:30.340
+It's just awful.
+
+00:11:30.540 --> 00:11:34.100
+For me, because of my background, I'm really worried about the national
+
+00:11:34.300 --> 00:11:38.540
+security state gathering and then misusing this kind of information.
+
+00:11:38.740 --> 00:11:40.940
+But you make a very important point right there.
+
+00:11:41.140 --> 00:11:45.380
+It's not just, you know, John has a beef with the national security state.
+
+00:11:45.580 --> 00:11:50.860
+It's that every single American is potentially at risk.
+
+00:11:51.060 --> 00:11:53.740
+Tell me a little bit about your background.
+
+00:11:53.940 --> 00:11:57.140
+Sure, I spent 15 years with the CIA.
+
+00:11:57.340 --> 00:12:00.260
+The first half was as an analyst on the Middle East.
+
+00:12:00.460 --> 00:12:04.700
+The second half was in counterterrorism operations.
+
+00:12:04.900 --> 00:12:10.220
+I rose quickly at the CIA and I became the chief of counterterrorism
+
+00:12:10.420 --> 00:12:13.700
+operations in Pakistan after 9-11.
+
+00:12:13.900 --> 00:12:18.940
+I led a team of counterterrorism
+
+00:12:19.140 --> 00:12:23.220
+officers in a series of raids in March of 2002 that resulted in the capture
+
+00:12:23.420 --> 00:12:27.460
+of Abu Zubaydah, who we believed at the time was the number three in al-Qaeda.
+
+00:12:27.660 --> 00:12:29.460
+He was not the number three.
+
+00:12:29.660 --> 00:12:33.020
+The CIA just a few months later began torturing Abu Zubaydah.
+
+00:12:33.220 --> 00:12:36.660
+I went back to CIA headquarters and became the executive
+
+00:12:36.860 --> 00:12:39.940
+assistant to the CIA's deputy director for operations.
+
+00:12:40.140 --> 00:12:43.260
+And I objected to the torture program.
+
+00:12:43.460 --> 00:12:47.860
+Not only did I object to it, I refused to be trained in it.
+
+00:12:48.060 --> 00:12:52.700
+I was the only person of the 14 approached to be interrogators to refuse
+
+00:12:52.900 --> 00:12:58.580
+the torture training, which, as you might imagine, damaged my career.
+
+00:12:58.780 --> 00:13:00.500
+But
+
+00:13:00.700 --> 00:13:04.340
+but I didn't care and I waited for somebody to come out and say something
+
+00:13:04.540 --> 00:13:08.180
+because this torture program was so patently illegal to me.
+
+00:13:08.380 --> 00:13:13.260
+I just expected that somebody would come out and say something that never happened.
+
+00:13:13.460 --> 00:13:16.900
+And so five and a half years later in 2007,
+
+00:13:17.100 --> 00:13:20.980
+I said something in an interview with Brian Ross at ABC News.
+
+00:13:21.180 --> 00:13:23.500
+I said that CIA was torturing its prisoners,
+
+00:13:23.700 --> 00:13:28.380
+that torture was official US government policy and that the policy had been
+
+00:13:28.580 --> 00:13:31.100
+personally approved by the president.
+
+00:13:31.300 --> 00:13:35.700
+As you might imagine, the CIA filed a crimes report against me with the FBI.
+
+00:13:35.740 --> 00:13:37.980
+And the FBI investigated me for a year
+
+00:13:38.180 --> 00:13:42.580
+from December 2007 to December 2008, and they determined
+
+00:13:42.780 --> 00:13:46.660
+at the end of that year that I had not committed a crime and they closed the case.
+
+00:13:46.860 --> 00:13:49.820
+So three weeks later, Barack Obama becomes president.
+
+00:13:50.020 --> 00:13:51.580
+John Brennan becomes the deputy
+
+00:13:51.780 --> 00:13:54.500
+national security adviser for counterterrorism.
+
+00:13:54.700 --> 00:13:56.460
+John was an old nemesis of mine.
+
+00:13:56.660 --> 00:13:59.620
+And John was one of the fathers of the torture program.
+
+00:13:59.820 --> 00:14:04.740
+And so he asked the Justice Department to secretly reopen the case against me.
+
+00:14:04.940 --> 00:14:07.300
+I had no idea that for the next three years,
+
+00:14:07.500 --> 00:14:10.380
+and this is why Panquake is so important to me, the next three years,
+
+00:14:10.580 --> 00:14:13.740
+my phones were tapped, my emails were being intercepted,
+
+00:14:13.940 --> 00:14:16.980
+FBI agents were following me everywhere I went.
+
+00:14:17.180 --> 00:14:22.940
+And then in January of 2012, I was charged with five felonies,
+
+00:14:23.140 --> 00:14:28.100
+including three counts of espionage for speaking to ABC and to The New York Times.
+
+00:14:28.300 --> 00:14:30.420
+Of course, I hadn't committed espionage
+
+00:14:30.620 --> 00:14:33.140
+and the espionage charges were dropped.
+
+00:14:33.340 --> 00:14:38.700
+But but I finally took a plea to to violating the Intelligence Identity's
+
+00:14:38.900 --> 00:14:42.100
+Protection Act of 1982.
+
+00:14:42.300 --> 00:14:45.940
+I'm only the second American that was ever charged with that crime.
+
+00:14:46.140 --> 00:14:49.060
+And I did it to make the whole thing go away.
+
+00:14:49.260 --> 00:14:50.580
+I'm proud to say that in the end,
+
+00:14:50.780 --> 00:14:53.980
+I was educated because everything I said was true.
+
+00:14:54.180 --> 00:14:58.620
+I had great support from the likes of of John McCain, for example.
+
+00:14:58.820 --> 00:15:02.180
+But but I served 23 months in a federal prison
+
+00:15:02.420 --> 00:15:08.220
+and came out with a new appreciation for for privacy on the one hand
+
+00:15:08.420 --> 00:15:10.820
+and for government transparency on the other.
+
+00:15:11.020 --> 00:15:17.140
+And then when when Susie Dawson and this incredible group of
+
+00:15:17.340 --> 00:15:20.980
+tech geniuses, I don't even know what else to call them because, you know,
+
+00:15:21.180 --> 00:15:23.500
+we have these calls and they're talking about the system.
+
+00:15:23.500 --> 00:15:25.780
+And I'm like, God bless them because I don't know what the heck they're
+
+00:15:25.980 --> 00:15:27.620
+talking about, it's so sophisticated.
+
+00:15:27.820 --> 00:15:30.300
+But then at the same time, it's so simple.
+
+00:15:30.500 --> 00:15:33.980
+You know that the the technology behind it is sophisticated.
+
+00:15:34.180 --> 00:15:38.620
+But the the ease of use is such that
+
+00:15:38.820 --> 00:15:41.060
+anybody can use it. I'm older than you are.
+
+00:15:41.260 --> 00:15:45.780
+I'm not a Luddite, but but, you know, I don't want to get too down into the
+
+00:15:45.980 --> 00:15:48.020
+weeds and you don't have to with this.
+
+00:15:48.220 --> 00:15:53.500
+So anyway, I have this appreciation for transparency and and privacy.
+
+00:15:53.500 --> 00:15:56.140
+And this sort of puts it all in one package for me.
+
+00:15:56.340 --> 00:16:00.340
+That's why I agreed to to join up with them.
+
+00:16:00.540 --> 00:16:05.930
+I think they have an amazing idea and I'd like to be a part of it.
+
+00:16:06.130 --> 00:16:11.490
+Just to digress for a moment, when the FBI was following you around
+
+00:16:11.690 --> 00:16:15.130
+and your phones were being tapped and all that stuff,
+
+00:16:15.330 --> 00:16:16.490
+were you aware of it?
+
+00:16:16.490 --> 00:16:20.130
+Were there signs or signals or was something you found out about in retrospect?
+
+00:16:20.330 --> 00:16:23.290
+No, I had no idea.
+
+00:16:23.490 --> 00:16:27.770
+And I'll tell you what, I was a surveillance detection instructor.
+
+00:16:27.970 --> 00:16:34.930
+At the CIA and I never bothered to look because I hadn't done anything wrong.
+
+00:16:35.130 --> 00:16:39.970
+And so I had no idea that I was being followed.
+
+00:16:40.170 --> 00:16:44.930
+I had no idea that my phone calls and emails were being intercepted.
+
+00:16:45.130 --> 00:16:48.410
+And then just like you said a moment ago,
+
+00:16:48.610 --> 00:16:54.010
+they'll take these these emails completely out of context
+
+00:16:54.210 --> 00:16:57.250
+and then try to use it against you.
+
+00:16:57.450 --> 00:16:59.090
+And that happened to me repeatedly.
+
+00:16:59.290 --> 00:17:02.170
+That happened to a
+
+00:17:02.370 --> 00:17:07.330
+gentleman, a professor who had been accused of being a Chinese spy by the FBI.
+
+00:17:07.530 --> 00:17:08.890
+Yeah, when?
+
+00:17:09.090 --> 00:17:12.250
+Well, him too, but actually there's a whole series of them.
+
+00:17:12.450 --> 00:17:16.730
+And there's one more recent with an ongoing case he has against the FBI.
+
+00:17:16.930 --> 00:17:22.690
+They had looked at his emails and they claimed that he stole
+
+00:17:22.890 --> 00:17:25.970
+kind of stole technology for an invention and provided it.
+
+00:17:26.090 --> 00:17:28.250
+Oh, geez, Chinese unfairly.
+
+00:17:28.450 --> 00:17:31.170
+And yet a true read of what was behind
+
+00:17:31.370 --> 00:17:36.410
+the emails had nothing to do with the supposed invention that the FBI misread it
+
+00:17:36.410 --> 00:17:39.050
+about, which was proven they dropped the charges against them.
+
+00:17:39.250 --> 00:17:43.410
+But like you say, you know, they can see things that aren't there in your email.
+
+00:17:43.610 --> 00:17:46.650
+So whenever I hear people say and they do say this,
+
+00:17:46.850 --> 00:17:48.890
+I don't care if they look at my stuff.
+
+00:17:49.090 --> 00:17:50.210
+I don't do anything wrong.
+
+00:17:50.410 --> 00:17:50.930
+Right.
+
+00:17:51.130 --> 00:17:55.290
+You need to be thinking a lot harder about that because that's that's really
+
+00:17:55.290 --> 00:17:58.250
+not the danger is that they're going to get you for doing something wrong.
+
+00:17:58.450 --> 00:17:59.170
+So true.
+
+00:17:59.370 --> 00:18:03.610
+One of the things I learned in this whole experience is if they want to get you,
+
+00:18:03.810 --> 00:18:05.770
+they're going to get you.
+
+00:18:05.970 --> 00:18:10.850
+You know, they can pour through everything that you've done
+
+00:18:11.050 --> 00:18:13.730
+over the course of years through your emails.
+
+00:18:13.930 --> 00:18:18.850
+And like I said, through your phone calls and they can patch something
+
+00:18:19.050 --> 00:18:23.690
+together, especially in the Eastern District of Virginia, where
+
+00:18:23.890 --> 00:18:27.570
+interestingly enough, Julian Assange's case would be heard.
+
+00:18:27.570 --> 00:18:29.650
+Were he to be extradited to the United States?
+
+00:18:29.850 --> 00:18:32.010
+It's where Ed Snowden has been charged.
+
+00:18:32.210 --> 00:18:33.250
+I was charged there.
+
+00:18:33.450 --> 00:18:36.610
+Jeffrey Sterling is charged there or was charged there.
+
+00:18:36.810 --> 00:18:43.130
+Zacharias Musawi, it's called the espionage court because no national
+
+00:18:43.330 --> 00:18:47.050
+security defendant has ever won a case there.
+
+00:18:47.250 --> 00:18:51.970
+And you know, when your jury is made up from people or of people from the
+
+00:18:52.050 --> 00:18:56.770
+CIA and the Pentagon and the FBI and intelligence community contractors,
+
+00:18:56.970 --> 00:18:59.370
+you don't have a prayer.
+
+00:18:59.570 --> 00:19:00.770
+So who are they going to believe?
+
+00:19:00.970 --> 00:19:04.890
+The guy who's charged with multiple counts of espionage or the FBI agent
+
+00:19:05.090 --> 00:19:07.690
+who's on the stand testifying against him?
+
+00:19:07.890 --> 00:19:09.530
+It's it's like you can't win.
+
+00:19:09.730 --> 00:19:14.090
+You know, there's the old joke that that a jury would convict a ham
+
+00:19:14.290 --> 00:19:18.610
+sandwich. Well, it's absolutely true in the in the Eastern District of
+
+00:19:18.810 --> 00:19:23.210
+Virginia and not to digress myself, but I'll tell you another thing.
+
+00:19:23.410 --> 00:19:28.650
+I refuse to take a plea for a very, very long time, right up until the bitter end.
+
+00:19:28.850 --> 00:19:37.370
+And my best friend's wife has an uncle who was OJ Simpson's jury consultant.
+
+00:19:37.570 --> 00:19:41.450
+So he agreed to help me for free and he flew up to Washington.
+
+00:19:41.650 --> 00:19:46.090
+He lives in Dallas and we got him a security clearance so he could go
+
+00:19:46.170 --> 00:19:50.930
+through the 15,000 classified documents that the government had turned over to us
+
+00:19:51.130 --> 00:19:52.930
+in in discovery.
+
+00:19:53.130 --> 00:19:57.050
+And finally, after going through everything he said to me,
+
+00:19:57.250 --> 00:20:03.090
+listen, he said, if we were in any other district in America,
+
+00:20:03.290 --> 00:20:04.570
+I'd say, let's go for it.
+
+00:20:04.570 --> 00:20:05.850
+We're going to win this thing.
+
+00:20:06.050 --> 00:20:10.450
+But the Eastern District of Virginia, where your jury is going to have people
+
+00:20:10.650 --> 00:20:15.810
+from the CIA and the FBI and the DOD, he said, you don't stand a chance.
+
+00:20:15.970 --> 00:20:17.610
+You should take a deal.
+
+00:20:17.810 --> 00:20:19.970
+And I still refuse to take a deal.
+
+00:20:20.170 --> 00:20:23.490
+And this is something I've told Julian Assange's attorneys.
+
+00:20:23.690 --> 00:20:25.170
+I still refuse to take a deal.
+
+00:20:25.370 --> 00:20:30.730
+And that morning that I refused, my lawyers came to my house at seven
+
+00:20:30.930 --> 00:20:35.770
+o'clock in the morning, one of them said, the gruffest of the three said,
+
+00:20:35.970 --> 00:20:39.450
+you stupid son of a bitch, take the deal.
+
+00:20:39.650 --> 00:20:44.890
+The second one said, if you were my brother, I would beg you to take the deal.
+
+00:20:45.050 --> 00:20:47.610
+And the third one got right in my face.
+
+00:20:47.810 --> 00:20:50.010
+And he said, you know what your problem is?
+
+00:20:50.210 --> 00:20:54.570
+Your problem is you think this is about justice and it's not about justice.
+
+00:20:54.770 --> 00:20:56.570
+It's about mitigating damage.
+
+00:20:56.770 --> 00:20:58.650
+Take the deal.
+
+00:20:58.850 --> 00:21:00.610
+And so I took it.
+
+00:21:00.810 --> 00:21:03.490
+Because when they've got all of this
+
+00:21:03.690 --> 00:21:07.130
+circumstantial evidence against you
+
+00:21:07.330 --> 00:21:09.730
+in the Eastern District of Virginia,
+
+00:21:09.930 --> 00:21:13.450
+you're likely not going to testify on your own behalf, which, of course,
+
+00:21:13.450 --> 00:21:17.650
+is prejudicial against you even when it's not supposed to be.
+
+00:21:17.850 --> 00:21:20.930
+And you've got a jury that's stacked against you.
+
+00:21:21.130 --> 00:21:23.820
+You have no choice.
+
+00:21:24.020 --> 00:21:27.460
+Well, I think that's another frightening thing about our system that today,
+
+00:21:27.660 --> 00:21:30.180
+the ordinary American,
+
+00:21:30.380 --> 00:21:34.580
+if they try to go up against the government, not only with the financing,
+
+00:21:34.780 --> 00:21:38.780
+the deference they get with the courts, financing, meaning endless amount
+
+00:21:38.980 --> 00:21:40.980
+of taxpayer money, the staff they have.
+
+00:21:41.180 --> 00:21:44.060
+That's right. Nobody can beat, you know, nobody.
+
+00:21:44.260 --> 00:21:47.300
+It's very, very difficult to beat the government.
+
+00:21:47.500 --> 00:21:49.540
+And in my case, I'm suing the government.
+
+00:21:49.740 --> 00:21:54.620
+So I'm the one that's trying to get, you know, accountability for the spying
+
+00:21:54.820 --> 00:21:58.220
+on me or the spying against me since the Department of Justice won't hold its
+
+00:21:58.420 --> 00:22:00.380
+own accountable and it's much the same.
+
+00:22:00.580 --> 00:22:03.980
+They have unlimited taxpayer money to delay and obstruct.
+
+00:22:04.180 --> 00:22:07.060
+The courts let them have every extension they want.
+
+00:22:07.060 --> 00:22:10.500
+It seems let them not meet their deadlines with no impunity.
+
+00:22:10.700 --> 00:22:13.340
+But if I were to miss, you know, a single day, I think.
+
+00:22:13.620 --> 00:22:14.820
+Forget it.
+
+00:22:15.020 --> 00:22:15.620
+That's right.
+
+00:22:15.820 --> 00:22:17.740
+Don't have to answer their complaints.
+
+00:22:17.940 --> 00:22:19.500
+I mean, nothing seems to make sense.
+
+00:22:19.700 --> 00:22:23.500
+But the deck is just what you know is the deck is stacked against you.
+
+00:22:23.700 --> 00:22:25.100
+Oh, it absolutely is.
+
+00:22:25.300 --> 00:22:31.460
+You know, the government spent six million dollars to to prosecute me.
+
+00:22:31.660 --> 00:22:37.260
+I still owe my attorneys one million one hundred and fifty thousand dollars
+
+00:22:37.460 --> 00:22:38.860
+that they'll never see.
+
+00:22:39.060 --> 00:22:40.340
+I only paid them fifty thousand.
+
+00:22:40.540 --> 00:22:41.740
+It was everything that I had.
+
+00:22:41.940 --> 00:22:43.860
+But that's what the government counts on.
+
+00:22:44.060 --> 00:22:47.500
+They do they do a couple of things on purpose.
+
+00:22:47.700 --> 00:22:52.780
+One is called charge stacking, where they'll charge you with a whole bunch of felonies.
+
+00:22:52.980 --> 00:22:54.980
+You know, felonies, you haven't committed.
+
+00:22:55.180 --> 00:22:58.100
+And then they'll wait until you go bankrupt.
+
+00:22:58.300 --> 00:23:01.780
+And then they'll come back and say, hey, we'll drop all the charges,
+
+00:23:01.980 --> 00:23:03.780
+but one, if you take a plea.
+
+00:23:03.980 --> 00:23:05.860
+And by then you have no hope.
+
+00:23:06.060 --> 00:23:10.100
+You're ruined financially, professionally, personally in many cases.
+
+00:23:10.340 --> 00:23:12.140
+And so you take the plea.
+
+00:23:12.340 --> 00:23:18.460
+This is why ProPublica found in a study that the government wins 98.2 percent
+
+00:23:18.660 --> 00:23:22.900
+of its cases, almost all of those wins are because of plea bargains.
+
+00:23:23.100 --> 00:23:25.740
+And the other thing they do is venue shopping.
+
+00:23:25.940 --> 00:23:31.140
+Yeah, they want they want to bring a case against you in the federal
+
+00:23:31.340 --> 00:23:35.940
+district where they know they have the best chance of winning.
+
+00:23:36.180 --> 00:23:40.500
+And so, you know, they'll come up with an excuse that is going to sound
+
+00:23:40.700 --> 00:23:46.220
+absolutely ridiculous to you for why you're charged in X, Y or Z federal district.
+
+00:23:46.420 --> 00:23:53.780
+In fact, they put a lot of thought into that and they did it so you couldn't win there.
+
+00:23:53.980 --> 00:23:56.180
+Well, good warnings out there for everybody.
+
+00:23:56.180 --> 00:23:59.220
+If you think you're never going to be in this situation, you might be surprised.
+
+00:23:59.420 --> 00:24:04.060
+And can you explain how Duck Duck Go is different?
+
+00:24:04.260 --> 00:24:05.780
+I think you kind of already have it.
+
+00:24:05.820 --> 00:24:11.340
+Just go into that because I think some people go to Duck Duck Go.
+
+00:24:12.140 --> 00:24:15.300
+Yeah, Duck Duck Go is a good place to accomplish similar goals to what
+
+00:24:15.500 --> 00:24:18.460
+pancake, right? It's a little bit like apples and oranges.
+
+00:24:18.660 --> 00:24:22.980
+I like Duck Duck Go because it also doesn't track you.
+
+00:24:23.180 --> 00:24:26.540
+But Duck Duck Go is very purely a search engine.
+
+00:24:26.740 --> 00:24:28.900
+And pancake is much more than that.
+
+00:24:29.100 --> 00:24:34.140
+Pancake, pancake.me, for example, can be used as a search engine.
+
+00:24:34.340 --> 00:24:36.340
+And like I said, it's not going to track you.
+
+00:24:36.340 --> 00:24:37.700
+It's not going to keep your data.
+
+00:24:37.900 --> 00:24:42.460
+It's not going to tell the government what you're doing or with whom you're doing it.
+
+00:24:42.660 --> 00:24:46.580
+And then Panquake.
+
+00:24:47.260 --> 00:24:53.860
+Rit Large is which is not yet completed, but is is deep in development.
+
+00:24:54.060 --> 00:25:01.580
+It's a social network akin to Twitter or to Facebook, where once it's done,
+
+00:25:01.820 --> 00:25:06.060
+you're going to be able to do everything on Panquake that you can do
+
+00:25:06.260 --> 00:25:08.780
+on those other social media platforms.
+
+00:25:08.980 --> 00:25:11.820
+And one of the one of the interesting things about Panquake, too.
+
+00:25:11.820 --> 00:25:14.620
+And like I say, it's not completed yet, but they're they're getting there.
+
+00:25:14.820 --> 00:25:16.900
+But so I'm getting a little bit ahead of myself.
+
+00:25:17.100 --> 00:25:23.260
+But one of the cool things is that through this entire process of development,
+
+00:25:23.460 --> 00:25:28.380
+the developers have relied on recommendations from beta users.
+
+00:25:28.580 --> 00:25:33.540
+And so to watch this thing develop and change
+
+00:25:33.740 --> 00:25:38.180
+as it's matured has been an amazing thing to see.
+
+00:25:38.380 --> 00:25:42.020
+And you know, somebody asked me just yesterday, well, once this is done,
+
+00:25:42.220 --> 00:25:46.180
+if they're not going to target advertisements at you and they're not
+
+00:25:46.180 --> 00:25:48.660
+going to collect your data and sell it, how do they make any money?
+
+00:25:48.860 --> 00:25:50.500
+And it's actually very simple.
+
+00:25:50.700 --> 00:25:55.260
+It's going to be a subscription model and it's going to be reasonably priced.
+
+00:25:55.340 --> 00:26:00.820
+So right now, even even pre completion for three dollars a month,
+
+00:26:01.020 --> 00:26:03.020
+you can be a beta user.
+
+00:26:03.220 --> 00:26:07.220
+They've they've reserved several thousand spots.
+
+00:26:07.420 --> 00:26:09.340
+They have some left three dollars a month.
+
+00:26:09.540 --> 00:26:13.780
+Once it's up and running and out there, it's five dollars a month.
+
+00:26:13.980 --> 00:26:17.900
+And so you're not going to be tricked into
+
+00:26:18.100 --> 00:26:21.980
+providing your data so they can make a profit.
+
+00:26:22.140 --> 00:26:25.700
+You know, it's it's a very honest
+
+00:26:25.900 --> 00:26:28.980
+plan, a very honest business model.
+
+00:26:29.180 --> 00:26:31.380
+And this is a crowdsourced project.
+
+00:26:31.580 --> 00:26:33.860
+Is that right? The funding for for this?
+
+00:26:34.060 --> 00:26:39.900
+Yeah, it's crowdsourced and it's something that they're very proud of.
+
+00:26:40.100 --> 00:26:44.660
+So people want to learn more because I sense, based on what you said,
+
+00:26:44.860 --> 00:26:47.740
+there's going to be a lot more functionality to this in the future.
+
+00:26:47.940 --> 00:26:51.220
+So it's something that people, I think, are going to have to be
+
+00:26:51.220 --> 00:26:54.940
+interested in for philosophical reasons and want to support, you know,
+
+00:26:55.140 --> 00:26:58.300
+get involved in where should they go?
+
+00:26:58.500 --> 00:27:01.140
+First of all, to use it, you can give that link again,
+
+00:27:01.340 --> 00:27:03.420
+but also just to learn more about it.
+
+00:27:03.620 --> 00:27:13.740
+Sure. So check out panquake.me, P-A-N-Q-U-A-K-E dot M-E, panquake.me.
+
+00:27:13.940 --> 00:27:17.020
+And check out panquake.com.
+
+00:27:17.220 --> 00:27:19.220
+It's it's turning into something great.
+
+00:27:19.420 --> 00:27:21.500
+I want to encourage people to check this out,
+
+00:27:21.500 --> 00:27:23.780
+even if it's a little bit of work on the front end.
+
+00:27:23.980 --> 00:27:25.100
+And here's why.
+
+00:27:25.300 --> 00:27:27.700
+We've long been talking about
+
+00:27:27.900 --> 00:27:31.340
+the social media agencies and these big companies capturing us.
+
+00:27:31.540 --> 00:27:34.140
+I say that they sort of did a bait and switch.
+
+00:27:34.340 --> 00:27:40.300
+They got us to use them almost exclusively with the promise of freedom.
+
+00:27:40.500 --> 00:27:42.220
+Let's say, twin.
+
+00:27:44.730 --> 00:27:45.610
+Sure.
+
+00:27:45.810 --> 00:27:49.010
+The idea that we could have open exchanges of ideas and open access
+
+00:27:49.050 --> 00:27:50.370
+to information on the Internet.
+
+00:27:50.570 --> 00:27:52.170
+And then they switched everything around.
+
+00:27:52.370 --> 00:27:55.970
+They colluded with the government and corporations to do quite the opposite.
+
+00:27:56.170 --> 00:27:59.610
+Once we became totally reliant on them, we're now sort of trapped
+
+00:27:59.810 --> 00:28:04.050
+with these big companies and so convenient to use this.
+
+00:28:06.560 --> 00:28:07.360
+They developed.
+
+00:28:07.560 --> 00:28:10.080
+So people have been asking the last few years, how do we get out of it?
+
+00:28:10.280 --> 00:28:13.800
+Well, no one knows exactly how the paradigm will sort out.
+
+00:28:14.000 --> 00:28:17.040
+But it's things like this that people are trying that could be the game
+
+00:28:17.040 --> 00:28:18.240
+changer and there's lots of them.
+
+00:28:18.360 --> 00:28:21.000
+But I think we ought to all be willing to spend that little bit of extra time
+
+00:28:21.200 --> 00:28:25.960
+to give these things a shot and try to change the things we don't like.
+
+00:28:26.160 --> 00:28:29.760
+About our information being manipulated and our privacy being interrupted.
+
+00:28:29.960 --> 00:28:35.360
+I could agree more, Cheryl, until I went through this experience of my own.
+
+00:28:35.560 --> 00:28:40.600
+I never even thought about protecting my privacy and my data.
+
+00:28:40.800 --> 00:28:45.000
+You know, it just never even occurred to me as as being an issue.
+
+00:28:45.280 --> 00:28:51.640
+And then when I did go through this awful experiment or experience both
+
+00:28:51.840 --> 00:28:56.160
+and started seeing what was happening to other people, especially to journalists,
+
+00:28:56.360 --> 00:29:02.000
+you know, I remember back in, I guess it was like 2016 where where a journalist
+
+00:29:02.200 --> 00:29:07.000
+with the Washington Times, who happened to be married to a guy who worked at.
+
+00:29:07.200 --> 00:29:10.200
+I think it was the Department of Education.
+
+00:29:10.400 --> 00:29:17.040
+The police raided raided his house looking for some file that he had taken
+
+00:29:17.240 --> 00:29:19.600
+allegedly from the Department of Education.
+
+00:29:19.800 --> 00:29:24.040
+The den in their house was used by her for her journalism.
+
+00:29:24.240 --> 00:29:27.680
+And they went into the den and they took her reporter's notes.
+
+00:29:27.880 --> 00:29:30.200
+They just confiscated them.
+
+00:29:30.400 --> 00:29:33.040
+And it's like nobody,
+
+00:29:33.240 --> 00:29:36.440
+nobody really seemed to care or to object.
+
+00:29:36.640 --> 00:29:40.600
+And it was just such an egregious violation of her privacy.
+
+00:29:40.800 --> 00:29:43.760
+I started thinking, man, what do we where are we headed?
+
+00:29:43.960 --> 00:29:46.120
+We've got to do something to protect ourselves.
+
+00:29:46.320 --> 00:29:48.480
+I feel the same way. I remember that case.
+
+00:29:48.680 --> 00:29:52.680
+I feel like it was ATF or something that he whatever he was involved in.
+
+00:29:52.880 --> 00:29:53.880
+Yeah, something like that.
+
+00:29:54.080 --> 00:29:59.240
+It's been very disappointing, including in my case, that case to have
+
+00:29:59.440 --> 00:30:03.960
+the journalistic establishment not step up and do more of an outcry.
+
+00:30:04.160 --> 00:30:05.920
+And they too have been captured by.
+
+00:30:06.120 --> 00:30:08.320
+Yes, forces and influences.
+
+00:30:08.520 --> 00:30:12.160
+And it's been it's very disappointing because, you know, in the one hand,
+
+00:30:12.360 --> 00:30:15.920
+there there are watchdogs for government that exist.
+
+00:30:16.120 --> 00:30:18.360
+But the media was one of the most powerful ones.
+
+00:30:18.560 --> 00:30:20.160
+Yes. By and large, the media has
+
+00:30:20.360 --> 00:30:23.320
+advocated its responsibility that watchdog has gone away.
+
+00:30:23.520 --> 00:30:25.520
+They're all kind of on the same teams.
+
+00:30:25.720 --> 00:30:28.600
+It's very difficult to get accountability.
+
+00:30:28.800 --> 00:30:31.560
+Hey, after a short break, we're going to talk for just a moment about
+
+00:30:31.760 --> 00:30:33.640
+Julian Assange.
+
+00:30:38.540 --> 00:30:42.700
+Introducing Whipped Seafoam Body Butter by Syranane Cosmetics.
+
+00:30:42.900 --> 00:30:45.420
+Hi, I'm Star, owner of the Lemonade Mermaid.
+
+00:30:45.620 --> 00:30:50.420
+Enriched with the nourishing powers of cocoa butter, mango butter and shea butter,
+
+00:30:50.620 --> 00:30:54.700
+our body butter whisk you away to a world of deep hydration.
+
+00:30:54.900 --> 00:30:58.740
+Experience the essence of the sea with every application as this whipped
+
+00:30:58.940 --> 00:31:02.700
+delight leaves your skin refreshed, replenished and ready to conquer the day.
+
+00:31:02.900 --> 00:31:07.020
+Visit the lemonade mermaid dot com and make your skin sing with the magic
+
+00:31:07.700 --> 00:31:12.630
+of the sea.
+
+00:31:12.830 --> 00:31:18.070
+So I know you know, Assange, you're in touch with people who are in touch with
+
+00:31:18.270 --> 00:31:23.790
+Assange, is there a simple way to give a very short background of what happened
+
+00:31:23.990 --> 00:31:27.510
+to him and who he is, who he was when he got in trouble?
+
+00:31:27.710 --> 00:31:30.990
+Because back in the day when he first started WikiLeaks,
+
+00:31:31.190 --> 00:31:35.390
+I thought he was sort of the darling of the political left for some of the
+
+00:31:35.590 --> 00:31:37.670
+things that he was exposing and doing.
+
+00:31:37.870 --> 00:31:43.550
+But if I'm correct on this, he ran a fowl of the left when some of the documents
+
+00:31:43.750 --> 00:31:46.910
+he exposed or his site exposed involved
+
+00:31:47.110 --> 00:31:50.830
+unflattering things about Hillary Clinton and the Democratic National Committee
+
+00:31:50.830 --> 00:31:52.350
+when she was trying to be president.
+
+00:31:52.350 --> 00:31:54.350
+So can you give us a little background?
+
+00:31:54.550 --> 00:31:55.830
+Right.
+
+00:31:56.030 --> 00:31:58.590
+Julian Assange is the co-founder of WikiLeaks.
+
+00:31:58.790 --> 00:32:03.990
+WikiLeaks is the world's foremost organization dedicated to transparency,
+
+00:32:04.190 --> 00:32:06.950
+especially to government transparency.
+
+00:32:07.110 --> 00:32:10.030
+To tell you the truth, the American government didn't pay much attention
+
+00:32:10.230 --> 00:32:17.070
+to Julian Assange until 2009 when he released a tranche of documents provided
+
+00:32:17.270 --> 00:32:21.750
+to him by Bradley Manning, later Chelsea Manning.
+
+00:32:21.950 --> 00:32:26.510
+A lot of a lot of those documents, 99% of those documents were just sort
+
+00:32:26.710 --> 00:32:31.350
+of a day in the life State Department reporting cables on issues
+
+00:32:31.550 --> 00:32:33.030
+that most people don't care about.
+
+00:32:33.150 --> 00:32:36.830
+Some of them were embarrassing to the to the government,
+
+00:32:37.030 --> 00:32:41.750
+but what he also included in that tranche was something that came to be known
+
+00:32:41.950 --> 00:32:43.950
+as the collateral murder videos.
+
+00:32:44.150 --> 00:32:50.550
+This was a military video of helicopter gunships in Iraq killing.
+
+00:32:51.990 --> 00:32:58.190
+Killing journalists, camera men for for Reuters and then firing on
+
+00:32:58.390 --> 00:33:02.790
+the rescuers and the ambulance that was that was dispatched
+
+00:33:02.790 --> 00:33:03.990
+to help them.
+
+00:33:04.190 --> 00:33:07.510
+They killed several people and then it was covered up by the government.
+
+00:33:07.710 --> 00:33:11.670
+Well, Americans had no idea that the military had done this until Julian
+
+00:33:11.870 --> 00:33:13.190
+Assange said so.
+
+00:33:13.390 --> 00:33:17.670
+So the CIA and the FBI set out to to silence him.
+
+00:33:17.870 --> 00:33:24.550
+And they did that by trumping up some two sexual assault cases in Sweden.
+
+00:33:24.750 --> 00:33:27.230
+Both of the women who made
+
+00:33:27.430 --> 00:33:31.790
+accusations against Assange later said that the police
+
+00:33:31.990 --> 00:33:33.310
+pushed them to do it.
+
+00:33:33.510 --> 00:33:37.670
+And so there are no sexual assault charges pending against Julian Assange.
+
+00:33:37.870 --> 00:33:42.990
+But Julian was so afraid that he would be extradited to Sweden.
+
+00:33:42.990 --> 00:33:44.670
+He was in the UK at the time.
+
+00:33:44.870 --> 00:33:48.470
+He would be extradited to Sweden and then in turn extradited to the United
+
+00:33:48.670 --> 00:33:51.790
+States because of the Bradley Manning
+
+00:33:51.990 --> 00:33:56.950
+release that he took refuge in the Ecuadorian Embassy at the invitation
+
+00:33:57.150 --> 00:33:58.870
+really of the Ecuadorian government.
+
+00:33:59.070 --> 00:34:00.030
+But then what happened?
+
+00:34:00.070 --> 00:34:01.470
+He was in there for years.
+
+00:34:01.670 --> 00:34:04.310
+Then what happened was the United States
+
+00:34:04.510 --> 00:34:07.990
+dramatically improved its relationship with the government of Ecuador with what
+
+00:34:08.190 --> 00:34:11.990
+was supposed to have been a leftist government.
+
+00:34:12.190 --> 00:34:14.630
+It turned out not to be a leftist government.
+
+00:34:14.830 --> 00:34:19.430
+They talked to the Ecuadorians into allowing them to bug the embassy
+
+00:34:19.630 --> 00:34:21.150
+for audio and video.
+
+00:34:21.350 --> 00:34:26.390
+They were able to to collect literally everything that Julian was saying and
+
+00:34:26.470 --> 00:34:29.630
+doing, even his bathroom was bugged.
+
+00:34:29.830 --> 00:34:33.070
+And then in the meantime, there were other revelations,
+
+00:34:33.270 --> 00:34:35.990
+something called Vault Seven, which included
+
+00:34:36.190 --> 00:34:41.510
+what the CIA admitted was the crown jewels of the CIA's technical abilities.
+
+00:34:41.710 --> 00:34:46.310
+And so it was then that was during the Trump administration that
+
+00:34:46.510 --> 00:34:51.230
+the CIA came up with a plan to either kidnap Julian and render him
+
+00:34:51.430 --> 00:34:53.230
+to the United States or to kill him.
+
+00:34:53.430 --> 00:34:55.670
+Were he to leave the Ecuadorian Embassy?
+
+00:34:55.870 --> 00:34:57.550
+In the end,
+
+00:34:57.750 --> 00:35:03.830
+even the Democrats turned on him because in 2016, just before the election,
+
+00:35:04.030 --> 00:35:10.390
+WikiLeaks published the DNC emails that showed, among other things, that
+
+00:35:10.590 --> 00:35:14.710
+the Democratic National Committee had conspired to block Bernie Sanders
+
+00:35:14.710 --> 00:35:17.910
+from getting the nomination and had essentially cheated him out of the
+
+00:35:18.110 --> 00:35:23.350
+nomination and had given it, wired it for Hillary Clinton.
+
+00:35:23.550 --> 00:35:26.710
+The Democrats have never forgiven Julian for that, never.
+
+00:35:26.910 --> 00:35:31.870
+And so where he was for a while, the darling of the left,
+
+00:35:32.070 --> 00:35:33.190
+that went away.
+
+00:35:33.390 --> 00:35:35.790
+He never was really the darling of the right.
+
+00:35:35.990 --> 00:35:39.990
+It was it was the Trump administration that initially filed charges against him,
+
+00:35:40.190 --> 00:35:44.310
+multiple espionage charges, but it was the Biden administration that elected
+
+00:35:44.510 --> 00:35:50.790
+to go forward with the the request for the British government to turn Julian
+
+00:35:50.830 --> 00:35:54.470
+over to face trial and has continued on with this
+
+00:35:54.670 --> 00:35:59.590
+with this espionage case where Julian faces something like one hundred and forty
+
+00:35:59.790 --> 00:36:01.870
+five years in prison.
+
+00:36:02.070 --> 00:36:05.910
+So he has appealed and appealed and appealed.
+
+00:36:06.110 --> 00:36:09.510
+He's being held in Belmarsh Penitentiary in South London.
+
+00:36:09.710 --> 00:36:13.750
+It's it's the highest security penitentiary in all of England.
+
+00:36:13.950 --> 00:36:18.230
+It's where the most dangerous criminals and terrorists in the country are held.
+
+00:36:18.430 --> 00:36:20.190
+And what is he being held on?
+
+00:36:20.310 --> 00:36:24.430
+It's a charge of bail jumping for running into the Ecuadorian Embassy in the
+
+00:36:24.630 --> 00:36:30.390
+first place all those years ago for charges that were those on the charges
+
+00:36:30.590 --> 00:36:31.830
+that now no longer exist.
+
+00:36:32.030 --> 00:36:34.630
+Correct. Those charges no longer exist.
+
+00:36:34.830 --> 00:36:36.110
+The sexual assault charges.
+
+00:36:36.310 --> 00:36:37.950
+I did a story for full measure.
+
+00:36:38.150 --> 00:36:40.950
+People can find if they go to fullmeasure.news.
+
+00:36:41.150 --> 00:36:47.190
+And I believe it was titled Shades of Gray that discussed
+
+00:36:47.390 --> 00:36:51.230
+do be a sexual assault charge is basically the weaponization of the Me Too
+
+00:36:51.430 --> 00:36:55.750
+movement, because certainly there's something to be said about women should be
+
+00:36:55.950 --> 00:36:58.870
+should get justice and men should not behave certain ways.
+
+00:36:59.070 --> 00:37:02.190
+We all know that, but there also was this sort of
+
+00:37:02.390 --> 00:37:06.150
+weaponization of the Me Too movement that happened to accuse men who had done
+
+00:37:06.350 --> 00:37:11.710
+nothing wrong or maybe to accuse men who had done something perhaps unethical
+
+00:37:11.910 --> 00:37:15.310
+but not illegal, but to make them out to be criminal.
+
+00:37:15.310 --> 00:37:17.870
+So I did a story on this and included
+
+00:37:18.070 --> 00:37:21.870
+Assange as an example, because there were quite a few people targeted
+
+00:37:22.070 --> 00:37:26.310
+by our intelligence agency and government for doing things our government
+
+00:37:26.510 --> 00:37:30.870
+didn't want them to do like Assange, right, political things that they felt
+
+00:37:31.070 --> 00:37:36.510
+who all ended up with weird kind of sexual abuse or sexual
+
+00:37:36.710 --> 00:37:40.190
+criminal charges against them that were never brought to fruition.
+
+00:37:40.390 --> 00:37:44.430
+But it was enough to destroy and ruin and harm them and make them have
+
+00:37:44.550 --> 00:37:47.030
+to hire lawyers and all of that.
+
+00:37:47.230 --> 00:37:48.390
+It's a distinct pattern.
+
+00:37:48.590 --> 00:37:51.310
+And again, something everybody should be very concerned about,
+
+00:37:51.310 --> 00:37:54.230
+but there wasn't a whole lot of people speaking out against it or about.
+
+00:37:54.430 --> 00:37:56.110
+Oh, you're absolutely right.
+
+00:37:56.310 --> 00:37:57.470
+Absolutely right.
+
+00:37:57.670 --> 00:37:58.870
+This has been a pattern.
+
+00:37:59.070 --> 00:38:03.230
+We've seen it time and time again where where the Justice Department
+
+00:38:03.430 --> 00:38:09.390
+will accuse a person of whatever crime, espionage or mishandling
+
+00:38:09.590 --> 00:38:13.470
+classified information or whatever, but then they'll tack on a charge.
+
+00:38:13.590 --> 00:38:17.630
+Sexual assault, child pornography, right?
+
+00:38:17.830 --> 00:38:21.550
+And then you get to court and then they drop the child pornography charge.
+
+00:38:21.750 --> 00:38:23.630
+It turns out there was no child pornography.
+
+00:38:23.830 --> 00:38:27.990
+They were mistaken and they've done that just over and over and over again
+
+00:38:28.190 --> 00:38:33.910
+because a sexual charge will instantaneously separate you
+
+00:38:34.110 --> 00:38:37.510
+from the people who would be your natural supporters.
+
+00:38:37.710 --> 00:38:39.270
+They isolate you in that way.
+
+00:38:39.470 --> 00:38:41.830
+You can't raise money for your defense in that way.
+
+00:38:42.070 --> 00:38:44.950
+And remember, they have an unlimited budget.
+
+00:38:45.150 --> 00:38:47.270
+So that's how that's how they win their cases.
+
+00:38:47.470 --> 00:38:49.820
+They lie.
+
+00:38:50.020 --> 00:38:52.300
+Well, it's scary, but true.
+
+00:38:52.500 --> 00:38:54.140
+And you and I can both speak to this.
+
+00:38:54.340 --> 00:38:58.060
+So I thank you for telling us about the new product and for updating us on
+
+00:38:58.260 --> 00:39:02.380
+Julian Assange and giving your thoughts on this sort of weaponized
+
+00:39:04.280 --> 00:39:09.120
+system of establishments, agencies and so on that we're living under today.
+
+00:39:09.320 --> 00:39:10.360
+Thank you. Thanks, John.
+
+00:39:10.560 --> 00:39:12.440
+It's a pleasure.
+
+00:39:16.220 --> 00:39:19.060
+In this age of a highly controlled media landscape,
+
+00:39:19.260 --> 00:39:23.140
+it's never been more important to fight the heavy hand of censorship and support
+
+00:39:23.340 --> 00:39:25.060
+truly independent journalism.
+
+00:39:25.260 --> 00:39:30.260
+Go to CherylAxen.com and click on the store tab for a great way to do that.
+
+00:39:30.460 --> 00:39:32.460
+There are all kinds of fun and functional
+
+00:39:32.660 --> 00:39:37.020
+products designed specifically for independent and free thinkers like you,
+
+00:39:37.220 --> 00:39:41.380
+featuring slogans like I tested positive for critical thinking.
+
+00:39:41.580 --> 00:39:44.620
+And I need to find some new conspiracy theories.
+
+00:39:44.620 --> 00:39:46.660
+All my old ones came true.
+
+00:39:46.860 --> 00:39:52.220
+Proceed, support independent journalism causes like the ION awards for off narrative
+
+00:39:52.420 --> 00:39:53.860
+accurate reporting.
+
+00:39:54.060 --> 00:40:07.730
+Go to CherylAxen.com and click the store tab today.
+
+00:40:07.930 --> 00:40:09.290
+Thanks for listening, everybody.
+
+00:40:09.290 --> 00:40:12.530
+I hope you enjoyed today's podcast and that if you did, you'll leave us a
+
+00:40:12.730 --> 00:40:16.290
+great review, subscribe and share it with your friends.
+
+00:40:16.490 --> 00:40:20.330
+Check out my other podcast, Full Measure After Hours.
+
+00:40:20.530 --> 00:40:24.130
+And now you can support independent journalism causes by visiting
+
+00:40:24.530 --> 00:40:27.530
+CherylAxen.com and clicking on the store tab.
+
+00:40:27.730 --> 00:40:29.370
+There are some thought provoking and fun
+
+00:40:29.570 --> 00:40:33.850
+products designed exclusively for independent and free thinkers like you,
+
+00:40:34.050 --> 00:40:38.650
+such as products with a slogan, I need to find some new conspiracy theories.
+
+00:40:38.850 --> 00:40:41.050
+All my old ones came true.
+
+00:40:41.250 --> 00:40:44.650
+Proceeds benefit independent reporting causes.
+
+00:40:44.850 --> 00:40:47.130
+Do your own research, make up your own mind.
+
+00:40:47.330 --> 00:40:48.090
+Think for yourself.
+
