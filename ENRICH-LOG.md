@@ -100,7 +100,22 @@ New this run — thin, high apparent fresh-source counts, no real fuel:
 
 ### Ship status
 
-Build clean (0 bugs, 843 suspicious aliases, 0 dead links, 1054 articles).
+Build clean (0 bugs, 843 suspicious aliases, 0 dead links, 1054 articles). Committed as
+`225d6f2e` and **pushed** — the 160MB-blob blocker recorded in the 2026-08-05 entry is gone,
+the branch is in sync with origin, and no history rewrite was needed. **Deployed and live**;
+all fifteen pages verified by content on www.kiripedia.org, which returns 200. IndexNow
+accepted 122 changed URLs (HTTP 200).
+
+**New deploy blocker, and the fix.** `vercel deploy --prebuilt --prod` failed the first time
+with "File size limit exceeded (100 MB)". The cause is `public/article-mentions-index.json`,
+now 173MB: it is gitignored, but it still sits in `public/`, so Astro copies it into `dist/`
+and from there into `.vercel/output/static/`, and Vercel rejects the deployment on that one
+file. Deleting the two copies out of `dist/` and `.vercel/output/static/` before re-running
+the deploy cleared it, and the source file was left in place because the other routines read
+it. **This will recur on every deploy until the generator stops writing into `public/`.**
+`tools/build-mentions-index.mjs` should write the index somewhere outside the published
+directory; that is a one-line change but it is a code change, so it is flagged here rather
+than made inside an enrichment run.
 
 ---
 
