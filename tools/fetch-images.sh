@@ -20,6 +20,8 @@ CREDITS="$DEST/credits.json"
 # reads as "this is the subject" — 46 biographies were carrying exactly that
 # and were unmapped on 2026-08-05 rather than given a better stand-in.
 MAPPING=(
+  "music-as-torture=Music_in_psychological_operations"
+  "justice-department-self-immolation-attempt=Self-immolation"
   "jim-moran=Jim_Moran"
   "charles-samuels=Charles_E._Samuels_Jr."
   "prison-legal-news=Prison_Legal_News"

@@ -56,7 +56,7 @@ A row disappears on its own once any article cites it, so `written` is belt-and-
 | 36 | pending | 2025-10-11 | Dialogue Works | Charlie Kirk | 45:00 | 6,431 | `2025-10-11-dialogue-works-charlie-kirk-s-story-crumbles-iran` |
 | 37 | pending | 2025-09-06 | Dr. Johann D | Ep.82 — Choosing Truth Over Career | 36:00 | 6,358 | `2025-09-06-ep-82-choosing-truth-over-career` |
 | 38 | pending | 2025-11-20 | American Exception | CIA Veterans & Deep State (w/ Barry Eisler) | 34:00 | 6,338 | `2025-11-20-american-exception-cia-veterans-deep-state-w-barry-eisler` |
-| 39 | pending | 2019-08-24 | Suzi 3D | Suzi 3D | 40:00 | 5,956 | `2019-08-24-suzi-3d-suzi-3d` |
+| 39 | rejected (Susie Dawson fundraiser stream; Kiriakou is praised by other panellists but never speaks) | 2019-08-24 | Suzi 3D | Suzi 3D | 40:00 | 5,956 | `2019-08-24-suzi-3d-suzi-3d` |
 | 40 | pending | 2022-04-22 | Graham Elwood | Kiriakou & Sean O | 33:00 | 5,900 | `2022-04-22-graham-elwood-kiriakou-sean-o-brien-explain-panquake` |
 | 41 | pending | 2025-08-30 | Jamarl Thomas | What | 33:00 | 5,894 | `2025-08-30-jamarl-thomas-what-s-really-happening-in-israel-mossad` |
 | 42 | pending | 2025-09-08 | john brown | historic (his seminal ABC waterboarding interview) but a re-upload; co | 34:00 | 5,722 | `2025-09-08-john-brown-full-2007-abc-interview-historic-his-seminal-abc-waterboarding-interv` |
@@ -64,7 +64,7 @@ A row disappears on its own once any article cites it, so `written` is belt-and-
 | 44 | pending | 2023-01-28 | Kevin Gosztola (The Dissenter) | Every Official Everywhere With Classified Documents | 36:00 | 5,660 | `2023-01-28-kevin-gosztola-every-official-everywhere-with-classified-doc` |
 | 45 | pending | 2020-01-03 | Kevin Gosztola (The Dissenter) | Kevin Gosztola | 36:00 | 5,614 | `2020-01-03-kevin-gosztola-kevin-gosztola` |
 | 46 | pending | 2025-06-03 | Daniel Davis / Deep Dive | Ukraine Drone Strike on Russia | 30:00 | 5,592 | `2025-06-03-daniel-davis-deep-dive-ukraine-drone-strike-on-russia` |
-| 47 | pending | 2021-10-12 | Foreign Correspondents: Deeper into Hitchcock | Episode 25: \ | 33:00 | 5,528 | `2021-10-12-foreign-correspondents-de-episode-25-mr-mrs-smith-1941-feat-olympia-kir` |
+| 47 | rejected (film-studies episode with Olympia Kiriakou on Carole Lombard; John Kiriakou never appears) | 2021-10-12 | Foreign Correspondents: Deeper into Hitchcock | Episode 25: \ | 33:00 | 5,528 | `2021-10-12-foreign-correspondents-de-episode-25-mr-mrs-smith-1941-feat-olympia-kir` |
 | 48 | pending | 2024-05-25 | Leonardo Salvaggio | personal channel, Saudi/9-11 — probe | 36:00 | 5,517 | `2024-05-25-leonardo-salvaggio-personal-channel-saudi-9-11-probe` |
 | 49 | pending | 2021-08-17 | Crossing Faiths | John Pinna & Kiriakou on Afghanistan | 29:00 | 5,467 | `2021-08-17-crossing-faiths-john-pinna-kiriakou-on-afghanistan` |
 | 50 | pending | 2023-01-20 | ScheerPost | ScheerPost | 35:00 | 5,427 | `2023-01-20-scheerpost-scheerpost` |
