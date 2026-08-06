@@ -5,6 +5,105 @@ already sitting in the corpus. One dated section per run.
 
 ---
 
+## 2026-08-06 — 15/15 fattened
+
+Branch: `kiriakou-intake-churn`. Mentions index rebuilt (1049 articles indexed). No carryover
+from the 2026-08-05 run — nothing was left `in-progress`. Candidates were ranked by starvation
+using the article's *distinctive* title terms rather than the raw alias list, because the index's
+generic aliases ("story", "room", "news", "intelligence") produce hundreds of false fresh-source
+hits and put pure noise at the top of the list. The seven articles the previous run logged as
+starving-but-unfuelled were excluded from the pool, as were the fifteen it had already fattened.
+
+| Article | Words before → after | New facts | New sources |
+|---|---:|---:|---:|
+| dianne-feinstein | 118 → 723 | 9 | 8 |
+| dead-drop | 175 → 778 | 7 | 9 |
+| secret-service | 158 → 881 | 10 | 4 |
+| john-bolton | 171 → 710 | 6 | 4 |
+| donald-rumsfeld | 190 → 917 | 8 | 8 |
+| bill-binney | 256 → 710 | 7 | 5 |
+| consortium-news | 253 → 801 | 7 | 5 |
+| sam-adams-award | 252 → 609 | 6 | 2 |
+| pflp | 170 → 847 | 8 | 7 |
+| jake-tapper | 220 → 743 | 7 | 6 |
+| home-confinement | 290 → 810 | 7 | 6 |
+| learned-helplessness | 198 → 715 | 7 | 5 |
+| american-psychological-association | 242 → 746 | 5 | 2 |
+| kiriakou-greek-citizenship | 229 → 589 | 5 | 4 |
+| senior-intelligence-service | 271 → 912 | 8 | 6 |
+
+Every article cleared the floor (≥3 new sourced facts from ≥2 distinct new sources). Nothing
+left `in-progress`.
+
+### Best finds
+
+- **senior-intelligence-service** — the article had the promotion rule but none of the politics.
+  Added: John Brennan being told by his own supervisor that he would never make the service and
+  being fired on the spot, six weeks from unemployment, landing on the PDB staff because it was
+  Christmas and that was the only job open; the service as the room where the torture techniques
+  were actually written, with Mitchell and Jessen, before the package went to the White House,
+  Justice, and back for signature; and the tenure argument — career officers with twenty to
+  forty-two years in place who wait presidents out, decline covert action as "too dangerous", or
+  answer an order to focus on China with "yeah, we'll get right on that" and ignore it.
+- **dead-drop** — the Tysons Corner failure, which was missing entirely. Kiriakou's only
+  criticised exercise at the Farm: a perfect fake key-rock site, a clean surveillance detection
+  route, and then a stairwell door repainted in glossy paint during the week between choosing the
+  signal site and marking it. The chalk crumbled, the agent never learned the drop was made, and
+  surveillance watched him scraping at a door "like a crazy person" — in a hostile environment,
+  arrest and expulsion.
+- **secret-service** — the Butler rally in operational detail rather than as a one-line verdict:
+  Kiriakou grew up walking distance from those fairgrounds and went every year; external building
+  coverage was outsourced to the county sheriff's department; no drone coverage, when drones had
+  been standard on layered perimeters at Bagram for a decade; and no shared radio net, so a cop
+  who sees a shooter has to go cop → his dispatch → Secret Service dispatch → agents.
+- **dianne-feinstein** — the Haspel reversal, previously absent: she blocked Haspel's promotion
+  in 2013 over the secret site, then told Politico in 2018 she had great respect for her, the
+  only intervening change being a dinner.
+
+### Attribution decisions
+
+- **DeProgram** (Ted Rall and Jamarl Thomas plus guest) carries no speaker labels and has three
+  voices. A substantial passage about Jake Tapper's 2025 Biden book — the "politburo" of five
+  insiders, Beau Biden's death in 2015, the Pelosi meeting one week into the presidency, "Jill
+  Biden is Lady Macbeth" — could not be attributed to Kiriakou with confidence and was cut rather
+  than guessed. It is worth revisiting if a labelled telling of the same material turns up.
+- **american-psychological-association** — the corpus's only real account of the APA's own
+  collusion (the PENS task force, the behavioural science consultant teams, the membership
+  referendum, the Hoffman report) is the psychologist Brad Olson speaking at a November 2015
+  event where Kiriakou also spoke. It is included under an explicit heading marking it as not
+  Kiriakou's testimony and outside the single-source canon, following the precedent set for
+  national-security-agency in the previous run.
+- **sam-adams-award** — the "Sam Adams project" the FBI suspected Kiriakou of sourcing is an
+  ACLU Guantánamo defence effort, unrelated to the award or the Associates. The name is retained
+  as the captions render it and flagged in the article, per doctrine rule 5.
+- Contradictions were preserved rather than smoothed: Kiriakou's day-seven / day-nine / day-twelve
+  figures for sleep-deprivation damage vary between tellings, and his home-confinement accounts
+  give both 87 statutory days and "every last day of the 23 months" in the cell. Both are stated.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+Still true from the 2026-08-05 run and not re-attempted: ethan-mccord-collateral-murder (and its
+false citation, still unfixed), katherine-gun, peter-thiel, marble-framework, miranda-rights,
+afghan-war-logs, todd-blanch.
+
+New this run — thin, high apparent fresh-source counts, no real fuel:
+
+- **advanced-counterterrorism-operations** (197 words) and
+  **advanced-counterterrorism-operations-course** (237 words) — both rank near the top of every
+  starvation list purely because their titles end in generic words. The two are near-duplicates
+  of each other and should probably be merged rather than enriched.
+- **chaos-computer-club-wikileaks** (74 words), **afghan-languages** (64 words),
+  **ai-whistleblower-initiative** (62 words) — the index's fresh counts come from matching
+  "wikileaks", "languages" and "initiative" across the whole corpus. Nothing subject-specific.
+- **bay-path-university** (55 words) and **restraint-camp** (52 words) — the two thinnest
+  articles in the pool. Single passing mentions in the corpus; they need new sources.
+
+### Ship status
+
+Build clean (0 bugs, 843 suspicious aliases, 0 dead links, 1054 articles).
+
+---
+
 ## 2026-08-05 — 15/15 fattened
 
 Branch: `kiriakou-intake-churn`. Mentions index rebuilt; candidates ranked by
