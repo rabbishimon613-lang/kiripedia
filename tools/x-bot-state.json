@@ -430,7 +430,8 @@
     "dyk:chelsea-manning:1",
     "quote:jeffrey-epstein:32",
     "otd:presidents-daily-brief:2001-08-06",
-    "dyk:lebanon-israeli-conflict:0"
+    "dyk:lebanon-israeli-conflict:0",
+    "quote:brian-ross:5"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1052,10 +1053,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "dyk",
     "quote",
     "otd",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
