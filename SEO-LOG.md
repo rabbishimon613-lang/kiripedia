@@ -836,3 +836,204 @@ CDN; if it is not fetched by the browser it should be moved out of `public/`
 and gitignored, after which the six commits still need rewriting or squashing
 before any push will succeed. Until then KiriPedia's source history is
 diverging from GitHub — **production is fine, the backup is not**.
+
+---
+
+## 2026-08-06 — nightly sweep
+
+### The numbers, as read
+
+**Google Search Console** (last 3 months, data through 2026-08-04):
+
+| | this run | last run | move |
+|---|---|---|---|
+| Clicks | 116 | 112 | +4 |
+| Impressions | 5.84K | 5.54K | +300 |
+| Average CTR | 2% | 2% | flat |
+| Average position | 16.4 | 16.6 | +0.2 better |
+
+The daily impressions curve is the real story: it sat near 50/day through June
+and now runs 150–190/day. Growth is coming from corpus size, not from ranking
+improvements — position has barely moved.
+
+**Indexing report:** 1.44K indexed, 499 not indexed, across 7 reasons:
+
+| reason | pages |
+|---|---|
+| Alternate page with proper canonical tag | 340 |
+| Crawled - currently not indexed | 92 |
+| Discovered - currently not indexed | 57 |
+| Page with redirect | 4 |
+| Not found (404) | 3 |
+| Excluded by 'noindex' tag | 2 |
+| Soft 404 | 1 |
+
+The 340 "alternate page with proper canonical tag" is **the trailing-slash
+consolidation working as designed** — Google now sees the slash-less URLs as
+alternates of the canonical ones rather than as competing duplicates. This is
+the outcome the last three sweeps were waiting on, and it has arrived. Nothing
+further to do on that front.
+
+Crawled/Discovered-not-indexed together are 149 on a 1,900-page surface. That
+is a normal tail for a corpus growing ~27 articles a day, not a crawl-budget
+emergency. Noted for trend; nothing noindexed this run.
+
+**Vercel Analytics** (Last 30 Days):
+
+| | value | change |
+|---|---|---|
+| Visitors | 767 | +167% |
+| Page Views | 3,709 | +153% |
+| Bounce rate | 77% | +22% |
+
+- **Top landing pages:** `/` (166), `/wiki/bob-grenier` (70),
+  `/wiki/nordstream-pipeline-sabotage` (38), `/wiki/alan-dershowitz` (32),
+  `/category/people` (25), `/wiki/hummus` (24), `/wiki/john-kiriakou` (23).
+- **Referrers:** google.com 341, duckduckgo.com 82, bing.com 22, reddit.com 9,
+  chatgpt.com 8, search.brave.com 3, search.yahoo.com 3.
+- **Countries:** US 73%, UK 5%, Canada 3%, Germany 2%, Netherlands 2%.
+- **Devices:** desktop 61%, mobile 38%.
+- *Read the visitor figure with suspicion:* GNU/Linux is 32% of operating
+  systems, ahead of iOS, Windows and Mac. That is not a plausible human mix for
+  a general-interest wiki and strongly suggests a meaningful share of the +167%
+  is crawler traffic that Vercel is counting as visitors. **Search Console
+  clicks (116) are the trustworthy number; Vercel visitors are not.** Recorded
+  so future runs don't celebrate a bot wave.
+
+**Corpus audit** (`node tools/seo-daily.mjs`):
+
+```
+articles               1002  (+27)      withSeoTitle            58  (+8)
+orphans                 152  (+2)       withDeck                75  (+5)
+thin                    399  (-6)       grounded               327
+veryThin                107  (-15)      relatedBlocksRendered  999  (+27)
+noindexed                 0             relatedOrphans           0
+clampedSnippets         869  (+26)
+```
+
+### The working queue, and what happened to it
+
+**Top pages by impressions with zero or near-zero clicks** (3-month window):
+
+| page | impressions | clicks |
+|---|---|---|
+| `/wiki/hummus/` | 371 | 6 |
+| `/wiki/gust-avrakotos/` | 284 | 3 |
+| `/wiki/hummus` (slash-less) | 257 | 3 |
+| `/wiki/afghan-languages/` | 221 | **0** |
+| `/wiki/kuwait-oil-fires/` | 101 | **0** |
+| `/wiki/sheikh-saad-al-abdullah/` | 89 | **0** |
+| `/wiki/remains-of-the-day-book/` | 86 | **0** |
+| `/wiki/john-mccain/` | 82 | **0** |
+| `/wiki/doing-time-like-a-spy/` | 65 | **0** |
+| `/wiki/three-saudi-princes/` | 59 | **0** |
+| `/wiki/carlos-the-jackal/` | 59 | **0** |
+| `/wiki/abu-zubaydah/` | 53 | **0** |
+
+**Every single one of these already has a purpose-written `seoTitle` and
+`deck`.** All twelve were checked directly in frontmatter. The impression-ranked
+queue that drove the last three sweeps is now fully treated, and this is the
+first run where that is true.
+
+So the queue was rebuilt from a different signal — pages with **real traffic or
+heavy internal linkage but no purpose-written title at all**. Vercel's landing
+pages supplied the top three; `seo-daily`'s inbound-link ranking supplied the
+rest.
+
+### Changed — 13 new titles and decks
+
+Each is grounded in the article's own `summary`, i.e. in something Kiriakou
+actually said. No fact was invented to sharpen a title. Lengths verified: all
+`seoTitle` ≤ 45 chars, all `deck` ≤ 156.
+
+| slug | why it was picked | new title tag |
+|---|---|---|
+| `bob-grenier` | 70 Vercel visitors, top article | Bob Grenier: CIA's Islamabad station chief |
+| `nordstream-pipeline-sabotage` | 38 visitors | Who blew up Nord Stream? A CIA view |
+| `alan-dershowitz` | 32 visitors | Alan Dershowitz and Jeffrey Epstein |
+| `julian-assange` | 39 inbound, 4,777 words | Julian Assange: a publisher, not a spy |
+| `revolutionary-organization-17-november` | 25 inbound | 17 November: Greece's deadliest terror group |
+| `asset-acquisition-cycle` | 24 inbound | How the CIA recruits a spy: the four steps |
+| `osama-bin-laden` | 23 inbound | Osama bin Laden, per a CIA officer |
+| `surveillance-detection-route` | 22 inbound | Surveillance detection route: how it works |
+| `iran-12-day-war` | 18 inbound | Israel's 12-day war on Iran, 2025 |
+| `vault-7` | 16 inbound | Vault 7: what the CIA leak revealed |
+| `mitchell-and-jessen` | 15 inbound | Mitchell and Jessen: who designed CIA torture |
+| `waterboarding` | 15 inbound | Waterboarding: a crime before 2002 |
+| `fbi` | 35 inbound | The FBI, seen from inside the CIA |
+
+### Verified
+
+- `npm run build` → **`Total: 0 bugs, 836 suspicious, 0 dead.`**
+- **URL shape held:** the slash-less-internal-link grep prints **0**. The
+  normalizer in `tools/astro-trailing-slash.mjs` has not regressed.
+- **Related blocks:** 1,052 articles, 850 rescue links, **0 with no inbound
+  related-link**, 3 with an empty block. The intake batch did not re-orphan.
+- **Build completeness checked against source** (flaky-drive rule): 1,035
+  source articles → 1,049 built wiki pages → 1,873 sitemap URLs. Surplus, not
+  deficit; no dropped writes.
+- **noindex, all 53 accounted for:** 48 are redirect stubs (correctly
+  `noindex` + canonical pointing at the destination article) and 5 are utility
+  pages (`/search`, `/random`, `/needs-image`, `/on-this-day`,
+  `/special/all-pages`). **Zero accidental noindex.**
+- **robots.txt** unchanged and correct: opens everything, disallows only
+  `/search`, explicitly welcomes the AI crawlers, declares the sitemap index.
+- **Structured data:** the treated pages emit Article + BreadcrumbList +
+  WebSite + Organization + ImageObject; all JSON-LD blocks parse clean.
+- Live spot-checks on `www.kiripedia.org` after deploying confirm the new
+  titles serve (`vault-7`, `julian-assange`, `bob-grenier`, `waterboarding`).
+
+### Found, not changed — with reasons
+
+- **`/wiki/afghan-languages/` is the single biggest miss on the site: 221
+  impressions, 0 clicks — and it is not a metadata problem.** Its title
+  ("What languages are spoken in Afghanistan?") and deck are already well
+  targeted at the queries surfacing it ("afghanistan language" 47,
+  "afghan language" 23). The page is **147 words**. It ranks badly and converts
+  nothing because it is thin, and under single-source doctrine it cannot be
+  fattened — the article contains everything Kiriakou said on the subject,
+  which is one exchange with Reality Winner. Left alone deliberately. If it
+  never converts, that is the correct outcome, not a defect.
+- **The hummus split is resolving on its own.** `/wiki/hummus/` now carries 371
+  impressions to the slash-less `/wiki/hummus`'s 257, having been behind on the
+  last sweep. The 340 correctly-canonicalised alternates confirm the mechanism.
+  No action.
+- **Standing items, unchanged:** 869 clamped snippets, 152 wikilink orphans,
+  836 suspicious wikilinks, 399 thin articles. These track corpus growth; the
+  high-traffic slice is what gets closed first, and this run closed 13 of it.
+- **The 160 MB blob that blocked `git push` on the last three sweeps is
+  resolved** — `public/article-mentions-index.json` is now gitignored and
+  untracked, and the branch had only one unpushed commit at the start of this
+  run. Not this routine's fix, but recording that the blocker is gone.
+
+### Deployed
+
+**Yes — live and verified on `www.kiripedia.org`.**
+
+- `vercel build --prod && vercel deploy --prebuilt --prod --archive=tgz`,
+  aliased to `www.kiripedia.org`. The `--archive=tgz` flag was used directly,
+  per the last sweep's note; no upload-cap failure this time.
+- **IndexNow: 109 new-or-changed URLs submitted, HTTP 200.**
+
+**One retry was needed, and the cause is worth recording.** The first
+`vercel build --prod` failed with
+`ENOENT ... public/images/ethan-mccord-collateral-murder.jpg`. That file is
+present on disk (487 KB, dated 2026-08-04) and the same `npm run build` had
+succeeded minutes earlier. **This is the EOS_DIGITAL drive dropping a read
+under load, not a missing asset.** The retry succeeded with no change to the
+tree. Future runs hitting an ENOENT on an image that demonstrably exists should
+simply retry rather than investigate the intake routine.
+
+### Blocked — needs the user
+
+Unchanged, and repeated every run until fixed:
+
+- **Backlinks remain the entire ceiling.** Position 16.4 and a 2% CTR are what
+  a site with ~18 links from one Reddit thread gets, no matter how good the
+  titles are. Every metadata lever this routine can pull is now pulled on the
+  whole high-traffic slice; the next order of magnitude has to come from
+  someone linking to the site. **Kiriakou sharing it himself is the single
+  highest-value unlock available.**
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia**, for the Organization `sameAs` (carried
+  from 2026-07-09).

@@ -1,14 +1,14 @@
 {
-  "date": "2026-08-05",
-  "articles": 975,
-  "orphans": 150,
-  "thin": 405,
-  "veryThin": 122,
+  "date": "2026-08-06",
+  "articles": 1002,
+  "orphans": 152,
+  "thin": 399,
+  "veryThin": 107,
   "noindexed": 0,
-  "withSeoTitle": 50,
-  "withDeck": 70,
+  "withSeoTitle": 58,
+  "withDeck": 75,
   "grounded": 327,
-  "relatedBlocksRendered": 972,
+  "relatedBlocksRendered": 999,
   "relatedOrphans": 0,
-  "clampedSnippets": 843
+  "clampedSnippets": 869
 }
