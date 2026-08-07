@@ -1037,3 +1037,205 @@ Unchanged, and repeated every run until fixed:
 - **Bing Webmaster Tools** signup (carried from 2026-07-09).
 - **A Wikidata item for KiriPedia**, for the Organization `sameAs` (carried
   from 2026-07-09).
+
+---
+
+## 2026-08-07 — nightly sweep
+
+### The numbers, as read
+
+**Google Search Console** (last 3 months, data through 2026-08-04):
+
+| | this run | last run | move |
+|---|---|---|---|
+| Clicks | 116 | 116 | flat |
+| Impressions | 5.84K | 5.84K | flat |
+| Average CTR | 2% | 2% | flat |
+| Average position | 16.4 | 16.4 | flat |
+
+**These are not four separate measurements that happened to land identically —
+Search Console has not refreshed since the last sweep.** The window still ends
+2026-08-04, the same day it ended yesterday, and the indexing report below is
+identical to the last run in all seven of its reason counts. Treat this run as
+having **no fresh Google data**, not as a run where nothing moved. The next
+sweep should be the first with a genuinely new window.
+
+**Indexing report:** 1.44K indexed, 499 not indexed — every reason count
+unchanged from 2026-08-06 (340 alternate-canonical, 92 crawled-not-indexed,
+57 discovered-not-indexed, 4 redirect, 3 not-found, 2 noindex, 1 soft 404).
+Nothing to read into it this run for the reason above.
+
+**Vercel Analytics (Last 30 Days):**
+
+| | this run | last run |
+|---|---|---|
+| Visitors | 782 (+161%) | 767 (+167%) |
+| Page Views | 3,492 (+82%) | 3,709 (+153%) |
+| Bounce rate | 78% (+23%) | 77% (+22%) |
+
+- **Top landing pages:** `/` (165), `/wiki/bob-grenier` (70),
+  `/wiki/nordstream-pipeline-sabotage` (38), `/wiki/alan-dershowitz` (32),
+  `/wiki/hummus` (25), `/category/people` (24), `/wiki/gust-avrakotos` (21).
+- **Referrers:** google.com 341, duckduckgo.com 85, bing.com 27, reddit.com 9,
+  chatgpt.com 8, search.yahoo.com 5, search.brave.com 3.
+- **Countries:** US 73%, UK 5%, Canada 3%, Netherlands 2%, Germany 2%.
+
+**The bot-wave caveat from the last sweep now has an end date.** Over 30 days
+GNU/Linux is still 31% of operating systems — the same implausible mix that made
+the +167% untrustworthy. But over the **last 7 days** the mix is iOS 32%,
+Windows 24%, Android 18%, Mac 17%, GNU/Linux 9%, which is what a general-interest
+wiki's audience actually looks like. The crawler wave sits in the older part of
+the 30-day window and has passed. The 7-day figures — **164 visitors (+21%),
+325 page views (+37%), 76% bounce** — are the ones worth believing, and the
+useful consequence is that the next sweep's 30-day number will drop as the wave
+ages out. **That drop will not be a regression.** Recorded now so it isn't
+misread later.
+
+Also worth noting from the 7-day landing pages: `/wiki/angry-birds`,
+`/wiki/kiriakou-prison-designation` and `/wiki/kiriakou-prison-manipulation-tactics`
+each pulled 6 visitors. Those are recent intake articles earning real traffic
+with no purpose-written metadata at all. They went to the top of this run's queue.
+
+**Corpus audit** (`node tools/seo-daily.mjs`):
+
+```
+articles               1146  (+144)     withSeoTitle            71  (+13)
+orphans                 154  (+2)       withDeck                88  (+13)
+thin                    394  (-5)       grounded               328  (+1)
+veryThin                104  (-3)       relatedBlocksRendered 1143  (+144)
+noindexed                 0             relatedOrphans           0
+clampedSnippets        1005  (+136)
+```
+
+**+144 articles in one day** — by a distance the largest single-day intake in the
+site's history, from the source-squeeze pass. Related-block coverage absorbed all
+144 without re-orphaning a single one.
+
+### The working queue
+
+The impression-ranked queue is still fully treated — every page in the
+Search Console top 20 by impressions already carries a purpose-written
+`seoTitle` and `deck`, including the eleven checked directly this run
+(`saddam-hussein`, `cofer-black`, `the-farm`, `curveball`, `moral-injury`,
+`john-mccone`, `mary-margaret-graham`, `lincolns-last-turd`,
+`ali-hassan-al-majid`, `kuwait-invasion-intelligence`,
+`david-rockefeller-bahrain`). So the queue was built the same way as the last
+sweep: **real traffic first, then inbound linkage.**
+
+Top pages by impressions with zero or near-zero clicks, for the record:
+
+| page | impressions | clicks |
+|---|---|---|
+| `/wiki/hummus/` | 371 | 6 |
+| `/wiki/gust-avrakotos/` | 284 | 3 |
+| `/wiki/hummus` (slash-less) | 257 | 3 |
+| `/wiki/afghan-languages/` | 221 | **0** |
+| `/wiki/kuwait-oil-fires/` | 101 | **0** |
+| `/wiki/sheikh-saad-al-abdullah/` | 89 | **0** |
+| `/category/procedures` | 88 | 1 |
+| `/wiki/remains-of-the-day-book/` | 86 | **0** |
+| `/wiki/john-mccain/` | 82 | **0** |
+| `/category/people/` | 77 | **0** |
+| `/wiki/doing-time-like-a-spy/` | 65 | **0** |
+| `/wiki/abdul-rashid-dostum/` | 58 | **0** |
+| `/wiki/curveball/` | 39 | **0** |
+| `/wiki/moral-injury/` | 36 | **0** |
+
+### Changed — 14 new titles and decks
+
+Each grounded in the article's own `summary`, i.e. in something Kiriakou
+actually said. No fact was invented to sharpen a title. All `seoTitle` ≤ 46
+chars, all `deck` ≤ 154.
+
+| slug | why it was picked | new title tag |
+|---|---|---|
+| `kiriakou-prison-designation` | 6 visitors, 7-day | The prison John Kiriakou wasn't sentenced to |
+| `kiriakou-prison-manipulation-tactics` | 6 visitors, 7-day | Running CIA tradecraft inside a federal prison |
+| `angry-birds` | 6 visitors, 7-day | Angry Birds: John Kiriakou's only vice |
+| `solitary-confinement` | 23 inbound | Solitary confinement: ten days in a cell |
+| `yemen` | 19 inbound, 2,371 words | Yemen, on five trips with the CIA |
+| `italians-at-loretto` | 19 inbound | How the mafia adopted John Kiriakou |
+| `iran-nuclear-assessment` | 18 inbound, 4,840 words | Did Iran have a nuclear weapons program? |
+| `thomas-drake` | 17 inbound | Thomas Drake: 'waiting for a 9/11' |
+| `counterterrorism-center` | 17 inbound | Inside the CIA Counterterrorism Center |
+| `mk-ultra` | 16 inbound, 4,274 words | MK-Ultra: LSD, brothels and burned files |
+| `jose-rodriguez` | 16 inbound | Jose Rodriguez: a good guy, in his own mind |
+| `kiriakou-pardon-request` | 15 inbound | Will Trump pardon John Kiriakou? |
+| `pakistan-station-2002` | 15 inbound | Landing in Islamabad, January 2002 |
+| `palantir` | 15 inbound | Palantir and the CIA: how close? |
+
+`mk-ultra` is the one with independent demand behind it: the source transcript
+`/sources/2026-06-16-julian-dorey-daily-mkultra-twin-experiment/` is pulling 44
+impressions on its own, and the article it feeds had no title of its own until
+tonight.
+
+### Verified
+
+- `npm run build` → **`Total: 0 bugs, 947 suspicious, 0 dead.`**
+- **URL shape held:** the slash-less-internal-link grep prints **0**. The
+  normalizer in `tools/astro-trailing-slash.mjs` has not regressed, and it
+  survived a 144-article intake.
+- **Related blocks:** 1,146 articles, 873 rescue links, **0 with no inbound
+  related-link**, 3 with an empty block. No hand-linking needed.
+- **Build completeness checked against source** (flaky-drive rule): 1,146
+  source articles → 1,193 built wiki pages → 2,027 sitemap URLs. Surplus, not
+  deficit; no dropped writes.
+- **noindex, all 53 accounted for:** 48 redirect stubs and the same 5 utility
+  pages (`/search`, `/random`, `/needs-image`, `/on-this-day`,
+  `/special/all-pages`). **Zero accidental noindex.**
+- **Canonicals and structured data:** treated pages emit Organization + WebSite,
+  Article, Thing and BreadcrumbList; all JSON-LD parses clean; canonical is the
+  trailing-slash form.
+- Live spot-checks on `www.kiripedia.org` after deploying confirm the new
+  titles serve (`mk-ultra`, `solitary-confinement`, `palantir`,
+  `kiriakou-pardon-request`).
+
+### Found, not changed — with reasons
+
+- **`/wiki/abdul-rashid-dostum/` collects 58 impressions but is a redirect, not
+  a page.** `astro.config.mjs` 301s it to `/wiki/general-dostum/`, which already
+  has a purpose-written title and deck. Google is still attributing the
+  impressions to the old URL and has not consolidated them yet. Nothing to fix —
+  a searcher clicking it lands on the real article. Recorded so a future sweep
+  doesn't go looking for a missing `abdul-rashid-dostum.mdx`.
+- **`/wiki/afghan-languages/` remains the single biggest miss: 221 impressions,
+  0 clicks.** Unchanged from the last sweep and unchanged for the same reason —
+  it is a 147-word article that says everything Kiriakou said on the subject
+  (one exchange with Reality Winner), and single-source doctrine forbids
+  fattening it. The query cluster behind it is now 78 impressions
+  ("afghanistan language" 47, "afghan language" 23, "language of afghanistan" 8).
+  Still the correct outcome, not a defect.
+- **Three query clusters are all pointed at already-treated pages** and need no
+  work: the Kuwait oil fires cluster (15+14+12+11+11+7 = 70 impressions), the
+  *Remains of the Day* cluster (40+10+10+7 = 67), and the Dostum cluster
+  (13+10+8 = 31). Each has a page with a written title; each converts at zero.
+  This is a ranking problem, not a metadata problem — see the blocked section.
+- **New query signals worth watching, no action yet:** "consortium news" (12),
+  "jean gately cia" (9, and `/wiki/jean-gately/` is converting at 6 clicks from
+  36 impressions — the best CTR on the site), "john kiriakou moral injury" (8),
+  "greater tunb" (7).
+- **Standing items, unchanged:** 1,005 clamped snippets, 154 wikilink orphans,
+  947 suspicious wikilinks, 394 thin articles. All track corpus growth. The
+  suspicious count rose with the 144-article intake, as expected.
+
+### Deployed
+
+**Yes — live and verified on `www.kiripedia.org`.**
+
+- `vercel build --prod && vercel deploy --prebuilt --prod --archive=tgz`.
+  No retry needed this run; the drive did not drop an image read.
+- **IndexNow: 103 new-or-changed URLs submitted, HTTP 200.**
+
+### Blocked — needs the user
+
+Unchanged, and repeated every run until fixed:
+
+- **Backlinks remain the entire ceiling.** Position 16.4 at 2% CTR is what a
+  site with ~18 links from one Reddit thread gets. Every page in the
+  impression-ranked queue now has a hand-written title; three separate query
+  clusters rank and convert nothing anyway. There is no metadata lever left to
+  pull on them. **Kiriakou sharing the site himself is still the single
+  highest-value unlock available.**
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia**, for the Organization `sameAs` (carried
+  from 2026-07-09).
