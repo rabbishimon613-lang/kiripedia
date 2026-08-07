@@ -1,11 +1,11 @@
 ---
 slug: "2026-05-14-fox-news-you-liar-former-cia-official-calls-fauci-s-pa"
-title: "'YOU LIAR': Former CIA official calls Fauci's pardon 'unacce"
+title: "'YOU LIAR': Former CIA official calls Fauci's pardon 'unacceptable'"
 show: "Fox News"
 date: "2026-05-14"
 url: "https://youtu.be/egmGLaf76DM"
 videoId: "egmGLaf76DM"
-duration: "4.6:00"
+duration: "04:37"
 captionSource: auto
 paragraphs: 9
 sponsor_paragraphs_stripped: 0

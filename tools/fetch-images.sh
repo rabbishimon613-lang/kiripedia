@@ -978,6 +978,7 @@ MAPPING=(
   "kiriakou-on-diet-and-nutrition=Nutrition"
   "kiriakou-on-greek-and-cypriot-food=Halloumi"
   "three-legal-ways-to-enter-a-country=United_Nations_Security_Council"
+  "anthony-fauci=Anthony_Fauci"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.
