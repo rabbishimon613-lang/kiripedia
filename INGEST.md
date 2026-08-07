@@ -102,7 +102,7 @@ Spec format:
 node tools/build-mentions-index.mjs
 ```
 
-Then inspect `public/article-mentions-index.json` for `uncited_mentions` on new article slugs. If meaty cross-source material exists, add it via `_enrich` in the same JSON spec. Skip if noisy.
+Then inspect `.kir-mentions-index.json` for `uncited_mentions` on new article slugs. If meaty cross-source material exists, add it via `_enrich` in the same JSON spec. Skip if noisy.
 
 ### 8. Finalize + ship
 

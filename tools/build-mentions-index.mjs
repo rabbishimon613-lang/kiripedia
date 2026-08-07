@@ -6,7 +6,10 @@
 // this article" vs "uncited" — the uncited list is the enrichment-candidate
 // pool.
 //
-// Output: public/article-mentions-index.json
+// Output: .kir-mentions-index.json
+//   (Repo-root scratch, not public/. This file runs to ~175MB, and anything
+//   under public/ is copied into dist/ and then into the Vercel build output,
+//   where a single file over 100MB fails the prebuilt upload outright.)
 //   {
 //     "<slug>": {
 //       "title": "...",
@@ -237,14 +240,14 @@ for (const [slug, art] of Object.entries(articles)) {
   };
 }
 
-writeFileSync('public/article-mentions-index.json', JSON.stringify(index, null, 2));
+writeFileSync('.kir-mentions-index.json', JSON.stringify(index, null, 2));
 
 // ---- Report ----------------------------------------------------------------
 const slugs = Object.keys(index).sort((a, b) =>
   index[b].uncited_mention_count - index[a].uncited_mention_count
 );
 
-console.log(`\nWrote public/article-mentions-index.json — ${slugs.length} articles indexed.\n`);
+console.log(`\nWrote .kir-mentions-index.json — ${slugs.length} articles indexed.\n`);
 console.log(`Top 25 articles by uncited mention count:\n`);
 console.log(`${'slug'.padEnd(36)} ${'uncited'.padStart(8)} ${'cited srcs'.padStart(11)} ${'uncited srcs'.padStart(14)}`);
 console.log('-'.repeat(75));

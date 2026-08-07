@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 // Usage: node tools/enrich-pull.mjs <slug> [maxPassages]
 // Prints the article's uncited transcript passages with full surrounding context,
-// so an editor can weave them in. Reads public/article-mentions-index.json.
+// so an editor can weave them in. Reads .kir-mentions-index.json.
 import fs from 'node:fs';
 
 const slug = process.argv[2];
 const max = Number(process.argv[3] || 14);
-const idx = JSON.parse(fs.readFileSync('public/article-mentions-index.json', 'utf8'));
+const idx = JSON.parse(fs.readFileSync('.kir-mentions-index.json', 'utf8'));
 const entry = idx[slug];
 if (!entry) { console.error('no index entry for ' + slug); process.exit(1); }
 

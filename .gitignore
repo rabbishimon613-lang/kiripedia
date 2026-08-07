@@ -21,5 +21,8 @@ sonnet writeups/
 .kir-morning/
 .kir-indexnow-state.json
 
-# 160MB generated mentions index — regenerate with tools/build-mentions-index.mjs
+# ~175MB generated mentions index — regenerate with tools/build-mentions-index.mjs.
+# Must stay OUT of public/: anything there is copied into dist/ and the Vercel
+# build output, and one file over 100MB fails the prebuilt upload.
+.kir-mentions-index.json
 public/article-mentions-index.json
