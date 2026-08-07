@@ -295,3 +295,147 @@ own working definition); `trump-cartel-terrorist-designation`; `bashar-al-assad`
 understanding); `sanctions-effectiveness`; `operation-paperclip`; `israel-united-states-relations`;
 `venezuela-regime-change-2026` (Cuba next); `kiriakou-transfer-to-operations` (*"you are always
 going to be the good cop"*).
+
+---
+
+## 2026-08-07 — platforms, the widened-feed seam, and the show-name dedupe trap
+
+**Result: 12 new sources transcribed into the corpus; 10 of them written into the encyclopedia.**
+Target met, but only just, and the attrition is the story: of 21 items that entered the day as
+live candidates, **7 were duplicates of material already in the corpus** and none of them
+deduped by videoId, by show name, or by title.
+
+### Headline: the dedupe every previous dig has been getting wrong
+
+Vet by **date + duration** against `ls src/content/sources/` FIRST, and only then by name.
+Two distinct failure modes, both of which passed silently through yesterday's vetting:
+
+1. **One taping, two show names (same network).** The Ironclad network publishes the same
+   recording under multiple brands. `Borderland: Narcosis` 2025-04-07 (61m) *is*
+   `2025-04-07-ironclad`; `Change Agents with Andy Stumpf` 2025-05-28 (61m) *is*
+   `2025-05-28-ironclad-hidden-terror-program`. Both were queued yesterday as fresh finds.
+2. **The feed carries the SHOW name; the corpus carries the HOST name.** `Dream Out Loud` #363
+   is corpus `2026-05-05-morgan-nelson-cia-whistleblower` — same date, identical title.
+   `Straight Talk with Mark Bouris` is corpus `2026-03-25-mark-bouris-…`. Grepping `show:`
+   across the corpus finds neither, because the corpus never recorded the show name.
+
+I caught the first one only by accident, at the editorial stage, after paying the full whisper
+cost — the article I was about to weave into already cited `2025-04-07-ironclad`.
+
+### Angles worked
+
+| Angle | Status | Yield |
+|---|---|---|
+| Ledger head start (10 `queued` + 5 `candidate` rows from 2026-08-06) | worked | **4 dups, 1 wrong-guest reject**; the rest ingested |
+| `find-new-kiriakou-videos.mjs` baseline | worked | 149 videos, 6 searches, **0 new candidates**. Third consecutive dry run — the floor is dead. |
+| **Corpus transcript mining for show/host names** (new) | worked | Grepped all 1,110 sources for `on the X show/podcast`. Almost pure noise — he *references* Maddow, O'Reilly, Rogan and Tucker far more often than he reports his own bookings. The one lead (Dr. Phil) was already held 13 times over. **Low-yield; do not re-run.** |
+| **Rumble** (platform never opened) | worked | 321 results / 305 Kiriakou-titled over 3 queries × 5 pages. **Rumble is a mirror layer, not a source** — Tucker, Rogan, Dorey, DeProgram and Deep Focus re-uploads plus re-upload farms (TheWarAgainstYou, Free Your Mind, crashingthunder, Truths Unlimited, Goodstuf, pepperpeep). Three Rumble-*native* shows found; one ingested. |
+| **C-SPAN** (never opened) | worked | **The find of the day.** 5 results, of which `After Words with John Kiriakou`, 2010-04-23, 61m — Book TV's one-on-one author programme from the *Reluctant Spy* tour, interviewed by **Frederick Hitz, the CIA's own former Inspector General**. In no ledger. Also surfaced `Law and Morality of Interrogation` (2008-10-30), a **pre-whistleblowing** appearance — panel, so doctrine-rejected, but worth knowing it exists. |
+| **Odysee / LBRY** (never opened) | worked | 30 results via the `claim_search` JSON-RPC. RT re-uploads of his own show, Next News Network clips, a Portuguese dub, Cleared Hot and Dorey re-uploads. **0 new.** |
+| **Dailymotion** (never opened) | worked | 30 results, 3 over 40m. The one lead — Insider's 279m *"How 6 Secretive Government Roles Actually Work"* — is a six-person compilation. **0 new.** |
+| **Vimeo** (never opened) | attempted | Search is JS-rendered; plain fetch returns nothing. **Unresolved, not dead** — needs a browser or the API. |
+| **Widened podcast-feed seam** (new — the productive one) | worked | Yesterday scanned the 160 feeds *named in the ledgers*; that well is now dry. This searched the iTunes directory **by topic instead of by his name** — 32 topical terms → ~1,000 feeds, most never written down anywhere → **285 Kiriakou episode hits**. After stripping his own shows (DeProgram 187, Dead Drop 46) and Scott Horton (13, all held), **8 shows the corpus had never held**; 5 ingested today, 2 turned out to be host-name dups, 1 doctrine-rejected. |
+
+### The successor to yesterday's seam
+
+Yesterday's insight was "the ledgers contain non-YouTube URLs nobody looked at." That is now
+exhausted. The generalisation with water still in it: **search the podcast directory by topic,
+not by his name.** He is booked as the expert voice on CIA/torture/whistleblowing/foreign policy,
+so the shows that had him are reachable from the subject matter even when his name never lands in
+an indexed title. Terms that produced the new shows: *whistleblower, civil liberties, press
+freedom, declassified, war on terror, counterterrorism*. Terms that produced only noise: *empire,
+dissident, geopolitics, conspiracy realist*.
+
+### Two transcription bugs found, one of them corpus-wide
+
+**1. The ad-stripper is burying canon at scale — now measured.** Every previous log flagged this
+qualitatively. `unstrip-sponsors.mjs --all --dry-run` puts a number on it:
+
+> **236 files, 3,332 paragraphs of real interview content sitting in `.sponsors.md` sidecars,
+> against 284 genuine ads.** The stripper is wrong roughly twelve times out of thirteen.
+
+Today's intake alone had over-strips of 46, 31, 25, 24, 16, 12, 12, 12 and 11 paragraphs. The
+46-paragraph case (Lehto Files) was 39% of the episode. I unstripped every file I ingested today
+and left the rest alone — a 236-file mechanical change does not belong inside a discovery run's
+single commit, and the last two runs reached the same conclusion. **It should be its own routine,
+and it is now the highest-value job in the repo.** A ready-made priority ranking: scan sources for
+timestamp gaps > 90s; the 12-paragraph fuse produces a distinctive ~400s hole. Worst offenders:
+`dead-drop-s2e5` (+55), `deprogram-show-with-ted-ra` (+55), `jason-jones-3-hours` (+49),
+`danny-jones-whats-really-happening-in-israel` (+48), `useful-idiots-halper-mat` (+41).
+
+**2. `whisper2vtt.py`'s VAD filter destroys phone-line guest audio.** *Tell Somebody* (2015)
+came back with the host's questions clean and Kiriakou's answers shredded — 9 gaps over 60
+seconds, the largest 475s, roughly 20 of 56 minutes missing. It is a telephone interview and the
+guest's level trips `vad_filter=True`. Measured on an identical 3-minute slice:
+
+> `vad_filter=True` → 5 segments, **58 words**. `vad_filter=False` → 40 segments, **424 words**.
+
+A 7× recovery. I re-transcribed that episode with VAD off and `condition_on_previous_text=False`
+rather than change the shared tool mid-run, but **the default should be revisited**: the
+asymmetry is the same one `unstrip-sponsors.mjs` documents — over-recovering silence is cosmetic,
+losing testimony is a correctness bug.
+
+### Ingested and written into the encyclopedia (10)
+
+| # | Show | Date | Len | What it added |
+|---|---|---|---|---|
+| 1 | RFK Jr Podcast | 2022-12-04 | 62m | FBI FOIA turnaround (six weeks vs five years at CIA) and the surveillance-log CD-ROM; the CIA redacting a whole chapter of his surveillance guide as *"currently and properly classified"* — then clearing it when he pointed out he'd copied it off the agency's own website |
+| 2 | Discussions of Truth | 2018-07-28 | 62m | The European Parliament panel he was thrown off because an American co-panellist refused to share a stage with a Sputnik host; what the old Greek whistleblower law actually said and what his draft changed |
+| 3 | Primary Sources (Defending Rights & Dissent) | 2021-09-08 | 73m | Who the Clinton "cull" actually reached — assets recruited under Reagan who had murdered nuns or served on death squads; Clinton's Latin America declassification order and where the records went |
+| 4 | The Big Mig Show | 2025-04-19 | 75m | That the Icelandic lawyers who unfroze Panquake's accounts were WikiLeaks' own Iceland attorneys |
+| 5 | **C-SPAN Book TV — *After Words*** | **2010-04-23** | **61m** | His earliest extended account: assembling a Middle East degree around GW's gaps, an experimental class taught by the former Shah's chief of staff, relearning Greek from 1930s slang; the DO interview that ended the moment he said his wife wouldn't move to Sudan; nearly being assigned North Korea; Post refusing credit for the recruitment |
+| 6 | DeepStateBear (Rumble-native) | 2025-07-24 | 83m | Reagan's "year of the spy" as the frame for the Pollard rebuttal |
+| 7 | The Free Thought Project | 2025-05-19 | 60m | The Nixon yardstick — friends on both right and left "pining for the days of Richard Nixon", and why he still thinks now is more dangerous |
+| 8 | Lehto Files (UAP) | 2025-02-28 | 59m | The 1990 agency: typewriters, smoking at desks, the basement barbershop with *Playboy* out, and the abolished unclassified cafeteria |
+| 9 | Sarah Westall — Business Game Changers | 2025-03-24 | 52m | Kerry proposing an authorization bill, Kiriakou laughing because he thought it was a joke, and learning the committee hadn't passed one in five years |
+| 10 | Eric A. Cinotti: Unplugged | 2026-02-05 | 59m | The Office of Security officer on Pompeo's detail: *"the only person who is less popular than Mike Pompeo is Mrs. Mike Pompeo"* |
+
+### Ingested but adding no new canon (2)
+
+`Abe Lincoln's Top Hat` #572 (2021-09-25, 92m) and `Seymizzle` (2025-10-16, 124m). Both are
+genuine, correctly vetted, full-length interviews; both are pure retellings. Every distinctive
+element I checked — the Japanese-diplomat sting, the Brennan→Holder letters, the plea ladder from
+45 years down to 2.5, Plato Cacheris's *"you stupid son of a bitch, take the deal"*, "it's not
+about justice, it's about mitigating damage", the honey-salesman intercepts — is already in the
+articles, usually from three or more sources. They stay in the corpus as citation depth. **They do
+not count toward the 10**, and padding the number with them would have been dishonest.
+
+### Rejected (10)
+
+| What | Why |
+|---|---|
+| Borderland: Narcosis 2025-04-07 | = corpus `2025-04-07-ironclad` (same taping, other network brand) |
+| Change Agents w/ Andy Stumpf 2025-05-28 | = corpus `2025-05-28-ironclad-hidden-terror-program` |
+| Dream Out Loud #363 2026-05-05 | = corpus `2026-05-05-morgan-nelson-cia-whistleblower` |
+| Straight Talk w/ Mark Bouris 2026-03-25 | = corpus `2026-03-25-mark-bouris-…` |
+| GOLD SHIELDS ep.128 2025-07-25 | = corpus `2025-07-25-gold-shields` |
+| Potkaars 2019-05-01 | = corpus `2019-05-01-potkaars-podcast-…` |
+| SaltCubeAnalytics 2024-08-20 | same 63m conversation as corpus `2024-07-27-saltcube-…`; feed release lags the YouTube upload |
+| **What Should We Call It 2026-03-12** | **Kiriakou is not in it.** Two hosts discuss him in passing — *"it's Kiriakou… he's the former CIA counterterrorism guy."* Third instance of this failure mode after `jcg5aO_H9OU` and `0Q8vwrego9k`: a feed title naming him is not evidence he is in it |
+| Whistleblowing Now and Then 2023-03-06 | Multi-contributor academic series with a historian co-presenter — attribution unsafe |
+| Primary Sources 2021-07-28 | Jesselyn Radack is the guest, not Kiriakou |
+
+### Parked
+
+- **Tell Somebody 2015-05-21 (58m)** — genuine, and from the four-months-after-release period that
+  is thin in the corpus. First transcription was unusable (see the VAD bug above); re-transcribed
+  with VAD off at the end of this run.
+- **AM WakeUp 2023-07-06 (191m, Rumble-native)** and **Health Ranger Report 2026-02-11 (111m,
+  Rumble-native)** — both real, both deferred on format risk (3-hour livestream; multi-topic
+  magazine show). In `KIRIAKOU-OPEN-VIDS.md` as candidates.
+- **Potkaars New Year's Eve 2020-01-01 (144m)** — carried over again on length/format risk.
+
+### Note for whoever reads the git history
+
+A **second routine was committing to this branch concurrently** (commit `522f142d`, 18:33 UTC,
+"Weaving pass 2026-08-07"). It swept up eight of this run's article edits along with its own work.
+Nothing was lost, but this run's changes are split across two commits and the tree also carries
+eleven untracked article drafts belonging to that other routine, which I did not stage or touch.
+
+### For the next dig — the head start
+
+`KIRIAKOU-OPEN-VIDS.md` carries fresh `candidate` rows from the widened-feed seam plus the two
+deferred Rumble-native shows. Beyond that, the untouched ground is: **C-SPAN's full catalogue**
+(only the `kiriakou` keyword was searched today — his colleagues' event recordings are unsearched),
+**Vimeo** (needs a browser), **Podchaser's appearances index** (still 403s), and the widened-feed
+method run against a second directory (Podcast Index or Listen Notes) rather than iTunes alone.
