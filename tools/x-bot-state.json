@@ -433,7 +433,8 @@
     "dyk:lebanon-israeli-conflict:0",
     "quote:brian-ross:5",
     "dyk:federal-torture-act:2",
-    "quote:cia-gmail-account-felony-case:0"
+    "quote:cia-gmail-account-felony-case:0",
+    "dyk:iran-12-day-war:1"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1055,10 +1056,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "otd",
     "dyk",
     "quote",
     "dyk",
-    "quote"
+    "quote",
+    "dyk"
   ]
 }
