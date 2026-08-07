@@ -434,7 +434,8 @@
     "quote:brian-ross:5",
     "dyk:federal-torture-act:2",
     "quote:cia-gmail-account-felony-case:0",
-    "dyk:iran-12-day-war:1"
+    "dyk:iran-12-day-war:1",
+    "quote:cia-cable-priority-levels:2"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1056,10 +1057,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
