@@ -436,7 +436,8 @@
     "quote:cia-gmail-account-felony-case:0",
     "dyk:iran-12-day-war:1",
     "quote:cia-cable-priority-levels:2",
-    "dyk:gay-diplomat-operation:0"
+    "dyk:gay-diplomat-operation:0",
+    "quote:jeffrey-epstein:31"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1058,10 +1059,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "dyk",
     "quote",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
