@@ -1,0 +1,2 @@
+# Stripped sponsor / ad reads
+
