@@ -5,6 +5,179 @@ already sitting in the corpus. One dated section per run.
 
 ---
 
+## 2026-08-07 — 15/15 fattened
+
+Branch: `kiriakou-intake-churn`, in sync with origin at the start of the run. Mentions index
+rebuilt (1142 articles indexed, 856 transcript files). No carryover — nothing was left
+`in-progress` by the 2026-08-06 run.
+
+**Ranking method, and a correction to it.** The index's own `uncited_mention_count` is unusable
+for ranking: its generic aliases put `permanent-multipolar-world` (alias "world", 827 sources)
+and four different `*-story` articles (alias "story", 768 sources) at the top. As in the
+previous two runs, candidates were ranked on *distinctive* title terms instead — but this run
+also found that a naive substring grep is still wrong. `abraham-bolden` scored 14 fresh sources
+on the term "bolden"; every one of them was the word *emboldened*. Word-boundary matching was
+applied to the whole shortlist before any article was opened, and it eliminated ten candidates
+outright: **abraham-bolden, bernie-kerik, ross-ulbricht, maria-butina, russell-targ, jane-harman,
+walter-pincus, matt-dehart, skip-gnehm, ismail-haniyeh-assassination** — all zero real hits in
+the corpus. Each of those articles carries at least one citation, so the subject exists in a
+source under a different caption spelling; they need the spelling resolved, not enrichment.
+
+| Article | Words before → after | New facts | New sources |
+|---|---:|---:|---:|
+| cuban-double-agents | 113 → 531 | 6 | 4 |
+| china-djibouti-base | 127 → 773 | 9 | 9 |
+| kent-state | 161 → 586 | 5 | 6 |
+| james-clapper | 166 → 930 | 8 | 4 |
+| allen-dulles | 179 → 748 | 7 | 4 |
+| greenland | 201 → 753 | 9 | 6 |
+| monroe-doctrine | 172 → 736 | 7 | 2 |
+| james-angleton | 200 → 949 | 9 | 5 |
+| denied-areas | 218 → 717 | 7 | 4 |
+| ground-branch | 243 → 881 | 8 | 4 |
+| condoleezza-rice | 226 → 743 | 6 | 6 |
+| petra-bank | 241 → 646 | 7 | 3 |
+| alec-baldwin | 157 → 608 | 6 | 2 |
+| salt-pit | 219 → 637 | 7 | 2 |
+| bill-casey | 243 → 558 | 5 | 2 |
+
+Every article cleared the floor (≥3 new sourced facts from ≥2 distinct new sources). Nothing
+left `in-progress`.
+
+### Best finds
+
+- **james-angleton** — the article was a single anecdote about a wall of file folders. Added the
+  whole Philby collapse in Kiriakou's own telling: that Angleton and Kim Philby were best man at
+  each other's weddings and Angleton was godfather to Philby's daughter, a bond he reaches for
+  the Greek *koumbaros* to describe because English has no word for it; Philby's escape from the
+  British ambassador's Christmas party in Beirut through a bathroom window to the Soviet embassy,
+  and his press conference in Moscow six days later; and the verdict of an old-timer Kiriakou
+  worked with who would turn and walk the other way down the hall rather than pass Angleton —
+  that after learning Philby was the mole "he kind of lost his mind and never got it back." Also
+  added the declassified-JFK-files finding Kiriakou calls the biggest bombshell of the release:
+  that Angleton ordered CIA officers to recruit Lee Harvey Oswald.
+- **ground-branch** — a federal appeals court ruling that had never been in the corpus. Kiriakou
+  reports the Ninth Circuit held that contractors may kill and kidnap on the CIA's behalf so long
+  as they hold a written contract and the Agency has presidential authority; the plaintiff was
+  Abu Zubaydah, and the court's answer was that he had been tortured but the men were acting for
+  the CIA, which was legally permitted to torture. One of the attorneys in the case telephoned
+  Kiriakou to ask why nobody in the media cared. Also added his flat statement of the mission —
+  "kill or kidnap and render anybody who might be a threat" — and the office norm around it:
+  "You know what they're doing. I know what they're doing. Everybody in the office knows what
+  they're doing. Nobody mentions it."
+- **greenland** — two of Kiriakou's own contacts flatly contradicting each other, which the
+  article now states as a contradiction rather than resolving. A White House friend says the
+  United States is serious, will not attack, and will lean on the 1951/1953 Danish treaty to
+  argue Greenland is already de facto American; a friend who used to chair the Republican Party
+  in Texas says Trump has no designs on it at all and throws grenades into the room to distract
+  the press from confirmation fights and the tax bill. Also added the rare-earth mechanism he
+  says is the real driver — all of it refined in China, at a deliberate loss, to hold the
+  monopoly — and House Resolution 1116, which would take Greenland by any means necessary and
+  rename it "Red, White, and Blue Land."
+- **china-djibouti-base** — how the shared base came to exist, in two lines of dialogue: the
+  French abandoned Camp Lemonnier, the Djiboutians asked the Americans "You want this?", the
+  answer was "Yeah, it's 16 miles from Yemen, sure, we'll take it," and the Chinese then asked
+  for a share of the same ground. Plus the detail Kiriakou noticed on the ground — the Chinese
+  keep all their hangar doors open and the Americans keep theirs closed — and the eight men
+  convicted of murder or armed robbery held on the joint base while Washington tried to expel
+  them to South Sudan.
+- **salt-pit** — the cold cell, absent until now, which Kiriakou rates as worse than
+  waterboarding: a naked prisoner chained to an eye-bolt in the ceiling so he can neither sit nor
+  lie down, the cell chilled to 50°F, and an officer entering every hour to throw a bucket of ice
+  water over him. "We killed several prisoners with the cold cell."
+
+### Attribution decisions
+
+Speaker attribution ate a substantial share of this run, and four passages that looked like good
+fuel were cut after checking who was talking:
+
+- **collateral-murder-video** — of nine corpus passages naming the video, only one is Kiriakou.
+  The Howie Hawkins passage is Hawkins introducing him; the Revolutionary Change passage is Medea
+  Benjamin; the Katie Halper passage is Halper; the Democracy Now passage is the filmmaker James
+  Spione; the Disruption Network Lab and Consortium News passages are panellists. The article was
+  enriched anyway from the one attributable source (Sharyl Attkisson — the Reuters cameramen, the
+  firing on the rescuers and the ambulance, and the 99 percent of the tranche that was routine
+  cabling) because the material is real and correct, but it is **below the two-source floor and
+  is not counted toward the 15**. See the skip list below.
+- **greenland** — the claim that the Danish military flew planeloads of explosives to Greenland
+  in the middle of the night to blow up their own runways is the Deep Focus host's, not
+  Kiriakou's, and was cut despite being the single most striking thing in the search results. The
+  Piers Morgan "grotesque breach of trust" passage is a British panellist, not Kiriakou; also cut.
+- **allen-dulles** — the Eisenhower "legacy of ashes" line is the Around the Empire host's, not
+  Kiriakou's. Cut.
+- **james-angleton** — the "Angleton was clearly a Mossad double agent" line in the Kim Iversen
+  interview cannot be cleanly assigned between host and guest, and the hedge that follows it
+  ("we don't know for a fact, I guess") reads as the host's. The article records only that
+  Kiriakou notes people are starting to look at the Israeli angle, which is unambiguously his.
+- Contradictions were preserved rather than smoothed. Kiriakou dates the Monroe Doctrine to 1823
+  in one telling and 1814 in another; gives the Petra Bank theft as $36 million in three tellings
+  and $30 million in a fourth; says the Guatemalan dictatorship brutalised the country for "20
+  plus years" in one account and "half a century" in another; and says the friend's daughter was
+  "one of the five" killed at Kent State. All are stated as he states them.
+
+### Corrections made while enriching
+
+- **china-djibouti-base** carried the title *Djibouti*, identical to the separate `djibouti`
+  article, and the two overlapped heavily. It has been retitled **China's base in Djibouti** and
+  narrowed to the shared base and the small-state intelligence material, so the pair is no longer
+  duplicative. The two articles now cross-link. A full merge is still worth considering but is a
+  structural decision, not an enrichment one.
+- **alec-baldwin** carried three malformed citation timestamps written as `t="[32:18]"` — square
+  brackets inside the attribute. Fixed, and the timestamps re-verified against the transcript.
+- **ed-schultz** had two consecutive sections, *"The label after death"* and *"Labelled after his
+  death,"* telling the same story twice, one of them with doubled apostrophes leaking out of the
+  YAML escaping into the prose. Woven into one passage. Ed Schultz was **evaluated as a candidate
+  and rejected** — its remaining fuel is one line in a 2019 interview — so this is a defect fix,
+  not a counted enrichment.
+- **denied-areas**, **bill-casey** and **greenland** each gained a correction of fact from the
+  fuller telling: Syria and Iran are named as denied areas alongside the Soviet Union and Cuba;
+  Casey named his own deputy director *for operations* as well as his own deputy, a businessman
+  with no intelligence experience; and the Djibouti service measurement is that Kiriakou's whole
+  townhouse was twice the size of the entire service, not merely that the director's office was
+  small.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+Still true from previous runs and not re-attempted: ethan-mccord-collateral-murder (and its false
+citation, **still unfixed** — this is now three runs old), katherine-gun, peter-thiel,
+marble-framework, miranda-rights, afghan-war-logs, todd-blanch,
+advanced-counterterrorism-operations and its near-duplicate
+advanced-counterterrorism-operations-course, chaos-computer-club-wikileaks, afghan-languages,
+ai-whistleblower-initiative, bay-path-university, restraint-camp.
+
+New this run:
+
+- **The ten spelling casualties** — abraham-bolden, bernie-kerik, ross-ulbricht, maria-butina,
+  russell-targ, jane-harman, walter-pincus, matt-dehart, skip-gnehm,
+  ismail-haniyeh-assassination. Each has zero word-boundary matches for its subject anywhere in
+  856 transcripts, yet each carries a citation. The auto-captions are rendering these names
+  some other way. This is the highest-value item on the list: resolving the caption spellings
+  would unlock ten articles at once, and the same distortion is presumably hiding material for
+  articles nobody has flagged yet.
+- **collateral-murder-video** (161 → 329 words) — enriched but below floor. One attributable
+  Kiriakou source in the whole corpus; everything else is hosts and panellists. Needs a new
+  source in which Kiriakou himself discusses the video at length.
+- **sandy-berger** (159 words) — the index's eight fresh sources are Rosenberger, Greenberger,
+  Berkman and Wasserman Schultz. One passing mention of the real subject. Needs new material.
+- **ed-schultz** (234 words) — one usable new line ("they kicked Ed Schultz off at MSNBC and he
+  went to RT") plus a duplicate capture of a telling already cited. Below floor.
+- **uk-secrecy-laws** (217 words) — evaluated and rejected. Its twelve "official secrets" hits are
+  dominated by the Disruption Network Lab panel, where the speaker on UK secrecy law is Annie
+  Machon, not Kiriakou. The article as it stands is already built on the attributable material.
+- **djibouti** (263 words) — deliberately left alone this run to avoid double-counting against
+  china-djibouti-base, which was fattened from the same source pool.
+
+### Ship status
+
+Build clean: 1147 articles, frontmatter audit clean, **0 bugs, 0 dead links**, 957 suspicious
+aliases (informational). One HIGH-confidence wikilink bug was introduced during writing — a DYK
+line reading `[Ninth Circuit](/wiki/abu-zubaydah)` — and was caught by `audit-wikilinks.mjs`
+before commit and rewritten. Built output verified against source rather than trusted: all
+seventeen touched pages present in `dist/`, and five distinctive new phrases grepped out of the
+rendered HTML to confirm the new prose actually shipped.
+
+---
+
 ## 2026-08-06 — 15/15 fattened
 
 Branch: `kiriakou-intake-churn`. Mentions index rebuilt (1049 articles indexed). No carryover
