@@ -432,7 +432,8 @@
     "otd:presidents-daily-brief:2001-08-06",
     "dyk:lebanon-israeli-conflict:0",
     "quote:brian-ross:5",
-    "dyk:federal-torture-act:2"
+    "dyk:federal-torture-act:2",
+    "quote:cia-gmail-account-felony-case:0"
   ],
   "knownSlugs": [
     "1953-iran-coup",
@@ -1054,10 +1055,10 @@
   ],
   "queue": [],
   "lastTypes": [
-    "quote",
     "otd",
     "dyk",
     "quote",
-    "dyk"
+    "dyk",
+    "quote"
   ]
 }
