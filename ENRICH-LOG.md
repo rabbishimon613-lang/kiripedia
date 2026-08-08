@@ -407,3 +407,117 @@ be stripped from the unpushed commits before `git push` will go through, and tha
 is a history rewrite this routine is explicitly not allowed to perform. Someone
 needs to do that cleanup by hand; until then every routine on this branch will
 keep deploying without pushing.
+
+---
+
+## 2026-08-08 — enricher pass
+
+**15 of 15 articles fattened.** Mention index rebuilt from scratch (1,292 articles indexed;
+886 sit at 11+ uncited mentions, 174 at zero). Candidates ranked by starvation — thin *and*
+fuelled — rather than by thinness alone.
+
+| Article | Words before → after | New facts | Distinct new sources |
+|---|---|---:|---:|
+| april-glaspie | 169 → 737 | 11 | 3 |
+| shin-bet | 290 → 851 | 9 | 5 |
+| john-ratcliffe | 331 → 865 | 9 | 6 |
+| pike-committee | 271 → 796 | 8 | 6 |
+| hamid-karzai | 168 → 590 | 7 | 5 |
+| bill-burns | 231 → 577 | 7 | 3 |
+| richard-helms | 331 → 661 | 7 | 6 |
+| admit-nothing-deny-everything | 121 → 560 | 6 | 5 |
+| william-webster | 132 → 513 | 6 | 4 |
+| maria-corina-machado | 156 → 522 | 6 | 2 |
+| william-donovan | 148 → 491 | 6 | 5 |
+| josh-shapiro | 160 → 497 | 5 | 4 |
+| avril-haines | 148 → 452 | 5 | 3 |
+| alexa | 67 → 416 | 5 | 4 |
+| kim-philby | 157 → 364 | 4 | 2 |
+
+Nothing left in-progress.
+
+### Best finds
+
+- **pike-committee** — the classified annex. A sitting senator and committee chairman called
+  Kiriakou to the Hill for help getting 1975 documents he had been denied for seven years:
+  a classified annex to a report whose entire point was that it was public. Its existence was
+  denied for seven years, then it turned up sealed and dust-covered in a Senate basement, and
+  he still cannot open it. Leadership won't referee a dispute between two chairmen, and
+  because these are congressional documents classified by a congressional committee they are
+  outside FOIA — Congress having exempted itself from the laws it passes. Kiriakou says the
+  story punctured his own belief in the 1975–82 "golden age."
+- **april-glaspie** — the night in the operations center. Glaspie herself asked Baker for the
+  meeting with Saddam; his reply came back as a NODIS cable printable only in the CIA
+  operations center, where analysts could read and take notes but not quote or copy it; ten
+  or twelve of them stood waiting for her reporting cable. Saddam said nothing at all. The
+  CIA said invasion, State said Rumaila oil field, and the talking points were written to
+  State's reading. Kiriakou's verdict on the green-light charge — *"I was there that night.
+  She got a bum rap."*
+- **william-webster** — the Oval Office seating on the morning of the invasion, which registers
+  the hierarchy exactly: Bush and Quayle in overstuffed chairs, the National Security Advisor
+  and the Director of Central Intelligence on what looked like dining-room chairs, and the
+  25-year-old briefer on the couch — who then answered the President's question.
+- **shin-bet** — the 1990 recruitment approach filled in from five tellings: the date, the
+  briefing subject, the eight-to-ten-person table, and what it felt like (*"it enraged me,
+  the question"*), plus the boss's shrug that they do it to everyone, and the standing
+  asymmetry — the CIA is *"absolutely, positively forbidden"* from spying on Israel while the
+  FBI had 187 undeclared Mossad officers identified across the United States.
+
+### Corrections made while enriching
+
+- **richard-helms** carried a false citation, the same class of error flagged for
+  ethan-mccord in the previous pass. Its core claims — Church's order, the destruction, the
+  $100 fine paid by colleagues in the hallway — were sourced to
+  `2025-11-19-julian-dorey-vault-7 @37:58`, a passage about the CIA's deputy director for
+  innovation. That transcript contains no mention of Helms or MK-Ultra at all. The correct
+  source is `2026-05-04-cleared-hot-446-cost-of-truth` at the same timestamp; fixed, and the
+  Helms attribution strengthened with two further tellings that name him.
+- **richard-helms** also asserted the surviving MK-Ultra fraction had been "misfiled in a
+  financial-records warehouse." Nothing in the corpus supports the warehouse; what Kiriakou
+  says is that what survived was largely financial records, from which the program had to be
+  reconstructed. Rewritten to that, and the surviving share now records his variance (15% in
+  most tellings, 20% in others).
+- **william-webster** claimed he was "the only person to have served as both FBI and CIA
+  director." Kiriakou never says this; he gives the sequence (federal judge, FBI, CIA) and
+  nothing more. The external superlative was removed from summary, prose and DYK.
+- **william-donovan** (`2:00`) and **pike-committee** (`22:22`) carried timestamps that do not
+  exist in their sources — a zero-padding slip and a wrong paragraph. Both corrected.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+- **ali-hassan-al-majid** (140 words) — the index's fuel is an alias collision: every "al-Majid"
+  hit is Hussein Kamel or Saddam Kamel al-Majid, Saddam's sons-in-law, not Chemical Ali. The
+  one real passage is in a duplicate upload of a source already cited. Needs new material.
+- **only-fans** (80 words) — the ad-offer story is genuinely good, but it exists as three
+  captures of a single telling (`cleared-hot-446`, `covert-operations-insight`,
+  `national-security-files`). One telling, not two sources.
+- **eric-swallwell** (81 words) — one strong new passage (the honey-trap episode, 2026-07-16).
+  Everything else is a host reading news copy. Below the two-source floor.
+- **cory-booker** (168 words) — the AIPAC recruitment story attached to him is inside the same
+  Megyn Kelly interview already cited; the two deprogram passages cannot be attributed to
+  Kiriakou rather than Rall.
+- **christopher-hitchens** (145 words) — one source only (`2026-03-11-deprogram-ted-rall`), but
+  a rich one: the Vanity Fair waterboarding, Hitchens thinking Kiriakou had exaggerated, and
+  Kiriakou's admiration alongside his anger at Hitchens's war position. Worth writing the day
+  a second telling lands.
+- **barbara-leaf**, **fort-gordon**, **robert-maclean**, **black-cube**, **waco-siege**,
+  **ruby-ridge**, **trump-dni-replacement** — index counts are alias noise (leaf, gordon,
+  MacLean/McLean, cube, siege, ridge, replacement). Not real fuel.
+
+### Method notes
+
+- **`.sponsors` sidecars must never be cited.** 262 of them exist, they are not rendered as
+  pages (zero appear in `dist/sources/`), so any citation to one is a dead reference. Worse,
+  the sponsor detector has false positives — real interview content is sitting in at least
+  `2024-12-21-not-a-grayman.sponsors` — so they look like fuel in the mention index. All
+  candidate mentions were filtered on `.sponsors` before use. Two live articles
+  (marjorie-taylor-greene, oliver-stone) still carry such citations and should be repointed.
+- Duplicate uploads of one interview are common (both Bidoun Waraq Kuwait files, both
+  2026-04-02/04-03 Megyn Kelly files, three captures of Cleared Hot 446). They are cited as
+  corroboration but never counted toward the two-source floor.
+- Multi-host and panel transcripts carry no speaker labels. Crossing Faiths material on Karzai
+  was cut once the speaker resolved as the host; the same for a Bill Burns/Ukraine passage in
+  a Gonzalo Lira roundtable, a Liberty Vault passage on Ratcliffe, and the Official Secrets
+  Act passage in Disruption Network Lab, which is Annie Machon and not Kiriakou.
+- `james-angleton` and `james-jesus-angleton` are two live articles on the same person. Not
+  merged here — that is a cleanup job, not an enrichment.
