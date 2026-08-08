@@ -1239,3 +1239,224 @@ Unchanged, and repeated every run until fixed:
 - **Bing Webmaster Tools** signup (carried from 2026-07-09).
 - **A Wikidata item for KiriPedia**, for the Organization `sameAs` (carried
   from 2026-07-09).
+
+---
+
+## 2026-08-08 — nightly sweep
+
+### The numbers, as read
+
+**Google Search Console** (last 3 months, data through 2026-08-06). **This is the
+first genuinely fresh window since 2026-08-04** — the last two sweeps read an
+identical, un-refreshed window and said so. The deltas below are real.
+
+| | this run | last run | move |
+|---|---|---|---|
+| Clicks | **126** | 116 | **+10** |
+| Impressions | **6.17K** | 5.84K | **+330** |
+| Average CTR | 2% | 2% | flat |
+| Average position | **16.3** | 16.4 | +0.1 |
+
+**Indexing report — the best movement on the site this run:**
+
+| | this run | last run | move |
+|---|---|---|---|
+| **Indexed** | **1.57K** | 1.44K | **+130** |
+| Not indexed | 497 | 499 | −2 |
+| Alternate page with proper canonical | 341 | 340 | +1 |
+| Crawled — currently not indexed | 96 | 92 | +4 |
+| **Discovered — currently not indexed** | **42** | 57 | **−15** |
+| Page with redirect | 6 | 4 | +2 |
+| Excluded by 'noindex' tag | 6 | 2 | +4 |
+| Not found (404) | 5 | 3 | +2 |
+| Soft 404 | 1 | 1 | flat |
+
+Indexed grew **+130 while the corpus grew ~+103** — Google is absorbing the
+intake faster than it arrives, and the discovered-but-not-indexed backlog fell
+by 15. That is the crawl-budget symptom from previous sweeps easing, not
+worsening. The noindex count rising 2 → 6 is Google catching up with the
+deliberate utility-page noindex, not an accident: all 53 noindexed pages in the
+build are accounted for below.
+
+**Vercel Analytics — Last 30 Days:**
+
+| | this run | last run |
+|---|---|---|
+| Visitors | 797 (+159%) | 782 (+161%) |
+| Page Views | **3,135** (+63%) | 3,709 (+153%) |
+| Bounce rate | 78% (+22%) | 78% (+23%) |
+
+**The page-view drop is the predicted one, not a regression.** The last sweep
+recorded that the crawler wave inflating the 30-day window would age out and
+that the next sweep's number would fall. It has, from 3,709 to 3,135, exactly as
+written down. (The dashboard briefly painted 823 / 3,247 on first load before
+settling at 797 / 3,135; the settled figures are the ones recorded.)
+
+- **Top landing pages, 30d:** `/` (165), `/wiki/bob-grenier` (68),
+  `/wiki/nordstream-pipeline-sabotage` (38), `/wiki/alan-dershowitz` (32),
+  `/wiki/hummus` (27), `/category/people` (23), `/wiki/gust-avrakotos` (23).
+- **Referrers, 30d:** google.com 348, duckduckgo.com 87, bing.com 31,
+  reddit.com 9, chatgpt.com 8, search.yahoo.com 5, search.brave.com 3.
+- **Countries, 30d:** US 73%, UK 5%, Canada 4%, Germany 2%, Netherlands 2%.
+
+**The 7-day figures are the trustworthy ones and they are up across the board:**
+**187 visitors (+40%), 520 page views (+126%), 73% bounce (−2%)**, against
+164 / 325 / 76% last sweep. The operating-system mix over 7 days is iOS 34%,
+Windows 28%, Mac 16%, Android 14%, GNU/Linux 9% — a normal audience. Over 30
+days GNU/Linux is still 31%, which is the tail of the bot wave and will keep
+shrinking. Devices split 52% desktop / 48% mobile over 7 days.
+
+**Corpus audit** (`node tools/seo-daily.mjs`, taken at the start of the run):
+
+```
+articles               1249  (+103)     withSeoTitle            85  (+14)
+orphans                 164  (+10)      withDeck               102  (+14)
+thin                    402  (+8)       grounded               328
+veryThin                100  (-4)       relatedBlocksRendered 1246  (+103)
+noindexed                 0             relatedOrphans           0
+clampedSnippets        1095  (+90)
+```
+
+The corpus kept growing *during* the sweep — the intake routine was running
+concurrently and the final build compiled **1,297 articles**, ~48 more than the
+audit snapshot. Noted so the next run's delta is read against 1,297, not 1,249.
+
+### The working queue
+
+The impression-ranked queue is **saturated again**: every page in the Search
+Console top 30 by impressions was checked directly and already carries a
+purpose-written `seoTitle` and `deck` — `john-mccain`, `doing-time-like-a-spy`,
+`carlos-the-jackal`, `abu-zubaydah`, `afghan-languages`, `kuwait-oil-fires`,
+`sheikh-saad-al-abdullah`, `remains-of-the-day-book`, `curveball` among them.
+One genuine gap turned up and led the queue; the rest was built on inbound
+linkage, the same method as the last two sweeps.
+
+Top pages by impressions with zero or near-zero clicks, for the record:
+
+| page | impressions | clicks |
+|---|---|---|
+| `/wiki/hummus/` | 420 | 7 |
+| `/wiki/gust-avrakotos/` | 300 | 3 |
+| `/wiki/hummus` (slash-less) | 257 | 3 |
+| `/wiki/afghan-languages/` | 237 | **0** |
+| `/wiki/kuwait-oil-fires/` | 103 | **0** |
+| `/wiki/sheikh-saad-al-abdullah/` | 92 | **0** |
+| `/wiki/remains-of-the-day-book/` | 86 | **0** |
+| `/category/people/` | 83 | **0** |
+| `/wiki/john-mccain/` | 82 | **0** |
+| `/wiki/doing-time-like-a-spy/` | 72 | **0** |
+| `/wiki/three-saudi-princes/` | 59 | **0** |
+| `/wiki/carlos-the-jackal/` | 59 | **0** |
+| `/wiki/abdul-rashid-dostum/` | 59 | **0** |
+| `/wiki/abu-zubaydah/` | 55 | **0** |
+| `/wiki/curveball/` | 39 | **0** |
+
+### Changed — 13 new titles and decks
+
+Each grounded in the article's own `summary`, i.e. in something Kiriakou
+actually said. No fact was invented to sharpen a title. All `seoTitle` 30–47
+characters, all `deck` 135–151.
+
+| slug | why it was picked | new title tag |
+|---|---|---|
+| `saudi-princes-and-9-11` | **59 impressions, 0 clicks** | Three Saudi princes, and how they died |
+| `barack-obama` | 24 inbound | Obama, Netanyahu and the Iran bluff |
+| `senate-foreign-relations-committee` | 23 inbound | Kiriakou's Senate job, and his indictment |
+| `dick-cheney` | 20 inbound | Did Cheney hide the torture finding? |
+| `joe-biden` | 19 inbound | Joe Biden at Kerry's Christmas party |
+| `church-committee` | 18 inbound | The Church Committee: real oversight |
+| `brian-ross` | 17 inbound | Brian Ross and the waterboarding interview |
+| `china-economic-threat` | 17 inbound | China is an economic threat, not a military one |
+| `chelsea-manning` | 17 inbound | Chelsea Manning, whistleblower |
+| `operation-mockingbird` | 16 inbound | Operation Mockingbird isn't needed now |
+| `daniel-hale` | 15 inbound | Daniel Hale and the 80% figure |
+| `iran-contra` | 15 inbound | Iran-Contra ended CIA oversight |
+| `maduro-capture` | 14 inbound, 2,333 words | How Delta Force took Maduro from his bed |
+
+`saudi-princes-and-9-11` is the find of the run. **`/wiki/three-saudi-princes/`
+pulls 59 impressions and 0 clicks, and it is a redirect, not a page** — the same
+shape as the known `abdul-rashid-dostum` case. The difference is that Dostum's
+target was already treated, whereas this one redirected to an article with no
+written title or description at all. It has one now.
+
+### Verified
+
+- `npm run build` → **`Total: 0 bugs, 1113 suspicious, 0 dead.`**
+- **URL shape held:** the slash-less-internal-link grep prints **0**. The
+  normalizer in `tools/astro-trailing-slash.mjs` has not regressed.
+- **Related blocks:** 1,297 articles, 945 rescue links, **0 with no inbound
+  related-link**, 3 with an empty block. No hand-linking needed.
+- **Build completeness checked against source** (flaky-drive rule): 1,297 source
+  articles → 1,344 built wiki pages → 2,182 sitemap URLs. Surplus, not deficit;
+  no dropped writes in the final build.
+- **noindex, all 53 accounted for:** 48 redirect stubs plus the same 5 utility
+  pages (`/search`, `/random`, `/needs-image`, `/on-this-day`,
+  `/special/all-pages`). **Zero accidental noindex.**
+
+### The build fought the drive for three attempts — worth writing down
+
+The first three builds failed, none of them for a reason in the content:
+
+1. `ENOENT` copying `public/images/avril-haines.jpg` — **the file exists on disk**
+   (103 KB, verified immediately after).
+2. Retry: `ENOENT` copying `public/images/felix-rodriguez.jpg` — a *different*
+   image, also present.
+3. After pre-warming all 888 images (723 MB) into the OS cache, it got past the
+   image copy and into page rendering, then died on
+   `Cannot find module dist/chunks/astro/server_*.mjs` — **a build artifact the
+   build itself had written moments earlier.** The whole `dist/chunks/astro/`
+   directory was simply gone.
+
+Every one of the three reached `Total: 0 bugs` in the content phase first, so
+nothing in the corpus or in tonight's edits was implicated. This is the known
+EOS_DIGITAL silent-write-drop under bulk load: five small test writes in a row
+succeeded fine while the 888-file copy and the chunk writes did not. The fourth
+attempt, run ~40 minutes later against a cleared `dist` and a pre-warmed cache,
+completed cleanly and passed every verification gate above. **Recorded because
+the failure signature — a missing file that demonstrably exists — will recur,
+and the fix is to clear `dist`, wait for the load to pass, and rebuild rather
+than to go looking for a content bug.**
+
+### Found, not changed — with reasons
+
+- **`/wiki/afghan-languages/` is still the biggest single miss: 237 impressions,
+  0 clicks** (up from 221). Unchanged for the same reason as the last two
+  sweeps — it is a 147-word article containing everything Kiriakou said on the
+  subject (one exchange with Reality Winner), and single-source doctrine forbids
+  fattening it. The query cluster is now 84 impressions ("afghanistan language"
+  52, "afghan language" 24, "language of afghanistan" 8). Correct outcome, not a
+  defect.
+- **The Kuwait oil-fires cluster keeps growing and keeps converting at zero** —
+  "kuwait oil fires" 15, "kuwaiti oil fires" 14, "kuwait oil well fires" 12,
+  "fires of kuwait" 11, "oil fires in kuwait" 11, "kuwait liberation" 8,
+  "kuwait fires" 7. The page has a written title already. This is a ranking
+  problem, not a metadata problem — see blocked.
+- **`why does cia put hummus up ass` is now the single largest query on the site
+  at 105 impressions, 0 clicks**, with `hummus up ass` adding 9. The hummus page
+  itself converts (7 clicks from 420) on its better-behaved queries. Nothing to
+  fix: the page already answers this, and the title is not going to be rewritten
+  toward that phrasing.
+- **`/wiki/abdul-rashid-dostum/` at 59 impressions is still a redirect**, 301ing
+  to `/wiki/general-dostum/`, which is already treated. Google has still not
+  consolidated it. Nothing to do.
+- **New query signals, no action yet:** "consortium news" (12), "gus avricatus"
+  (11 — a misspelling of Avrakotos that the page already ranks for),
+  "jean gately cia" (9, and `/wiki/jean-gately/` converts at 6 clicks from 36
+  impressions, still the best CTR on the site), "john kiriakou moral injury" (8),
+  "greater tunb" (7).
+- **Standing items, all tracking corpus growth:** 1,095 clamped snippets, 164
+  wikilink orphans, 1,113 suspicious wikilinks, 402 thin articles.
+
+### Blocked — needs the user
+
+Unchanged, and repeated every run until fixed:
+
+- **Backlinks remain the entire ceiling.** Position 16.3 at 2% CTR is what a
+  site with ~18 links from one Reddit thread gets. Impressions and indexed pages
+  are both climbing steadily; clicks moved +10 in the same window. Three
+  separate query clusters rank and convert nothing despite hand-written titles.
+  There is no metadata lever left on them. **Kiriakou sharing the site himself
+  is still the single highest-value unlock available.**
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia**, for the Organization `sameAs` (carried
+  from 2026-07-09).
