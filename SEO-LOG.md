@@ -1460,3 +1460,24 @@ Unchanged, and repeated every run until fixed:
 - **Bing Webmaster Tools** signup (carried from 2026-07-09).
 - **A Wikidata item for KiriPedia**, for the Organization `sameAs` (carried
   from 2026-07-09).
+
+### Deployed
+
+**Yes — live and verified on `www.kiripedia.org`.**
+
+- `vercel build --prod` (exit 0) then
+  `vercel deploy --prebuilt --prod --archive=tgz` → `readyState: READY`,
+  deployment `dpl_FRbvp4urJtH2JtctbGmRP5NjQV4P`.
+- **Spot-checked in production**, all five serving the new title tag:
+  `saudi-princes-and-9-11`, `dick-cheney`, `brian-ross`, `maduro-capture`,
+  `iran-contra`.
+- **IndexNow: 175 new-or-changed URLs submitted, HTTP 200.** Higher than a
+  normal night because the concurrent intake run's new articles went out in the
+  same submission.
+
+Note for the next sweep: the 13 metadata files were committed by explicit path
+on branch `kiriakou-intake-churn`. The intake routine's ~48 new articles and the
+generated files (`article-dates.json`, `related.json`, `llms.txt`,
+`date-index.json`, `.kir-seo-state.json`) were **deliberately left unstaged** —
+they are not this routine's changes — but they *were* included in the deployed
+build, which is the established behaviour for this site.
