@@ -439,3 +439,163 @@ deferred Rumble-native shows. Beyond that, the untouched ground is: **C-SPAN's f
 (only the `kiriakou` keyword was searched today — his colleagues' event recordings are unsearched),
 **Vimeo** (needs a browser), **Podchaser's appearances index** (still 403s), and the widened-feed
 method run against a second directory (Podcast Index or Listen Notes) rather than iTunes alone.
+
+---
+
+## 2026-08-09 — Mixcloud as an index, and chasing one interviewer through his own feed
+
+**Result: 7 new sources found, vetted, transcribed and written into the encyclopedia — 11 new
+articles and 51 woven revisions.** Short of the target of 10. The shortfall was **throughput,
+not a dry well**: more vetted candidates were queued at the end of the run than at the start,
+and four of the day's hours went to three separate silent failures in the shared transcription
+tool. Every one of those is now fixed or documented below.
+
+### Headline 1: Mixcloud is the radio-archive layer, and it is a discovery index only
+
+No previous dig had opened Mixcloud. It holds the layer that YouTube and the podcast
+directories both miss — terrestrial and internet **radio** archives, uploaded by the stations
+themselves. Eight queries returned 13 Kiriakou items of 38 minutes or longer, across shows the
+corpus had never held: *The Sharin' Hour* (KX93.5, Laguna Beach), *Homebrewed Culture Cast*,
+*Loud & Clear*, the *Peter B. Collins Show*, *Epic Real Estate*, plus known ones (*Tell
+Somebody*, *Scheer Intelligence*, *Challenging Opinions*, *Act Out!*).
+
+**Its audio is deliberately protected against downloading and must not be taken from there.**
+yt-dlp's Mixcloud extractor 404s, and the stream URL is obfuscated behind an anti-download
+measure. So the method is: **use Mixcloud to learn which shows had him, then resolve each show
+to its real podcast feed and pull the audio from there.** That worked for Sharin' Hour
+(→ Spreaker), Homebrewed (→ FeedBurner/libsyn), Peter B. Collins (→ peterbcollins.com) and Epic
+Real Estate (→ libsyn). It failed only for *Loud & Clear*, which has no surviving feed — see
+the head start below.
+
+### Headline 2: chase the interviewer through his own feed — Scheer alone was worth five
+
+The single most productive angle of the day, and it generalises. **Robert Scheer's *Scheer
+Intelligence* feed carries twelve Kiriakou episodes going back to 2015. The corpus held four.**
+Five were ingested today; the rest are queued below. Previous digs chased *co-guests* (a trap —
+it returns the co-guest's catalogue) and chased shows by name. This is different: take every
+host who has had him more than once, find that host's own feed, and enumerate. Scheer had him
+back roughly annually for a decade and the corpus had a quarter of it.
+
+The corpus filing convention is what hid them: Scheer episodes are filed under **ScheerPost**
+and under their **YouTube upload date**, so `2022-05-19-scheerpost` is in fact the interview of
+**10 September 2021**. Grepping show names or dates finds nothing. Only the feed does.
+
+### Angles worked
+
+| Angle | Status | Yield |
+|---|---|---|
+| Ledger head start (3 `candidate` rows from 2026-08-07) | worked | Potkaars parked (transcriber hung); the two Rumble-native rows never reached |
+| `find-new-kiriakou-videos.mjs` baseline | worked | 152 videos, 6 searches, **0 new. Fifth consecutive dry run.** |
+| **Mixcloud** (platform never opened) | worked | **The discovery seam** — 13 items ≥38m, 5 shows the corpus had never held |
+| **General web search** (method never used — every prior dig used platform APIs only) | worked | Found the Dissidentklubben Stockholm conversation, Alternative Radio's speaker archive, and johnkiriakou.com's media index. **Cheap and productive; run it every time.** |
+| **Scheer Intelligence feed enumeration** | worked | **12 episodes vs 4 held — five ingested** |
+| iTunes topical sweep, round 2 (26 fresh terms → 857 feeds) | worked | 124 Kiriakou episode rows, almost all already held. The residue that mattered was the Scheer feed. Diminishing returns on this method. |
+| **fyyd.de** podcast directory (never opened) | worked | 9 hits, **0 new** — German-centric index, holds only Theo Von / Cleared Hot / re-cuts. **Dead end, do not re-run.** |
+| **Spreaker search API** (never opened) | worked | Returns nothing for any Kiriakou query. **Dead end.** |
+| **Audioboom API** (never opened) | worked | Ignores the query and returns the global recent firehose. **Dead end.** |
+| **BitChute** (never opened) | worked | Re-upload farms only — WatchmanFT, TheWarAgainstYou (already flagged 08-07). **A mirror layer like Rumble.** |
+| YouTube fast path (8 new query angles × 20 results) | worked | **0 new.** The curated "John Kiriakou Podcasts" playlist and the Dissidentklubben channel also yielded nothing beyond the one item already found. The YouTube surface is genuinely saturated. |
+| ListenNotes | worked | Surfaced the Cyprus dup and the End Time America lead; no clean finds |
+| Vimeo | attempted | Three items exist per web search; yt-dlp gets HTTP 401 on Vimeo's API. **Still unresolved — needs a browser.** |
+| C-SPAN person page | attempted | 403 to a plain fetch. **Still unresolved.** |
+| Alternative Radio | worked | Exactly one programme — *The War on Whistleblowers*, recorded **2016-02-13**, product KIRJ001. Paywalled; not obtainable. Recorded so nobody hunts it twice. |
+
+### Three silent failures in the shared transcription tool
+
+All three produce a file that looks fine. This is the important part of today's log.
+
+**1. `vad_filter=True` deleted the guest's entire half of a phone interview.** The 2016 Sharin'
+Hour came back as 2,944 words of the host talking to nobody — every one of Kiriakou's answers
+gone, the questions clean. With VAD off: **10,115 words**. It is a telephone interview, and the
+guest's level trips the filter. This is the **second** confirmed instance after the 08-07 *Tell
+Somebody* case, and it is now clear the first was not a one-off.
+
+**2. The same default stopped 22 seconds into a 65-minute episode** (Epic Real Estate) and
+exited reporting success — 5 cues written.
+
+**3. It hangs.** On the 144-minute Potkaars episode it ran **four hours**, emitted nothing after
+minute 49, and was still burning 340% CPU when killed — a faster-whisper repetition loop that
+never returns. This alone cost the run its margin.
+
+**The fix, used for every source after the first two:** decode once with ffmpeg, cut into
+ten-minute windows, and transcribe each window **in a separate process with a hard timeout**.
+Windowing alone does not solve (3) — the loop happens *inside* a window, so only a killable
+child process helps. The covered fraction is printed at the end, so truncation can never pass
+silently again. Every source below reports 99% coverage.
+
+**A fourth failure was mine, and is worth generalising:** when ffmpeg failed to decode the
+Homebrewed MP3, my driver normalised the **previous item's** leftover transcript under the
+Homebrewed filename. It was caught only because the word count and end timestamp matched a file
+deleted minutes earlier. **Any intake driver must clear its working transcript between items.**
+
+### The ad-stripper, again
+
+Unchanged and still wrong in the same direction. Epic Real Estate: **12 paragraphs of canon
+recovered against 1 genuine ad** — including the Las Vegas shooting, Ken Dilanian sending NBC
+copy to the CIA for clearance before his own editor, and the leaked Yemen F-18 footage. Daniel
+Hale: 7 paragraphs recovered, 0 ads. Every source ingested today was unstripped. The standing
+recommendation from 08-07 — that a dedicated unstrip routine is the highest-value job in the
+repo — is unchanged and now three digs old.
+
+### Ingested and written (7)
+
+| # | Show | Date | Len | Path in | What it added |
+|---|---|---|---|---|---|
+| 1 | **Dissidentklubben**, Stockholm | 2026-07-28 | 39m | YouTube captions | The CIA "owns something like 40% of Palantir" after Tenet's legal waiver; RFK Jr's account of his father asking McCone *"tell me your people didn't do this"*; the Intercept outing five whistleblowers |
+| 2 | **The Sharin' Hour**, KX93.5 | 2016-01-12 | 60m | Mixcloud → Spreaker → whisper | **A corpus-empty year.** The Richard Welch killing in full; how 17 November was broken in 2002; the Taliban embassy phone bills; the Carlos the Jackal dentist capture; the entrance exams |
+| 3 | **Scheer Intelligence** | 2015-12-11 | 38m | Scheer feed | Deuce Martinez and the business card; the charge built on information declassified to bring it; Eric Holder at Barbra Streisand's dinner table; *"I'm a non-person"* |
+| 4 | **Scheer Intelligence** | 2022-04-01 | 44m | Scheer feed | Brennan asking DOJ to reopen the case secretly; three years of undisclosed surveillance; his then-wife reporting his legal strategy to the Office of Security; the 45-year opening offer |
+| 5 | **Scheer Intelligence** — Daniel Hale | 2021-10-29 | 44m | Scheer feed | The roadblock strike and the dumpster; 40% of drone deaths civilian; the CMU conditions; the al-Qaeda prisoners protecting Hale from the skinheads |
+| 6 | **Scheer Intelligence** | 2021-05-21 | 57m | Scheer feed | The 189 undeclared Israeli officers and the CIA headquarters ban; "Arabists"; the Kuwaiti royal's *"there will be no Palestinians in it"*; a **second, different account** of the conduct he was charged over |
+| 7 | **Scheer Intelligence** | 2024-03-29 | 45m | Scheer feed | The August 2022 custody hearing in full — his own testimony that she was *"an amazing wife"*, then her answer that the Office of Security sent her to the ABC interview; the LA Times Iran call he could not explain for fourteen years |
+
+**New articles (11):** `active-measures`, `stansfield-turner`, `cia-entrance-exams`,
+`cia-divorce-rate`, `deuce-martinez`, `kiriakou-non-person`, `abu-zubaydah-cremation-footnote`,
+`the-roadblock-drone-strike`, `the-189-undeclared-officers`, `arabists`,
+`the-la-times-iran-op-ed`. **51 woven revisions** across the corpus.
+
+**One variance deliberately preserved rather than smoothed:** in 2015 he traces his prosecution
+to scanning Deuce Martinez's business card for Scott Shane; in 2021 he traces it to confirming a
+surname to an ABC reporter writing a book on the Abu Omar rendition. Both are now recorded in
+`deuce-martinez`, marked as differing accounts.
+
+### Rejected (5) — and every one of them survived dedupe by videoId, show and title
+
+| What | Why |
+|---|---|
+| **Sharin' Hour 2016-08-02 (60m)** | **89.6% shingle overlap with 2016-01-12 — the same taping re-aired seven months later.** Identical stated duration. Only `dupe-check.mjs` caught it |
+| **Epic Real Estate 2026-02-10 (64m)** | 73% overlap with corpus `2026-02-09-epic-real-estate`; the podcast feed release lags the YouTube upload by a day. Same trap as SaltCube on 08-06 |
+| **Peter B. Collins 2021-04-15 (56m)** | Two-guest interview — Kiriakou **and Joseph Hickman** on their joint book — with no speaker labels in the transcript. Attribution unsafe under doctrine rule 4; removed from the corpus rather than left as a trap for a future writer |
+| **Scheer Intelligence 2023-12-15 (40m)** | **Kiriakou is not in it.** Guests are Kate Stonehill (*Phantom Parrot*) and Mohammed Rabbani of CAGE; his name appears **once** in the hour, spoken by the host. My feed resolver matched on a description mentioning him. **Fourth instance of this failure mode.** Reading the transcript before writing is the only guard |
+| **End Time America 2026-07-28 (65m)** | Prophecy-commentary show, Kiriakou presence unverified. Dropped unvetted after the 2023-12-15 false positive rather than spend an hour finding out |
+
+### Parked
+
+- **Potkaars New Year's Eve 2020-01-01 (144m)** — the transcriber hang. Third dig running.
+- **Loud & Clear 2016-01-29 (55m), 2016-08-29 (51m), 2017-01-19 (53m)** — all three are
+  **guest-era** episodes and therefore doctrine-clean: Kiriakou did not become Brian Becker's
+  co-host until **August 2017**. No podcast feed survives (Sputnik was delisted) and Mixcloud is
+  the only archive, so there is currently no permitted route to the audio. Recorded so the next
+  dig does not re-derive this.
+
+### For the next dig — the head start
+
+The queue is *longer* than it was this morning. In rough order of expected value:
+
+1. **Finish Scheer.** Two known Kiriakou episodes remain: 2018-04-06 *The Wrong Direction for
+   the CIA* (33m), 2022-05-20 *It's scoundrel time in the good ol' USA* (52m), 2024-03-29 *It's a
+   secret only when Uncle Sam says it is* (45m). All three defeated `rss-pick.py`'s title
+   matching — the titles begin with a curly apostrophe and score below its 0.55 similarity
+   guard. **Resolve by feed index or GUID rather than title.**
+2. **Apply the Scheer method to every other repeat interviewer.** Katie Halper, Kevin Gosztola,
+   Garland Nixon, Danny Jones, Jimmy Dore, Dialogue Works, American Exception — each has a feed;
+   enumerate it and diff against the corpus by *date*, not name.
+3. **Homebrewed Culture Cast 2017-12-12 (79m)** — genuine, resolved, but ffmpeg fails to decode
+   the libsyn MP3 (exit 183). Needs a re-encode or a different fetch.
+4. **Rumble: AM WakeUp 2023-07-06 (191m), Health Ranger Report 2026-02-11 (111m)** — vetted as
+   candidates on 08-07, still never reached.
+5. Vimeo (needs a browser), C-SPAN's person page (403s), Alternative Radio KIRJ001 (paywalled).
+
+**Method note for whoever runs this next:** the discovery half of the job is not the bottleneck
+any more and has not been for three digs. Transcription is. A dig that spends its first hour
+building the queue and its remaining hours transcribing will beat one that keeps searching.

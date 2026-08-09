@@ -287,3 +287,43 @@ time. Full detail in `ARCHAEOLOGY-LOG.md`.
 | ingested | 2010-04-23 | 61m | C-SPAN Book TV — After Words | After Words with John Kiriakou, interviewed by Frederick Hitz (former CIA Inspector General) | program.223989 | https://www.c-span.org/program/book-tv/after-words-with-john-kiriakou/223989 | C-SPAN sweep (noon dig 2026-08-07). Site page is JS-rendered; audio via `https://iphone.c-spanvideo.org/m3u8/program.<id>.m3u8` — segments need a browser User-Agent or they 403 |
 | ingested | 2025-07-24 | 83m | DeepStateBear (Rumble-native) | Everybody Hates Israel — interview with expert John Kiriakou | v6ufcpg | https://rumble.com/v6wm8ya-everybody-hates-israel-interview-with-expert-john-kiriakou.html | Rumble sweep (noon dig 2026-08-07); yt-dlp handles Rumble directly |
 | skip | 2008-10-30 | ? | C-SPAN public affairs event | Law and Morality of Interrogation — a PRE-whistleblowing appearance | 196588 | https://www.c-span.org/program/public-affairs-event/law-and-morality-of-interrogation/196588 | Panel — doctrine reject on attribution, but recorded here because a 2008 appearance is the earliest known and may matter if the panel rule is ever revisited |
+
+## Noon dig 2026-08-09 — Mixcloud as an index, and Robert Scheer's own feed
+
+Two new methods. **Mixcloud** was opened for the first time and turns out to hold the radio
+archive layer — but its audio is protected against downloading, so it is a **discovery index
+only**: use it to learn which shows had him, then pull the audio from that show's real podcast
+feed. **Chasing one interviewer through his own feed** was the productive angle: *Scheer
+Intelligence* carries twelve Kiriakou episodes and the corpus held four. Full detail, including
+three silent failures in the shared transcription tool, is in `ARCHAEOLOGY-LOG.md`.
+
+| Status | Date | Len | Show | Title | videoId | URL | Notes |
+|---|---|---|---|---|---|---|---|
+| ingested | 2026-07-28 | 39m | Dissidentklubben | A conversation with John Kiriakou (Stockholm, rec. 4 Jul) | _cVnFagpXow | https://youtu.be/_cVnFagpXow | Found by plain web search — a method no previous dig had used |
+| ingested | 2016-01-12 | 60m | The Sharin' Hour (KX93.5 Laguna) | The Sharin' Hour 1/11/16: JOHN KIRIAKOU, ex-C.I.A. | — | https://www.spreaker.com/show/4221519/episodes/feed | Mixcloud discovery → Spreaker feed → whisper. A corpus-empty year; no overlap with anything held |
+| ingested | 2015-12-11 | 38m | Scheer Intelligence | John Kiriakou: A Whistleblower on Torture | — | https://feeds.captivate.fm/scheer-intelligence/ | Scheer feed enumeration |
+| ingested | 2021-05-21 | 57m | Scheer Intelligence | A former CIA mideast expert's view of the Israeli-Palestinian crisis | — | https://feeds.captivate.fm/scheer-intelligence/ | Scheer feed enumeration |
+| ingested | 2021-10-29 | 44m | Scheer Intelligence | Daniel Hale and America's unending persecution of whistleblowers | — | https://feeds.captivate.fm/scheer-intelligence/ | Kiriakou is the guest despite the title naming Hale |
+| ingested | 2022-04-01 | 44m | Scheer Intelligence | Biden denies CIA torture victims their day in court | — | https://feeds.captivate.fm/scheer-intelligence/ | Scheer feed enumeration |
+| candidate | 2018-04-06 | 33m | Scheer Intelligence | John Kiriakou: The Wrong Direction for the CIA | — | https://feeds.captivate.fm/scheer-intelligence/ | **Head start.** rss-pick title match fails (curly apostrophe / prefix); resolve by feed index or GUID |
+| candidate | 2022-05-20 | 52m | Scheer Intelligence | It's scoundrel time in the good ol' USA | — | https://feeds.captivate.fm/scheer-intelligence/ | **Head start.** Same title-matching failure |
+| ingested | 2024-03-29 | 45m | Scheer Intelligence | It's a secret only when Uncle Sam says it is | — | https://feeds.captivate.fm/scheer-intelligence/ | Scheer feed enumeration. Whisper renders his name "John Curriaco"/"Kriakou" — a name grep alone would have wrongly rejected it |
+| candidate | 2017-12-12 | 79m | Homebrewed Culture Cast | When Doing Good Breaks the Law with John Kiriakou | — | http://traffic.libsyn.com/hbculturecast/CC20John20KiriakouFINAL.mp3 | Resolved and genuine; **ffmpeg fails to decode this MP3 (exit 183)** — needs a re-encode |
+| candidate | 2023-07-06 | 191m | AM WakeUp (Rumble-native) | False Flags & Real Terrorists w/ John Kiriakou | v2vv7g6 | https://rumble.com/v2ygmna-false-flags-and-real-terrorists-w-john-kiriakou.html | Carried over from 08-07; never reached |
+| candidate | 2026-02-11 | 111m | Health Ranger Report (Rumble-native) | War with Iran — Interview with John Kiriakou | v73fo1y | https://rumble.com/v75mc26-war-with-iran-interview-with-john-kiriakou-and-news-on-glyphosate-the-epa-a.html | Carried over from 08-07; never reached |
+| blocked | 2016-01-29 | 55m | Loud & Clear (Radio Sputnik) | John Kiriakou: "The CIA Tortured For Torture's Sake" | — | https://www.mixcloud.com/loudclear/john-kiriakou-the-cia-tortured-for-tortures-sake/ | **Guest era — he did not co-host until Aug 2017, so doctrine-clean.** No surviving feed; Mixcloud audio is download-protected. Needs another route |
+| blocked | 2016-08-29 | 51m | Loud & Clear (Radio Sputnik) | John Kiriakou: CIA wants Zubaydah silenced for life | — | https://www.mixcloud.com/loudclear/john-kiriakou-cia-wants-zubaydah-silenced-for-life/ | As above |
+| blocked | 2017-01-19 | 53m | Loud & Clear (Radio Sputnik) | US Intel Veterans' Letter to Obama: Where's the Proof? | — | https://www.mixcloud.com/loudclear/john-kiriakou-us-intel-veterans-letter-to-obama-wheres-the-proof/ | As above |
+| blocked | 2016-02-13 | ~57m | Alternative Radio | The War on Whistleblowers (product KIRJ001) | — | https://www.alternativeradio.org/products/kirj001/ | Paywalled; not obtainable. Recorded so nobody hunts it twice |
+| parked | 2020-01-01 | 144m | Potkaars Podcast | New Years Eve Part 1 (English) | — | https://feeds.buzzsprout.com/1572253.rss | Third dig running. `whisper2vtt.py` hung four hours at 49:12; retry with the windowed transcriber |
+| skip | 2016-08-02 | 60m | The Sharin' Hour | The Sharin' Hour 7/30/16: JOHN KIRIAKOU, CIA | — | — | **89.6% overlap with 2016-01-12 — the same taping re-aired.** Identical stated duration; only dupe-check caught it |
+| skip | 2026-02-10 | 64m | Epic Real Estate Investing | EX-CIA OFFICER: Americans Have No Idea What's ACTUALLY Happening | — | — | 73% overlap with corpus `2026-02-09-epic-real-estate`; feed release lags the YouTube upload by a day |
+| skip | 2021-04-15 | 56m | Peter B. Collins Show | Whistleblowers Kiriakou and Hickman Finger Serial Informant Matthew Cole | — | https://peterbcollins.com/feed/podcast/ | Two-guest (Kiriakou + Joseph Hickman), no speaker labels — attribution unsafe under doctrine rule 4 |
+| skip | 2023-12-15 | 40m | Scheer Intelligence | The Never Ending War on Terror | — | — | **Kiriakou is NOT in it** — guests are Kate Stonehill and Mohammed Rabbani; his name appears once, spoken by the host |
+| skip | 2026-07-28 | 65m | End Time America | HOW BIG IS THE DECEPTION? | — | https://anchor.fm/s/13787af4/podcast/rss | Prophecy-commentary show; presence unverified, dropped after the Scheer false positive |
+| skip | 2026-07-26 | 75m | Cyprus Diaspora Uncovered | John Kiriakou Uncovered | — | — | Same taping as corpus `2026-07-23-cyprus-diaspora-forum-john-kiriakou-fireside-chat` |
+
+> **Dead platforms, do not re-run:** fyyd.de (German-centric, holds only re-cuts and shows
+> already held), the Spreaker search API (returns nothing), the Audioboom API (ignores the
+> query), BitChute (re-upload farms — WatchmanFT, TheWarAgainstYou). **Still unresolved:**
+> Vimeo (yt-dlp 401s on its API; needs a browser) and C-SPAN's person page (403s).
