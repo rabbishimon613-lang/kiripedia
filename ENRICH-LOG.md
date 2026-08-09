@@ -521,3 +521,144 @@ Nothing left in-progress.
   Act passage in Disruption Network Lab, which is Annie Machon and not Kiriakou.
 - `james-angleton` and `james-jesus-angleton` are two live articles on the same person. Not
   merged here — that is a cleanup job, not an enrichment.
+
+---
+
+## 2026-08-09 — enricher pass
+
+**15 of 15 articles fattened.** Mention index rebuilt from scratch (1,375 articles; 941 sit at
+11+ uncited mentions, 186 at zero). The raw uncited counts are now badly inflated by
+single-word alias collisions — the top of the starvation ranking was `bay-path-university`
+matching every occurrence of the word *university*, `national-endowment-for-democracy`
+matching *democracy*, `cori-bush` matching *Bush*. Candidates were therefore re-ranked on
+distinct uncited sources whose passage actually contains a **multi-word** alias, which cut the
+pool from 1,375 to 58 real candidates and made the shortlist honest.
+
+| Article | Words before → after | New facts | Distinct new sources |
+|---|---|---:|---:|
+| ramzi-bin-al-shibh | 374 → 1092 | 11 | 5 |
+| yasser-arafat | 339 → 1085 | 11 | 4 |
+| advanced-counterterrorism-operations | 376 → 1050 | 12 | 5 |
+| admiral-crowe | 386 → 1041 | 10 | 2 |
+| intelligence-peddlers | 356 → 1003 | 10 | 8 |
+| mad-minute | 327 → 918 | 8 | 3 |
+| magic-box | 304 → 912 | 9 | 2 |
+| dick-clarke | 294 → 821 | 8 | 2 |
+| christopher-hitchens | 331 → 821 | 8 | 2 |
+| jim-moran | 373 → 816 | 7 | 5 |
+| kamala-harris | 334 → 813 | 6 | 4 |
+| turning-point-usa | 374 → 762 | 6 | 2 |
+| john-walker-lindh | 297 → 744 | 6 | 3 |
+| brad-birkenfeld | 353 → 735 | 5 | 2 |
+| the-backstory | 326 → 613 | 6 | 4 |
+
+Nothing left in-progress. All 252 `<Cite>` tags across the fifteen files were machine-verified
+to resolve to a real `[timestamp]` paragraph in a real non-sponsor source before commit.
+
+### Best finds
+
+- **admiral-crowe** — the departure gifts. When an officer left Bahrain the Emir and the Prime
+  Minister gave a farewell present, normally a Rolex, which no American could keep: anything
+  over twenty-five dollars went to Treasury in the diplomatic pouch, so gifts were opened in
+  front of witnesses. The ambassador's was a cigar box. Opened in front of the assembled staff
+  it held fifty thousand dollars in cash, which the deputy chief of mission and the head of
+  public affairs counted before it was boxed back up and shipped to Washington. Kiriakou's
+  footnote on himself: *"I was the only one, the only one who didn't get a Rolex when we left."*
+  The same pass also produced Shirley Crowe introducing herself to him at dinner two hours
+  after he had spent an entire day negotiating her carpet prices — *"Of course you did."*
+- **magic-box** — the device now has its build and its death. Two tech officers *"both of whom
+  looked like they were 16 years old"* bought a cigar-box-sized case and a pile of wire,
+  capacitors and LEDs from the Pakistani equivalent of Radio Shack, worked two days in the
+  station's tech shack, and produced something that *"looked like a Boy Scout put it together."*
+  It beeped exactly once, at ten at night; the compass swung north; the team picked it up,
+  started for the exit, and the signal died. Abu Zubaydah was switching the phone on only long
+  enough to hear his voicemail and then pulling the battery. Kiriakou's verdict — *"this isn't
+  going to help us catch him, this is wasted time"* — is what sent him to fetch the targeting
+  analyst who actually found the man.
+- **advanced-counterterrorism-operations** — the course stops being a syllabus and becomes a
+  physical experience. The invitation came by cable halfway through his Athens tour, for what
+  was then a brand-new course; the driving half was about ramming roadblocks, with the specific
+  instruction to go through the boot because the engine block will kill you; students were
+  blindfolded in the driver's seat and given three seconds to react to whatever was in front of
+  them when it came off — a roadblock, a man with an AK-47, or somebody easing the door open to
+  put a pistol to their head and say *"bang, you're dead, you fail."* Kiriakou was injured,
+  everybody finished with whiplash, and twenty-five years later he still locks the car doors
+  before the key goes in the ignition.
+- **yasser-arafat** — the map of Jerusalem. Kiriakou's first CIA boss, by then the Middle East
+  official at the National Security Council, was in the room in the last days of the Clinton
+  administration when the parties had agreed on nearly everything and were dividing Jerusalem
+  block by block with a marker pen on an enormous map. Gore said *"My God, we have peace."*
+  Arafat said he could never sell it to the Palestinian people and walked out; Gore ran after
+  him into the corridor; Arafat said it again. Kiriakou calls that the death of the peace
+  process, and *"in retrospect, anything would have been better than nothing. And what the
+  Palestinians have today is nothing."*
+- **intelligence-peddlers** — eight tellings of the same taxonomy assembled into one article,
+  and the variance is now part of the content rather than noise: the lunatic share moves
+  between 95, 96 and 99 per cent, the payment between twenty dollars and five hundred, and the
+  peddler's total between a month's salary and *"a year's worth of money in three days."* The
+  article also recovers where the taxonomy came from — his job as chief of counterintelligence
+  in the bin Laden unit was literally to sort the walk-ins claiming to know where bin Laden was.
+
+### Corrections made while enriching
+
+- **the-backstory** named the co-host as **Lisa Stranahan**. He is **Lee Stranahan**, and the
+  corpus is unambiguous — he introduces himself by name on air in the 2021-01-22 recording, and
+  a separate 2018 source is titled with his name. The article's "Lisa" traced to a caption
+  artefact (*"I'm Liz Stranahan"*) in the one source it was written from. Fixed in summary,
+  infobox and body.
+- **brad-birkenfeld** carried YAML-escape artefacts that had leaked out of the frontmatter and
+  into rendered prose — readers were seeing `Kiriakou''s` and `there''s no recourse` on the live
+  page. Fixed.
+- **kamala-harris** had no `dyk:` block at all, so the homepage navigation pool was getting
+  nothing from a top-tier article. Two entries added.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+- **national-bird** (295 words) — five of the six uncited sources are other people talking:
+  Ray McGovern presenting a Sam Adams award, and Sonia Kennebeck, the film's own director, on a
+  Disruption Network Lab panel. The one Kiriakou passage is excellent (his own monologue on
+  Daniel Hale, the Drone Papers, and the five-month period in 2012 in which nearly 90 per cent
+  of those killed were not the intended targets) but it is one telling. Needs a second.
+- **national-endowment-for-democracy** (315 words) — looks well-fuelled and is not. The
+  Kuwait/Rendon/DNC-RNC block is already in the article from an earlier capture, and the two
+  "new" sources are duplicate uploads of that same interview. Only the USAID-funding passage
+  (`2026-06-16-julian-dorey-daily`) is genuinely new, and one source is below the floor.
+- **james-fishback** (342 words) — same shape. The Mehdi Hasan interview is already cited via
+  the Zeteo capture; the `eb-flow` hit is a commentary channel replaying that interview. That
+  leaves one real new source (`2026-03-31-deprogram`, where he explains how a "take a look at
+  him" remark became a reported endorsement within seconds). Worth revisiting on a second
+  telling.
+- **marble-framework** (233 words) — confirmed unfuelled for a second consecutive pass. Every
+  uncited passage is Ray McGovern or Suzie Dawson describing Vault 7 on a roundtable, twice
+  captured. Nothing in Kiriakou's own voice.
+- **nick-bryant** (252 words) — the two sources are Deep Focus episodes where Kiriakou
+  *interviews* Bryant. The substance is all Bryant's; single-source canon excludes it. Only
+  Kiriakou's own framing (*"the country's leading expert on the Jeffrey Epstein case"*) is
+  usable, and that is one sentence.
+- **kiriakou-guatemala-orphanage-trip**, **spy-films-accuracy**,
+  **french-village-lsd-bread-experiment**, **mariel-boatlift-comparison**,
+  **cia-animal-surveillance-experiments**, **afghan-languages**, **andrew-feinstein**,
+  **ai-whistleblower-initiative**, **bay-path-university**, **intelligence-agencies** — all
+  rank near the top on raw uncited counts and all yield **zero** real passages. Every hit is a
+  single generic word from the title (*guatemala*, *accurate*, *experiment*, *comparison*,
+  *languages*, *feinstein*, *initiative*, *university*, *agencies*). These are index artefacts,
+  not a shopping list.
+
+### Method notes
+
+- The mention index needs an alias-quality fix. An article whose title contains a common noun
+  gets an alias for that noun and then matches several hundred sources, which puts it at the
+  top of every starvation ranking while having no fuel at all. This pass worked around it by
+  requiring a multi-word alias match inside the passage snippet; doing that in
+  `build-mentions-index.mjs` itself would make the index usable directly.
+- Speaker attribution remains the main filter. Cut this pass: the Tucker Carlson block on Jim
+  Moran's drinking and private life (Carlson's words, not Kiriakou's — only *"Jim was very
+  helpful, very, very helpful"* is his); a Telesur summary of Moran's pardon call (interviewer);
+  the Gonzalo Lira roundtable line on Kamala Harris being kicked upstairs (a panellist who
+  refers to John in the third person); the Danny Jones McGovern/superdelegate exchange, which is
+  a two-guest show where the other guest cannot be excluded; and the Zeteo "Kamala Harris is a
+  neocon" line, which is Mehdi Hasan quoting his own friends.
+- Where a fact appears in several tellings with different values, the article now records the
+  variance rather than picking one — the ACO course length and date, the intelligence-peddler
+  percentages and payments, the magic box's two-day versus one-week build, and the Camp David
+  delegation lead (Prime Minister in one telling, Shimon Peres in another).
