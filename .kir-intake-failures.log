@@ -2,3 +2,5 @@
 [2026-07-12T03:16:33Z] QkcNo1XF92c :: youtube 429 rate-limited after 5 retries
 [2026-07-12T03:20:34Z] _H0D8LbhHWM :: youtube 429 rate-limited after 5 retries
 [2026-07-12T03:24:33Z] 8CaxAqpMzhI :: youtube 429 rate-limited after 5 retries
+[2026-08-09T17:21:26Z] https://www.mixcloud.com/homebrewedculturecast/when-doing-good-breaks-the-law-with-john-kiriakou/ :: no captions and audio/RSS fallback failed (see ytdlp.err/rss.err/whisper.err)
+[2026-08-09T17:23:14Z] https://feeds.feedburner.com/HomebrewedChristianityCulturecast :: RSS enclosure resolve/whisper failed (see rss.err/whisper.err)

@@ -20,6 +20,11 @@ CREDITS="$DEST/credits.json"
 # reads as "this is the subject" — 46 biographies were carrying exactly that
 # and were unmapped on 2026-08-05 rather than given a better stand-in.
 MAPPING=(
+  "louise-mensch=Louise_Mensch"
+  "laura-loomer=Laura_Loomer"
+  "patrick-bet-david=Patrick_Bet-David"
+  "gulf-intelligence-services=Gulf_Cooperation_Council"
+  "the-buried-senate-documents=United_States_Senate"
   "charlie-kirk=Charlie_Kirk"
   "turning-point-usa=Turning_Point_USA"
   "max-blumenthal=Max_Blumenthal"
