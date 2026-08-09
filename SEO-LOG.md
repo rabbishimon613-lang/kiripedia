@@ -1481,3 +1481,194 @@ generated files (`article-dates.json`, `related.json`, `llms.txt`,
 `date-index.json`, `.kir-seo-state.json`) were **deliberately left unstaged** —
 they are not this routine's changes — but they *were* included in the deployed
 build, which is the established behaviour for this site.
+
+---
+
+## 2026-08-09 — nightly sweep
+
+**No dashboard numbers this run.** Both Search Console and Vercel Analytics were
+unreadable, so the analytics half of the sweep did not happen and nothing in
+this entry is estimated to cover the gap. The corpus half ran in full, and the
+build fought the drive again.
+
+### The numbers — not read, and why
+
+The deep pass depends on the signed-in Chrome browser tools. **The Chrome
+extension was disconnected for the entire run** — two attempts, both returning
+"Claude in Chrome is not connected". The in-app browser was tried as a fallback
+and **hung for five minutes on the first page load** before timing out, so it
+was abandoned rather than retried.
+
+**No clicks, impressions, CTR, position, indexed-vs-excluded counts, query list,
+page list, visitors, page views, bounce rate or referrer breakdown were read
+tonight, and none are estimated here.** The last measured values stand as of
+2026-08-08: 126 clicks, 6.17K impressions, 2% CTR, position 16.3, and 1.57K
+indexed against 497 not indexed.
+
+**This is the first sweep since the routine absorbed the analytics pass that has
+produced no numbers at all.** If the extension is still down next run, that is
+two consecutive blind sweeps and the impression-ranked working queue — the
+highest-yield input this routine has — goes stale.
+
+### The working queue, substituted
+
+With no impression data, the queue came from the deterministic side:
+`tools/seo-daily.mjs`'s own ranked candidates, sorted by inbound links and word
+count. **This is a worse signal than impressions and is recorded as a
+substitution, not an equivalent.** Inbound links say an article matters inside
+the corpus; impressions say Google is already showing it to people and they are
+not clicking. The second is the one that converts.
+
+That said, the previous three sweeps all found the impression-ranked queue
+**saturated** — every page in the Search Console top 30 already carried a
+purpose-written title and deck. So the inbound-link queue was the likely next
+target anyway, and none of the fifteen below has ever been treated.
+
+**Corpus audit** (`node tools/seo-daily.mjs`, taken at the start of the run):
+
+```
+articles               1325  (+76)      withSeoTitle            98  (+13)
+orphans                 172  (+8)       withDeck               115  (+13)
+thin                    403  (+1)       grounded               328
+veryThin                 92  (-8)       relatedBlocksRendered 1322  (+76)
+noindexed                 0             relatedOrphans           0
+clampedSnippets        1159  (+64)
+```
+
+The corpus grew *hard* during the sweep — the intake routine was running
+concurrently the whole time. It went 1,325 → 1,337 → 1,347 → 1,369 and the final
+build compiled **1,380 articles**. Next run's delta should be read against
+1,380, not 1,325.
+
+### Changed — 15 new titles and decks
+
+Each grounded in the article's own `summary`, i.e. in something Kiriakou
+actually said. No fact was invented to sharpen a title. All `seoTitle` 29–40
+characters, all `deck` 139–149.
+
+| slug | why it was picked | new title tag |
+|---|---|---|
+| `permanent-wartime-economy` | 17 inbound, 1,570 words | The war economy the US can't switch off |
+| `presidents-daily-brief` | 17 inbound, 1,519 words | Inside the President's Daily Brief |
+| `bahrain-1994-1996-posting` | 16 inbound, 2,201 words | Kiriakou in Bahrain, 1994-1996 |
+| `jonathan-pollard` | 15 inbound, 1,955 words | Jonathan Pollard, and what Israel traded |
+| `tuesday-morning-kill-list` | 15 inbound, 1,702 words | The Tuesday morning kill list |
+| `gina-haspel` | 15 inbound, 1,471 words | Gina Haspel, known as 'Bloody Gina' |
+| `russia-ukraine-war-origins` | 14 inbound, 1,433 words | The Ukraine war began in 2014, not 2022 |
+| `daniel-ellsberg` | 14 inbound, 1,335 words | Daniel Ellsberg, Kiriakou's mentor |
+| `october-7-attack` | 14 inbound, 1,221 words | October 7 was a policy failure |
+| `mass-surveillance` | 14 inbound, 755 words | The NSA warehouse in the Utah desert |
+| `whistleblower-protection-act` | 14 inbound, 612 words | The law that doesn't cover CIA officers |
+| `afghan-heroin-policy` | 13 inbound, 2,938 words | How Afghan heroin went from 0% to 93% |
+| `leonie-brinkema` | 13 inbound, 1,768 words | Judge Brinkema, 'a hanging judge' |
+| `eastern-district-of-virginia` | 13 inbound, 1,523 words | The court where spies never win |
+| `tucker-carlson` | 13 inbound, 1,279 words | Tucker Carlson, as Kiriakou knows him |
+
+`afghan-heroin-policy` is the standout of the batch: 2,938 words, thirteen
+inbound links, and it was serving a truncated clamp of its own summary as the
+search snippet. The 0%-to-93% figure is the thing a person would actually click,
+and it was nowhere in the title.
+
+### Verified
+
+- `npm run build` → **`Total: 0 bugs, 1268 suspicious, 0 dead.`**
+- **URL shape held:** the slash-less-internal-link grep prints **0**. The
+  normalizer in `tools/astro-trailing-slash.mjs` has not regressed.
+- **Related blocks:** 1,380 articles, 977 rescue links, **0 with no inbound
+  related-link**, 3 with an empty block. No hand-linking needed — the generator
+  absorbed +76 new articles without moving off 0.
+- **Build completeness checked against source** (flaky-drive rule): 1,380 source
+  articles → 1,427 built wiki pages → 2,263 sitemap URLs. Surplus, not deficit.
+- **noindex, all 53 accounted for:** 48 redirect stubs plus the same 5 utility
+  pages (`/search`, `/random`, `/needs-image`, `/on-this-day`,
+  `/special/all-pages`). **Zero accidental noindex.** Identical to last sweep.
+- **All 15 titles and decks confirmed in the built HTML** before committing.
+
+### The drive fought the build again — same signature, now on the second attempt
+
+Four build attempts, and the first three failed for reasons that were not in the
+content. Every one reached `Total: 0 bugs` in the content phase first, so
+nothing in the corpus or in tonight's edits was ever implicated.
+
+1. **Transient, and genuinely the intake's fault:** `1 bugs, 10 dead` — dead
+   wikilinks pointing at `louise-mensch`, `marco-rubio-and-iran-policy`,
+   `bombing-the-omanis` and others. **These were not defects.** The intake
+   routine was mid-flight writing articles that link to each other; `louise-mensch.mdx`
+   appeared on disk minutes later. Waiting for the article count to hold steady
+   for four consecutive 30-second checks cleared it.
+2. `ENOENT` renaming `.astro/content-modules.mjs.tmp` → `.mjs` — **a file the
+   build had written moments earlier**.
+3. `ENOENT` copying `public/images/cia-arabic-hiring-practices.png` — **the file
+   exists on disk**, 197 KB, verified immediately after.
+4. After pre-warming all 893 images (736 MB) into the OS cache, the build
+   completed cleanly and passed every gate above.
+
+This is the known EOS_DIGITAL silent-write-drop under bulk load, and it is now
+been recorded twice running with the same tell: **a missing file that
+demonstrably exists.** The fix remains: clear `dist` and `.astro`, `cat` the
+image tree into cache, rebuild. Recorded again because the pre-warm turned four
+attempts into one success, which is a faster remedy than the 40-minute wait the
+2026-08-08 entry landed on.
+
+**Contention was a factor and is worth noting for next time.** A second Claude
+session was running its own `astro build` against this same repo concurrently,
+on top of the intake routine writing articles. Three processes hitting a flaky
+external drive at once is the worst case for this failure mode.
+
+### Found, not changed — with reasons
+
+- **The intake routine's ~55 new articles, the enricher's edits, and the
+  generated files were deliberately left unstaged.** Only the 15 metadata files
+  were committed, by explicit path. Never `git add -A`.
+- **Two of the fifteen had to be re-staged from `HEAD` rather than from the
+  working tree.** The enricher session added a 1,200-word "moral question"
+  section to `afghan-heroin-policy.mdx` *after* this routine edited it, and
+  something re-quoted a `dyk` line in `leonie-brinkema.mdx`. Staging the working
+  file would have swept both into this commit. Instead the `HEAD` blob was taken,
+  the two frontmatter lines spliced in, and that object staged directly — so the
+  commit is exactly 15 files and 30 added lines, and the other session's work
+  stayed in its own tree untouched. **Worth reusing: this is the clean way to
+  commit by-hunk without an interactive add.**
+- **11 dead wikilinks survived into the final build** (down from the transient
+  spike, and the audit reports `0 dead` at the gate because the referenced
+  articles landed). Not this routine's to write.
+- **Standing items, all tracking corpus growth:** 1,159 clamped snippets, 172
+  wikilink orphans, 1,268 suspicious wikilinks, 403 thin articles.
+
+### Blocked — needs the user
+
+- **The Chrome extension is disconnected.** New this run and it blocks the
+  highest-yield half of the routine on this property, plus the Search Console
+  read on the other two. **One-time fix:** open the Claude side panel in Chrome
+  and sign in with the same account as this app. Until then this routine is
+  working from corpus statistics alone.
+- **Backlinks remain the entire ceiling.** Unchanged and repeated every run:
+  position 16.3 at 2% CTR is what a site with ~18 links from one Reddit thread
+  gets. **Kiriakou sharing the site himself is still the single highest-value
+  unlock available.**
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia**, for the Organization `sameAs` (carried
+  from 2026-07-09).
+
+### Deployed
+
+**Yes — live and verified on `www.kiripedia.org`.**
+
+- `vercel build --prod` (exit 0) then
+  `vercel deploy --prebuilt --prod --archive=tgz` → `readyState: READY`,
+  deployment `dpl_cYJAP68Lf6wt2ZCeLb7LaEyRePo1`, aliased to
+  `https://www.kiripedia.org`. 800 MB uploaded as one archive, 5,844 files
+  extracted remotely.
+- **Spot-checked in production**, all five serving the new title tag:
+  `afghan-heroin-policy`, `gina-haspel`, `eastern-district-of-virginia`,
+  `tuesday-morning-kill-list`, `jonathan-pollard`.
+- **IndexNow: 222 new-or-changed URLs submitted out of 2,263 in the sitemap,
+  HTTP 200.** The delta is the intake routine's new articles plus tonight's 15
+  retitled pages.
+
+Note for the next sweep: the 15 metadata files were committed by explicit path
+on branch `kiriakou-intake-churn` and pushed. The intake routine's new articles
+and the generated files (`article-dates.json`, `related.json`, `llms.txt`,
+`date-index.json`) were **deliberately left unstaged** — they are not this
+routine's changes — but they *were* included in the deployed build, which is the
+established behaviour for this site.
