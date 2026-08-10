@@ -662,3 +662,150 @@ to resolve to a real `[timestamp]` paragraph in a real non-sponsor source before
   variance rather than picking one — the ACO course length and date, the intelligence-peddler
   percentages and payments, the magic box's two-day versus one-week build, and the Camp David
   delegation lead (Prime Minister in one telling, Shimon Peres in another).
+
+---
+
+## 2026-08-10 — 15/15 fattened
+
+Branch `kiriakou-intake-churn`, in sync with origin at the start of the run. Mentions index
+rebuilt (1499 articles, 866 non-sponsor transcripts). No carryover — the 2026-08-09 run left
+nothing `in-progress`.
+
+**Ranking method.** The index's raw `uncited_mention_count` is again unusable: its generic
+aliases put `i-want-my-fifty-bucks-back` (9,017 uncited mentions across 988 sources) and
+`say-five-years` at the top. Candidates were ranked instead by a corpus-wide document-frequency
+pass: every title token was scored by how many transcripts contain it, the rarest token (or the
+two rarest, required within sixty characters of each other) became the search pattern, and
+matches were counted only in sources the article does not already cite. That killed the usual
+false positives before any article was opened — `whistleblowers-die-broke`, `presidents-and-the-cia`,
+`arabic-and-greek`, `camp-david-final-talks` and `cia-cash-room` all rank in the top ten on a
+naive count and are matching the words *whistleblowers*, *presidents*, *arabic*, *david* and
+*cash*.
+
+| Article | Words before → after | New facts | New sources |
+|---|---:|---:|---:|
+| kiriakou-on-wine | 148 → 917 | 9 | 8 |
+| death-threats-against-kiriakou | 190 → 1301 | 12 | 11 |
+| joe-rogan | 228 → 598 | 6 | 4 |
+| djibouti | 252 → 765 | 9 | 10 |
+| j-edgar-hoover | 260 → 967 | 8 | 5 |
+| kandahar | 267 → 706 | 8 | 7 |
+| hamilton-68 | 252 → 581 | 5 | 4 |
+| alex-station | 300 → 865 | 9 | 8 |
+| fisa-court | 237 → 731 | 6 | 6 |
+| arlington-cemetery-spies | 230 → 766 | 8 | 4 |
+| james-comey | 244 → 730 | 7 | 5 |
+| henry-kissinger | 310 → 823 | 7 | 7 |
+| max-blumenthal | 233 → 563 | 6 | 7 |
+| iron-dome | 288 → 817 | 8 | 8 |
+| craig-murray | 289 → 678 | 5 | 4 |
+
+Every article cleared the floor (≥3 new sourced facts from ≥2 distinct new sources). Nothing
+left `in-progress`. Every `<Cite>` tag in all fifteen files was machine-checked before commit:
+the source slug resolves to a real non-sponsor transcript and the `t=` value resolves to a real
+`[timestamp]` paragraph in it. Every `/wiki/` link in the fifteen files was checked against the
+article directory; four dead targets written during drafting were unlinked or repointed.
+
+### Best finds
+
+- **henry-kissinger — the Mao viewing.** A station chief Kiriakou worked for had come to the CIA
+  from the State Department's diplomatic security bureau and travelled to China with Kissinger in
+  1976. Kissinger pressed from the moment they landed to see Mao and was deferred, official by
+  official, until the party was leaving for the airport — then walked into an empty room with a
+  wall of drapes. The drapes opened on Mao in bed. Kiriakou's friend whispered *"He's dead, isn't
+  he?"* and Kissinger whispered back *"Don't tell anybody."* China announced the death a month
+  later. The same pass also moved the Greek junta off the CIA's ledger and onto Kissinger's:
+  Kiriakou says the White House and State installed the colonels and that Kissinger, holding no
+  official title in 1967, told Johnson to go ahead — the generals who took power first being *"too
+  liberal"*, the colonels wanting *"to crack heads."*
+- **death-threats-against-kiriakou** went from one 2021 quote to a two-decade record with four
+  distinct waves and their causes. The 2017 Arabic telling adds the police car posted outside his
+  house and the FBI taking calls saying he would be killed; the Haspel op-ed for the *Washington
+  Post* brought half a dozen threats; a single sentence to an Indian outlet — that India would
+  probably win a conventional war on population alone — brought a letter to his home address from
+  the president of Imran Khan's party demanding a written apology, and one morning of 72 calls
+  from the same man promising to spread his brains on the street. The current wave he attributes
+  to Palestine, and the frequency has gone from *"one every couple of years"* to every couple of
+  days. The FBI's posture inverted across the same span: in 2007 it assessed the threats and told
+  him to leave the country; now, he says, it has never once contacted him — except when a caller
+  recited his son's address, at which the agent said *"that's a crime"* and found the man in four
+  days.
+- **alex-station** now has a chain of command and a clock. Kiriakou got the counterintelligence
+  job on the strength of the Abu Zubaydah capture, held it about six weeks hunting al-Qaeda
+  penetrations, and left when Jim Pavitt took him to the seventh floor — a promotion Jose
+  Rodriguez never forgave. His desk was next to Jennifer Matthews, later killed at Camp Chapman.
+  He also dates his first contact with the unit to 12 September 2001 and says that even inside it
+  the expectation had been another multiple-embassy attack, probably in Africa.
+- **j-edgar-hoover** gains the Roy Cohn material and the grave. A congressman whose vote on the
+  FBI budget they wanted was blackmailed over an affair, told them he was not afraid of them, and
+  spent the weeks between the election and the swearing-in denouncing Hoover and Clyde Tolson from
+  the floor of the House — *"the only one who ever fought back."* Hoover now lies thirty feet from
+  Tolson in Congressional Cemetery, at the centre of what Kiriakou calls the only officially gay
+  section of any cemetery in America, because people bought the plots around them.
+- **kiriakou-on-wine** stops being a hobby note. Wine turns out to run through the tradecraft as
+  well as the cellar: vineyard tours as his cover story for west-coast operational weekends, the
+  wine shop as the classic second stop on a surveillance-detection route, two-hundred-dollar
+  bottles as recruitment currency — and the $2,000 bottle a first-tour officer ordered for an
+  allied diplomat at lunch, which the diplomat reported to his own service and which Kiriakou says
+  took the relationship more than a decade to repair.
+
+### Corrections and variances recorded
+
+- **hamilton-68** — the corpus contradicts itself on who red-checked Consortium News. The April
+  2023 telling names Hamilton 68 throughout; in February 2023, on Consortium News's own programme,
+  Kiriakou corrects himself mid-sentence and names **NewsGuard**. Both tellings are his; the
+  article now records the discrepancy rather than picking one.
+- **craig-murray** — the Denmark offer has two endings. In the 2019 telling (which Kiriakou had
+  from Murray a fortnight earlier) the offer comes at lunch from Murray's best friend of thirty
+  years, then the Foreign Service's head of HR, the alternative is *"hire a criminal defence
+  attorney"*, and Murray resigns. The later telling has him going to the press and facing arrest.
+- **fisa-court** — Kiriakou dates the court to the Carter administration in one telling and the
+  FISA Act to October 2001 in another. Both are now in the article, with the note that the second
+  description fits the post-9/11 statutes rather than the original act.
+- **death-threats-against-kiriakou** — the Mexico trip is a week in the 2017 telling and a
+  fortnight in the 2021 one; the rabbi's name is captioned *Sima* in one recording and *Simcha* in
+  the other.
+- **iron-dome** — the drone figures move between tellings (600 launched; seven, eleven or "more
+  than half a dozen" through; four hours' flight time in 2024, six in 2026). The inference does
+  not move, and the article now says so instead of picking a number.
+- **djibouti** — the crossing to Yemen is sixteen miles in most tellings and about nine in the
+  latest, the latter matching the width of the strait.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+- **aq-khan** (296 words) — looks well-fuelled and is not. Every "new" passage is the ANI
+  interview of 2025-10-25, which is a second upload of the 2025-10-24 recording the article is
+  already written from. The only genuinely new material anywhere is one line in a 2022 Gosztola
+  interview (a rumour that the Saudis bought North Korean nuclear information from Khan, and that
+  Saudi money is why a Pakistani city is named for King Faisal). One source, below the floor.
+- **scott-horton** (155 words, and the thinnest well-connected article in the corpus) — 44 sources
+  contain the name and essentially none of them are usable. They are Horton's own show: the
+  intros, the book plugs for *Fool's Errand*, the archive announcements, and his standing warning
+  not to confuse him with the other Scott Horton, the human-rights lawyer at *Harper's*. All of it
+  is the host's voice, which single-source canon excludes. Needs Kiriakou talking about Horton, not
+  Horton talking.
+- **ed-schultz** (225 words) — two of the three threads in the corpus are already in the article,
+  and the third is thin: a 2019 line grouping Schultz with Lee Camp and Chris Hedges as people
+  treated as Russian assets after leaving mainstream outlets. The 2025 re-telling of the Bernie
+  Sanders instruction was attached as a corroborating cite, but the article gained no new fact.
+- **haiti** (247 words) — the fuel is other people. The Lee Camp hits are show promos for Dan
+  Cohen's Haiti documentaries; the Deep Focus hits are guests (Seth Donnelly, Alfred McCoy, Danny
+  Haiphong) talking while Kiriakou hosts. The one promising hit — *"we allowed four families to run
+  the entire economy"*, which would have contradicted the article's seven merchant families — turns
+  out on reading to be about **Mexico**, not Haiti.
+- **2019-03-04 A Good Place with Ella** is a multi-guest show where the FBI material is spoken in
+  the institutional first person (*"our agents"*) by someone who is plainly not Kiriakou. Two
+  strong Moussaoui/FISA passages were cut on that basis. The article `j-edgar-hoover` carries a
+  pre-existing citation to the same recording (t=42:54) that a future pass should re-check.
+
+### Method notes
+
+- Word-boundary matching is not enough on its own; document frequency is what makes the ranking
+  usable. A title token appearing in more than ~250 of the 866 transcripts is noise no matter how
+  it is matched, and the fix is to require the two rarest title tokens within sixty characters of
+  each other. Building that into `build-mentions-index.mjs` would make the index directly usable
+  and would save the whole ranking step.
+- Two citation classes broke silently and were caught only by machine verification: sources whose
+  paragraphs are timestamped `[01:00]` rather than `[1:00]`, and near-identical DeProgram uploads
+  where the same exchange sits at 32:53 in one cut and 32:25 in the other. Both would have rendered
+  as live footnotes pointing at nothing.
