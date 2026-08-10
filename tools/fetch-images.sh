@@ -1037,6 +1037,9 @@ MAPPING=(
   "kiriakou-on-greek-and-cypriot-food=Halloumi"
   "three-legal-ways-to-enter-a-country=United_Nations_Security_Council"
   "anthony-fauci=Anthony_Fauci"
+  "europe-jet-fuel-crisis-2026=Jet_fuel"
+  "europe-and-the-2026-iran-war=NATO"
+  "2026-strike-wave=Strike_action"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.
