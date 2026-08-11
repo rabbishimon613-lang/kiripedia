@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[31:35] And he saw that the CIA was committing the crime of torture. And he knew what would happen if he went public. But he also knew it was wrong. And so he went public anyway. And he said, how many of you would have gone public? And he said, my son said, I wanted to jump up and say, that's my dad. And I said, well, I said, you know what? Tell him, tell him that, tell him privately that next time I'm in town to visit you, I'm happy to talk to his class. But that makes me proud. That makes me happy. My children respect me.
+
+[32:05] I can sleep at night with a clean conscience. And, you know, I'm fine. I don't need a new car every couple of years. I don't need the big fancy house. I like the way my life turned out. Time for a break. We'll be back in a few minutes. We're back with your intelligence and our guest. You know, it has not been easy. No, at all. I mean, the fact of the matter is you're in a small group
+
+[32:36] of whistleblowers. I mean, so small, it's a pathetic comment on American culture and society. Because after all, if we have the Democratic society that President Biden celebrated this week and his UN speech, if we have the special sauce and all these other people, if they weren't European colonialists, you know, England and France or Germany or whatever, you know, that are also in the Democratic mix.
+
+[33:08] But that doesn't include India now because Modi, their leader has nationalist feelings and it doesn't include South Africa because they get along with Russia. It clearly doesn't control influence or connect with Russia or China. So most of Brazil, so it excludes a majority of the world. But this special sauce, if nothing else, I just happen to reread Justice Roberts' opinion on why surveillance is bad, believe it or not.
+
+[33:40] A Republican appointee, Chief Justice, who wrote a brilliant opinion about why the police can't crack into your cell phone and get information. And he quotes from the trial of James Otis and written about by, you know, our second president, Adams, and he says the American Revolution was fought over protecting the right of the individual to inform themselves, to speak out, to have the sanctity of their homes.
+
+[34:11] But we've seen what whistle-blowers, you know, these really respected people who were at the NSA and so the FBI breaks into their home, pulls them out of the shower and everything. And you have to really ask yourself a question. How could a culture that pries itself on this individualism and free, you know, the heroes are the free people who speak truth to power and act. We have a handful. You know, Daniel Ellsberg just died recently.
+
+[34:43] He was the penting on babies. He said he had to wait 50 years for other whistle-blowers. A document we had every right to read. We had bait for it. It was an academic study on the base of inside information. That's right. So how we got into them now. You got, you know, help me out here. Yeah, Bill Binning. We be Tom Drake at NSA. We've got Daniel Hale at the Air Force and Lisa Ling at the Air Force, both in the drone program. We have Ed Snowden from NSA and CIA.
+
+[35:16] The shame is, as you just said, even after 50 years or 50 years after Dan Ellsberg, you can count us on two hands. That's it. So that's that mean. And what you guys knew, thousands of people knew who were in the government. Oh, yes. Right. How many people really, I mean, even Diane Feinstein, who had a lot of credit for the report and doing it, but she knew. Sure, she did. Yeah. Sure, she did. You know, people ask me all the time,
+
+[35:46] well, why didn't you go through the chain of command? Well, my chain of command created the torture program and implemented the torture program. Well, why didn't you go to the oversight committees? Because the oversight committees approved the torture program and then financed it, appropriated funds for it. So there were no good guys in this scenario. The only place to go was the media. You know, we should explain that the reason we believe in freedom is not that it's a luxury.
+
+[36:17] The whole basis of the American constitution for whatever its flaws, its limitations, those wigged white guys and everything else. We know all of the problems, but there was a brilliance to the insight, which is that you have to be aware of power, that power corrupts, and that we have a constitution that is designed to prevent the very people who authored the constitution when they become the government from exploiting their power
+
+[36:47] over the individual, even the humblest individual in his abode. That's why we have a Fourth Amendment. That's why we have the First Amendment. The idea is that's not a gift to the people. That's a protection of freedom. That it's a necessity. That it's not an indulgence, this freedom. But it is treated as an indulgence. We'll let you have privacy. We'll let you have free speech when we're not at war, when there's no great risk, when there's no danger, when everything is tranquil, maybe we'll let you have it then
+
+[37:20] if you say the right thing, if you do the right thing. If you favor the torture program, you'll go on MSNBC. You'll become a star. If you oppose the torture program, you'll lose everything, you'll lose your pension, and what have you. And in your case, they then can turn around and smear you because the only place you could get a job and be able to do what you do well, you're so well informed, so knowledgeable, you know more about this area of the world.
