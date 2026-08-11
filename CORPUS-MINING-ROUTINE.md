@@ -176,22 +176,41 @@ article, short enough that every sentence is carrying a citation.
 The EOS drive drops file renames under load, which corrupts Astro's content
 cache mid-build. Move that cache off the drive first — this is not optional:
 
+There are **two** caches to move — `node_modules/.astro` and the root-level
+`.astro` — and the build needs a bigger heap than the default at this corpus
+size (it aborts with a V8 out-of-memory otherwise):
+
 ```bash
 cd /Volumes/EOS_DIGITAL/KiriPedia
-rm -rf node_modules/.astro dist
-mkdir -p /tmp/kiripedia-astro-cache
+rm -rf node_modules/.astro .astro dist
+mkdir -p /tmp/kiripedia-astro-cache /tmp/kiripedia-astro-root
 ln -s /tmp/kiripedia-astro-cache node_modules/.astro
-npm run build        # runs the frontmatter + wikilink audits first; must exit 0
+ln -s /tmp/kiripedia-astro-root .astro
+NODE_OPTIONS="--max-old-space-size=8192" npm run build   # audits run first; must exit 0
 ```
 
-The build must report `0 bugs` and `0 dead` from the wikilink audit. Then
-confirm every article of this shift actually rendered — the drive has been
-known to silently drop writes:
+The build must report `0 bugs` and `0 dead` from the wikilink audit. (A large
+`SUSPICIOUS` count is advisory aliasing noise, not a gate.) Then confirm every
+article of this shift actually rendered — the drive has been known to silently
+drop writes:
 
 ```bash
 for s in slug-one slug-two …; do [ -d dist/wiki/$s ] || echo "MISSING $s"; done
-rm -f node_modules/.astro
 ```
+
+**Then delete BOTH symlinks before deploying — this is not optional.**
+`vercel deploy --archive=tgz` tars the working directory *including symlinks*,
+so a `.astro` pointing at `/tmp/...` ships to Vercel, resolves to nothing, and
+the remote build dies with `ENOENT: no such file or directory, mkdir
+'/vercel/path0/.astro/collections/'`:
+
+```bash
+rm -f node_modules/.astro .astro
+```
+
+**Category names must never contain a slash.** A category like `9/11` generates
+the route `/category/9/11/` and kills the build with `Missing parameter: name`.
+Use an existing category (`Events`, `History`) instead.
 
 Then commit **by explicit path** (never `git add -A` blindly — other work
 may be sitting in the tree) and deploy:
