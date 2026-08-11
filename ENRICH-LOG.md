@@ -809,3 +809,132 @@ article directory; four dead targets written during drafting were unlinked or re
   paragraphs are timestamped `[01:00]` rather than `[1:00]`, and near-identical DeProgram uploads
   where the same exchange sits at 32:53 in one cut and 32:25 in the other. Both would have rendered
   as live footnotes pointing at nothing.
+
+## 2026-08-11 — 15/15 fattened
+
+Carryover: none. Nothing was left `in-progress` by the 2026-08-10 run.
+
+Candidates were ranked by starvation rather than thinness: the mention index was rebuilt, then
+every article under 320 words was scored on how many *uncited* passages survived a strict match
+(the two rarest title tokens within ninety characters of each other, deduplicated by source).
+That leaves a pool of 491 short articles, of which 282 have no strict fuel at all.
+
+| article | words before | words after | new facts | new sources |
+|---|---:|---:|---:|---:|
+| `tony-blinken` | 256 | 806 | 8 | 5 |
+| `chuck-grassley` | 289 | 945 | 9 | 6 |
+| `sergey-lavrov` | 303 | 746 | 7 | 6 |
+| `mike-spann` | 317 | 637 | 6 | 5 |
+| `sandy-berger` | 257 | 695 | 7 | 5 |
+| `joe-weisberg` | 286 | 577 | 7 | 6 |
+| `fidel-castro` | 252 | 784 | 8 | 5 |
+| `ilhan-omar` | 253 | 561 | 4 | 2 |
+| `mike-johnson` | 276 | 577 | 5 | 3 |
+| `cia-car-hacking` | 204 | 552 | 6 | 6 |
+| `burn-notice` | 278 | 701 | 6 | 4 |
+| `saddam-hussein-biographer` | 274 | 638 | 7 | 5 |
+| `promotion-panel` | 226 | 613 | 6 | 4 |
+| `kiriakou-television-pilots` | 210 | 615 | 7 | 4 |
+| `paul-wright` | 292 | 509 | 4 | 3 |
+
+Nothing left `in-progress`. All 268 `<Cite>` tags across the fifteen files were machine-verified
+against the source transcripts before commit — every source slug exists and every timestamp
+appears verbatim in that transcript. One pre-existing bad citation was caught and fixed on the
+way through (`ilhan-omar` cited `t="3:44"`; the paragraph is timestamped `[03:44]`).
+
+### The best of what came out
+
+- **`tony-blinken`** stops being a single-quote article. The career ladder is now complete and
+  sourced twice over — Harvard, junior legislative aide to Senator Biden, legislative director,
+  staff director of the Foreign Relations Committee when Biden took the chair, national security
+  adviser to the vice-president, deputy secretary of state, secretary of state — and Kiriakou's
+  verdict is the fuller one: *"Tony is a lovely guy, he's very smart, and he is in completely
+  over his head… he belongs at a think tank."* The argument's evidence is now in the article too:
+  Bill Burns as the *de facto* secretary of state, a career ambassador posted to seven places
+  including Russia, sent to Doha because *"he's a better diplomat than the secretary of state is."*
+  Three different tellings of how Kiriakou came to inherit Blinken's desk are recorded as three,
+  not smoothed into one.
+- **`chuck-grassley`** gains its own contradiction. The public line — one finger, then two names,
+  then four out of 535 — now sits beside the 2020 Gosztola interview in which Kiriakou says
+  *"he's certainly not my friend. Chuck Grassley's not done anything for me"*, and names Jim Moran,
+  Lloyd Doggett and John McCain as the members who actually helped. A 2024 telling puts Grassley
+  back among his supporters; both are in the article.
+- **`burn-notice`** was an article about a television show that never explained its own title. It
+  now opens with the tradecraft: a cable to every CIA officer on earth forbidding contact with one
+  named person, the Chalabi burn notice that produced it, the $36m embezzled from Petra Bank and
+  the escape to Syria in the boot of a secretary's car — and Cheney's response, which was to have
+  the Pentagon invent an under-secretary of intelligence whose sole job was to talk to Chalabi
+  anyway. Kiriakou was threatened with a burn notice himself and laughed at the officer who did it.
+- **`saddam-hussein-biographer`** gains the desk next door. The analyst sitting eight feet away
+  wrote a two-day program to draw the Saudi royal family tree, was given a $500 bonus for it, and
+  is now, Kiriakou says, the number four officer in the CIA — the associate deputy director for
+  technology who deals with Palantir and In-Q-Tel.
+- **`cia-car-hacking`** now answers the question the article was avoiding: the capability is not
+  about electric cars (*"conventional, really"*), and its purpose is stated every time he tells it —
+  a bridge, a tree, an abutment, at a speed nobody survives.
+- **`promotion-panel`** turns out to be three stories, not one. Alongside the *"shocking lack of
+  commitment to counterterrorism"* line there is the panel he lost because a member was sleeping
+  with the rival candidate, and the panel at which a CTC psychologist supported him by saying he
+  *"will come up with 40 different ideas for an operation; 36 of them are insane, but four of them
+  are going to be really good."*
+
+### Corrections and variances recorded
+
+- **`sandy-berger`** — the strongest-looking passage in the whole index was a trap. A February 2023
+  Consortium News panel contains *"I had a personal war with Sandy Berger… he loathed me… and made
+  my life miserable in Yugoslavia"*, which reads as Kiriakou until the same speaker goes on to
+  describe Dick Holbrooke having his publisher taken to lunch and names Sydney Schanberg, David
+  Halberstam and Ray Bonner. That is Chris Hedges, not Kiriakou. Cut.
+- **`mike-johnson`** — a passage in which the speaker lays out the 218-vote discharge petition and
+  says it is *"out of Mike Johnson's hands"* was cut once the reply turned out to begin *"But that's
+  not necessarily going to change anything, **Ted**"* — the analysis is Ted Rall's. The same test
+  disqualified the Newt-Gingrich-on-my-couch passage from the same show.
+- **`promotion-panel`** — the *"shocking lack of commitment"* line now has a third attribution
+  (the deputy chief of CTC, at his feedback meeting) alongside Cofer Black's successor and Jose
+  Rodriguez, and in that telling it is reported as the panel's consensus rather than one man's
+  remark. All three are in the article.
+- **`kiriakou-television-pilots`** — seven pilots sold as of March 2019, eight from 2023 onward.
+  Recorded as a progression, not a discrepancy.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+- **`music-as-torture`** (196 words) — ranks near the top of the whole corpus on raw uncited
+  mentions and has, on inspection, nothing at all. Every hit is the literal token `[Music]` that
+  the caption normaliser leaves in for intro stings and ad breaks, colliding with the word
+  *torture* elsewhere in the paragraph. Zero usable passages out of 3,438. The fix is in the
+  indexer, not the ingest.
+- **`national-bird`** (139 words) — one clean new source only. The Scheer interview gives the
+  documentary's 2016 release, its Academy Award nomination, and the fact that appearing in it is
+  what pushed Daniel Hale to go public under his own name shortly before his arrest. The other
+  promising passage is from a joint Scott Horton appearance billed as *"Kevin Gosztola and John
+  Kiriakou"*, where *"he did tell me that he underestimated the government's reaction"* cannot be
+  assigned to either man from the transcript. Below the two-source floor; left alone.
+- **`pan-quake`** (135 words) — 139 uncited mentions, and essentially all of them are Lee Camp's
+  and Graham Elwood's identical show intros (*"PanQuake is a new social media platform that will be
+  out soon"*) re-uploaded across four channels. The host's voice, not Kiriakou's.
+- **`ralph-nader`** (294 words) — thin and mostly other people's. The two genuine hits are a
+  passing reference to Nader's 2000 independent run in a discussion of presidential debates, and
+  Kiriakou saying he intended to vote for Nader rather than Obama, which upset Dan Ellsberg.
+  Two facts, one of them barely about Nader.
+- **Duplicate-slug pairs found while ranking**, all of which look like enrichment targets and are
+  really merge candidates: `james-angleton` / `james-jesus-angleton`,
+  `death-threats-against-kiriakou` / `kiriakou-death-threats` / `the-2007-death-threats`,
+  `advanced-counterterrorism-operations` / `advanced-counterterrorism-operations-course`. Not this
+  routine's job, but they will keep surfacing in the starvation ranking until someone merges them.
+
+### Method notes
+
+- The Deprogram (Rall and Kiriakou co-hosting) is the single most dangerous source class in the
+  corpus for attribution, because both men are political commentators and neither is introduced by
+  name at each turn. The reliable tell is the *vocative in the reply* — when the next turn opens
+  *"But that's not necessarily going to change anything, Ted"*, the preceding analysis was Ted's.
+  Any Deprogram passage without a vocative, a `>>` turn marker, or first-person CIA content should
+  be treated as unattributable.
+- `build-mentions-index.mjs` still ranks on raw alias hits, so generic-title articles
+  (`intelligence-agencies`, `cia-and-hollywood`, `kiriakou-on-christmas`) sit at the top of the
+  starvation list with hundreds of meaningless mentions, while `music-as-torture` is poisoned by
+  the caption token `[Music]`. Two cheap fixes would make the index directly usable: require the
+  two rarest title tokens within ~90 characters of each other, and strip `[Music]`, `[Applause]`
+  and `[laughter]` before matching.
+- `npm run build` OOMs on the default Node heap at this corpus size; it completes cleanly under
+  `NODE_OPTIONS=--max-old-space-size=8192`. Worth putting in the `build` script.
