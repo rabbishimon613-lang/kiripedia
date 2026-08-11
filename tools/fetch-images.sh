@@ -1055,6 +1055,17 @@ MAPPING=(
   "europe-jet-fuel-crisis-2026=Jet_fuel"
   "europe-and-the-2026-iran-war=NATO"
   "2026-strike-wave=Strike_action"
+  "the-convenient-terrorist=The_Convenient_Terrorist"
+  "gul-rahman=Gul_Rahman"
+  "phil-mudd=Philip_Mudd"
+  "no-good-guy=Deep_state_in_the_United_States"
+  "hr-mcmaster=H._R._McMaster"
+  "declassifying-for-a-foreign-government=Classified_information_in_the_United_States"
+  "slow-rolling-the-president=Central_Intelligence_Agency"
+  "the-israelis-are-free-agents=Mossad"
+  "signal-and-the-parking-lot=Deep_Throat_(Watergate)"
+  "ruining-the-whistleblower=Whistleblower"
+  "torture-as-a-recruiting-tool=Islamic_State"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.
