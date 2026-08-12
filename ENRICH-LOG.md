@@ -938,3 +938,155 @@ way through (`ilhan-omar` cited `t="3:44"`; the paragraph is timestamped `[03:44
   and `[laughter]` before matching.
 - `npm run build` OOMs on the default Node heap at this corpus size; it completes cleanly under
   `NODE_OPTIONS=--max-old-space-size=8192`. Worth putting in the `build` script.
+
+---
+
+## 2026-08-12 — 15/15 fattened
+
+Carryover: none. Nothing was left `in-progress` by the 2026-08-11 run.
+
+The mention index was rebuilt and every article under 340 words re-scored on *strict* fuel —
+the article's distinctive title tokens required within a ninety-character window of each other,
+caption noise (`[Music]`, `[Applause]`, `[laughter]`) stripped, deduplicated by source, and the
+106 articles already fattened by earlier runs excluded. That produced 195 candidates. The top of
+the ranking is still dominated by one-word titles (`the-isi-as-two-organizations`, `bds-movement`,
+`the-orb-off-yemen`) whose "fuel" is any sentence containing a common noun, so selection was made
+by hand from the two-token matches down the list.
+
+| article | words before | words after | new facts | new sources |
+|---|---:|---:|---:|---:|
+| `scott-horton` | 154 | 717 | 8 | 7 |
+| `reality-winner` | 236 | 873 | 9 | 8 |
+| `ed-schultz` | 223 | 506 | 3 | 2 |
+| `amnesty-international` | 245 | 869 | 9 | 8 |
+| `human-rights-watch` | 260 | 895 | 8 | 6 |
+| `james-bond` | 268 | 934 | 8 | 6 |
+| `new-castle-pennsylvania` | 283 | 1153 | 11 | 7 |
+| `code-pink` | 323 | 1047 | 9 | 6 |
+| `wesley-clark` | 322 | 948 | 7 | 4 |
+| `prince-andrew` | 330 | 900 | 8 | 9 |
+| `langley` | 313 | 898 | 7 | 6 |
+| `watergate` | 335 | 892 | 8 | 6 |
+| `arabic-and-greek` | 298 | 734 | 7 | 12 |
+| `national-security-act` | 209 | 820 | 9 | 7 |
+| `the-spy-shop` | 223 | 724 | 8 | 2 |
+
+Every article cleared the floor of ≥3 new sourced facts from ≥2 distinct new sources. Nothing
+left `in-progress`. All 471 `<Cite>` tags across the fifteen files were machine-verified before
+commit — every source slug resolves to a transcript on disk and every timestamp appears verbatim
+in that transcript — and every `/wiki/` link in the fifteen files was checked against the article
+directory, so none of them is dead.
+
+### Best finds
+
+- **`new-castle-pennsylvania`** turns out to contain the origin of the cemetery books. Aged eight,
+  turning over rocks in Oak Park Cemetery looking for salamanders, Kiriakou found the grave of
+  Joseph B. Chambers, Medal of Honor. His mother took him to the library — *"everybody has a
+  story"* — and they found a private in Company F of the 199th Pennsylvania Infantry, the Round
+  Heads, who captured a Confederate battle flag at Petersburg on 25 March 1865, was decorated on
+  27 July 1871 aged thirty-eight, and farmed at Eastbrook until he died quietly in 1908. He became
+  a regular in a cemetery of thirty thousand, learned the town off its stones, kept the habit in
+  every country he was posted to, and published *Remains of the Day* in March 2026. The same
+  article now carries his father standing up in church to announce that his son was an undercover
+  officer in Athens, after which the congregation rang the station about visas.
+- **`code-pink`** was a thin gratitude note and is now the fullest account in the corpus of what
+  a defence committee actually does. Four nights before prison, on the roof of the Hay-Adams
+  across from the White House, a Grammy-winning folk group sang a rewritten *Have You Been to Jail
+  for Justice* — *"he stood up to the CIA, now he's doing time"* — and everybody in the room knew
+  the words. The group had also worked out that his wife was going to lose the house, and
+  approached Roger Waters, who wrote a cheque and paid off the second mortgage.
+- **`human-rights-watch`** gains the missing name. The chain that ended in Kiriakou's arrest runs
+  Matthew Cole → **John Sifton**, an HRW investigator → the Guantánamo defence attorneys → a
+  classified motion → a judge → the FBI, walking it back link by link. The John Adams Project,
+  working with HRW, had hired the investigators; Kiriakou calls it *"one of the most f——ed up human
+  rights projects I've ever encountered in my life"*, and notes the man they were hunting was never
+  a torturer at all but crew on a rendition flight.
+- **`langley`** now has the Kryptos sculpture: Kiriakou was at the 1990 unveiling, looked at it
+  every day for almost fifteen years, and watched a Cray fail to crack it. Alongside it, the
+  floor plan he uses to answer the alien-bodies documentaries — *"the only things in the basement
+  at Langley are the gym, the boiler room, and the supply room"* — and the copy-machine repairman
+  whose installed device sends a second copy of everything the prime minister reads back to
+  headquarters.
+- **`national-security-act`** acquires its origin scene: MI6 officers sent to New York at Truman's
+  request, met by Bill Donovan, Prescott Bush *"and a handful of other swells from Wall Street and
+  the OSS days"*, inventing the CIA with pads of paper. Plus Truman's two conditions — no law
+  enforcement, no domestic spying — and the 1963 op-ed calling it *"a damn fool mistake"* that ran
+  in the Washington Post's morning edition and was gone by the afternoon one.
+- **`the-spy-shop`** stops being a single anecdote. The shop was headquartered in London with New
+  York and briefly Washington branches, its customers were mostly the public and private
+  investigators, there were half a dozen imitators, and what the shop could not supply came from
+  Radio Shack in parts. The measure: *"I used more spy gadgets in my six months in Pakistan than I
+  used in the rest of my entire career combined,"* all but one bought online.
+- **`arabic-and-greek`** finally records the sentence that got him the job, quoted almost
+  identically across fifteen years of interviews: *"it's a lot easier and a lot cheaper to take a
+  linguist and teach him operations than to take an operations person and teach him how to speak
+  Greek and Arabic."*
+
+### Corrections and variances recorded
+
+- **`reality-winner`** — the interval between publication and arrest is *forty minutes* in the 2023
+  Scheerpost telling and *four hours* in the 2026 one; the sentence is *five years and three months*
+  in some accounts and *five years and four months* in others. Both variances are now stated in the
+  article rather than silently picked. The Intercept pair is also corrected: Matthew Cole **and
+  Richard Esposito**, not Cole alone.
+- **`amnesty-international`** — Kiriakou's account of Zeke Johnson has softened across tellings. In
+  2017 the New Yorker subscription arrives with a letter of refusal; in 2021 and 2025 Johnson is
+  *"an awesome guy"* who wrote from London's side of the wall to apologise for his bosses. The
+  article now records the shift and locates the blame where the later tellings put it. The Ai
+  Weiwei exhibition is the Smithsonian in one telling and Alcatraz in another.
+- **`new-castle-pennsylvania`** — three different population pairs (50,000 → 18,000; *"a good
+  40,000"* → *"about 20, or less than 20"*), and the Chambers regiment is the Fourth Pennsylvania
+  Infantry with a death in the 1890s in the 2023 telling, the 199th with a death in 1908 in the
+  2025 one. The later, more precise account is given as such.
+- **`arabic-and-greek`** — *"the only person in the entire CIA"* who had both languages is, in one
+  2019 telling, *"one of only two people… and the other one was a language teacher."* The transfer
+  is dated to 1997 in some accounts and 1998 in others.
+- **`scott-horton`** — the fourth panellist on the Piers Morgan show is *Danny Ayalon, former
+  Israeli general* in two tellings and *"the former head of Mossad"* in two others. Preserved, not
+  resolved.
+- **`national-security-act`** — the first covert action is the Italian election of 1947 in one
+  telling and 1948 in another. Kiriakou also flags his own provenance once, introducing the
+  Truman–Hoover deal as *"a story that I heard many years ago."*
+- **`the-spy-shop`** — two different friends who left finance or law for the gadget trade, with
+  opposite endings: the Washington attorney whose Southern California shop folded in five years,
+  and Glenn the New York hedge-fund man who *"ended up making a handsome living."* Recorded as two.
+
+### Cut on attribution
+
+- **`prince-andrew`** — a vivid passage in which a speaker mocks an alibi (*"for an hour and I left
+  with my wife, my children, and our nannies"*) turned out to be about Howard Lutnick's
+  congressional testimony, not Andrew. Cut. The Sarah Ferguson attorney anecdote from the same
+  three-speaker show could not be assigned to Kiriakou and was cut too; the Ferguson material in
+  the article comes from a source where he is plainly speaking.
+- **`ed-schultz`** — a 2025 passage giving MSNBC's ideological history and its purge of Phil
+  Donahue and Schultz is more likely Ted Rall's than Kiriakou's, on the tell that the next turn
+  supplies *"and Brian Becker and Jesse Ventura"* — Kiriakou's own colleague. Cut.
+- **`watergate`** — the *"Nixon won by a landslide in 1972, by 1974 you couldn't find anyone who
+  admitted voting for him"* line opens with one co-host addressing the other and could not be
+  assigned. Cut.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+- **`american-shoes`** (279 words) — ranked high but has exactly one source. The whole story is a
+  single 2026 *Dead Drop* episode; every other corpus hit for *shoes* is combat boots at a mosque
+  or Aldrich Ames's footwear. Below the two-source floor and left alone.
+- **`cu-chi-tunnels`** (181 words) — the Vietnam visit exists in exactly one telling. Every other
+  *tunnels* hit is Gaza. Needs a second telling of the 2026 Vietnam trip, not enrichment.
+- **`aq-khan`** (296 words) — only two source files mention him at all, and one is a passing
+  reference. A genuine Pakistan-nuclear ingest gap given how much Kiriakou has said about ISI.
+- **`kiriakou-on-christmas`**, **`jim-jordan`**, **`the-orb-off-yemen`**, **`bds-movement`**,
+  **`the-isi-as-two-organizations`** — all rank in the top ten on raw fuel and all of it is
+  indexer noise from a single common word. They are not starving; they are mis-ranked.
+
+### Method notes
+
+- The strict re-ranker described in the 2026-08-11 log was rebuilt and used again, and it is worth
+  making permanent in `build-mentions-index.mjs` rather than re-deriving each run. Even with it,
+  one-token titles are unusable: the fix is to require at least two distinctive tokens, and to skip
+  scoring entirely for articles whose title yields fewer than two.
+- The single most productive habit this run was checking the *speaker* before the *content*.
+  Three separate passages that looked like the best find of the day belonged to a co-host, a
+  panellist, or a witness being quoted about somebody else. The `>>` turn markers, a vocative in
+  the reply, and first-person CIA content remain the only reliable tells.
+- `npm run build` again needs `NODE_OPTIONS=--max-old-space-size=8192`; it OOMs on the default heap
+  at 1,782 articles. This is the third run to record it. It belongs in the `build` script.
