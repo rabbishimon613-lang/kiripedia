@@ -83,6 +83,7 @@ const transcriptSchema = {
   title={data.title}
   description={`Annotated transcript of John Kiriakou on ${data.show}, ${data.date}. Click any timestamp to jump into the YouTube video at that point.`}
   type="article"
+  robots="noindex, follow"
 >
   <div class="wiki-content" data-pagefind-body>
     {videoSchema && <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />}

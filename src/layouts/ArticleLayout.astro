@@ -187,9 +187,16 @@ const entitySchemaFull = entitySchema
 // hook) when the article provides one; otherwise fall back to the summary. No
 // boilerplate prefix (it wasted the first ~19 snippet chars on every page and
 // duplicated across the corpus). Truncation happens centrally in SEO.astro.
+function stripMarkdown(s) {
+  return String(s ?? '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[*_`]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 const metaDescription = deck
-  ? deck
-  : (subtitle ? subtitle : `John Kiriakou's account of ${title}.`);
+  ? stripMarkdown(deck)
+  : (subtitle ? stripMarkdown(subtitle) : `John Kiriakou's account of ${title}.`);
 
 // --- Search-visible title qualifier -----------------------------------------
 // A bare headword ("Gust Avrakotos — KiriPedia") signals nothing in the SERP
@@ -207,7 +214,13 @@ const titleQualifier = seoTitle
   ? undefined
   : (isPerson
       ? shortQualifier(jobTitle || infoboxValue(infobox, ['Known for', 'Known For']))
-      : undefined);
+      : shortQualifier(
+          infoboxValue(infobox, [
+            'Type', 'Role', 'Aka', 'Also known as',
+            'Alignment', 'Description', 'Known for', 'Known For',
+            'Officially termed',
+          ])
+        ));
 
 const robots = noindex ? 'noindex, follow' : undefined;
 ---
@@ -245,6 +258,11 @@ const robots = noindex ? 'noindex, follow' : undefined;
     </article>
     <References />
     <Related slug={slug} />
+    {slug !== 'john-kiriakou' && (
+      <p class="kiriakou-attribution">
+        Sourced from <a href="/wiki/john-kiriakou">John Kiriakou</a>'s on-record public statements. See his profile for the full body of his interviews, podcast appearances, and short-form video.
+      </p>
+    )}
     {categories.length > 0 && (
       <div class="catlinks">
         <span class="label">Categories:</span>
@@ -253,3 +271,14 @@ const robots = noindex ? 'noindex, follow' : undefined;
     )}
   </div>
 </WikiLayout>
+
+<style>
+  .kiriakou-attribution {
+    margin: 24px 0 8px;
+    padding: 10px 14px;
+    font-size: 0.9em;
+    color: var(--color-base--subtle, #54595d);
+    border-left: 3px solid #a2a9b1;
+    background: var(--color-bg-sidebar, #f8f9fa);
+  }
+</style>

@@ -90,7 +90,11 @@ const candidates = new Map(); // videoId → {id, title, durationSec, uploader, 
 const ownIds = new Set();     // ids that came from an own channel — exempt from title/floor rules
 
 for (const ch of OWN_CHANNELS) {
-  const cmd = `yt-dlp --flat-playlist --no-warnings --print "%(id)s|%(title)s|%(duration)s|%(uploader)s" ` +
+  // Delimiter is @@|@@, not a bare pipe: his episode titles are all "Headline | Ep. N", and a
+  // bare-pipe split put " Ep. 9" in the duration field, zeroing it. Every own-channel episode
+  // then failed the length floor as "too short" and the whole lane silently returned nothing
+  // for weeks (Eps 1-6 were only ever ingested by hand). Title goes last as a second belt.
+  const cmd = `yt-dlp --flat-playlist --no-warnings --print "%(id)s@@|@@%(duration)s@@|@@%(uploader)s@@|@@%(title)s" ` +
               `"https://www.youtube.com/${ch}/videos" 2>&1`;
   let out;
   try { out = execSync(cmd, { encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 }); }
@@ -102,7 +106,8 @@ for (const ch of OWN_CHANNELS) {
   let n = 0;
   for (const line of out.split('\n').filter(Boolean)) {
     if (line.startsWith('ERROR') || line.startsWith('WARNING')) continue;
-    const [id, title, dur, uploader] = line.split('|');
+    const [id, dur, uploader, ...titleParts] = line.split('@@|@@');
+    const title = titleParts.join('@@|@@').trim();
     if (!id || !title) continue;
     // Unaired premieres come back with no duration. They'll be picked up the morning after.
     if (!dur || dur === 'NA') continue;
@@ -129,7 +134,8 @@ for (const ch of OWN_CHANNELS) {
 const SEARCH_ARGS = ['--flat-playlist', '--sleep-requests', '1', '--no-warnings'].join(' ');
 
 for (const q of QUERIES) {
-  const cmd = `yt-dlp ${SEARCH_ARGS} --print "%(id)s|%(title)s|%(duration)s|%(uploader)s" "ytsearch${LIMIT}:${q}" 2>&1`;
+  // Same @@|@@ delimiter as the own-channel sweep — podcast titles are full of pipes too.
+  const cmd = `yt-dlp ${SEARCH_ARGS} --print "%(id)s@@|@@%(duration)s@@|@@%(uploader)s@@|@@%(title)s" "ytsearch${LIMIT}:${q}" 2>&1`;
   let out;
   try { out = execSync(cmd, { encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 }); }
   catch (e) {
@@ -139,7 +145,8 @@ for (const q of QUERIES) {
   }
   for (const line of out.split('\n').filter(Boolean)) {
     if (line.startsWith('ERROR')) continue;
-    const [id, title, dur, uploader] = line.split('|');
+    const [id, dur, uploader, ...titleParts] = line.split('@@|@@');
+    const title = titleParts.join('@@|@@').trim();
     if (!id || !title) continue;
     if (candidates.has(id)) continue;
     candidates.set(id, {
