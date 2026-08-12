@@ -84,8 +84,15 @@ export default defineConfig({
       // Keep thin/utility pages out of the sitemap: don't advertise the
       // robots-blocked /search, the /random redirect endpoint, or low-value
       // maintenance/index pages. These are also noindex'd at the page level.
+      //
+      // Individual source transcripts are noindex'd at the page level too (see
+      // src/pages/sources/[...slug].astro), so advertising all 873 of them in
+      // the sitemap was asking Google to spend crawl budget on pages it is then
+      // told to discard. The /sources/ index itself stays: it is indexable and
+      // is the entry point to the transcript corpus.
       filter: (page) =>
-        !/\/(search|random|needs-image|on-this-day|special\/all-pages)\/?$/.test(page),
+        !/\/(search|random|needs-image|on-this-day|special\/all-pages)\/?$/.test(page) &&
+        !/\/sources\/[^/]+\/?$/.test(page),
       // Articles and stable browse pages get higher priority + weekly cadence.
       // Date-driven pages (on-this-day, sources/X) get daily.
       changefreq: 'weekly',
