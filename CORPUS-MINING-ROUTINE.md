@@ -32,24 +32,49 @@ pick another — do not pad, and do not stop short.
 
 ### 1. Pick the sources to mine
 
-Find the transcripts nothing cites yet — that is the fuel:
+**Start here, before anything else:**
 
 ```bash
+grep "| pending |" UNWRITTEN-LEDGER.md
+```
+
+That is the work queue — transcripts nothing cites and that no earlier shift
+has rejected. Everything else in this step is secondary to it.
+
+The ledger also records, in the `status` column, *why* each rejected
+transcript was rejected. Read those reasons. From shift 8 on, most of the
+large uncited transcripts still sitting in the corpus are re-uploads,
+Kiriakou-absent shows, or transcripts with a single useless timestamp — and
+the ledger already says so, in a sentence, for each one. Reading a 60k
+transcript to rediscover that costs an hour and yields nothing.
+
+Only then, and only if the pending queue is exhausted, fall back to a raw
+scan for uncited sources:
+
+```bash
+grep -roh 's="[^"]*"' src/content/articles/ | sed 's/s="//;s/"//' | sort -u > /tmp/cited.txt
 for f in src/content/sources/*.md; do
   s=$(basename "$f" .md)
   case "$s" in *.sponsors) continue;; esac
-  n=$(grep -rl "s=\"$s\"" src/content/articles/ 2>/dev/null | wc -l | tr -d ' ')
-  echo "$n $s"
-done | sort -n | head -40
+  grep -qxF "$s" /tmp/cited.txt || echo "$(wc -c < "$f") $s"
+done | sort -nr | head -40
 ```
+
+(Do not use a `grep -rl` inside the loop — at this corpus size it takes
+minutes and times out.)
 
 Prefer, in this order:
 
-1. Sources with **0** citing articles, longest first.
+1. `pending` rows in `UNWRITTEN-LEDGER.md`. They are short — 300 to 1,600
+   words — but each is a distinct appearance on a distinct topic, and at
+   shift 8 they yielded roughly **one new article each**, a far better ratio
+   than the long-form shows. Foreign-language interviews (Arabic, Greek) are
+   especially productive: he tells stories there he does not tell at home.
 2. Sources cited only once or twice that are long-form and narrative — the
    `dead-drop` episodes especially, which are Kiriakou telling his own story
    at length and yield 6–10 articles each.
-3. Anything else in `UNWRITTEN-LEDGER.md` marked `pending`.
+3. Sources with **0** citing articles that the ledger has *not* already
+   rejected, longest first.
 
 Rule of thumb: one 40-minute Dead Drop episode ≈ 6 articles; one interview
 ≈ 3–5. So a 50-article shift means reading roughly 8–10 transcripts.
@@ -232,7 +257,18 @@ VERCEL_FORCE_NO_BUILD_CACHE=1 vercel deploy --prod --archive=tgz --force --yes \
 ```
 
 The deploy takes 10–20 minutes and may exceed a foreground timeout; let it
-run in the background.
+run in the background. Redirect it to a **file** rather than piping it to
+`tail` — a pipe buffers the whole thing and you cannot watch progress or read
+the audit output afterwards.
+
+**If it dies mid-upload with `Not authorized`, just retry it.** This has now
+happened twice (shift 6 at 907MB, shift 8 at 624MB of 831.7MB). Confirm the
+session is fine with `vercel whoami`, then re-run the identical command; it
+succeeded first retry both times. It is not an auth problem and not a
+`.vercelignore` problem, so do not go rebuilding the archive to chase it.
+The archive is almost entirely `public/images` and is creeping up (777MB at
+shift 7, 831.7MB at shift 8); if it ever stops succeeding on retry, that is
+the thing to shrink.
 
 **Then verify against the live sitemap, not `llms.txt`.** `public/llms.txt` is
 generated locally and committed, so it lists every new slug even when the
