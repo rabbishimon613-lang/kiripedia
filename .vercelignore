@@ -3,3 +3,9 @@ node_modules
 dist
 .vercel/output
 .astro
+sources
+.kir-mentions-index.json
+.kir-morning
+.kir-churn
+codex articles
+sonnet writeups
