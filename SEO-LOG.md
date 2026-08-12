@@ -1672,3 +1672,260 @@ and the generated files (`article-dates.json`, `related.json`, `llms.txt`,
 `date-index.json`) were **deliberately left unstaged** — they are not this
 routine's changes — but they *were* included in the deployed build, which is the
 established behaviour for this site.
+
+---
+
+## 2026-08-12 — nightly sweep
+
+**Dashboards are back.** The Chrome extension was disconnected for the whole of
+the 08-09 sweep; it reconnected in time for this one, so this is the first
+entry since 08-08 with real numbers in it. No sweep ran on 08-10 or 08-11, so
+every delta below spans three days.
+
+### The numbers — all read, none estimated
+
+**Google Search Console, last 3 months** (against 2026-08-08, the last
+measured run):
+
+| | 08-08 | **08-12** | move |
+|---|---|---|---|
+| clicks | 126 | **159** | +33 |
+| impressions | 6.17K | **7.15K** | +0.98K |
+| CTR | 2.0% | **2.2%** | +0.2pt |
+| average position | 16.3 | **15.7** | **−0.6, better** |
+
+Every one of the four moved the right way, and position improving while
+impressions grow is the harder of the two to get. The daily impressions curve
+also turns sharply upward in the final week — the last plotted days run near
+750/day against a ~250/day plateau for most of the quarter.
+
+**Indexing** — and this is the one number that moved the wrong way:
+
+| | 08-08 | **08-12** |
+|---|---|---|
+| indexed | 1.57K | **1.62K** |
+| not indexed | 497 | **805** |
+
+Not-indexed grew **+308 in three days**, against +50 indexed. The reasons:
+
+```
+Alternate page with proper canonical tag  343    Crawled - currently not indexed   336
+Page with redirect                         11    Discovered - currently not indexed 105
+Excluded by 'noindex' tag                   5    Not found (404)                     4
+Soft 404                                    1
+```
+
+`Crawled` + `Discovered - currently not indexed` = **441**. That is the
+thin-content and crawl-budget symptom the routine watches for, and the cause is
+not mysterious: **the corpus grew from 1,380 to 1,743 articles since 08-09**, so
+Google is discovering far faster than it will index. No mass `noindex` was
+applied in response — there is no clean pattern to apply it to, and the corpus
+is growing legitimately. Acted on indirectly instead, by giving 873 crawl-budget
+sinks back (see below). **Watch this number next run.**
+
+**Vercel Analytics, last 30 days:**
+
+| | value | change |
+|---|---|---|
+| visitors | **878** | +128% |
+| page views | **3,855** | +27% |
+| bounce rate | **78%** | +16% |
+
+Bounce rising 16 points while visitors more than double is what a wave of
+first-time search arrivals looks like; it is not by itself a defect.
+
+Top landing pages: `/` 157 · `bob-grenier` 69 · `nordstream-pipeline-sabotage`
+37 · `alan-dershowitz` 32 · `hummus` 25 · `gust-avrakotos` 24 · `john-kiriakou`
+22. **`bob-grenier` at 69 does not appear anywhere in the Search Console top
+20**, so that traffic is arriving from somewhere other than Google.
+
+Referrers: google.com 371 · duckduckgo.com 100 · bing.com 40 ·
+**l.instagram.com 14** · chatgpt.com 9 · search.yahoo.com 6 · ecosia.org 3.
+Instagram is new and is the first referrer on this site that is not a search
+engine. Countries: US 71%, UK 5%, Canada 3%. Devices: desktop 57%, mobile 42%.
+
+### The working queue — and it was saturated again
+
+Pages sorted by impressions, zero or near-zero clicks:
+
+```
+afghan-languages/        253 imp   0 clicks      remains-of-the-day-book/  86   0
+heather-kiriakou/        202       0             john-mccain/              83   0
+kuwait-oil-fires/        105       0             doing-time-like-a-spy/    81   0
+sheikh-saad-al-abdullah/  92       0             abu-zubaydah/             63   0
+saddam-hussein/           96       2             john-mccone/              83   1
+```
+
+**All ten already carried a purpose-written `seoTitle` and `deck`.** That is the
+fourth sweep running where the impression queue is fully treated. So the yield
+had to come from somewhere else, and it did — from auditing the treatment
+itself rather than extending it.
+
+### Changed, 1 — twenty-six title tags were being truncated
+
+**The single most useful finding this run.** Of the 130 articles carrying a
+purpose-written `seoTitle`, **26 were long enough that Google truncates them**
+— the exact failure the `seoTitle` field exists to prevent. With the brand
+suffix appended the full title tags ran **64 to 90 characters** against a ~60
+character cutoff.
+
+The worst offender was **`heather-kiriakou` at 89 characters** — and that page
+is the biggest zero-click page on the site: **202 impressions, 0 clicks**, with
+its exact-name query `heather kiriakou` showing **177 impressions and 0 clicks**
+on its own. A user searching her name saw a title cut off mid-phrase.
+
+All 26 rewritten to **28–44 characters**, each still grounded in that article's
+own `summary` — no fact was invented to sharpen a line. Nine also dropped a
+redundant "Kiriakou" that the brand suffix now supplies twice (`Ted Rall,
+Kiriakou's Deprogram co-host | John Kiriakou`). Sample:
+
+| slug | was (chars) | now |
+|---|---|---|
+| `heather-kiriakou` | 77 | Heather Kiriakou lost her CIA job for him |
+| `kiriakou-father-and-grandfather` | 78 | The bribe his father refused |
+| `cia-feeder-schools` | 66 | GWU sends more to the CIA than Georgetown |
+| `decapitation-strikes` | 63 | 'We killed 27 number threes in Al-Qaeda' |
+| `isi` (new, then shortened) | — | Pakistan's two parallel ISIs |
+| `2028-presidential-field` | 59 | The 2028 field: 44 Democrats, 26 Republicans |
+
+### Changed, 2 — eight more pages titled, off the inbound-link queue
+
+The impression queue being saturated, the fallback is `seo-daily.mjs`'s
+inbound-link ranking. Eight untreated pages, each with a `seoTitle` (33–41
+chars) and a `deck` (142–151 chars):
+
+`ted-rall` (46 inbound) · `israel-united-states-relations` ·`tulsi-gabbard` ·
+`richard-wolff` · `isi` · `cold-cell` · `abolish-the-cia` ·
+`special-activities-division`.
+
+### Changed, 3 — 873 noindexed transcripts pulled out of the sitemap
+
+Another session noindexed every individual source transcript
+(`src/pages/sources/[...slug].astro`, uncommitted, theirs) — a defensible call:
+they are raw auto-caption text and no `/sources/` URL appears anywhere in the
+Search Console top 20.
+
+**But they were all still in the sitemap.** 873 pages carrying `noindex` while
+the sitemap actively advertised them — asking Google to spend crawl budget on
+pages it is then told to discard, at exactly the moment 441 URLs are already
+stuck in crawled/discovered-not-indexed. Added a sitemap filter for individual
+transcripts. **Sitemap 2,616 → 1,743 URLs.** The `/sources/` index page itself
+stays: it is indexable and is the entry point to the corpus.
+
+This completes the other session's change rather than reverting it.
+
+### Verified
+
+- `npm run build` → **`Total: 0 bugs, 1789 suspicious, 0 dead.`**
+- **URL shape held:** the slash-less-internal-link grep prints **0**. The
+  normalizer in `tools/astro-trailing-slash.mjs` has not regressed.
+- **All 34 title tags confirmed ≤60 characters in the built HTML**, decoded, not
+  counted raw. Decks confirmed serving as meta descriptions.
+- **Related blocks:** 1,743 articles, 1,264 rescue links, **0 with no inbound
+  related-link**, 3 with an empty block. The generator absorbed +363 articles
+  without moving off 0 — no hand-linking.
+- **Build completeness checked against source** (flaky-drive rule): 1,743 source
+  articles → 1,790 built wiki pages → 1,787 sitemap URLs. Surplus, not deficit.
+- **noindex, all accounted for:** 53 outside `/sources/` — the same 48 redirect
+  stubs plus the same 5 utility pages. **Unchanged, and zero accidental
+  noindex.** The 873 under `/sources/` are the other session's deliberate change.
+- **The dual-URL scare was a false alarm, and is worth writing down.** Search
+  Console lists `/wiki/hummus` (257 impressions) *and* `/wiki/hummus/` (493)
+  as separate pages, plus `/category/procedures`. Both slash-less forms were
+  tested live: each returns **308 to the trailing-slash form**, and the
+  slash-less URL's canonical already points at the slash form. Google is
+  reporting a legacy URL it has not finished retiring, which is also what the
+  343 `Alternate page with proper canonical tag` entries are. **Nothing to fix.**
+
+### The build fought back twice, and neither cause was the usual one
+
+Six build attempts. The content gate reached `0 bugs, 0 dead` on every single
+one, so nothing in the corpus or in tonight's edits was ever implicated.
+
+1. **Node heap exhaustion — new, and the more important of the two.** Two
+   attempts died with `FATAL ERROR: Reached heap limit — JavaScript heap out of
+   memory` (exit 134). The corpus grew ~23% since the last sweep and pushed the
+   default heap over. **`NODE_OPTIONS=--max-old-space-size=8192` fixes it, and
+   it must also be passed to `vercel build`** — Vercel runs `npm run build` in
+   its own environment and OOMed identically until it was set there too. **This
+   will keep happening as the corpus grows; expect it next run.**
+2. **`ENOENT` on files that demonstrably exist** — `itamar-ben-gvir.jpg`, then
+   `joby-warrick-washington-post-resignation.jpg` on the retry. Both were on
+   disk at full size and read fine when tested. Previous entries logged this as
+   the EOS_DIGITAL silent-write-drop, but this time the cause was found: **a
+   second `astro build` from another Claude session was running against this
+   same repo, writing into the same `dist/`.** Waiting for that process to exit
+   cleared it on the next attempt with no other change. Worth reusing:
+   `pgrep -f "astro build"` before building, rather than assuming the drive.
+
+The intake routine was also writing throughout — the article count went
+1,699 → 1,703 → 1,738 → 1,743 during the sweep. Next run's delta should be read
+against **1,743**.
+
+### Corpus audit — start of run, and after
+
+```
+                     start          after
+articles              1699 (+139)    1743
+orphans                271 (+32)      301
+thin                   433 (+34)      435
+veryThin                90 (+2)        90
+noindexed                0              0
+withSeoTitle           130 (+1)        138 (+8)
+withDeck               147 (+1)        155 (+8)
+relatedOrphans           0              0
+clampedSnippets       1505 (+139)     1541
+```
+
+### Found, not changed — with reasons
+
+- **Three files belonging to another session were left unstaged**, as always:
+  `src/components/SEO.astro`, `src/layouts/ArticleLayout.astro`,
+  `src/pages/sources/[...slug].astro`. They ride along in the deployed build,
+  which is the established behaviour for this site, but they are not in this
+  commit. Only 36 files were staged, every one by explicit path. Never
+  `git add -A`.
+- **That session changed the brand suffix from ` — KiriPedia` to
+  ` | John Kiriakou`** (12 chars → 16), on the reasoning that Kiriakou's name
+  carries branded search volume and "KiriPedia" carries none. **It is also what
+  made the truncation problem worse**, and the 26 rewrites above were sized
+  against the new 16-character suffix, not the old one. Flagging it because the
+  routine's own ~50-character rule of thumb is now **~44** and the note in this
+  routine's brief is out of date.
+- **`heather-kiriakou.mdx` was committed with that session's `deck` line in
+  it.** They added `seoTitle` + `deck`; this routine then replaced the
+  `seoTitle`. Splicing out their deck would have left the article with a title
+  and no description, which is worse. Recorded rather than surgically separated.
+- **Standing items, all tracking corpus growth:** 1,541 clamped snippets, 301
+  wikilink orphans (+30), 1,789 suspicious wikilinks, 435 thin articles. The
+  orphan count grows with every intake batch and is not this routine's to fix.
+
+### Blocked — needs the user
+
+- **Backlinks remain the entire ceiling.** Position 15.7 at 2.2% CTR is what a
+  site with a handful of links gets, and it is the same sentence every sweep.
+  **Kiriakou sharing the site himself is still the single highest-value unlock
+  available.** The one new signal this run is that Instagram sent 14 visitors
+  unprompted — the first non-search referrer this site has had.
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia**, for the Organization `sameAs` (carried
+  from 2026-07-09).
+
+### Deployed
+
+**Yes — live and verified on `www.kiripedia.org`.**
+
+- `NODE_OPTIONS=--max-old-space-size=8192 VERCEL_FORCE_NO_BUILD_CACHE=1
+  vercel build --prod` (exit 0), then `vercel deploy --prebuilt --prod
+  --archive=tgz` (exit 0) → deployment
+  `kiripedia-nmfq9vi2c-shimonindustries.vercel.app` **ready**, promoted to
+  production. 834 MB uploaded as one archive, 6,660 files extracted remotely.
+- **Spot-checked in production**, all five serving the new short title tag at
+  the length it was written to be: `heather-kiriakou` (57), `cold-cell` (56),
+  `isi` (44), `ted-rall` (47), `cameo` (55).
+- **The sitemap change is live and verified against production, not just the
+  local build:** `sitemap-0.xml` serves **1,786 URLs, matching `dist` exactly`**,
+  with **0 individual `/sources/` transcripts** and the `/sources/` index still
+  present.
+- **IndexNow: 167 new-or-changed URLs submitted out of 1,786, HTTP 200.** The
+  delta is the intake routine's new articles plus tonight's 34 retitled pages.
