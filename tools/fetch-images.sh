@@ -1095,6 +1095,12 @@ MAPPING=(
   "turkey-israel-confrontation=Israel–Turkey_relations"
   "the-mcdonalds-theory=McDonald's"
   "iran-elementary-school-strike=Tomahawk_(missile)"
+  "rosario-ames=Rosario_Ames"
+  "dmitry-polyakov=Dmitri_Polyakov"
+  "warrenton-training-center=Warrenton_Training_Center"
+  "angela-merkel=Angela_Merkel"
+  "john-durham=John_Durham"
+  "carter-page=Carter_Page"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.

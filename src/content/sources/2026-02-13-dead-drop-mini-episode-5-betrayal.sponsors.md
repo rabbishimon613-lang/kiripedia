@@ -1,52 +1,7 @@
 # Stripped sponsor / ad reads
 
-These paragraphs were detected as sponsor reads and excluded from the main transcript.
-Preserved here for audit; not part of the canon corpus.
-
 [00:30] A better help ad Hold on One second Mommy! I just need to What if you had a room where no one interrupts No notifications, no expectations Just space to talk With better help therapy happens in a space that's yours Visit betterhelp.com Slash random podcast for 10% off your first month of online therapy
-
-[01:03] This podcast is a casted in touchstone production
-
-[01:41] Whatever platform you happen be listening to us On April 16th 1985 a 31 year CIA counterintelligence officer named Aldrich Hazen Ames Walked into the Soviet embassy in Washington DC and he betrayed America He offered the Soviets the identities of two KGB double agents Who worked at the Soviet embassy in Washington and who had been recruited by the CIA In return the Soviets gave Ames $50,000 That was to start
-
-[02:11] Over the next nine years Ames became the most damaging KGB mall in US history And would receive more than $2 million from his Soviets bymasters The result of his various betrayals was truly catastrophic Starting with the two double agents who were both executed The operational secrets, plans and protocols that Ames sold to the Soviets And gave them deep insight into how we reacted and what we thought about them That crippled us against the Soviets for a period of years
-
-[02:44] But Kolokol, the bell, as Ames was known to his Soviet handlers Was especially destructive to American human intelligence assets Ames ultimately confessed to identifying more than 30 agents And compromised over 100 clandestine operations Can US intelligence sources were executed as a direct result of Aldrich Ames' treachery We're talking about Ames today in this mini episode Because he just died at age 84 at the maximum security federal penitentiary in Cumberland, Maryland
-
-[03:18] At least Kim Filby, perhaps the most damaging mole in British spying history Was driven by a passionate belief in communism He felt genuine contempt for British imperialism Ames, on the other hand, did it purely for his quote Greed and folly as simple as that Talk about the banality of evil And banal was a word that Ames himself used to describe what he did Still, there was always another player in Ames' history
-
-[03:49] That was alcohol Ames' father was an alcoholic, and so was Ames Like two too many CIA officers But Ames was worse than most His drunken escapades were notorious, but they were tolerated Even though a supervisor once described Ames as quote One of the worst drunks in the outfit, unquote Not only was Ames' father an alcoholic He was also a CIA officer He was an analyst who helped Ames get his first job at the agency
-
-[04:19] Despite the fact that Ames was a college dropout Alcoholism stalled the career of Ames' dad And in time, alcohol would leave a permanent mark on Aldrich Ames' record too His first overseas posting was to Ankara, Turkey in the late 1960s Ames was tasked with recruiting foreign agents But his unhappy superiors back at Langley Just didn't think he was cut out for field work They recalled him to Washington Sent him on a course to learn Russian
-
-[04:49] And then put him to work supporting operations against suspected Soviet spies In Washington and New York In 1972, another CIA officer stumbled upon Ames And a female CIA employee drunkenly engaging in sex At the office no less, which I hate to tell you is far more common than you might think In 1976, Ames famously left a briefcase stuffed with classified information on the subway His attitude toward work was described as lackadaisical
-
-[05:21] Yet Ames continued to fail upward In 1981, the agency sent him to Mexico to recruit Soviet officials as agents There, Ames had little success But he did continue to engage in extramarital affairs That included violating agency regulations by beginning an affair With a Colombian cultural attaché who had been recruited to work for the CIA Her name was Maria del Rosario Casas de Puí
-
-[05:51] Despite this less than stellar performance, Ames continued to fail upwards Upon his return to the agency's headquarters in 1983 He was actually promoted and made chief of the Soviet operations counterintelligence branch Imagine that At this point, Ames was still doing his job poorly But at least he wasn't betraying anything other than his marriage Summertime and living is easy, am I right, John?
 
 [06:21] That is one of the best parts of Summer Allen Living really does feel easier You're about to travel Good thing you've got a couple of quince pieces going with you They are as relaxed and comfortable as I want to feel That's why, whether I'm traveling or staying at home I reach for the same quince go anywhere pieces again and again Quince focuses on well made essential They're the t-shirt I reach for first every time In all seriousness, I just bought another one today They're my favorite t-shirts too And when the ocean breeze kicks in at night as it does here in LA
 
 [07:54] Make your summer wardrobe easier Go to quince.com slash dead drop for free shipping on your order And 365 day returns Now available in Canada too That is quince.com slash dead drop 8773934 5 by so fast, so fast, gonna blow your mind
-
-[08:28] 5, oh, years down, hesitate Like it in now, before it's too late 8773934 Times up, like coptimune.com for details Ames' marriage to fellow CIA officer Nancy Segbarth collapsed for good When Ames brought his Colombian side hustle Rosario to America He brought her mother along with him Ames and Rosario got married and that's when things seem to have changed for him
-
-[09:00] Rosario and her mother had a taste for high living Which quickly put Ames deep in debt Quote, I felt a great deal of financial pressure Which in retrospect I was clearly overreacting to That's what Ames would later tell Arizona Senator Dennis DeConsini The chairman of the Senate Intelligence Committee In April 1985, Ames devised what he thought was a clever plan Those again were his words To sell the KGB some limited information for 50,000 bucks to pay off his debts
-
-[09:33] That was the whole plan going in But Ames realized quickly that he'd already crossed a line and there was no going back And so he doubled down and tripled down on his betrayal And that's how the worst mole in US history got rolling What really is a central question to the Elder James story Is how in the hell did he avoid detection for two decades? Well, there actually were reasons One had to do with the CIA's culture at the time A fear of moles had tormented various CIA directors and deputy directors
-
-[10:07] Most famously deputy director for counterintelligence James Jesus Angleton That created a kind of counter reaction A lot of people inside the CIA were just exhausted by this constant hunt for moles On top of that, the directorate of operations, that's the elite within the elite Rejected as unthinkable, the very idea that there could be a mole in the CIA This culture of misplaced secrecy covered for its brethren regardless of their errors, failures, misdemeanors and outright crimes
-
-[10:39] On top of that, when in 1986 Ames told the KGB that he feared becoming a suspect When the mole hunt eventually began again The KGB threw US investigators off of Ames trail by constructing an elaborate diversion A Soviet case officer told a CIA contact that the mole was actually stationed At something called the Warranton Training Center, WTC That was a secret CIA communications facility in Warranton, Virginia Taking the bait, mole hunters investigated 90 employees at WTC for almost a year
-
-[11:13] They came up with 10 possible suspects Although the lead investigator noted that, quote, there are so many problem personalities that no single one stands out, unquote It wasn't so much the agency's work that eventually outed Ames as it was Ames' own complete stupidity But then greed has never made anyone smarter The FBI placed Ames under surveillance and on February 21st, 1994, he and Rosario were both arrested at their home in Arlington, Virginia
-
-[11:44] Ames pleaded guilty two months later to providing highly classified information to the KGB and its successor, the Russian Foreign Intelligence Service In return for a lenient sentence for his wife, Ames was sentenced to life imprisonment with no possibility of parole Rosario got 63 months in prison but served only four years before being released in 1998 and returning to Columbia Where their young son Paul was being cared for by his grandmother
-
-[12:14] Of course, I have my own thoughts about Rick Ames and I'd like to share them with you I've long been personally opposed to the death penalty, but not in the case of Aldrich Ames Ames' treachery resulted in the deaths of at least 12 people I would consider him to be akin to a serial killer or a mass murderer, someone who is just so dangerous to society that he has to be done away with In addition to the crimes that he committed directly, Ames' treachery led to another mole
-
-[12:49] Harold Nicholson was an officer in the CIA's counter-terrorism center, he was a colleague of mine He had been passed over for promotion and was angry He believed that he wasn't appreciated Well, this is right around the time that Ames was caught And Nicholson foolishly came to the conclusion that, well, the KGB's mole was caught They'll be looking for another mole And so he flew overseas, walked into the Russian embassy, said, I'm a senior CIA officer and I want to work for the KGB
-
-[13:21] And he outed more than 200 CIA officers, including me As I said earlier, we're doing this episode because Aldrich Ames just died But it would be wrong if we didn't mark another passing at the same time Back during the summer, on July 25th, 2025, Sandra Grimes died Sandy was a key part of the team that caught Ames A CIA officer with a long and very distinguished career, Sandy correlated the times that Ames met with Sergei Chevakin, his KGB handler
-
-[13:55] With the times that he then made large bank deposits in 1985 and 1986 She was the first one to ask, how can a man who makes $70,000 a year live in a $2 million house, drive a Jaguar And then brag around the office that he's installed a built-in pool and a gazebo Grimes had suspected early on that Ames was a mole, but the deposits proved, she said, that Ames was, as she put it, a goddamn Russian spy
