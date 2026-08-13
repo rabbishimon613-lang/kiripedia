@@ -1090,3 +1090,185 @@ directory, so none of them is dead.
   the reply, and first-person CIA content remain the only reliable tells.
 - `npm run build` again needs `NODE_OPTIONS=--max-old-space-size=8192`; it OOMs on the default heap
   at 1,782 articles. This is the third run to record it. It belongs in the `build` script.
+
+## 2026-08-13 — 15/15 fattened
+
+Carryover: none. Nothing was left `in-progress` by the 2026-08-12 run.
+
+The strict re-ranker that the last three runs rebuilt from scratch each time is now a permanent
+tool, `tools/rank-enrich-candidates.mjs`, together with `tools/enrich-fuel.mjs` (prints an
+article's uncited passages in context, so the speaker can be checked before anything is cited)
+and `tools/verify-cites.mjs` (machine-checks every `<Cite>` and every `/wiki/` link in a file).
+The ranker implements the fix the 2026-08-12 log asked for: title tokens are dropped when their
+document frequency across the 1,155 transcripts exceeds 20%, and any article left with fewer
+than two distinctive tokens is skipped outright and reported separately rather than scored. That
+removed the one-word-title noise that has topped the raw index every run — 201 articles were set
+aside as unscorable — and produced 167 honest candidates under 340 words with at least two
+uncited fuel sources.
+
+| article | words before | words after | new facts | new sources |
+|---|---:|---:|---:|---:|
+| `rand-paul-eric-holder` | 251 | 1263 | 14 | 22 |
+| `tucker-carlson-2026-fara-referral` | 323 | 1062 | 11 | 4 |
+| `the-asset-recruitment-cycle` | 318 | 1504 | 18 | 9 |
+| `cleaning-up-after-tora-bora` | 287 | 909 | 9 | 10 |
+| `planning-a-surveillance-detection-route` | 282 | 861 | 9 | 11 |
+| `terry-albury` | 177 | 603 | 8 | 15 |
+| `nation-of-islam-at-loretto` | 318 | 748 | 8 | 14 |
+| `the-condoleezza-rice-meeting` | 239 | 860 | 11 | 10 |
+| `fifth-fleet` | 275 | 882 | 10 | 12 |
+| `the-oath-to-the-constitution` | 283 | 939 | 9 | 12 |
+| `cia-divorce-rate` | 315 | 912 | 9 | 10 |
+| `the-piers-morgan-panel` | 324 | 754 | 7 | 9 |
+| `mark-zuckerberg-angela-merkel-meeting` | 111 | 558 | 6 | 5 |
+| `christopher-steele-dossier` | 256 | 700 | 6 | 3 |
+| `strait-of-hormuz-transit-fees` | 289 | 829 | 8 | 8 |
+
+Every article cleared the floor of ≥3 new sourced facts from ≥2 distinct new sources. Nothing
+left `in-progress`. All 425 `<Cite>` tags across the fifteen files were machine-verified before
+commit — every source slug resolves to a transcript on disk and every timestamp appears verbatim
+in that transcript — and every `/wiki/` link in the fifteen files was checked against the article
+directory, so none of them is dead.
+
+### Best finds
+
+- **`the-asset-recruitment-cycle`** was a single-source sketch of four words and is now the
+  fullest account of CIA agent recruitment in the corpus. Spotting is for access, not rank —
+  *"you are a nice guy, I like hanging out with you, but you're not operationally interesting"* —
+  and the filter is nationality first, then function: no interest in the Spanish officer, every
+  interest in the man who works in the part of the port that is off limits. Development is
+  months of bought friendship on an unlimited expense account: lunch, then dinner, then dinner
+  with both wives, an all-expenses trip to New York, a ten-thousand-dollar-a-day charter for
+  marlin. Kiriakou's own best example is the cheapest — a man he was developing at the United
+  Nations said the Manhattan skyline at sunset was the most beautiful thing he had ever seen, so
+  Kiriakou bought him a helicopter tour: *"I thought he was gonna cry. That was a few hundred
+  dollars well spent."* The pitch trades on a vulnerability, a word he defuses on purpose, and
+  the offers are deliverable because the CIA holds agreements with almost every American
+  university and the Fortune 1500: *"I'll get your kid into Harvard, no problem — give me two
+  hours in your code room."* But the currency need not be material. He recruited one man with a
+  basketball bought from the NBA store online, presented in an acrylic box with the story that
+  Michael Jordan had signed it for him personally; the man *"couldn't give me the information I
+  wanted fast enough, and he didn't take any money for it."* And threats are forbidden outright —
+  unethical, ineffective, and *"you run the risk of him coming to the next meeting with a gun."*
+- **`the-condoleezza-rice-meeting`** finally has its document. The nine o'clock White House
+  appointment of 11 September 2001 was about a Government Printing Office volume called *Foreign
+  Relations of the United States, Greece-Turkey-Cyprus*, due to be printed in an edition of five
+  or ten copies that *"nobody's ever going to read."* Three of the old cables named CIA sources
+  who were still alive — men by then about a hundred years old — and an obscure statute obliges
+  the government to offer citizenship and resettlement to any recruited source it exposes. So
+  *"we thought it would be easier and cheaper if we went to Condi and asked her to just pull
+  these three cables out of the volume."* The driver called at 8.15 from the East entrance.
+- **`cleaning-up-after-tora-bora`** gains the reason a clean-up was needed at all. The
+  encirclement failed because *"the translator for the commander of Central Command was actually
+  an al-Qaeda operative"*; bin Laden left in the dark dressed as a woman in the back of a pickup
+  truck, and *"when the sun came up at dawn there was no one in Tora Bora to give up."* The
+  clean-up itself now has its detail: dozens of fighters taken at the border and loaded onto an
+  aircraft — the moment Kiriakou first heard the word Guantánamo — and his first interrogation
+  ever, a Jordanian chained to an eyebolt, asked not about plots but to draw the smugglers'
+  valleys, the *"rat lines"*, from Tora Bora to Quetta.
+- **`rand-paul-eric-holder`** stops being a single exchange. The Haspel arc is the find: the
+  *Washington Post* op-ed held for the Sunday edition, Rand Paul telephoning at ten that morning,
+  the whiteboard in his office with four or five staffers counting votes — *"who's yes, who's no,
+  who's maybe, who can we lobby"* — and the confirmation vote a week later. *"It was shocking to
+  me."* Alongside it, the two members of Congress Kiriakou says have ever defended
+  whistleblowers: Chuck Grassley and Paul, *"no other 536 members of Congress."*
+- **`terry-albury`** acquires the mechanics of his own exposure: the FBI *"went back and looked
+  at the security camera footage from every computer that had accessed the memo"* and found the
+  agent who had photographed his own screen. Also the human afterword — Kiriakou stayed in touch
+  through the sentence, and describes the effort as seasonal: *"Christmas is the only holiday
+  that people really start to sink emotionally."*
+- **`nation-of-islam-at-loretto`** gains the line that makes the scene, and its mirror image.
+  When Kiriakou put out his hand to the man who had just delivered Farrakhan's blessing, he was
+  told *"I don't shake hands with the white devil."* Meanwhile the Aryans had decided he was a
+  CIA assassin who had gone round the world killing Muslims. *"The Aryans thought I was killing
+  Muslims, the Muslims thought I was saving Muslims, and I just kept my mouth shut."*
+- **`cia-divorce-rate`** now has the moment rather than the statistic. His first marriage ended
+  in an armoured car during the emergency evacuation from Athens, hours after 17 November claimed
+  the killing of Stephen Saunders: one car for him, one for his wife, one for the children, and
+  *"my wife says, I want a divorce. I'm not doing this anymore."* He was on the noon Delta flight
+  to New York. On his next-to-last day in Athens he sat down with a calculator, divided his
+  salary by twenty-six pay periods, and started paying support before anyone had filed.
+- **`the-piers-morgan-panel`** gains the Epstein round. Kiriakou said on air that Epstein was an
+  Israeli access agent; Dershowitz, who had been Epstein's attorney, objected that Epstein would
+  have told him because *"I could have gone to the White House and I could have gotten him a
+  better sentence"* — an answer Kiriakou treats as self-refuting. Morgan then asked the Israeli
+  panellist outright whether Epstein was a spy, and got a laugh and *"who knows?"*
+
+### Corrections and variances recorded
+
+- **`christopher-steele-dossier`** — the article previously carried the Ted Cruz funding origin
+  as Kiriakou's account. In 2021 he calls that story *"nonsense"* — a rumour *"the Clinton
+  campaign put out… and they hinted that it was Ted Cruz"* — and says the relationship ran
+  directly between Steele and the Clinton people. Both versions are now stated as contradictory.
+  The article also gains the operation he actually worked with Steele on: Greek terrorism, after
+  the assassination of the British defence attaché in Athens.
+- **`cleaning-up-after-tora-bora`** — the article said "the December 2001 battle." Kiriakou
+  consistently dates the bombing to the end of October 2001, and the December date came from
+  outside the corpus. Removed; his dating now stands alone.
+- **`the-condoleezza-rice-meeting`** — the cable volume spans 1949 to 1967 in the 2026 telling
+  and 1947 to 1969 in the 2021 one. Both given.
+- **`the-piers-morgan-panel`** — the fourth panellist is named General Danny Ayalon in some
+  tellings, *"the former head of Mossad"* in others, and in one Kiriakou corrects himself
+  mid-sentence to *"Danny Yat."* Preserved, not resolved.
+- **`terry-albury`** — the sentence is three and a half years in most tellings and four in one.
+- **`the-oath-to-the-constitution`** — the auditorium holds *"about 30 other people"* in three
+  tellings, *"a couple of hundred"* in another and *"300 or 400"* in a fifth.
+- **`nation-of-islam-at-loretto`** — the Farrakhan article appears *"a couple of days before I
+  went to prison"*, *"the week that I went to prison"*, and *"the day that I arrived"*.
+- **`the-asset-recruitment-cycle`** — Kiriakou calls it the asset *acquisition* cycle far more
+  often than the asset *recruitment* cycle; the article now says so in its first sentence rather
+  than silently preferring the slug.
+- **`fifth-fleet`** — Kiriakou describes Admiral Crowe as a former chairman of the joint chiefs
+  *"under Bill Clinton."* Recorded as he says it, without outside correction, per doctrine.
+
+### Cut on attribution
+
+- **`mark-zuckerberg-angela-merkel-meeting`** — a passage on the FBI asking Facebook to change
+  its news-feed algorithm was cut because the turn belongs to Kevin Gosztola, not Kiriakou. The
+  same claim survives in the article from a source where Kiriakou plainly makes it himself.
+- **`christopher-steele-dossier`** — three of the strongest-looking hits were a Tucker Carlson
+  monologue, a host reading a *Telegraph* summary, and a guest (Michael Jaco) pitching his own
+  book. All cut.
+- **`the-oath-to-the-constitution`** — the Sam Adams-style citations that read *"for upholding
+  his sworn duty to support and defend the Constitution"* are introductions spoken by Amy Goodman
+  and by Paul Wright. Cut, even though they say exactly what the article is about.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+- **`netanyahu-and-the-tel-aviv-police-chief`** (337 words) — ranked third on strict fuel and is
+  pure ranking artefact: *netanyahu* and *tel aviv* co-occur constantly. The July 2023 firing of
+  the Tel Aviv police chief appears in exactly one transcript, and there is no second telling of
+  the Israeli judicial-overhaul fight anywhere in the corpus either. Needs ingest, not
+  enrichment.
+- **`the-crenshaw-text-messages`** (338 words) — ranked high on *text* and *messages*, both
+  common words. The anecdote itself exists once. Left alone.
+- **`the-blacked-out-grand-jury-minutes`**, **`greek-ambassador-dinner-encounter`**,
+  **`the-standard-operating-procedure-assignment`**, **`the-las-vegas-case`** — all rank in the
+  top ten and all are sentence-shaped titles whose "fuel" is ordinary vocabulary. Not starving;
+  mis-ranked. The two-distinctive-token rule catches one-word titles but not these.
+- **`diary-of-a-ceo-january-2026`**, **`us-military-venture-capital`**,
+  **`united-food-and-commercial-workers`**, **`the-ideological-circle`** — same class.
+
+### Method notes
+
+- The three tools added this run should stay. `rank-enrich-candidates.mjs` replaces the
+  hand-rebuilt re-ranker; `enrich-fuel.mjs --tokens` is what makes a mis-titled article workable
+  (the fuel for `rand-paul-eric-holder` only became legible once *eric* was dropped and the pair
+  rule ran over *rand*/*paul*/*holder*); and `verify-cites.mjs` turns the citation audit from a
+  manual reread into one command per file.
+- The remaining ranking weakness is sentence-shaped titles, not one-word ones. A title of five
+  ordinary words passes the two-distinctive-token test and then matches everything. The next
+  refinement worth making is to require the surviving tokens to be *jointly* rare — score the
+  pair, not each token — or to fall back to the article's infobox values when the title is a
+  sentence.
+- Checking the speaker before the content remains the single most productive habit, and this run
+  it also caught a subtler failure: two near-identical transcripts of the same episode exist for
+  several shows (`2026-03-01-deprogram-w-ted-rall` and two siblings; the two `dr-phil` files;
+  `2025-08-11` and `2025-08-12` deprogram). They are legitimately separate sources on disk and
+  cite cleanly, but they inflate a "distinct sources" count. Where both were used, it was for
+  corroboration and is stated as such.
+- `.sponsors` sidecar files are being over-captured by the sponsor stripper. The passage in
+  which a Republican congressman offers to introduce a bill vacating Kiriakou's conviction lives
+  only in `…-second-time-guest-j.sponsors.md`, not in the main transcript. Precedent exists for
+  citing the sidecar and it was followed, but the stripper is losing canon material into a file
+  the corpus treats as advertising.
