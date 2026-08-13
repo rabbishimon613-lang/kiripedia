@@ -23,14 +23,82 @@ const matching = articles.filter((a) => {
 const display = name.charAt(0).toUpperCase() + name.slice(1);
 const SITE = 'https://www.kiripedia.org';
 
+// Purpose-written title and description for the categories that actually draw
+// search impressions. /category/people/ and /category/procedures/ both sit in
+// the top thirty pages by impressions with essentially no clicks, and until
+// now every category served the same two generated strings — "Category: People"
+// and "N KiriPedia articles in the People category" — which give a searcher no
+// reason to click. Everything below describes what is genuinely in that
+// category; the count is appended at render so the line stays honest as the
+// corpus grows. Any category not listed keeps the generic fallback.
+const CATEGORY_META = {
+  people: {
+    title: 'Everyone John Kiriakou has talked about',
+    description: 'Case officers, presidents, torturers, prisoners and journalists — every person John Kiriakou has described on the record, from his own interviews.',
+  },
+  concepts: {
+    title: 'The vocabulary of the CIA, explained',
+    description: 'The terms John Kiriakou uses when he talks about the agency, from asset acquisition to the leaker-versus-whistleblower line, defined in his own words.',
+  },
+  events: {
+    title: 'What happened, according to Kiriakou',
+    description: 'The arrests, operations, prosecutions and disasters John Kiriakou witnessed or worked on, each account traced back to the interview he gave it in.',
+  },
+  procedures: {
+    title: 'How the CIA actually does things',
+    description: 'Recruiting an asset, running a surveillance detection route, interrogating a detainee — the agency’s working methods as John Kiriakou describes them.',
+  },
+  places: {
+    title: 'The CIA on the map, per Kiriakou',
+    description: 'Stations, prisons, safehouses and training grounds — the places John Kiriakou served in, was held in, or has described from the inside.',
+  },
+  cases: {
+    title: 'The operations Kiriakou worked',
+    description: 'Individual cases from John Kiriakou’s CIA career and the years after it, from the Abu Zubaydah capture to his own prosecution, told as he tells them.',
+  },
+  organizations: {
+    title: 'The agencies, groups and firms involved',
+    description: 'Intelligence services, terrorist organisations, contractors and news outlets that appear in John Kiriakou’s account of his career.',
+  },
+  operations: {
+    title: 'Named CIA operations Kiriakou describes',
+    description: 'The programmes and covert operations John Kiriakou has spoken about publicly, each entry built only from what he said on the record.',
+  },
+  tradecraft: {
+    title: 'CIA tradecraft, first-hand',
+    description: 'Dead drops, cover, surveillance detection and agent handling — the craft of espionage as taught to and practised by John Kiriakou.',
+  },
+  analysis: {
+    title: 'What Kiriakou makes of it',
+    description: 'John Kiriakou’s own reading of the intelligence world — its politics, its failures and its incentives — separated from his account of events.',
+  },
+  prison: {
+    title: 'Kiriakou’s 23 months inside',
+    description: 'Loretto, its inmates, its rules and its economy: everything John Kiriakou has described about the federal prison he served his sentence in.',
+  },
+  agencies: {
+    title: 'The intelligence agencies, one by one',
+    description: 'The CIA, FBI, NSA and their foreign counterparts as John Kiriakou has described them — what each does and how they get along.',
+  },
+  programs: {
+    title: 'The programmes behind the headlines',
+    description: 'Rendition, interrogation, surveillance and covert action programmes John Kiriakou has spoken about, documented from his interviews alone.',
+  },
+};
+const meta = CATEGORY_META[name];
+const pageTitle = meta ? meta.title : `Category: ${display}`;
+const pageDescription = meta
+  ? meta.description
+  : `${matching.length} KiriPedia articles in the ${display} category.`;
+
 // CollectionPage + ItemList JSON-LD so Google understands this is a list
 // page indexing N articles, not just a leaf doc.
 const collectionSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": `Category: ${display}`,
-  "description": `All KiriPedia articles in the ${display} category — sourced exclusively from John Kiriakou's public interviews and podcast appearances.`,
-  "url": `${SITE}/category/${name}`,
+  "name": pageTitle,
+  "description": pageDescription,
+  "url": `${SITE}/category/${name}/`,
   "inLanguage": "en",
   "isPartOf": { "@type": "WebSite", "name": "KiriPedia", "url": SITE },
   "mainEntity": {
@@ -39,15 +107,15 @@ const collectionSchema = {
     "itemListElement": matching.map((a, i) => ({
       "@type": "ListItem",
       "position": i + 1,
-      "url": `${SITE}/wiki/${a.id.replace(/\.mdx?$/, '')}`,
+      "url": `${SITE}/wiki/${a.id.replace(/\.mdx?$/, '')}/`,
       "name": a.data.title,
     })),
   },
 };
 ---
 <WikiLayout
-  title={`Category: ${display}`}
-  description={`${matching.length} KiriPedia articles in the ${display} category.`}
+  title={pageTitle}
+  description={pageDescription}
   type="website"
 >
   <div class="wiki-content">
