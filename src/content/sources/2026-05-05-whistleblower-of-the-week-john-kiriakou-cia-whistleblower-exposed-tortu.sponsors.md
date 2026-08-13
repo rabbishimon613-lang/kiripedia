@@ -1,0 +1,28 @@
+# Stripped sponsor / ad reads
+
+These paragraphs were detected as sponsor reads and excluded from the main transcript.
+Preserved here for audit; not part of the canon corpus.
+
+[04:30] I grew up in Western Pennsylvania very near my grandparents. They were constantly in our lives. They would visit every Thursday. We would visit them every Sunday plus every holiday we're together and we were on the phone all the time. And I remember my grandfather, I was in fifth grade and he said, what are you reading? And I said, it's a biography of Thomas Jefferson. He goes, why? Biography of Alexander the Great, that's what you need to be reading. And I did as I was told and I went to the library and got the biography of Alexander
+
+[05:03] the Great. They were very, very impactful in my life. My parents were both elementary school teachers, public school teachers. My father ended up becoming a principal and was a principal for 42 years. My mother was a third grade and then fifth grade teacher for 22 years. And again, it was all about public service. And so when I went to school, I grew up in Amish country in Western Pennsylvania, very, very rural, very boring, nothing happening, the rust belt.
+
+[05:36] Most kids sort of escaped to Pittsburgh. And I just, that wasn't far away enough for me. And so I developed this fascination to the point of obsession with the Middle East. When I was nine years old, I told my parents that I wanted to be a spy when I grew up. And they thought that was cute. And then at Christmas, they gave me walkie-talkies so my brother and I would, you know, walk around the neighborhood talking on our walkie-talkies.
+
+[06:08] But when I was 16, I told my father specifically that I wanted to be a spy in the Middle East. And he said, still with the spy business, can't you be like a dentist or something? And I said, dad, I want to live in the Middle East and I really want to be a spy. And I became a spy in the Middle East. I went to George Washington University. I got a degree in Middle Eastern studies. I stayed for a master's degree in legislative affairs, but with a focus in American foreign policy analysis. And then my grad school advisor recruited me into the CIA.
+
+[06:39] I spent the first seven and a half years of my career as an analyst on Iraq. I did overseas tours in Kuwait, Saudi Arabia, and Bahrain. And then I switched to counterterrorist operations. And I did an operational tour in Athens. Then I became the chief of counterterrorist operations in Pakistan. And then I finished my headquarters career as the executive assistant to the CIA's deputy director for operations. And then my final tour was at the United Nations. I was assigned to the UN Security Council.
+
+[07:11] And then called it a career. And I have a question about that, John, because I see that you were given just the best ratings that you can get in the CIA. You were given awards. I got 12 exceptional performance awards. Right. The Sustained Superior Performance Award and the Meritorious Honor Award with medal. You were, yeah, you were no slump. I mean, and here you were in the middle. Yes, you did. And they recognized you for that.
+
+[07:42] So they thought extremely highly of you. And here you are, chief of counterterrorist operations in Pakistan. I mean, some of the most volatile, you know, important postings. Why did you walk away from that? Especially since from just a little kid, that's what you wanted to be a spy. The the the real reason that I walked away, I resigned after 15 years because I had gotten divorced and my sons were young.
+
+[08:13] They were seven and four. And, you know, kids need their dad, especially little boys. And my ex-wife went back home to Ohio. And I just couldn't bear the thought of living without my kids. Yeah. So I decided to resign and go into the public sector, the private sector. Rather, I went to work for the big four accounting firm of Deloitte and Tush. I was the deputy deputy director of their competitive intelligence practice.
+
+[08:44] And so they told me in the interview process, we don't care where you sit when you're writing the report. I mean, if you want to be at your folks' house in Pennsylvania or at a Starbucks, you know, around the corner from your kids' house, that's fine with us. And so I resigned from the agency and went to work for Deloitte. It was the most boring job I ever had in my life. But it was the best group of people that I ever worked with in my life. And I did that for almost four years.
+
+[09:17] Until fate intervened and everything changed. Yes. And fate did intervene. You know, I think it's interesting that the person who solicited you for the CIA was a psychiatrist. Yeah. So he must have passed judgment that you were very well adjusted. You know, as exact words were, he was looking for people who would fit into the CIA's culture. And he said, you would fit into the CIA's culture. Exactly. And you did.
+
+[09:48] You were just a superstar. I thrived. You were a superstar. So so the family, which, of course, you value that more than anything, which. makes you a very honorable man as you know. Thank you. You had five sons the same as Thomas Drake, which I think is four sons and a daughter. Yeah, and he has five sons. Yeah. And so you share some commonality there. We do. Which I think is great. Tom Drake. Tom Drake is one of the finest human
+
+[10:20] beings I've ever had the pleasure of encountering in my life. And I met him through the great Jaisalyn Radak just days after my arrest in 2012. And Tom was one of those handful of people who I credit for saving my life. I could not have gotten through that awful experience without the wisdom and advice and friendship of Tom Drake. Yeah, he's amazing. And now you enter
