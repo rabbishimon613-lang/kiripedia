@@ -1,0 +1,12 @@
+CIA Remote Vehicle Control
+==========================
+
+Kiriakou says the Vault 7 revelations published by WikiLeaks showed that the CIA can remotely take over a car and make it drive off a bridge, into a tree, or into an abutment, killing the driver in a way that looks like an accident.  He describes this alongside a related capability he says the leaks also disclosed: the ability to turn a smart TV's speaker into a microphone to listen in on conversations.  Kiriakou frames both as examples of ideas that get approved inside CIA conference rooms despite being, in his words, "really stupid ideas" that people around the table nonetheless sign off on.  Kiriakou credits Andy Greenberg of Forbes with demonstrating that the capability was technically real, describing him as "a brilliant computer genius" who put the claim to the test and showed it was correct.
+
+He has separately made the same claim about vehicle hacking in another appearance; see CIA Car Hacking.
+
+See also
+
+- John Kiriakou
+- CIA Car Hacking
+- Vault 7

@@ -1,0 +1,28 @@
+Sentencing enhancements
+=======================
+
+Asked how a leak case produced a forty-year sentence, John Kiriakou answered by walking through the federal sentencing table, which he recommends everyone look up: "if you go to the Justice Department''s website and you look at the sentencing schedule, it looks like an actuarial chart."
+
+The grid
+
+"On the left-hand side you have levels 1 through 40, with one being, you know, you jaywalked on federal property. And across the top, from left to right, there are something like seven columns. Column number one is, you''ve never been in trouble in your life. Number seven is, you''re a career criminal, you commit federal crimes every single day. And the others are in between. So level 47 is the federal death penalty, that''s the most serious level you can be, and then the other extreme is, they don''t even waste their time prosecuting you."
+
+The stacking
+
+Kiriakou works the arithmetic through Joshua Schulte''s case. "Josh Schulte had never been in trouble in his life. So they charge him with espionage, which is actually level 27 on a scale of 1 to 40. So level 27 calls for something like nine years in prison. How did he get 40? Well, they gave him an enhancement for terrorism. They gave him an enhancement for hacking. They gave him an enhancement for, this is one of my favourite ones, failure to take responsibility."
+
+That last one he explains as a penalty for exercising the right to trial: "if you are charged with a crime, you plead not guilty, you go to trial and you''re found guilty, they say, well, you were lying when you said you were not guilty, so that means you failed to take responsibility for your criminal behaviour. That''s an enhancement."
+
+"So instead of being a level 27, the first enhancement makes it a 29, the second a 31, the third a 33, and all of a sudden that nine years becomes 40 years. That''s how they did it."
+
+No appeal
+
+On the terrorism enhancement specifically: "this terrorism enhancement is just outrageous, and there''s no recourse. You can''t appeal an enhancement. It''s just up to the judge, at the request of the prosecution."
+
+See also
+
+- Joshua Schulte
+- Federal plea coercion
+- Espionage Act
+- Overcriminalization
+- Kiriakou on mass incarceration

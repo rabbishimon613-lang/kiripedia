@@ -1,0 +1,29 @@
+One-Time Pad
+============
+
+A one-time pad is a cipher system in which a secret, random key, shared between sender and receiver, is used to encode a message and then destroyed so that it can never be used again. In traditional shortwave-radio tradecraft, one-time pads enabled spies to broadcast number sequences over public airwaves that only the intended recipient, holding the matching page, could decode.
+
+John Kiriakou traced his lifelong interest in intelligence to a childhood encounter with one-time-pad transmissions. At age nine, he accompanied his father to an auction. His father purchased a box of miscellaneous items for fifty cents; inside was a shortwave radio. His father handed the radio to Kiriakou and it opened, in Kiriakou's words, "an entire world" to him. He listened to Radio Moscow, Radio Havana Cuba, the BBC, and transmissions from across the globe.
+
+While slowly scrolling through the dial late at night, the best time for shortwave reception, he would occasionally encounter a transmission of a man's voice reading nothing but numbers: "8 3 6 9 1." He could not explain what it was for years. He eventually understood: it was a KGB spy reporting back using a one-time pad.
+
+Mechanics
+
+Both sender and receiver hold identical pads, books or sheets of random numbers, each page used only once. The KGB would communicate to the agent in the field which page to use for the next transmission. Each number in the broadcast corresponds to a letter according to the key on that page. Once the transmission is received and decoded, the page is burned. It cannot be reconstructed.
+
+Kiriakou described the one-time pad as a method of last resort, used when other, faster modes of communication are unavailable or compromised. The preferred alternative in modern tradecraft is the burst transmission: all content is fed into a transmitter and sent in a fraction of a second, making interception nearly impossible. However, even burst transmissions carry risk if a monitoring asset is in close proximity at the moment of activation, as the case of Eli Cohen illustrates.
+
+The voice reading '836' (Jay Dyer)
+
+John Kiriakou traces his fascination with tradecraft to a 50-cent shortwave radio from a farm auction: switching to shortwave, he heard, for hours, a man's voice repeating "eight three six", a spy reading an encrypted message off a one-time pad. Such number stations, he says, are still active: a fellow former officer told him he had heard one-time-pad numbers on shortwave just a week earlier, and one near Miami still broadcasts toward Cuba.
+
+Heard before it was understood
+
+Kiriakou's first encounter with the format was accidental and unexplained for years. On a Second World War communications receiver bought at an auction, sweeping the obscure shortwave and military bands, he would occasionally pick up "almost always a man's voice, just say things like 'eight, five, three ... two, six.' And I'm like, what is that?", "and it wasn't until I went to the agency that I realised it was spies reporting back, probably to Moscow, using their one-time pads and speaking in one-time code." See Kiriakou's shortwave listening.
+
+See also
+
+- Non-Personal Communication
+- Eli Cohen
+- John Kiriakou
+- CIA

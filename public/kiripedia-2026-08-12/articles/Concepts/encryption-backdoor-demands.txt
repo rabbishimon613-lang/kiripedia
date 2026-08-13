@@ -1,0 +1,16 @@
+Government encryption back-door demands
+=======================================
+
+John Kiriakou describes the British government as "practically at war with Apple" in early 2025 over its demand for a back door into the company's operating system, and says Apple's answer was that it would rather shut down in the United Kingdom than give British intelligence access.
+
+He treats the episode as a template rather than an exception, and predicted the same demand would be made of any successful new platform under the second Trump administration. Asked what happens when that administration comes knocking, he scripted the meeting: "can you imagine a White House meeting where Kash Patel, the new FBI director, or John Ratcliffe, the new CIA director, go to Trump and say, 'Mr President, you know, terrorism, another 9/11, so we need these back doors'?" His answer to his own question is that Trump "is not going to say 'oh no no no, I believe in transparency, I believe in freedom of speech, I'm not giving you any back doors that might save American lives' ... he's going to give them what they want, just like every single president before him gave them what they wanted."
+
+He extends the same scepticism to the administration's free-speech executive orders, which he says will not lead to more transparency: "it's all about lawfare, it's all about going after your enemies." The countermeasure he identifies for a platform is jurisdictional, being registered in Iceland with staff distributed across every time zone means not dealing directly with the American or British governments or any of the Five Eyes.
+
+See also
+
+- Panquake
+- John Ratcliffe
+- Donald Trump
+- NSA Surveillance
+- Purchased data as a warrant workaround

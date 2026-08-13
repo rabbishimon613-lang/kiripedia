@@ -1,0 +1,13 @@
+CIA Gmail account felony case
+=============================
+
+John Kiriakou describes a CIA colleague who was working the overnight watch at the counterterrorism fusion center, reading incoming cables and calling people in if anything urgent broke, when he received a cable identifying a terrorist suspect's Gmail account and, in a separate cable, the password. He logged in, found nothing of intelligence value, and logged back out. A subsequent cable told him the information had been sent to him in error and asked him to delete it, which he did.
+
+Days later, the CIA's Office of Security asked whether he had accessed the account. He explained he had done so only because headquarters had sent him the account and password and instructed him to check it. Investigators told him he had lacked authorization to access a Google account without law-enforcement sign-off; he was charged with a felony count of illegally accessing a computer. Kiriakou's summary of his colleague's reaction: "I'm the watch officer, they sent me the cable telling me check it out. We just got the information, here's the information."
+
+Facing the felony charge, the officer took a plea to a misdemeanor, serving 12 months of probation. He lost his job at the CIA and his federal pension, and spent a year on welfare before he was able to find work in Oklahoma.
+
+See also
+
+- John Kiriakou
+- Government Purchase of Social Media Metadata

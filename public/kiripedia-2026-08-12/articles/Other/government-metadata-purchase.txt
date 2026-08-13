@@ -1,0 +1,32 @@
+Government Purchase of Social Media Metadata
+============================================
+
+The government purchase of social media metadata is a surveillance practice in which U.S. agencies acquire user data commercially rather than through court-ordered warrants.
+
+Per John Kiriakou, both the NSA and FBI "definitely" engage in collecting information on American citizens, and have moved away from seeking judicial authorization in favor of purchasing data directly from providers. "Rather than having to find probable cause, they now just go to the data providers and buy the data. The metadata is for sale. It's for sale by Facebook and X and Instagram and everybody. It just has it for sale, so they just buy it. There's no legal prohibition on purchasing it."
+
+The legal mechanism that makes this possible: when a user creates an account on a social media platform, the terms of service transfer ownership of the metadata to the company, which is then free to sell it to any buyer, including government agencies. The metadata purchased can reveal which articles a person reads, which communities they belong to, including medical, political, or religious groups, and can construct a detailed profile of an individual without the agency ever obtaining a search warrant.
+
+Bulk purchase is the more common and more clearly legal form of the practice; agencies subsequently sort through the data to extract information on specific individuals.
+
+The absence of Congressional action is a significant gap: "This is a new phenomenon. It's just over the last 20 years and Congress just simply hasn't addressed it."
+
+The CIA is prohibited from collecting any information on American citizens; per Kiriakou, the NSA and FBI are actively engaged in such purchases.
+
+In a separate telling, Kiriakou explains why the FBI prefers buying data outright to seeking a warrant: "Why would the FBI go before a judge and have to make a probable cause argument when they can just go to Meta and just buy it?" He says legislative efforts to ban the practice, barring the FBI from using data brokers to obtain information that would otherwise require a warrant, an effort that involved figures like Darrell Issa, failed after opponents framed the ban as an invitation to another 9/11, and the legislation never passed.
+
+What triggers government scrutiny of an individual
+
+Kiriakou says ordinary Americans of ordinary wealth are not targeted by intelligence or law-enforcement agencies unless they buy fine art, race horses, cryptocurrency, or real estate for cash, transactions that raise money-laundering flags. He illustrates the point with a close friend and former Deputy Attorney General of the United States who is still paying IRS fines nearly twenty years after his wife began buying racehorses from breeders in Dubai and Kentucky without reporting the cash transactions. On the day of a July 2025 podcast taping, Kiriakou noted the Trump administration had just lowered the cash-transaction reporting threshold to $200 (down from the standard $10,000) in border counties across California, Arizona, New Mexico, and Texas.
+
+Kiriakou says that given his name and ten minutes, the CIA could find nearly everything about a person's life, every call, email, or text, down to highly personal details such as visits to an abortion clinic or a secret relationship. He also describes the practical fallout of simply being arrested, before any conviction: USAA canceled his homeowner's and auto insurance, Bank of America closed his bank account and told him "we don't do business with criminals," and AIG canceled his life insurance.
+
+Third in a sequence
+
+Kiriakou presents the purchase of metadata not as a novelty but as the last of three steps away from the warrant requirement, after FISA and the national security letter. "The social media platforms sell our metadata to anybody who wants to pay. And so why would the FBI go before a judge and have to make a probable-cause argument, when they can just go to Meta and just buy it?"
+
+See also
+
+- Section 702
+- John Kiriakou
+- Whistleblower Protection Act

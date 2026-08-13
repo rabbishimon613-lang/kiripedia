@@ -1,0 +1,26 @@
+Marty Gottesfeld
+================
+
+Marty Gottesfeld is an American hacktivist and computer security engineer convicted for a 2014 denial-of-service attack on Boston Children's Hospital, carried out in protest of the hospital's treatment of teenage patient Justina Pelletier (referred to in the source recording as "Christine Pelletier") during a high-profile custody and medical dispute. The attack cost the hospital tens of thousands of dollars and disrupted its operations for days, though no patients were directly harmed by the disruption.
+
+Background
+
+Gottesfeld says his father worked as an Apollo-program rocket scientist and computer programmer who taught him to code at age three. Gottesfeld wrote his first program at five, sold his first at twelve, and was working as a full-time network infrastructure and data security engineer by eighteen. Before his prosecution he worked as a data security coordinator at a Massachusetts biotech company, handling business continuity and disaster recovery planning for health organizations and Fortune 500 companies.
+
+Prosecution
+
+A jury declined to convict Gottesfeld on the charge that his actions endangered patient care, convicting him only on financial-damage grounds. He says prosecutors David Deitch and Seth Kosto failed to prove to the jury the ethical core of their case, that his actions had endangered patient lives, a claim he says the government nonetheless used as a rhetorical "cudgel" regardless of the verdict.
+
+Federal prison and the Reynolds case
+
+Gottesfeld served time as a federal prisoner alongside John Kiriakou at FCI Loretto, where he became an advocate for fellow inmate Donnie Reynolds Jr.. Gottesfeld theorizes Reynolds was targeted as a Justice Department scapegoat in the aftermath of the ATF's Operation Fast and Furious scandal after refusing to serve as an undercover cartel weapons source, and that Reynolds's life-plus-75-year sentence, longer than that given to cartel boss El Chapo, reflects his potential to implicate powerful figures if his case became public.
+
+Solitary confinement and the CMU
+
+John Kiriakou has separately described Gottesfeld's imprisonment as a case study in the use of Communications Management Units against whistleblowers: Gottesfeld was held more than nine months in solitary confinement inside a CMU, cut off from mail, phone calls, and visits except through the court, after bringing to light evidence that a teenage girl, Justina Pelletier, was being abused at Boston Children's Hospital and being charged with computer crimes carrying a 10-year sentence. Kiriakou says Gottesfeld lost all of his accrued good-behavior time in prison over conduct as minor as writing a letter to a journalist, and asking his attorney by phone to tell his wife he was okay, treated by prison authorities as forbidden "third-party communication."
+
+See also
+
+- Donnie Reynolds Jr.
+- FCI Loretto
+- John Kiriakou

@@ -1,0 +1,26 @@
+Thin Thread
+===========
+
+Thin Thread and Stellar Wind were competing NSA programs at the center of the post-9/11 mass-surveillance turn. John Kiriakou recounts the broader story in connection with NSA whistleblower Tom Drake. In the documentary Silenced, Drake himself says that, tasked with surfacing dormant NSA systems after 9/11, he personally brought the Thin Thread program to senior leadership's attention shortly after the attacks.
+
+Thin Thread and Hayden
+
+Per Kiriakou, on September 11, 2001, NSA Director Michael Hayden implemented Operation Thin Thread. Kiriakou says Hayden called 9/11 "the greatest possible gift to NSA", meaning, in context, that "now that the gloves are off, we can intercept anything we want anywhere in the world." Thin Thread, in his description, lets the agency "vacuum up every phone call, every text message, every email, every bit of metadata from every American anywhere in the world", in violation of the NSA's own charter, which prohibits spying on Americans. The justification: Americans "may be talking to terrorists, so we have to grab everything and then sort out the details later."
+
+Stellar Wind, the road not taken
+
+Kiriakou says three NSA officers, Bill Binney, Kirk Wiebe, and Ed Loomis, had developed a competing program, Stellar Wind, that "would be able to collect the same kind of data while protecting Americans." Hayden, in his account, decided against it: "No, we want to grab all of it." Kiriakou has given a different account of Stellar Wind elsewhere, describing it not as a rejected privacy-protecting alternative but as a companion technology the NSA developed alongside Thin Thread, using AI to discern which of the vacuumed-up communications represented a genuine threat.
+
+Tom Drake
+
+The choice to collect everything is what led Tom Drake to try to report the illegality. He went to his boss ("mind your own business"), then to the Inspector General (who was not read into the compartment and "never heard of any of these programs"), then to the General Counsel ("I advise you to keep your big mouth shut"), then to the Pentagon Inspector General, who reported him to the FBI. Drake was ultimately charged with multiple felonies including espionage.
+
+Kiriakou identifies Stellar Wind as the program Edward Snowden later leaked publicly.
+
+See also
+
+- Tom Drake
+- Edward Snowden
+- Patriot Act
+- Section 702
+- FISA

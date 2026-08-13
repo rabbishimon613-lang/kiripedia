@@ -1,0 +1,54 @@
+The Intercept
+=============
+
+The Intercept is the investigative news outlet, home to Jeremy Scahill, that published Daniel Hale's drone leak as The Drone Papers. John Kiriakou says the outlet "has gotten a lot of people caught" and points to Matthew Cole, "the guy that got you busted works there... and he's the same guy that got Reality Winner busted." Reality Winner, interviewed on Kiriakou's own show, says she was never read her Miranda rights during the FBI's 2017 arrest that followed the leak. But Kiriakou, who says he is "happy to be the first one to point the finger at the Intercept", insists the outlet did nothing sloppy in Hale's case: "they didn't blow his identity," Hale "decided that he was going to go public and be public about the drone program."
+
+Kiriakou has put a number on the pattern in a separate interview: he says The Intercept was "either directly or indirectly responsible for the arrest of five whistleblowers," a record he attributes to bad tradecraft, despite the outlet actively soliciting classified leaks through a published encryption key on its own website. He cites one specific case: an FBI agent who leaked evidence of fraud inside the FBI to The Intercept was arrested after the outlet was careless with his identity, and pleaded guilty to espionage, facing up to ten years in prison.
+
+"You guys are an FBI front, right?"
+
+In a 2026 account Kiriakou set out the whole arc, beginning with the founding. The Intercept was set up about fifteen years earlier by Pierre Omidyar, the founder of eBay, who wanted "this like totally non-partisan... just the straight news, heavy on investigative journalism," and brought in figures including Glenn Greenwald.
+
+Then, he says, it hired Matthew Cole and Rich Esposito, "and then boom, boom, boom, five whistleblowers who had some connection to The Intercept all go to prison, including me." Of his own case he is direct: "it was Matthew Cole who personally put me in prison, ratted me out to the FBI." He attributes Reality Winner's imprisonment to Cole and Esposito together.
+
+The accusation he made publicly, tweeted at the outlet when Winner was arrested, is the article's sharpest: "Hey, Intercept, serious question. You guys are an FBI front, right? I mean, you have to be, because nobody could be that stupid or that sloppy to put five national security whistleblowers in prison." No one ever responded, though other outlets emailed asking him to expand on it.
+
+Asked outright whether he believes it, Kiriakou does not retreat to the tradecraft explanation: "Honestly, with the police connections they had, I think they were working for the FBI."
+
+The personal side of it
+
+Kiriakou had worked with both men at ABC News. With Cole the relationship was "proper"; with Esposito it was "close." Asked whether he felt betrayed: "Absolutely." He stopped speaking to both when he was indicted.
+
+What he finds hardest to accept is what happened afterwards, Esposito went on to become deputy police commissioner of New York. "Like, how the hell does that happen?"
+
+The dot in the letter i
+
+The detail Kiriakou uses to make the negligence unmistakable is how Reality Winner was identified. An NSA translator, she was, in his telling, "apoplectic that the Russians were trying to get Donald Trump elected." She scanned a top secret analysis, containing no sources and methods, and in his view probably over-classified, and emailed it to The Intercept using the encryption key the outlet publishes for exactly that purpose.
+
+What the outlet then did, in his account, was attach the scan itself and send it to the NSA to ask whether it was genuine. The flaw in that is invisible to the naked eye: "Your name and your employee ID number are embedded in the dot of an i, or in the period at the end of a sentence." All the agency had to do was magnify it. "It says Reality Winner, and there's her employee number, and they arrested her five hours after she emailed The Intercept."
+
+Hence the dilemma he poses, which admits only two answers: "if you've been a national security journalist for 25 years, are you really that stupid that you would send the original document to NSA? Or are you working for the FBI?"
+
+"Responsible for putting me in prison"
+
+Kiriakou states the grudge plainly and declares it as bias before making the argument. "I'm biased against the Intercept, because two of the journalists there were, I'll just say it straight out, they were responsible for putting me in prison for two years, because they blew my identity to the government. Blatantly. They did the same thing to Reality Winner. They may have done the same thing to this FBI agent who came forward in Minneapolis, Minnesota."
+
+The rule he derives is general rather than personal: "you can't trust a national security journalist if that national security journalist doesn't know how to protect his sources." Asked where a prospective whistleblower should go, he excludes the Intercept along with the New York Times and the Washington Post, all three of which, he notes, publish encryption keys on their websites, and names only one destination: "the only place to go is WikiLeaks, because WikiLeaks is the only organisation that has never blown a source."
+
+The four cases he counts
+
+Kiriakou's objection to the outlet is not editorial but operational, and he states it as a series. Whistleblowers who go to The Intercept "have found themselves to be sent to trial and then on to prison": Reality Winner of the NSA, whose identity he says the outlet exposed; Terry Albury of the FBI, likewise; himself, through the work of Richard Esposito and Matthew Cole; and Daniel Hale, of whom he says "the same thing that happened to all of us happened to Daniel Hale at The Intercept."
+
+The question he leaves hanging is set out at the Intercept's exposed sources.
+
+"Five whistleblowers, and all five of us went to prison"
+
+Kiriakou's stated position is unusually personal: "As much as I hate The Intercept, and I genuinely have hatred in my heart for the Intercept, they actually do some good reporting." Told that the publication was good in Glenn Greenwald's day, he rejected the premise flatly: "No, it wasn't. ... They outed five whistleblowers, and all five of us went to prison."
+
+He and Greenwald went to college together and, by his account, "really don't like each other very much." On getting out of prison he tweeted at him: "Glenn, are you guys undercover FBI agents, or are you just stupid?", the reasoning being that "no reporter who calls himself a national security journalist outs five national security whistleblowers and sends them all to prison. But the Intercept did."
+
+See also
+
+- Daniel Hale
+- Matthew Cole
+- The Drone Papers

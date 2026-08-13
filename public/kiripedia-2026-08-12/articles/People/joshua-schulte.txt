@@ -1,0 +1,52 @@
+Joshua Schulte
+==============
+
+Joshua Schulte is a former Central Intelligence Agency computer engineer in the agency's Directorate of Science and Technology and the source of the 2017 Vault 7 WikiLeaks disclosure, the largest public release of CIA offensive technical capabilities to date. He is currently serving a 40-year U.S. federal prison sentence on espionage charges and maintains his innocence.
+
+Disclosure
+
+In 2017 Schulte allegedly downloaded the "crown jewels" of the agency's science-and-technology directorate and transmitted them to WikiLeaks. The resulting publication ran to thousands of pages and documented capabilities including remote takeover of internet-connected vehicles, conversion of smart-television speakers into covert microphones, and false-flag attribution tooling. The motive, as charged by federal prosecutors and described by John Kiriakou, was workplace grievance: "He was apparently allegedly a disgruntled engineer. He didn't like his boss. He didn't like his co-workers. They didn't like him." Kiriakou describes Schulte as probably on the autism spectrum, a CIA hacker who didn't get along with his co-workers or his supervisor, and says the CIA zeroed in on him as the Vault 7 suspect largely for that reason. He separately says Schulte was very unpopular in his office, he would throw Nerf basketballs at coworkers while they were working, and had a bad relationship with his branch chief. Kiriakou says whistleblower Schulte's revelations proved that the CIA, and presumably MOSSAD, can remotely hack a car's computer system to take control of it, and can reverse-engineer Smart TV speakers to act as microphones even when the television appears to be off.
+
+The Vault 7 source
+
+John Kiriakou names Joshua Schulte as the source, via WikiLeaks, of the Vault 7 revelations that exposed the CIA's car-hacking, smart-TV surveillance and the Marble Framework.
+
+Two trials, an FBI agent who couldn't crack the hard drive
+
+Kiriakou says Schulte's first trial resulted in a hung jury on most counts; he was acquitted of two "process felony" counts, such as making a false statement and obstruction of justice, and was being retried in the Southern District of New York. He notes Schulte fired his public defenders and chose to represent himself at trial, a decision Kiriakou considered a serious mistake, even though he thought Schulte's underlying defense was strong. Kiriakou says an FBI agent testified at the first trial that he could not confirm what was on Schulte's seized hard drive because it was encrypted and could not be cracked. He also says prosecutors originally charged Schulte with multiple counts of child pornography, kept separate from the Vault 7 trial, then dropped those charges after conceding they had no evidence for them. At retrial, Kiriakou says, Schulte was convicted on all charges and now faces 80 years in prison.
+
+Kiriakou says Schulte was sent to the Metropolitan Detention Center in Brooklyn, a facility with no heat in winter, water that freezes in the toilet, no windows, and 24-hour isolation, with prisoners permitted one phone call a month, to a lawyer only. He says Schulte was placed under Special Administrative Measures barring contact with family, visitors, and media, a fact that became public only through a letter Schulte wrote to the judge, which the judge then unsealed. Kiriakou identifies two Communications Management Units in the United States, at the federal penitentiary in Terre Haute, Indiana, and the supermax in Marion, Illinois, and says the latter also houses drone whistleblower Daniel Hale and hacktivist Marty Gottesfeld.
+
+The retrial, and the absence of evidence
+
+Kiriakou''s account of the second trial begins with a decision he considers self-destructive. At the first trial Schulte "was acquitted of two charges and the jury hung on all the other charges. And then Josh Schulte did something very, very stupid, he fired his attorneys and elected to represent himself. And by all accounts he came across to the jury as arrogant, which didn''t do him any favours."
+
+The part he considers a genuine disservice is evidentiary. "There was no documentary evidence that he had ever downloaded anything from the CIA system and passed it to WikiLeaks. And what the Justice Department said to explain that was that he was such a computer genius that he was able to completely cover his tracks, and the reason why he''s guilty is that there is no evidence against him. That doesn''t make any sense at all. But apparently there were a lot of nodding heads in the jury box."
+
+On the label: "he rejects this label of whistleblower. He says that he never sent WikiLeaks anything. Okay, fine. I call him a whistleblower."
+
+How nine years became forty
+
+Kiriakou walks the sentence through the enhancement arithmetic: espionage at level 27 on the federal table, calling for roughly nine years for a defendant who had never been in trouble, then enhancements for terrorism, for hacking, and for failure to take responsibility, moving him to 29, then 31, then 33. "And all of a sudden that nine years becomes 40 years. That''s how they did it." Of the terrorism enhancement in particular: "it''s just outrageous, and there''s no recourse. You can''t appeal an enhancement."
+
+What Kiriakou credits him with
+
+When listing modern surveillance capabilities, Kiriakou names Schulte as the source rather than treating the Vault 7 material as ambient knowledge: "we know, thanks to whistleblowers like Joshua Schulte, a CIA hacker, that the CIA, just as an example, as part of their surveillance program, can turn your smart TV into a microphone. They can remotely engineer the speaker on your TV to act as a microphone to listen to your conversations even when the TV is turned off."
+
+The sentence as a message
+
+Kiriakou treats the length of the sentence as the point of the case. Observers had expected twenty years, itself "a long time" for what he is careful to call a serious crime "if indeed he was guilty of it"; the comparison he reaches for is Jonathan Pollard, "the traitor" who received thirty years for material that "went directly to the KGB." Schulte received forty.
+
+The explanation he gives is deterrence aimed past the defendant: "this wasn't really just about Josh Schulte. This was about a chilling effect. This was a message to all CIA employees saying, 'You're thinking of going public? Look what we did to Joshua Schulte. Do you want to die in an 8x10 foot cell 40 years from now? Because you will.'" He judges that it worked, and offers the absence of evidence as the evidence: "It's not an accident that there haven't been similar leaks of technical data from the CIA. Everybody watched the Joshua Schulte trial."
+
+The conditions are part of the message. Schulte did not go to what Kiriakou calls "Club Fed" but to MDC Brooklyn, "known as one of the harshest and most difficult prisons anywhere in America", and then to a Supermax, with no prospect of stepping down to medium or low security; Kiriakou expects him to "likely die in prison."
+
+On the child sexual abuse material found on Schulte's devices during the same investigation, Kiriakou neither minimises the offences nor allows them to settle the separate question: "Those crimes are horrifying. And nothing about the public importance of Vault 7 diminishes them. But neither do those crimes erase what Vault 7 revealed."
+
+He also restates the shape of the prosecution as he understands it, that the government said it could not produce evidence because the defendant was "sophisticated enough... to cover his tracks", which he renders as "We have no evidence that he did this, but the reason we have no evidence is that he is so smart that he covered up the evidence", and notes that the first jury hung, and that at the retrial Schulte "made a terrible mistake of representing himself" and was convicted on all charges.
+
+See also
+
+- Vault 7
+- Central Intelligence Agency
+- John Kiriakou

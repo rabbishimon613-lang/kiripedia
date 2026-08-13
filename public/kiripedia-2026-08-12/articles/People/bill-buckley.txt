@@ -1,0 +1,43 @@
+Bill Buckley
+============
+
+William Francis "Bill" Buckley was the Central Intelligence Agency station chief in Beirut at the time of his kidnapping by elements of Palestinian Islamic Jihad in March 1984. He was held in captivity for approximately seven months, tortured, recorded, and ultimately killed. His case is, in John Kiriakou's account, the source of a generation of CIA operational-security reforms.
+
+Before the CIA, Buckley was a US Army Special Forces soldier, decorated for combat in Korea and Vietnam with a Silver Star, a Bronze Star, and two Purple Hearts. The agency recruited him as a counterterrorism officer, assigning him to South Vietnam, then Zaire, Cambodia, Egypt, and Pakistan, before naming him Beirut station chief in 1983. Hezbollah kidnapped him on March 16, 1984 as he headed into work, tortured him for seven months, and announced his execution on October 4, 1984. Journalists Fred Burton and Samuel M. Katz recounted the case in Beirut Rules: The Murder of a CIA Station Chief and Hezbollah's War Against America (2018), which they updated and republished the following September.
+
+Kidnapping and the tracking-device lesson
+
+Buckley was kidnapped in the parking garage of his Beirut apartment building. The kidnappers were aware that he carried a CIA tracking device concealed in his belt buckle and removed the belt, "just took the belt off of him and threw it out the car window", almost immediately. The agency had no idea where he was being held. Fred Burton, a former State Department counterterrorism deputy chief who worked the case on the CIA's Hostage Location Task Force and later co-wrote Beirut Rules, told Kiriakou that Buckley had no driver that day; a man he did not recognize, riding with him in the elevator down to the garage, struck him in the back of the head and dragged him into a waiting car. Buckley may have carried a tracker in his belt, but the belt was discarded in the garage, leaving the agency with no way to locate him. Per Burton, Buckley was held apart from the other American hostages in Beirut, including Father Martin Jenco and David Jacobson, who were chained together on the sixth floor with Terry Anderson, kept instead "around the corner, like in a closet or in a bathroom," so he never had contact with them.
+
+VHS torture tapes
+
+About a month after the kidnapping, the U.S. embassy in Athens received a VHS tape showing Buckley being tortured and begging the CIA to help him. Approximately four months later, the U.S. embassy in Rome received a second tape: "He's just hanging from a hook and there's snot coming out of his mouth and he's mumbling something that you can't understand." Islamic Jihad sent the torture tapes to the U.S. embassies in Athens and Rome, which forwarded them to the CIA; Burton called them "absolutely horrific." Analysts scoured each tape's background audio, aircraft, animals, children playing, chickens, for clues to Buckley's location, and tracked his physical decline photographically, including one early image showing a broken nose. Dr. Murray Miron of Syracuse University's Psycholinguistics Institute analyzed the communiqués that accompanied the tapes to determine whether they shared a single author, while an NPIC analyst used a magnifying glass on the single daily satellite photo of Beirut's rooftops, trying to match them to hostage debriefing descriptions.
+
+Death and retrieval
+
+Buckley was eventually executed in captivity. The CIA learned of his death from a source. His body was subsequently retrieved and he is buried at Arlington National Cemetery. Kiriakou, who lives within walking distance of Arlington, visits the grave periodically alongside those of Mike Spann and other CIA personnel.
+
+CIA response
+
+> The people who kidnapped him, from PIJ, no longer exist. So we took care of them and then got the body back.
+
+The abduction and the tapes (Arlington tour)
+
+Per John Kiriakou, CIA station chief William Buckley was sent to Beirut in 1985 because he had never married and had no dependents, making him, by the agency's logic, the appropriate person for the most dangerous post in the world. The morning of his abduction he made a series of errors he had been trained to avoid: he gave his driver the day off, he had established a predictable daily pattern, and he had dragged a stereo speaker to the bathroom doorway to listen to jazz while showering. In the parking garage a Lebanese man struck him in the head, removed his concealed-beacon belt and left it behind, and kidnapped him. The CIA long suspected inside help.
+
+Three VHS tapes were sent to American embassies over the following months. The first, sent to Athens, showed a torture session, Buckley sobbing, begging, reading statements condemning the CIA. The second, sent to Rome, showed him beaten and incoherent. The third showed his execution; his body was found on a Beirut roadside. The perpetrators were identified as Islamic Jihad, a radical offshoot of the PLO. When the CIA demanded the killers, the PLO could not or would not hand them over, but shot them both in the head.
+
+When Kiriakou first arrived at the CIA and saw the agency's satellite-coverage maps, Lebanon was so densely covered in targeting circles he could not see the country beneath them. He asked why. The answer: "Bill Buckley." Kiriakou has dated this same encounter to late 1987, when he interviewed for CIA jobs and, in the Near East division office, saw a wall map of the Middle East so thickly marked with circles denoting satellite-imagery coverage that Lebanon was obscured entirely; a staffer in the office told him plainly they were looking for Bill Buckley.
+
+The lesson Kiriakou draws about the technology
+
+Kiriakou uses Buckley as the standing counterexample whenever the subject of tracking technology comes up. Real transmitters, he says, are about the size of a penny, cannot be switched on or off, "they're always transmitting, always sending out a ping", and in extreme cases are implanted in the body precisely so that they cannot be removed. The reason to carry one at all is kidnapping.
+
+Buckley had one, embedded in his belt buckle, and "the very first thing the kidnappers did was they took his belt off and they left it in the parking garage where he was kidnapped." Kiriakou's conclusion is about implementation rather than capability: "the tech is out there. It's just a question of implementing it."
+
+See also
+
+- Mike Spann
+- Spy films and television on screen
+- Palestinian Islamic Jihad
+- Central Intelligence Agency

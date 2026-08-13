@@ -1,0 +1,22 @@
+Commercial off-the-shelf tradecraft
+===================================
+
+Commercial off-the-shelf tradecraft describes the CIA's reliance on equipment bought from the open market rather than developed in-house. Asked to expand on an earlier remark that most of the agency's spy tools come from Amazon, John Kiriakou gives two examples from his own service.
+
+The pen recorder
+
+"I was in Pakistan when the pen recorder was invented," he says, and the station used it heavily: "we used to take that thing into every single meeting cuz it looks like a pen and it's a little tiny camera. Back then it didn't have much in the way of memory. But we did it just to see if it would work operationally. And it always worked. It was immensely helpful."
+
+GPS in Athens
+
+The second example is early satellite positioning, in Athens across 1998, 1999 and 2000. Kiriakou is careful that this was not GPS as later understood: "Not the GPS as we know it today where it just gives you a route and you follow the route. The GPS back then would just identify like, 'Oh, you're you're you're in view of like five satellites now.' or seven satellites or two satellites and you click a button and it gives you your geo coordinates." The operational application was navigational only in a narrow sense, "we were able to use that in order to to map out surveillance detection routes that had been successful. So it helped us, you know, come up with safer and different surveillance detection routes."
+
+The economics
+
+The general principle he draws is one of cost: "like I've said in the past it's a lot easier and it's way, way cheaper to just buy technologies that have already been created than to create them from scratch and spend, you know, millions and millions of dollars doing it."
+
+See also
+
+- Surveillance detection route
+- The CIA Insider's Guide to Surveillance and Surveillance Detection
+- The Islamabad surveillance incident

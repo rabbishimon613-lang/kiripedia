@@ -1,0 +1,26 @@
+Jack Teixeira
+=============
+
+Jack Teixeira is a Massachusetts Air National Guard reservist arrested by the FBI on April 13, 2023 in connection with the leak of a cache of classified Pentagon documents to a small Discord server. John Kiriakou, discussing the case the day after the arrest, said he was at first not entirely convinced it was even a genuine leak: the Russian and Ukrainian governments had both denied the accuracy of information relevant to the war in Ukraine, and a claim that Israel's Mossad opposed Benjamin Netanyahu's judicial overhaul struck him as an implausible detail for Mossad to leak about itself, the kind of thing that "would not have been a natural fit" for the agency. He raised the possibility the material was instead a covert action program, noting that for a leak to work as a good covert action program, 90 to 95 percent of the material has to be true, with falsehoods mixed among genuine documents to make the operation credible.
+
+Not a whistleblower
+
+Kiriakou's assessment of Teixeira himself was blunt: he does not appear to be a whistleblower. Teixeira had made no public statement, and Kiriakou said he simply was not seeing the public value in what had been released. He laid out the three motivations that typically explain a leak that isn't whistleblowing: the adrenaline of watching the fallout play out, the desire to impress somebody, often a journalist, and revenge against an employer.
+
+"Why would he have access to this kind of information"
+
+Kiriakou repeatedly returned to the mismatch between Teixeira's rank and his access: a 21-year-old Massachusetts Air National Guard junior enlisted reservist should not, in Kiriakou's view, have had access to material of that sensitivity in the first place. He said the embarrassed Pentagon, unable to identify the source of the leak, restricted access to the Secretary of Defense's morning briefing from roughly 50 people down to 10 or 20, while the CIA separately announced it would begin phasing out printers to prevent documents from being physically removed. He also expressed concern for a young member of Teixeira's Discord group who had spoken to the media about him, saying the person could have been compelled to testify against him before a grand jury.
+
+What was leaked
+
+According to the reporting Kiriakou discussed, the leaked documents included highly classified satellite images of the aftermath of Russian missile strikes on Ukrainian electrical facilities, along with sketches of the potential trajectory of North Korean ballistic nuclear missiles aimed at the United States.
+
+Prediction: Espionage Act, not a handful of documents, and a plea
+
+Kiriakou predicted that Teixeira would be charged the next day under the Espionage Act, pointing to Attorney General Merrick Garland's statement referencing "classified National Defense information" as the tell, and that prosecutors would charge him over only a handful of the roughly 100 leaked documents rather than all of them, ultimately steering the case to a plea bargain and a substantial prison sentence. At the same time, Kiriakou argued Teixeira should not be charged as though he had committed espionage: mishandling classified information is not the same thing as espionage, which in his view requires acting on behalf of a foreign country, though he expected the Espionage Act to be used against Teixeira regardless.
+
+See also
+
+- Edward Snowden
+- Chelsea Manning
+- John Kiriakou

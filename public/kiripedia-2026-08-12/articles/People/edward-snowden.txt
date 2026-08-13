@@ -1,0 +1,126 @@
+Edward Snowden
+==============
+
+Edward Snowden is a former NSA contractor who in 2013 disclosed the scope of U.S. mass surveillance, including the Section 702 collection program, and subsequently fled the United States. John Kiriakou discusses Snowden as a fellow national-security whistleblower targeted under the Espionage Act. Kiriakou says Snowden himself has publicly credited two people as his inspiration: "Ed Snowden told the New York Times that Tom Drake from NSA and I inspired him to do what he did."
+
+Kiriakou's assessment
+
+Qualified praise
+
+Kiriakou rejects the framing "once CIA, always CIA" as intellectually lazy, pointing to Snowden, a former CIA technical employee before his NSA contractor role, alongside Philip Agee and Ray McGovern as examples of CIA dissidents: "Can you imagine walking up to Ed Snowden and saying, well, once CIA, always CIA, what the [expletive] are you talking about?" He calls Snowden's metadata revelations "absolutely heroic" for exposing warrantless domestic spying, but says he agrees with the view that some of what Snowden disclosed, including special-access programs given to Russia and China, comparable to material later exposed in the CIA's Vault 7 files, should have stayed classified. He does not agree with everything Snowden exposed: he says he wants the NSA to intercept Angela Merkel's cell phone, calling that "what NSA is supposed to do" and normal statecraft practiced by every country, while still calling Snowden's overall actions "positively patriotic."
+
+On the disclosure itself he is unqualified: "His whistleblowing was absolutely critical. We had no idea that the NSA was spying on us. We had no idea that the FBI was using that information without court orders or warrants to spy on us. So I think he's a bona fide hero. I think that the country owes him a great debt of thanks and gratitude for what he did." Asked what the leaks actually achieved, his answer is deflationary rather than triumphal, "this is really not enough", but he credits them with one durable change: Congress "is now watching more closely and exercising better oversight."
+
+"Two awful slippery slopes"
+
+Kiriakou framed Snowden's situation as a genuine dilemma: on one hand, "he breaks his oath and breaks the chain of command to leak information" that carries real risk and sets a precedent the next leaker can point to; on the other hand, "he had tried to go through the chain of command because he caught something that was anti-constitutional, it was cut and dry against the Constitution, and no one was doing anything about it." Kiriakou noted that Snowden, like himself, could not realistically use his chain of command: Kiriakou's own chain of command was Jose Rodriguez.
+
+The torture-treaty distinction
+
+Asked whether he would feel the same about his own torture disclosure if Dick Cheney's office had technically changed the law to permit it, Kiriakou said yes, but called it an easier question for him than for Snowden, because the United States is a signatory to (and a principal author of) the United Nations Convention Against Torture. An approved international treaty "carries with it the force of law and it supersedes any domestic law," so to legalize the torture program the U.S. would have had to withdraw from the convention entirely.
+
+What Snowden exposed
+
+Section 702
+
+Kiriakou credits Snowden's 2013 disclosures with bringing Section 702, and the broader architecture of warrantless surveillance, to public attention for the first time. He has cited the hundreds of thousands of improper FBI queries against the 702 database as the kind of abuse Snowden exposed. Section 702 traces to the FISA Act, passed around October 2001; Kiriakou says that in the roughly 11.5 years since Snowden's revelations, opposition to renewing it has grown only incrementally, driven mostly by Republicans in the House. His attorney, constitutional scholar Bruce Fein, separately told him that the NSA's domestic spying also violates posse comitatus.
+
+Kiriakou treats that slow legislative erosion as the ground for optimism about Snowden's eventual standing: even with Section 702 still in force, fewer and fewer members vote in favour every two years when it comes up for renewal, "and so, eventually he's going to be vindicated."
+
+The documents that were never published
+
+Kiriakou says less than 10% of the Snowden documents have ever been publicly released, and that he is unsure a complete dataset exists publicly at all, since Glenn Greenwald never published the rest. On Kiriakou's show, Reality Winner separately criticized the New York Times as "garbage," noting that Snowden himself had called the paper and left messages that were never returned. Kiriakou has cited Snowden's own public call to change the incentive structures surrounding whistleblowing. Der Spiegel was among the outlets that published Snowden documents beginning in 2012.
+
+The prosecution that never happened
+
+The Brinkema docket
+
+Judge Leonie Brinkema of the Eastern District of Virginia, who reserved major national-security cases for herself rather than letting them be randomly assigned, had the Snowden case on her docket alongside Kiriakou, Jeffrey Sterling, Zacarias Moussaoui, and the Julian Assange extradition. The Snowden case never came to her court; Snowden left the country before trial.
+
+The offer to come home
+
+Kiriakou says Snowden told him from the beginning he was willing to come home and serve 10 or 20 years if he could mount a public-interest defense, explaining to a jury that he acted for the American people. Snowden hired Kiriakou's attorneys, who raised it with the Justice Department; the answer was "absolutely not," so they never took custody of "the most dangerous man in America."
+
+The refusal is why Kiriakou expects the offer to stay academic: "that dude is never coming back to the United States... he has offered to repeatedly, repeatedly. The problem is he wouldn't get a fair trial, no way, not a chance, in the Eastern District of Virginia."
+
+The affirmative defence
+
+Kiriakou frames Snowden's affirmative legal defense around a specific principle he says is codified in U.S. code: a program cannot be classified for the purpose of concealing a crime from the American people, even though there are other legitimate reasons a given act might be classified. "It is illegal to classify a crime... you cannot classify a program for the purpose of keeping it from the American people if it is a criminal act."
+
+Stranded in Moscow
+
+"He didn't defect"
+
+Kiriakou says he especially objects to characterizations of Snowden as having "defected" to Russia, one of the things, he says, that he really hates. Snowden went public with the mass dragnet surveillance revelations in the summer of 2013 at great personal risk and was trying to reach Ecuador; while he was in the transit lounge at Moscow airport, John Kerry, then Secretary of State, invalidated his passport and stranded him there. "Everybody's forgotten that." He was making the same correction as early as 2022, and framing it there as an illustration of how quickly a record can be rewritten: "just like Ed Snowden defected to Russia, like nobody in America remembers that he was in the transit lounge when John Kerry revoked his passport. So histories change as time passes."
+
+The Ecuador near-miss
+
+He says the Obama administration forced a private jet carrying Ecuador's president to land in Vienna using two F-16 fighter jets, on a rumor, false, that Snowden was aboard, calling the interception "an act of war." In Kiriakou's account, the CIA subsequently helped remove Ecuador's left-wing government and install a right-wing, pro-American one, which then "gleefully" gave up Julian Assange from the Ecuadorian embassy in London. He therefore treats the stranding as fortunate in the end: had Snowden reached Ecuador, the same government that gave up Assange would have given him up too, and he would likely be in a maximum-security U.S. penitentiary, in prison for the rest of his life, today.
+
+Life in Russia
+
+Snowden is now a Russian citizen and a coder at a Russian social media company; his American girlfriend moved to Moscow, where they married and now have two sons.
+
+Kiriakou's account of the man behind the case is deliberately unglamorous. Their contact moved from Skype, the last such conversation was in the January before the covid pandemic, to Twitter direct messages, "that's how he does most of his communication." Snowden is "an intensely private person" who "doesn't think he did anything that was particularly unusual", "he's wrong about that, of course", and who "wants to be just a normal man who's living his life with his wife and his children. Money's not important to him. He just wants to get his truth out there."
+
+Kiriakou and Snowden
+
+Learning of it at Loretto
+
+Kiriakou says he learned of Snowden's 2013 disclosures roughly three months into his own sentence at FCI Loretto, when a prison friend he calls "Dave" woke him in the middle of the night, having heard on the AM program Coast to Coast AM that someone had gone public with information about CIA and NSA spying on Americans.
+
+The two letters
+
+Prompted by Dave, Kiriakou wrote two letters to Snowden in the days that followed: a public open letter and a private one. The public letter called Snowden's revelations "a great public service," quoted Lincoln that America "will never be destroyed from the outside," and predicted Americans would come to see his actions as "heroic." It offered concrete advice, hire the best national security attorneys, build a website for supporters and donations, and cultivate sympathetic members of Congress and groups like the ACLU and the Government Accountability Project, and, most importantly in Kiriakou's telling, never cooperate with the FBI, which he called "the enemy" for its willingness to "lie, trick, and deceive." The original letter urged Snowden to seek asylum in Iceland, based on a same-day report, later proven unfounded, that Iceland's government would take him in; Kiriakou notes Iceland's NATO and EU membership likely made this impossible under U.S. pressure. He sent a separate private letter to his friend and former CIA colleague Ray McGovern, who personally flew to Moscow and hand-delivered it to Snowden; that letter added the blunter advice not to trust anybody, since Snowden could never know who might be working for the FBI.
+
+Kiriakou has compressed the whole of it into three instructions: embrace support wherever he could find it, "especially on Capitol Hill"; "not trust anybody, anybody, because everyone is a potential FBI source"; and hire the best lawyers money could buy. The motive he gives for writing at all is recognition rather than solidarity: "I knew from that very moment that he was going to go through exactly the same experience that I was going through, and I didn't want him to make the mistakes that I had made."
+
+"There would have been no Ed Snowden"
+
+Kiriakou says Snowden later told the New York Times that watching both his case and Tom Drake's inspired him to go public. He recalls that at a London whistleblower event, Snowden told him directly that without Tom Drake and Kiriakou, "there would have been no Ed Snowden."
+
+Snowden's father at Loretto
+
+Kiriakou says that while he was imprisoned, Snowden's father came to visit him at FCI Loretto and was initially refused entry solely because of his last name; Kiriakou threatened to raise a fuss and call CNN, and the visit went ahead.
+
+'They always move on'
+
+John Kiriakou says his then-wife urged him to keep talking about his own case, predicting the government would eventually shift to its next target, which it did, to Snowden. "They move on. They always move on," he recalls, "and she was right."
+
+What he would say to him now
+
+Asked in July 2026 what he would say to Snowden today, John Kiriakou answered: not to lose faith. He says the two have been in touch a couple of times.
+
+The offer to come home
+
+Kiriakou was in close touch with Snowden after the first revelations, and says the willingness to return was genuine and stated to him directly. "He said he was willing to come home and face the music ... he was willing to come home and face the music and go to prison, he told me this himself, if they would allow him to stand up in court to explain why he did what he did."
+
+Kiriakou's advice was to hire the best lawyers money could buy, and specifically his own. "And so he did, he hired my lawyers, and they immediately engaged in conversations with the Justice Department to try to work out a deal." The answer was "absolutely not." Elsewhere he fixes the figure Snowden was prepared to accept and the single term he attached to it: "He told me he was willing to serve 20 years in prison", provided "he wanted to be able to stand up in court and explain why he did what he did. And the Justice Department said never. And he said, then I won't come back. And so he didn't."
+
+What he draws from the refusal is about the government's priorities rather than Snowden's: "for whatever reason, that's never been explained, it was better for the Justice Department for Ed Snowden to make a new life for himself in Russia than it was for him to come back and explain that the CIA and NSA and myriad other services are spying on American citizens. They wouldn't do it."
+
+Why he left, in Kiriakou's reading
+
+Kiriakou treats Snowden as the one case where the deterrent failed, and says so on Snowden's own authority: "Ed Snowden told The New York Times in 2014 that Tom Drake and I inspired him to go public with his revelations." The lesson Snowden drew from the two of them, though, was about geography, "he saw what they did to Tom Drake and he saw what they did to me, and he concluded rightly that if he was going to blow the whistle on the waste, fraud, abuse and illegality that he was seeing at NSA, he couldn't possibly remain in the country. And so he left."
+
+The advice not to come home
+
+Kiriakou says he gave Snowden the same counsel he later gave as his reason for taking a plea himself, and gave it when Snowden first went public: do not come home, because you will not get a fair trial.
+
+The grounds were jurisdictional rather than political. Any such case would be tried in the Eastern District of Virginia, where in his description nobody ever wins and the jury would be composed of FBI agents, military officers and CIA officers. His phrasing was categorical: "you're never going to get a fair hearing here. Never."
+
+"Snowden defected to Russia"
+
+Kiriakou singles out the claim that Snowden defected as the one he is least willing to let pass: "that's a pet peeve of mine. People say that all the time, 'Well, Snowden defected to Russia.' No, he didn't."
+
+> "Snowden was in the transit lounge of Moscow Airport on his way to Ecuador when John Kerry canceled his US passport and stranded him at Moscow."
+
+He notes without comment that the official who cancelled it had himself been a figure of the opposition to the Vietnam War before becoming Secretary of State. The counterfactual he attaches is that reaching Ecuador would not have helped either: the government there changed, and it was a pro-American successor that handed Julian Assange to the British. "He would be in a prison in the United States now had he actually made it to Ecuador."
+
+See also
+
+- Section 702
+- Espionage Act
+- Tom Drake
+- Jeffrey Sterling
+- John Kiriakou

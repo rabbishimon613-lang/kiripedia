@@ -1,0 +1,19 @@
+San Bernardino iPhone Case
+==========================
+
+The San Bernardino iPhone case was the 2015,16 legal standoff between Apple and the FBI over unlocking the iPhone used by one of the San Bernardino shooters. Per John Kiriakou, Apple refused to help crack the device and the dispute went to court; Apple prevailed, and the FBI instead turned to an Israeli company, which charged the government $6 million to break into the phone. Kiriakou says the intelligence that would have disrupted the attack did not come from the phone at all: "they couldn't crack that iPhone and Apple refused to help them and it went to court and Apple won, they ended up turning it over to an Israeli company and the Israeli company charged the FBI $6 million and they cracked it, but the information that would have disrupted the attack didn't come from the phone." In a separate telling, Kiriakou says the shooter had been communicating with other cell members through a video game, a method he compares to Shin Bet officers he says used an online backgammon game for similar purposes, which caused the FBI to "totally miss" the plot, and that a Freedom of Information Act request later confirmed the $6 million payment to the Israeli firm.
+
+Kiriakou says the actionable intelligence in the case instead came from the chat function of a gaming system, which the shooter had used for operational planning because such channels are rarely monitored: "the information that would have disrupted that attack did not come from the phone. It came from the game system." He raises the case in the context of a broader discussion of NSA surveillance and Section 702 collection, arguing that mass collection of phone and email traffic can miss the channels, like game-platform chat, that matter most operationally. In yet another telling, Kiriakou says the attackers communicated via a game app's chat function using a method he says Mossad had pioneered for its anti-Hezbollah operations, and that it never occurred to the FBI to work with the NSA to monitor in-game chat apps.
+
+The in-game chat channel
+
+Kiriakou uses the case to make a point about the difference between collection and attention. The agencies are "not omnipotent, their computer systems are near omnipotent, but you don''t have a human being that''s going over all this data. Yes, it''s all being collected, it''s all being just pulled out of the ether and stored in these computers, but human beings don''t actually look at it until after the fact."
+
+The San Bernardino attackers, he says, "were communicating through the chat function of a game app", a technique with a prior user: "I''ll tell you who pioneered that: it was the Mossad. That''s how they would communicate in their anti-Hezbollah operations." The failure he identifies is one of imagination rather than capability: "it never occurred to the FBI that they should be working with NSA to collect in-game chat apps. I mean, who would even think of such a thing?"
+
+See also
+
+- NSA Surveillance
+- Section 702
+- Vault 7
+- John Kiriakou

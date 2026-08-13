@@ -1,0 +1,38 @@
+Section 702
+===========
+
+Section 702 is the section of the Foreign Intelligence Surveillance Act under which the U.S. government conducts warrantless electronic surveillance. Per John Kiriakou it is "a section that directly takes our constitutional freedoms away from us in the name of national security." It is the authority that NSA whistleblower Tom Drake and Edward Snowden first made publicly known in the summer of 2013.
+
+Scale of misuse
+
+Per Kiriakou, citing the Brennan Center for Justice: the FBI has made "over 200,000" illegal queries against the Section 702 database, including a recent two-year window in which there were approximately 78,000 misuse queries.
+
+The Foreign Intelligence Surveillance Court is, in Kiriakou's framing, a rubber stamp: of ~34,000 FISA warrant applications, estimates range from 11 to 120 denied, "hundredths of one percent." Kiriakou's go-to example of the cost: "Ask Carter Page how that worked out for him."
+
+The biennial renewal pattern
+
+Section 702 comes up for reauthorization every two years. Each cycle, per Kiriakou, "a couple more people will go over to the no side, but not in any numbers to actually mean something."
+
+The Trump reversal
+
+Donald Trump campaigned against Section 702 in 2016. After taking office, per Kiriakou, Trump said "he talked to three dozen generals and admirals and every single one of them said we have to have 702 to keep America safe. So I support the reauthorization of Section 702." Kiriakou: "Okay, that's exactly the opposite of what you ran on."
+
+Why it persists
+
+Kiriakou's diagnosis: there are no replacement systems being demanded, because there is no political will. "How 702 keeps us safe when we have other electronic means to keep us just as safe without spying on American citizens unconstitutionally, nobody's ever explained."
+
+"No expectation of privacy": the mechanics of interception
+
+Discussing NSA surveillance, Kiriakou has described Section 702's practical effect using shorthand he attributes to the Patriot Act: if any party on a phone call, text thread, or email is a foreign national, every party to that communication loses any expectation of privacy, and the government can intercept the entire exchange without a warrant. "If somebody else on that thread... was a foreign national, you have no expectation of privacy and the government can intercept everything." He adds that the NSA then passes such intercepts to the FBI directly, with no court in the loop: "NSA not just takes it and holds it, they offer it up to the FBI... there are no courts involved in any of this."
+
+Metadata purchasing as a parallel mechanism
+
+John Kiriakou has described the commercial purchase of metadata as a surveillance mechanism that operates in parallel to, and effectively bypasses, the warrant-based framework that Section 702 nominally requires for targeting American persons. Where Section 702 demands a court-approved targeting determination, government agencies can instead simply purchase bulk metadata from social media companies, which have already acquired ownership of that data through user terms of service.
+
+Kiriakou described this as a legislative gap rather than a legal violation: "There's no legal prohibition on purchasing it." He called for Congress to address the practice, noting it has developed over the past twenty years without any statutory response.
+
+See also
+
+- Tom Drake
+- Mike Hayden
+- John Brennan

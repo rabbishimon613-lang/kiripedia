@@ -1,0 +1,25 @@
+NewsGuard
+=========
+
+NewsGuard is a media-rating organization founded by two media professionals, one the founder of Court TV, the other a former publisher of the Wall Street Journal, who hire young journalism-school graduates to score independent news outlets on a 0-100 reliability scale.
+
+The scoring mechanism and its subscribers
+
+Per John Kiriakou, NewsGuard docks any outlet below a 60% reliability score if it takes a position on Ukraine or Syria contrary to NewsGuard's preferred analytic line, triggering a browser-extension warning to subscribers that the site is "not reliable" or "fake news." He says NewsGuard's subscribers are mostly governmental entities, and most of those are in the Pentagon.
+
+The Consortium News dispute
+
+Kiriakou says NewsGuard challenged Consortium News over four articles out of an archive of roughly ten to twenty thousand, objecting because it disagreed with their analytic line, including pieces questioning whether Bashar al-Assad had used chemical weapons on his own people. He notes that all four of the flagged articles were written by Christopher Hedges, a two-time Pulitzer Prize winner and former New York Times Middle East bureau chief. NewsGuard also targeted the Grayzone (published by Max Blumenthal), Antiwar.com, and ScheerPost (Robert Scheer), all outlets critical of U.S. Ukraine policy. Consortium News subsequently hired a constitutional attorney and sued both NewsGuard and the Pentagon, arguing that government interference in independent press coverage violates the First Amendment.
+
+Board membership
+
+Kiriakou says NewsGuard's board includes former CIA and NSA director Michael Hayden, the first U.S. Secretary of Homeland Security Tom Ridge, and Anders Fogh Rasmussen, the former Secretary General of NATO.
+
+Google partnership and the Grayzone red tag
+
+Kiriakou says the Grayzone received a red tag from NewsGuard, and Consortium News was being threatened with the same designation and had its PayPal account suspended. He says NewsGuard's partnership with Google means that a red-tag warning label calling a site an "unreliable source of news" can appear when users search for outlets like the Libertarian Institute, Consortium News, or the Grayzone.
+
+See also
+
+- John Kiriakou
+- Central Intelligence Agency

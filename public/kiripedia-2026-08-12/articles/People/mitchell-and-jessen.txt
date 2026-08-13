@@ -1,0 +1,110 @@
+Mitchell and Jessen
+===================
+
+Mitchell and Jessen are the two American psychologists who in late October 2001 pitched the so-called enhanced interrogation techniques (EIT) program to Central Intelligence Agency Director George Tenet at a cocktail party. The CIA signed their contract in January 2002. The first detainee on whom the program was applied was Abu Zubaydah, captured in Pakistan in March 2002. James Mitchell is identified as a former U.S. Air Force psychologist; he is the author of a book that recounts the program.
+
+Timeline
+
+| Date | Event |
+|---|---|
+| September 11, 2001 | World Trade Center attacks |
+| Early October 2001 | U.S. bombing of Afghanistan begins |
+| Late October 2001 | Mitchell and Jessen pitch enhanced interrogation techniques to George Tenet at a cocktail party |
+| January 2002 | CIA signs Mitchell and Jessen's contract |
+| March 2002 | Abu Zubaydah captured in Pakistan |
+| August 2, 2002 | EIT first applied to Abu Zubaydah |
+| First week of May 2002 | John Kiriakou personally approached and asked whether he would be certified in the enhanced interrogation techniques; refused |
+
+Origins
+
+The cocktail party
+
+John Kiriakou says senior officials told him the torture program began at an October 2001 dinner party, where a leader of the Counterterrorism Center brought the two contract psychologists and introduced them to George Tenet as "national security psychologists" with a program "you're really going to need to hear about." It started around October 11-12, 2001, and was ready by January, "just waiting for us to catch the first high-value target," which turned out to be Abu Zubaydah. In a separate telling, Kiriakou places the party about four weeks after 9/11, when a senior CIA officer approached Tenet directly at the event to introduce Mitchell and Jessen and their reverse-engineered SERE program.
+
+Who they were
+
+Mitchell and Jessen were longtime Department of the Air Force contractors with no prior experience conducting interrogations; their actual background was in reverse-engineering the military's SERE program (originally designed to prepare pilots to resist torture if captured) and repurposing its techniques, including waterboarding, to break prisoners instead. Kiriakou's 2017 formulation names the parent service and the direction of the change: "Mitchell and Jessen were psychologists in the Department of the Air Force, and they reverse-engineered the Air Force's SERE training program to use offensively against terrorism suspects", and that, he says, "became the ten techniques that were used that the Bush White House euphemistically called enhanced interrogation techniques."
+
+Offices at the Counterterrorism Center
+
+Despite a CIA rule barring contractors from holding private offices or managing staff, when Mitchell and Jessen arrived at the Counterterrorism Center two branch chiefs were told to move out of their office to make room for the pair.
+
+Learned helplessness
+
+Mitchell and Jessen's psychological framework for the program was learned helplessness, Pavlovian conditioning intended to leave the prisoner trained to associate a specific sensory cue with imminent impact, such that eventual presentation of the cue alone would cause the prisoner to collapse. In the walling technique as designed, the rolled towel placed around the prisoner's neck (originally intended as whiplash protection) was the conditioning cue: "All they would have to do is roll up the towel and the prisoner would just crumple."
+
+This was the pair's claimed expertise, the goal being to make a prisoner burst into tears from fear as soon as they entered the room, and Kiriakou says there was no evidence the method ever produced reliable confessions or intelligence: "Was there any evidence that this learned helplessness would cause a person to confess? ... There was none."
+
+The program in practice
+
+Abu Zubaydah, from 2 August 2002
+
+Kiriakou says the two contract psychologists "wanted to see how it worked," and after George Tenet had Abu Zubaydah handed to the CIA, they began torturing him on August 2, 2002, the day after President Bush signed the executive order authorizing the program, waterboarding him 83 times and reviving him with CPR after his heart stopped so they could continue. Abu Zubaydah, who by then had been cooperating well with FBI interrogator Ali Soufan, immediately went silent once Mitchell and Jessen took over.
+
+Beyond the approved list
+
+He later told interrogators he had an irrational fear of cockroaches, so Mitchell and Jessen built a coffin, put a diaper on him, sealed him inside with a box of cockroaches, and kept him there for two weeks to make him go insane; they also made him play Russian roulette, threatened to kill his mother, and beat him until he suffered brain damage, none of it approved by the Justice Department or part of the formal enhanced interrogation program.
+
+The recruitment Kiriakou refused
+
+Kiriakou says 14 CIA personnel were approached to be trained in the reverse-SERE torture techniques; 13 accepted and he was the one who declined, comparing the techniques to those used by Japanese forces against American POWs, for which Japanese soldiers were executed after World War II.
+
+Fabricating results: retyping Ali Soufan's intelligence
+
+Once Mitchell and Jessen took over and Abu Zubaydah stopped cooperating, Kiriakou says the two psychologists papered over the failure by taking FBI agent Ali Soufan's earlier, rapport-based debriefing reports from the secret site's files, retyping them into CIA channels, and presenting the information as the fruit of waterboarding, "they took Ali Soufan's information from the files at the secret site, they retyped it in CIA channels, and said, look, we waterboarded him one time and look at the amazing information he gave us." The scheme worked in part because the FBI's and CIA's computer systems were incompatible, and Kiriakou says it deceived CIA officers at headquarters, including himself, into believing torture had worked. He did not learn that the real information had come from Soufan's non-coercive interrogation until the CIA inspector general's report was released in 2009. He has separately described the same material as either fabricated outright or plagiarized from FBI methods, referencing the FBI's use of rapport-building tactics like offering detainees tea and a cigarette.
+
+The FBI's withdrawal
+
+Every time Mitchell and Jessen took charge of an interrogation session at a CIA black site, every FBI representative in the country would leave. "The FBI didn't even want to be in the same country where this torture was taking place." Kiriakou attributes this consistent pattern as the strongest internal indicator that the program was a moral and operational failure.
+
+The decision came from the top of the Bureau: FBI Director Robert Mueller, understanding what the torture program meant, pulled his own personnel out of the secret site and ordered every FBI employee to leave the host country entirely. Kiriakou notes that the handover that prompted it was itself engineered by the psychologists, Mitchell and Jessen convinced George Tenet, who in turn convinced President Bush, to pull the FBI out of the secret site entirely and let the CIA take over interrogations, a handover that began the day the torture executive order was signed.
+
+What the program produced
+
+No admissible evidence
+
+Nothing obtained by Mitchell and Jessen's program from Abu Zubaydah, Khalid Sheikh Mohammed, Ramzi bin al-Shibh, or Abd al-Rahim al-Nashiri is admissible at trial, "because the CIA tortured it out of him."
+
+Kiriakou's framing
+
+Kiriakou believes Mitchell and Jessen genuinely consider themselves to be the good guys, and that the program's existence reflects a CIA personnel-selection problem: "You put sociopaths in positions of authority where they come to believe that they're above the law, and that because they're the good guys they can and should do anything that they want to do. ... I'm confident that Jose Rodriguez thinks he's the good guy and that James Mitchell and Bruce Jessen think they're the good guys."
+
+The only person imprisoned
+
+Of everyone associated with the CIA torture program, Kiriakou says he was the only person to go to prison, despite being the one who exposed it: "Exactly zero. I was the only person in any way associated with the torture program who went to prison. And I was the one who blew the whistle on it."
+
+The contract: competing dollar figures
+
+Kiriakou has cited several different figures over the years for what Mitchell and Jessen were paid, sometimes in the same interview. He most often says the CIA paid the psychologists $108 million for the program, but has also given $18 million, $81 million, and $80 million. In one 2025 interview he said the pair were originally reported to have made $18 million, a figure Mitchell and Jessen themselves later disputed, claiming they had actually made $94 million; Kiriakou says the two now live in large mansions on the Gulf of Mexico outside Tampa. He has also directly acknowledged the discrepancy on air, saying, "there are competing figures out there. One is $80 million. One is $108 million." His earliest recorded account, given the week the Salim settlement was announced, is the only one that separates the money into two components rather than quoting a single lump: the pair drew "the standard, you know, one thousand fifty dollars a day that almost every CIA contractor is paid", and were paid "an additional 81 million dollars" over the course of several years on top of it, the first sum for being contractors, the second for devising the programme and then implementing it. As of late July 2024, Kiriakou said Mitchell and Jessen were still fighting civil suits brought against them and the CIA.
+
+Deuce Martinez's business card
+
+Kiriakou describes a personal connection to the firm through Bruce "Deuce" Martinez, a CIA targeting officer who left the agency around the same time Kiriakou did and went on to become one of the foundational trainers for both Kiriakou and Kiriakou's wife, herself a targeting officer for whom Martinez was a mentor. At a weekly lunch the two kept up after leaving the agency, Martinez told Kiriakou he'd taken a new job and handed him a business card reading "Mitchell and Jessen LLC." Kiriakou says he reacted with disbelief, "Are you out of your mind? You're going to work for these monsters?", and that Martinez defended the firm's founders as "good guys" and "Patriots." The friendship ended once Kiriakou went public with his December 2007 whistleblowing; the two never spoke again.
+
+The retyped cables
+
+Kiriakou's account of how the programme was made to look productive turns on a clerical act. Once the CIA took primacy of the Abu Zubaydah case in late July 2002 and the torture began on 2 August, the prisoner stopped talking: "he immediately clammed up. He was so upset, so angry, and disgusted when they started torturing him that he just went silent."
+
+That left the two contract psychologists, to whom the agency had by then paid $108 million, with a programme and no product. "They had to prove that it was working, even if it wasn't." What they did, in his telling, was take the reporting cables Ali Soufan had written during the six weeks of FBI questioning, retype them into the CIA's database, and send them back to headquarters as their own.
+
+> "Oh my god, look. We only waterboarded him one time and look what he told us. He gave us the kitchen sink. He gave us Khalid Sheikh Mohammed. He gave us the wiring diagram. Somebody should call the Germans and tell them they have a problem in Düsseldorf."
+
+The detail that makes the claim testable is that the Germans had already been called, by the FBI, on Soufan's reporting, before the CIA had the case at all.
+
+"They only taught the CIA how to torture"
+
+In the civil suit brought by two survivors and the family of Gul Rahman, the two psychologists advanced a historical analogy that Kiriakou calls the sickening feature of the case: that the inventors of Zyklon B were not prosecuted at Nuremberg, and that they themselves "only taught the CIA how to torture."
+
+Kiriakou accepts the historical premise and rejects the application: "the scientists that invented the Zyklon B were not prosecuted, but Mitchell and Jessen not just created this torture program, they went overseas to the secret site, to the secret prison, and they were the ones who actually carried out the torture."
+
+What protected them, on his reading, was the forum rather than the argument: "they are very, very fortunate in that this is not a criminal trial, because their actions are a violation of the federal torture act and a violation of the United Nations Convention Against Torture."
+
+See also
+
+- Enhanced interrogation techniques
+- George Tenet
+- Abu Zubaydah
+- Walling
+- John Kiriakou
+- Jose Rodriguez
+- Senate torture report

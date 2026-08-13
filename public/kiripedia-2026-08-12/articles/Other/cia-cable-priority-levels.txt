@@ -1,0 +1,26 @@
+CIA cable priority levels
+=========================
+
+CIA cable priority levels are the tiers of immediacy assigned to U.S. government cable traffic. Per John Kiriakou on the Bidoun Waraq Podcast, ascending from lowest to highest:
+
+- Routine, "Read it or don't read it. Nobody cares. Maybe it says, you know, Faisal is coming on a visit in three weeks. Okay, thank you. Nobody cares."
+- Priority, "Okay, there's some diplomatic business here, you should read this sometime today."
+- Immediate, "This is important. Read it now."
+- Flash, "Emergency."
+- CRITIC, "They're coming over the embassy walls, God save."
+
+Kiriakou gives a consistent five-level list across other interviews, routine, priority, immediate, flash, and critic, with critic meaning an ongoing crisis, though in at least one telling he inserts a sixth level between immediate and flash: N-ACT, or "night action," meaning the cable is important enough to wake someone up.
+
+Frequency in normal life vs. wartime
+
+Per Kiriakou: "Most people could go through a 30-year career and never see a CRITIC. We were getting multiple CRITICs every day." During the 1991 Gulf War the NSA was transmitting CRITICs each time it detected an Iraqi missile launch, "NSA would say 'CRITIC: hostile missile launch,' and then it would have the geo coordinates." Kiriakou kept a wall-sized map of Iraq over his desk; on each CRITIC he would call out the coordinates, the office would gather around, and they would project, by launch site, whether the target was Israel or Saudi Arabia/Bahrain.
+
+Related classification compartments
+
+Separately from cable priority, Kiriakou describes the classification compartments used to control what allied services see: confidential, secret, top secret, and then "special intelligence", SI-TK Gamma, for special intelligence, talent, keyhole, and gamma compartments. He says the Five Eyes can be read in all the way to gamma, while France and Germany typically get only 90,95% of material, and Israeli counterparts are unusually direct about pressing for a source's name outright.
+
+Kiriakou also notes some CIA operations abroad are so sensitive or compartmented that even the sitting U.S. ambassador, nominally the chief of mission, is not cleared to know about them; in those cases the station chief reports directly to the CIA director or the National Security Adviser. He argues it is the National Security Adviser, not the Secretary of State, who effectively controls foreign policy, since the Adviser sees the president daily while the Secretary of State typically meets with him only weekly.
+
+See also
+
+- John Kiriakou

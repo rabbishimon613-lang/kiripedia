@@ -1,0 +1,34 @@
+Non-Personal Communication
+==========================
+
+Non-personal communication (NPC) is a category of espionage tradecraft encompassing all methods of passing information between an officer and an agent, or between two intelligence services, that do not require the parties to meet in person. It is used when direct contact carries unacceptable surveillance or interception risk.
+
+John Kiriakou described several non-personal-communication techniques in use by the CIA and other intelligence services.
+
+Concealment devices
+
+A concealment device is an everyday object, or a natural object, that has been hollowed out or modified to hold documents, microfilm, or a transmitter. The critical quality is that the object must be one that no passerby would willingly touch or examine.
+
+Kiriakou described two examples from his own career and from a colleague:
+
+- Dead rat. Kiriakou used a dead rat that a friend had gutted and stuffed with documents. The package was left on the side of the road: "Nobody's going to touch a dead rat. Nobody." The receiving party would pick it up, take it to the office, open it, and extract the documents.
+- Used condom. A colleague placed microfilm inside a used condom and left it on the roadside: "Nobody's going to touch a used condom. Nobody." The microfilm containing the secrets was retrieved by the intended party.
+
+Other standard concealment devices, Kiriakou noted, include objects designed to appear as rocks, hollow on the inside, and false-backed drawers with built-in transmitters.
+
+Signal sites and dead drops
+
+The exchange of material through a concealment device requires a separate, low-risk signal to indicate that the drop has been made. After confirming he was not under surveillance, typically a two-to-three-hour surveillance detection route, the officer would place the concealment device at the pre-planned location, then drive or walk another two to three hours to a separate signal site: a piece of chalk drawn as an X on a wall, a mailbox, or any agreed-upon surface.
+
+When the receiving party saw the chalk mark, he would know the package was waiting. He would then run his own surveillance detection route, two to three hours, before proceeding to the pickup location.
+
+Burst transmission
+
+When physical transfer of documents is impractical, intelligence can be transmitted electronically using a burst transmitter concealed in, for example, a false-backed drawer. Documents are photographed or otherwise digitized, fed into the transmitter, and sent in a fraction of a second, too fast to intercept under most circumstances. Kiriakou described this as the preferred alternative to a one-time pad when conditions allow.
+
+See also
+
+- One-Time Pad
+- Surveillance detection route
+- Asset acquisition cycle
+- John Kiriakou

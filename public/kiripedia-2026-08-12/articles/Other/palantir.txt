@@ -1,0 +1,56 @@
+Palantir Technologies
+=====================
+
+Palantir Technologies is a U.S. data-analytics and intelligence-software company. Its first outside investment was approximately $1.5 million in seed funding from In-Q-Tel, the Central Intelligence Agency's venture-capital arm, in approximately 2002. The company has subsequently grown to a public-market valuation crossing $1 trillion in 2025, with the John Kiriakou characterization that "Palantir ... kind of is the agency."
+
+Origin and government dependence
+
+In-Q-Tel's first investment was "not a lot. ... like a million and a half to Palantir ... in like '02, '03, something like that." The contemporary company derives the majority of its revenue from contracts with the CIA, and operates across DARPA (#), NSA, and the Pentagon (#) as well. "They're all over government now. They didn't even exist 20 years ago practically."
+
+Kiriakou has given more detail on that founding elsewhere, describing Palantir as "the first startup that the CIA ever invested in," through In-Q-Tel, and now worth roughly $15 billion. He has also put a dollar figure on the seed round itself, "the CIA co-founded Palantir" with a $50 million initial investment, again through In-Q-Tel, and, separately, dated In-Q-Tel's own creation to the immediate aftermath of the September 11 attacks, when the CIA obtained unprecedented Congressional approval to set up a venture-capital fund. By his account Palantir was "a failing tech company" until In-Q-Tel put money into it in 2003, after which it began working directly for the CIA; it took a further ten years, until 2013, for Palantir to deliver the software that finally let CIA and FBI computer systems exchange classified information, by which point it had become the largest provider of classified software across the entire intelligence community and the Pentagon. Kiriakou calls the CIA's ability to fund a private company this way, through a venture-capital arm it wholly owns, a legal mystery: "I'm at a loss as to how ... that is legal."
+
+Kiriakou notes that the company was initially unpopular inside the CIA but is now widely used for intelligence applications including targeting. He traces Palantir's roots further back still, describing it as the CIA-funded revival of Total Information Awareness, a mass-surveillance program originally conceived by Iran-Contra figure John Poindexter, from which founders Peter Thiel, Alex Karp and Joe Lonsdale drew billions in In-Q-Tel funding to build a company that now works with nearly every U.S. agency, including the NSA, and filters data from mass-surveillance programs such as XKeyscore. On learning that Palantir's leadership defers to Israel on how its products are used there, including targeting in Gaza, Kiriakou said there ought to be a law requiring congressional oversight of technology transfers of this kind, since currently the U.S. simply gives Israel whatever it wants, government-to-government or through private companies.
+
+As of mid-2025, Kiriakou said Palantir had just received an approximately $800 million payment from the Pentagon, at the same time Elon Musk's DOGE effort was pulling data from the IRS, HHS and Treasury Department while integrating it with X AI and Palantir's AI. He has cited the same roughly $800 million Department of Defense payment elsewhere, again noting Palantir's origin in In-Q-Tel funding.
+
+Civil-liberties concern
+
+Kiriakou's assessment of Palantir's role in 2025 is unfavorable:
+
+> I worry very much about, it's even too weak to say encroachment on our civil liberties. I worry about the violation of our civil liberties very much. It is against the law for the CIA to spy on Americans. Period. ... But they do every day.
+
+The specific concern is that most of Palantir's work is classified at the top-secret level, "because it involves technology", and therefore externally unaccountable.
+
+International work
+
+Asked whether Palantir's parallel work for foreign-government clients (including the Five Eyes services and others) creates a conflict-of-interest exposure with respect to CIA equities, Kiriakou's assessment is that the company likely "stovepipes" its contracts internally but that the agency would in any case treat work for Five Eyes governments as effectively in-house and would maintain awareness of work for other clients through routine CIA National Resources Division debriefs.
+
+Why it scares him
+
+John Kiriakou says Palantir frightens him because there is no oversight of it: what it does is not merely secret but "top secret compartmented," the most restricted tier. Seeded by the CIA's In-Q-Tel, it made many former officers rich while operating almost entirely in the dark.
+
+The rise of the techies (HOPE 2025)
+
+John Kiriakou recounts that around 1990 a colleague who wrote a simple family-tree program got a $500 bonus; that same officer is now, he says, the CIA's associate deputy director for technology, the number-four position, liaising with Palantir, In-Q-Tel and the defense contractors, backed by the agency's unlimited budget.
+
+The post-9/11 investment waiver
+
+John Kiriakou explains the agency's stake as the product of a specific legal change. In the immediate aftermath of 9/11, Congress gave the CIA a waiver allowing it to invest in technology companies, to buy shares outright, an arrangement he finds hard to justify on its face: "how is government by how this one agency has billions of dollars to invest in tech, but that's what they started doing."
+
+Palantir was the first such investment, and Kiriakou notes it is now a multi-billion-dollar Silicon Valley intelligence concern, founded by Peter Thiel. It was not the only one, the agency took positions in a range of technology companies.
+
+The operational payoff he identifies is not the return but the access: because the agency is a significant investor, it sees the technology as it is being developed and can help customise it to its own intelligence needs. That, in his account, is why the answer to whether the CIA has film-style gadgets changed from no to yes, twenty-five years ago they existed only in the James Bond films; today they exist.
+
+The Stockholm account: a waiver, $15 million, and 40%
+
+In a 2026 conversation in Stockholm, Kiriakou gave a third and blunter version of the founding, this time framed around the legal permission rather than the money. In the immediate aftermath of 9/11, George Tenet, then director, "went to Capitol Hill and said, 'We want special permission, a legal waiver, to invest in tech companies.'" Kiriakou's own verdict on that: "That is crazy. There's not supposed to be any connection between the private sector and the CIA. But he got his waiver."
+
+On this telling the seed figure was $15 million, and the consequence was a cascade: "As soon as the CIA committed money, everybody else jumped in. And now, the CIA owns something like 40% of Palantir." The seed number differs from the roughly $1.5 million he gives elsewhere and from the $50 million he has given on another occasion; the ownership claim appears here. Asked directly whether Sweden should worry about Palantir, and told the Swedish prime minister had been meeting the company, he said he would be very worried, and that hearing it "made the hair on the back of my neck stand up."
+
+See also
+
+- In-Q-Tel
+- Alex Karp
+- Peter Thiel
+- Vault 7
+- Central Intelligence Agency

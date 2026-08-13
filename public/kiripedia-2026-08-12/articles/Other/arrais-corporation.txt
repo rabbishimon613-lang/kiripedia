@@ -1,0 +1,27 @@
+Arrais Corporation
+==================
+
+Arrais Corporation, rendered variously in the source corpus as "Abraxis," "Abraasis," and "a Braxis," with the actual company name a recurring point of haziness, was a private intelligence firm based in Tyson's Corner, Virginia, companion to The Analysis Corporation, originally created as an LLC pass-through for retired Senior Intelligence Service (SIS) personnel from the Central Intelligence Agency's operations side. After September 11, 2001, the firm became substantially commercial and was subsequently acquired (changing names and ownership multiple times along the way). John Kiriakou's most recent characterization places its current valuation at "like a 20 billion dollar company."
+
+Origin: a tax deduction on coffee and cigars
+
+In the fuller account Kiriakou gives of the founding, the firm was not conceived as a business at all. He dates it to the wave of senior retirements around the time he came home from Athens in 2000, and names the ranks involved, "the head of European operations, the head of near east operations, the head of domestic operations, whatever." Their purpose in incorporating was social and fiscal: somewhere to "smoke cigars and drink coffee and hang out and play pinochle all day", and "take a tax deduction." The butts-and-seats contracts described below existed only to satisfy the two-in-five-years profit requirement that kept the deduction alive.
+
+The scale it reached is, on Kiriakou's telling, the accident rather than the plan: "These guys never expected to be billionaires. They were just looking for a tax deduction on their coffee and cigars." He raises the story as one instance of a pattern that also takes in In-Q-Tel, which he says put the CIA into the venture-capital business for profit, and Palantir.
+
+"Butts and seats" contracts
+
+The firm's transition from coffee-and-cigars social club to billion-dollar enterprise depended structurally on a category of U.S. government contract known internally as butts and seats, short-term arrangements requiring only that the contractor produce a body with a security clearance in a chair for a defined data-entry period. Used by Arrais to meet the IRS requirement that an LLC show a gain in two of every five years to retain its corporate status. "You just take anybody who's got a security clearance, put them in these seats, let them do data entry for six months, and then the contract's over and they all get fired. They all have 1099s anyway, so you don't care."
+
+The "ah, we know everybody" dynamic
+
+Kiriakou's characterization of how Arrais came to dominate certain CIA contracting channels:
+
+> At headquarters ... they're like, 'Oh, we have a real need for XYZ.' And somebody says, 'What about Jack? Jack's got this Abraxis thing now. We know everybody. They're all friends of ours.' Greatest shell company of all time.
+
+See also
+
+- The Analysis Corporation
+- John Brennan
+- Palantir Technologies
+- In-Q-Tel

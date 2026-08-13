@@ -1,0 +1,24 @@
+Encryption before the key
+=========================
+
+Encryption before the key is John Kiriakou's formulation of where communications security actually breaks down.
+
+The question
+
+He was asked to weigh two positions: John McAfee's claim that there is no such thing as computer privacy or encryption and that everything which works has been compromised, against Edward Snowden's position that properly implemented encryption works.
+
+His answer
+
+Kiriakou disclaims expertise and cites his sources instead: "I'm not a computer expert, but I've been in touch with Ed Snowden and Bill Binney and Tom Drake and Kirk Wiebe, guys who are computer experts, and they tell me that if the encryption is sophisticated enough, if the key is sophisticated enough, that it can work."
+
+The qualification is the substance of it. "The danger, though, is that it's intercepted before you encrypt it. So if NSA for example is spying on you, or the FBI or CIA are spying on you, and they're able to target your computer as you're typing your message before you hit the encryption key, then they've got you."
+
+His summary of the practical position: it is "far less safe and far less reliable than most people realize."
+
+See also
+
+- Edward Snowden
+- Bill Binney
+- Thomas Drake
+- NSA
+- Securedrop

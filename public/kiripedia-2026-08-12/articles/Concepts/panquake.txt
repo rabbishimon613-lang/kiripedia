@@ -1,0 +1,58 @@
+Panquake
+========
+
+Panquake is a social platform developed by Talk Liberation, an Iceland-registered company. John Kiriakou has served as its brand ambassador since Suzie Dawson approached him in approximately March 2020, and describes the people behind it as having "devoted their lives to transparency, to equality, and to making sure that everybody has a platform that they can trust that's not going to sell their data, rat them out to some intelligence service."
+
+Design principles
+
+Kiriakou characterises the platform as open source with "no secrets, no back doors", carrying no advertising and taking money from neither governments nor billionaires. He describes it as blockchain-based, specifically a layer-one blockchain, rather than merely open source. Monetisation runs on subscription rather than advertising, which he contrasts with a Facebook feed where "you got to go down 25 stories before you finally get to somebody that you actually know", and with an X account that serves him Elon Musk's posts although he does not follow him and every attempt to unfollow is refused.
+
+A detail Kiriakou says stuck with him from Dawson's first approach is that the servers are powered by geothermal steam from Icelandic geysers: "not only is it open source, open code and no back doors and no capitalist intervention, it's green on top of it all."
+
+Being distributed across the world is, in his account, a jurisdictional design choice as much as a practical one, a company based in Iceland with staff in every time zone "doesn't have to deal directly with the American government or the British government or any of the Five Eyes." The team is spread widely enough that meetings require some participants to wake in the middle of the night, and Kiriakou says the first time he sat with his colleagues in person was at an international conference in Hong Kong roughly a year before this interview.
+
+PanquakeMe and LinkMe
+
+Talk Liberation ships several separate products under one umbrella. The first Kiriakou describes is PanquakeMe, a link cleaner: a pasted URL is returned as a shortened link that can be read without cookies being deposited, without data collection and without the reader's information being sold onward, and which also archives the content. Kiriakou frames the need for it in terms of the ordinary chain of resale, clicking through to a news article causes cookies to follow the reader, and the publisher sells that data on to companies that resell it to advertisers "and really anybody who wants to pay the money for it including the FBI, the CIA and the NSA." See purchased data as a warrant workaround.
+
+A second product, LinkMe, offers a comparable data-protection outcome aimed at businesses, marketers and journalists managing several platforms at once.
+
+Free-speech consistency
+
+Asked whether Benjamin Netanyahu would be permitted an account, Kiriakou answered that he would: "if we're serious about this we've got to be consistent." He drew the boundary at criminal content, child pornography, drug sales, rather than at political speech, and framed the alternative as the pattern by which activists writing about Gaza lose access to existing platforms.
+
+He has also engaged rather than dismissed the criticism that the platform has taken too long, saying he understands that people are "hungry for something to fight" the incumbents.
+
+What Kiriakou valued in it
+
+Kiriakou had not heard of the project until Suzi Dawson mentioned it to him about a year before this interview, and his first reaction was to file it with Rumble and Parler and the rest. A demonstration from Dawson and Sean O'Brien changed that; as a self-described non-technical man, it "blew my socks off."
+
+What he lists as mattering most is a series of absences: no outside influence, no corporate money, no government money, no one to answer to, hosting in Iceland, no algorithms to push traffic away from a user or paid advertisements toward them. Against that he sets what is present, transparency, customisation, and something "real".
+
+He also makes an accessibility argument in his own terms, saying he was fifty-seven, not a technology person, and would ordinarily need such a thing dumbed down for him, and that this did not need dumbing down, because he went to it, understood it and could use it straight away.
+
+The disappearing-message design, and why it stalled
+
+Asked whether any secure messaging is possible, Kiriakou recalled the attempt he had watched closest. "WikiLeaks, an offshoot of WikiLeaks, was working ten years ago on a new chat app that was not just encrypted, but where the chat would disappear, like after I think it was 30 seconds of disuse. So you finish your chat, you''ve exchanged your messages, and then poof, 30 seconds later it would just disappear."
+
+The project ran into the limitation he says defeats every such effort: "they couldn''t get past this notion that it can be intercepted before it''s encrypted. Nobody can figure out how to get around that."
+
+Why he joined it
+
+Kiriakou has given a two-part account of what drew him to the project. The first was personal: the state-affiliated media label he checked for daily, and the collapse of his own way of reading the news. The second was the design. Suzie Dawson approached him about a year before May 2022 and described a service built on "no corporate money, no government money, no advertising, completely open source code, so that everything is transparent ... there is no big brother to go through our posts and then impose an algorithm on us that''s going to decide what our friends and followers can see and what they can''t see."
+
+The detail that convinced him the intent was serious was jurisdictional: "what told me that Panquake was serious about it was the fact that it''s hosted in Iceland, which I absolutely love, so it''s not subject to a national security letter from the FBI demanding all of your user data." Because there were no outside investors, "no corporations or governments or think tanks or anything else, there''s no pressure to squelch free speech." His summary: "this, in my view, is what these big tech platforms originally thought they wanted to be, and then realised that they could never be."
+
+The attacks he expected
+
+Asked what he thought the agencies would do once the network mattered, Kiriakou divided the answer by agency. "If I were still at the CIA or NSA I would be looking for a technical way in." From the NSA he expected exactly that, technical attacks, with Bill Binney on the Panquake side of it. "On the CIA side I would expect a different kind of underhandedness. I would expect personal attacks on Panquake''s leadership. I would expect articles condemning all of us who are involved, for whatever reason, ''oh, John Kiriakou, he''s a convicted felon; you want to be in business with a convicted felon?'' You know, I get that all the time from people who can''t debate on the issues."
+
+He also thought the subscription model itself a defence, "which makes it almost impossible to create bots to attack the system, unless the bots pay the five dollars a month", and read the project''s obscurity as an asset while it lasted: "because Panquake is still so small ... I think we largely haven''t come to their attention yet. And I''m optimistic that once we do come to their attention, once we''re big enough or important enough to be worth attacking, we''ll be so ready for them that there won''t be anything that they can do."
+
+See also
+
+- Suzie Dawson
+- The Talk Liberation bank freeze
+- Purchased data as a warrant workaround
+- Elon Musk
+- Mass Surveillance

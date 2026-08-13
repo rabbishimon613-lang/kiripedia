@@ -1,0 +1,30 @@
+The Directorate of Science and Technology
+=========================================
+
+The Directorate of Science and Technology, or DS&T, is one of the CIA's four directorates, alongside Operations, Intelligence (analysis) and Administration. Many thousands of people work in it, in John Kiriakou's estimate.
+
+The gadget shop
+
+When Kiriakou was at the agency the directorate was "almost an afterthought": it was responsible for disguises, for briefcases with secret pockets in them, and generally for supporting operations.
+
+His own operational encounter with it is the best illustration. Asking headquarters for technical help in narrowing down Abu Zubaydah's location in Pakistan, Kiriakou was sent two DS&T officers who both looked about sixteen years old; what they produced, after two days in the station's tech shack, was the magic box, a cigar-box-sized device assembled from wires, capacitors and LEDs bought at the Pakistani equivalent of Radio Shack, which beeped and swung a compass needle toward the direction of a mobile telephone call.
+
+What it became
+
+Kiriakou's account of the modern directorate is the reverse. It is now, he says, so sophisticated and so far advanced, working with the likes of Palantir, Elon Musk's various companies, Amazon Web Services and Nvidia, that it has handed the silly concealment devices and disguises off to outside individuals or makeup companies and does "the big ticket items" instead. What the DS&T is doing with things like virtual reality, he says, is closer to DARPA's futuristic work than to anything the CIA ever did in the past. Asked for an example of a big-ticket item, he declines, not out of discretion but ignorance: "I couldn't even venture to say. It's become so sophisticated." He was never cleared even to know what DARPA was doing.
+
+The analyst who became chief technical officer
+
+Kiriakou illustrates the directorate's rise with the career of a man he sat next to in his twenties, a terrific analyst with a thing for technology, whom the office joked about. On three days off, as a favour, the man wrote a program that let Middle East analysts build family trees of the royal families they covered; no such software existed, because this was before the public internet. When the internet arrived he "jumped right in". He is now the CIA's chief technical officer at SIS-4, and Kiriakou says he could be the director if the president wanted him to be. A friend's verdict on the promotion has stayed with him: "It was the tech."
+
+In the abolition argument
+
+The directorate features in Kiriakou's case for abolishing the CIA: its functions, like the agency's analytic and collection work, are already duplicated across a dozen government organisations and could be spread among them. He is careful, in the same breath, about the people: most of those in the directorate, like most of those at the agency, are there because they are patriotic and want to do something in public service.
+
+See also
+
+- Magic box
+- Palantir Technologies
+- In-Q-Tel
+- Abolish the CIA
+- Abu Zubaydah

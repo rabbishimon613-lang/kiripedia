@@ -1,0 +1,38 @@
+Lie Detection
+=============
+
+In his book The CIA Insider's Guide to Lying and Lie Detection, John Kiriakou draws on CIA tradecraft to identify two categories of lie-detection tells. Physical tells: a person looking down when answering is often hiding something; a person looking up is reading a script they are composing in real time. Fidgeting and throat-clearing are delaying tactics.
+
+Structural tells are more reliable. Deeper into a conversation, a liar loses the thread of the lie or contradicts an earlier statement, because, in Kiriakou's framing, "they can't keep the lie straight." Maintaining a false account across an extended exchange exceeds working memory, while the truth needs no such maintenance.
+
+The book's framework overlaps with what Kiriakou describes as CIA field technique: in a professional intelligence context, a source suspected of lying can be placed on the polygraph; in civilian life, the equivalent tool is patient, extended conversation that gives inconsistencies time to surface.
+
+Baseline and pattern break
+
+On pattern recognition: Kiriakou agreed that changes in a person's baseline behavior are a valid detection method. He illustrated this with the Godfather Part II scene in which Michael Corleone catches Fredo's betrayal not through a single lie but through a pattern break, Fredo first denies knowing a particular man, then later mentions casually that the same man showed him all the best clubs in Havana. The contradiction, across time, was the tell: "That's how Michael knew that Fredo had turned on him."
+
+The most important distinction is between baseline tells and individual speech patterns. A person who stutters or clears their throat habitually provides no signal. The signal is a deviation from that person's normal pattern.
+
+What to do when you catch a lie
+
+Kiriakou distinguished between contexts. In a personal relationship, he recommended not confronting the lie directly, note it, document it, and seek the best available exit. In a professional intelligence context, the CIA has the polygraph: "I'm going to strap him to the polygraph and we're going to get to the bottom of this today." In ordinary professional life, mentally categorize the person as unreliable and adjust accordingly.
+
+Gaslighting as confirmation (Bopst v2, April 2026)
+
+When confronting a suspected lie, Kiriakou described the gaslighting response as its own confirmation. His illustration: "Are you cheating on me?", answered with "You are mentally ill. You know that you are mentally ill." His gloss: "Okay, so you are cheating on me." An over-the-top defensive reaction, in his analysis, substitutes for an answer precisely because no honest answer exists.
+
+Prove the point, then walk away
+
+Kiriakou drew a sharp distinction between catching someone in a lie and confronting them about it. His position: the goal is not to extract an admission. In personal situations, he would make a written note of the lie, then "immediately reset to self-protection", find the best divorce attorney available rather than re-engage the liar on their own terms. You cannot convince a liar to take responsibility; you can only protect yourself.
+
+He added an exception: at the CIA, when a source was lying about their access, he would call them out directly, and if confirmed, terminate the relationship. The polygraph was available as a tool unavailable in civilian life.
+
+Station-chief rule, "never lie to medical, security, or finance"
+
+Kiriakou attributed to his first station chief at the agency a rule he described as words to live by: never lie to medical, security, or finance, "because not only will they ruin your career, they can put you in prison." The station chief added a personal corollary: never lie to me.
+
+See also
+
+- Critical Analytic Thinking
+- Asset acquisition cycle
+- John Kiriakou

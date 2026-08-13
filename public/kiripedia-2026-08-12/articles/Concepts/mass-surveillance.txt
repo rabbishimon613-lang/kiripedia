@@ -1,0 +1,37 @@
+Mass Surveillance
+=================
+
+Kiriakou has voiced alarm about the pace of mass surveillance, describing it as accelerating alongside the growth of artificial intelligence and data centers, including under the Trump administration.  He says the NSA no longer makes any pretext of preserving Americans' civil liberties, the tension he frames elsewhere as national security vs. civil liberties, even though its founding charter bars it from spying on Americans.  According to Kiriakou, the agency intercepts every phone call, text message, and email, along with metadata on all Americans, and warehouses the data in a facility in the Utah desert and elsewhere, without needing court orders or warrants.   He says the FBI now bypasses warrants entirely by simply calling the NSA and asking for data on a target, and that the same practice extends to private companies.  Kiriakou says that in his own case, investigators used a national security letter rather than a court warrant to obtain his information from his internet service provider, and that Apple complied by turning over everything it had. 
+
+The data-center build-out
+
+Asked about the scale of new AI data centers, Kiriakou's first objection is physical, they consume enormous quantities of water and are being sited in states that do not have it, Texas among them, and he cites a proposed 40,000-acre campus in Utah, two and a half times the size of Manhattan, whose power demand would exceed double the entire state's current consumption. Loudoun County, Virginia, he says, is now miles of unbroken data-center complexes.
+
+His inference is drawn from ownership rather than from any inside knowledge: "you have to assume that this is intelligence related, look at the companies that are involved." He names Palantir, Nvidia and Arrais as firms that either took CIA investment as seed money or are staffed by retired senior CIA officers, and his summary of their motive is that "they're not doing it for their health."
+
+On the Utah facility specifically, he repeats the figure he attributes to Edward Snowden and Julian Assange: storage sufficient for every phone call, email and text message from every American for the next 500 years, which leaves the question of what all the other buildings are for. His account of the legal shift is that until roughly the post-9/11 period the government had to go to a federal judge and justify the request; now a national security letter served on a provider suffices, or the name can simply be entered at a data center. "You don't have any legal protections. They just take whatever they want. And that's legal now."
+
+Asked what an individual can do, his answer is that it is close to impossible, short of going "Eric Rudolph or Unabomber" and owning no technology at all.
+
+Licence-plate readers as the realised prediction
+
+Asked in 2026 about Flock cameras and whether Snowden's predictions were coming true, Kiriakou corrected the tense: "They've already come true. Yes. Yes, and it's dangerous because nobody on Capitol Hill cares. It's just not important enough."
+
+His objection to the plate readers is that they are indiscriminate rather than targeted, "blanket surveillance, constant surveillance", with the effect that "The authorities know where we are at any given time of the day."
+
+Contractors as watchers
+
+Surveillance in Kiriakou's account is not only a government activity. He describes checking WLDragnet, a free tool documenting defence-contractor monitoring of social-media accounts by political affiliation, and finding that Northrop Grumman had searched his name hundreds of times, along with a "flurry of activity" at McDonnell Douglas after he published an article criticising it. The commercial and governmental sides meet at the point of sale: publishers and platforms resell reader data to advertisers "and really anybody who wants to pay the money for it including the FBI, the CIA and the NSA", which is what makes a warrant optional rather than necessary, see purchased data as a warrant workaround.
+
+The profile that results need not be accurate to be used. Kiriakou's examples are searches nobody expects to be read back to them, "abortion clinics nearby, or psychiatrists, or you're looking for information on your ex-wife", and he notes that the flagging layer is now automated, with artificial intelligence used "to find out the troublemakers, and then bring a human over to it once the AI flags it."
+
+See also
+
+- John Kiriakou
+- Edward Snowden
+- NSA
+- Section 702
+- Data Privacy
+- Ai Surveillance
+- Whistleblowers
+- Leonie Brinkema

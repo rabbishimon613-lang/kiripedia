@@ -1,0 +1,29 @@
+Kiriakou on artificial intelligence
+===================================
+
+John Kiriakou says he accepts that artificial intelligence "is the future" and has applications that "in many cases can save lives", but describes two personal tests that shaped his objections.
+
+The biography test
+
+When the technology first became widely available he asked ChatGPT who he was. The answer identified him correctly as a former CIA officer and torture-programme whistleblower, but stated that he had earned a bachelor's degree from the University of Maryland and a master's from the University of Ghent in Belgium. Kiriakou corrected it, saying he had received both degrees at George Washington University. "And then AI comes back and says 'you are incorrect, John Kiriakou received his degrees at the University of Maryland and the University of Ghent.' And I said 'no, you are incorrect.' And then it cut me off." The system refused to answer any further questions, which he says bothered him very much.
+
+The syllabus test
+
+Kiriakou teaches graduate classes on the history of terrorism as an adjunct professor at the University of Salamanca in Spain. Having drawn up his syllabus for the year, he fed the whole document into ChatGPT and asked it to recommend scholarly articles, books and doctoral dissertations he might have missed. "So it gave me different citations for every one of my lectures, and every single one of them was fake. Every one of them, you click on it and it says 404 error. Every single one of them. It just made it up. None of it was real." His conclusion: "I don't want to live in that world. None of that makes any sense to me."
+
+As a surveillance layer
+
+Kiriakou's structural objection is that the output reflects its authors: "it's a human that programs the algorithm in which the AI is going to run with, so you can cater it to what you want it to say and how you want it to act." He describes the systems as already operating as a triage layer for surveillance, "they're using AI right now just to flag us, to find out the troublemakers, and then bring a human over to it once the AI flags it", and calls the resulting situation a very bad one.
+
+As a tradecraft problem
+
+Kiriakou's operational objection is separate from his objection to what the systems produce. "I'm worried about AI vis-à-vis counterterrorism. First of all, it's tough enough as it is to cross borders with six different identities. How in the world are CIA officers going to cross borders or get through airports with facial recognition scans and AI following their every movement around the world?"
+
+He treats it as an arms race the agency is resourced for but not assured of winning: "at the same time, AI makes the bad guys smarter. So the CIA's got the money and they have access to the right people and the right companies and the right experts to stay up on this, but this is going to be an uphill struggle."
+
+See also
+
+- Mass Surveillance
+- Purchased data as a warrant workaround
+- John Kiriakou
+- Central Intelligence Agency

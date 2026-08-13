@@ -1,0 +1,10 @@
+Securedrop
+==========
+
+SecureDrop is a tool pioneered by WikiLeaks for protected document submission. It is an example of the organization's work in source protection, encryption, and privacy.  Elsewhere in the same panel discussion, Kiriakou discusses Meredith Whittaker's work developing a new business model for the encrypted-messaging app Signal.
+
+Confirmed, and the limit of his knowledge
+
+Asked in 2020 to confirm how the system works, a whistleblower deposits material, and the platform delivers it to a newsroom without any link between the person and the material, Kiriakou said that was right, and agreed that it appears on the websites of a number of American outlets as a route for submissions. He also accepted the account that Julian Assange was among those who built it, along with Aaron Swartz.
+
+He declined the follow-up. Asked to weigh SecureDrop against GlobaLeaks and the Dutch platform Publeaks built on it, he said he had never heard of Publeaks, and referred the comparison to Bill Binney and Thomas Drake, "most definitely Bill Binney and Drake" would give a detailed answer.

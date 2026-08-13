@@ -1,0 +1,42 @@
+The Iron Dome
+=============
+
+The Iron Dome is Israel's layered air-defence system, and in John Kiriakou's commentary it functions less as a shield than as a measuring instrument, each exchange with Iran revealing how much it can and cannot stop.
+
+The drone wave
+
+When Israel struck Iranian military sites, Iran responded with waves of slow-moving drones. The Iron Dome shot down almost all of them: hundreds were launched and, in Kiriakou's telling, about seven got through. His point is not the interception rate but what the seven were: not sophisticated weapons but drones "you can buy at a hobby shop or on amazon.com", and therefore proof of a gap. He treats that as the real yield of the exchange: valuable intelligence for the Iranians for later.
+
+The episode is also, in his reading, a demonstration of restraint rather than escalation: the Iranians called the Israelis through the Jordanians to say a drone response was coming, precisely so that the stakes would not be raised.
+
+The missiles
+
+The pattern repeated when the United States sent Patriot batteries to reinforce the Israeli defences and Iran responded again: a couple of the Iranian missiles got through, which Kiriakou calls, once more, valuable intelligence, "that the Iron Dome is not all that it's cracked up to be." Of the earlier round he notes that the Israeli system shot down hundreds of drones and there was essentially no damage, so the exchange was a show of force from which nothing came.
+
+The conclusion he draws is about cost rather than capability: a defensive system that has to intercept everything is, over time, the more expensive side of the exchange, and the American stockpiles feeding it are finite.
+
+Who built it and who pays for it
+
+Kiriakou's structural objection predates the Iranian exchanges. The Iron Dome was developed by an Israeli defence contractor financed by the Knesset, a quasi-governmental firm the government subsequently spun off into private hands, after which, in his account, Israel asked the United States Congress to pay for the system, and Congress funded it without so much as a debate. His position on that is blunt: if the Israelis cannot afford their own missile system, they should raise taxes to pay for it, and it should not fall to the American taxpayer.
+
+He raised it in defence of Thomas Massie, the Kentucky congressman attacked after voting against Iron Dome funding and who accused AIPAC of foreign interference. Kiriakou knows Massie slightly, a mutual friend, a baseball game, and vouches for him as a man who believes what he says rather than performing it: none of it is for the media or for nationwide consumption.
+
+The magazine problem
+
+The limit Kiriakou keeps returning to is arithmetic rather than engineering: the number of surface-to-air missiles Israel holds is finite, and during the fighting he put the system's endurance at about a week and a half, an estimate offered on day six. He later reported that Israeli stocks had in fact been spent, that the United States had supplied everything it was able to supply, and that the Israelis themselves were taken aback that the Iron Dome had not held as advertised. Months afterwards, he attributes part of Israel's caution to the fact that it has still not been able to replace the interceptors it fired.
+
+The extension of the argument is that no interceptor-based defence survives saturation. Faced with a swarm of ten or a hundred thousand drones, he says, you cannot take them all down with metal, the answer would have to be an electromagnetic pulse, and the Israeli system is not exempt from that arithmetic. He also credits Iran with drawing the same conclusion, treating its probing strike as a way of making Israel and the United States burn through a limited supply.
+
+What got through, and how many
+
+The figures shift between tellings and Kiriakou is not always precise about them. The drone wave is usually about 600 launched with seven getting through; in one telling the number that penetrated is eleven, in another more than half a dozen. The flight time is four hours in the earliest telling and about six in the later ones, crossing Iraq and Jordan. What does not move is the inference: that slow drones announced six hours in advance still got through is the intelligence, and it tells him the system does not work as advertised.
+
+He makes a related correction about casualties. Several times more Iranians than Israelis were killed, and Kiriakou attributes the disparity not to the Iron Dome having protected Israeli civilians but to Iranian target selection: the Iranians struck military and economic targets rather than levelling apartment blocks to reach one man, which he treats as a deliberate policy decision. The second lesson of the exchange, in his reading, is that Iran can go missile for missile with Israel.
+
+See also
+
+- American Missile Stockpiles
+- Strategic Patience
+- 2026 Iran war
+- Thomas Massie
+- AIPAC

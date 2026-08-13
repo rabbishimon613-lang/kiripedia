@@ -1,0 +1,32 @@
+Salt Typhoon
+============
+
+Salt Typhoon is the code name for a Chinese cyber operation against telecommunications companies, which John Kiriakou assessed briefly on the DeProgram programme in September 2025.
+
+The attacker
+
+Kiriakou's judgement of Chinese capability is unhedged. "The Chinese are really good at computer attacks. They're just really good. And they've got this unit within the Chinese intelligence service that only does cyber warfare."
+
+The operation
+
+He describes the result as a windfall rather than a precise strike: "they hit the jackpot with this thing, this Salt Typhoon, where they hacked the information of literally every American."
+
+He reports, without endorsing it, a claim then circulating about the operation's origins, "there are a couple of outlets today and yesterday that were saying that the real targets of this thing were Donald Trump and JD Vance", and gives the reasoning attributed to the operators for widening it: "but then they thought, ah, no, we'll just cast a wide net and see how much success we can have."
+
+His summary of the outcome is that the wider approach worked: "they had complete success, where they were able to collect data from every single American."
+
+The verdict
+
+Kiriakou's assessment is symmetrical and short. "They're good", and, of the other side, "our defences are not so good."
+
+The absence of a response
+
+The host's complaint, which Kiriakou endorsed, was that no political response of any kind follows such breaches: that they appear in the newspaper, are read, and are forgotten, without a single politician proposing hearings or remedial action. Kiriakou's reply was "yeah, you're absolutely right."
+
+The operation belongs to a category of intelligence activity Kiriakou treats as distinct from the human-source work he did himself, and about which his commentary is usually a straightforward assessment of relative competence rather than a moral judgement.
+
+See also
+
+- National Security Agency
+- Donald Trump
+- John Kiriakou

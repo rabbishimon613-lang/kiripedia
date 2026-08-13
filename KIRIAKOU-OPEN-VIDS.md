@@ -327,3 +327,59 @@ three silent failures in the shared transcription tool, is in `ARCHAEOLOGY-LOG.m
 > already held), the Spreaker search API (returns nothing), the Audioboom API (ignores the
 > query), BitChute (re-upload farms — WatchmanFT, TheWarAgainstYou). **Still unresolved:**
 > Vimeo (yt-dlp 401s on its API; needs a browser) and C-SPAN's person page (403s).
+
+---
+
+## Noon dig 2026-08-12 — SoundCloud and the Apple *episode* index
+
+Two indexes no previous dig had opened, both productive. **SoundCloud** holds a radio/podcast
+layer that Mixcloud only partly overlaps, and unlike Mixcloud its audio *is* fetchable with
+yt-dlp. **Apple's `entity=podcastEpisode` search** is a different endpoint from the feed sweeps
+of 08-06/08-09 — it indexes episodes directly, so it surfaces shows whose *feed* metadata never
+mentions Kiriakou. Full method notes in `ARCHAEOLOGY-LOG.md`.
+
+**A dedupe warning that cost this dig an hour:** three items the 08-09 head start listed as open
+(the two Scheer episodes, both Rumble rows) were already ingested on 08-10/08-11 by the corpus
+mining and squeeze routines, which do not update this ledger. Dedupe against
+`src/content/sources/` by **show + date**, never against these ledgers.
+
+| Status | Date | Len | Show | Title | videoId | URL | Notes |
+|---|---|---|---|---|---|---|---|
+| queued | 2019-10-15 | 41m | David Gornoski (A Neighbor's Choice) | John Kiriakou on the CIA's Ukraine "Whistleblower" | — | https://traffic.libsyn.com/secure/davidgornoski/Neighborschoice_10-15-19_JKiriakou.mp3 | Apple episode index. Feed release date is 2020-09-22 but the file name carries the **recording date 10-15-19** — filed under the recording date |
+| queued | 2016-11-07 | 43m | This Is Hell! | We should all be afraid: A whistleblower's report on the price of secrecy and surveillance | — | https://soundcloud.com/this-is-hell/925johnkiriakou | SoundCloud. A corpus-empty month; the segment cut, not the full broadcast |
+| queued | 2015-08-17 | 52m | A Public Affair (WORT 89.9 FM) | A Public Affair — Monday, August 17th | — | https://soundcloud.com/wort-fm/a-public-affair-monday-august-17th | SoundCloud. No description on the item; matched the query on tags — **guest presence to be confirmed from the transcript** |
+| queued | 2024-01-19 | 59m | The Independent Riot | How Espionage Works (Former CIA Spy John Kiriakou Interview) | — | https://www.buzzsprout.com/1599790/episodes/14340827-how-espionage-works-former-cia-spy-john-kiriakou-interview.mp3 | Apple episode index |
+| queued | 2017-08-11 | 60m | Kate Dalley Radio | John Kiriakou Ex CIA Spy Tells All | — | https://soundcloud.com/katedalleyradio/0811john-kiriakou-ex-cia-spy-tells-all | SoundCloud |
+| queued | 2010-01-30 | 60m | Citizen Radio | Torture still doesn't work, and neither does David Cameron or Air America (ep. #79) | — | https://archive.org/details/citizenradio_2010-01-30 | Internet Archive. **A 2010 source — the corpus held exactly one.** *Reluctant Spy* launch month |
+| queued | 2017-04-30 | 64m | Sound Health Options | Doing Time Like a Spy; How The CIA Taught Me To Survive and Thrive | — | https://podcasts.captivate.fm/media/c7673f03-c38b-4755-95ae-8044a6a9eb88/show-9984275-2017-04-30-17-08-27.mp3 | Apple episode index |
+| queued | 2023-02-06 | 88m | In Limine Podcast | In Limine — John Kiriakou | — | https://api.substack.com/feed/podcast/101244999/c6968c45cb152bde19c666b9be4b2816.mp3 | Apple episode index. Item title is just the show name — **confirm from the transcript** |
+| queued | 2019-10-31 | 92m | Useful Idiots | CIA Whistleblower John Kiriakou on Impeachment, "Assets," and the Deep State | — | https://audio3.redcircle.com/episodes/d3a714fb-7e24-4c94-b868-b2a391199c9f/stream.mp3 | Apple episode index. Corpus held Useful Idiots only from 2023 on |
+| queued | 2021-09-25 | 93m | Abe Lincoln's Top Hat | Episode 572: Blowing the Whistle w/ John Kiriakou | — | https://archive.org/details/alth-episode-572-blowing-the-whistle-w_-john-kiriakou | Internet Archive. Three hosts, **one guest** — multi-host is not the multi-guest panel bar |
+| candidate | 2025-04-07 | 61m | Borderland: Narcosis (Vincent) | CIA Whistleblower Exposes the Agency's Role in the Drug Trade | — | Apple episode index | Show absent from the corpus entirely. Not reached today |
+| candidate | 2025-05-28 | 61m | Change Agents with Andy Stumpf | How the War on Terror Created a New Generation of Enemies | — | Apple episode index | Show absent from the corpus. Enclosure URL was truncated in the API response — re-resolve |
+| candidate | 2025-05-21 | 91m | Austin and Matt | #04 CIA Whistleblower John Kiriakou: The Truth They Tried to Bury | — | https://mcdn.podbean.com/mf/web/i5ba99ur8vygwmz3/JOHN_KIRIAKO9csrb.mp4 | Corpus holds #05, #11, #12 — **#04 is the gap** |
+| candidate | 2025-03-26 | 61m | Podcast UFO | 656B. Former CIA, John Kiriakou | — | https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/65120149/656b_john_kiriakou.mp3 | Corpus holds only the 2017 Podcast UFO Live appearance |
+| candidate | 2026-02-13 | 91m | My Price Is My Life (James O'Keefe) | John Kiriakou: Inside the CIA and the Cost of Speaking Out | — | Apple episode index | Show absent from the corpus |
+| candidate | 2026-02-18 | 65m | History Told Forward | John Kiriakou: Whistleblower Inside the CIA's Torture Program | — | Apple episode index | Show absent from the corpus |
+| candidate | 2026-06-16 | 61m | Joannes Wyckmans Podcast | John Kiriakou: CIA Secrets, Soft Power, and the Poppy Trade | — | Apple episode index | Show absent from the corpus |
+| candidate | 2026-07-26 | 51m | When You Know You Know | What The Govt. Can Do To You — John Kiriakou, Dave Marcus | — | Apple episode index | Two named guests — vet the panel bar before ingesting |
+| skip | 2019-05-02 | 48m | Reality Asserts Itself (Paul Jay) | I Believed America Could Do No Wrong, Pt. 1 | — | — | Same taping as corpus `2023-04-24` RAI — the corpus files it under the **re-upload** date, so a date grep misses it |
+| skip | 2015-02-09 | 44m | Democracy Now! | Exclusive: Freed CIA Whistleblower "I Would Do It All Again" | — | — | Same broadcast as corpus `2015-02-09-democracy-now-torture-report` |
+| skip | 2015-02-11 | 60m | Citizen Radio | Hatred of Kanye… CIA whistleblower freed | — | — | Explicitly a **replay** of the 2013-01-23 interview already held |
+| skip | 2016-11-05 | 60m | This Is Hell! | Episode 925: Feds Watching (Full Broadcast) | — | — | The full broadcast wrapping the 2016-11-07 segment above — same conversation |
+| skip | 2021-12-17 | 79m | American Exception | Episode 2: The 9/9/2001 Massoud Assassination | — | — | **Four-way roundtable** (Peter Dale Scott, Pepe Escobar, Kiriakou, Aaron Good) — attribution unsafe under doctrine rule 4 |
+| skip | 2015-11-12 | 67m | Pardon The Dissent | w/ Joey Vincent 11/12/15 | — | — | **Kiriakou is not a guest** — the host plays a clip of him. Matched the query on the show notes |
+| skip | 2017-06-27 | 237m | (audiobook) | The Convenient Terrorist | — | — | Audiobook, excluded by the playbook |
+| skip | 2026-02-23 | 49m | TAC Right Now | John Kiriakou on CIA Propaganda, War with Iran | — | — | Same taping as corpus `2026-02-19-the-american-conservative` |
+| skip | 2017-10-10 | 21m / 22m | Challenging Opinions | CO 049 / CO 050 | — | — | Both under the length bar |
+| skip | 2016-10-04 | 18m | (KPFA-style magazine) | Sharon Ellison / Jennifer McCoy / John Kiriakou | — | — | Kiriakou segment is 18 min of a three-segment show |
+| skip | 2014-11-05 | 58m | Stranger Talk | Stranger Talk 10 24 14 | — | — | **False positive** — two hosts discussing job hunting; no Kiriakou |
+| blocked | 2010-05-16 | 60m | C-SPAN2 Book TV *After Words* | After Words: John Kiriakou | — | https://archive.org/details/CSPAN2_20100517_010000_Book_TV_After_Words | The taping is already held as corpus `2010-04-23-c-span-book-tv-after-words`; the Archive copy is `access-restricted` (caption `.srt` downloads as 0 bytes) |
+| blocked | 2013-05-12 | 61m | C-SPAN *Q&A* | Q & A, May 12 2013 | — | https://archive.org/details/CSPAN_20130513_030000_Q__A | Access-restricted on the Archive, and c-span.org is CloudFront-403 to **both** plain fetch and a real browser. Presence unconfirmed |
+| blocked | 2017-12-12 | 79m | Homebrewed Culture Cast | When Doing Good Breaks the Law with John Kiriakou | — | — | **The 08-09 diagnosis was wrong** — it is not an ffmpeg failure. `traffic.libsyn.com/hbculturecast/CC20John20KiriakouFINAL.mp3` returns a **404 HTML page**; the `%20`s were stripped from the real filename. No surviving feed found |
+
+> **Dead ends confirmed this dig — do not re-run:** Mixcloud audio is *still* download-protected
+> (yt-dlp resolves the metadata, then 404s on the stream), so Loud & Clear ×3 stay blocked;
+> alternate spellings (`kiriako`/`kyriakou`/`kiriakos`) on the Archive return only Greek
+> musicians and DJs; `radio4all` holds 5 items, none new; **the Scott Horton Show is exhausted**
+> — his site lists 15 Kiriakou interviews and the corpus already holds all of them.

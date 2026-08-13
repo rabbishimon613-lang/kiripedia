@@ -1,0 +1,29 @@
+The CIA performance metric
+==========================
+
+The CIA performance metric is John Kiriakou's description of how the CIA measured the performance of its operations officers, given in answer to a viewer who framed the question in corporate language: did the agency have KPIs?
+
+One number
+
+Kiriakou's answer was that the vocabulary was different but the practice was simpler than any dashboard. "For operations officers, case officers, the metrics were very simply: how many spies have you recruited to steal secrets?"
+
+The qualifying word is genuine. Recruitments that supported operations without producing intelligence were acknowledged and then set aside. "If you recruited some old lady to be a safe housekeeper and make sure that the place was clean and empty when you wanted it, you know, for a clandestine meeting, all right, yeah, maybe you get a pat on the back."
+
+What counted was narrower: "you needed to recruit genuine spies to steal foreign secrets, or genuine penetrations of foreign intelligence services or foreign terrorist groups. That was really the sole criterion."
+
+Why the distinction matters
+
+The division Kiriakou draws is between people who give an officer access and people who give an officer information. A landlady, a driver, a shopkeeper who lets a meeting happen unobserved, these make an operation possible, and by his account the agency's promotion system was indifferent to them. A source inside a foreign service, or inside a terrorist organisation, was the only thing that registered.
+
+The consequence he has described at length elsewhere is that a system with a single scoreboard produces officers who optimise for the scoreboard. The requirement to spot, assess, develop and recruit before promotion is the same requirement seen from the other end, and Kiriakou's long-running criticism, that it manufactured pressure to recruit somebody, anybody, of nominal value, follows directly from the narrowness he describes here.
+
+The host's verdict
+
+The response from the other chair was approving: "sounds like a good metric to me." Kiriakou agreed without elaboration. He does not, in this passage, argue against the metric; he simply states it, and lets the exclusion of the safe housekeeper carry whatever irony a listener wants to find in it.
+
+See also
+
+- Safe Housekeeper
+- The asset recruitment cycle
+- Central Intelligence Agency
+- Recruiting from the bottom

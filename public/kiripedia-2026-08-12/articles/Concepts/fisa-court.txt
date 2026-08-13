@@ -1,0 +1,39 @@
+FISA court
+==========
+
+FISA court is the secret Foreign Intelligence Surveillance court that John Kiriakou explains has existed since the Carter administration, championed by Ted Kennedy after Watergate. It sits on the top floor of the Justice Department, staffed by federal judges rotating in and out, and issues warrants to wiretap targets, "nothing in writing that can ever be released," so an American never knows whether one exists on him. It approves nearly everything (rejecting a fraction of a percent), with no real oversight; Section 702, up for reauthorization, extends warrantless wiretaps on undisclosed targets. Kiriakou cites Carter Page, surveilled and repeatedly re-warranted with no evidence of a crime, as the abuse, and believes it was done at John Brennan's behest to deny Trump the presidency.
+
+The approval rate, checked
+
+Kiriakou gives a specific figure for the court's approval rate and says it is his own work rather than a repeated statistic: asked whether it approves 99 per cent of requests, his answer was that it is far more than 99 per cent, and that he actually did the research, 99.81 per cent of all requests were approved. He raises it in the context of judges, noting that the judge assigned to Julian Assange in the Eastern District of Virginia had previously sat on the FISA court, which he treats as worse than his own judge's reputation for reserving national security cases for herself.
+
+What the court does when it is told about a violation
+
+Kiriakou's standing illustration of the court's passivity is the disclosure the NSA made in the last weeks of the Obama administration. The agency went to the FISA court and the White House and admitted it had been collecting on Americans it was not entitled to collect on, material swept up automatically, without an officer having to act, and stored in the Utah data centre. Its remedy was to tell the court it had now deleted the material it should not have had. What Kiriakou finds damning is what the court did not do: nobody told the NSA to preserve the material as evidence of the unlawful collection it had just confessed to, and no investigation followed. In his account the judges rubber-stamp what is put in front of them and have no interest in oversight, and the openness with which it is done is itself the scandal.
+
+Carter Page, and the lawyer who was not charged
+
+On the Page warrants Kiriakou's objection is to the renewals rather than the original application: the warrant was renewed three times in the knowledge that the underlying reporting was specious, and at least once after a judge had told the FBI there was no evidence, a sequence he says nobody has explained. He notes alongside it that the Bureau also placed a source inside the campaign to report back.
+
+The accountability that followed is, for him, the point. The Justice Department's own inspector-general report established that the FBI concealed material about Christopher Steele's reporting from the FISA judges, and that a Bureau lawyer had falsified a document to support a FISA application, a felony, and one of several occasions on which officials knowingly signed off on false material, each carrying up to five years. The lawyer received no prison time; Kiriakou notes the mitigating circumstance the court accepted was that his wife was pregnant. His summary of why no one was prosecuted is two words: too big.
+
+FISA judges on the ordinary bench
+
+The court's alumni matter to Kiriakou because of where they end up. He had long predicted that Julian Assange would be tried by Leonie Brinkema, who normally reserves national-security cases for herself; instead the chief judge of the Eastern District of Virginia took the case, and before that appointment he had been a judge on the FISA court. Kiriakou treats this as worse than drawing Brinkema, in a district where no national-security defendant has ever won.
+
+A dating discrepancy
+
+Kiriakou's tellings do not agree on when the statute arrived. In the fullest account the court dates to the Carter administration, championed by Ted Kennedy in the aftermath of Watergate. Discussing Section 702 he instead dates the FISA Act to October 2001 and describes it as legislation passed to retroactively legalise collection that was already unlawful, a description that fits the post-9/11 surveillance statutes rather than the original act.
+
+Lied to, on the record
+
+Kiriakou's most direct charge against the court is that it was deceived. Discussing the Durham investigation in December 2019, he said of the FBI leadership under James Comey: "We know they lied multiple times to the FISA court to get warrants against Carter Page." His explanation is institutional rather than conspiratorial, "at that level, with everything being classified and with their arrogance at the same time, I think they think they can just get away with it. The truth isn't going to come out in the end."
+
+See also
+
+- Carter Page
+- John Durham
+- John Brennan
+- Section 702
+- Julian Assange
+- Eastern District of Virginia

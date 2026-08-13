@@ -1,0 +1,61 @@
+Over-classification
+===================
+
+Over-classification is, in John Kiriakou's telling, a behavioural problem before it is a legal one, the reason the United States produces "billions and billions of classified documents being created every single year, with no mechanism to police them or to eventually declassify them."
+
+The incentive
+
+Asked whether officials stamp documents secret to make their work seem important to superiors, Kiriakou agreed without hesitation, and located the effect outside the intelligence core: "not so much at the CIA, because everything's classified anyway, but at some of these lesser agencies, absolutely. Absolutely."
+
+What the stamp buys is standing. "It makes you feel like you know, you're one of the in-crowd, you're one of the special people that has access. Maybe the guy you sit next to, he doesn't have access, so you're more important than he is. You see that every day."
+
+Inside the agency the mechanism is habit rather than status: everything produced carries a classification, including a lunch invitation, because that is how officers are trained.
+
+The question the press does not ask
+
+Kiriakou's complaint about coverage of the documents scandals is that it treats the story as a contest. "There are very, very few journalists, certainly none in the mainstream, that I've encountered who really have a full appreciation for what this issue is."
+
+The reframing he offers is one sentence: "the problem isn't who found how many documents in whose garage. The problem is why are these documents classified in the first place."
+
+A felony nobody has ever been charged with
+
+Kiriakou files over-classification in a category of statutes that exist to be ignored. Asked in 2019 whether there would be consequences for the DNI's inspector general sending the Ukraine complaint to the Justice Department instead of the congressional oversight committees, he said no, and reached for over-classification as the parallel: "just like over-classification is actually a felony, and it's never ever been prosecuted, nor will it ever be."
+
+The point is not that the law is weak but that it is unenforced by design, and so "just going to be ignored and lost in the greater context" of whatever case raises it.
+
+A crime cannot be classified
+
+The converse of over-classification is a rule Kiriakou states as settled law and uses as the basis of his defence of Julian Assange: "it is illegal in this country to classify a crime. If something is a crime, by definition it cannot be classified."
+
+From that he draws the conclusion that publishing such material is not an offence but the correction of one, the American people "have the right to know what their government is doing in their name," and releasing evidence of war crimes is therefore "a public service. It's not a crime."
+
+The boundary matters to his own position, because he does not extend it to secrets as such. In the same conversation he defended the Crypto AG operation as legitimately secret and squarely in the public interest.
+
+The lunch invitations
+
+Kiriakou's standing example of how far the habit ran is domestic and trivial by design. "There are something like 3 billion classified documents in U.S. government databases, and, most Americans don't even realise this, it's actually illegal to over-classify something. Now in the CIA we saw this kind of thing all the time."
+
+> "My wife and I were in the CIA at the same time. If I wanted to have lunch with her I would send her a message and say, hey, do you want to have lunch, and I would classify that document SECRET. Now why is that secret? It's actually not secret, but everybody classified everything at the secret level. It was just policy, it's just the way things were. She would respond to me, sure, I'll meet you at 12, and she would classify that SECRET. It's actually illegal to do that."
+
+Asked whether an evening invitation would then be top secret, his answer is "exactly", and the serious point behind the joke is that "we throw around these classifications like they mean nothing. In fact they mean very important things."
+
+The transcripts, and the only route to a remedy
+
+He applies the same test to the leak that prompted the 2017 crackdown, the transcripts of the president's calls with the Prime Minister of Australia and the President of Mexico. "The information in those transcripts really wasn't very sensitive. It was embarrassing to the president certainly, but it had no impact on national security. So for the administration to say that that was classified, or that that was somehow national security information, is an over-classification."
+
+The fix he sees is adversarial rather than administrative: "this is an issue that no one in government has yet addressed, and I think that the only way it will be addressed is if someone is arrested for leaking this information and then they fight it by saying that it was improperly classified."
+
+What he would use instead of classification is control markings: "you can call something sensitive but unclassified, SBU, or you can call it for official use only. So that means that they're not intended for public dissemination, but they're not necessarily classified. There's a lot of information in government that should have those controls but should not be classified."
+
+A crime with no defendants
+
+Kiriakou's sharpest statement of the point is also his earliest, given in February 2013 and framed as a complaint about the government's own asymmetry: everything is classified as a matter of national security, and yet "it's actually a crime in the United States to over-classify, and no one has ever, ever been charged with committing that crime."
+
+He raised it immediately after noting the closure of the office that had been working to close Guantánamo, which he dates to "days after he gets re-elected" and treats as a symbolic gesture running the other way from the campaign that preceded it.
+
+See also
+
+- Classified email
+- Sensitive but unclassified
+- National Archives declassification
+- The 2023 classified documents scandal

@@ -1,0 +1,32 @@
+Thirty-year mandatory declassification
+======================================
+
+Thirty-year mandatory declassification is the statutory release requirement John Kiriakou describes as governing classified American records, and which he says is almost unknown to the public.
+
+The obligation
+
+At the CIA, Kiriakou says, officers were continually working through documents to prepare them for release, driven by two obligations at once: a mandatory declassification law after thirty years, and the Freedom of Information Act.
+
+Redaction practice
+
+The review was done by hand. An officer would black out a passage and write a code in the margin, Kiriakou gives 4 HUM, HUM4-82 and HUM1-93 as examples, indicating the ground for withholding: sources and methods, liaison relationships, and so on. The worked example he offers is that a FOIA request must be answered, but the answer cannot disclose that the information came from a foreign service.
+
+Kiriakou contrasts that discipline with the redaction of the Epstein files, where he says victims' names were properly withheld but perpetrators' names were blacked out too, and email addresses were redacted along with the names of the people sending and receiving them. His characterisation is that the Justice Department "stood on the street corner and yelled out to a bunch of teenagers, hey, you guys want a job for a couple of days, come on in here, grab a Sharpie", that the people doing it "didn't know what in the world they were doing."
+
+The Kennedy records
+
+Kiriakou raises the thirty-year rule directly against the Kennedy assassination files, which remain withheld more than sixty years after the event and which, by the terms of the law, should long since have been unclassified.
+
+The exceptions, and the gap they leave
+
+Stating the rule in April 2026, Kiriakou put the deadline at "30 or 35 years" and named the only two grounds on which material may still be held back past it: if the documents "contain the names of a source", or "the methods of an ongoing operation."
+
+The case that prompted the summary showed the limit of the rule rather than its force. Documents classified in the 1970s had never been released, and the reason turned out to have nothing to do with either exception: they were congressional rather than executive records, and Congress is not subject to the Freedom of Information Act. Kiriakou's generalisation is that legislators "always exempt themselves from their own laws." The episode is set out at the buried Senate documents.
+
+See also
+
+- Freedom of Information Act
+- National Archives declassification
+- JFK assassination
+- Classification compartments
+- Epstein Files Transparency Act

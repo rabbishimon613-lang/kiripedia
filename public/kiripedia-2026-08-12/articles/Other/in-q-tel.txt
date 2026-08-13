@@ -1,0 +1,30 @@
+In-Q-Tel
+========
+
+In-Q-Tel is the Central Intelligence Agency's openly acknowledged venture capital arm. Its function is the financing of private-sector development of technologies the agency intends to deploy, a practice that, post-September 11, came to dominate the agency's technical-acquisition strategy. "It is far cheaper and far easier to just buy something that's already been invented than it is to develop it from scratch. ... Post-9/11, money is not an issue at all. And so DARPA is doing it, NSA's doing it, CIA's doing it, and then within In-Q-Tel they're financing it in the private sector. So the sky's the limit."
+
+Palantir
+
+The single most prominent In-Q-Tel investment to date is Palantir Technologies: "They gave Palantir their first, it was like a million and a half, to get off the ground. Very first investment. And now look at Palantir: just this year for the first time they have more than a billion dollars in revenue. So it's a success story." Kiriakou notes that within the CIA itself Palantir was initially unpopular but is now widely used for intelligence applications including targeting.
+
+By late 2025 Palantir's market valuation had crossed $1 trillion, with the majority of its revenue coming from CIA contracts.
+
+Etymology and legality
+
+The agency's venture-capital arm was created in the immediate aftermath of September 11, 2001, when the CIA obtained congressional approval, made possible by a legal waiver under the Patriot Act, to invest in private companies through a venture-capital vehicle. Kiriakou notes the name as a deliberate construction, "intel" + "Q" (a wink at Q, the quartermaster of the James Bond films), and characterizes the existence of a for-profit CIA venture business as itself a category of conduct that would otherwise be illegal: "the CIA now is in the venture capital business for a profit. Which is illegal. ... Not if you're writing the laws." In-Q-Tel is, in Kiriakou's description, wholly owned by the CIA. He draws a parallel between In-Q-Tel and the broader shift toward U.S. military venture capital in national-security technology acquisition.
+
+The intelligence-tech pipeline
+
+John Kiriakou cites Will Hurd, a CIA case officer he mentored who went on to Congress and the OpenAI board, as a further example of the same intelligence-and-technology convergence that In-Q-Tel embodies.
+
+The waiver and the first bet on Palantir
+
+John Kiriakou says that after 9/11 the CIA got a congressional waiver to open a venture-capital arm, In-Q-Tel, and that its very first investment went to Palantir, now a multibillion-dollar company. He marvels that this is even legal. Kiriakou has given differing figures for that first check across interviews, 1.5 million dollars in one account and 15 million dollars, which he called "a fortune in 2002," in another.
+
+See also
+
+- Palantir Technologies
+- Alex Karp
+- Peter Thiel
+- Central Intelligence Agency
+- Vault 7

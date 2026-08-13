@@ -1,0 +1,43 @@
+Pick the man, then find the crime
+=================================
+
+"Pick the man, then find the crime" is the shorthand applied, by John Kiriakou and others, to a 1940 doctrinal warning delivered by Robert H. Jackson in his capacity as U.S. Attorney General. Jackson identified as the most serious abuse available to a federal prosecutor the practice of selecting a person for prosecution first and then searching the statute books for a crime to charge him with.
+
+Jackson later served as an Associate Justice of the U.S. Supreme Court and as the chief U.S. prosecutor at the Nuremberg trials. "This is like one of the most important judges we've ever had, ever."
+
+The source text
+
+The doctrine comes from Jackson's address to a Department of Justice dinner event for attorneys, titled The Federal Prosecutor. Two passages stand out:
+
+> It is not the function of government to keep the citizen from falling to error. It is the function of the citizen to keep the government from falling to error.
+
+and the passage from which the shorthand derives:
+
+> With the law books filled with a great assortment of crimes, a prosecutor stands a fair chance of finding at least a technical violation of some act on the part of almost anyone. In such a case, it is not a question of discovering the commission of a crime and then looking for the man who has committed it. It's a question of picking the man and then searching the law books or putting investigators to work to pin some offense on him.
+
+The Stalin / Beria parallel
+
+The same prosecutorial pattern is captured in a line attributed to Lavrentiy Beria, Stalin's secret-police chief: "Show me the man, I'll show you the crime." Kiriakou treats Jackson and Beria as describing the identical phenomenon, Jackson as warning against it, Beria as endorsing it.
+
+Kiriakou's use of the principle
+
+Kiriakou applies Jackson's principle as the test by which he distinguishes prosecutions he supports from prosecutions he opposes, even when the defendant is a personal antagonist. He has applied it specifically to:
+
+- His own prosecution under the Espionage Act
+- The prosecutions of Jeffrey Sterling, Edward Snowden, and other intelligence-community whistleblowers
+- The 34-count New York indictment of Donald Trump (which Kiriakou regards as a misuse of prosecutorial discretion)
+- The Georgia indictment of Trump for the call to the Georgia Secretary of State (which Kiriakou characterizes as "a guy having a bad day" rather than a crime)
+- The current Trump-administration investigations of John Brennan and others, Kiriakou supports prosecuting Brennan if specific crimes can be demonstrated, but opposes prosecutorial fishing expeditions against him
+
+Venue manipulation as a corollary abuse
+
+A closely related federal-prosecutorial abuse identified by Kiriakou is the manipulation of charging venue. Federal cases must be brought in the district where the alleged crime was committed; in the prosecution of Jeffrey Sterling, the government argued venue in the Eastern District of Virginia on the basis that a CIA secretary had purchased James Risen's book, the alleged vehicle of the disclosure, in Virginia, despite Sterling living in St. Louis, Risen working in Bethesda, Maryland, and the New York Times being based in New York.
+
+The same venue-shopping technique is being used in reverse in the Brennan investigation: after the U.S. Attorney for the Eastern District of Virginia declined to bring charges and was subsequently fired, the case was transferred to the Southern District of Florida, "all you have to do is say, 'Yeah, John Brennan coordinated that Hunter Biden laptop memo. I was in Miami when I read the memo on the MSNBC website.' So it's that easy."
+
+See also
+
+- Robert H. Jackson
+- John Brennan
+- Jeffrey Sterling
+- Espionage Act

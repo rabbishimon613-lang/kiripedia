@@ -1,0 +1,19 @@
+Three Felonies a Day
+====================
+
+John Kiriakou cited Harvey Silverglate's Three Felonies a Day while discussing the practical implications of bulk metadata collection. The argument: the regulatory and criminal code has expanded so far beyond what any citizen can know or track that ordinary behavior, driving to work, sending emails, conducting business, routinely crosses legal lines without the person's awareness.
+
+Kiriakou has cited the same book, first published in 2012, in numerous other interviews, consistently describing Silverglate as a Harvard law professor and consistently landing on the same one-line summary of its thesis: that the country is so overcriminalized and overregulated that the average American, going about ordinary business, unknowingly commits three felonies every single day. He has used the argument elsewhere to press for broader clemency, reasoning that if the average citizen is legally exposed by default, and Congress will not reform the underlying statutes, a president should be willing to pardon hundreds or thousands of people.
+
+The surveillance implication Kiriakou drew from this: law enforcement no longer needs a warrant to obtain metadata; it can simply purchase the data from carriers or social-media platforms. Combine the availability of metadata with the argument of Three Felonies a Day, the certainty that violations exist in anyone's record, and the result is that any individual can be targeted for prosecution at will: "If they decide they want you, they don't like your politics, they can get your metadata, they can go through that metadata, find crimes that they can charge you with and ruin your life. And there's nothing you can do to protect yourself." Kiriakou added: "To some extent, they did that to me."
+
+Kiriakou's on-record use of the book (2026)
+
+On The Pocket in July 2026, John Kiriakou said Harvey Silverglate's Three Felonies a Day is the framework he reaches for whenever he is asked whether he could have avoided his own Espionage Act prosecution. Silverglate's argument, as Kiriakou paraphrases it, is that the American criminal code is so over-broad, with so many overlapping and vaguely drafted federal statutes, that "the average American on the average day, going about his or her normal business, commits three felonies every single day." The takeaway Kiriakou uses on the point is blunt: "if they want to get you, they're going to get you."
+
+See also
+
+- John Kiriakou
+- Espionage Act
+- Government Purchase of Social Media Metadata
+- Vault 7

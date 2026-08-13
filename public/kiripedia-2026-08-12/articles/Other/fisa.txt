@@ -1,0 +1,29 @@
+FISA
+====
+
+FISA, the Foreign Intelligence Surveillance Act, is the U.S. legal framework that governs surveillance warrants for foreign-intelligence purposes. John Kiriakou describes it as one of the most easily abused instruments in the surveillance state.
+
+Carter Page
+
+Kiriakou cites the case of Carter Page, against whom the Steele dossier, which he characterizes as the "dirty dossier", was used to support "not one, but four FISA applications." His framing: "You know how easy it is to ruin a person's life with FISA?" He notes Page was driven into bankruptcy, and that one of Page's lawyers was the same attorney Kiriakou had used.
+
+Part of the surveillance architecture
+
+Kiriakou groups FISA with the Patriot Act and Section 702 as the legal machinery that erodes Americans' constitutional protections. He names Thomas Massie, Rand Paul, and Ro Khanna as among the very few legislators willing to oppose it, concluding that three votes out of 535 cannot turn the tide, and that he is not optimistic about the future of American privacy. He cites Mike Johnson as a case study in how the security state co-opts even its critics: Johnson once led a congressional Weaponization Committee investigating FBI mass-surveillance abuses, but became the tie-breaking vote to approve Section 702 surveillance without reforms once he became Speaker of the House.
+
+Origins, 702, and the Carter Page test case
+
+John Kiriakou traces FISA to Senator Ted Kennedy, who he says was "instrumental in the passage of FISA" under President Jimmy Carter in the immediate wake of Watergate, motivated by concerns about "foreign involvement in American political machinations." The statute created the secret court that sits on the top floor of the Justice Department, off-limits to the public, its rotating federal district-court judges permitting the CIA and FBI to obtain warrants that cannot be released to the American people.
+
+Kiriakou treats Carter Page as the textbook demonstration of how FISA was turned on Americans it was never intended to reach: an American citizen who came under repeatedly renewed FISA warrants despite there being "no evidence that he had ever committed a crime," an abuse he attributes to "John Brennan ... denying Donald Trump the presidency."
+
+Section 702
+
+Kiriakou notes that Section 702 of FISA, which was up for reauthorisation as of April 2026, permits ongoing "secret warrantless" electronic surveillance, and that on his account nobody in government will disclose the threshold that triggers a Section 702 collection. He distinguishes the legitimate battlefield-adjacent use, identifying individuals or small groups planning terrorist attacks overseas, from what he calls the abusive domestic use, in which "the CIA, the FBI and NSA" pick out an interesting-looking American citizen like a podcast host and "check him out" despite his constitutional protection.
+
+See also
+
+- Patriot Act
+- Section 702
+- Government Purchase of Social Media Metadata
+- Edward Snowden

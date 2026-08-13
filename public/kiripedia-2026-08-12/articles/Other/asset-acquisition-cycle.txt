@@ -1,0 +1,149 @@
+Asset acquisition cycle
+=======================
+
+The asset acquisition cycle is the four-phase doctrine used by Central Intelligence Agency case officers to recruit foreign nationals as intelligence sources. It is "the very first thing that they teach you when you go into case officer training" at The Farm.
+
+The four phases are spot, assess, develop, and recruit.
+
+Terminology
+
+In CIA usage the foreign national being recruited is referred to as an agent or asset. The American CIA staff officer doing the recruiting is the case officer. "I wasn't a CIA agent, I was a CIA officer. The person I recruited is the agent."
+
+The four phases
+
+Spot
+
+The case officer identifies an individual who is "operationally interesting", that is, one who has access to classified information, to a terrorist group, or to some other intelligence target. A person who is congenial company but lacks such access is not a candidate. "You're a nice guy, I like hanging out with you, but you're not operationally interesting to me because you don't have access to classified information and you don't have access to a terrorist group. So we may go out and have a beer, but I'm not going to actively seek to recruit you."
+
+The classical spotting venue is the diplomatic cocktail party, with priority targets including officers from Russian, Chinese, Cuban, Iranian, North Korean, and similar services. Before 9/11, Kiriakou says, spotting often happened at such parties and at business events, where he would gauge a contact's interest and access, an Iranian media attaché or someone working at a port drew immediate interest, while an economic officer from an uninteresting country did not.
+
+Assess and develop
+
+The case officer cultivates a relationship of escalating personal intimacy with the target. The classical development sequence begins with lunches, advances to dinners (initially alone, then with both spouses), and proceeds to shared leisure activities, a chartered fishing trip if the target enjoys fishing, a sunset helicopter tour if the target's spouse admires the city's skyline. The CIA case officer's representational budget for this phase is "literally unlimited."
+
+Children typically become friends. Within nine to eighteen months the target should regard the case officer as a best friend. Throughout, the case officer is also identifying the vulnerability that the eventual pitch will be built on.
+
+Recruit
+
+The recruitment pitch is delivered only after the target has come to regard the case officer as a trusted friend, and is structured as a transaction against a vulnerability. "Not only can I get your kid into the best university, and just name the university, Stanford, Harvard, Millersville State College, I don't care, pick it, we'll get him in, but I'll pay for it. If you give me two hours in your code room, or you give me the plans to that new Russian tank, or a soil sample from your nuclear power plant, I'll do whatever you want. But I can only have that conversation if you are my best friend."
+
+Breaking cover
+
+The formal moment within the recruit phase at which the case officer admits to the target that he is a CIA officer is termed breaking cover. The conversation is structured to make explicit what the target, at this stage, already suspects: "You know how I feel about you. You're my best friend. I love you. ... But I haven't been 100% honest with you. And I hope you're not going to be upset, but I'm actually a CIA officer undercover. ... I know you're going to be okay with that because you know exactly where this is going. I've already identified your vulnerability."
+
+Vulnerabilities
+
+Vulnerability is the operative concept in CIA asset recruitment: any characteristic that can be exploited to induce a target to do what the officer wants. Kiriakou's summary of the principle: "I just need to identify something that you want. I give it to you and in exchange you give me what I want."
+
+The principal categories are ideology, revenge, and greed, and in Kiriakou's operational experience greed is the most reliable: "Even people who you suspect might be willing to do it for ideology are doing it for the money." Internal CIA studies, per Kiriakou, found that 95% of people who agree to become intelligence sources do so for money, a straightforward cash transaction, with the remaining 5% motivated by combinations of love of family, ideology, revenge, and excitement; a small number will spy for the adrenaline alone, though they are paid anyway. In an earlier telling he put the figure at roughly 80% of the people he personally recruited, most of whom knew exactly what they were getting into, and noted that the CIA's recruitment budget, routine but not lavish before 9/11, became "practically unlimited" afterward.
+
+Beyond money, Kiriakou describes three categories he encountered in the field. Love of family: a target who wants his children at a better university than is available locally can be offered exactly that, in exchange for compliance, wanting one's children at Harvard instead of a local college in Cameroon being his example. Workplace grievance: a target passed over for promotion who wants revenge on his supervisor will give classified information specifically to damage that person; the officer does not need to care about the grievance, only to offer the means to act on it. Medical desperation: one source gave "the kitchen sink", full access to everything he knew, because his wife had breast cancer and he desperately wanted her treated at the Mayo Clinic. The CIA placed her there; the source delivered.
+
+A documented exception in Kiriakou's career involved an asset who refused all monetary compensation. The asset agreed only to have his grandson admitted to the University of Oklahoma, refusing offers of placement at Harvard, Yale, Stanford, or Dartmouth, on the grounds that the grandson specifically wanted to attend that institution. "We have a whole office that just does that."
+
+Kiriakou explicitly rejects the common attribution of the MICE framework (money, ideology, coercion, ego) to the CIA: "MICE is not a CIA acronym. That's just been kind of made up by the public that's interested in this kind of thing." The vulnerability-and-motivation analysis the framework describes is real, but the acronym itself is not an agency term.
+
+The pitch
+
+The doctrinal threshold for delivering a recruitment pitch is total certainty. "What percentage of people that you have pitched in your career said yes? He said, 100%. He said, 'If you are not 100% certain that this guy's going to say yes, run for the hills.'" A failed pitch produces predictable consequences: the target reports the case officer to his own service, the host government lodges a formal diplomatic complaint, the case officer is recalled, and the recruiting officer's reputation at headquarters is destroyed.
+
+Kiriakou describes a station chief with more than 25 years at the agency who never had a target decline a pitch, and gives his own record across 15 years as identical. "Because if they say no, you're in a heap of trouble. You're probably going to get expelled from that country." The doctrine is total certainty before approach: "You have to be 100% sure that they're just as into this as you are." In his telling, the combination of careful target selection and relationship-first cultivation meant that by the time a formal pitch was made, the target was already effectively on board.
+
+The corollary is that a cold pitch, approaching a target without prior relationship development to reveal one's CIA affiliation and request intelligence, almost never works. "That is, I knock on your door, I say, 'I'm Bob from the CIA and I know who you are and I need this information from you.' That never works." The target's likely responses: suspicion that the case officer is actually an officer from a hostile service attempting entrapment, followed by flight, a call to their own service, expulsion, and an international incident.
+
+Running the asset
+
+A standing feature of post-recruitment asset management is the constant inflation of the asset's sense of his own importance: "In every single meeting ... you tell them how important they are. Your information is so important it's going directly to the President of the United States." In one documented Kiriakou episode, a station chief authorized him to produce a forged Certificate of Appreciation on Microsoft Word with clip-art, the CIA seal, and a forged Director's signature; the asset wept on being presented with it, was told the certificate had to remain locked in the station safe to protect him, and "was ready to name his kids after me."
+
+Case officers typically manage several targets in different phases of the cycle simultaneously: one recently spotted at a cocktail party, another three weeks into development, a third six months in and now socializing with both families. To maintain fidelity across these relationships, Kiriakou's practice was to write up each encounter the same night, going through a surveillance detection route back to the embassy after dinner and writing the report immediately, "even if I needed to be at the embassy until 1:00 in the morning." A related rule passed to him by a station chief early in his career: always carry twenty business cards, and hand them out constantly. The officer never knows in advance which contact will become an asset, which will provide a tip, or which connection will matter years later, volume of contact creates the network, and the network produces the intelligence.
+
+Payment in diamonds
+
+Where assets prefer non-cash payment, or operate in environments where cash transfers are traceable or impossible, the CIA accommodates: "It's not unheard of for somebody to want the money, let's say, in diamonds. And so, we've got a relationship with a guy who has access to the diamonds." The asset receives a set of diamonds in varying sizes and cuts, along with a phone number; the case officer's instruction is simply "Call Mike." To cash one in, the asset calls the number, hears that "Mike" is unavailable, and leaves a coded message, "Tell him that his Uncle Chuck says hello, and he hopes to see him at Christmas", meaning: meet in 24 hours at the designated location. A CIA officer arrives with an envelope of cash. Diamonds can alternatively be liquidated locally through legitimate jewelry markets.
+
+Operational vetting via NSA intercept
+
+A documented vetting technique relies on the National Security Agency's signals-intelligence capability to confirm whether a recruited asset is telling his case officer the truth. In one of Kiriakou's overseas tours, an NSA officer with whom Kiriakou had cultivated a relationship, and to whom Kiriakou had given a handful of phone numbers to intercept, also, on his own initiative, began intercepting the cellphone of one of Kiriakou's sources. He presented Kiriakou with a transcript of every call the source had made over a period of weeks. Kiriakou could then ask the asset about specific conversations he knew from the transcript had occurred:
+
+> If he says, 'Yeah, actually I talked to him on Tuesday,' you did? What did he say? And then he'll just parrot back. So I know he's telling the truth. That's called operational vetting.
+
+On the basis of the NSA-derived transcript, Kiriakou was able to certify to headquarters "with 100% certainty" that the source was reliable.
+
+Genuine vs. transactional friendship
+
+In approximately half of the recruitments in Kiriakou's career, the friendship cultivated with the asset became genuine on both sides. The other half were strictly transactional relationships with "genuine bad guys, genuine terrorists, murderers, psychopaths." Following Kiriakou's public emergence in 2007, two of his assets, both of whom had been recruited under alias, recognized him on television and re-established contact. One still sends Christmas cards.
+
+The case officer
+
+The CIA actively seeks recruits with what it calls "sociopathic tendencies", not full sociopaths, who have no conscience and cannot be managed, but people capable of operating in legal, moral, and ethical gray areas without being paralyzed by regret. Kiriakou described this as his own characteristic: "My sociopathic tendency was to operate in legal, moral, and ethical gray areas." He noted that most CEOs of large companies share the trait.
+
+The work requires both the assessment skill to identify exploitable vulnerabilities and the willingness to manipulate people, and not everyone trained for it can do it. A Kiriakou colleague, the son of a former CIA Deputy Director for Operations, was a natural in training and a top Arabic student in their language class together. Two months into his first operational tour he summoned Kiriakou to his neighboring country, burst into tears, and said: "This job is not for me. I can't manipulate people like this. I only did it because I thought my dad would be happy for me to follow in his footsteps." He resigned from the agency, became a nurse, and "has been happy ever since."
+
+When a target proves un-recruitable
+
+A scenario presented to CIA applicants during the hiring process: a case officer is tasked by headquarters with obtaining the latest Indonesian trade figures. The standard development sequence is followed; after nine months the case officer determines that the Indonesian economic officer being cultivated has no exploitable vulnerability, "he doesn't need any money, he doesn't have any kids, he's perfectly happy in his life, there's no hook for you to recruit him." The doctrinally correct response is:
+
+> You break into his embassy and steal it.
+
+The case officer writes back to headquarters, requests a locks-and-picks team, breaks into the target embassy at 2:00 a.m., disables the security cameras, removes the document, and exits.
+
+Counter-recruitment by allied services
+
+Liaison meetings between U.S. case officers and foreign intelligence officers are routine, Kiriakou conducted them on most days during his Pakistan posting, and ordinarily involve the trading of low-stakes operational information, such as the locations of safe houses. Nominal allies do, however, occasionally attempt to use the cover of a liaison meeting to conduct a recruitment pitch on the U.S. officer themselves.
+
+In one documented case, a French foreign intelligence officer arranged to meet Kiriakou not at a restaurant or coffee bar but at a residential street corner, then drove up at speed, reached across, opened Kiriakou's door, and ordered him to "get in." Kiriakou refused the maneuver on sight as a recruitment attempt rather than a liaison meeting: "I don't work for you, and you're not using tradecraft on me." He directed the French officer to the Pearl Hotel coffee bar and the meeting proceeded as routine. He never met that officer again.
+
+Case study: the Pakistan coffee shop
+
+Kiriakou has described recruiting an al-Qaeda-affiliated fighter, referred to elsewhere by the alias Mahmud, in Pakistan as a lived example of the whole cycle. He had received a tip that a group of mid-level al-Qaeda fighters met every day at a coffee shop at 10:00 a.m. With a bushy operational beard and flawless Arabic, he began attending the same coffee shop with an Arabic newspaper.
+
+Week one: eye contact only. Week two: a mutual nod. Week three, the man came in alone and Kiriakou invited him to sit. They talked. The man had been in Pakistan for five years, had been fighting in Afghanistan at Tora Bora, "it was hideous," his word, and had a wife and two children in Cairo. He had never met his son, born just after he left to make jihad. He was lonely and wanted to go home.
+
+Kiriakou moved the meetings to a restaurant, not wanting the man's colleagues to see them together at the coffee shop, and then broke cover in two stages: first, that he was not Lebanese but American; then, that he was a CIA officer. The man did not run or pull a weapon. He asked: "Why do you want me?" Kiriakou told him what he wanted, specific information. The man asked: "What will you do for me?" Kiriakou said: "Anything your heart desires." The man said: "I want to go home." In a separate telling of the same recruitment, Kiriakou puts the offer as sending him home "with a bag of money that'll weigh you down." He arranged a passport, a first-class ticket, and cash.
+
+At the airport, Kiriakou asked the man why he had agreed to give the information, why he had not simply fled the room. The answer: "I've been here 5 years, and you're the first person who ever asked me about my family." Kiriakou's lesson from it is that success is "all about the relationship," and that the CIA never trained him in the plain kindness the cycle actually runs on.
+
+Timelines: the American clock against the others
+
+Kiriakou identifies the length of the operational horizon as a structural difference between the CIA and the services it competes with, and warns against the habit of comparing like with like. American operations run on a very limited timeline, driven by the promotion system: an officer who does not make a recruitment does not get promoted, and if the recruitment has not happened in six or twelve months the officer moves on to the next target, the next issue, the next problem.
+
+The Israelis, Russians and Cubans, by contrast, "have a much longer term view where they'll pluck somebody out of obscurity... and they'll manage him for 20 years, 30 years, no matter how long it takes, they know that in the end, he's going to be able to report to them." Kiriakou offers Jeffrey Epstein as the example of an operation run on that horizon.
+
+Never asking until the answer is certain
+
+Kiriakou's clearest statement of why the pitch is the last step rather than the first comes from a training anecdote. An instructor told him that across "his entire 30-plus year career in operations, he never ever had a target say no to a recruitment." Kiriakou's reaction, "you must be like some kind of a magical wizard of recruitment", got a laugh and a correction. The moment of breaking cover, when you say "listen, I'm not really the economic officer here, I'm really a CIA officer," is irreversible: "you have to be certain that they're not going to run screaming from the room, calling for the police, reporting you to their ambassador. You're going to get arrested, you're going to get expelled, your career is going to come to a halt. You have to be 100% sure."
+
+That certainty is what the lunches, dinners, weekends, day trips and the friendships between wives and children are for, "to the point where you have figured out by now whether he has a vulnerability."
+
+On motive, he gives a flat proportion: "95% of recruitments are made for the money. Sometimes it's ideology. Sometimes it's this desire for excitement, they love James Bond, they want to be a part of it. Sometimes it's for revenge: they hate their boss, they hate their country, they hate their leader." And on scale, he says the budget follows the intelligence rather than constraining it: information good enough to locate the leader of al-Qaeda carries a reward of "between 10 and 25 million dollars that we will pay in cash, in gold, in diamonds, in land, any way you want to receive it."
+
+Why one recruitment worked
+
+The cycle is the same whether the person being brought in is a prospective staff officer or a terrorist to be run as an agent: spot, assess, assess vulnerabilities, develop the relationship, recruit. What the assessment is looking for is not leverage in the crude sense but the answer to a single question, what can be given to this person that will make him want to give up what is wanted. The inducements available range from a child's university education to medical care for a dying spouse.
+
+The recruitment Kiriakou says he was proudest of turned on none of them. Leaving Pakistan to return to the United States, he asked the mid-level al-Qaeda member he had recruited why he had allowed it. The answer was that he had been there five years and Kiriakou was the first person who had ever asked him about his children. "And that's all it was. It was that I was kind to him. Nothing more."
+
+Why blackmail is taught as a dead end
+
+Asked what he was told in training about coercive recruitment, Kiriakou set out the requirement the cycle is built around: "When you're trying to recruit an asset, you want that recruitment to be over the long term. And in order to have a successful long-term recruitment, you need to be able to trust each other. Even if you don't like each other, you have to at least be able to trust each other."
+
+On that basis his instructors were categorical, "we cannot get long-term working relationships going on the right track if we start with blackmail", while conceding it could still serve where the objective is merely to stop a target doing something.
+
+Access first, and money nearly always
+
+Asked whether a recruiter looks for the sociopath or the patriot, Kiriakou's answer is neither: "you're essentially looking for everybody. The key is you have to find a person with access." The agency will not put an officer inside al-Qaeda directly, but it can recruit an Arab who can convincingly join it, or let it recruit him, and run him as a double agent.
+
+On motive he is blunt about the proportions. Ideology accounts for very little; "most of the time, I'm going to say 95% of the time, it's money." Others do it for revenge, passed over for a job, wanting to hurt an employer or a government, and a few for the thrill: he describes one man who took ridiculous chances and refused to take any money at all. The money on offer scales with access: for an Iranian or North Korean nuclear scientist willing to be recruited while travelling, "the money that could come your way is more than you could ever imagine."
+
+The friendship problem
+
+The cycle's human cost is built into its last step. "In all honesty, about half of the people that I recruited over the years, in another life I would love to be friends with them. They were good people." But an officer cannot be, "because what you're going to do is at the end of your tour you're going to turn them over to your replacement, and he's going to be their best friend." The same logic runs through the trade generally: a seasoned case officer, he says, will tell you these are not true friendships, that "you don't allow yourself to become truly friends with somebody, you want that person to think that you're friends" so that he will commit espionage, or in some cases treason, for you.
+
+See also
+
+- Safe Housekeeper
+- Double-Agent Capture
+- The Farm
+- Case officer
+- Operating Directive
+- Surveillance detection route

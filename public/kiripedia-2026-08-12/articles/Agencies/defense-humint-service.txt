@@ -1,0 +1,13 @@
+Defense HUMINT Service
+======================
+
+Defense HUMINT Service is the Pentagon's human intelligence collection organisation, and John Kiriakou raises it as the load-bearing part of his argument that the CIA is redundant rather than simply unreformed. He introduces it with a warning about the initials, "a human collection outfit at the Pentagon called DHS, not the Department of Homeland Security but Defense HUMINT Services", and rates it flatly against Langley: "they recruit spies to steal secrets just as well as the CIA does."
+
+The argument it belongs to is one of duplication. On analysis, "the best analysis in the intelligence community does not come from the CIA, it comes from the State Department's Bureau of Intelligence and Research." On technical collection, "in terms of tech issues and interception, that's what NSA does." Which leaves the question he ends on: "so why do you have this redundant organization at Langley, that is actually sort of in charge of the intelligence community, when they're the ones getting it wrong all the time?"
+
+See also
+
+- Abolish the CIA
+- Central Intelligence Agency
+- National Security Agency
+- The SIGINT,HUMINT balance

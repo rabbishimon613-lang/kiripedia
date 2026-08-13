@@ -1,0 +1,71 @@
+Vault 7
+=======
+
+Vault 7 is the March 2017 WikiLeaks disclosure of thousands of pages of internal documentation from the Central Intelligence Agency's Directorate of Science and Technology. The documents were leaked by Joshua Schulte, a CIA computer engineer subsequently sentenced to 40 years in federal prison for espionage. The disclosure remains the largest public window into the agency's offensive technical capabilities and is described by John Kiriakou as having a scope that makes Chelsea Manning's 2010 disclosures "look like scrawl from a sixth grader." Kiriakou has summarized the CIA engineer's core disclosure in blunt terms: "the CIA can intercept anything from anyone." He says the leak revealed the CIA to be just as technologically capable as the NSA or FBI when it comes to violating the privacy of the American people, and that CIA Director Mike Pompeo called the revelation a "digital Pearl Harbor," while a former CIA deputy director separately described it as "akin to an intelligence Pearl Harbor", the single worst thing that had ever happened to the agency, given that the material amounted to its technological crown jewels.
+
+Capabilities disclosed
+
+Three categories of capability documented in Vault 7 are routinely cited by Kiriakou as exemplifying the gap between the agency's mid-twentieth-century mind-control experiments (see MK-Ultra) and its contemporary technical reach:
+
+- Remote vehicle takeover. "The CIA has developed technologies to, for example, remotely take over your car by hacking into the chip. Why would the CIA want to take over your car? To make you drive off a bridge, maybe? To make you drive into a tree and kill yourself?" Asked whether this capability had ever been operationally used, Kiriakou hedges that he does not personally know, but invokes the case of journalist Michael Hastings as the public touchstone: "We did not. But the conventional wisdom among the bloggerosphere is that, you know, we should ask Michael Hastings what happened to him." He has described the same capability elsewhere as letting the CIA "remotely take control of your car ... to make you kill yourself and make it look like an accident," and, elsewhere still, as taking control of a car's onboard computer system to force it off the road, off a cliff, or into a tree. A colleague of Andy Greenberg's at Forbes is said to have field-tested the capability and confirmed it worked.
+- Smart-television covert microphone. Technology to invert a smart television's speaker into a microphone "with the TV still appearing to be off, so you don't know that it's broadcasting everything that's being said in your house to CIA headquarters." Kiriakou has also linked the two capabilities directly to the 2017 Vault 7 leak in the same breath, describing a CIA smart-TV surveillance capability that persists even when the television appears off. He has told the same story elsewhere, describing the CIA's ability to hack Samsung smart TVs and iPhones alike as part of a broader shift of the agency into what he calls a paramilitary organization running assassination squads.
+- False-flag attribution. Tools to leave fragments of Russian-language or Persian-language code in foreign systems the CIA had compromised, so that subsequent attribution investigations would conclude the intrusion was Russian, Chinese, or Iranian when in fact it was American.
+
+Reception
+
+Kiriakou's view, stated repeatedly, is that the disclosure was the most significant public-interest release of CIA material in the post,Cold War period and that its principal lesson is the discontinuity between mid-twentieth-century efforts at coercive influence, such as MK-Ultra, and what the agency is technically able to do today: "Couple what the CIA was trying to do in the '50s with MK-Ultra and its subcomponents compared to what it is technologically able to do today. And it is terrifying. Terrifying." Kiriakou has separately said the sheer scale of what Vault 7 disclosed is only a fraction of the whole picture: "it's incalculable how much is out there that we don't know" beyond what the public has learned through leaks and whistleblowers.
+
+Kiriakou has also framed the underlying capabilities more approvingly in a different context, saying he wants his country's intelligence service conducting highly technical surveillance against adversaries such as Russia, China, and North Korea, citing the CIA's interception of Angela Merkel's cell phone as legitimate CIA work: "that's their job, that's what I want the CIA to be doing."
+
+CIA spying on the NSA
+
+John Kiriakou says the Vault 7 documents revealed not only car-hacking and smart-TV bugging but that the CIA was electronically spying on the NSA, something he "had to read twice." The agency's spokesmen, he says, dismissed it on MSNBC as a "training exercise."
+
+Former CIA analyst Ray McGovern has separately offered his own perspective on the Vault 7 disclosures, emphasizing the significance of the leak and its impact on public awareness of CIA activities.
+
+CIA,NSA functional overlap
+
+The Vault 7 disclosures also exposed, in Kiriakou's reading, the institutional fact that the CIA is running parallel offensive-cyber programs alongside the National Security Agency and DARPA (#), programs which should, by statute and by mission, sit within those latter agencies rather than the CIA. "Why is the CIA developing this stuff? This is NSA and DARPA that should be doing it. And NSA and DARPA are doing it, but the CIA is also doing it." He attributes the overlap to post-9/11 budgetary excess and bureaucratic pissing matches between agency heads:
+
+> Often times it's a bureaucratic pissing match where the Secretary of Defense will say, 'Well, CIA does its own thing for its own reasons.' ... When you have so much money that you can't spend it all in a fiscal year, you end up just replicating what the other guys are doing.
+
+Smart-television and car-hacking capabilities (additional detail)
+
+Kiriakou has repeated the same smart-TV and car-hacking disclosures in several other interviews, adding detail each time. He says the smart-TV capability existed when he was first hired at the CIA, making it old technology by the time Vault 7 became public in 2017, and that the same disclosures showed the CIA hacking target systems, including the Iranian Ministry of Interior, while leaving traces written in Cyrillic script to make the intrusion look Russian. He uses the same disclosures to make a broader point: every major country's intelligence service, British, French, German, Canadian, Australian, New Zealand, Russian, Chinese, Israeli, and Iranian, not only American, possesses comparable interception tools, and "nothing is secret. Nothing."
+
+Officer crackdown after the leak
+
+Kiriakou says the CIA, badly burned by the Vault 7 disclosures, responded by instituting a rewards program under which officers are paid to report colleagues suspected of considering whistleblowing, and has since begun using AI in an attempt to predict which officers might be inclined to leak.
+
+The Assange negotiation rumor
+
+Kiriakou recalls Ray McGovern's account that WikiLeaks founder Julian Assange let the CIA know he possessed the Vault 7 documents before releasing them, offering not to publish if he were freed, and that the CIA was reportedly willing to make that deal before it collapsed. In an earlier interview Kiriakou described hearing the same story only as an unconfirmed rumor: that Assange was negotiating with the CIA to withhold the Vault 7 documents, and that the negotiation was leaked, possibly by his own lawyer, to Senator John Warner, collapsing the deal.
+
+The 2023 summary
+
+Asked what a modern security service could do to a dissident, Kiriakou gave the Vault 7 inventory in three items, crediting the disclosure to "whistleblowers like Joshua Schulte, a CIA hacker."
+
+First, televisions: the CIA "can turn your smart TV into a microphone, they can remotely engineer the speaker on your TV to act as a microphone to listen to your conversations even when the TV is turned off."
+
+Second, cars: "the CIA can hack into the computer system of your car, take over the car, and force you off a cliff, off a bridge, into an abutment or a tree, and kill you. And there's nothing you can do to stop it."
+
+Third, everything else: "the CIA can take over any computer, even remotely, anywhere in the world, and use it against you. They can do the same with your phone, even when it's off, they can turn it into a microphone to listen to anything that you're saying."
+
+The comparison he draws is historical rather than technical: "can you imagine if the FBI had had that kind of capability in 1965? Or in 1967?", when bugging Martin Luther King meant entering a house and unscrewing a telephone receiver by hand. Asked whether fabricated evidence is now possible too, his answer was one sentence: "yes they can. They're called deep fakes."
+
+Breadcrumbs and false attribution
+
+Of the capabilities disclosed, the one Kiriakou singles out for explanation is the breadcrumb: "a false hint that's left on a digital trail... just one line of code or maybe even one word of code that's left for someone to find in a hack." The code is written in Russian, Farsi or Chinese, "so it doesn't look like the Americans or the Brits did this hack. It looks like the Russians, the Iranians, or the Chinese did the hack." He notes in the same passage that the collection is known internally as "the crown jewels of the CIA."
+
+On the vehicle-hacking capability he supplies the purpose rather than the mechanism, which he says was absent from the public explanations: the reason to take over the computer that runs a car is "to take over the car to drive you off a bridge or into an abutment or into a tree so that it looks like it was just a terrible accident when they find your dead mangled body. Or it looks like a suicide. It doesn't look like you were assassinated by remote control from a long distance by the CIA."
+
+His position on the disclosure is two-sided and he states both halves: "I for one am glad to know what the CIA can do against me as a private citizen. But at the same time, it exposes these highly classified secrets to hostile foreign powers." On the smart-television capability he offers himself as the example, noting that he is sitting fifteen feet from a Samsung set and that while he does not discuss classified material in his living room, "a lot of people do."
+
+See also
+
+- Three Felonies a Day
+- Joshua Schulte
+- Michael Hastings
+- Bluffdale NSA Data Center
+- MK-Ultra
+- Central Intelligence Agency

@@ -1,0 +1,6 @@
+Watermark
+=========
+
+A watermark, in this context, the near-invisible pattern of tracking dots that many printers embed on printed pages, is described by NSA whistleblower Reality Winner, in conversation on John Kiriakou's show, as the mechanism that led to her identification. Winner says an Intercept reporter handed her physical printed document to a contact at the NSA to "verify" it, rather than sending a photo or scan.
+
+Winner explains that everything printed from an office printer carries "a little invisible dot," similar to old fax-machine identifiers, that functions as a watermark, one that can be decoded "if you know what to do." She says the NSA knew what to do, and within moments was able to determine which specific office machine had produced the printout. Winner made the same point elsewhere in the conversation about her arrest itself, telling Kiriakou she was never read her Miranda rights. In the same conversation, Kiriakou names Terry Aubry as one of the two Intercept journalists he holds responsible for both his and Winner's prosecutions.

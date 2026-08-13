@@ -1,0 +1,238 @@
+Enhanced interrogation techniques
+=================================
+
+Enhanced interrogation techniques (EIT) was the official designation used by the United States Central Intelligence Agency for a set of interrogation methods authorized for use on detainees in the years following the September 11, 2001 attacks. John Kiriakou describes the program consistently as torture and the official terminology as a euphemism designed to insulate the responsible officials from legal exposure. In a December 2007 ABC News interview, Kiriakou became the first U.S. official to publicly confirm that the CIA had waterboarded detainees and the first to characterize the technique as torture; he was subsequently prosecuted by the Obama administration under the Espionage Act for an unrelated confirmation of a covert officer's name.
+
+Origins and timeline
+
+Kiriakou spent about fourteen and a half years at the CIA, first as an analyst and later, after growing bored with analysis, as a counterterrorism operations officer. After the September 11 attacks he became chief of the CIA's anti-terrorism operations in Pakistan, where he led the raid that captured Abu Zubaydah in March 2002.
+
+Kiriakou traces the program's origin to a cocktail party approximately one month after September 11, 2001, at which someone with proximity to the leadership of the CIA's Counterterrorism Center approached Director George Tenet and pitched a set of interrogation techniques. That person described two psychologists, Mitchell and Jessen, who had worked on the Air Force's SERE (survival, evasion, resistance, and escape) training program and had reverse-engineered its techniques for use against detainees. For $108 million, they would contract with the CIA and implement what they proposed to call "enhanced interrogation techniques."
+
+The CIA signed Mitchell and Jessen's contract in January 2002. Abu Zubaydah was captured in Pakistan in March 2002 and became the program's first, and initial, subject of Mitchell and Jessen's experimentation with the new techniques. On the strength of the capture, Kiriakou returned to headquarters in May 2002 to a promotion, a medal, and a cash award, and was named executive assistant to the CIA's deputy director for operations, a post that gave him access to nearly everything the agency was doing worldwide. EIT was first applied to Zubaydah on August 2, 2002, the same day Tenet won Bush's approval to transfer primacy over the interrogation from the FBI to the CIA. In one 2022 telling he dates the start of Zubaydah's torture a day earlier, to 1 August 2002, which is also the date he gives for Bush's signature on the authorizing order; the article records both without reconciling them. Kiriakou himself was approached and asked whether he would be certified in EIT during the first week of May 2002; he refused. His December 10, 2007 ABC News interview marked the first U.S. official public confirmation of CIA waterboarding.
+
+| Date | Event |
+|---|---|
+| September 11, 2001 | World Trade Center attacks |
+| Early October 2001 | U.S. bombing of Afghanistan begins |
+| Late October 2001 | Mitchell and Jessen pitch EIT to George Tenet at a cocktail party |
+| January 2002 | CIA signs Mitchell and Jessen's contract |
+| March 2002 | Abu Zubaydah captured in Pakistan |
+| First week of May 2002 | John Kiriakou personally approached and asked whether he would be certified in EIT; refused |
+| August 2, 2002 | EIT first applied to Abu Zubaydah |
+| December 10, 2007 | Kiriakou's ABC News interview airs, first U.S. official public confirmation of CIA waterboarding |
+
+While John Brennan, who later became Director of the CIA, has publicly opposed torture, Kiriakou identifies him in private as the senior architect of the program: "He's a guy who runs out and says, 'Yeah, we shouldn't torture people.' When he wrote the fucking torture, he was the godfather of the torture program." Brennan was part of the leadership structure that oversaw the program during the Bush administration.
+
+The techniques
+
+A central distinction in the program, and the basis of Kiriakou's recurring argument for selective prosecution, is between techniques authorized in writing by the Justice Department's Office of Legal Counsel and acts administered by individual CIA officers on their own initiative.
+
+The graduated list of approved techniques
+
+The ten authorized techniques were presented as a graduated list running from mildest to most severe, and the opening items were ones Kiriakou did not consider torture at all. First the "attention grasp", grabbing a prisoner by the lapels and giving him a shake while demanding answers; then the "belly slap," an open-handed smack to the stomach, also called an attention slap, that leaves a handprint and makes a loud cracking sound but does not hurt much; then an open-handed slap across the face meant to humiliate. From there the list ran up through walling in its formally designed variant, plywood with give, a rolled towel around the neck, and, at the far end, sleep deprivation (authorized up to twelve days continuous), the cold cell and waterboarding; the milder items Kiriakou has said were mostly "not something I would call torture." Of the top of the list he has consistently said that two of the techniques are worse than the one that became notorious. Kiriakou has confirmed directly that waterboarding, ranging on the approved list from what was called an "attention shake" up to waterboarding itself, was used on Abu Zubaydah.
+
+Asked in January 2013 to describe the program, he put the number of techniques at "something like ten," running "from the benign, you know, where an officer would grab a prisoner by the lapels and give him a shake, all the way up to the really rough things that we've heard about, like waterboarding." His own ranking placed two of the others above it: "or what I think is worse, sleep deprivation, or the cold cell ... I actually think those last two are worse than waterboarding." His argument against all of them was historical rather than legal: "these are techniques that we have condemned other countries for throughout history. The Japanese did this during the Second World War, the Belgians did it in Africa earlier in the century, the Chinese and the Vietnamese did it. These are techniques that we have always said were crimes against humanity, and then it was as though after September 11th everything changed, and we somehow had licence to do the same things we had been condemning."
+
+The techniques applied without authorization
+
+Kiriakou distinguishes sharply between the approved list and a second set of acts, which he says were used against most if not all of the CIA's high-value prisoners without ever having been authorized by the Justice Department or the President, and which almost no CIA officers, Kiriakou included, knew about at the time:
+
+- Forced rectal feeding with pureed hummus, "you can't force hummus upside someone's rectum."
+- Russian roulette with prisoners.
+- The Abu Zubaydah cockroach coffin, exploiting Abu Zubaydah's "irrational fear of insects," interrogators sealed him in a coffin with a box of cockroaches and nothing but a diaper, and listened to him scream, for ten days.
+- Sleep deprivation beyond the authorized window, authorized for up to twelve days, even though, per the American Psychological Association's own research, "people begin to go insane at seven days with no sleep, they begin to die of organ failure with nine days." People died of it. Kiriakou has noted that Defense Secretary Don Rumsfeld had a stand-up desk and claimed to work twenty-four hours without sitting, and did not believe prolonged sleep deprivation was unusual; Kiriakou's own assessment is that keeping someone awake for twelve days is torture.
+- The cold cell, never authorized as an EIT technique, and fatal to two prisoners. In Zubaydah's case, Kiriakou says his cell was chilled to ten degrees Celsius while he was held naked and chained to a ceiling bolt, with a bucket of ice water thrown on him every hour. Kiriakou says two prisoners were killed this way, deaths that never made the newspapers and for which no one was prosecuted.
+- Walling without the designed safeguards, supposed to use a rolled towel around the neck against a fiberboard wall; administered in practice with no towel, against a concrete wall. Muhammad Atar is now permanently brain-damaged and unable to participate in his own defense as a result.
+- Sexual assault using broomsticks.
+
+In late August 2023 the Department of Defense conceded that Ramzi bin al-Shibh, one of the 9/11 co-conspirators, cannot be tried, because the Pentagon's own psychiatrist has determined him clinically insane as a direct result of sleep deprivation.
+
+Kiriakou, reading the reports arriving at headquarters, describes Abu Zubaydah as having been moved from secret prison to secret prison, each one worse than the last: waterboarded without result, then blasted with light and loud music for seven days without result, then kept awake for up to twelve days, a duration Kiriakou notes usually leads to death, still without result.
+
+Rectal feeding and the exploitation of religious shame
+
+Kiriakou has separately described rectal feeding as an authorized technique administered with a specifically cultural rather than nutritional purpose: tubes were inserted and liquid food, he specifies hummus, was pumped in, exploiting the particular shame attached in Islam to nakedness and bodily humiliation, especially before women. He describes the deliberate use of female interrogators as a related humiliation mechanism: prisoners were stripped naked in the presence of women specifically because of those religious beliefs, combining nudity, cold-cell temperatures, and female presence to break religious dignity alongside physical endurance.
+
+Kiriakou describes sensory deprivation, an isolation tank with total silence, total darkness, and surrounding water, used for periods of up to three weeks, as, in his assessment, worse than waterboarding: "You're complete and total. Like you're dead."
+
+The range the phrase covered
+
+Asked in 2013 whether torture had in fact ended under Barack Obama, Kiriakou answered that the question could not be settled without settling the definition first, "it all depends on your definition of torture", and then gave the range the official phrase covered, from its mildest end to its worst:
+
+> "The enhanced interrogation techniques included everything from an officer grabbing the prisoner's lapels and giving him a shake, up to waterboarding and sleep deprivation and cold cell with ice water being thrown on you, or putting you into a dog cage and keeping you there for days at a time."
+
+His own answer on continuation is hedged rather than asserted: the president formally banned torture and tied interrogation to the U.S. Army Field Manual, but coercive techniques, he says, have not gone away.
+
+Kiriakou's refusal
+
+The offer
+
+Before EIT reached Kiriakou personally, the FBI had already spent six weeks building rapport with the wounded Abu Zubaydah at the secret prison holding him and had begun obtaining actionable intelligence, a method the FBI had practiced in custodial interrogations since the 1946 Nuremberg trials. The CIA judged that insufficient; Tenet asked Bush to remove the FBI from the site and give the CIA primacy.
+
+Kiriakou has given several closely related accounts of the offer he received to be certified in EIT, consistent on their essential facts though differing on the precise date, which he has given as May 6, 2002 and, elsewhere, June 6, 2002. In one telling, a friend from the Counterterrorism Center approached him informally in the CIA cafeteria at agency headquarters in May 2002: "Hey, I'm so glad I ran into you, I meant to ask, do you want to be certified in the use of enhanced interrogation techniques?" Kiriakou had not previously heard the term. The friend listed ten techniques, waterboarding, sleep deprivation, a "smack in the face," and others, and stated that "the President approved it and the Justice Department approved it." In another telling, he was approached while standing in the CIA cafeteria sandwich line by a senior officer who casually asked the same question, describing it as getting "rough" with detainees; asked what the phrase meant, the officer answered "We're going to start getting rough with these guys," and on hearing the description of the techniques Kiriakou replied, "Buddy, that sounds like a torture program." The officer's answer was that it was not, because the Justice Department had approved it and the president had signed off on it.
+
+In a 2015 telling he compresses the whole episode into two sentences, and dates his awareness of the program to his return from Pakistan, when he heard that Abu Zubaydah had been subjected to what were "then euphemistically called enhanced interrogation techniques": "I was asked by one of the leaders in the CIA's Counterterrorism Center if I wanted to be trained in the use of these techniques. I told him that I had a moral problem with them, and I did not want to be involved." A 2022 account gives the same sequence in a single line: asked on his return to headquarters in May 2002 whether he wanted to be trained "in the use of enhanced interrogation techniques", a term he had never heard, he objected once it was explained that it was a torture programme, said he had a moral and ethical problem with it, and moved to a different position. Elsewhere, Kiriakou has said it was his boss who told him directly that he would need to complete the EIT training to be promoted.
+
+The advice on the seventh floor
+
+Kiriakou asked for time to think, an hour, in one telling, went up to the agency's seventh floor (its executive level), and consulted a very senior CIA officer he had worked for a decade earlier in the Middle East. The officer's advice, closing, in one telling, on the flat question "Do you want to go to prison?", ran:
+
+> First of all, let's call a spade a spade, this is a torture program. And you know how these guys are: somebody's going to go overboard, and they're going to kill a prisoner. And when that happens, there's going to be a congressional investigation and then a Justice Department investigation, and somebody's going to go to prison. You want to go to prison?
+
+He has separately described seeking counsel from a respected senior CIA officer who agreed the proposed methods might cross dangerous moral and legal lines, after which he declined the training.
+
+The refusal, and the count
+
+Kiriakou returned downstairs and declined certification, telling his superiors "this is a torture program, I want no part of it", on the grounds, as he has put it elsewhere, that it was unethical, immoral and in his view illegal. In total, fourteen CIA officers were offered EIT certification; two initially declined and one of those two subsequently changed his mind and went on to torture people. Kiriakou was the only one who refused in the end, and, as he has put it, the only one of the group who ultimately went to prison. His reflection: "The crazy thing is I knew these guys. I was friends with these guys. Our wives were friends. Our kids played together. I had no idea that they had the ability to become monsters, murderers." One of the thirteen colleagues who agreed to the training came to him a day or two before it began and told him, when Kiriakou called it a mistake, that Justice Department attorneys had assured them it was not torture, to which Kiriakou replied only that they would have to agree to disagree.
+
+What it cost him
+
+The refusal cost him, at least at first. He was passed over for promotion, the CTC's chief, Jose Rodriguez, reportedly told the promotion panel that Kiriakou had displayed "a shocking lack of commitment to counterterrorism" for refusing to torture Abu Zubaydah. He moved to a different position, and colleagues began calling him "the human rights guy" behind his back, a nickname a boss told him "was not a compliment." A CIA colleague and friend, a brigadier general and psychiatrist, later told Kiriakou that officers turned against him from that moment in 2002, years before his 2007 whistleblowing. When the deputy director of the CIA learned Kiriakou had been passed over specifically for declining the torture training, he promoted him out of cycle, making him his own executive assistant, the post from which Kiriakou would go on to read the compartmented cable traffic from the torture site.
+
+The theory, and the justification
+
+Learned helplessness
+
+The theory underpinning many of the techniques, as conceived by Mitchell and Jessen, is "learned helplessness", a form of Pavlovian conditioning in which the prisoner comes to associate a sensory cue, such as the rolled towel placed around the neck before walling, with imminent impact, eventually crumpling on presentation of the cue alone.
+
+The ticking time bomb
+
+The program's standard public justification is the ticking time bomb scenario. Kiriakou rejects it on three grounds: it is illegal; there is no real-world equivalent of a ticking time bomb; and torture produces only what the prisoner believes the interrogator wants to hear, requiring months of analyst review to separate signal from noise, by which time any hypothetical bomb would already have gone off. He has described the broader practical problem with torture-derived intelligence in the same terms: it must be verified, consuming months of analyst time and generating false leads that let adversaries continue planning. Subjects under torture provide partial truths, "a kernel of truth", sufficient to stop the pain in the moment but designed to waste the interrogator's time.
+
+Selection, and revenge
+
+Kiriakou attributes the program's existence less to a genuine belief in its effectiveness than to two other forces. The first is a CIA personnel-selection failure: "You put sociopaths in positions of authority where they come to believe that they're above the law, and that because they're the good guys they can and should do anything that they want to do." He extends this characterization explicitly to Jose Rodriguez and to Mitchell and Jessen, all of whom he believes genuinely think they are the good guys. He traces this in part to CIA recruitment itself: a CIA psychiatrist once told him the agency actively seeks people with sociopathic tendencies rather than full sociopaths, since true sociopaths lack any conscience and are impossible to control (though they pass polygraphs), while people with sociopathic tendencies feel guilt and fail polygraphs but are nonetheless "still happy to break the law when it's in the national interest." Kiriakou has described his own hiring interview at the CIA, before a panel of a psychiatrist, a psychologist, and an anthropologist, in which he was asked what he would do if a recruitment target proved unrecruitable but had material the CIA needed on his office computer; he answered that he would break in and steal it, which the panel confirmed was the "right" answer. The second force behind the program, in Kiriakou's account, is revenge: CIA leaders who had spent decades building careers felt their legacies would be defined by the failure to prevent the September 11 attacks, and "had to do literally anything to stop them. And even if it's not to stop them, it's to pay them back for what they did." Kiriakou recalls a CIA supervisor whispering "Kill them all" to him as he departed for Pakistan in the months after 9/11, cited by Kiriakou as evidence that revenge, not intelligence-gathering, was the true motivator. "It's terrible. But we can't underestimate the role of revenge."
+
+Against the agency's own training doctrine
+
+Kiriakou has also noted the direct contradiction between the program and CIA training doctrine: operational training explicitly teaches that coercion and threats are never to be used in recruiting or handling sources, not only because they are unethical but because they are ineffective and can provoke violent retaliation. Recruits were trained instead that asset development works through establishing genuine friendship and rapport. Kiriakou describes CIA culture more broadly as pushing officers to see everything as a shade of gray, justified by the officers' sense that they are "the good guys", a framing he came to reject, insisting that some things, torture among them, are simply black and white. He has grounded that view in his own prior posting as the CIA's human rights officer in both Kuwait and Bahrain, where Congress has mandated an annual State Department human rights report for every country since 1977; in that role he once personally warned a Gulf interior minister against beating a 15-year-old protester to death for taking part in a pro-democracy demonstration. He illustrates the tension between that human-rights function and the CIA's operational culture with a hypothetical: a station chief walking into the same country and telling the government to ignore the human-rights officer, offering ten million dollars to build a torture chamber and hand over transcripts of whatever it produced. Kiriakou has separately noted that the same State Department human-rights reporting he once helped produce amounts, in his view, to a "smoke screen" alongside the CIA's simultaneous operation of secret torture sites.
+
+The Liberty University exam, and threats against children
+
+A colleague at Liberty University, where Kiriakou taught for several years as an adjunct professor of intelligence studies at the Helms School of Government, gave his students a final exam built around the ticking-time-bomb scenario. Its questions escalated progressively, would the student use enhanced interrogation on a captured terrorist to defuse a two-hour bomb; would he beat the terrorist's wife in front of him if the terrorist held firm; would he beat, or threaten to beat, the man's children, each requiring the student to explain the answer. In a separate telling of the same exam, the final question asked: "You've died and you're standing before the judgment seat of Christ and he tells you to explain your actions. What do you tell him?" Kiriakou described the question as leaving him speechless and said he still thinks about it years later.
+
+The exam's third question is the one with a real-world answer. Asked directly whether the program beat prisoners' children in front of them, Kiriakou drew a distinction he did not present as reassuring. "We've certainly threatened to do worse than just beat the children. I was unaware of any children being beaten, but yes, it was common to threaten to beat the children." The threat, on his account, was engineered so that it could not be disproved: "the children are always separated from the parents, so the parents don't know if the kids are being beaten or not. We would make that threat quite frequently."
+
+What television had done
+
+Kiriakou also identifies a cultural obstacle the program's critics faced at the time. Torture "had been romanticised" on television, and "in Hollywood, torture worked", with the result that "Americans did come to believe that torture worked. That was a big problem for us, actually."
+
+Who actually carried it out
+
+Contractors, not staff officers
+
+Pressed in November 2025 on how much of the programme was executed by staff officers rather than hired personnel, Kiriakou's answer was flat: "No, just about none of it was. They were all CIA contractors." The exchange arose out of a discussion of definitional evasion, the observation that an agency can truthfully deny doing something it has arranged for others to do, and Kiriakou's answer supplied the concrete case.
+
+The FBI's refusal to be in the country
+
+The FBI was so deeply at odds with the CIA over the program that its personnel would leave the country entirely rather than be present. Every time Mitchell and Jessen took charge of an interrogation session at a CIA black site, every FBI representative in the country would leave: "The FBI didn't even want to be in the same country where this torture was taking place."
+
+Two programmes, running in parallel
+
+Asked in 2025 which service had taught the other to torture, the CIA or the Israelis, Kiriakou rejected the premise. "As awful as it might sound, they were two independent programs running parallel with each other." While the CIA was developing its own, "I never saw an Israeli. I never heard reference to an Israeli. I never saw anything about Israelis in the reporting cables." What the United States did instead was outsource: the programme went to "two sick psychologists, contract psychologists, who reverse-engineered the US Air Force's SERE training so that they could exert the most amount of pressure, the most amount of force and pain, frankly, on prisoners."
+
+The distinction he draws between the two programmes is procedural rather than moral. The Americans performed a sequence in late 2001 and early 2002, to the CIA general counsel, then the Justice Department's Office of Legal Counsel, then the general counsel of the National Security Council, and "they at least pretended that they needed legal cover to allow themselves to do this." By contrast, "the Israelis don't follow anybody's rules," and "just go in with guns blazing."
+
+What the programme produced
+
+The fabricated Zubaydah result
+
+Kiriakou has described as an error his statement in the December 2007 Brian Ross interview that Abu Zubaydah had been waterboarded once and that the waterboarding produced intelligence. He now says this was incorrect, and that he said it because Mitchell and Jessen had reported to the CIA that they waterboarded Zubaydah once and he produced intelligence as a result.
+
+The reality, not revealed until 2005, when the CIA inspector general investigated: FBI interrogator Ali Soufan had been obtaining actionable intelligence from Zubaydah daily through rapport-based interrogation, cabling his findings back to the FBI. Those cables never reached the CIA because the FBI's and CIA's computer systems were incompatible with each other. On August 2, 2002, Director Tenet asked President Bush to transfer primacy over the Zubaydah interrogation from the FBI to the CIA. That same day, the CIA began torturing Zubaydah; he immediately went silent and stopped providing intelligence.
+
+Mitchell and Jessen then accessed the FBI's system, pulled Soufan's cables, retyped them into the CIA's system, and reported: "We waterboarded him once and look what he told us." The CIA internally learned of the fabrication in 2005, when the CIA inspector general opened an investigation into it, but the finding was not declassified and made public until 2009, seven years after the fact. Kiriakou describes himself as the first person to say on television that the CIA had tortured prisoners; Mitchell and Jessen, by contrast, had been lying about the program's results through official CIA channels, a deception that Kiriakou and other CIA officers did not learn about until the inspector general's report was released in 2009.
+
+Kiriakou has said, citing journalist Ron Suskind, that Bush had separately asked Tenet, regarding the importance of the Zubaydah case, "you're not gonna make me lose face on this are you", and that Bush went on to invoke Zubaydah repeatedly when defending the program. Senate Torture Report footnotes, according to Kiriakou, show that Tenet repeatedly tried to brief Bush directly on the program but was rebuffed each time by Dick Cheney, who told Tenet he had already briefed the president himself; it later emerged that Bush had, in fact, never been briefed by Tenet at all. Kiriakou has cautioned that the Senate report does not confirm the specific Suskind "lose face" quote, but does document that Bush approved the full program as presented, with nobody at the White House striking anything out.
+
+Why Kiriakou says torture does not work
+
+Kiriakou states flatly, across numerous interviews, that torture does not produce actionable intelligence, and that its ineffectiveness has been conclusively demonstrated by both the American Psychological Association and the American Psychiatric Association. His argument is mechanical rather than purely moral: a tortured prisoner will eventually say anything to make the pain stop, mixing a kernel of truth with large amounts of fabrication, which then forces a team of analysts to spend months separating fact from fiction, time during which any real plot continues unimpeded. As an illustration of prisoners inventing information under duress, Kiriakou has cited John McCain, who under torture as a Vietnam-era POW falsely named the starting offensive line of the Green Bay Packers as members of his military unit, information his captors dutifully wrote down.
+
+By contrast, Kiriakou credits the FBI's rapport-based approach, treating a prisoner with respect and engaging him in conversation over time, as the method that actually produces results, and states that this is what worked in practice even inside the CIA's own program. His most compressed statement of the whole argument sets the two methods against each other in a single breath, and is unusual in giving both the verdict and the ledger. The verdict: "The entire program was a criminal act. This was a war crime or a crime against humanity. It's a dark stain on the modern history of the United States." The ledger: "not only was it morally, ethically, and legally wrong, it was a failure in that literally no actionable intelligence was collected using these torture techniques. The only actionable intelligence that was ever collected was collected by the FBI, by sitting across the table from Abu Zubaydah and giving him a cigarette and a cup of tea and some dates and a pen and paper to write a letter to his mother." Against that he sets the full list of what did not work: "to beat him and waterboard him and drown him and try to shoot him in the head and slam his head against the wall and put him in a coffin, none of that worked." He roots the FBI's method in the Federal Torture Act and the Nuremberg trials of 1946, and argues that torture demeans the country undertaking it even when, hypothetically, it produces something usable, since the product still cannot be used in court, permanently foreclosing prosecution of detainees such as Khalid Sheikh Mohammed. He has drawn a direct line from that failure to later diplomacy: when President Biden raised the killing of Jamal Khashoggi with Saudi Crown Prince Mohammed bin Salman, the crown prince responded by pointing to Abu Ghraib and Guantanamo, a rejoinder Kiriakou says was fair.
+
+The rooms before the programme
+
+Kiriakou has described the interviews he personally conducted in Pakistan as belonging to a different regime from the one that followed, and marks the boundary explicitly. His own rooms were plain, a table with an eyebolt set into it so a prisoner could be chained to it, and nothing more. Asked whether the metal table was deliberately cold, he answered that this came later, in the secret sites.
+
+His account of his own method is rapport rather than pressure: "I was always the good cop at the CIA," conducting the first interview himself in Arabic and opening every time with a greeting and a question rather than a demand. He presents the first man who agreed to cooperate as evidence for what that produced, border-crossing routes described foot by foot and the addresses of safe houses that were subsequently raided, and it is against this that he sets the claim that coercion was unnecessary.
+
+Deaths in custody
+
+CIA physicians from the Office of Medical Services were nominally present to monitor prisoners' health during interrogations, but Kiriakou says at least three prisoners were confirmed killed by CIA officers or contractors, with reports of as many as eighteen deaths in CIA custody. Their function at the secret sites, on his account, was not to prevent torture but to stop an interrogation just short of the point a prisoner would break, so the prisoner could rest before being tortured further.
+
+When prisoners died during EIT sessions, fatalities occurring particularly from hypothermia in the cold cell and from organ failure under prolonged sleep deprivation, the standard disposal procedure at the secret site was on-site burial: "When people would die, they would just dig a hole next to the interrogation building, put him in the hole, cover it up, and then bring the next guy in." In at least one documented case, disposal was delayed pending direction from headquarters; the instruction relayed was "put him on ice until we can figure out what to do," which personnel on the ground interpreted literally, placing the body in a bathtub filled with ice until it began to decompose.
+
+Kiriakou, from his post as Executive Assistant to the CIA's Deputy Director for Operations, disclosed receiving a cable reporting that a prisoner held in a cold cell "didn't make it through the night." The facility did not know what to do with the body: it could not be buried locally, and it could not be returned to the man's family. Personnel packed the body in ice and cremated it; the man's existence was effectively erased.
+
+Authorization, legal architecture, and accountability
+
+The program was not a rogue operation. According to Kiriakou, torture was official U.S. policy, personally authorized by President George W. Bush, who signed off on the program and its specific techniques. Kiriakou describes this as a distinction that matters: the people who designed and conducted the program were following orders from the highest level of the executive branch, not acting outside sanctioned channels. Bush signed the executive order authorizing EIT on August 1, and Kiriakou has said the book he co-wrote noted indications that torture actually began before that date, in anticipation of the president's signature.
+
+Kiriakou describes the legal architecture around the program as a deliberate reinterpretation of existing law. The Federal Torture Act had been on the books since 1946, with documented enforcement history including the execution of Japanese soldiers after World War II. In 2002, Justice Department opinions effectively suspended that history: "But then in 2002, like magic, it's all legal." Kiriakou dates this specifically to laws that have "since 1946" outlawed exactly the techniques he was told were legal in 2002, calling their authorization "egregiously illegal" in his own assessment, a judgment he says led him to refuse the training even before he left the agency to wait, unsuccessfully, for someone else to speak publicly. He argues that Justice Department legal memos, including those authored by Jay Bybee and John Yoo declaring the program legal, did not actually make it legal, since the underlying interpretation of the law was never tested or challenged in court. Kiriakou has separately stressed that his refusal was not about defending classified information, an oath he says he never took, but about his oath to defend the Constitution against all enemies domestic and foreign, and his unwillingness to break U.S. law even in a job that otherwise required breaking foreign laws. Even so, Kiriakou draws a hard line around what the Justice Department did and did not sanction: it never authorized smashing prisoners' heads against a wall until they suffered brain damage, freezing them to death, or keeping them awake until their organs failed and then burying them in a ditch beside the interrogation building, nobody at the CIA, he says, ever had permission to do that. He has separately stressed that the CIA has never historically been in the business of interrogation and had no training or institutional mandate for it, with narrow exceptions during the Vietnam War and, after September 11, the enhanced interrogation program itself.
+
+Nothing obtained under EIT from Khalid Sheikh Mohammed, Abu Zubaydah, Ramzi bin al-Shibh, or Abd al-Rahim al-Nashiri is admissible at trial, "because the CIA tortured it out of him." This has left the U.S. government with the choice of holding the detainees indefinitely without charge or releasing them. Kiriakou has said the CIA maintained a "high-value targets" (HVT) list within its Counterterrorism Center, and that individuals on it, once captured, were sent to a network of secret prisons the CIA had established around the world. Arrangements for those prisons were handshake deals struck directly between the CIA director and the head of the host country's intelligence service, agreements sometimes concealed even from that country's own president or prime minister. Kiriakou has separately described the CIA's secret prisons collectively as an "archipelago," where detainees who died in custody were cremated and their existence effectively erased. Once torture began on Khalid Sheikh Mohammed, his son-in-law Ammar al-Baluchi, and Ramzi bin al-Shibh, Kiriakou says all three either stopped cooperating (if they had previously been talking to the FBI) or began giving deliberately useless, garbled answers, evidence, in his view, that the program set U.S. intelligence back and left Americans in more danger, not less.
+
+White House counsel Harriet Miers explicitly told Jose Rodriguez, then CIA Deputy Director for Operations, and Gina Haspel, then head of counterterrorism, not to destroy the videotapes of the torture sessions. As soon as Rodriguez and Haspel returned to CIA headquarters, they put all the tapes through an industrial grinder and destroyed them. Several of the program's architects later co-authored their own book defending the program in response to the Senate torture report, which Kiriakou dismisses as an attempt to justify torture that instead sealed the authors' reputations.
+
+According to Kiriakou, the program ran for approximately four years before being shut down in 2006. The internal determination was that the information obtained under torture "wasn't amounting to anything." Kiriakou attributes the shutdown decision to CIA Director Porter Goss.
+
+What the cables said, and the silence that followed
+
+Kiriakou's position at the time gave him an unusual vantage: promoted on return from Pakistan to executive assistant to the CIA's deputy director for operations, he had access to "literally everything that the CIA was doing around the world", and read the torture reports as they came back. His expectation was that the programme would collapse under its own witnesses, "surely people are going to see how patently illegal this is. Somebody's going to go public."
+
+The cables gave him grounds for that expectation. Officers at the secret site wrote back that watching Abu Zubaydah be tortured "made them vomit"; one woman fainted; one doctor complained that "this is not why I joined the CIA, I joined the CIA to serve my country, not to participate in this." Kiriakou has documented one of those episodes from the receiving end: a CIA secretary fainted during an Abu Zubaydah interrogation session and subsequently "curtailed her assignment," sending an unprompted cable to headquarters announcing her return, "a career-ending decision to curtail an assignment." Declassified CIA cables and the Senate Torture Report likewise confirm that some physicians, psychologists, and psychiatrists internally objected to the program, with some electing to return to headquarters rather than continue participating, but that none of them went public; the only thing CIA officials ultimately told the Senate Intelligence Committee was that torture simply did not work.
+
+And then nothing happened. A couple of people curtailed their assignments, saying they could not work there any more and coming home, which Kiriakou notes is "a career-ending decision", "but nobody went public." He left the agency about two years later "still waiting for somebody to go public", and spoke himself in December 2007, five and a half years after the first session. Those curtailments demonstrated, in his telling, that he was not alone in his moral assessment of the program, and yet "certainly somebody's going to come out and say something. And nobody did."
+
+Kiriakou has given a further reason for his own five years of silence: Mitchell and Jessen continued reporting from the field that they were gathering actionable intelligence that was saving American lives, a claim Kiriakou, with access to nearly all CIA reporting worldwide, never saw reflected in anything that actually crossed his desk. He left the CIA in 2004 for the private sector, partly to earn money to put his five children through college, and waited for someone else to reveal the program publicly; when no one did, he eventually went to ABC News himself.
+
+The legal theory behind his disclosure was that the secrecy was itself unlawful: "it's illegal to classify a crime. You can't put a classification on a program that is illegal to begin with. That's a felony."
+
+Going public, and the prosecution that followed
+
+The call from Brian Ross
+
+Kiriakou's public involvement began with a call from ABC News reporter Brian Ross in early December 2007, claiming a source said Kiriakou had personally tortured Abu Zubaydah. Kiriakou denied it, telling Ross he had never laid a hand on any prisoner and was, in fact, the only person who had been kind to Zubaydah. Days later President Bush, asked by a reporter, looked into the camera and said, "We do not torture", a statement Kiriakou regarded as a lie. When Bush was separately asked about torture allegations days later while walking to a helicopter, he suggested any torture would be the work of a "rogue CIA officer." Kiriakou concluded that Ross's original source was inside the White House and that the administration intended to pin the story on him; he decided to go public rather than wait to be blamed. When Kiriakou went on ABC News to make his allegations public, the CIA did not attempt to stop the broadcast; instead, the agency told ABC to air the interview while publicly denying that any torture program existed. He has said his one substantive regret about the interview was being too nuanced, that a message like "we are torturing prisoners" needs to be delivered bluntly, not hedged.
+
+"Look forward, not backward"
+
+Kiriakou says the Obama administration then made an explicit decision, in the president's own words, to "look forward, not backward", protecting the torturers themselves, the officials who designed the program, those who funded it, and the members of Congress who approved it, from any accountability. Kiriakou was 43 years old when he blew the whistle. He has pushed back on the CIA's preferred public image, that officers sat around and casually decided to torture people, insisting instead, without discussing specific techniques, "we don't torture people," while separately acknowledging that waterboarding was used on Khalid Sheikh Mohammed. He has also noted that critics of the program tend to forget the palpable, uninformed fear that gripped the CIA in the aftermath of September 11, when so much about the threat remained unknown. He argues Obama's own pursuit of him personally stemmed from a combination of the president's inexperience (only two years as a U.S. senator before taking office), his reliance on John Brennan, whom Kiriakou calls a war criminal, for intelligence expertise, and what Kiriakou describes as a "Nixonian obsession" with plugging national-security leaks. Of the eight whistleblowers charged with espionage during the Obama administration, Kiriakou says two or three were arguably closer to genuine foreign-agent cases, one tied to China, one to South Korea, but that the majority, himself included, were pure media-leak whistleblower prosecutions.
+
+The charges, and the plea
+
+Kiriakou says he personally faced up to 45 years in prison, and that this was the Justice Department's own initial plea offer. A Justice Department official involved in his case, who later became deputy attorney general for the criminal division under President Biden, and whom Kiriakou has declined to name publicly, told him directly to take the 45-year offer, saying, "Take the 45 years, Mr. Kiryaku, and you may live to meet your grandchildren." He was ultimately charged with three counts under the Espionage Act, all of which were dropped because, in his account, he had not committed espionage; his lawyers told him the prosecution's real purpose was to frighten other potential government whistleblowers. He was instead found guilty of a single count of violating the Intelligence Identities Protection Act of 1981, for confirming the name of a former colleague to a journalist who never made the name public.
+
+Nobody prosecuted
+
+As of the most recent source in KiriPedia's corpus, no CIA officer has been criminally prosecuted in connection with any technique applied under the program, authorized or unauthorized: "Here we are twenty-two years after 9/11, literally no one has been prosecuted for that crime. No one. Nor will anyone be prosecuted, because the CIA ensured that no prosecutions could be carried out." Mitchell and Jessen's 2001,2002 contract with the CIA, to develop the program from their reverse-engineering of U.S. military SERE training, was worth $108 million: "We paid those guys $108 million to say, 'Oh, we think you should torture people. Here are the torture techniques. Just let us know when you want us to start.'" The only person to have served federal prison time in connection with the program is Kiriakou himself, for an unrelated Espionage Act prosecution.
+
+The CIA's program is also documented, in brief, in the 2014 whistleblower feature documentary Silenced: the agency initiated a program referred to as "enhanced interrogation techniques," which Kiriakou has publicly referred to as torture.
+
+The 2015 forecast, and what came after
+
+Asked shortly after the Senate report's release whether the agency would now give the practice up, Kiriakou said it would, and grounded the prediction in exposure rather than in law or in conscience: "I do believe that the CIA will abandon torture, not just because it's illegal, but because the truth always has a way of coming out. And I don't think the organization can withstand another revelation that they had yet again begun a torture regime."
+
+It is recorded here as a forecast made in February 2015, not as a finding. Kiriakou says he still receives worrisome reports, mostly from Afghanistan and occasionally from Syria and Somalia, that CIA, Homeland Security, and military personnel continue torturing prisoners without facing punishment.
+
+See also
+
+- Jane Harman
+- Guantanamo, Origin Account
+- Gina Haspel
+- Hummus
+- Walling
+- Cold cell
+- Sleep deprivation
+- Ticking time bomb scenario
+- Mitchell and Jessen
+- Abu Zubaydah
+- Ramzi bin al-Shibh
+- Muhammad Atar
+- John Brennan
+- Jose Rodriguez
+- John Kiriakou
+- Senate Torture Report
+- Central Intelligence Agency
+- Espionage Act

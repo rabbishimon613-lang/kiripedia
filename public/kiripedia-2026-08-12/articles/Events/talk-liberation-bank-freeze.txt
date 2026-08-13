@@ -1,0 +1,22 @@
+The Talk Liberation bank freeze
+===============================
+
+In September 2022 the Reykjavík bank holding the accounts of Talk Liberation, the company developing Panquake, froze them without warning. John Kiriakou, the platform's brand ambassador, declines to identify the institution: "we're not going to name the bank, there's no reason to, we call it bad Banky."
+
+The frozen account held the company's seed funding, which Kiriakou describes as "the lifeline, the company's lifeline." The bank's stated grounds were suspected money laundering and "maybe even terrorist financing", "all of that was nonsense, of course."
+
+Kiriakou's reading
+
+Kiriakou labels his interpretation explicitly as opinion rather than finding, noting that he is neither an investigator nor an attorney: "my own opinion is that this had to come at the behest of a government. Banks don't just freeze assets for no reason."
+
+Effect and aftermath
+
+The company had no choice but to redirect its resources from development to fighting the freeze, and Kiriakou says the platform would have been running by the time of this interview had that not happened. Talk Liberation retained Icelandic attorneys who had won cases there before and pursued legal remedies. Elsewhere Kiriakou identifies the lawyers more precisely, they were the Iceland attorneys who had acted for WikiLeaks, and reads the whole episode through that lens, calling it "like a WikiLeaks style thing." On that telling the company won, the money was unfrozen, and the damage was to the product schedule rather than the company: the freeze "set us back a little bit in terms of our product rollouts, but that's okay, because we've won at each step of the way." By March 2025 he described the company as valued in the millions of dollars with dozens of employees.
+
+The bank subsequently unfroze the accounts, which Kiriakou reads as an admission: "that just proves that Panquake had done nothing wrong in the first place, so it's time to pay the piper," with the matter still working its way through the Icelandic courts. The detail he returns to is that the company did not merely survive: "the company actually grew while the company's accounts were frozen. That says a lot."
+
+See also
+
+- Panquake
+- Suzie Dawson
+- John Kiriakou

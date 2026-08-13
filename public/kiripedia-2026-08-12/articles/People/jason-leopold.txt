@@ -1,0 +1,42 @@
+Jason Leopold
+=============
+
+Jason Leopold is a U.S. investigative journalist, currently at Bloomberg, previously at Vice and the Los Angeles Times. John Kiriakou describes him as "absolutely brilliant. He's a gifted writer. He's a dogged investigator and breaks big stories. He's the one who broke the Hillary Clinton email server story."
+
+Method
+
+Leopold's signature technique is the use of large-scale Freedom of Information Act requests, followed by lawsuits when the receiving agency fails to respond within the statutory window. "He files these gigantic Freedom of Information Act requests knowing that the agency is never going to respond within the 60 days or 90 days or whatever it is. And so he sues them every time and he wins every time."
+
+The CIA Office of Public Affairs FOIA
+
+Leopold filed a FOIA request for all correspondence between the Central Intelligence Agency's Office of Public Affairs and American journalists over a defined date range. The CIA declined to respond; the resulting judgment compelled the disclosure of the full correspondence. Two documented findings from the disclosure:
+
+- Threats in lieu of recruitment. A reporter who had written a story considered unfavorable received an email warning that publication would result in permanent loss of the Christmas-party invitation list and of any future agency comment on the reporter's stories. The reporter withdrew.
+- Pre-publication clearance. Ken Dilanian, the chief national-security correspondent at NBC and MSNBC, was found to have sent his own articles to the CIA for clearance before sending them to his own editor.
+
+The Balochistan drone base disclosure
+
+A second documented operational case from Leopold's FOIA technique: in approximately 2024,2025 he identified the location of a previously top-secret CIA drone surveillance base in Balochistan, southwestern Pakistan. Per Kiriakou:
+
+> He read somewhere that drones use a certain kind of aviation fuel. And so he just did a Freedom of Information Act request to the Pentagon for the locations of all of the deliveries of this aviation fuel. And millions of dollars of fuel were going into this desert base in southwestern Pakistan, this top-secret base that's not top-secret anymore because the Freedom of Information Act has told us so.
+
+"FOIA terrorist"
+
+Leopold has been described publicly by a Pentagon spokesman as a "FOIA terrorist", a characterization tied to having filed "more FOIA requests than any other person in American history."
+
+The FOIA king and the CIA-journalist emails
+
+John Kiriakou calls Jason Leopold the "king of the Freedom of Information Act," dubbed a "FOIA terrorist" by a Pentagon spokesman, in an open press conference, per Kiriakou's fuller retelling, for filing more requests than anyone on earth. Bored one Christmas, Leopold requested all CIA-reporter communications for the prior year; when the CIA missed its statutory 60-day response window, he sued on day 61, won, as he does "every single time", forcing the CIA to pay his legal fees and release the records within 30 days. The resulting trove included Ken Dilanian clearing stories and the agency threatening to blacklist a journalist who had a real story. Retelling it, Kiriakou dates the request to around Christmas 2015, names Leopold's attorney as Jeffrey Light, now retired, and who "never ever ever lost a FOIA case", and sets out the arithmetic that makes the tactic work: the agency has sixty days, so "when day 60 comes, you have to sue them. And you will always win... because the law is clear." The judge then makes the agency pay the legal fees. He contrasts it with his own request, filed fifteen years ago and still pending precisely because he never sued: he had wanted to write about a man he believes was a CIA officer in the early 1950s who became a science-fiction author, had a mental breakdown and killed himself, a possible MK-Ultra victim whose name he says he no longer remembers.
+
+Kiriakou also credits Leopold, rather than WikiLeaks, as the source of many of the most scandalous Hillary Clinton emails, obtained via a separate FOIA release from the State Department, including messages showing Sidney Blumenthal advising Clinton on the Libyan war and warning her that allied forces were "rounding up blacks and murdering them."
+
+'FOIA terrorist' and the CIA-journalist correspondence dump
+
+John Kiriakou says Jason Leopold has filed "more Freedom of Information Act requests than anybody else in the world", to the point that George W. Bush's Pentagon spokesman publicly labelled him a "FOIA terrorist" and, in Kiriakou's telling, threatened him over his use of the statute. Kiriakou says Leopold's practice is to file the request, wait sixty statutory days for a response, and file a federal suit on day 61 when, inevitably, none has arrived: "He always wins, and the CIA always has to pay his legal fees." Kiriakou attributes to Leopold both the breaking of the Hillary Clinton private-email-server story and the FOIA-driven exposure of Ken Dilanian's practice of sending drafts to the CIA before sending them to his own editor.
+
+See also
+
+- Operation Mockingbird
+- Ken Dilanian
+- Balochistan drone base
+- Central Intelligence Agency

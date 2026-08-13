@@ -1,0 +1,37 @@
+Bill Binney
+===========
+
+Bill Binney is the former technical director of the NSA, its fourth-ranking official and, John Kiriakou says, one of the country's leading thinkers on internet privacy and the most brilliant person he has ever met on electronics. The two are friends.
+
+The DNC analysis
+
+The examination was commissioned. Veteran Intelligence Professionals for Sanity, of which both men are members, asked Binney to look at the science behind the claim that Russia had hacked into the DNC computers. Binney's conclusion, which Kiriakou relays explicitly as a layman, was that the speed at which the material moved made a remote download impossible; the only way to shift it that fast was for somebody to physically insert a USB thumb drive, which means the person who did it was standing inside the DNC, and that person was the whistleblower. Kiriakou uses the analysis as a pillar of his case against Russiagate.
+
+Binney's second, simpler point, which Kiriakou endorses on the grounds that Binney is one of the country's foremost authorities on the question, is that a real hack leaves an electronic trail leading straight back to the perpetrator, however good the Russians might be. No such trail was ever produced; what the public was offered instead was the intelligence community's word for it.
+
+The evidentiary side compounds it. Binney raised the point that the DNC never gave the FBI direct access to its servers, handing over only a copy, and that this breaks the chain of custody. Kiriakou confirms the consequence: evidence must pass from its point of origin directly to a law enforcement official and stay in law enforcement hands until it reaches the Justice Department for final disposition. Broken, the information arrives at the FBI useless, unusable in an investigation or in a court of law, regardless of how often the word forensic is attached to it.
+
+The argument reached the president directly. Kiriakou said in October 2018 that Trump had asked Binney to come to the Oval Office six or eight months earlier and explain the science behind what Kiriakou prefers to call the DNC information release rather than a hack.
+
+Whistleblower
+
+Kiriakou cites Binney's own treatment as emblematic of how the government responds to national-security dissent: Binney, he says, was pulled naked out of a shower by the FBI and handcuffed behind his back with one leg raised, treatment Kiriakou calls absurd given that Binney posed no plausible danger to the American people.
+
+He also places Binney inside a lineage and a social circle. Binney and Kirk Wiebe at the NSA, alongside Tom Drake and Jesselyn Radack at the Justice Department, came before Kiriakou, and behind all of them stands Daniel Ellsberg, the godfather of American whistleblowers. One of the strange things about entering that world, Kiriakou says, is that it functions as a club: Ellsberg, Binney, Wiebe, Ed Loomis, Drake, Radack and others have all become friends, stay in close touch, and those in the Washington area meet socially and often. The support network is not optional, nothing makes a person feel more alone, more isolated and more endangered than blowing the whistle on something touching national security, and without it, he says, you literally could not get through it.
+
+Havana syndrome
+
+John Kiriakou names Binney, whom he describes as a renowned NSA whistleblower, the agency's former number four, and "a great hero of transparency", as one of the documented cases of Havana syndrome, with brain damage on record. He cites Binney alongside the former Moscow station chief Mark Polymeropoulos as evidence that whatever is causing the injuries is being directed at people with access to very high-level classified information, and against the CIA's own finding that the cause was crickets.
+
+On the difficulty of attacking him
+
+Discussing what a campaign against Panquake would look like, Kiriakou treated Binney''s presence on the team as a technical asset and a reputational problem for the other side. On the technical question of resisting NSA attacks, "Bill Binney''s on the team, Bill can go into some deep detail on that kind of thing. He''s a genius on that."
+
+On the smear campaign he expected, he described Binney as effectively unassailable on the merits: "how else are you going to attack the former number four at NSA, NSA''s technical director, who''s arguably one of the greatest minds in America on the issue of internet security and privacy? How else are you going to attack him?"
+
+See also
+
+- Russiagate
+- Veteran Intelligence Professionals for Sanity
+- Daniel Ellsberg
+- Craig Murray

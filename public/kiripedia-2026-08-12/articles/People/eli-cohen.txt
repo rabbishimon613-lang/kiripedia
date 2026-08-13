@@ -1,0 +1,48 @@
+Eli Cohen
+=========
+
+Eli Cohen was an Israeli MOSSAD spy who infiltrated Syrian society in the early 1960s. John Kiriakou invokes the operation as the foundational model for MOSSAD's later recruitment of Jeffrey Epstein: "It's the same playbook. We're going to put you in another country. We're going to make you an extremely wealthy businessman. Go throw lavish parties. Here's as much money as you need. Get connections everywhere. And then you've got to feed it back all day long."
+
+Recruitment
+
+Cohen was a barber who spoke Arabic fluently, and specifically with a Syrian accent. When he first volunteered to MOSSAD, the service turned him away: "What do you do? I'm a barber. Yeah, thanks. We're not interested in recruiting barbers." He kept volunteering. Eventually the service tested his Arabic. He could speak "fluent, flawless Syrian Arabic." Mossad told him: "Okay, we're going to send you to Damascus. We're going to give you money. You're a businessman. Have big lavish parties and invite everybody."
+
+Penetration
+
+Cohen operated in Damascus as a wealthy Syrian-Argentine businessman, building relationships with senior Syrian political and military figures through lavish entertaining. His penetration ran so deep that he was on the verge of being named deputy defense minister of Syria, while remaining an Israeli citizen and a deep-cover Mossad agent working from roughly 1958 to 1966.
+
+Detection and execution
+
+Cohen's method of reporting to MOSSAD was burst transmission, recording intelligence into a radio concealed inside a piece of furniture such as a dresser, then triggering a transmission lasting approximately one second that conveyed all accumulated material to his handlers.
+
+A KGB officer stationed in Damascus became suspicious, finding Cohen "just a little too slick; there's something wrong about him." A vehicle-mounted signals sweep of his neighborhood detected the burst. The KGB reported to Syrian intelligence: "He's a spy and it's probably for the Israelis." Cohen was arrested and publicly hanged in a Damascus public square.
+
+The Epstein parallel
+
+Kiriakou identifies Cohen as acting from patriotic conviction, "He did it. He volunteered repeatedly", distinguishing him from Jeffrey Epstein, whose primary motivation Kiriakou describes as money. The operational template, wealthy cover, lavish entertainment, high-society access, is identical in Kiriakou's analysis.
+
+The Spy
+
+Cohen's story is dramatized in the Netflix series The Spy, in which he is played by Sacha Baron Cohen. Kiriakou called it "a very, very serious role" and "fantastic."
+
+Recruitment and Damascus operation (Tommy G, April 2026)
+
+Kiriakou recounted Cohen's career in greater detail as an illustration of burst-transmission tradecraft and the penetration of a hostile government.
+
+Cohen was an ethnic Egyptian Jew who left Cairo and moved to Israel, Kiriakou believed it was Haifa. He volunteered to the newly formed MOSSAD on the strength of his Arabic-language fluency. Mossad initially turned him down. He returned and volunteered a second time; they turned him down again. He persisted until they finally accepted him.
+
+MOSSAD provided Cohen with documentation and sent him to Damascus, instructing him to pose as a Syrian national. He learned to overlay a Syrian accent on top of his native Egyptian Arabic, a notable linguistic distinction. Kiriakou described him as self-taught and skilled.
+
+Over time, Cohen rose to become Deputy Minister of Defense of Syria. In that position, he passed Israeli intelligence literally everything the Syrians had. Kiriakou credited this intelligence penetration as the foundation for Israel's military victories over Syria: the 1956 war, the 1967 war, the 1973 war, the capture of the Golan Heights, and the flattening of large sections of Damascus. There are parks, streets, and a large statue in Tel Aviv commemorating him. Kiriakou noted he has seen the statue himself.
+
+The accent slip and the KGB intercept
+
+Cohen's cover began to unravel at a party when his Egyptian accent slipped slightly. A guest at the party noticed the anomaly, concluded that Cohen was not Syrian, and reported the suspicion to Syrian authorities. The Syrians asked the KGB for assistance. A KGB electronic-monitoring truck drove through Cohen's neighborhood at the moment he activated his burst transmitter, and the transmission was intercepted. He was arrested, tried, and publicly hanged in Damascus.
+
+Kiriakou used Cohen's case to illustrate the vulnerability of burst transmission: despite being designed to minimize intercept risk, transmitting in a fraction of a second, the signal could still be caught if a monitoring asset was in close proximity at the precise moment of transmission.
+
+See also
+
+- MOSSAD
+- Jeffrey Epstein
+- Sacha Baron Cohen

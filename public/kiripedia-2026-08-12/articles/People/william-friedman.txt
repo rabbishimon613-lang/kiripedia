@@ -1,0 +1,12 @@
+William and Elizabeth Friedman
+==============================
+
+William and Elizabeth Friedman were American cryptologists buried at Arlington National Cemetery. John Kiriakou discussed them during his cemetery tour.
+
+Per Kiriakou, the Friedmans broke the Nazi Enigma encryption largely by starting from a single known fact: every German communication ended with "Heil Hitler," sometimes written out in full and sometimes abbreviated "HH." Beginning with the letters H, E, I, L, T, and R, they worked outward one letter at a time until the code was broken. Their work led directly to the founding of the National Security Agency.
+
+See also
+
+- Spies of Arlington National Cemetery
+- Thin Thread
+- John Kiriakou

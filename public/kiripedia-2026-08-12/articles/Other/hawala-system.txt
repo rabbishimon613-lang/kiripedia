@@ -1,0 +1,29 @@
+Hawala system
+=============
+
+The hawala system is an informal, ledger-based money-transfer network used across the Middle East, South Asia, and their diasporas. Per John Kiriakou, who later, as Chief Investigator on the U.S. Senate Foreign Relations Committee, ran a study on hawala, it was one of the principal channels through which al-Qaeda moved operational money in the immediate post-9/11 period.
+
+Kiriakou's $50 test
+
+Kiriakou: "What I did, just to test it, was I walked into a little grocery store, like one guy selling some fruits and vegetables, and I said, 'I want to send $50 to the United States.' And he said, 'Where in the United States?' I said, 'Washington, D.C.' He says, 'Okay, give me the $50.' I give him my $50. He gives me a 16-digit number just written by hand on a piece of paper, and he puts an address of an Arabic bakery in Bethesda, Maryland, and he says, 'This is where you get your money.'"
+
+"So I fly back a week later. I take the subway up to Bethesda. I go into this Arabic bakery, and I said, 'I need to talk to somebody about picking up some money,' and I give him my 16-digit number. He looks in this ledger and he gives me whatever it was, $46 from my $50. Totally completely untraceable."
+
+Scale and the DHL leg
+
+Kiriakou: "I only did $50 just to see if it would work, and it worked. But they're doing hundreds of thousands in a single transaction, they're doing millions. And the way they move the money around is by DHL. DHL will still deliver boxes of money. FedEx won't do it. UPS won't do it. DHL will do it."
+
+Why the worry moved to crypto
+
+Kiriakou's summary of hawala's appeal is its lack of a record: "No record. There's no trace of it. Completely anonymous. You don't have to show any ID or anything", which is how drug money is moved and how terrorist groups finance themselves.
+
+He describes learning the mechanics from the Emirati authorities rather than teaching it to them. Asked whether he had gone to Dubai to educate them, his answer was the reverse: "No, I was there to ask them how the heck do you do this?" Their leverage over hawaladars, as he relays it, was a choice, a beating on the soles of the feet, or a copy of the ledger at the end of each working day.
+
+On the American side he says hawalas are easy enough to infiltrate: any FBI agent can walk into the Arabic bakery, he offers Bethesda, Maryland as the example, and suspects it has already happened, and secure access to the books.
+
+The consequence is a shift in official anxiety. The United States government, he says, is now "far more worried about cryptocurrency", which is why his tax return asked three separate times whether he had bought or sold crypto, and why exchanges such as Coinbase open their books to the government rather than risk being implicated in terrorist financing and money laundering.
+
+See also
+
+- Abu Zubaydah
+- John Kiriakou

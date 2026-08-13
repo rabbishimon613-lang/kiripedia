@@ -46,9 +46,7 @@ const baseTitle = seoTitle
   : (title
       ? (titleQualifier ? `${title}, ${titleQualifier}` : title)
       : null);
-// Brand suffix piggybacks on Kiriakou's own branded search volume — his name
-// pulls SERP clicks; "KiriPedia" pulls none.
-const fullTitle = baseTitle ? `${baseTitle} | John Kiriakou` : 'John Kiriakou — KiriPedia';
+const fullTitle = baseTitle ? `${baseTitle} | KiriPedia` : 'KiriPedia';
 const canonical = `${SITE}${pathname}`;
 const imageURL = image.startsWith('http') ? image : `${SITE}${image}`;
 const isDefaultImage = imageURL === DEFAULT_OG_IMAGE;

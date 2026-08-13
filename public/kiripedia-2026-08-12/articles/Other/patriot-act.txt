@@ -1,0 +1,24 @@
+Patriot Act
+===========
+
+The Patriot Act is a United States law, signed into law in October 2001 shortly after the September 11 attacks, that vastly expanded domestic surveillance authority. John Kiriakou describes it as the legal turning point that "opened up everything" in the post-9/11 surveillance state, and dates the start of the erosion of American civil liberties to its passage. He says the Act drastically changed how the FBI operated and, together with the creation of the Department of Homeland Security, gave more law-enforcement authority to a single entity than at any prior point in American history. Twenty-four years after its passage, Kiriakou said, the NSA, FBI, CIA and other federal agencies still spy on American citizens and conduct warrantless wiretapping, except that the FBI no longer bothers seeking a warrant for a target's metadata, instead simply buying it from the target's internet service provider.
+
+"They didn't need a catastrophe"
+
+A question Kiriakou says he is asked frequently is whether the CIA had a hand in facilitating 9/11 in order to pass the Patriot Act. His answer is no, and his reasoning is institutional rather than exculpatory: "You underestimate Congress in that Congress didn't need 9/11 to pass the Patriot Act. They would just pass it because they can. They didn't need a catastrophe."
+
+Bulk collection and the NSA charter
+
+Kiriakou ties the Patriot Act to NSA surveillance, bulk-collection programs that, in his description, "vacuum up every phone call, every text message, every email, every bit of metadata from every American anywhere in the world." He notes this is contrary to law and to the NSA's own charter, which prohibits spying on Americans, a barrier that programs like Thin Thread and Stellar Wind eroded on the theory that Americans "may be talking to terrorists, so we have to grab everything and then sort out the details later."
+
+"Snuck in", and the absence of opposition
+
+Kiriakou characterizes the Patriot Act, along with the FISA framework, as legislation that erodes constitutional protections with almost no congressional resistance. He names Thomas Massie, Rand Paul, and Ro Khanna as among the very few willing to oppose it: "When there are 535 people on Capitol Hill, three is not going to do it." He has said he is not optimistic about the future of American privacy as a result.
+
+See also
+
+- FISA
+- Section 702
+- Bluffdale NSA Facility
+- Government Purchase of Social Media Metadata
+- Edward Snowden

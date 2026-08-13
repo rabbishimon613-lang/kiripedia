@@ -3,6 +3,7 @@ import WikiLayout from './WikiLayout.astro';
 import References from '../components/References.astro';
 import Related from '../components/Related.astro';
 import TOC from '../components/TOC.astro';
+import BegBanner from '../components/BegBanner.astro';
 import { list, tsToSeconds } from '../lib/citations.mjs';
 import { getEntry } from 'astro:content';
 import articleDates from '../data/article-dates.json';
@@ -250,6 +251,7 @@ const robots = noindex ? 'noindex, follow' : undefined;
       <span class="current">{title}</span>
     </nav>
 
+    <BegBanner />
     <h1 class="firstHeading" data-pagefind-meta="title">{title}</h1>
     {subtitle && <p class="subtitle">{subtitle}</p>}
     <article class="wiki-body">

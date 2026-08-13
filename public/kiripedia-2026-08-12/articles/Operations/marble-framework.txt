@@ -1,0 +1,9 @@
+Marble Framework
+================
+
+The Marble Framework is a CIA code-obfuscation tool revealed in the Vault 7 leaks. John Kiriakou describes it as the practice of infecting computers domestically, itself illegal, and then embedding lines of code written in Farsi or Cyrillic, so that if the operation were discovered, the agency could claim "it wasn't us, it was the Russians" or the Iranians who "forgot to translate" their code. In fact, Kiriakou says, "it was us."
+
+See also
+
+- Vault 7
+- Joshua Schulte

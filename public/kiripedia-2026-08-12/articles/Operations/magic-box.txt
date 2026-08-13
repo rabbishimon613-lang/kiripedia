@@ -1,0 +1,31 @@
+Magic box
+=========
+
+The magic box was an improvised cell-phone locator that two CIA tech officers built during the 2002 hunt for Abu Zubaydah. John Kiriakou recounts that, given the target's phone number, the two officers went into a Pakistani bazaar, bought "a couple of pieces of wood and some wires and a soldering iron," and returned with a box fitted with a telephone keypad and a small speaker.
+
+The requirement
+
+The problem it was built to solve was one of narrowing. Kiriakou, then chief of counterterrorism operations in Pakistan, had a high-level target moving all over the country and no way to fix him in place long enough to mount a raid, "we knew that we could get them if they would just make one mistake, one electronic mistake." Headquarters sent two tech officers, "both of whom looked like they were 16 years old," and asked what he needed. Nothing they had brought with them was it, so they built something from scratch.
+
+The build
+
+They bought a case about the size of a standard cigar box, went to what Kiriakou calls the Pakistani version of Radio Shack for wires, capacitors, LED lights and more wires, and holed up in the station's tech shack. His accounts of how long it took differ, two days in one telling, about a week in another.
+
+What emerged did not look like agency equipment. "It looked like a Boy Scout put it together", exposed wires running into something powered by a double-A battery. The specification was simple: when the target made a call, the box would beep, and the compass inside would swing toward the direction the call was coming from. Kiriakou's reaction at the time was "that's ingenious."
+
+The one hit
+
+The box was manned around the clock. One night at about ten o'clock it beeped, the compass pointed north, and the team picked it up and started for the exit, at which point the signal died. Kiriakou describes the moment the device's limits became clear: he asked whether that was all it did, was told yes, and concluded "this isn't going to help us catch him. This is wasted time." In another telling the wait ran twelve hours before the phone came on, and by the time the team grabbed their guns he had switched it off, far too fast to follow through a city of 18 million.
+
+The countermeasure was ordinary tradecraft on the target's part. He would turn the phone on just long enough to listen to his voicemail and then take the battery out, in the era when a phone battery could still be removed, "and so it ended up not being helpful to us."
+
+What replaced it
+
+Kiriakou's response to the failure was to abandon the device and reach for a person. He told the chief of station that he had a friend who was a targeting analyst and that if anybody could catch Abu Zubaydah it would be him; the chief agreed, and the analyst was on a plane the same afternoon, arriving at four in the morning. Kiriakou met him at the airport with the pitch: "we can make our careers out of this, but we've got to catch him and we've got to take him alive."
+
+He generalises the lesson. Asked how much of the work is technology and how much is human skill, being in the right place, being observant, following up leads, his answer is "that's 90% plus of the job."
+
+See also
+
+- Abu Zubaydah Capture
+- Targeting analyst

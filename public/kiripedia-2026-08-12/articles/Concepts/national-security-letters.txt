@@ -1,0 +1,33 @@
+National security letters
+=========================
+
+A national security letter is a demand for records issued by the FBI without a judge''s approval. John Kiriakou treats it as the second of three mechanisms by which, after 2001, the warrant requirement for Americans'' personal information was worked around rather than repealed.
+
+The baseline he sets against it
+
+Kiriakou''s framing starts from what the rule used to be. For as long as the bureau had existed, "not 250 years, since the FBI was founded in the early 1920s", obtaining personal information about an American required a warrant: "You have to go before a judge, you have to have probable cause, you have to do it with a warrant. They don''t anymore."
+
+The three workarounds
+
+The first, he says, was FISA. The second was the letters themselves, introduced "right after 9/11" and sent to internet service providers, "which were just like threatening letters to the ISP providers saying, ''we''re the FBI and you''re not, and we want this information, and you have 48 hours to cough it up.'' Okay, that''s not a warrant."
+
+The third is commercial. "The social media platforms sell our metadata to anybody who wants to pay. And so why would the FBI go before a judge and have to make a probable-cause argument when they can just go to Meta and just buy it?"
+
+Who is on the receiving end
+
+Kiriakou''s closing observation is about the identity of the recipient rather than the legality of the letter. "Guess who''s receiving those letters at the big tech companies, former FBI leadership." Following the revolving door between the bureau, the agency and the technology industry, he says, "it''s a CIA/FBI person writing a letter to someone who months before was a CIA/FBI person, and you''re just the deliverable. You, the American public."
+
+Designing around them
+
+Kiriakou has described the letters as a design constraint that engineering can answer where law cannot. The feature of Panquake that convinced him the project was serious was its jurisdiction: hosting in Iceland meant it was "not subject to a national security letter from the FBI demanding all of your user data and all this other nonsense that we see all the time in the news."
+
+He also identifies the letters as the instrument behind the industry-wide compliance disclosed by WikiLeaks a decade earlier, "every last one of them was providing information to the CIA and to NSA and to the FBI with these national security letters."
+
+See also
+
+- Government Purchase of Social Media Metadata
+- Purchased data as a warrant workaround
+- CIA,Big Tech revolving door
+- FISA
+- Mass Surveillance
+- FBI

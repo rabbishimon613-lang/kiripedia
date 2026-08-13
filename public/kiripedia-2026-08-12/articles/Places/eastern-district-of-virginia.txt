@@ -1,0 +1,76 @@
+Eastern District of Virginia
+============================
+
+The Eastern District of Virginia is the federal judicial district that includes Alexandria and the northern-Virginia belt in which Langley, the Pentagon, DHS and much of the American intelligence-contractor industry are based. John Kiriakou calls it "the espionage court" because "that's where the government likes to file most of its national security charges", himself, Julian Assange, Edward Snowden and Jeffrey Sterling were all charged in the Eastern District, and because, in his telling, "no national security defendant has ever won a case" there.
+
+The "espionage court"
+
+What the name refers to
+
+Kiriakou states the objection as a record rather than an impression: "they call the Eastern District of Virginia the Espionage Court for a reason. And it's that no national security defendant has ever won a case there. Ever." The choice of venue is not particular to his own case, almost every national security defendant is charged there. Edward Snowden was, Julian Assange was, and so was Zacarias Moussaoui. Asked directly why he did not fight charges he regarded as ridiculous, he answered with the venue rather than the merits: "this is the Eastern District of Virginia. It's called the Espionage Court. And nobody ever wins in the Eastern District of Virginia."
+
+The conviction rate
+
+The figure he attaches, citing a ProPublica study, is that the federal government wins 98.2 per cent of its cases nationally and 99.1 per cent in the Eastern District. "You don't have a chance. You can't win." What he does with the national figure is a comparison he says he made in a speech shortly before going to prison.
+
+"Saddam Hussein won 98 percent of his last presidential election and we said the fix was in. The Justice Department wins 98.2 percent of their cases and we say they're geniuses. I say there's something wrong with the system."
+
+The jury pool
+
+The cause he gives is the composition of the jury pool. Any jury there "would be made up of people who work for, or who have friends or relatives who work for, the CIA, the Pentagon, the Department of Homeland Security, or any number of dozens and dozens of intelligence community contractors. That's the jury pool." In the same district, he says elsewhere, a jury will be made up of FBI agents, military officers and CIA officers, so a defendant is never going to get a fair hearing there. It is the same reasoning behind the advice he says he gave Edward Snowden when Snowden first went public.
+
+Inside a classified trial
+
+Sealing the courtroom
+
+Under the Classified Information Procedures Act (CIPA), Kiriakou said, a national-security trial in the Eastern District is conducted in a courtroom whose windows and doors are covered with "plastic sheeting and duct tape so no one can aim a laser beam at the windows and pick up the vibrations," with the public and press excluded. Describing what Julian Assange would face there, he divides the machinery into the silly and the serious. The silly part is physical: the courtroom is sealed with duct tape and plastic sheeting, tarps taped over the windows so that a laser cannot be beamed at the glass to read the vibrations, tape around the door, and white noise played in the vestibule so that nobody outside can hear what is said inside.
+
+The substituted words
+
+The serious part is the substitution. Whenever anything possibly classified may be mentioned, the courtroom is cleared to the judge, the jury, the bailiff, the clerk, the lawyers and the defendant, and then even the jury is not allowed to hear the classified words. The prosecutors and the judge agree in advance on replacements, so that a reference to Vault 7 becomes a reference to swimming pool, and counsel stands up and says that the defendant released highly classified documents called swimming pool. The jury is issued a small paper substituting placeholder words for classified terms: "let's say the word NSA is classified, maybe they'll call it Zebra or swimming pool." It is a cheat sheet of what stands for what, which they may not discuss and may not take out of the room.
+
+What the substitution tells a jury
+
+Kiriakou's objection is to the inference the procedure plants. He argues the substitution biases the jury against the defendant: "the implication is even these individual words are so highly classified that we can't even utter them in this closed courtroom, so he must be guilty." Telling a jury that individual words are so highly classified that they cannot be allowed to hear them with their ears invites exactly one conclusion, "my God, this guy's guilty... he's so guilty we can't even hear the words that he's accused of releasing." The deck, in his phrase, is stacked.
+
+The judges
+
+Kiriakou treats the identity of the district's national security judge as the operative fact about it, rather than any feature of its procedure, locating the court precisely when he explains it, as the federal court based in Alexandria, Virginia. He had long expected Judge Leonie Brinkema, who "usually reserves these national security cases for herself", to hear the Assange case. Instead the case was taken from her by the chief judge, whom Kiriakou notes "just happens to have been a FISA court judge before he was named to the Eastern District," an alignment he says "makes me want to run screaming from the room." Setting his own case against Assange's, he puts it as a difference in judges: his own was notorious for reserving national security cases for herself; Assange's, he says, is worse, having been a judge on the FISA court beforehand.
+
+Kiriakou's own case
+
+The jury consultant's verdict
+
+Before his own prosecution, Kiriakou hired the jury consultant Robert Hirschhorn, pro bono, through a family connection, who had also worked George Zimmerman's trial and O.J. Simpson's and William Kennedy Smith's, and whom Kiriakou says has "literally never lost a case." After Hirschhorn worked through Kiriakou's 15,000 pages of discovery, he delivered his verdict on the district: "if we were in any other district in America I would say let's go for it, we're going to win this thing, but the Eastern District of Virginia ... your jury is going to be made up of employees or family members of employees of the CIA, the Pentagon, the Department of Homeland Security, the FBI, intelligence-community contractors. You don't have a chance. It's all stacked against you. That's why they charged you here in the first place. Take the deal." Kiriakou took the deal.
+
+His 2019 account of the same verdict matches the later one almost word for word, "if you were in any other district in America I'd say let's go for it, we're going to win this thing, but the Eastern District of Virginia, your jury is going to be made up of people who are members of, or who have relatives who are members of, the CIA, the FBI, the Defense Department, the Department of Homeland Security and intelligence-community contractors. You don't have a chance", and he adds the retrospective verdict plainly: "well, in my case, he was right." The advice, as he summarises it, was that the case itself was weak and the court was not: in any other district in America the recommendation would have been to go to trial and win, but in the Eastern District of Virginia the jury would be drawn from people who worked for the CIA, the Department of Defense, Homeland Security and the FBI, or from intelligence-community contractors, or from their relatives, so the advice was to take the deal.
+
+The CIPA hearing
+
+The procedures described above had a specific outcome in Kiriakou's case. Two full days had been set aside for the classified-information hearing and the defence had filed seventy motions to declassify; the judge denied all seventy at once, and Kiriakou's lead attorney told him on the way out of the locked courtroom that the case was over. See the CIPA hearing in Kiriakou's case.
+
+Petraeus, and the district that was not chosen
+
+Kiriakou sets four defendants charged in the Eastern District, himself, Jeffrey Sterling, Edward Snowden and Julian Assange, against one who was not. David Petraeus, who exposed the names of ten covert officers to his girlfriend and gave her access to the president's black books, "the most highly classified documents that exist in the American government," was charged in the Western District of North Carolina, saw the charge knocked down to a misdemeanour, took a plea, and received eighteen months of unsupervised probation. He kept his security clearance and his White House contract, and at sentencing "the judge came down from the bench to shake his hand and to thank him for his service to the country."
+
+"So there's a big difference in the way people are treated under the Espionage Act, depending on which federal district you're charged in."
+
+The Assange prosecution
+
+Asked in 2020 whether anyone in particular had a personal grievance against Julian Assange, Kiriakou answered that the pressure was institutional and named its components: the Justice Department's National Security Division, "the prosecutors in the Eastern District of Virginia, and certainly the judges in the Eastern District of Virginia." The naming of the judges alongside the prosecutors is consistent with his account of his own case, in which he treats the venue rather than the evidence as decisive.
+
+On the same basis he predicted in 2019 that Assange, if extradited, would never go to trial at all, because the deck was so stacked that a fair trial was not within the realm of possibility.
+
+Jury nullification
+
+Asked what remained for a defendant in the district, Kiriakou answered "jury nullification." His attorney friends, he said, called the argument crazy and told him it was illegal to encourage nullification; Kiriakou's rebuttal was that "I'm an independent citizen, I'm not an attorney standing up in court." He recommended targeted leafleting of the Alexandria courthouse and cited the historic work of the Fully Informed Jury Association (FIJA) on that terrain.
+
+Where he differed on Assange was on nullification: Assange was famous enough to command the media attention that a nullification argument requires, and "all we need is one juror to agree with us. One. And then it ends."
+
+See also
+
+- Julian Assange
+- Edward Snowden
+- Jeffrey Sterling
+- Espionage Act
+- Leonie Brinkema

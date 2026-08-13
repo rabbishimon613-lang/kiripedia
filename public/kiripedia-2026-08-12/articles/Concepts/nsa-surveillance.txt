@@ -1,0 +1,35 @@
+NSA Surveillance
+================
+
+John Kiriakou criticizes the National Security Agency's practice of collecting Americans' communications data without court orders or warrants, saying it is "part of NSA's founding charter that it is not allowed to spy on Americans", yet the agency, in his account, "spies on every American," intercepting "every phone call, every text message, every email," and warehousing the metadata in a facility in the Utah desert, the Bluffdale NSA Data Center, among others.
+
+Kiriakou says the NSA does not need "court orders or warrants, legal permissions to collect this data", it simply collects it, daring critics with "what are you going to do about it?" He adds that the FBI, too, no longer needs a warrant: it can call the NSA directly and ask for what it has on a given person, and describes the same arrangement extending to private companies.
+
+Kiriakou traces the FBI's access to NSA intercepts to authority derived from the Patriot Act, under Section 702: the NSA passes along intercepted communications to the FBI without any court involved in the exchange, "NSA not just takes it and holds it, they offer it up to the FBI... there are no courts involved in any of this." He says the FBI no longer even needs a warrant for metadata, since it can simply purchase bundled data from phone companies or from platforms like Twitter, Facebook, or Verizon: "they can just purchase it from the phone company or from Twitter or Facebook or Verizon or anybody else." In a separate account he puts it more simply: the NSA "now they collect on every American citizen," despite that being forbidden by the agency's own founding charter, requiring a new storage facility in the Utah desert with enough memory to store the data for 500 years.
+
+The purchase route is, in Kiriakou's telling, what makes the warrant requirement moot rather than merely inconvenient: agencies "just go to X and Meta and all these other platforms and they just buy the data", so a case can be assembled against a U.S. person with no notice to the subject and "no judge has any idea that they're doing this." He expects the question to reach the Supreme Court. See purchased data as a warrant workaround.
+
+Pressure on the companies
+
+The other half of the pattern is direct pressure for access. Kiriakou points to the British government being "practically at war with Apple" in early 2025 over its demand for a back door into the company's operating system, and to Apple's stated preference for shutting down in the United Kingdom rather than granting British intelligence one; he expects the same demand to be made in the United States under any counterterrorism pretext available. See government encryption back-door demands.
+
+Before the Patriot Act
+
+Kiriakou contrasts today's bulk collection with the rules he entered government under. Before the Patriot Act, if the NSA accidentally picked up the communications of an American citizen or U.S. person, "heads rolled": Congress had to be informed, the intercepted data had to be deleted from NSA's databases, and an investigation was launched.
+
+Guarding NSA product inside the CIA
+
+Kiriakou describes NSA's product as so sensitive that even after 9/11 it would call to say it had intercepted something highly important but refuse to disclose it over the phone, instead sending a hard copy by courier that could only be read under supervision in the CIA director's office, "I'm not allowed to touch it or to take notes on it", and could not even be cited in the President's Daily Brief without the original document attached. He says NSA director Michael Hayden was "trouble from the get-go," and that former senior NSA executive Thomas Drake later said the agency had accumulated so much metadata on al-Qaeda and bin Laden that sharing it could, by itself, have stopped the September 11 attacks.
+
+That reluctance to share, in Kiriakou's account, had a direct operational cost: after NSA refused to share its intercepts of a Yemen switchboard used by the father-in-law of one of the 9/11 hijackers, the CIA, despite director George Tenet formally overseeing NSA as Director of Central Intelligence, had to build and pay for its own listening station on Madagascar, at a cost of many millions of dollars, and even then could only intercept half of each call.
+
+The charter, and what is known in spite of it
+
+Kiriakou states the prohibition and the practice in the same breath. "It''s illegal for NSA to spy on Americans. It''s a part of NSA''s charter, its founding charter, that it can''t spy on Americans. And thanks to Ed Snowden, we know that easily 50 per cent of what NSA does is to spy on Americans." He uses the point to frame the commercial spread of comparable tools: the domestic collection was discoverable only through a disclosure, whereas software of the same class is now sold on the open market as Pegasus and its analogues.
+
+See also
+
+- Section 702
+- Bluffdale NSA Data Center
+- Edward Snowden
+- Vault 7

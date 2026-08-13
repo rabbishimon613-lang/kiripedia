@@ -1,0 +1,18 @@
+WLDragnet
+=========
+
+WLDragnet is a free search tool that documents monitoring of social-media users by U.S. defense contractors on the basis of political affiliation. A user enters a Twitter handle and is returned a list of the places where the account was picked up.
+
+John Kiriakou says he checked it while it was still in beta, two or three years before this March 2025 interview, and was "shocked" by what came back: Northrop Grumman Corporation had searched his name hundreds of times, and "it was clear they were building something." He notes that he would never otherwise have known he was of interest there, and declines to protect the company by leaving it unnamed, "it's not my job to protect them, so I'll just say it."
+
+The activity was not confined to a single firm. Kiriakou says it extended to companies doing business with Northrop Grumman and to some of its competitors: after he wrote an article four or five years earlier criticising McDonnell Douglas, the record showed "this flurry of activity at McDonnell Douglas, who is this guy, what's he doing."
+
+Use in litigation
+
+Kiriakou was in litigation against Northrop Grumman on a separate matter at the time, and says his attorneys were able to use the WLDragnet material as part of the lawsuit. He describes the existence of such a tool as something that would never have occurred to him, "but there it is, and it's free."
+
+See also
+
+- Mass Surveillance
+- Purchased data as a warrant workaround
+- John Kiriakou

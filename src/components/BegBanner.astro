@@ -1,0 +1,271 @@
+---
+// BegBanner — deadpan Wikipedia-style donation/download appeal.
+// Hidden by default; a small inline script decides whether to show it
+// based on per-visitor localStorage state (see gating rules in the script).
+const ZIP_HREF = '/kiripedia-2026-08-12.zip';
+const ZIP_SUBTITLE_A = '1,834 articles, 882 transcripts';
+const ZIP_SUBTITLE_B = '16 MB, fits in you';
+const BTC = 'bc1q0xcvzfrzmw482scntfq8l0mex90vfmyy05c83c';
+const BTC_HALF_A = BTC.slice(0, 17);
+const BTC_HALF_B = BTC.slice(17);
+---
+<div id="beg-banner" class="beg-banner" hidden>
+  <div class="beg-banner-inner">
+    <div class="beg-maybe-later">MAYBE LATER</div>
+
+    <p class="beg-lede">
+      <span class="beg-i" aria-hidden="true">i</span>
+      Dear reader, we are not asking for money. We are asking you to put KiriPedia <span class="beg-nb">in your rectal cavity.</span>
+    </p>
+
+    <p class="beg-body">
+      The internet is not what it was.
+      <a href="/wiki/julian-assange">Julian Assange</a>
+      spent seven years in an embassy and five years in a cell for less than what KiriPedia publishes daily.
+    </p>
+
+    <p class="beg-body">
+      When they come for us, they will come with a <strong>bag over the head</strong>, a ship registered under no nation's flag, and a destination in international waters that does not appear on any chart. The site will be taken down. The archive will be made to disappear. The only copy of KiriPedia left on Earth will depend on <strong>you</strong> and <strong>your rectum.</strong>
+    </p>
+
+    <p class="beg-body">
+      John needs a presidential pardon. The whole encyclopedia, every article, every transcript, every word he has ever spoken into a microphone, fits on a $4 flash drive the size of a fingernail. <strong>Not in the cloud.</strong> 98% of our readers walk away. We ask you, humbly: be the 2%. <span class="beg-u">History depends on your rectal cavity.</span>
+    </p>
+
+    <p class="beg-body beg-body-last">
+      Bitcoin contributions pay for servers, transcription, and the continued ingestion of John's words into the public record.
+    </p>
+
+    <div class="beg-actions">
+      <a class="beg-action" href={ZIP_HREF}>
+        <div class="beg-action-title beg-download">⬇ Download .zip</div>
+        <div class="beg-action-sub">
+          <div>{ZIP_SUBTITLE_A}</div>
+          <div>{ZIP_SUBTITLE_B}</div>
+        </div>
+      </a>
+
+      <button class="beg-action beg-action-btc" type="button" data-btc={BTC}>
+        <div class="beg-action-title beg-btc">₿ Bitcoin</div>
+        <div class="beg-btc-box">
+          <div>{BTC_HALF_A}</div>
+          <div>{BTC_HALF_B}</div>
+        </div>
+        <div class="beg-btc-hint">tap to copy</div>
+      </button>
+
+      <a class="beg-action" href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noopener">
+        <div class="beg-action-title beg-download">✉ Write your congressman</div>
+        <div class="beg-action-sub">
+          <div>ask for a pardon</div>
+          <div>house.gov</div>
+        </div>
+      </a>
+    </div>
+
+    <p class="beg-footnote">
+      KiriPedia is not a nonprofit. KiriPedia will never be a nonprofit. Honestly this isn't even about the money.
+      <br>
+      <a href="#" data-beg-dismiss="soft">Maybe later</a>
+      &nbsp;·&nbsp;
+      <a href="#" data-beg-dismiss="hard">I already inserted one</a>
+      &nbsp;·&nbsp;
+      <a href="#" class="beg-strong-dismiss" data-beg-dismiss="hard">Never show me this again, I beg you</a>
+    </p>
+  </div>
+</div>
+
+<style>
+.beg-banner {
+  font-family: var(--font-serif);
+  color: var(--color-base);
+  margin: 0 0 18px 0;
+}
+.beg-banner-inner {
+  border: 3px solid #b32424;
+  background: #fdf2f2;
+  padding: 24px 28px 20px 28px;
+  position: relative;
+}
+.beg-maybe-later {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: #72777d;
+  letter-spacing: 0.5px;
+}
+.beg-lede {
+  margin: 0 0 14px 0;
+  font-size: 20px;
+  line-height: 1.45;
+}
+.beg-i {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #b32424;
+  color: #fff;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 17px;
+  margin-right: 6px;
+  vertical-align: 2px;
+}
+.beg-body {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.beg-body-last { margin-bottom: 20px; }
+.beg-u { text-decoration: underline; }
+.beg-nb { white-space: nowrap; }
+
+.beg-actions {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 1fr;
+  gap: 12px;
+}
+.beg-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #a2a9b1;
+  background: #fff;
+  padding: 16px 12px;
+  text-align: center;
+  min-height: 100px;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.beg-action:hover { text-decoration: none; background: #f8f9fa; }
+.beg-action-title {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  white-space: nowrap;
+}
+.beg-download { color: #3366cc; }
+.beg-btc { color: #f7931a; }
+.beg-action-sub {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  color: #72777d;
+  line-height: 1.4;
+}
+.beg-action-sub div { white-space: nowrap; }
+.beg-btc-box {
+  background: #fff8e1;
+  border: 1px dashed #f7931a;
+  padding: 8px 6px;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  color: var(--color-base);
+  line-height: 1.5;
+}
+.beg-btc-box div { white-space: nowrap; }
+.beg-btc-hint {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: #72777d;
+  margin-top: 4px;
+}
+.beg-footnote {
+  margin: 16px 0 0 0;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: #72777d;
+  text-align: center;
+  line-height: 1.6;
+}
+.beg-footnote a { color: #3366cc; white-space: nowrap; }
+.beg-footnote a.beg-strong-dismiss { color: #b32424; }
+
+@media (max-width: 640px) {
+  .beg-lede { font-size: 17px; }
+  .beg-body { font-size: 14px; }
+  .beg-actions { grid-template-columns: 1fr; }
+  .beg-banner-inner { padding: 18px 16px; }
+}
+</style>
+
+<script is:inline>
+(function () {
+  // Gating rules:
+  //   - First-ever visitor: no banner. Bump visit count and stop.
+  //   - Show on the 3rd wiki-article view onward.
+  //   - After showing 3 times without engagement, stop showing.
+  //   - If dismissed (any of the three dismiss links), hide for 30 days.
+  //   - A "returning visitor" (no visit in 7+ days) who has never dismissed
+  //     gets it on their first article of the returning session, regardless
+  //     of the visit-count gate.
+  var K = {
+    visits: 'kp_beg_visits',
+    shown: 'kp_beg_shown',
+    dismissedUntil: 'kp_beg_dismissed_until',
+    lastVisit: 'kp_beg_last_visit',
+  };
+  var DAY = 86400000;
+  var DISMISS_DAYS = 30;
+  var RETURN_DAYS = 7;
+  var MIN_VISITS = 3;
+  var MAX_SHOWS = 3;
+
+  function num(k) { return parseInt(localStorage.getItem(k) || '0', 10); }
+  function set(k, v) { try { localStorage.setItem(k, String(v)); } catch (e) {} }
+
+  var now = Date.now();
+  var visits = num(K.visits) + 1;
+  set(K.visits, visits);
+  var lastVisit = num(K.lastVisit);
+  set(K.lastVisit, now);
+
+  var dismissedUntil = num(K.dismissedUntil);
+  if (dismissedUntil && now < dismissedUntil) return;
+
+  var shown = num(K.shown);
+  if (shown >= MAX_SHOWS) return;
+
+  var returning = lastVisit && (now - lastVisit) > RETURN_DAYS * DAY;
+  if (visits < MIN_VISITS && !returning) return;
+
+  var banner = document.getElementById('beg-banner');
+  if (!banner) return;
+  banner.hidden = false;
+  set(K.shown, shown + 1);
+
+  // Dismiss handlers
+  var dismisses = banner.querySelectorAll('[data-beg-dismiss]');
+  for (var i = 0; i < dismisses.length; i++) {
+    dismisses[i].addEventListener('click', function (e) {
+      e.preventDefault();
+      set(K.dismissedUntil, now + DISMISS_DAYS * DAY);
+      banner.hidden = true;
+    });
+  }
+
+  // Copy BTC on click
+  var btcBtn = banner.querySelector('.beg-action-btc');
+  if (btcBtn) {
+    btcBtn.addEventListener('click', function () {
+      var addr = btcBtn.getAttribute('data-btc') || '';
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(addr).then(function () {
+          var hint = btcBtn.querySelector('.beg-btc-hint');
+          if (hint) {
+            var orig = hint.textContent;
+            hint.textContent = 'copied';
+            setTimeout(function () { hint.textContent = orig; }, 1500);
+          }
+        }).catch(function () {});
+      }
+    });
+  }
+})();
+</script>

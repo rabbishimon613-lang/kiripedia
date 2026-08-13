@@ -1,0 +1,22 @@
+Purchased data as a warrant workaround
+======================================
+
+John Kiriakou describes a practice by which U.S. federal agencies obtain data on Americans without the warrant that would ordinarily be required. Rather than ask a court for authority to collect information on a U.S. person, a citizen or green-card holder, the FBI and the NSA "just go to X and Meta and all these other platforms and they just buy the data. That's it."
+
+The consequence he draws is procedural rather than merely technical: "so they can build a case against you. You don't have any idea that they're doing it, you haven't done anything wrong, and more importantly no judge has any idea that they're doing this." He frames the practice as simultaneously an ethical problem and a legal one, and expects it to end up at the Supreme Court.
+
+The supply chain
+
+Kiriakou traces the chain back to ordinary reading. Clicking through to an article deposits cookies that continue to follow the reader, and the publisher sells that data to another company, which resells it to advertisers "and really anybody who wants to pay the money for it including the FBI, the CIA and the NSA." The profile that results can be assembled from searches a person would not expect to be read back to them, "abortion clinics nearby, or psychiatrists, or you're looking for information on your ex-wife", and Kiriakou notes that law enforcement can build such a profile whether or not it is accurate, and use it either way.
+
+"Nothing to hide"
+
+Kiriakou has a standing answer to the objection that the innocent have nothing to fear. He says the first person to pose the question in a public venue was Joseph Goebbels, Adolf Hitler's propaganda minister, "if you have nothing to hide then why are you worried about what the government is collecting on you", and gives his own reply: "I worry a lot, because it's none of the government's damn business what I do on the internet."
+
+See also
+
+- Mass Surveillance
+- NSA Surveillance
+- Bluffdale NSA Data Center
+- WLDragnet
+- Panquake

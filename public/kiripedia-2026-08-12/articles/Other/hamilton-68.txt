@@ -1,0 +1,27 @@
+Hamilton 68
+===========
+
+Hamilton 68 is, per John Kiriakou, a company staffed and founded by former CIA, FBI, NSA and Director of National Intelligence officials, including figures like Mike Hayden and a former NATO deputy secretary general, that rates news sites as reliable or unreliable. It makes money primarily by contracting with the Pentagon: when government employees search for news online, Hamilton 68 places a green or red check mark next to a given URL, effectively certifying or flagging the source for anyone on a government computer. Twitter itself declined to adopt Hamilton 68's red-check rating system, but the rating still appears on the Hamilton 68 site and pops up whenever the flagged link is accessed from a government computer.
+
+The Consortium News red-check episode
+
+Kiriakou, a board member of Consortium News, says Hamilton 68 sent the outlet a letter threatening to designate it with a red check mark as alleged "Kremlin apologists," offering an appeal. He says the letter was signed not by a senior analyst but by a staffer in his 20s who had briefly worked for a now-defunct science newswire and had published only three articles before joining Hamilton 68. After Hamilton 68 issued the red check mark, PayPal permanently suspended Consortium News's account and confiscated the $9,500 it held, preventing the outlet from meeting payroll. Consortium News joined a federal class-action suit with other publications that had received the same treatment; PayPal eventually returned the funds but the outlet remains unable to use PayPal.
+
+Why such companies exist
+
+Asked directly whether Hamilton 68 is an intelligence operation, Kiriakou answers with career economics rather than conspiracy. After twenty-five or thirty years every contact an officer has is inside the intelligence community; everybody leaving is looking to make money and to do something new; and nobody wants to be yet another former senior CIA person at Booz Allen, of whom there are already a million. The senior people therefore start something bigger and more lucrative, and let the lower-level staff go to Booz Allen or Abraxas.
+
+He files Hamilton 68 with Bellingcat as a class of organisation he calls dangerous: they purport to be independent and are not, since their boards are replete with former CIA directors, former directors of national intelligence, four-star generals and, in Hamilton 68's case, a former director general of NATO. His conclusion is about consequences for sources: these are not people who will be friendly to a legitimate whistleblower.
+
+Afterlife
+
+The operation itself Kiriakou summarises as a technical facade: a dashboard purporting to detect Russian bots on Twitter, which supplied the evidentiary basis for the claim that Russian accounts had inflated Donald Trump and helped steal the 2016 election. He tracks the same personnel forward into later political reporting: the dashboard is run through the Alliance for Securing Democracy, whose public face was the former FBI agent Clint Watts, and the chief executive of the firm New Knowledge created the dashboard, and those are the people Kiriakou finds sourcing subsequent stories about presidential campaigns.
+
+A conflict between tellings
+
+The corpus does not agree with itself on who red-checked Consortium News. In the April 2023 account above Kiriakou names Hamilton 68 throughout, the letter, the reviewer, the mark. Two months earlier, on Consortium News's own programme, he groups the two together and then corrects himself: the group that gave Consortium News a red check mark was NewsGuard. Both tellings are his, and the article records the discrepancy rather than resolving it.
+
+See also
+
+- John Kiriakou
+- Central Intelligence Agency

@@ -1,0 +1,41 @@
+Reality Winner
+==============
+
+Reality Winner was a linguist at the National Security Agency and a member of the United States Air Force who came across a secret-level analytic product she believed showed that the Russian government had helped the Trump campaign in the 2016 election. The document was classified but contained no sources or methods; whether its conclusion was true, Kiriakou says, "is irrelevant for this story." Her chain of command would do nothing about it, so she acted alone and sent the page to The Intercept, whose website invited exactly this, "Hey, if you have classified information, here's our encryption key. Send it to us."
+
+How she was burned
+
+It reached two reporters who billed themselves as national security specialists: Matthew Cole and Richard Esposito. They emailed the document straight back to the NSA to ask whether it was genuine.
+
+The failure Kiriakou identifies is technical rather than moral: any national security journalist should know that when someone at NSA, CIA or FBI prints a document, their employee identification number is embedded in it, "in the period at the end of a sentence or in the dot of an ey... it'll say John kirak\[i\]ou 21689 91." It cannot be seen without a microscope; the agency needed only to enlarge the image. The source was identified immediately, and the arrest was held back until publication. Kiriakou has given the interval between the story going up and Winner being taken as forty minutes and, elsewhere, as four hours. His verdict on the reporter is unqualified, "he's so stupid", and on the outcome, that she went to prison "because of Matthew Cole."
+
+He does not treat the case as isolated. The same two journalists did the same thing to an FBI agent in the Minneapolis field office who had photographed an internal memo conceding the Bureau was probably guilty of racism in promotions: The Intercept sent the image back to the FBI, which could tell from the picture that it had been taken off a computer screen. That agent was Terry Albury, and Kiriakou groups Winner with him and with himself as people The Intercept burned, "they blew my identity to the government blatantly; they did the same thing to Reality Winner". His running count is that journalists from The Intercept have been responsible for putting five national security whistleblowers in prison.
+
+The question he leaves open is whether the pattern is incompetence: "so you tell me, are they just that stupid, or are they working with the FBI?"
+
+Why the case suited the intelligence community
+
+Kiriakou's structural reading of the prosecution is that it killed three birds with one stone. It frightened off any other potential whistleblower; it damaged Donald Trump; and it propagated the line the intelligence community wanted in circulation, that the Russians had successfully interfered in the election. "It was perfect if you're the CIA. It was a perfect operation."
+
+On the document itself he is categorical: it should never have been classified at all, and was classified only because someone at NSA had written it, "that's not a reason to send somebody to prison for five years and four months."
+
+The sentence, and what was done with it
+
+Kiriakou gives her sentence as five years and three months in some tellings and five years and four months in others, and calls it unusually harsh against a comparable average of two to four years.
+
+Its afterlife matters more to him than its length, because prosecutors then used it as a ratchet. At Daniel Hale's sentencing, Kiriakou was in the courtroom with Thomas Drake, the government raised Kiriakou's case, Jeffrey Sterling's and Winner's, argued that Kiriakou's thirty months had been far too short and should have been a hundred and twenty, that Sterling's had therefore come out too short as well, and that what it wanted as a guideline was "something closer to the Reality Winner sentence." Hale's lawyer objected that Winner had been sentenced in the Northern District of Georgia and this was the Eastern District of Virginia; told that both were national security cases, he offered David Petraeus in the Western District of North Carolina, a misdemeanour and eighteen months of unsupervised probation, and the comparison was dropped. The lesson Kiriakou draws is that the Justice Department "learn[s] from each of our cases, and they use that knowledge against the next whistleblower."
+
+After prison
+
+Winner came out under a court-imposed restriction on telling her own story, binding indefinitely. Kiriakou says the two of them have discussed it and that her judge "seriously overreached by infringing on her constitutional rights, I don't think that would stand up in court for two minutes." She does not challenge it because a violation could be treated as a breach of the terms of her release and send her back to prison; she would rather serve out the term quietly. He contrasts that with his own instinct, which was to be "a thorn in their side from the very beginning."
+
+He places her alongside Albury as the second of Cole's burned sources, and notes that he has since come to know both: "I'm proud to say that Reality and Terry are friends of mine now."
+
+See also
+
+- Matthew Cole
+- Terry Albury
+- The Intercept
+- Daniel Hale
+- Espionage Act
+- John Kiriakou

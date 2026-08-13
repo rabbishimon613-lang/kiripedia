@@ -1,0 +1,108 @@
+Thomas Drake
+============
+
+Tom Drake is a former senior NSA intelligence officer and a former full colonel in the Air Force turned whistleblower. His first day at NSA was September 11, 2001; per John Kiriakou, Drake became aware almost immediately afterward of the agency's plan to begin warrantless wiretapping of American citizens. Kiriakou has described Drake's case as one whose story would make your "hair stand up," and treats it as the standing proof that the authorised channels for a national-security whistleblower do not protect anyone.
+
+The 9/11 morning at NSA
+
+"Waiting for a 9/11"
+
+Drake is the source for the public account of NSA Director Mike Hayden's September 11, 2001 statement to NSA personnel, that the agency had been "waiting for a 9/11 so that they could implement the bigger program and grab everybody's electronics." Kiriakou gives the same account in more institutional terms: NSA had a competing software program that could weed out U.S. persons and target only suspect numbers, but Hayden treated the September 11 attacks as "the opportunity that NSA had been waiting for... to just vacuum up everything and then sort it out later."
+
+"Almost giddy"
+
+Arriving for his first day in the Senior Intelligence Service, Drake found an atmosphere he characterized as almost celebratory. NSA had developed programs it had been unable to implement because it knew them to be illegal; the attacks gave the agency the cover it needed, and all it had to say was "national security" to implement anything.
+
+The program that was discarded
+
+Per Kiriakou, relaying Drake himself, "a great great friend of mine", the pre-9/11 NSA program Drake had built was called Stellar Wind. "Stellar Wind would be able to collect the same kind of data while protecting Americans, and Hayden decided no, we want to grab everything." This is the program Edward Snowden later disclosed publicly. In Kiriakou's telling of Drake's own description, Stellar Wind could identify when a communication involved a suspected bad actor and intercept only those targeted communications, rather than intercepting the phone calls, text messages, and emails of all Americans: "Instead of just grabbing everybody's phone calls and text messages and emails, it only grabs the bad guys'."
+
+Kiriakou's framing of Drake's position is that the capability was never the obstacle: "Tom Drake, the NSA whistleblower, will tell you that the systems already exist to spy on our enemies, protect Americans, and preserve civil liberties all at the same time. They existed." Hayden's post-9/11 program scrapped that approach.
+
+Going through the channels
+
+The chain, in full
+
+Kiriakou lays the authorised sequence out in full: an employee who witnesses waste, fraud, abuse, illegality or a threat to public health or safety goes to their immediate supervisor, then to that supervisor's supervisor, then to the Inspector General, then to the general counsel; and because the NSA is a Department of Defense agency, then to the Defense Department's Inspector General; and failing satisfaction there, to the House or Senate intelligence committee. "That's exactly what Tom Drake did, and he was charged with nine felonies, including seven counts of espionage, when he never ever provided classified information to any journalist."
+
+What each channel did
+
+Drake escalated methodically before going public: first to NSA's Office of General Counsel, then to the NSA Inspector General, and then to the DOD Inspector General, who, rather than acting on the complaint, leaked back to NSA that there was "a rogue officer" in its ranks. In a fuller telling of the same sequence, his supervisor, to whom he had brought the targeted-collection alternative, dismissed him with "You're new. This is none of your business"; the NSA Inspector General told him the mass interception wasn't happening, the IG not being cleared for the program; the NSA General Counsel told him he was "in way over your head"; and the Pentagon Inspector General destroyed the evidence he brought.
+
+Only after every internal channel failed did Drake go to the House Permanent Select Committee on Intelligence with a fully cleared committee staff member, turning over documentation. The response was that NSA raided his home and arrested him.
+
+Drake and NSA colleague Bill Binney had used that internal process together to flag the unconstitutional expansion. Per Kiriakou: "They arrested everybody. They arrested Bill Binney. Bill Binney, who lost both of his legs to a flesh-eating bacteria, is in the shower on a Saturday morning when the FBI breaks down the door."
+
+The prosecution
+
+Nine felonies
+
+Drake was charged with nine felonies, seven counts of espionage and two counts of theft of government property, the "property" being defined as the classified information he carried in his memory when he left the building. He faced nearly one hundred years in prison. Kiriakou puts the theft allegation as stealing classified information "by carrying it inside his head when he left the building."
+
+The Baltimore Sun conversation
+
+Kiriakou says the government attempted to charge Drake under the Espionage Act, but the underlying conduct "didn't rise to the level" of espionage. He dates the weaponization of the Espionage Act against leakers and whistleblowers to the tail end of the George W. Bush administration, a course continued under the Obama and Trump administrations. Despite that, Drake was charged with seven counts of espionage over a conversation with a Baltimore Sun reporter, even though the information he disclosed was clearly marked unclassified. The government's theory was that Drake, as a national security professional, should have known the information ought to have been classified regardless of its actual markings.
+
+The collapse, and what it cost him
+
+All charges were ultimately dropped. On the morning of Drake's arrest, the FBI raided his house and told his wife, also an NSA senior intelligence service officer, "you're either with him or you're with us." She chose the agency. Drake lost his pension, his five children, his wife, his house, and his career. The felony charges were dismissed only after he went bankrupt; he ultimately pleaded guilty to a single misdemeanor count of misusing a government computer, having looked at Facebook during a lunch break, and received eighteen months of unsupervised release. He subsequently worked as a technician at an Apple Store Genius Bar in Bethesda, Maryland.
+
+"Name one", the blood-on-your-hands tactic
+
+The proffer meeting
+
+Kiriakou tells one episode from Drake's case as the standard illustration of a prosecutorial technique used against national-security defendants generally. At a proffer meeting at the Justice Department, the meeting at which prosecutors set out their evidence and the sentence they intend to seek absent cooperation, Drake was facing what Kiriakou recalls as roughly fifty-five years across nine felonies, including seven Espionage Act counts and two counts of theft of government property. The theft counts covered information Drake had "walked out of the building with... in his head," which Kiriakou's interviewer names a thought crime.
+
+The prosecutors told Drake he had "the blood of dozens of American soldiers on [his] hands." His answer, which Kiriakou relays with evident approval, was to call it: "Name one. One single soldier who died because I said NSA was spying on Americans. Name one and I'll take a guilty plea. Name him." They backed off. In a second telling, credited to Drake himself and set at a pre-trial meeting between Drake, his attorneys and Justice Department prosecutors, Kiriakou gives the exchange as: "One of the prosecutors said, 'you have the blood of American soldiers on your hands.' And he said: 'whose blood? What soldier? Name one. Name one single soldier.' And everybody just went silent."
+
+The slide that disappeared
+
+Kiriakou treats the sequel as the proof. After the case collapsed and the charges were thrown out, the accusations remained posted on the NSA and Justice Department websites, but the slide accusing Drake of having soldiers' blood on his hands was quietly removed. His conclusion: "They just make that shit up and throw it at you to scare you. They do it all the time."
+
+What the accusation is worth
+
+Kiriakou presents it as a standard move rather than an isolated excess: "they try this kind of garbage all the time, saying that people have died because of your revelations, there's blood on your hands, that you've given aid and comfort to the enemy and to terrorist groups. None of it's true." The counter-example he reaches for is Chelsea Manning's: after that case concluded, "the head of NSA at the time came out and said that there was no discernible harm to the national security. None. Zero. It was embarrassing to see what people say behind closed doors, but there was no harm." He makes the same inversion about his own case, arguing that it was the CIA's torture program itself, not his 2007 disclosures, that endangered Americans, citing reports from Human Rights Watch (2005), Amnesty International (2006), and the International Committee of the Red Cross (2007), all of which detailed the program before he spoke publicly, and arguing the program served as a recruiting tool for al-Qaeda.
+
+He notes the same tactic is used on journalists at the pre-publication stage, where the warning that publication will kill a specified number of people arrives from the CIA, or, if the story is sensitive enough, from the national security adviser rather than the director.
+
+What Kiriakou draws from the case
+
+Internal channels do not work
+
+Kiriakou cites Drake's case as the definitive example that the internal whistleblower mechanisms established for national security employees "just simply don't work."
+
+Selective enforcement
+
+He cites Drake as one of the cases establishing that the Espionage Act is applied to whistleblowers rather than to senior officials. Drake, a senior national security official, blew the whistle on waste, fraud and abuse at the NSA in the form of a bungled project that cost more than a billion dollars, and was buried under espionage charges, all of which were eventually dropped, but only after his life was in shreds. He pairs Drake with Stephen Jin-woo Kim and with his own case as three people accused of the same act, disclosing classified information to parties not authorised to receive it, and contrasts all three with Leon Panetta, who was never charged. See the Panetta bin Laden disclosure.
+
+The chilling effect, and Snowden
+
+The acquittal, in Kiriakou's reading, is beside the point: "even though the charges against Tom were all dropped, the government declared victory, because they ruined him and they made an example of him. So it silenced anybody else at NSA who was thinking of going forward." He adds Snowden's own assessment, "Ed Snowden said that without Tom Drake there would have been no Ed Snowden", and treats Snowden as the exception rather than the rule. See the chilling effect of whistleblower prosecutions. Kiriakou says Snowden later told the New York Times that he had watched both Drake's case and Kiriakou's own, and that seeing neither of them back down under pressure helped inspire him to go public with his own revelations.
+
+NSA's reach, per Drake
+
+Kiriakou says it has been known since Drake went public in 2002 that the NSA intercepts every phone call, text and email, the baseline he uses to argue that a program like the Pentagon's LifeLog could simply be picked up and monetized. Kiriakou has also said Drake told him NSA has technology to intercept Signal messages before the sender even hits send, capturing the text as it is typed, prior to encryption.
+
+Friendship and outside consultations
+
+Kiriakou describes Drake as part of a close circle of national-security whistleblowers, including Jeffrey Sterling, Bill Binney, and Kirk Wiebe, who remain personal friends and socialize together, an unusual dynamic among people in their position. Kiriakou has also said he turned to Drake, as one of his more tech-savvy friends, to vet the technical legitimacy of an outside business platform, and that Drake judged it legitimate.
+
+The precedent that was set aside
+
+Kiriakou identifies the Drake case as the authority his own trial court declined to follow. In his account the judge "said that she would not respect a precedent that was set in the Tom Drake case," and substituted a definition of espionage broad enough that, as she confirmed when challenged, a person could commit it by accident.
+
+The escalation as a lawful model
+
+Kiriakou uses Drake's route as the worked example of what the statute permits when an agency will not act. Asked in 2019 whether the Ukraine call whistleblower was entitled to approach the House Intelligence Committee before his complaint was transmitted, he said plainly that he was: if you are not getting satisfaction in your home agency the law permits you to go to the oversight committees, "that's why the staff members have such high level clearances."
+
+Drake is the case he cites for it. "Tom went to his inspector general, he went to the general counsel, he went to the DoD inspector general, he didn't get any satisfaction, and so he went to the oversight committee. You can do that, and a lot of whistleblowers do do that." Kiriakou's assessment of what it cost him is brief and unhappy: a terrible experience, and one he believed Drake was still struggling with more than a decade later.
+
+See also
+
+- Mike Hayden
+- Section 702
+- Espionage Act
+- Edward Snowden
+- John Brennan
+- Mass surveillance
+- Chelsea Manning

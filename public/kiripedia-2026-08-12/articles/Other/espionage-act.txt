@@ -1,0 +1,186 @@
+Espionage Act
+=============
+
+The Espionage Act is a United States federal law enacted in 1917, a period John Kiriakou has described as "one of the darkest periods in American history" for civil liberties. The law was written to combat German sabotage during the First World War, championed by President Woodrow Wilson and, per Kiriakou, "written in 1917 to combat German saboteurs." It was meant, Kiriakou says, to go after real spies who steal secrets for foreign countries, "it was never meant to be an iron fist against journalists and against whistleblowers." In the decades since, Kiriakou says, it has become the government's principal instrument against national-security whistleblowers, and its use accelerated sharply under the Obama administration.
+
+Origins and text
+
+Written for German saboteurs
+
+Kiriakou dates the Act to 1917 and states its original purpose plainly: it was "written and passed into law in 1917 to combat German saboteurs during the First World War." It has never been meaningfully updated in more than a century, he says it has been only marginally changed twice since 1917, in the early 1950s and again in 1996 under the Clinton administration, both times as small technical fixes rather than genuine reform.
+
+Kiriakou notes the act has been used against a range of figures over the past century, from Eugene Debs, who ran for president from his prison cell at the maximum-security penitentiary in Atlanta after being jailed for opposing U.S. entry into the war, to a Hollywood producer jailed for making an insufficiently pro-British film, to, more recently, Joshua Schulte.
+
+No mention of classified information
+
+The act does not mention the words "classified information" anywhere in its text, because the U.S. classification system did not exist when the law was written in 1917. It refers only to undefined "national defense information", meaning, in practice, that the secret being protected is "whatever the Justice Department says it is." He put the same point at greater length in 2019: "it doesn't even mention the words classified information. It uses the term national defense information, because when it was written and updated the classification system didn't even exist yet, the classification system was invented in the mid-1950s." From that he draws the breadth objection: "it is so broadly written that in my view it's unconstitutional. It's so broadly written that someone like Barack Obama can charge eight whistleblowers with espionage for speaking to the media. Well, that wasn't the intent of the Espionage Act. The Espionage Act was meant to punish people who were spying for foreign countries." Kiriakou says his own defense lawyers agreed with his assessment that the act is "unconstitutionally broad and unconstitutionally vague."
+
+He also cites George W. Bush's own estimate that roughly 75% of classified documents are improperly classified in the first place, illustrating chronic government over-classification. Separately, Kiriakou notes it is a felony in the United States for a government agency to classify a program that is itself committing a crime, meaning, he argues, that classifying the CIA's torture program was itself illegal, though he says no one has ever been charged under that provision.
+
+Sections 793 and 794
+
+Kiriakou draws a sharp distinction between two of its sections: Section 794, meant to prosecute people who spy for a foreign power intending harm to U.S. national security, and Section 793, the section under which he and most whistleblowers have been charged, which he calls, simply, "a political weapon." He notes the minimum sentence under the act is five years, the common punishment is fifteen years, and in some cases espionage is punishable by death.
+
+Discussing the 2022 unsealing of the FBI's Mar-a-Lago search affidavit with journalist Kevin Gosztola, Kiriakou made clear that his criticism of the act as "a flawed law that is used to silence whistleblowers" was not a defense of Donald Trump personally. He noted that Section 793(e), the subsection at issue in that case, carries a maximum of 10 years in prison per count, matching the maximum under the Intelligence Identities Protection Act, while obstruction of justice and false statements each carry five years; a non-Trump defendant convicted on comparable facts, he estimated, would likely serve two to four years, noting that NSA whistleblower Reality Winner received an unusually harsh five years and three months.
+
+The definition his own case produced
+
+The definitional moment Kiriakou returns to came in his own 2012 case, when the judge declined to follow the precedent set in the Thomas Drake prosecution and instead defined espionage as "providing national defense information to any person not entitled to receive it." He describes this as his judge having "set a new legal precedent for application of the Espionage Act", determining that espionage "was very simply providing national defense information to any person not entitled to receive it." His summary of the standard is one word: "Simple." The definition is broad enough, he notes, that most Washington leaks, from the White House, the Pentagon, and the CIA, are technically illegal under it but go unprosecuted because they have been authorized up the chain of command. He says his case set the standard for subsequent Espionage Act prosecutions.
+
+"Accidentally commit espionage"
+
+"My attorneys jumped up, and one of them said: your honor, wait, are you saying that a person can accidentally commit espionage? And she said, that's exactly what I'm saying." The same exchange arose from his attorneys' argument that he lacked mens rea in confirming a covert officer's surname, in which they noted that David Petraeus and Leon Panetta had also confirmed names without being charged; the judge responded that a person can "accidentally commit espionage."
+
+No harm requirement
+
+The act's lack of any harm requirement was illustrated in Kiriakou's own prosecution at the Eastern District of Virginia, where Judge Leonie Brinkema ruled that a violation required only that national-defense information had been provided to a person not entitled to receive it, no proof of harm to national security was needed, and no foreign recipient was even alleged.
+
+No affirmative defence
+
+Kiriakou states the structural defect in a sentence: "there is no affirmative defence. You can't say, yes, I blew the whistle on the CIA's torture programme, but I did it because it was an illegal programme. All you can say is: yes, I exposed classified information. You're forbidden from saying why you did it." He says federal district courts around the country have consistently ruled the act contains no affirmative-defense provision, a CIA officer who calls the New York Times to say the agency is torturing its prisoners cannot stand up in court and argue he was justified because the public had a right to know.
+
+The contrast he draws is with ordinary criminal law, where "intention is really a vital point of the justice system", the thing that separates murder from accident. "But not in the Espionage Act."
+
+The consequence reached beyond his own case. Edward Snowden, he says, was willing to come home and go to prison on one condition, that he be allowed to stand up in court and explain why he did it, and the Justice Department refused outright.
+
+He draws a sharp line between the conduct the act reaches and whistleblowing, which he says has an actual legal definition, bringing to light evidence of waste, fraud, abuse, illegality, or threats to public health or safety, as against leaking, which people do for excitement, to feel powerful, or for revenge against a boss.
+
+The Obama-era surge
+
+The count
+
+Kiriakou cites the Obama administration's use of the act as a historic departure from prior practice: between 1917 and Obama's election, three Americans had been charged under the Espionage Act for speaking to the press. Under Barack Obama, eight or nine people were charged (Kiriakou gives both figures across interviews), nearly three times the combined total of all previous presidents, and none of them was accused of lying: "Not a single one. Because lying is not a crime. That's right. Telling the truth is a crime." Under Trump a further four people were charged, according to Kiriakou.
+
+The figure he gives for the Obama total varies across tellings, and the variance is preserved here rather than reconciled. In 2015 he put it as a pair of figures: between the Act's drafting in 1917 and Obama's election, "three people in American history were charged with espionage for passing classified information to the press." During the Obama administration, "10 people have been charged." His 2022 count differs slightly, here it is three prosecutions of Americans who had spoken to the media between 1917 and 2009, against eight during the Obama presidency, "all of whom were whistleblowers"; elsewhere he gives the second figure as ten. Either way the comparison he draws is the same: "almost three times the number of all previous presidents combined. There's just no excuse for that. None." Asked in 2021 where he fell in the order, Kiriakou identified himself as the sixth person charged under the Act during the Obama administration, of eight in total. His summary of the comparison: "there was no president worse in American history in charging whistleblowers than Barack Obama. Between 1917 and 2009, three Americans were charged with espionage for speaking with the media. Just under Obama, eight of us were charged." In a prison going-away speech he gave the same placing, the sixth person charged under the Espionage Act by President Obama, double the number of prosecutions under all previous presidents combined, and quoted former U.S. Attorney General and Supreme Court Justice Robert Jackson's warning that with so many laws on the books, a prosecutor can pick a target first and then search for a technical violation to pin on him.
+
+Brennan, and a "Nixonian obsession"
+
+Kiriakou says Obama was the first president to use the act as a matter of policy against whistleblowers rather than only threatening it, Richard Nixon tried to charge Daniel Ellsberg with espionage over the Pentagon Papers, but the case collapsed once it emerged Nixon had ordered the break-in of Ellsberg's psychiatrist's office, and that Obama bragged about his record on the Espionage Act in advance of the 2012 election, including on his own campaign website. His explanation is temperamental rather than legal: Obama, "for all of his reputation as a progressive, had a positively Nixonian obsession with national security leaks, and was willing to use the iron fist that is the Espionage Act to clamp down on those leaks." He attributes the surge to John Brennan, who he says instilled in Obama that "Nixonian obsession" with leaks and drove the cases with the full force of the Justice Department.
+
+He reads the charges as instruments rather than accusations, and names the pattern in others' cases as well as his own: Thomas Drake at NSA charged with something like nine counts for reporting waste, fraud and abuse to the House Intelligence Committee, "which is exactly what he's supposed to do", and Jeffrey Sterling convicted of seven counts of espionage and two of theft of government property for allegedly reporting waste, fraud and abuse to James Risen, which Sterling "swears he never" did.
+
+He also notes what the government treats as stolen property in these cases: the classified information itself. "When you walk out of a government building with classified information in your head with the purpose of disclosing it, they consider that to be theft", which is how a disclosure charge acquires a companion count of theft of government property, as it did for Daniel Hale.
+
+The chilling effect
+
+A New York Times reporter later wrote that on the day of Kiriakou's arrest, every one of the paper's national-security sources went silent, the chilling effect Kiriakou says was the intended purpose of the prosecution.
+
+Efforts to change it
+
+At a 2026 Berlin panel, Jesselyn Radack, the whistleblower-defense attorney on the panel, said the act has continued to be used to prosecute whistleblowers since, including a counter-intelligence official under investigation over a leak, and that its use has become normalized as a tool against whistleblowers more broadly. Kiriakou, on the same panel, notes that efforts exist to end the act's use against whistleblowers, with the activist known as "Chip" championing the cause, the same Chip Gibbons who, per Kiriakou, wrote a rewrite of the act sponsored by Ilhan Omar in two consecutive Congresses.
+
+Selective and inconsistent enforcement
+
+Kiriakou's principal criticism of the Act is that it is enforced selectively, and his control case is the Panetta bin Laden disclosure. Because Judge Brinkema ruled in his own case that evidence of accidental release was inadmissible, and that the government need not prove a leak caused any harm, he argues that disclosure of the information covered by the Act is prosecutable regardless of outcome or motive, and that the same standard would therefore reach Leon Panetta.
+
+He places his own prosecution alongside those of Thomas Drake, whose charges were eventually dropped but only after his life was in shreds, and Stephen Jin-woo Kim, whose prosecutors were relieved by the presiding judge of having to prove that the information could damage national security or benefit a foreign power even potentially. All three, he notes, were accused of the same thing: disclosing classified information to parties not authorised to receive it. He counts himself among seven people whose private lives were dug into and seized as evidence during the Obama administration.
+
+How the same conduct was handled in the 1990s
+
+Kiriakou argues the act is applied wildly inconsistently depending on who is caught and why. He recalls that in 1996, while still on the CIA's analytic side, a colleague who let slip information during "pillow talk" with a CNN commentator she was having an affair with was merely given four weeks without pay and a note in her personnel file, a case he contrasts with today's Espionage Act charges, which he says would carry up to ten years for the same conduct. He gives a second example from his time as a federal background investigator before joining the CIA: a woman who took a classified briefing book home, got drunk at a bar on St. Patrick's Day, and left the book on the roof of her cab, the documents were recovered after a passerby called the FBI, and she, too, received only four weeks of unpaid leave and a promotion freeze.
+
+Monitoring inside the agency
+
+He also says the CIA now runs AI-monitoring software on employees' computers that flags search behavior as potentially indicating whistleblower intent and reports it to the Office of Security, he describes a colleague who was investigated within two hours of researching regional newspapers relevant to a new analyst assignment, and that the agency now runs a reward program for employees who report colleagues suspected of considering whistleblowing.
+
+Kiriakou's own prosecution
+
+The charges
+
+Kiriakou's own case was part of the Obama-era surge: after his December 2007 ABC News interview describing the CIA's torture program as official government policy personally approved by the president, he was indicted on five felonies, three of them under the Espionage Act, a charge that, he notes, can carry the death penalty. "Remember, espionage can be a death penalty charge. I had three of them." He says he was charged with three counts of espionage, one count of making a false statement, and one count of violating the Intelligence Identities Protection Act of 1981, only the second American ever charged with that offense, on top of threatened obstruction-of-justice and evidence-destruction charges over deleted emails he says were routine disk-space cleanup.
+
+He says he was convicted for confirming the name of a covert officer he refers to only as "John Doe", identified to him by a reporter who had already narrowed the name down by process of elimination in email exchanges, leaving Kiriakou simply to confirm it. The confirmation was never published. Media coverage at the time widely believed the disclosure charge concerned CIA officer Deuce Martinez, but Kiriakou says the charge in fact related to a different, never-publicly-named person, Martinez, he notes, was already publicly identifiable, including on LinkedIn and via a public speech he gave at James Madison University.
+
+What the three counts consisted of
+
+Kiriakou has itemised the three Espionage Act counts he faced, and treats their content as the argument against them. The first rested on his having leaked top-secret compartmented information about a CIA programme to The New York Times. The information, he says, was that the CIA had a programme to capture or kill al-Qaeda members. He has described that count elsewhere as resting on information declassified for the express purpose of charging him, "and that information was that after the September 11th attacks, the CIA was trying to kill or capture Osama bin Laden. Top secret." The second and third rested on a business card, that of a former colleague who had left the agency and had never been undercover, passed to a reporter at ABC and a reporter at The New York Times. That colleague was an associate of contract psychologists Mitchell and Jessen whose CIA affiliation was already public on LinkedIn. All three were eventually dropped, after an exchange in which the government's answer to the judge was that Kiriakou should have been more careful.
+
+His first public description of the charges, given in January 2013, differs in one particular from the accounts he gave later, and the difference is worth preserving rather than reconciling. In this telling all three counts arise from the same object. A New York Times reporter approached him saying he was writing a story about a former colleague and asking for an interview; Kiriakou gave it, describing the colleague as "a great guy, the unsung hero of the Abu Zubaydah operation, terrific officer." The reporter then asked how to reach him. "I said, 'No, I've been out of touch with him for a while, but I think I might have his business card.' So I gave the reporter the business card." Kiriakou emphasised the officer's status, "this is a CIA officer who had never, ever been undercover", and the card's contents: it showed that he worked as a CIA contractor and carried his personal email address and mobile number. "I gave the reporter the business card, and was charged with two counts of espionage. I later gave the same business card to another journalist who was doing an article, and was charged with a third count of espionage."
+
+In later tellings Kiriakou attributes the third count to a different disclosure, the statement about the post-9/11 capture-or-kill program, rather than to a second handover of the same card. Both accounts agree that the charges were dropped. His own attitude to them has not moved: "it sounds silly maybe, but I'm still personally offended by these espionage charges," the statute being, in his description, "used as a hammer by the administration to force people into silence."
+
+Venue shopping and charge stacking
+
+Kiriakou describes two tactics the government uses to secure convictions under the act. The first is "venue shopping", indicting in a federal court where conviction is effectively guaranteed; in his own case, that was the Eastern District of Virginia, which he calls "where no national security defendant has ever won." The second is "charge stacking", piling on additional counts to force a defendant toward bankruptcy and a plea rather than trial.
+
+The plea
+
+The Justice Department's opening offer was a guilty plea under the act carrying 45 years, which Kiriakou elsewhere describes prosecutors calling, in effect, "a death sentence", and he rejected it. Over a single week, DOJ's offer fell rapidly, from 10 years on a Monday to 8 years on Wednesday to 5 years on Friday, each of which Kiriakou rejected, before eventually settling on a final offer of 30 months (23 to serve).
+
+Kiriakou says that when he initially refused that plea and insisted on going to trial, his lead attorney got in his face and told him bluntly that the case was never about justice, only about "mitigating damage," and urged him to take the deal; Kiriakou says he was facing up to 45 years and, realistically, 12 to 18 years if convicted, against the 23-month offer, and ultimately took it after reading a ProPublica study finding the government wins 98.2% of its cases, and because he had five children at home.
+
+In another retelling of the same negotiation, Kiriakou says the opening Justice Department offer was 35 years, with one of the attorneys telling him he "might live to meet your grandchildren" if he pleaded, he refused, insisting he had done nothing wrong, and says prosecutors then waited until his mounting legal bills had bankrupted him before dropping the original charges and moving to a plea; when prosecutors still would not come down below three and a half years, he told them he would go to trial and testify about war crimes and crimes against humanity he had witnessed over fifteen years in the Middle East, at which point they settled on 23 months. Kiriakou says he retained 11 attorneys in total, including Plato Cacheris and Bob Trout of Trout Cacheris, and Mark McDougal of Akin Gump, leaving him $880,000 in legal debt.
+
+The classified-information hearing, and "gray mail"
+
+Central to the leverage on both sides was the judge's denial of all 72 of the defense's motions to declassify documents Kiriakou says he needed to mount a defense, a ruling issued after a private, in-camera meeting between the judge and prosecutors that his own attorneys were barred from attending; after the ruling, his attorney told him "we have no defense if we don't have those documents," leaving a plea as the only option. His defense team used what Kiriakou calls "gray mail", warning that his trial testimony might inadvertently disclose classified CIA conduct and implicate "household names", to press DOJ down to that final offer.
+
+After the plea
+
+He says the pressure continued after his plea: when he tweeted a reply to a fan saying he would "shout it from the rooftops" if he could do anything differently, the U.S. Attorney's Office threatened him with obstruction-of-justice charges the next day, which is why he now advises anyone under investigation not to tweet, post, or give interviews. Kiriakou has said his biggest personal regret from the episode is not his decision to go public about the CIA's torture program, but his failure to engage an attorney before speaking with agency and FBI investigators, "a critical mistake."
+
+Trial mechanics in the "espionage court"
+
+John Kiriakou has described the physical staging of an Espionage Act trial in the Eastern District of Virginia as designed to bias juries towards conviction. Under the Classified Information Procedures Act (CIPA), he said in 2020, the courtroom is closed to the public and press, its windows and doors are covered with "plastic sheeting and duct tape so no one can aim a laser beam at the windows and pick up the vibrations," and the jury is issued a small paper substituting placeholder words for classified terms, "NSA equals Zebra," and so on. Kiriakou argues that the substitution alone tells the jury that "even these individual words are so highly classified that we can't even utter them in this closed courtroom, so he must be guilty."
+
+The constitutional challenge that never happened
+
+Ellsberg's request
+
+Daniel Ellsberg contacted Kiriakou and asked him to go to trial specifically so the constitutionality of the Espionage Act could be challenged before the Supreme Court. Kiriakou declined, citing his five children. Ellsberg then asked Jeffrey Sterling to do so; Sterling went to trial, was convicted, and was sentenced to what Judge Brinkema described as "Kiriakou plus 12 months."
+
+Who had standing
+
+Kiriakou has separately recounted a 2013,14 conversation with Ellsberg about appealing an Espionage Act conviction to the Supreme Court to have the law struck down; at that time only two people had standing to bring such a case, Chelsea Manning and Jeffrey Sterling, and both declined to carry it through. Kiriakou says his own three Espionage counts were dropped because he had not committed espionage, Manning's conviction was commuted before she could appeal, and Sterling, though he retained standing to appeal, ran out of money to pursue it.
+
+Kiriakou believes the Justice Department deliberately declined to prosecute Ellsberg himself after Ellsberg released top-secret nuclear information and demanded to be charged under the act, reasoning that the department liked being able to use the act as a weapon against national-security whistleblowers, and feared that Ellsberg, then in his 90s and with nothing left to lose, might actually win, forcing Congress to rewrite the law narrowly so it could only be used against genuine spies working for a foreign nation.
+
+Assange, and "all of us"
+
+Kiriakou has said that if the Justice Department successfully prosecuted Julian Assange as a publisher, the precedent would leave any journalist or editor who handles classified information liable to be charged with espionage, "all of us." He puts Assange further from the statute than himself: "I think Julian's even more innocent of espionage than I was, and all of my espionage charges were dropped, because clearly I hadn't committed espionage."
+
+The declared-war limit
+
+Kiriakou has used one structural limit on the statute to shut down a recurring claim about the Assange case. Asked in April 2019 about Ecuador's reported assurance that Assange would not face a capital charge, he answered that no such charge was ever available: "this isn't a death penalty charge in any case under the sun. The only way this would be a death penalty charge would have been if the United States was in a state of declared war, which we haven't been since December 8th 1941, and Julian were caught providing aid and comfort to the enemy. So don't treat us like we're stupid."
+
+Applied to later cases
+
+Lindsey Graham and the Netanyahu recordings
+
+Kiriakou returned to the definition his trial produced when discussing the Graham,Netanyahu ICC tapes in 2026. "I mentioned in a previous episode that in my case, my judge set a new legal precedent for application of the Espionage Act. And she determined that espionage was very simply providing national defense information to any person not entitled to receive it. Simple."
+
+He applies it directly. The documentary filmmakers who recorded the calls held no clearance, "none of these documentary filmmakers were cleared for classified information", "and literally everything that Lindsey Graham is talking about is classified. People in the United States have gone to prison for far less collusion with a foreign leader than what he we have seen in these tapes." The comparison he draws is with his own sentence and with others': "people in the United States have gone to prison for far less."
+
+Trump, Biden and Pence
+
+Kiriakou's argument is that the definition proves too much. On that reading Donald Trump, Joe Biden and Mike Pence are all technically guilty, which he treats as grounds to rewrite the statute rather than to charge them, "so that people who are guilty of espionage, people working for our enemies, people working on behalf of foreign governments or foreign powers, can be rightfully prosecuted, and whistleblowers and people who accidentally take home a classified document are not."
+
+What he would replace it with
+
+Kiriakou's position on the statute is abolitionist in form and specific in substance. "The Espionage Act needs to be scrapped and rewritten, so that it targets people who mean harm to our country, people who are working on behalf of foreign governments or foreign entities or dangerous terrorist groups or something like that. Not for some absent-minded politician who leaves boxes in his garage."
+
+He argues the act should be scrapped and rewritten to include an affirmative-defense and criminal-intent standard, so that a person who lacked intent to harm national security, or acted for legitimate legal reasons, or caused no provable harm, would not be prosecuted. His proposed remedy is to rewrite the Act to deal with intent, including accidental disclosures, and with real harm done.
+
+He applies the standard against his own interest: he argued publicly against charging Donald Trump under the act, under a subheading reading "and don't charge anyone else either." For everything below the threshold he proposes the administrative handling used in the 1990s, a letter in the file, a short suspension, a year without promotion.
+
+Naming the eight
+
+Pressed in 2023 to name the eight people charged under the Act for speaking to the press during the Obama presidency, Kiriakou worked through them aloud, warning that he might have to look the rest up: "Tom Drake, Shamai Leibowitz from the FBI, Bradley, Chelsea, Manning, Stephen Kim from the State Department, Jeffrey Sterling from the CIA, John Kiriakou from the CIA..." before adding Edward Snowden and an eighth name.
+
+The eighth is given as "Don Shackleford from the Navy." The auto-caption is unreliable on proper nouns and no such name appears elsewhere in the corpus; the wording is preserved as spoken and flagged here as a probable transcription artifact rather than silently corrected.
+
+He then reads the list back as a set, "Drake, Leibowitz, Kim, Manning, Shackleford, Sterling, Kiriakou, and Snowden. And their crime was speaking to the press. And that's called espionage", and answers the obvious follow-up, what each had actually disclosed: "warrantless wiretapping. That was a lot of it. Torture. War crimes in Iraq. Politicized analysis on North Korea. The FBI wiretapping Americans without court approval." He adds that the pattern outlived the administration, Daniel Hale drawing 46 months under Trump for telling the press that drone strikes killed civilians "more often than not."
+
+See also
+
+- Three Felonies a Day
+- Intelligence Identities Protection Act
+- John Kiriakou
+- Leonie Brinkema
+- Jeffrey Sterling
+- Peter Strzok
+- Whistleblower Protection Act
+- John Brennan
+- Daniel Ellsberg
+- Chelsea Manning
+- Julian Assange

@@ -599,3 +599,160 @@ The queue is *longer* than it was this morning. In rough order of expected value
 **Method note for whoever runs this next:** the discovery half of the job is not the bottleneck
 any more and has not been for three digs. Transcription is. A dig that spends its first hour
 building the queue and its remaining hours transcribing will beat one that keeps searching.
+
+## 2026-08-12 — SoundCloud, Apple's episode index, and a ledger that lied
+
+### Headline 1: the standing ledgers are now actively misleading — dedupe against the corpus
+
+The 08-09 head start listed five items as open. **Three of them were already in the corpus**:
+both remaining *Scheer Intelligence* episodes (ingested 2026-08-10) and both Rumble-native rows
+(ingested 2026-08-11). They were taken by the **corpus-mining and source-squeeze routines**,
+which ingest sources but never touch `KIRIAKOU-OPEN-VIDS.md` or `ARCHAEOLOGY-LOG.md`.
+
+Worse, two of the three were *not on disk* when this dig started — the EOS_DIGITAL volume had
+dropped the files while leaving them intact in git. `ls` said absent, `ingest-audio-url.sh`'s
+`-e` guard said absent, so the dig re-fetched and re-transcribed all three. The transcripts came
+back **byte-identical** to the committed versions (faster-whisper's greedy decode is
+deterministic), which is the only reason it was caught: `git status` reported the tree clean
+after writing three "new" files.
+
+**The rule that follows:** the exclusion set is `src/content/sources/`, matched on **show + date**
+— never the ledgers, and never `ls` alone on this volume. Build the index first
+(`date \t show \t title` from every source's frontmatter) and diff candidates against *that*.
+This cost the dig roughly an hour and three wasted transcriptions.
+
+### Headline 2: SoundCloud is the seam Mixcloud only half-covers — and its audio is fetchable
+
+No previous dig had opened SoundCloud. It carries the same terrestrial-radio layer that made
+Mixcloud valuable on 08-09, but with a decisive difference: **yt-dlp downloads SoundCloud audio
+normally**, where Mixcloud resolves metadata and then 404s the stream. Mixcloud is an index;
+SoundCloud is an index *and* a source.
+
+Eighteen queries (`scsearch`, name variants plus topic terms) returned 160 unique items, 44 of
+them 40 minutes or longer. Most were already held or were false positives matching on
+description text — but it produced *This Is Hell!*, *Kate Dalley Radio* and WORT-FM's
+*A Public Affair*, three shows the corpus had never held, in three thin years (2016, 2017, 2015).
+
+A caution learned here: SoundCloud search matches **descriptions and tags, not just titles**. A
+title-only grep would have dropped *A Public Affair* and *This Is Hell!*; it also let in *Pardon
+The Dissent*, where the host merely plays a Kiriakou clip. Filter on duration first, then read
+the description before queueing.
+
+### Headline 3: Apple's `entity=podcastEpisode` is a different index from the feed sweeps
+
+The 08-06 and 08-09 digs swept iTunes for **feeds** by topic and concluded the method had hit
+diminishing returns. That conclusion was about the wrong endpoint. `entity=podcastEpisode`
+searches **episodes directly**, so it finds shows whose feed-level metadata never mentions
+Kiriakou — which is most of them, because a show's description describes the show, not its
+guests.
+
+Five queries returned 159 distinct episodes; after a diff against the corpus index, **six were
+genuinely new and 40+ minutes**, including a 92-minute *Useful Idiots* from
+2019 (the corpus held that show only from 2023) and a 64-minute *Sound Health Options* from
+2017. It also surfaced roughly a dozen 2025–2026 shows absent from the corpus entirely, which is
+a finding about the **7am intake**, not about archaeology: the daily routine is missing whole
+podcast feeds. Those are parked as candidates rather than taken today.
+
+**Two dedupe traps this endpoint sets.** Feed release dates and recording dates diverge — the
+David Gornoski episode is dated 2020-09-22 in the feed and `10-15-19` in its own filename. And
+the corpus files some shows under their **re-upload** date: *Reality Asserts Itself* Pt. 1 was
+recorded 2019 and is held under 2023-04-24, so a date-window diff calls it new when it is not.
+
+### Angles worked
+
+| Angle | Status | Yield |
+|---|---|---|
+| Ledger head start (5 rows from 08-09) | worked | **2 of 5 real.** Three were already ingested by other routines; see Headline 1 |
+| `find-new-kiriakou-videos.mjs` baseline | worked | 154 videos, 6 searches, **0 new. Sixth consecutive dry run** |
+| **SoundCloud** (platform never opened) | worked | **The seam of the day** — 160 items, 3 new shows ingested, audio fetchable |
+| **Apple `entity=podcastEpisode`** (endpoint never used) | worked | **159 episodes, 6 new ≥40m ingested + ~12 parked.** Supersedes the "iTunes is exhausted" finding |
+| **Internet Archive** advanced search | worked | Surfaced three leads, **all three of which died on inspection** (see Rejected). Its real value today was negative: it proved C-SPAN is held behind `access-restricted-item` |
+| Internet Archive — `community_media` | worked | Only *Foresight with Ken Weaver*, already held. Thin collection |
+| Internet Archive — `radio4all_net` | worked | 5 items, **0 new** — Global Research News Hour repeats and one TUC Radio. **Low-yield, deprioritise** |
+| Internet Archive — misspellings (`kiriako`, `kyriakou`, `kiriakos`) | worked | **Pure noise** — Greek DJs, a pianist named Rena Kyriakou. **Dead end, do not re-run** |
+| **Mixcloud round 2** | worked | Confirms 08-09 exactly: metadata resolves, stream 404s. **Still an index only.** Loud & Clear ×3 stay blocked |
+| **Scott Horton feed enumeration** | worked | His site lists **15** Kiriakou interviews; the corpus holds all 15. **Exhausted — do not re-run** |
+| **Transcript mining for show names** | worked | Surfaced repeat Piers Morgan appearances (he says "I was on the Piers Morgan show" three separate times) — but they are **panel debates** with Dershowitz/Posobiec, so they fail the attribution bar |
+| C-SPAN direct | attempted | **CloudFront 403 to a plain fetch *and* to a real browser.** Harder than the 08-09 note suggested. The Archive's copies are access-restricted and their caption `.srt`s download as 0 bytes |
+| Homebrewed Culture Cast | attempted | **08-09's diagnosis was wrong.** Not an ffmpeg failure — the URL 404s because `%20`s were stripped from the filename. No surviving feed located |
+
+### Ingested and written
+
+| # | Show | Date | Len | Path in | What it added |
+|---|---|---|---|---|---|
+| 1 | **David Gornoski** (A Neighbor's Choice) | 2019-10-15 | 41m | Apple episode index → libsyn | The **Melber walkout** — he took his microphone off mid-taping after being introduced as a leaker and a convicted felon, on a panel about whistleblowing with Ellsberg. Dates the hardening of his Ukraine-complaint position to the day |
+| 2 | **This Is Hell!** | 2016-11-07 | 43m | SoundCloud | **A second entrapment attempt, after his sentence was served** — a caller offering $5,000 a month for classified research, caught because he kept fumbling CIA vocabulary |
+| 3 | **A Public Affair** (WORT 89.9 FM) | 2015-08-17 | 52m | SoundCloud | The contemporaneous reaction to the CIA's *Rebuttal* book, which turned a 422-word stub into a real article; and how a new member of an intelligence committee is *"hooked"* by a first blue-border report |
+| 4 | **The Independent Riot** | 2024-01-19 | 59m | Apple episode index | The Ty Cobb restaurant lunch overheard by the *New York Times* bureau chief at the next table; the training exercise he failed by walking away from a precursor chemical |
+| 5 | **Kate Dalley Radio** | 2017-08-11 | 60m | SoundCloud | **The Grand Mosque cover story** — one fabricated account of innocent travel, heard about twenty-five times, naming a mosque that does not exist in that city; eleven drafts of *The Reluctant Spy*, each one answered with a crimes report |
+| 6 | **Sound Health Options** | 2017-04-30 | 64m | Apple episode index | His own FOIA figures differ from the later telling (255 pages/8 exempt vs 200/6) — recorded as differing accounts; and the causal claim that being misassigned to the prison rather than the camp is *why* he wrote |
+| 7 | **In Limine** | 2023-02-06 | 88m | Apple episode index | The Justice Department's conviction **ticker** — *"they keep statistics on trial wins like it's a sport"* — and the Office of the Pardon Attorney's Chinese wall that exists only on paper |
+| 8 | **Useful Idiots** | 2019-10-31 | 92m | Apple episode index | The fullest account of how Brennan rose — fired by Martha Kesler the week before Christmas **1996** (the corpus's other telling says 1993–94), walking the halls, taking the one open PDB slot, and briefing George Tenet |
+
+### Rejected — and three of the four survived a show-and-date check
+
+| What | Why |
+|---|---|
+| **Citizen Radio 2010-01-30 (60m)** | **Kiriakou is not a guest.** The hosts discuss a news story about him and mispronounce his name throughout. The Archive description named him, which is what fooled the vetting. Fifth instance of this failure mode |
+| **Podcast UFO 2025-03-26 (61m)** | **79.1% overlap** with corpus `2025-03-26-podcast-ufo-live-shows` — the same show under a second feed name. Transcribed before the check; see the matcher bug below |
+| **Abe Lincoln's Top Hat 572 (93m)** | **90.9% overlap** with a copy already ingested on 08-07 from the Simplecast feed. The Internet Archive copy carries a different URL and slug, so a URL dedupe misses it |
+| **Austin and Matt #04 (91m)** | The podbean enclosure Apple returns **404s**. Not reachable |
+| Consortium News *CN LIVE!* S3E5, American Exception ep. 2 | Multi-guest panels — attribution unsafe without speaker labels |
+| Challenging Opinions 49/50, Talk Nation Radio, *Kiriakou 5PM* | 18–29 minutes; under the bar |
+| 9 | **Clearing the FOG** | 2020-08-24 | 60m | Apple episode index (pre-2021 pass) → libsyn | **The regime change approval process** end to end — a memo written at the officer's own desk, cleared by the DOJ Office of Legal Counsel and the NSC's attorneys, signed by the president as an executive order, and left in a safe on the seventh floor because it cannot be destroyed but almost nobody may read it |
+
+**New articles (6):** `the-melber-walkout`, `the-2016-research-pitch`, `the-grand-mosque-cover-story`,
+`plato-kacheris`, `the-regime-change-approval-process`, and the substantial rebuild of
+`the-rebuttal-book` from a 422-word stub. **Woven enrichments across 14 further articles**,
+including one duplicated section collapsed in `gina-haspel` and two variances deliberately
+preserved rather than smoothed (the FOIA page counts, and the year Brennan was fired).
+
+### The count, plainly: nine, not ten
+
+Nine sources were found, vetted, transcribed and written into the encyclopedia. The tenth was
+attempted five times and each attempt died for a different reason — a guest who turned out not
+to be a guest, two duplicates that only a shingle check caught, a dead enclosure URL, and a
+403 on both available routes to the 2015 *Unauthorized Disclosure*. The angles in §2 were worked
+and three new ones were invented (SoundCloud, Apple's episode endpoint, the pre-2021 term
+sweep); the shortfall is one source, not a dry well, and the queue below is longer than it was
+this morning.
+
+### The matcher bug that cost a transcription
+
+The show-name diff used to filter Apple results dropped words of three characters or fewer and
+stopworded `podcast` and `show`. For a show called **"Podcast UFO"** that leaves an *empty*
+token set, so it matched nothing and every episode read as new. Sixty-one minutes were
+transcribed before `dupe-check.mjs` reported **79.1%** against a copy already held under the
+show's other feed name.
+
+**The generalisation is worth more than the fix:** the same interview is routinely published
+under two different show names. Confirmed pairs today — Podcast UFO / *Podcast UFO Live Shows*;
+History Told Forward / *Barracks Media*; My Price Is My Life / *O'Keefe Media Group*;
+Borderland: Narcosis / *IRONCLAD*. Show-name matching therefore cannot be trusted at all.
+**Run `node tools/dupe-check.mjs <slug>` on every transcript before writing a word of it** —
+it is cheap, and today it caught two duplicates that had already survived a show-and-date check.
+
+### For the next dig — the head start
+
+1. **Unauthorized Disclosure, 2015-03-01 (61m)** — Gosztola and Khalek, weeks after his release,
+   and the corpus holds nothing from that show before 2023. Both known routes 403: the anchor.fm
+   player URL and the signed CloudFront enclosure behind it. Needs a different feed or a browser.
+2. **Around The Empire ep. 6, 2017-01-25 (66m)** — "Inside The CIA's War With Trump." The corpus
+   holds an untitled *Around The Empire* row at 2017-02-13; confirm whether that is this episode
+   before spending a transcription on it.
+3. **One Tough Podcast with Bo Dietl ep. 76, 2019-12-23 (48m)** — WABC; no corpus row anywhere
+   near that date. Enclosure resolves.
+4. **Jackman Radio, 2015-04-07 (71m)** — matched on description only, title does not name him.
+   Vet before queueing.
+5. **The ~12 parked 2025–26 shows in `KIRIAKOU-OPEN-VIDS.md`** are a **7am-intake problem**, not
+   an archaeology one. Several proved to be syndication duplicates; the rest are worth a pass by
+   whoever owns the daily routine.
+6. Still blocked, unchanged: Loud & Clear ×3 (Mixcloud-only, download-protected), Homebrewed
+   Culture Cast (404, filename mangled), C-SPAN (CloudFront 403 to fetch and browser alike),
+   Alternative Radio KIRJ001 (paywalled).
+
+**Method note for the next dig.** Discovery was not the bottleneck and has not been for four
+digs; neither was transcription, once the lanes were serialised. **Dedupe was.** Four of this
+run's thirteen fetched items were duplicates or false positives, and every one of them had
+already passed a show-and-date check. Build the corpus index first, then diff on date and title,
+then shingle-check the transcript — in that order — before any of it reaches an article.
