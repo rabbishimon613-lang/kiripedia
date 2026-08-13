@@ -1929,3 +1929,264 @@ clampedSnippets       1505 (+139)     1541
   present.
 - **IndexNow: 167 new-or-changed URLs submitted out of 1,786, HTTP 200.** The
   delta is the intake routine's new articles plus tonight's 34 retitled pages.
+
+---
+
+## 2026-08-13 — nightly sweep
+
+### Vercel Analytics — last 30 days
+
+| metric | value | change |
+|---|---|---|
+| visitors | **520** | **+122%** |
+| page views | **1,913** | −19% |
+| bounce rate | **74%** | +14% |
+
+Visitors more than doubled while page views fell 19% — more people arriving,
+each reading fewer pages. That is the signature of search arrivals landing on
+one article and leaving, and it is consistent with the bounce rate. Bounce is
+actually **down four points** from the 78% recorded on 08-12.
+
+Top landing pages: `/` 162 · `bob-grenier` 69 · `nordstream-pipeline-sabotage`
+37 · `alan-dershowitz` 31 · `hummus` 28 · `gust-avrakotos` 24 · `john-kiriakou`
+24. **`bob-grenier` at 69 still does not appear anywhere in the Search Console
+top 30**, unchanged from last sweep — that traffic continues to arrive from
+somewhere other than Google, and it is now the second-biggest page on the site.
+
+Referrers: google.com 364 · duckduckgo.com 100 · bing.com 40 ·
+**l.instagram.com 14** · chatgpt.com 10 · search.yahoo.com 6 · ecosia.org 3.
+Instagram holds at 14 — steady, not a one-off spike. Countries: US 71%, UK 5%,
+Canada 3%, China 2%, Singapore 2%. Devices: desktop 56%, mobile 43%.
+
+### Search Console — last 3 months
+
+**177 clicks · 8.01K impressions · 2.2% CTR · average position 15.2.**
+
+Position improved from 15.7 to **15.2**; CTR is flat at 2.2%. The impressions
+curve is climbing steeply in the final week of the window — the daily series
+approaches 900 — so the corpus growth is being discovered.
+
+**Indexing: 1.62K indexed, 805 not indexed** across 7 reasons — 343 alternate
+page with proper canonical, 336 crawled-not-indexed, 105 discovered-not-indexed,
+11 page with redirect, 5 excluded by noindex, 4 not found, 1 soft 404.
+
+**The crawled/discovered-not-indexed total is 441 — identical to the last
+sweep, to the URL.** The corpus grew ~8% in that time and the stuck count did
+not move at all. That is worth watching but is not yet a deterioration, and
+nothing was noindexed in response.
+
+### The working queue — saturated for a fifth run
+
+Pages sorted by impressions, zero or near-zero clicks:
+
+```
+heather-kiriakou/  577/2   afghan-languages/  261/0   kuwait-oil-fires/  108/0
+category/people/   104/0   saddam-hussein/     98/2   category/procedures 92/1
+sheikh-saad-al-abdullah 92/0  remains-of-the-day-book 86/0  doing-time-like-a-spy 84/0
+john-mccone 83/1  john-mccain 83/0  kiriakou-family-name 71/0  mary-margaret-graham 70/2
+cofer-black 69/2  abu-zubaydah 63/0  three-saudi-princes 59/0  carlos-the-jackal 59/0
+```
+
+Every article in that list already carried a purpose-written `seoTitle` and
+`deck`. So, as on 08-12, the yield had to come from auditing the treatment
+rather than extending it — and this run found two channels that had never been
+audited at all.
+
+**`heather-kiriakou` is the one measurable result of last sweep's retitle.** It
+went from 202 impressions / 0 clicks to **577 / 2**. The short title is being
+served and is being shown far more often; it has not yet converted. Its own
+query `heather kiriakou` is now the site's largest at **502 impressions**.
+
+### Changed, 1 — category pages had never been given real metadata
+
+**The most useful finding this run.** `/category/people/` sits **ninth on the
+whole site by impressions (104) with zero clicks**, and `/category/procedures/`
+is twelfth (92, 1 click). Both were serving a generated title and description:
+`Category: People | KiriPedia` and `531 KiriPedia articles in the People
+category.` That is template padding, and it gives a searcher no reason to click.
+
+Thirteen categories now carry a written title and description, keyed off what
+is genuinely in each one — people, concepts, events, procedures, places, cases,
+organizations, operations, tradecraft, analysis, prison, agencies, programs.
+Everything else keeps the generic fallback. Titles run **37–51 characters** with
+the brand suffix, descriptions **150–153**, all inside the 155-character clamp.
+
+| category | was | now |
+|---|---|---|
+| people | Category: People | Everyone John Kiriakou has talked about |
+| procedures | Category: Procedures | How the CIA actually does things |
+| concepts | Category: Concepts | The vocabulary of the CIA, explained |
+| prison | Category: Prison | Kiriakou's 23 months inside |
+
+The article count was dropped from the description rather than appended: at
+~150 characters it would have been truncated by the clamp, and it is the
+padding this change exists to remove.
+
+### Changed, 2 — 47 title tags still truncate, on a path nobody had checked
+
+Last sweep fixed 26 over-length `seoTitle`s. **All 138 of those are still
+inside 60 characters — that fix held.** But titles are only *sometimes* built
+from `seoTitle`; the fallback path is `title` + `titleQualifier`, and **47 pages
+on that path run 61 to 82 characters** in the built HTML.
+
+Cross-checked all 47 against the traffic data before spending anything on them:
+**exactly one has measured traffic** — `admit-nothing-deny-everything`, 10
+visitors in the Vercel top pages, at 70 characters. Fixed that one plus the
+seven worst (70–82 chars). The remaining 39 are 61–64 characters, marginal, and
+have no measured impressions; **they are the next run's queue, listed here so
+they are not re-derived**: `executive-assistant-to-the-deputy-director-for-
+operations`, `al-qaeda-training-manual-interrogation-tactics`, `the-secret-
+prisons-the-heads-of-state-did-not-know-about`, `the-fox-that-ate-the-scraps`,
+`souda-bay-crete-vulnerability`, `frus-greece-turkey-cyprus-volume`,
+`jerry-falwell-jr`, `plato-kacheris`, `itamar-ben-gvir`, and 30 more at 61–64.
+
+### Changed, 3 — the two remaining over-length seoTitles, and eleven pages titled
+
+- `carlos-the-jackal` 62 → 52, `remains-of-the-day-book` 61 → 51. **Every one of
+  the 157 `seoTitle` pages is now inside 60 characters.**
+- **Two genuinely untreated high-impression pages**, the only ones left in the
+  queue: `kiriakou-gastrectomy` (**172 impressions, 3 clicks**) and
+  `kiriakou-type-2-diabetes` (45/1). The queries surfacing the first are
+  literally *"john kiriakou stomach"* (59 imp) and *"does john kiriakou have a
+  stomach"* (27 imp, 0 clicks), so the title now answers that question directly:
+  *John Kiriakou had his stomach removed*, with a deck that opens *"He no longer
+  has one."*
+- **Nine off the inbound-link queue**, the established fallback: `aldrich-ames`,
+  `access-agent`, `hillary-clinton`, `nsa`, `marco-rubio`, `ghislaine-maxwell`,
+  `greek-intelligence-service`, `jesselyn-radack`, `in-q-tel`.
+
+Every title and deck is grounded in that article's own `summary` or infobox. No
+fact was invented to sharpen a line.
+
+### Changed, 4 — category structured data pointed at redirecting URLs
+
+The trailing-slash normalizer rewrites `href="…"` attributes in the built HTML
+and **nothing else** — which means it has never touched JSON-LD. The category
+template emitted `"url": "…/category/people"` and an ItemList of
+`"…/wiki/<slug>"`, all without the slash, so **every structured-data URL on
+every category page pointed at the form that 308-redirects**, while the
+canonical on the same page pointed at the slash form. Fixed at the template.
+`ArticleLayout` was already correct; `sources/index.astro` has the same gap but
+belongs to another session and was left alone.
+
+### Fixed to unblock the build — one miswired link, and it was a doctrine slip
+
+The content gate failed on a high-confidence bug in
+`the-two-officers-who-changed.mdx`, an **untracked file from the intake
+routine**: the anchor text `[Alec Station]` pointed at `/wiki/mike-scheuer`.
+The article's own sentence two lines above reads *"Again no name is given"* —
+so the auto-linker had named the officer Kiriakou deliberately declined to
+name. The link was removed and the plain text kept, which clears the gate and
+restores the article's meaning. **Not staged** — the file is intake's and
+untracked — so it rode along in the deployed build but is not in this commit.
+Flagged because the same auto-linker will do it again.
+
+### Verified
+
+- **Build gate: `Total: 0 bugs, 1910 suspicious, 0 dead`**, on both the local
+  build and the `vercel build --prod` run.
+- **URL shape held:** the slash-less-internal-link grep prints **0**. The
+  normalizer has not regressed; 86,414 links normalized across 2,858 pages.
+- **All 21 changed articles and 13 categories confirmed ≤60 characters in the
+  built HTML**, decoded, not counted raw — longest 58.
+- **Six spot-checked in production after the deploy**, all serving the new
+  title: `category/people` (51), `category/procedures` (44),
+  `kiriakou-gastrectomy` (49), `national-security-agency` (49),
+  `admit-nothing-deny-everything` (48), `aldrich-ames` (52).
+- **Category JSON-LD verified live** as `"url":"…/category/procedures/"`.
+- **Related blocks:** 1,875 rendered, 1,365 rescue links, **0 with no inbound
+  related-link**, 3 with an empty block. Absorbed +179 articles this run
+  without moving off 0 — no hand-linking needed.
+- **Build completeness checked against source** (flaky-drive rule): 1,878
+  source articles → 1,925 built wiki pages → 1,921 sitemap URLs. Surplus, not
+  deficit. **Production sitemap serves 1,921, matching `dist` exactly.**
+- **noindex, all accounted for:** 53 outside `/sources/` — the same 48 redirect
+  stubs plus 5 utility pages, **unchanged, zero accidental noindex.** 884 under
+  `/sources/` (was 873; +11 from new transcripts), the other session's
+  deliberate change, and **0 of them appear in the sitemap.**
+
+### The build fought back twice again — one new cause, one known
+
+Three astro attempts.
+
+1. **The content-gate bug above** — deterministic, not transient. Retrying
+   would never have cleared it; it needed the one-line fix.
+2. **`ENOENT` on `khalid-el-masri.jpg`, a file that demonstrably exists** — 1.6
+   MB on disk, and `dd` read it at 59 MB/s immediately afterwards. **Unlike
+   08-12, no competing `astro build` was running** — `ps` showed only another
+   session's `astro dev` server. So this one really was the EOS_DIGITAL
+   read-drop, not process contention. **Cleared on a straight retry with no
+   other change.** Both causes are now documented; check `pgrep -f "astro
+   build"` first, and if nothing is competing, just retry.
+
+`NODE_OPTIONS=--max-old-space-size=8192` was set on every attempt and no heap
+exhaustion occurred, on either the local or the Vercel build. Keep passing it.
+
+The intake routine was writing throughout — the article count went
+1,836 → 1,863 → 1,878 during the sweep. **Next run's delta should be read
+against 1,878.**
+
+### Corpus audit — start of run, and after
+
+```
+                     start          after
+articles              1836 (+93)     1878
+orphans                331 (+30)      348
+thin                   444 (+9)       451
+veryThin                94             94
+noindexed                0              0
+withSeoTitle           138            157 (+19)
+withDeck               155            174 (+19)
+relatedOrphans           0              0
+clampedSnippets       1634           1658
+```
+
+### Found, not changed — with reasons
+
+- **Two redirect stubs are drawing real impressions.**
+  `/wiki/abdul-rashid-dostum` (63) and `/wiki/three-saudi-princes` (59) are both
+  308s to `general-dostum` and `saudi-princes-and-9-11`. **122 impressions land
+  on URLs Google is still showing rather than the live articles.** The redirects
+  work and the targets are both fully treated, so a click still arrives in the
+  right place — Google simply has not finished swapping the URL. Nothing to fix;
+  recorded so it is not re-investigated.
+- **The 39 remaining 61–64 character titles**, listed above. Marginal
+  truncation, no measured impressions, and fixing them costs a full 25-minute
+  rebuild. Next run's queue.
+- **`src/pages/sources/index.astro` has the same JSON-LD trailing-slash gap** as
+  the category template did. Left alone: it is another session's file.
+- **Three files belonging to another session were left unstaged**, as always:
+  `src/components/SEO.astro`, `src/layouts/ArticleLayout.astro`,
+  `src/pages/about.astro`. They ride along in the deployed build, which is
+  established behaviour here. **Only 22 files were staged, every one by explicit
+  path. Never `git add -A`.**
+- **The brand suffix is back to ` | KiriPedia`** (12 chars). The 08-12 entry
+  recorded another session changing it to ` | John Kiriakou` (16) and warned the
+  ~50-character rule of thumb had become ~44. It has been reverted, so the
+  budget is ~48 again, and everything written tonight was sized against that.
+- **Standing items, all tracking corpus growth:** 1,658 clamped snippets, 348
+  wikilink orphans, 1,910 suspicious wikilinks, 451 thin articles. These grow
+  with every intake batch and are not this routine's to fix.
+
+### Blocked — needs the user
+
+- **Backlinks remain the entire ceiling.** Position 15.2 at 2.2% CTR is what a
+  site with almost no inbound links gets, and it is the same sentence every
+  sweep. **Kiriakou sharing the site himself is still the single highest-value
+  unlock available.** Instagram holding steady at 14 visitors is the only
+  non-search referral this site has.
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia**, for the Organization `sameAs` (carried
+  from 2026-07-09).
+
+### Deployed
+
+**Yes — live and verified on `www.kiripedia.org`.**
+
+- `NODE_OPTIONS=--max-old-space-size=8192 VERCEL_FORCE_NO_BUILD_CACHE=1 vercel
+  build --prod` (exit 0), then `vercel deploy --prebuilt --prod --archive=tgz`
+  (exit 0) → deployment `kiripedia-y76cno86b-shimonindustries.vercel.app`
+  **ready**, promoted to production.
+- Six title tags spot-checked live, sitemap verified at 1,921 against `dist`,
+  category JSON-LD verified live in the trailing-slash form.
+- **IndexNow: 146 new-or-changed URLs submitted out of 1,921, HTTP 200.**
