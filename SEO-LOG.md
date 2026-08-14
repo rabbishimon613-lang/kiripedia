@@ -2190,3 +2190,248 @@ clampedSnippets       1634           1658
 - Six title tags spot-checked live, sitemap verified at 1,921 against `dist`,
   category JSON-LD verified live in the trailing-slash form.
 - **IndexNow: 146 new-or-changed URLs submitted out of 1,921, HTTP 200.**
+
+## 2026-08-14 — nightly sweep
+
+### Vercel Analytics — last 30 days
+
+| metric | value | change |
+|---|---|---|
+| visitors | **885** | **+102%** |
+| page views | **3,235** | −7% |
+| bounce rate | **78%** | +11% |
+
+Against last sweep's 520 / 1,913 / 74%, visitors are up 70% and page views up
+69% in a single day of window shift. **That is not a search story, and the
+referrer table proves it:** google.com 360 · duckduckgo.com 107 · bing.com 45 ·
+l.instagram.com 14 · chatgpt.com 10 · search.yahoo.com 6 · ecosia.org 4 — a
+total of 546, against 537 on 08-13. **Referred traffic is flat to the visitor.**
+So essentially all ~365 additional visitors arrived with no referrer at all.
+
+**Worth watching rather than celebrating.** Operating systems now read iOS 29%,
+Windows 23%, **GNU/Linux 22%** — a Linux share that high on a consumer
+encyclopedia, arriving without a referrer, has the shape of automated traffic
+rather than readers. Countries US 70%, UK 5%, Canada 3%, China 3%, Singapore 2%.
+Devices desktop 55%, mobile 44%. **No conclusion drawn — Vercel Analytics does
+not expose user agents, so this cannot be confirmed from the dashboard.** If the
+next sweep shows the same pattern, it is worth treating the visitor number as
+unreliable and reading page views and Search Console instead.
+
+Top landing pages: `/` 162 · `bob-grenier` 69 · `nordstream-pipeline-sabotage`
+37 · `alan-dershowitz` 30 · `hummus` 25 · `gust-avrakotos` 24 · `john-kiriakou`
+24. **`bob-grenier` at 69 still appears nowhere in Search Console** — third
+sweep running. Instagram holds at 14 for a third sweep.
+
+### Search Console — last 3 months
+
+**201 clicks · 8.86K impressions · 2.3% CTR · average position 15.4.**
+
+Against 177 / 8.01K / 2.2% / 15.2 last sweep: **+24 clicks and +850
+impressions in one day.** CTR ticked up a tenth; position slipped two tenths,
+which is what happens when a wave of new pages enters the index at middling
+ranks. The daily impressions curve peaks near 900 around 8/8 and is falling
+back at the end of the window.
+
+**Indexing: 1.62K indexed, 805 not indexed** — 343 alternate page with proper
+canonical, 336 crawled-not-indexed, 105 discovered-not-indexed, 11 page with
+redirect, 5 excluded by noindex, 4 not found, 1 soft 404.
+
+**Every one of those seven numbers is identical to last sweep's, to the URL.**
+Two sweeps with no movement at all, while the corpus grew another 8%, means the
+report simply has not refreshed rather than that nothing changed. Treat the
+441 crawled/discovered-not-indexed figure as stale, not as a stable trend.
+
+### The working queue — top saturated for a sixth run, so the work moved
+
+Pages by impressions with zero or near-zero clicks:
+
+```
+heather-kiriakou/  605/2   hummus/  546/10   gust-avrakotos/  346/9
+kiriakou-gastrectomy/ 313/3   afghan-languages/  266/0   hummus (no slash) 257/3
+category/people/  115/0   /  112/19   kuwait-oil-fires/  111/0   saddam-hussein/ 100/2
+the-farm/ 95/4   category/procedures 92/1   sheikh-saad-al-abdullah/ 92/0
+kiriakou-family-name/ 92/0   john-mccain/ 89/0   doing-time-like-a-spy/ 86/0
+remains-of-the-day-book/ 86/0   john-mccone/ 84/1   abu-zubaydah/ 74/0
+```
+
+**All twenty were checked in source and all twenty already carry a
+purpose-written `seoTitle` and `deck`.** The only two pages in the whole
+Vercel/GSC top set without treatment are `ken-schaefer` (9 clicks / 29
+impressions) and `larry-raviv` (**12 clicks / 26 impressions — a 46% CTR**).
+Both are deliberately left alone: they rank on personal-name queries and already
+convert better than anything else on the site, and there is nothing to gain by
+rewriting a title that is working.
+
+Movement worth recording since 08-13: **`gust-avrakotos` 346 impressions / 9
+clicks**, now the site's third-largest page and one of its best converters;
+`kiriakou-gastrectomy` **172 → 313 impressions** after last sweep's retitle,
+still 3 clicks; `heather-kiriakou` 577 → 605, still 2.
+
+### Changed — twelve current-affairs articles, treated before Google evaluates them
+
+With the impression queue saturated, the yield this run is **prospective rather
+than reactive**: the corpus grew 1,878 → 2,032 in a day and a half, and the new
+material is topical — Gaza, Venezuela, the Epstein act, Section 702 — the kind
+of thing with real standing search demand. Treating those pages *before* Google
+settles their titles is worth more than re-auditing pages that are already done.
+
+Twelve were picked off the audit's inbound-link queue and given a `seoTitle` and
+a `deck`:
+
+| page | new title tag |
+|---|---|
+| hamas | Kiriakou's case for Hamas as freedom fighters |
+| gaza-famine | Gaza's famine: the food is there, and blocked |
+| venezuela-boat-strikes | The Caribbean boat strike: 11 dead, no charges |
+| taliban | The Taliban was baffled by the 2001 invasion |
+| epstein-files-transparency-act | The Epstein files law nobody complied with |
+| ukraine-call-whistleblower | Why Kiriakou won't call this whistleblowing |
+| abraham-accords | Abraham Accords: 'a punch in the throat' |
+| federal-plea-coercion | Why innocent people plead guilty: 98.2% |
+| section-702 | Section 702: warrantless spying on Americans |
+| russiagate | Russiagate: $50,000 of Facebook ads |
+| prison-medical-care | What medical care is like in federal prison |
+| nsa-surveillance | The NSA is not allowed to spy on Americans |
+
+Titles run **34–57 characters with the ` | KiriPedia` suffix**, decks 135–153.
+**Every line is drawn from that article's own `summary` or infobox** — the
+98.2%, the 419-to-1 and 99-to-nothing votes, the 200,000+ FBI queries, the
+$50,000 of ads, the "punch in the throat" quote, the NSA charter quote. No fact
+was invented and no gender was assumed where the article does not state one
+(the Ukraine whistleblower title was rewritten from "him" to "this" for exactly
+that reason).
+
+### The build fought back, and this time the cause was unambiguous
+
+Three attempts, and the run is worth recording in full because it changes what
+the next sweep should check first.
+
+1. **First build exited 0 but produced a dist containing only 5 of the 12 new
+   titles.** The seven missing ones were verified present in source both before
+   and after. A clean exit code is therefore *not* evidence the build read every
+   file — **check the output, not the exit code.**
+2. **Second build (after clearing `.astro` and `node_modules/.astro`) failed
+   with `ENOENT` on `public/images/double-agent-marriott-trap.jpg`** — a file
+   that reads off disk at 89 MB/s immediately afterwards. Unlike 08-13, `pgrep`
+   found **another session's `astro build` running concurrently** (PID 47284,
+   started 10:56). So this was cause #1 from the 08-12 entry — process
+   contention — not the EOS_DIGITAL read-drop, and the partial dist in (1) has
+   the same explanation.
+3. **A third build was queued behind the competing one and then abandoned**,
+   because it had become unnecessary — see below.
+
+**The check that matters: `pgrep -f "astro build"` before starting, and again
+before believing the output.**
+
+### Verified — against production, which is stronger than against `dist`
+
+The concurrent session committed my twelve files into its own commit
+`eed5070a "Corpus mining shift: 40 new articles"` and deployed them. So rather
+than spend another 25 minutes rebuilding, everything was verified on the live
+site:
+
+- **All twelve new title tags confirmed live** on `www.kiripedia.org`, fetched
+  one by one. Longest 57 characters including the suffix.
+- **URL shape held: 0 slashless internal links** across 33 live pages sampled
+  from the sitemap (26 articles, 6 categories, the homepage). The normalizer has
+  not regressed. The `dist` grep also printed 0 on the first build.
+- **Canonicals: present on all 33, and every one exactly equals its sitemap
+  URL.** Zero mismatches, zero noindex in the sample.
+- **Live sitemap 2,075 URLs, and it decomposes exactly right:** 2,032 `/wiki/`
+  — **identical to the 2,032 source articles on disk** — plus 40 categories, the
+  homepage, `/about/`, and the `/sources/` index. **Zero individual `/sources/`
+  transcript pages in the sitemap**, so the other session's noindex work is not
+  leaking into it. **Every one of the 2,075 ends in a trailing slash.**
+- **Build completeness checked against source, per the flaky-drive rule**, and
+  it matches at 2,032 for 2,032 — against production, not a local `dist`.
+- **Content gates: `Frontmatter audit: 1999 files clean` and `Total: 0 bugs,
+  2164 suspicious, 0 dead`.** Suspicious grows with the corpus and is not a
+  failure.
+- **Related blocks: 2,029 rendered, 1,474 rescue links, `0 still with no
+  inbound related-link`, 3 with an empty block.** Absorbed +154 articles this
+  run without moving off 0. No hand-linking needed; the generator is holding.
+- **`/wiki/hummus` and `/category/procedures` both 308 correctly** to their
+  slash forms, and `hummus/` self-canonicalises.
+
+### IndexNow — 68 URLs, HTTP 200
+
+Submitted against the **production** sitemap rather than a local `dist`, since
+production is the definition of what is actually live and the local `dist` was
+mid-write by the other session. Same tool, same key, same state file
+(`.kir-indexnow-state.json`), only the sitemap source differed. **68 new or
+changed URLs out of 2,075, HTTP 200.**
+
+### Corpus audit — start of run, and after
+
+```
+                     start          after
+articles              1985 (+107)    2032 (+47)
+orphans                373            395
+thin                   470            491
+veryThin                92             91
+noindexed                0              0
+withSeoTitle           157            169 (+12)
+withDeck               174            186 (+12)
+relatedOrphans           0              0
+clampedSnippets       1761           1797
+```
+
+The intake routine was writing throughout — 1,985 → 1,995 → 2,000 → 2,032
+during the sweep. **Next run's delta should be read against 2,032.**
+
+### Found, not changed — with reasons
+
+- **`/wiki/hummus` without the trailing slash is drawing 257 impressions and 3
+  real clicks** as a separate GSC row from `/wiki/hummus/` (546/10), and
+  `/category/procedures` likewise (92/1). Both 308 correctly and both are
+  self-canonicalised at the destination, so every click lands in the right
+  place. This is the 343-page "alternate page with proper canonical" bucket:
+  Google has not finished swapping the URL it displays. **Nothing to fix
+  in-site** — recorded so it is not re-investigated a third time.
+- **The two redirect stubs from 08-13 are still drawing impressions** —
+  `abdul-rashid-dostum` 65 and `three-saudi-princes` 59, both 308s to treated
+  articles. Same situation, same non-action.
+- **`ken-schaefer` and `larry-raviv` left untreated**, as above — a 46% CTR is
+  not something to experiment on.
+- **`local main is 206 ahead / 228 behind `origin/main`, and has been diverged
+  since 2026-07-11.** `origin/main`'s tip is an `x-bot: update post state`
+  commit from `bot@kiripedia.org` dated 2026-08-07; the local line carries every
+  intake, mining and sweep commit since 11 July. **`git push` is rejected
+  non-fast-forward** and was not forced. This does not block anything — deploys
+  build from the local working tree, and production is a month ahead of
+  `origin` — but it is a month-old condition nobody has decided about, and it
+  should be either merged forward or explicitly abandoned. **Carried to the
+  user.**
+- **A concurrent session committed this routine's twelve files** in its own
+  commit rather than leaving them for this one. Nothing was lost and the work
+  shipped, but it means "stage only your own files by explicit path" can be
+  defeated by another session's `git add`. Worth knowing; not worth fighting.
+- **Standing items, all tracking corpus growth:** 1,797 clamped snippets, 395
+  wikilink orphans, 2,164 suspicious wikilinks, 491 thin articles. These grow
+  with every intake batch and are not this routine's to fix.
+- **Next run's queue:** the audit's untreated-with-inbound-links list now heads
+  with `stephen-saunders` (15 inbound, 1,413 words) and `bruce-fein` (13
+  inbound). If the impression queue is still saturated, keep working down that
+  list.
+
+### Blocked — needs the user
+
+- **Backlinks remain the entire ceiling.** Position 15.4 at 2.3% CTR is what a
+  site with almost no inbound links gets. **Kiriakou sharing the site himself is
+  still the single highest-value unlock available.** Instagram at 14 visitors is
+  the only non-search referral this site has, and it has not moved in three
+  sweeps.
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia**, for the Organization `sameAs` (carried
+  from 2026-07-09).
+- **Decide the `origin/main` divergence** (above, new this run).
+
+### Deployed
+
+**Yes — live and verified on `www.kiripedia.org`, though not by this routine's
+own deploy.** The concurrent session committed and shipped the twelve articles
+before this sweep's third build could run, and all twelve were then confirmed
+serving their new title tags in production, alongside a 2,075-URL sitemap that
+matches source exactly. **Nothing is queued behind a redeploy**, which is what
+the always-deploy rule exists to prevent. A fourth build purely to re-publish
+bytes that are already published was not run.
