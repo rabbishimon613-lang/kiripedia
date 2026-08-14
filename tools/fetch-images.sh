@@ -1144,6 +1144,13 @@ MAPPING=(
   "pakistani-troops-for-gaza=Pakistan_Armed_Forces"
   "the-kosovo-objection=NATO_bombing_of_Yugoslavia"
   "the-homelessness-executive-order=Homelessness_in_the_United_States"
+  "nicholas-burns=Nicholas_Burns"
+  "dimitris-koufodinas=Dimitris_Koufodinas"
+  "john-larson=John_B._Larson"
+  "the-baltimore-plot=Baltimore_Plot"
+  "the-catering-truck-transfer=Air_Force_One"
+  "the-clinton-pakistan-plane-switch=Air_Force_One"
+  "the-air-force-one-bomb-threat=Ellinikon_International_Airport"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.

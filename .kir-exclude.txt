@@ -1606,3 +1606,8 @@ aHJuNGwf1C0	2026-03-16 Breakpoint — 92.6% shingle, 10/12 runs verbatim in 2026
 VsZukq8WxYQ	2026-03-12 Nietzsche upload — 2013 sentencing coverage re-posted with a 2026 date; 86.4% shingle / 10-12 runs verbatim in 2015-01-09-terrorpedia aggregator, 71.7% against 2013-01-30-democracy-now-sentenced-to-prison
 wM_qsmuiY5I	2026-03-09 DeProgram 'Ecocide in Iran' — Kiriakou absent (travelling, never joined); Ted Rall + producer Robbie West only, no Kiriakou speech in 59 min
 lSX5xFPy53c	2026-03-04 DeProgram — Kiriakou absent ('John has some other stuff to do'); Ted Rall + Robbie West + guest Achilles Larrea only
+0D-L8O6cuwI	2026-01-23 DeProgram 'Club Med Gaza' — re-upload of c0crs_0HgAU, already ingested as 2026-01-23-deprogram-show-with-ted-ra-club-med-gaza-deprogram-with-ted-rall-and-joh (identical cold open verbatim)
+CxG3Nosbl1s	2026-01-22 'The Honest Talk' credited to Steven Bartlett — first 20 min of the Diary of a CEO episode yUNoJ32eLBc (2026-01-19), verbatim through the closing Iraq-desk line
+kj_agEYf1yY	2026-01-21 Unfiltered With S.A.M. 7-min clip — verbatim excerpt of gbvuY-IqXvQ (2026-01-09), already ingested
+-dnBFBNex6Q	2026-02-05 DeProgram 8-min segment — guest interview with Murtaza Hussain of Drop Site News; no attributable Kiriakou speech
+audef41a410e	2026-06-16 'Joannes Wyckmans Podcast' — AI-narrated deep-dive recap discussing Kiriakou in third person; he never speaks, fails single-source canon
