@@ -1272,3 +1272,190 @@ directory, so none of them is dead.
   only in `…-second-time-guest-j.sponsors.md`, not in the main transcript. Precedent exists for
   citing the sidecar and it was followed, but the stripper is losing canon material into a file
   the corpus treats as advertising.
+
+---
+
+## 2026-08-14 — 20/15 fattened
+
+Carryover: none. Nothing was left `in-progress` by the 2026-08-13 run. Mentions index rebuilt before
+ranking. `rank-enrich-candidates.mjs` produced 167 honest candidates under 340 words with at least
+two uncited fuel sources, and 233 articles were set aside as unscorable (fewer than two distinctive
+title tokens).
+
+**Ranking note.** The top of the strict ranking is still dominated by the sentence-shaped-title
+artefacts the 2026-08-13 run identified, and they were skipped on sight rather than re-investigated:
+`netanyahu-and-the-tel-aviv-police-chief`, `the-blacked-out-grand-jury-minutes`,
+`greek-ambassador-dinner-encounter`, `the-standard-operating-procedure-assignment`,
+`the-las-vegas-case`, `the-crenshaw-text-messages`, `diary-of-a-ceo-january-2026`,
+`us-military-venture-capital`, `united-food-and-commercial-workers`, `the-ideological-circle`. That
+saved the whole first hour of the run, which is an argument for keeping the skip list in the log
+rather than only in the ranker.
+
+| article | words before | words after | new facts | new sources |
+|---|---:|---:|---:|---:|
+| `the-solitary-confinement-precedents` | 324 | 1854 | 18 | 14 |
+| `epstein-statute-of-limitations` | 312 | 1060 | 11 | 4 |
+| `torture-as-a-recruiting-tool` | 235 | 1045 | 12 | 5 |
+| `leaking-vs-whistleblowing` | 214 | 922 | 11 | 6 |
+| `the-imran-khan-apology-demand` | 198 | 889 | 10 | 4 |
+| `sentencing-reform-bills` | 264 | 885 | 9 | 3 |
+| `prince-muhammad-bin-naif` | 101 | 881 | 14 | 3 |
+| `iranian-suicide-drones` | 320 | 875 | 9 | 3 |
+| `sheldon-adelson` | 317 | 871 | 8 | 4 |
+| `the-martyrdom-bonus` | 309 | 836 | 9 | 4 |
+| `encryption-before-the-key` | 211 | 833 | 10 | 4 |
+| `mark-warner` | 159 | 828 | 8 | 5 |
+| `french-village-lsd-bread-experiment` | 128 | 795 | 11 | 7 |
+| `muslim-brotherhood-designation` | 212 | 785 | 9 | 3 |
+| `jim-jordan` | 181 | 783 | 10 | 6 |
+| `false-flags-are-too-hard` | 316 | 768 | 8 | 3 |
+| `ralph-nader` | 290 | 740 | 7 | 3 |
+| `the-postcards-for-daniel-hale` | 335 | 717 | 9 | 3 |
+| `angela-merkel` | 172 | 711 | 8 | 3 |
+| `the-aipac-holy-land-trip-offer` | 280 | 642 | 9 | 5 |
+
+Twenty articles, not fifteen — the surplus is the direct product of the skip list above, not of
+lowering the floor. Every article cleared ≥3 new sourced facts from ≥2 distinct new sources, and most
+cleared it several times over. Nothing left `in-progress`. All 498 `<Cite>` tags across the twenty
+files were machine-verified with `verify-cites.mjs` before commit — every source slug resolves to a
+transcript on disk, every timestamp appears verbatim in that transcript, and every `/wiki/` link
+resolves to an existing article. `audit-wikilinks.mjs` reports 0 bugs.
+
+### Best finds
+
+- **`the-solitary-confinement-precedents`** was a single 2021 interview about Assange and is now the
+  full account of an argument Kiriakou has run for six years and two defendants. The precedents
+  themselves turn out to be unstable in his telling — *"precedents plural"* in British jurisprudence
+  in early 2020, three British rulings by June 2021, and from late 2021 onward three rulings of the
+  European Court of Human Rights — and he never reconciles the versions. What the European cases
+  actually held is the find: the three prisoners Strasbourg refused to send to the United States had
+  mental illnesses, and the court believed American solitary confinement was enough to push them to
+  attempt suicide. That is the hinge for Assange, whom Kiriakou describes as mildly autistic and
+  suffering chronic depression and anxiety. He also names the flaw in his own optimism — the UK
+  position that Assange was free to appeal to Strasbourg without the extradition being stayed, *"so
+  that defeats the whole purpose of the appeal"* — and, in October 2025, revives the entire argument
+  in a sworn affidavit for the Australian pilot Daniel Duggan, complete with its historical claim
+  that solitary was invented at Eastern State Penitentiary in 1829 and the case of Anthony Gay, whose
+  seven-year sentence for stealing a dollar from a tip jar became ninety-seven.
+- **`prince-muhammad-bin-naif`** was 101 words and one anecdote. It is now the fullest Saudi
+  succession narrative in the corpus: the brother-to-brother chain from Ibn Saud's hundred and
+  fifteen sons through Saud's overthrow and Faisal's assassination; the *majlis* as an institution,
+  illustrated by a bridegroom asking the prince to buy his living-room furniture and a taxi driver
+  asking for a car; the assassin waiting patiently in that line with a bomb concealed inside his
+  body, purpose-built over months — *"incredible craftsmanship"*; the CIA's highest medal awarded for
+  surviving it; and then the arrest by Muhammad bin Salman, one dissenting cousin dead in a plane
+  crash and another in a single-car accident on the Riyadh–Jeddah highway, and Al-Waleed bin Talal
+  offered execution as a Western spy, execution as a supporter of bin Naif, or half his money.
+- **`mark-warner`** gains the sentence that explains the whole article. Kiriakou asked the former
+  congressman Jim Moran to approach Warner about a pardon, and Moran answered: *"I have been in the
+  room when Warner has said that you should be hanging from a tree."* The article had recorded only
+  that Warner *"doesn't like me"* — and that Kiriakou graded him top of the scale anyway.
+- **`the-imran-khan-apology-demand`** now has the offence, which was arithmetic. He was asked who
+  would win a war between India and Pakistan and said that with five times the population India
+  would; his answer on Kashmir was cut from the broadcast entirely. The letter arrived at his home
+  address — *"how he got my home address, I have no idea"* — demanding an apology *"to his excellency
+  the former prime minister."* His lawyer told him to throw it away; he replied by email instead and
+  has not heard back. The standing policy that came out of it: no interviews with any Indian or
+  Pakistani outlet, ever again, because they *"make stuff up and put it in a banner headline with two
+  exclamation points."*
+- **`false-flags-are-too-hard`** required a correction to its own thesis. The article said the CIA
+  *"really did not use them very often."* In 2017 Kiriakou says the opposite about small ones:
+  *"false flags were actually very popular at the CIA when I was there… operationally, false flags
+  were very popular. They used them all the time."* The reconciliation is scale, and it is his own —
+  *"the bigger the false flag, the tougher it is to pull it off."* The article now states both. Also
+  added: his refusal of the premise behind 9/11 staging claims — *"if we want to kill Muslims, we
+  just go out and kill Muslims, you don't need a provocation"* — and his named exception, that he
+  does not believe the Newtown massacre was a false flag.
+- **`the-martyrdom-bonus`** gains the negative argument the anecdote exists to make. The recruits
+  *"didn't know the Quran, they had never read the Quran, they didn't know the prayers"*; the
+  interviewer's phrase *"an economic draft"* is one Kiriakou accepted twice over; and the hostility
+  came afterwards, when *"we started killing their families with drones."*
+- **`encryption-before-the-key`** acquires his answer to the case for banning encryption: the Paris
+  attackers communicated over online gaming systems that were *not* encrypted, *"out there in the
+  ether for anybody to intercept"*, and were still missed — *"I call that an intelligence failure,
+  not a problem with encryption."*
+- **`iranian-suicide-drones`** gains the price. Five to ten thousand dollars each, against roughly
+  $150,000 for the American equivalent, because the Iranian ones *"just have GPS and they just go."*
+  Hence the arithmetic that defeats air defence: *"you can't shoot down 5,000 incoming drones. You
+  don't have 5,000 missiles."*
+
+### Corrections and variances recorded
+
+- **`false-flags-are-too-hard`** — the "rarely used" claim now stands alongside "used all the time",
+  reconciled by scale in Kiriakou's own words rather than by the editor.
+- **`the-solitary-confinement-precedents`** — the number of precedents (two or three) and their forum
+  (British courts or the European Court of Human Rights) vary by year. Both given, unreconciled.
+- **`the-martyrdom-bonus`** — the monthly stipend is $300 in most tellings, $50 in 2018 and $500 in
+  2021. The death payment is $500 in every version.
+- **`the-aipac-holy-land-trip-offer`** — three or four colleagues took the trip in one telling, the
+  entire staff in another.
+- **`mark-warner`** — Kiriakou names *"my own Senator John Warner"* and corrects himself mid-sentence
+  to Mark Warner. Preserved.
+- **`sentencing-reform-bills`** — the 2026 telling blames Reid and McConnell for keeping the bills off
+  the floor; the 2017 telling puts the veto one step further back, at Holder and Sessions. Both given.
+- **`the-imran-khan-apology-demand`** — the sender is the party's president in two tellings and its
+  director in a third; the demand is a public statement in one and a posted letter in the others.
+- **`leaking-vs-whistleblowing`** — Kiriakou's own rule contains a tension he does not resolve.
+  Purpose is what separates whistleblowing from leaking (*"whistleblowing is done in the public
+  interest"*), yet stated precisely the statutory test excludes motive: *"why you did it, why you
+  went to the press, is irrelevant."* He has also once allowed the categories to overlap, describing
+  White House staff leaking to the press as *"their way to whistleblow."* All three stated.
+- **`prince-muhammad-bin-naif`** — the Georgetown education is hedged by Kiriakou (*"I think it was
+  Georgetown, I can't recall"*) and is recorded hedged.
+- **`sheldon-adelson`** — the donation figure is "more than one hundred million" to the 2016 campaign
+  in one telling and "hundreds of millions" across three campaigns from Miriam and Sheldon Adelson in
+  another.
+- **`french-village-lsd-bread-experiment`** — the LSD goes into the *yeast*, via a night burglary, in
+  some tellings, and into the *flour supplied to the bakery*, with no break-in at all, in others.
+
+### Cut on attribution
+
+- **`ralph-nader`** — the claim that Nader coined the modern sense of "whistleblower" and shepherded
+  the 1989 Whistleblower Protection Act through Congress was cut: it is Howie Hawkins introducing the
+  segment while wearing a Nader T-shirt, not Kiriakou.
+- **`ralph-nader`** — a passage in which the speaker says he intended to vote for Nader rather than
+  Obama and was argued with by Dan Ellsberg belongs to Kevin Gosztola describing his own experience.
+  Kiriakou's parallel story, in the adjacent turn, is about Gary Johnson, and that one was used.
+- **`mark-warner`** — the fullest account of Adam Waldman approaching Warner and Warner alerting Comey
+  is Scott Horton reading a Wikipedia entry aloud, and a Gonzalo Lira roundtable host in another file.
+  Both cut. What survives is Kiriakou's own answer when asked: he had *"only seen that as a rumour,"*
+  and finds it plausible on procedural grounds.
+- **`false-flags-are-too-hard`** — the passage on Cass Sunstein, cognitive infiltration and the
+  "light switch effect" is Caleb Maupin and Lee Stranahan, not Kiriakou. Cut.
+- **`angela-merkel`** — Jay Dyer's verdict that Merkel was one of the worst post-war EU leaders was
+  cut; Kiriakou does not answer the question.
+- **`sheldon-adelson`** — the Macau/Chinese-elite material at 32:00 of the Lizzie interview is largely
+  the interviewer's. Only Kiriakou's own turns were used.
+- **`the-imran-khan-apology-demand`** — the sarcastic line about what Imran Khan wants most in the
+  world is Jackson Hinkle's, not Kiriakou's. Cut.
+- **`the-solitary-confinement-precedents`** — the Nelson Mandela Rules passage, which would have been
+  a good addition, is spoken by an unidentified third panellist on the Unity4J vigil, not by
+  Kiriakou. Cut despite being on-topic. Likewise the Nils Melzer petition read aloud in the Action4
+  Assange stream; the Melzer material that survives is from Kiriakou's own mouth elsewhere.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+- **`consulting-for-royal-families`** (239 words) — ranked high, and cannot be fixed. The claim that
+  members of two royal families hired him to advise on ethics in their intelligence services appears
+  in exactly one episode, which exists on disk twice under two slugs. Everything adjacent to it in the
+  corpus is the 2026 viral wave, which already has its own article. Needs a new telling, not
+  enrichment. This is the one target dropped from the list this run.
+- The ten sentence-shaped-title artefacts named at the top of this entry remain mis-ranked rather
+  than starving, and should not be re-investigated until the ranker scores token pairs jointly.
+
+### Method notes
+
+- The `.sponsors` sidecar problem the last run flagged bit again, and productively. Kiriakou's fullest
+  description of his own encrypted toolchain — Signal, RedPhone, WhatsApp, a Swiss-hosted ProtonMail
+  account — lives only in `2017-05-23-podcast-ufo-live-shows.sponsors.md`. It was cited, following the
+  existing precedent, but the sponsor stripper is still losing canon into a file the corpus treats as
+  advertising, and that is now two runs in a row.
+- Checking the speaker before the content remains the highest-yield habit in the routine: seven of the
+  best-looking passages this run belonged to hosts, co-panellists or people reading documents aloud,
+  and one of them (the Nelson Mandela Rules) would have been almost impossible to catch from the
+  snippet alone.
+- `enrich-fuel.mjs` was abandoned early for the broad-subject articles: on
+  `the-solitary-confinement-precedents` it emitted 49KB across 98 sources. Targeted greps built from
+  the article's actual claims — not its title tokens — were faster and produced better passages. The
+  tool is right for name-shaped subjects and wrong for thematic ones; that distinction is worth
+  encoding in the ranker output so the operator knows which mode to use before opening the file.
