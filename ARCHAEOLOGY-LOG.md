@@ -756,3 +756,169 @@ digs; neither was transcription, once the lanes were serialised. **Dedupe was.**
 run's thirteen fetched items were duplicates or false positives, and every one of them had
 already passed a show-and-date check. Build the corpus index first, then diff on date and title,
 then shingle-check the transcript — in that order — before any of it reaches an article.
+
+## 2026-08-13 — a dig defeated by its own exclusion set
+
+### The count, plainly: zero
+
+Six sources were found, vetted as genuine long-form solo interviews, and **five of them were
+fetched and fully transcribed** before the dedupe caught them. Every one was already in
+`src/content/sources/`. Nothing new reached the encyclopedia; nothing was written; the corpus
+stands where it stood this morning at 886 sources.
+
+This was not a dry well. It was a **broken exclusion set**, and the failure is worth more than
+the sources would have been.
+
+### Headline 1: on this volume, `ls` and `git` disagree — and the gap *was* the candidate list
+
+The dig opened, as instructed, by building an exclusion index from every source's frontmatter.
+It built that index by walking `src/content/sources/*.md` **on disk**. The disk held **881**
+sources. `git ls-tree -r HEAD` held **886**.
+
+Those five missing files were not noise. They were:
+
+| Source | Committed by | Found "new" at |
+|---|---|---|
+| Peter B. Collins Show 2017-05-19 | `2441336f` corpus-mining, **today** | via Exa, ~40 min in |
+| Whistleblower of the Week 2026-05-05 | `2441336f` corpus-mining, **today** | via Apple episode index |
+| Green Socialist Notes 2021-05-13 | `2441336f` corpus-mining, **today** | via Apple episode index |
+| Joannes Wyckmans 2026-06-16 | `1b74a975` source-squeeze, **today** | via Apple episode index |
+| One Tough Podcast (Bo Dietl) ep. 76 2019-12-23 | earlier | via the Spreaker feed, first find of the day |
+
+The EOS_DIGITAL volume drops committed files from disk under load — a known, logged hazard. The
+consequence here is specific and severe: **the exclusion set and the intake guard both test the
+disk**, so a dropped file is simultaneously invisible to dedupe *and* re-ingestible.
+`ingest-audio-url.sh` guards with `[ -e "$OUT" ]`; that guard cannot see a file git knows about.
+Five re-transcriptions followed, roughly ninety minutes of CPU on a machine that had none spare.
+
+Nothing was damaged: faster-whisper's greedy decode is deterministic, so every re-transcription
+came back byte-identical and `git status` reported the tree clean afterwards. That is luck, not
+design — a source whose committed copy came from YouTube captions would have been silently
+overwritten with a whisper transcript.
+
+**The 08-12 dig hit this same volume behaviour and wrote down "never `ls` alone on this volume."
+It recurred today anyway, because the index was still built by globbing the directory.** So,
+concretely, for whoever digs next:
+
+```bash
+git ls-tree -r HEAD --name-only | grep '^src/content/sources/.*\.md$' | grep -v '\.sponsors\.md$'
+```
+
+Build the `date ⇥ show ⇥ title` index from **that** list, not from a glob. Then diff on show+date,
+then shingle-check. In that order.
+
+### Headline 2: the dup threshold is wrong across transcript types
+
+Bo Dietl episode 76 scored **70.8%** on `dupe-check.mjs` against
+`2025-06-06-red-apple-podcast-network` — which is the *same episode*, same title
+("Episode 76-John Kiriakou"), same 48:00 duration, same 89 paragraphs, re-uploaded to YouTube
+under Dietl's network name.
+
+Previous digs treated ~79% and ~91% as the dup line. **A conversation transcribed twice by
+different means does not reach that line.** The held copy came from YouTube auto-captions; this
+one from whisper. Different segmentation, different ad reads, different disfluency handling —
+same conversation, 71%.
+
+**Treat anything above ~65% as a dup until proven otherwise, and read the first paragraph of the
+match before deciding.** Bo Dietl also demonstrates the double-filing trap in its purest form:
+the corpus holds it under the *network's* name at the *re-upload* date, so no show+date diff
+could ever have caught it.
+
+### Headline 3: Exa is a genuinely new and productive seam — the corpus just got there first
+
+No previous dig had used **Exa** (semantic search, key already in the registry under
+`kiripedia`). Two of its modes earned their place:
+
+- **`/search` with date windows** surfaced the Peter B. Collins Show — a long-running interview
+  programme that no ledger, no feed sweep and no YouTube pass had ever named.
+- **`/findSimilar` on a known-good interview page** was the single highest-yield query of the
+  day. Seeding it with one Kiriakou interview page returned KBOO, Tell Somebody, Project
+  Censored, Free Man Beyond the Wall, Whistleblower of the Week and the Jason Jones back
+  catalogue — a traversal that keyword search does not perform.
+
+The method is sound and should be repeated. It simply arrived after corpus-mining and
+source-squeeze had already taken the same material *the same morning*.
+
+### Headline 4: "named in the show notes, not in the room" is now the dominant false positive
+
+**Nine instances in one dig**, up from a running count of five:
+
+| Rejected | Who was actually the guest |
+|---|---|
+| Project Censored Show 2015-07-12 | Jesselyn Radack, naming him as a client |
+| Danny Jones #390 2026-04-24 (163m) | Julian Dorey |
+| Matthew Cox 2026-04-28 (174m) | an FBI agent discussing him |
+| SaltCubeAnalytics 2026-03-19 | Sibel Edmonds |
+| Unwashed and Unruly 2026-03-16 | hosts discussing the Epstein files |
+| The Freedom Talking Show #101 | a news-roundup magazine show |
+| Joannes Wyckmans ×3 (02-23, 02-24, 03-21) | matched the **show-level** blurb; only the 06-16 episode had him on |
+
+Apple's `entity=podcastEpisode` matches **descriptions**, and cross-promo blocks in show notes
+name guests from other episodes. **Read the episode description before queueing** — one Apple
+lookup is far cheaper than the 163 and 174 minutes those two would have cost.
+
+### Headline 5: this machine is swap-bound, and that dictates the shape of a dig
+
+8 cores, 8 GB RAM, and **6.4 GB of 7.1 GB swap already in use** before the dig started. Three
+concurrent whisper jobs pushed a 10-minute window from ~5 minutes to **~23 minutes**; dropping
+back to a single serial lane returned it to ~11–16 minutes per episode. Load average peaked at
+23.5 on 8 cores.
+
+Concurrency does not buy throughput here — it costs it. **One transcription at a time**, and
+budget roughly 15 minutes per hour of audio. A 136-minute episode (Jay's Analysis) was parked on
+cost alone; it later proved to be a duplicate anyway.
+
+### Angles worked
+
+| Angle | Status | Yield |
+|---|---|---|
+| Ledger head start (08-12's queue of 5) | worked | **All stale.** Potkaars, AM WakeUp and Health Ranger were already ingested; the Scheer rows too |
+| `find-new-kiriakou-videos.mjs` baseline | worked | 145 videos, 1 survivor — today's own-show upload. **Seventh consecutive dry run** |
+| **Exa `/search`, date-windowed** | worked | **New tool.** Surfaced Peter B. Collins, the 2010 WMLB radio file, the 2020 TAC and Quinones leads |
+| **Exa `/findSimilar` from a seed interview page** | worked | **Highest-yield query of the dig** — 6 shows the corpus had never been searched against |
+| Apple `entity=podcastEpisode`, fresh vocabulary | worked | ~30 distinct ≥40m episodes; after a correct git diff, **0 genuinely absent** |
+| **Co-guest traversal** (McGovern, Radack, Drake, Ellsberg, Rowley) | worked | 152 shows ranked by co-guest overlap → Project Censored, Tell Somebody, Macroaggressions, SpyCast, Media Roots. **All either absent of him, held, or under length** |
+| **Wayback Machine for dead show sites** | worked | **New angle, and it works** — recovered the exact Quinones ep. 388 enclosure and the TAC libsyn embed id from pages that 403 or 404 live. Both hosts have since died, so neither is fetchable |
+| Transcript mining for show names | worked | **Nothing.** The "I was on X" regex over-matches third-party chatter (Hannity, Piers Morgan) that is discussion *about* him |
+| Internet Archive `mediatype:audio` | worked | **American Exception roundtables and his own RT show only.** Confirms 08-12 — deprioritise |
+| Feed enumeration (Scheer, Horton, Free Man, Homebrewed, WhoWhatWhy, Project Censored) | worked | WhoWhatWhy has 4 episodes, **all 14–28 min**. Homebrewed 404s on every URL encoding tried |
+| C-SPAN, Alternative Radio, Mixcloud | not attempted | Blocked in three prior digs; nothing changed |
+
+### Rejected on the merits (beyond the nine false positives above)
+
+| What | Why |
+|---|---|
+| **Around The Empire ep. 6, 2017-01-25 (66m)** | The corpus's `2017-02-13` row *is* this episode — its own intro says "January eighteen to twenty seventeen". Caught before transcription; the 08-12 log flagged exactly this and the check paid off |
+| Jason Jones 2026-06-11 (167m) and 2026-03-23 (83m) | Held under their **YouTube upload dates** (06-15, 03-20). The feed-vs-upload divergence again; **167 minutes saved** |
+| Scheer Intelligence 2021-09-10 (63m) | Held as `2022-05-19-scheerpost` — "Kiriakou Interview 9/10/21", filed at the re-post date |
+| News Beat 2024-07-31 (47m) | Held at `2024-07-29` |
+| Cleared Hot 2026-05-04 (200m) | Held; "Cleared Hot - Powered By BRCC" vs "Cleared Hot Podcast" defeated the show-name matcher |
+| Peter B. Collins 2017-06-30 / 2021 archive re-runs | Kiriakou **with Joseph Hickman** — two guests, attribution unsafe without speaker labels |
+| KBOO 2017-04-21 (30m) and 2016-05-24 (60m) | Under the bar; the 60m is an *Alternative Radio* slot with no fetchable audio on the page |
+| Julian Dorey Daily ×3 (64m each) | The "Daily" clip feed — explicit playbook reject |
+| Free Speech TV `aOh_qukB5cQ` | 10 minutes |
+| `_T7J-jzEo9Q` (46m, today) | **His own show, Ep. 10** — and a 7am-intake item, not archaeology |
+
+### For the next dig — the head start
+
+1. **Fix the index first.** Build the exclusion set from `git ls-tree`, per Headline 1. Until that
+   changes, every dig on this volume is at risk of re-finding what it already owns.
+2. **Lower the `dupe-check.mjs` line to ~65%** and always eyeball the top match.
+3. **Free Man Beyond the Wall ep. 388 (2017-06-13)** — verified absent from git. Filename known;
+   libsyn account dead; needs a third host (podcast archive mirrors, or the Steemit/Hive mirror's
+   own copy).
+4. **TAC *Empire Has No Clothes* ep. 4 (2020-05-28)** — verified absent. libsyn embed id 14593364,
+   now 500ing. 2020 holds only 19 sources and is the thinnest post-prison year.
+5. **Re-run Exa `/findSimilar` from three or four different seed pages** — one seed produced six
+   new shows; the method is nowhere near exhausted, it was simply beaten to the material today.
+6. **Coordinate with corpus-mining and source-squeeze.** Both committed Kiriakou sources *the
+   same morning* this dig ran, and neither touches `KIRIAKOU-OPEN-VIDS.md` or this log. The
+   archaeology routine is now routinely digging up what another routine ingested hours earlier.
+   That is the single largest source of wasted effort in this run, and it is organisational,
+   not technical.
+
+**Method note.** Discovery was not the bottleneck (four digs running). Transcription was not the
+bottleneck (serial whisper is ~15 min/hour of audio). **Dedupe was the bottleneck, again, and for
+the third dig running — but this time it failed at the source, on an index that could not see
+five of the corpus's own files.** Fix the index and this dig's six candidates become tomorrow's
+first honest zero.

@@ -385,32 +385,58 @@ mining and squeeze routines, which do not update this ledger. Dedupe against
 > — his site lists 15 Kiriakou interviews and the corpus already holds all of them.
 
 ---
+## Noon dig 2026-08-13 — every candidate was already in the corpus
 
-## Noon dig 2026-08-13 — Exa semantic search + Wayback recovery
+**Net new: zero.** Six sources were found, vetted as genuine solo interviews, and five of them
+were fetched and transcribed before the dedupe caught them. All six were **already committed**
+to `src/content/sources/` — five of them *earlier the same day* by the corpus-mining and
+source-squeeze routines (`2441336f`, `1b74a975`).
 
-**Confirmed new and queued/ingested this dig** (all diffed against the corpus index on
-show+date, not against this ledger):
+They were invisible to this dig because **the EOS_DIGITAL volume had dropped the files from
+disk while leaving them intact in git.** An exclusion index built by walking
+`src/content/sources/*.md` on disk therefore missed them, and `ingest-audio-url.sh`'s `-e`
+guard — which also tests the disk — let every one of them straight through.
 
-| Status | Date | Len | Show | Title | videoId | URL | Notes |
-|---|---|---|---|---|---|---|---|
-| queued | 2019-12-23 | 48m | One Tough Podcast with Bo Dietl | Episode 76 — John Kiriakou | — | https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72985685/wabc3633363802.mp3 | WABC. Resolved off the Spreaker feed; corpus holds nothing near that date |
-| queued | 2017-05-19 | 54m | Peter B. Collins Show | In-Depth Interview: Kiriakou Talks About His Prison Experience | — | http://www.podtrac.com/pts/redirect.mp3/peterbcollins.com/podcast/PBC_20170519p2021.mp3 | **Whole show absent from the corpus.** Marked "Premium" on the site but the enclosure is openly fetchable |
-| queued | 2026-05-05 | 46m | Whistleblower of the Week | John Kiriakou: CIA Whistleblower Exposed Torture Program and Paid the Price | — | https://www.buzzsprout.com/1741657/episodes/19128826-john-kiriakou-cia-whistleblower-exposed-torture-program-and-paid-the-price.mp3 | Host Jane Turner, single guest |
-| queued | 2021-05-13 | 68m | Green Socialist Notes | Episode 056 — Whistleblowers with Special Guest John Kiriakou | — | https://d3ctxlq1ktw2nl.cloudfront.net/staging/2021-4-13/21e6cd74-9b13-9e25-074d-b1645eb30c7b.mp3 | Howie Hawkins hosts; **single** guest despite the "Special Guest" phrasing. Use the CloudFront URL, not the anchor.fm wrapper |
-| queued | 2026-06-16 | 61m | Joannes Wyckmans Podcast | John Kiriakou: CIA Secrets, Soft Power, and the Poppy Trade | — | https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-5-16/bbac5a4e-a2b4-bc9a-1c8b-beeb946cc5c9.m4a | Show absent from the corpus. Senate-investigator Afghanistan poppy material |
-| candidate | 2026-04-30 | 136m | Jay's Analysis (Jay Dyer) | John Kiriakou & Jay Dyer — How the World Really Works | — | https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/71768047/john_kiriakou_jay_dyer_how_the_world_really_works.mp3 | Verified new + single guest. **Parked on cost only** — 136m ≈ 14 whisper windows, and this machine was swap-bound today |
+| Was treated as new | Actually held as | How it hid |
+|---|---|---|
+| Peter B. Collins Show 2017-05-19 | same slug, committed `2441336f` | dropped from disk |
+| Whistleblower of the Week 2026-05-05 | same slug, committed `2441336f` | dropped from disk |
+| Green Socialist Notes 2021-05-13 | same slug, committed `2441336f` | dropped from disk |
+| Joannes Wyckmans 2026-06-16 | same slug, committed `1b74a975` | dropped from disk |
+| One Tough Podcast (Bo Dietl) ep. 76, 2019-12-23 | **also** `2025-06-06-red-apple-podcast-network` | dropped from disk **and** double-filed under Dietl's *network* name at the re-upload date |
+| Jay's Analysis 2026-04-30 | `2026-04-29-jay-dyer` | feed date one day off the upload date |
 
-**Leads resolved but not reachable — for the next dig:**
+> **The rule that follows — build the exclusion set from `git ls-tree -r HEAD`, never from a
+> disk walk and never from `ls`.** On this volume the two disagree: at the start of this dig the
+> disk held 881 sources and git held 886. The five-file gap *was* the entire day's candidate list.
+> The 08-12 dig learned the same lesson at a cost of three transcriptions and wrote it down as
+> "never `ls` alone on this volume"; it recurred today because the index was still built by
+> globbing the directory. Diff on **show + date against the git tree**, then shingle-check.
+
+> **Second rule — `dupe-check.mjs` needs a much lower threshold across transcript types.** Bo
+> Dietl scored only **70.8%** against the copy already held, because that copy came from YouTube
+> auto-captions and this one from whisper; the same conversation transcribed two different ways
+> does not reach the ~80–90% that previous digs treated as the dup line. **Treat anything above
+> ~65% as a dup until proven otherwise**, and read the first paragraph of the match before
+> deciding.
+
+**Reachable but genuinely absent — the real head start for the next dig:**
 
 | Status | Date | Len | Show | Title | URL | Notes |
 |---|---|---|---|---|---|---|
-| blocked | 2017-06-13 | ~60m | Free Man Beyond the Wall (Pete Quinones) | Episode 388 — Kiriakou on the American Left | — | **Genuine 2017 gap.** Wayback recovered the exact enclosure `traffic.libsyn.com/secure/freemanbeyondthewall/Episode_388_Full_and_Complete.mp3`, but the libsyn account is gone (404) and the YouTube copy `pb_3WQ36O-I` was removed for a ToS violation. Needs a third host |
-| blocked | 2020-05-28 | ? | The American Conservative — *Empire Has No Clothes* ep. 4 | Podcast: John Kiriakou | — | **Genuine 2020 gap** (2020 holds only 19 sources). Page 403s live; Wayback snapshot gives the libsyn embed id **14593364**, but that embed now 500s and the show has no findable feed |
+| blocked | 2017-06-13 | ~60m | Free Man Beyond the Wall (Pete Quinones) | Episode 388 — Kiriakou on the American Left | — | **Genuine 2017 gap, verified absent from git.** Wayback recovered the exact enclosure `traffic.libsyn.com/secure/freemanbeyondthewall/Episode_388_Full_and_Complete.mp3`, but the libsyn account now 404s and the YouTube copy `pb_3WQ36O-I` was pulled for a ToS violation. Needs a third host |
+| blocked | 2020-05-28 | ? | The American Conservative — *Empire Has No Clothes* ep. 4 | Podcast: John Kiriakou | — | **Genuine 2020 gap** (2020 holds only 19 sources). Page 403s live; the Wayback snapshot yields libsyn embed id **14593364**, but that embed now 500s and the show has no findable feed |
 
-> **Dead ends confirmed 2026-08-13 — do not re-run:** KBOO carries Kiriakou twice but both are
-> **30-min and 60-min *Alternative Radio* slots with no fetchable audio** on the page; the
-> Project Censored Show's 2015-07-12 "Whistleblower Protections" is **Jesselyn Radack as guest
-> merely naming Kiriakou** (6th instance of that failure mode); Internet Archive `mediatype:audio`
-> returns only *American Exception* roundtables and Kiriakou's own RT show *The Whistleblowers*;
-> transcript-mining for "I was on X" over-matches third-party chatter and yielded **nothing new**;
-> WhoWhatWhy has 4 Kiriakou episodes but **all are 14–28 min**, under the bar.
+> **Dead ends confirmed 2026-08-13 — do not re-run:** KBOO carries Kiriakou twice, but they are
+> **30-min and 60-min *Alternative Radio* slots with no fetchable audio** on the page; Internet
+> Archive `mediatype:audio` returns only *American Exception* roundtables and Kiriakou's own RT
+> show *The Whistleblowers*; transcript-mining for "I was on X" over-matches third-party chatter
+> and yielded **nothing**; WhoWhatWhy holds 4 Kiriakou episodes but **all are 14–28 min**.
+>
+> **The dominant failure mode is now "named in the show notes but not in the room" — nine
+> instances in one dig:** Project Censored 2015-07-12 (Radack is the guest), Danny Jones #390
+> (Julian Dorey is the guest), Matthew Cox 2026-04-28 (an FBI agent discussing him), Unwashed
+> and Unruly, The Freedom Talking Show, SaltCubeAnalytics 2026-03-19 (Sibel Edmonds), and three
+> Joannes Wyckmans episodes that matched on the show-level blurb. **Apple's
+> `entity=podcastEpisode` matches descriptions, so always read the episode description before
+> queueing** — only 1 of 4 Wyckmans hits actually had him on.
