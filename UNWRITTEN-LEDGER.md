@@ -105,3 +105,16 @@ a run on them — but check rather than assume, a few are real interviews under 
 | 74 | rejected (recovered from untimed captions this run; same 20 November 2025 episode as the JFK-titled DeProgram file already held, identical opening line) | 2025-11-20 | DeProgram Show with Ted Rall and Jamarl Thomas | DeProgram Show with Ted Ra | 58:00 | 8,373 | `2025-11-20-deprogram-show-with-ted-ra-deprogram-show-with-ted-ra` |
 | 75 | rejected (guest segment: every substantive answer is Murtaza Hussain of Drop Site News on the Epstein files; the hosts only ask questions and Kiriakou makes no claim of his own) | 2026-02-05 | DeProgram Show with Ted Rall and Jamarl Thomas | DeProgram Show with Ted Ra | 8:00 | 1,779 | `2026-02-05-deprogram-show-with-ted-ra-deprogram-show-with-ted-ra` |
 | 76 | rejected (same episode as the 2025-11-19 DMZ America record mined in its place; this file's transcript was swept into its .sponsors sidecar and the main file is empty) | 2025-11-19 | DeProgram Show with Ted Rall and Jamarl Thomas | Israel | 62:00 | 0 | `2025-11-19-deprogram-ted-rall-israel-s-discreet-ethnic-cleansing-of-gaza` |
+
+---
+
+## Rejected outside the queue — thinly-cited sources checked and killed
+
+These transcripts never appear in the queue above (something already cites them), but a shift
+mining by *citation count* rather than by the queue will surface them. They are dead. Do not
+read them again.
+
+| status | date | show | title | words | slug |
+|---|---|---|---|---|---|
+| rejected 2026-08-15 (reaction show; Kiriakou never appears. 194-minute Due Dissidence stream whose guest is Clint Russell of Liberty Lockdown — Kiriakou is present only as two replayed clips, one of them from the Megyn Kelly show, both already mined elsewhere. Same class as the Liberty Vault and Lost Aux Media rejects. Note that two existing articles cite it, which is how it evaded the queue) | 2026-04-06 | Due Dissidence | Trump's UNHINGED Threat, Kiriakou SPILLS TEA on Israel, Dill | 35,184 | `2026-04-06-due-dissidence-and-liberty-trump-s-unhinged-threat-kiriakou-spills-tea-o` |
+| rejected (already killed 2026-08-14 as host-and-callers with Kiriakou only in replayed Chris Hedges clips; recorded here too because it is the second-largest thinly-cited transcript in the corpus and keeps resurfacing) | 2026-04-09 | Finding Truth With Harjeet | Finding Truth With Harjeet | 24,925 | `2026-04-09-finding-truth-with-harjeet-finding-truth-with-harjeet` |
