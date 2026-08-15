@@ -1631,3 +1631,150 @@ transcript on disk, every timestamp appears verbatim in that transcript, every `
   his verdict that it was *"the stupidest decision that Yasser Arafat ever made in his life"* exist
   only in `2025-11-18-nuclear-war-vault-7-mossad-in-iran.sponsors.md`. It was cut, per the
   operating-cycle rule against citing sponsors files. That rule is right and the stripper is wrong.
+
+## 2026-08-15 (second pass) — 7 more fattened, 15/15 for the day
+
+The 09:51 run logged 8/15 and stopped. This pass picked up the remaining seven rather than
+re-running the day from the top. Mentions index rebuilt; `rank-enrich-candidates.mjs` produced
+145 strict candidates under 340 words with at least two uncited fuel sources (73 already-fattened
+articles excluded automatically from the ENRICH-LOG parse), 244 unscorable.
+
+**Skip list, unchanged and not re-investigated.** The same eleven sentence-shaped-title artefacts
+sit at the top of the ranking with fuel counts of 22–75, all of it common-noun noise:
+`netanyahu-and-the-tel-aviv-police-chief`, `the-blacked-out-grand-jury-minutes`,
+`greek-ambassador-dinner-encounter`, `the-standard-operating-procedure-assignment`,
+`diary-of-a-ceo-january-2026`, `the-crenshaw-text-messages`, `the-las-vegas-case`,
+`the-uss-gerald-ford-plumbing`, `us-military-venture-capital`, `united-food-and-commercial-workers`,
+`the-ideological-circle`. Also skipped on prior findings: `consulting-for-royal-families`,
+`pacific-island-peacekeepers`, `morocco-algeria-rivalry`, `peter-thiel`.
+
+| article | words before | words after | new facts | new sources |
+|---|---:|---:|---:|---:|
+| `kermit-roosevelt-and-mosaddegh` | 367 | 1252 | 11 | 4 |
+| `contra-rebels` | 363 | 1104 | 10 | 4 |
+| `jeremy-hammond` | 323 | 945 | 9 | 3 |
+| `trilateral-commission` | 344 | 768 | 6 | 2 |
+| `the-samson-option` | 255 | 698 | 5 | 3 |
+| `muammar-gaddafi` | 355 | 670 | 5 | 2 |
+| `dumping-the-treasury-bonds` | 271 | 516 | 5 | 2 |
+
+Every article cleared the floor of ≥3 new sourced facts from ≥2 distinct new sources. All cites on
+the seven touched files were machine-verified with `verify-cites.mjs`: every source slug resolves to
+a transcript on disk, every timestamp appears verbatim in that transcript, every `/wiki/` link
+resolves. `audit-frontmatter.mjs` reports 2080 files clean; `audit-wikilinks.mjs` reports 0 bugs,
+0 dead.
+
+### Best finds
+
+- **`kermit-roosevelt-and-mosaddegh`** was a single-source article about the CIA's record of misses
+  that happened to mention the 1953 coup. It is now an article about the coup, and it turns on
+  Kiriakou contradicting the version he himself used to tell. The 2017 telling is the conventional
+  one — the British came to Washington because they wanted to keep oil they were *"essentially
+  stealing from the Iranian people"*, talked Roosevelt into it, *"and we did."* By 2025, having read
+  the papers in the National Archives, he says the Americans *"were actually a little bit late to the
+  game"*: the documents show an MI6 operation whose author was a British officer who never gave a
+  single interview, and what London needed from Washington was money to finance riots and arm
+  people. Roosevelt was the US liaison to MI6 and a publicist by temperament, and *"as soon as he
+  retired, just started yakking and then wrote a book like how I overthrew the Iranian government.
+  It's like, dude … you didn't overthrow the Iranian government. Not according to the CIA documents."*
+  The sting is who paid for the boast: Roosevelt was *"so successful in convincing people that the CIA
+  overthrew Mosadic"* that in 1979 it was the American embassy that was stormed and American
+  diplomats held 444 days, while the British are *"perfectly good to go. No, no worries."* Recovered
+  alongside it is the best-told story in the fuel: how the only interview Roosevelt ever gave came
+  about. Bob Scheer, then a young reporter, told his wife he would love to interview him; she told
+  him to call; it had never occurred to him to simply find a number. Newsrooms kept phone books from
+  other cities, Roosevelt was listed in the Washington directory, living at eighty-odd in an old
+  people's home up by the zoo, and he sat for it *"for posterity"* — and said the coup was the only
+  decision of his career he ever regretted.
+- **`contra-rebels`** gains the plumbing of the workaround and the argument it is deployed in.
+  Kiriakou dates the arming prohibition to 1983 and lays out how Oliver North *"decided to um just go
+  around the law"*: arms sold to Iran through Adnan Khashoggi, payment into Khashoggi's own bank
+  account in Cyprus, ten per cent skimmed — *"he was Mr. 10%"* — the rest into accounts controlled by
+  North, John Poindexter and a third NSC figure, then grey-market arms to the Contras. His verdict on
+  the aftermath is about impunity: *"Everybody was indicted. Nobody really was punished."* Separately,
+  the article now has him using the northern/southern split as a live rebuttal rather than a
+  narration: put a former colleague's flat denial that the CIA ever moved drugs, he answers *"Did he
+  forget that Manuel Noriega … was a paid CIA source for decades?"*, concedes *"a dark time in the
+  CIA's history"*, and insists the agency address it truthfully. And the consequence he attaches is
+  specific: there was no such thing as crack cocaine in the United States until the CIA allowed
+  cocaine in during the mid-1980s.
+- **`jeremy-hammond`** had one source and one argument — the eighteen months of drug-programme credit
+  the transfer cost him. A whole 2019 interview about the Hammond subpoena turns out to be sitting in
+  the corpus uncited, and it supplies the three reasons Kiriakou was worried. The venue: the Eastern
+  District of Virginia is *"notorious in the federal system"*, known as the espionage court, because
+  most espionage cases are tried there and it houses the CIA, the FBI training centre and the
+  Pentagon. The certainty of refusal: Hammond *"has a history of not testifying"*, so contempt could be
+  stacked consecutively plus a year. And the object — not testimony but a perjury trap, on the model
+  used against Chelsea Manning, where prosecutors were furious her sentence had been commuted at seven
+  years against thirty-five and a perjury charge would add five more. Underneath it he names what the
+  prosecution actually needed: help proving Assange is not a journalist. *"And they're not gonna get
+  it from those two."* From 2021 comes his view of the original offence — Hammond *"didn't reveal
+  anything that was dangerous. What he did, though, was expose a very Washington kind of phoniness"* —
+  and his account of that phoniness: analysts reading newspapers, watching CNN and MSNBC, ringing the
+  press officer at the embassy of Yemen or Saudi Arabia, and writing it up as intelligence.
+- **`the-samson-option`** gains its own boundaries, which is more useful than another restatement.
+  Kiriakou twice declines to extend the doctrine: a Turkish clash would not trigger it, because Turkey
+  has no interest in occupying Israel and would only mean *"to bloody Israel's … face and nose"*; and
+  the strike on Iran's South Pars gas field was not an economic *"Samson light"*, because — and this is
+  from inside the agency — the Israelis *"don't give a [ __ ] about international oil prices"*, buying
+  from the United States or on the grey market via Cyprus, a broker or Switzerland, so an Arab cut-off
+  means nothing to them. And the aftermath question, which the article had never asked: if it happened,
+  would anyone do more than issue statements? He would like to think the world would invade and put
+  the Israeli government in the dock at The Hague. *"But I'm not so sure."*
+
+### Cut on attribution
+
+- **`muammar-gaddafi`** — the sharpest passage in the fuel (*"we did overthrow him, didn't we? And it's
+  still a basket case. And now we long for the days of Muammar Gaddafi. When it was stable and we
+  could buy that beautifully pure, sulfur-free Libyan oil"*, `2026-05-26-covert-operations-insight`
+  @06:53) sits inside an unmarked multi-speaker run where the `>>` markers contradict themselves — the
+  same turn appears to contain both an interviewer's question and the interviewee's reply to it. Cut,
+  despite reading as Kiriakou and matching his documented position exactly. Worth a second look by a
+  run with more time.
+- **`dumping-the-treasury-bonds`** — the whole *"trifecta of financial misery"* passage
+  (`2025-08-06-deprogram` @6:06:02–6:06:33), including *"I used to work on Wall Street. Never have I
+  seen stock market go down at the same time as treasury bonds … at the same time as the dollar
+  collapsed"*, is a rapid three-way exchange with no reliable turn markers. Cut in full.
+- **`jeremy-hammond`** — the detail that one of the firms whose credit-card numbers Hammond leaked was
+  the law firm of the husband of the judge who presided over his conviction
+  (`2021-03-04-consortium-news` @1:18:00) is preceded by *"I should add to that"* / *"please do"*,
+  which puts it in a co-panellist's mouth, not Kiriakou's. Cut, though it is the single most striking
+  fact in that transcript.
+- **`barrett-brown`** — target abandoned after the read. Six fuel sources, and Kiriakou speaks in
+  exactly one of them (*"I talked to Barrett Brown the other day and he was complaining about Dallas"*).
+  Everything else is hosts introducing him, hosts crediting him with an introduction, a conference
+  programme listing him on a panel, and Scott Horton on Michael Hastings and Project PM. Not fixable
+  from the corpus on disk; the article was not touched.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+- **`barrett-brown`** (267 words, 6 fuel sources) — see above. All host speech bar one throwaway line.
+  Needs a source where Kiriakou is actually asked about him.
+- **`nicholas-burns`** (274 words, 4 fuel sources) — the good material exists and is quarantined. The
+  full account of Burns as ambassador to Greece putting all the jobs for a presidential visit into a
+  hat so the embassy could draw them democratically is in
+  `2026-01-12-dead-drop-s1e10-blind-spot.sponsors.md`. What survives outside the sidecar is one line —
+  *"the ambassador, whom I loathed, Nicholas Burns"* — and a garbled passage. Not enough for the floor.
+
+### Method notes
+
+- **The duplicate-upload class is bigger than the duplicate-person class and it is corrupting the
+  ranker.** Four separate instances in one seven-article run. The Samson Option assessment exists as
+  *three* source files — `2026-03-11-unfiltered-with-s-a-m…`, `2026-03-17-the-paper-trail…` and
+  `2026-03-31-unfiltered-with-s-a-m…` — carrying the same utterance verbatim under two show names and
+  three dates; the article already cited the third, so the ranker was offering the first two as fresh
+  fuel. `2023-08-09-london-real` and `2023-08-24-london-real…` share a passage verbatim at the same
+  timestamp. `2026-05-19-ffn-jeff-dornik…` and `2026-05-19-jeff-dornik…` are the same interview.
+  `2022-09-20-the-dive-in-with-rattan` and `2022-09-20-the-roundtable-gonzalo-l…` are the same event.
+  Because the ranker scores on *distinct uncited sources*, every duplicate inflates a candidate's
+  apparent starvation and can push a well-fed article to the top. A cheap audit — flag any two source
+  files sharing an identical 200-character span — would find the whole class in one pass, and it is
+  the natural companion to the duplicate-person audit the 09:51 run asked for. Recommend building both
+  before the next enricher run.
+- Speaker checking again paid for itself and again dominated the cost: four passages were cut this
+  pass, two of which were the best-written material found for their articles. The `>>` markers remain
+  least reliable exactly where the stakes are highest — long expository stretches, and panel shows
+  where a co-panellist interjects *"I should add to that"*.
+- The `.sponsors` sidecar lost canon again, for the fourth run running — this time the entire Nicholas
+  Burns anecdote. Flagging it once more rather than acting on it: the rule against citing sponsors
+  files is correct, and the stripper is over-broad.
