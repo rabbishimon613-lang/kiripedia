@@ -1459,3 +1459,175 @@ resolves to an existing article. `audit-wikilinks.mjs` reports 0 bugs.
   the article's actual claims — not its title tokens — were faster and produced better passages. The
   tool is right for name-shaped subjects and wrong for thematic ones; that distinction is worth
   encoding in the ranker output so the operator knows which mode to use before opening the file.
+
+## 2026-08-15 — 8/15 fattened
+
+Carryover: none. The 2026-08-14 run left nothing `in-progress`. Mentions index rebuilt before ranking;
+`rank-enrich-candidates.mjs` produced 149 strict candidates under 340 words with at least two uncited
+fuel sources, with 236 articles unscorable.
+
+**Under target, and the reason is honest.** Eight articles cleared the floor, not fifteen. Three
+things ate the run: the eleven sentence-shaped-title artefacts at the top of the ranking were skipped
+on sight again (see below); three targets that ranked well turned out to have no usable fuel at all
+and were abandoned after the read rather than padded; and one target turned into a corpus repair that
+had to be done before anything else could be trusted.
+
+**Skip list, unchanged from 2026-08-13 and 2026-08-14.** Not re-investigated:
+`netanyahu-and-the-tel-aviv-police-chief`, `the-blacked-out-grand-jury-minutes`,
+`greek-ambassador-dinner-encounter`, `the-standard-operating-procedure-assignment`,
+`diary-of-a-ceo-january-2026`, `the-crenshaw-text-messages`, `the-las-vegas-case`,
+`the-uss-gerald-ford-plumbing`, `us-military-venture-capital`, `united-food-and-commercial-workers`,
+`the-ideological-circle`. `consulting-for-royal-families` also skipped, per the 2026-08-14 finding
+that it cannot be fixed from the corpus on disk.
+
+### The duplicate-person repair
+
+`plato-kacheris` and `plato-cacheris` were two articles about the same man — John Kiriakou's lead
+defence attorney — under two spellings of his surname, both of which appear in the auto-captions.
+`plato-cacheris` is the correct spelling and had eight inbound links and far more content;
+`plato-kacheris` had one inbound link, from `make-it-the-blip`.
+
+Resolution taken, conservatively and logged rather than deferred: the new material found this run was
+folded into **`plato-cacheris`**, `plato-kacheris` was reduced to a short variant-spelling pointer at
+the same URL so no link breaks and neither spelling dead-ends, and `make-it-the-blip` was repointed to
+the canonical slug. Nothing was deleted. `plato-kacheris` shrank from 238 to 119 words and does **not**
+count toward the eight.
+
+| article | words before | words after | new facts | new sources |
+|---|---:|---:|---:|---:|
+| `palestinians-in-the-gulf` | 308 | 1172 | 12 | 5 |
+| `pan-quake` | 131 | 1170 | 14 | 3 |
+| `the-puerto-rico-thirds` | 295 | 782 | 7 | 3 |
+| `mark-mcdougall` | 297 | 764 | 9 | 4 |
+| `elliott-abrams` | 288 | 603 | 8 | 2 |
+| `prison-as-temporary-duty` | 162 | 485 | 5 | 3 |
+| `naftali-bennett` | 114 | 329 | 4 | 2 |
+| `plato-cacheris` | 1096 | 1363 | 5 | 2 |
+
+Every article cleared ≥3 new sourced facts from ≥2 distinct new sources. All 168 `<Cite>` tags across
+the nine touched files were machine-verified with `verify-cites.mjs`: every source slug resolves to a
+transcript on disk, every timestamp appears verbatim in that transcript, every `/wiki/` link resolves.
+`audit-frontmatter.mjs` reports 2073 files clean; `audit-wikilinks.mjs` reports 0 bugs, 0 dead.
+
+### Best finds
+
+- **`palestinians-in-the-gulf`** gains the room where the decision was taken. Just after the
+  liberation Kiriakou was invited to the wedding of the Kuwaiti defence minister's son — the minister
+  later became Amir Nawaf — and the minister told him there, *"in 12 months there will be no
+  Palestinians in Kuwait. None."* Kiriakou's objection was arithmetic, not moral: *"How's your country
+  going to run? You can't replace all the Palestinians with Filipinos and Bangladeshis."* And the
+  promise was not kept, for a reason the article did not have: *"In the end they didn't expel all the
+  Palestinians. They sure wanted to, but the US, the UK, France — they all, even the Egyptians,
+  pressured them to back off,"* on the argument that *"these are not the Palestinians you should be
+  angry with."* A second thread arrives from the same source: in the briefing Kiriakou gave George
+  H. W. Bush the morning after the invasion, he had to report that the Iraqis had named a Palestinian,
+  Ahmed Khatib, as occupation governor — a man who had founded the PFLP with his medical-school
+  roommate George Habash. The president's response was *"Jesus Christ."* Most important editorially:
+  the article previously reported the Gulf grudge without recording that Kiriakou does not share it.
+  He says plainly, in 2025, *"I have just never understood this region-wide dislike of Palestinians"* —
+  and grants only Egypt an excuse.
+- **`pan-quake`** was two paragraphs about a platform's bank account being frozen. The 2022 corpus
+  turns out to contain Kiriakou's full advocacy for it, and — much better — a threat assessment. Asked
+  what the state would do to kill the platform, he split it by agency using his own career: *"if I were
+  still at the CIA or NSA, I would be looking for a technical way in."* From NSA he expected technical
+  attack, noting Bill Binney was on the team; from CIA he expected *"a different kind of
+  underhandedness"* — personal attacks on the leadership, which he then wrote himself in the enemy's
+  voice: *"oh, John Kiriakou, he's a convicted felon; you want to be in business with a convicted
+  felon?"* He rated the five-dollar subscription *"brilliant"* as an anti-bot measure and Iceland
+  *"a stroke of genius"*, and framed the whole design as lessons taken from the destruction of
+  WikiLeaks: *"it's going to be much, much harder to attack Pan Quake."* The article now closes on the
+  gap between that assessment and what actually happened — the attack came through a bank, which he
+  had not named.
+- **`mark-mcdougall`** gains the reason Kiriakou trusted the shouting. Two Washington lawyers — the
+  ambassador Jonathan Winer, and the whistleblower attorney Jesselyn Radack — independently told him
+  on the same day that McDougall was *"the meanest man in Washington."* Kiriakou's line is *"you're
+  the second person that told me that today."* His own experience was the reverse — *"he was never
+  mean to me, he was nothing but kind — and because he had that reputation for toughness and meanness,
+  frankly, I trusted him."* Also recovered: McDougall joined the team **pro bono** against leads
+  billing $2,000 an hour, had won all thirteen of the death-penalty appeals he had argued, and keeps
+  an office Kiriakou calls *"a museum of awards from every civil liberties organization in America."*
+- **`elliott-abrams`** was built entirely on a single 2023 appointment. The 2019 Venezuela corpus
+  supplies the argument underneath it: Kiriakou naming Abrams and John Bolton, not the president, as
+  the people running the policy — *"he couldn't locate Venezuela on a map"* — and Abrams as the man who
+  *"spent 12 years working for Republican presidents overthrowing Latin American governments. This is
+  what he does."* Juan Guaidó's elevation is attributed to him personally: *"a nothing, a nobody"* whom
+  Venezuelans had not heard of *"until Elliott Abrams decided that this guy is going to be the
+  president of Venezuela."*
+- **`the-puerto-rico-thirds`** turns out to have an earlier telling in which the thirds are not
+  attributed to anyone — by July 2025 Kiriakou simply asserts them — and which sits inside a
+  distinction he draws and the article lacked: Puerto Rico is a colony but *"not a settler colonial
+  experiment. It's the locals who live there. We just govern them."* On the statehood third he is
+  dismissive by way of an old agency joke: *"if there ever was a 51st state, wouldn't be Puerto Rico,
+  it's going to be Norway."*
+
+### Corrections and variances recorded
+
+- **`plato-cacheris`** — years at the bar are 48, 52 and 53 across four tellings. Both the 52/53 pair
+  are now stated side by side rather than one being chosen.
+- **`palestinians-in-the-gulf`** — the expulsion is total in the 2026 telling (*"they would expel
+  every Palestinian — and for the most part they did"*) and explicitly incomplete in the 2024 one.
+  Both given, with the 2024 explanation of why.
+- **`the-puerto-rico-thirds`** — the three positions are given in a different order in each telling,
+  and only the later one attributes them to the mid-level official. Recorded as given.
+- **`naftali-bennett`** — the Turkey claim is attributed to Bennett in March 2026 and asserted by
+  Kiriakou in his own voice in May 2026. Both stated, and the shift noted rather than smoothed.
+
+### Cut on attribution
+
+- **`palestinians-in-the-gulf`** — the fullest single account of the whole 1990 sequence in the corpus
+  (the Cuba/Yemen Security Council vote, six million Yemeni guest workers expelled, the country-by-
+  country list) appears at `2026-06-15-jason-jones-3-hours-kiriakou` @1:04:50 and again verbatim in
+  `2026-07-07-covert-strategies-revealed`. The turn markers put it in the interviewer's mouth — the
+  block ends with him asking Kiriakou a question — and the conservative call was to cut all of it
+  despite it being the best-written passage found this run. Worth a second opinion from a run with
+  more time.
+- **`palestinians-in-the-gulf`** — the PayPal shutdown of the Gaza-flotilla fundraising, and the
+  observation that the attacks were anticipated, are Graham Elwood's, not Kiriakou's. Cut, and the
+  sentence they had been drafted into was rewritten.
+- **`palestinians-in-the-gulf`** — the passage on Palestinians who worked thirty years in the Gulf and
+  returned to Jordan better off than Jordanians (`2025-08-21-deprogram` @04:10) sits across a turn
+  boundary and could not be safely assigned. Cut.
+- **`naftali-bennett`** — Bennett's *"leper state"* article, and the claim that Israel has lost the
+  Democratic party and is at risk of losing the Republican party, alternate across turn markers
+  between Kiriakou and Ted Rall in `2025-08-06-deprogram` @49:36. Cut despite being directly on
+  subject.
+- **`elliott-abrams`** — *"Elliott Abrams is at least as offensive and horrible a human being as John
+  Bolton"* is a co-host completing Kiriakou's sentence, not Kiriakou. Cut.
+- **`peter-thiel`** — every fuel passage belonged to a host: the Assange-vigil panellists on Palantir
+  and the surveillance state, Danny Jones on tech billionaires, and the interviewer supplying
+  *"Palantir, founded by a fellow Stanford alum."* Nothing survived; the article was not touched.
+
+### Starving but unfuelled — the shopping list for the ingest routines
+
+- **`pacific-island-peacekeepers`** (160 words, 7 fuel sources) — the fuel is all false positives on
+  "Pacific" and "island": the Great Pacific garbage patch, Australia's geography, and Palau's UN
+  voting record. Kiriakou has said the peacekeeping thing exactly once. Needs a new telling.
+- **`morocco-algeria-rivalry`** (177 words, 6 fuel sources) — the two countries are named together
+  repeatedly but always incidentally: rendition destinations, dialects he cannot understand, places he
+  has travelled, a film-location conversation. The only on-subject line in the whole corpus outside
+  the article's existing source is *"relations with Morocco are very good"*. Not fixable today.
+- **`peter-thiel`** (124 words, 5 fuel sources) — see above. All host speech.
+
+### Method notes
+
+- The duplicate-person bug is the finding of the run and is probably not unique. `plato-kacheris` and
+  `plato-cacheris` both existed for weeks, both were linked from live articles, and the ranker offered
+  the wrong one as a starving target — which is how it was found, by accident. A cheap audit that
+  flags near-identical article titles, or article pairs whose bodies cite the same source slugs at the
+  same timestamps, would catch the rest of the class. That is worth building before the next enricher
+  run and is the single highest-value tooling item this routine has produced.
+- Speaker checking again dominated the cost and again paid for itself: five of the strongest passages
+  found this run belonged to hosts or co-panellists, and two of them (the Jason Jones Gulf War
+  narration, the Bennett *"leper state"* passage) would have been impossible to catch from the fuel
+  snippet alone. The `>>` turn markers in the auto-captions are unreliable at exactly the moments
+  where it matters most — long expository stretches with no interjections.
+- `enrich-fuel.mjs` output was piped through `grep -E "^=====|^\s*\*\["` and truncated to 700
+  characters per line for every article this run. That reduced a 55KB dump to something readable in
+  one screen without losing a single hit, and made the difference between four articles and eight.
+  Worth folding into the tool as a `--compact` flag.
+- The `.sponsors` sidecar lost canon again, for the third run running. Kiriakou's account of Egyptian
+  pilots replacing Palestinians at Gulf Air and Kuwait Airways — *"the Palestinians were left out on
+  their ears. Where do you go? You can't go back to your country because you have no country"* — and
+  his verdict that it was *"the stupidest decision that Yasser Arafat ever made in his life"* exist
+  only in `2025-11-18-nuclear-war-vault-7-mossad-in-iran.sponsors.md`. It was cut, per the
+  operating-cycle rule against citing sponsors files. That rule is right and the stripper is wrong.
