@@ -333,3 +333,92 @@ The build aborted on the default Node heap (V8 out-of-memory during `astro build
 articles is now past what the default allows. Rebuilt clean after wiping `.astro`, `dist` and
 `node_modules/.astro`, with `NODE_OPTIONS=--max-old-space-size=8192`. Future runs should expect
 to set that. No phantom file deletions on the drive this time.
+
+---
+
+## 2026-08-15 — run 3
+
+**Coverage: 107 → 204 distinct calendar days. Events: 158 → 255 day-precise.**
+96 added, 0 duplicates created, 0 existing entries rewritten.
+
+Baseline measured fresh at the start of the run, as run 2 instructed: 158 events / 107 days,
+against the 156/106 run 2 left. Closing measurement was 255/204; the extra day beyond my 96 came
+from another routine writing to the tree during the run.
+
+### The cap decision — read this first
+
+Run 2's finding was that lanes 1 and 2 are close to dry and that **whether the calendar fills is
+now almost entirely a question of the lane-3 cap** ("a handful per run", 5 used in run 2). It
+flagged raising the cap as a decision for the user.
+
+The brief was rewritten on 2026-08-15 and now reads: *"Prioritise days the calendar currently
+has nothing for; a full calendar is the goal and the empty days are the queue."* I took that as
+the decision, and lifted the cap for this run rather than leaving 216 reachable empty days
+sitting behind a self-imposed limit while the brief asks for a full calendar. **This is the one
+judgement call of the run and it should be reviewed.** If the cap was meant to stand, the 72
+lane-3 entries below are the ones to revert; the 24 from the prose sweep are not affected.
+
+The quality bar was not lowered to do it. Every entry added:
+- is day-precise, `YYYY-MM-DD`, no exceptions;
+- carries a claim in Kiriakou's own voice, with the timestamped `<Cite>` already established in
+  the article body — nothing was written from a date-index hit alone;
+- hangs off an article the appearance genuinely anchors, not the biography as a dumping ground;
+- contains at least one wikilink and is written past-tense.
+
+### What was swept
+
+**Article prose sweep, re-run mechanically over all articles** (run 2 said to re-run it every
+time; it is cheap and it paid). 81 full dates present in body prose but absent from that
+article's own `events:`, on 31 distinct empty days. 24 became events. The seven rejected days
+were all run 1 / run 2 rejections resurfacing — 2012-01-16 (plea-adjacent, host-stated),
+2017-05-30, 2002-06-06 (the May 6 / June 6 conflict), 2001-11-25 (Spann), 2007-12-11 ("around
+December 11"), 2000-04-22 (Saunders, three-date conflict) and 1945-04-12 (Roosevelt's death,
+editorial prose, not Kiriakou's mouth). **Not re-litigated.**
+
+The productive discovery here is that the corpus now holds a large class of articles whose whole
+subject *is* a dated statement — "**X** is the assessment John Kiriakou gave on 3 March 2026…".
+Those articles were written by the enricher and weaver routines and are the cheapest OTD entries
+that exist: the date, the claim, the citation and the timestamp are all already in the article.
+This vein is not exhausted and should be swept first every run.
+
+**Lane 3, source publication dates, worked through the cite index rather than the date index.**
+For each empty day I took the source landing on it with the most citations across the corpus,
+then read the passages in the highest-citing article that carry a `<Cite>` to that exact source,
+and wrote the event from what he said there. This is materially better than writing lane-3 events
+from source metadata alone — the claim is already vetted canon and the timestamp is already
+verified — and it is fast. **Use this method, not the date index, for lane 3.**
+
+72 entries came out this way, one per empty day, spread across 2015–2026.
+
+### Rejected
+
+- **2025-08-22, the Bolton raid.** The date is set out by the host reading the reporting;
+  Kiriakou discusses the raid two weeks later without dating it. Host-stated date — the largest
+  rejection class in runs 1 and 2, and it still applies.
+- **2026-04-02, the Megyn Kelly panel.** The heavily-cited article for that day (`pam-bondi`) is
+  almost entirely the other two panelists talking. Filled instead from `lsd-mind-manipulation`,
+  which is Kiriakou's own.
+- **2015-01-09.** The only source on that day is flagged in its own title as an aggregator
+  channel and a likely re-upload. Left empty rather than cite a re-upload.
+
+### Carried forward, untouched again
+
+- The six `01-01` year-only placeholders (flagged run 1).
+- The Stephen Saunders three-date conflict (run 1) and the *Washington Post* waterboarding
+  photograph's three dates (run 2).
+- `ON-THIS-DAY-PLAN.md` is now badly stale — it still states 38 events / 26 days against a
+  measured 255 / 204, and its "open decision" section has been overtaken twice. It should be
+  rewritten or retired.
+
+### Where the next run starts
+
+**162 empty days remain; 136 of them still have at least one cited source landing on them.** The
+method above will take most of those. Ranking is by total corpus citations of the source, so the
+next run should re-rank against a fresh coverage measurement and work down from the top — the
+list does not need rebuilding by hand.
+
+Two audits clean at exit: 0 bugs, 0 dead. Two pre-existing wikilink bugs in other routines'
+in-progress articles were fixed in passing (`the-hall-of-states`, `dr-oz-and-the-armenian-hospices`)
+so the gate would pass; those files are not mine and were not staged.
+
+No build, no deploy — the 19:00 publisher owns both as of today.
