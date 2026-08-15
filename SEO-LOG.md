@@ -2435,3 +2435,42 @@ serving their new title tags in production, alongside a 2,075-URL sitemap that
 matches source exactly. **Nothing is queued behind a redeploy**, which is what
 the always-deploy rule exists to prevent. A fourth build purely to re-publish
 bytes that are already published was not run.
+
+---
+
+## 2026-08-15 — hygiene tier only (Friday's deep pass went to Bilbo Data)
+
+Canonical host confirmed: `www.kiripedia.org`, self-referencing canonical on a
+live article. **No dashboards were opened and no traffic numbers are claimed
+this run** — Friday's deep slot belongs to Bilbo under the rotation, and
+guessing at KiriPedia's numbers to fill a section would be worse than leaving
+it empty. Thursday's deep-pass figures stand as the last real measurement.
+
+### Hygiene — all clean
+
+- **Fast audits pass.** Frontmatter: 2,080 files clean. Wikilinks: **0 bugs,
+  0 dead** (2,254 suspicious, the usual growing standing item).
+- **Corpus 2,032 → 2,080 articles** since the last recorded count, +48.
+- **Live sitemap:** `sitemap-index.xml` 200 → `sitemap-0.xml`, **2,123 URLs**.
+  `/sitemap.xml` 404s and that is correct, not a fault — `robots.txt` declares
+  the index, not that path. Recorded so it is not re-investigated.
+- **Trailing-slash discipline holds in production, verified in rendered HTML
+  rather than in source.** A live article serves 70 internal links, of which
+  **zero** are unslashed `/wiki/`, `/category/` or `/sources/` URLs. Source
+  `.mdx` contains ~32,000 unslashed links, but they are normalised at build —
+  so the source count is not a defect and future sweeps should not chase it.
+  `/wiki/aafia-siddiqui` 308s to the slashed form; the slashed form is 200.
+- **`robots.txt`** unchanged and correct, including the deliberate `/search`
+  disallow and the open door to AI crawlers.
+- **No unexplained `noindex`.** The pages carrying it are the same intentional
+  set as before: search, random, needs-image, all-pages, on-this-day.
+
+Nothing needed fixing. No file on the site was changed.
+
+### Carried, unchanged
+
+- **`origin/main` divergence is still unresolved** and still needs a decision
+  from Pedro — merge the remote line forward or abandon it. `git push` remains
+  rejected non-fast-forward, so this entry is committed locally only.
+- Backlinks remain the ceiling; Kiriakou sharing the site is still the single
+  highest-value unlock. Bing Webmaster Tools and a Wikidata item still open.
