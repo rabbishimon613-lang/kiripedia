@@ -1151,6 +1151,9 @@ MAPPING=(
   "the-catering-truck-transfer=Air_Force_One"
   "the-clinton-pakistan-plane-switch=Air_Force_One"
   "the-air-force-one-bomb-threat=Ellinikon_International_Airport"
+  "mohammad-reza-pahlavi=Mohammad_Reza_Pahlavi"
+  "savak=SAVAK"
+  "kharg-island=Kharg_Island"
 )
 
 # Collect entries in a temp dir, assemble JSON at the end.

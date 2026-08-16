@@ -1612,3 +1612,10 @@ kj_agEYf1yY	2026-01-21 Unfiltered With S.A.M. 7-min clip — verbatim excerpt of
 -dnBFBNex6Q	2026-02-05 DeProgram 8-min segment — guest interview with Murtaza Hussain of Drop Site News; no attributable Kiriakou speech
 audef41a410e	2026-06-16 'Joannes Wyckmans Podcast' — AI-narrated deep-dive recap discussing Kiriakou in third person; he never speaks, fails single-source canon
 BJe2KbdhFDE
+jOzI8j-dHKg  # 2026-08-16 intake: "Best of Danny Jones" re-cut of the 2024-08-12 Kiriakou/Bustamante debate (ElMSJDkqSYQ) — already ingested
+SbEng6UYapY  # 2026-08-16 intake: Julian Dorey x Zach Foust — Kiriakou is discussed by others, never speaks; title-bait, zero canon material
+FlVsyxDlkc8  # 2026-08-16 intake: "Podcast Digest" — AI-narrated 10-takeaways recap of a Diary of a CEO episode; Kiriakou never speaks, paraphrase not canon
+Nfa4sEDOgmQ  # 2026-08-16 intake: "Podcast Summaries" — AI-narrated summary of the same Diary of a CEO episode; Kiriakou never speaks, paraphrase not canon
+Dnc4DmtWkGw  # 2026-08-16 intake: Dialogue Works "highlights" clip cut from the 2025-12-09 full episode already ingested
+lg1k-9p0zT8  # 2026-08-16 intake: duplicate upload of DeProgram 2026-01-13 already ingested as rdzab0KqbA8 (same date/title/duration); writing against the ingested slug instead
+lmh18pD_RKM  # 2026-08-16 intake: Jackson Hinkle monologue re-hosting a clip from the Mario Nawfal 2025-12-10 interview already ingested and already mined into venezuelan-heavy-crude-refining
