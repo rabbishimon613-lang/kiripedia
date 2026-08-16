@@ -2,6 +2,9 @@
 
 One line per run. `YYYY-MM-DD HH:MM | routine | produced | pass/fail | note`
 
+2026-08-15 05:00 | intake | nothing — no new transcript entered the corpus today | fail | did not fire; the only sources added today were the two the watchdog recovered from yesterday
+2026-08-15 09:05 | watchdog (04:45 slot, ran 4h late) | recovery commit: the 2026-08-14 afternoon intake, 2 transcripts + 1 article, rescued before it was lost | pass | Mac asleep at 04:45; the whole morning slate then fired in one burst 09:05-09:54
+2026-08-15 09:39 | deep dig (brief only) | DEEP-DIG-ROUTINE.md written — the source squeeze and the noon archaeology merged into one brief | pass | a brief merge, not a dig; no corpus output, and Saturday is not its slot
 2026-08-15 09:48 | otd | 96 events, 107→204 days covered | pass | lane-3 cap lifted per new brief — flagged in OTD-LOG for review
 2026-08-15 11:00 | enricher | 8 articles fattened (target 15) + duplicate-person merge (plato-cacheris/plato-kacheris) | pass | under target: 11 mis-ranked artefacts skipped, 3 targets dry, 1 corpus repair
 2026-08-15 10:20 | mining | 39 new articles from 4 uncited DeProgram episodes | pass | ledger dry — mined by citation count instead; 2 large reaction-show transcripts rejected and written back
