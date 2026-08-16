@@ -1778,3 +1778,165 @@ resolves. `audit-frontmatter.mjs` reports 2080 files clean; `audit-wikilinks.mjs
 - The `.sponsors` sidecar lost canon again, for the fourth run running — this time the entire Nicholas
   Burns anecdote. Flagging it once more rather than acting on it: the rule against citing sponsors
   files is correct, and the stripper is over-broad.
+
+## 2026-08-16 — 6/15 fattened
+
+Branch: `kiriakou-intake-churn`, tree clean at the start of the run. Mentions index rebuilt (2093
+articles, 2:32 wall clock). Carryover: none — the 2026-08-15 second pass left nothing `in-progress`.
+Ranked with `rank-enrich-candidates.mjs --max-words 340 --top 45`: 141 candidates under the word
+threshold with at least two uncited fuel sources, 80 already-fattened articles excluded, 248
+unscorable on fewer than two distinctive title tokens.
+
+| Article | Words before → after | New facts | New sources |
+|---|---:|---:|---:|
+| cia-psychological-evaluations | 493 → 1469 | 12 | 4 |
+| fusha-and-the-gulf-dialect | 469 → 1334 | 11 | 3 |
+| cia-fbi-incompatible-computer-systems | 495 → 999 | 6 | 3 |
+| greater-and-lesser-tunb-islands | 288 → 952 | 9 | 3 |
+| moving-a-satellite-to-kuwait | 404 → 820 | 5 | 2 |
+| the-kurd-from-terre-haute | 441 → 799 | 7 | 3 |
+
+Every one cleared the floor of three new sourced facts from two distinct sources. Audits clean
+before commit: frontmatter 2098 files clean, wikilinks 0 bugs / 0 dead.
+
+### The finds worth naming
+
+- **`cia-fbi-incompatible-computer-systems` was only half a story.** The article had it as a 9/11
+  failure: no message could pass between the two agencies from 1947 until 2009. The corpus holds the
+  other half, and it is the more consequential one — the incompatibility is the gap through which the
+  torture programme was made to look like it worked. Ali Soufan and the FBI were twice thrown out of
+  the black site and each time *"all of the information dried up"*; Soufan had been filing his
+  debriefings into FBI cables, *"and the CIA is none the wiser"*, so once he left, Mitchell and Jessen
+  *"pulled all of Ali's reporting, they retyped it in the CIA computer system and they said, oh, we
+  waterboarded at one time, he cracked, and look at all the amazing information that he gave us.
+  That's how they pulled the wool over our eyes for so long"* (`2019-12-30-scott-horton` @18:27,
+  @18:59). Kiriakou puts himself among the deceived — he was at headquarters reading those cables and
+  told a colleague he might have been wrong, his moral objection standing while the factual half
+  wavered (@19:30). Corroborated in shorter form at `2019-09-06-graham-elwood…` @11:26 and
+  `2019-04-20-david-gornoski…` @15:07, the latter dating the discovery to 2009 — the same year he
+  gives for the systems finally being made to talk to each other.
+- **`cia-psychological-evaluations` was one interview wide and the subject is three.** The article
+  covered only the officer screening. `2026-01-04-deprogram-ted-rall-on-cia-psychologists-torture-mamdani`
+  is a single uncited eight-minute answer that maps the whole corps: a few psychologists in the Office
+  of Medical Services, whose job is *"to make sure that the people the CIA sends overseas are not
+  crazy. A lot of them are. You'd be surprised"*, with a travel ban *"until they're less crazy"*; the
+  rest split between the analytic side, profiling foreign leaders, and operations. The operational half
+  was entirely absent from the article — vetting a source for whether *"the guy's not nuts"* and whether
+  *"he didn't make the whole thing up"*, one operation run with a psychologist and a hypnotist who was a
+  psychiatrist, and the calibration advice on *"just how far you can push a guy before he cracks."*
+  Two more sources supply the foreign-leader tradition and its origin: Gerald Post, who taught
+  Kiriakou's GWU psychology-of-leadership class and set the assignment of shadowing your own boss for a
+  week, then created the office Kiriakou was hired into (`2024-11-16-the-team-house` @08:56–15:39;
+  `2024-10-06-joecat` @07:51).
+- **`greater-and-lesser-tunb-islands` gained its ending.** The article had the prediction — the UAE
+  would not fight, because the islands belong to minor Sharjah and Dubai trades with Iran — but not
+  what happened next in the room. The junior analyst Kiriakou was mentoring took the question into her
+  boss's office, came back out and told him she had just resigned, because she had realised that no
+  matter how much she liked the job, she would never know (`2025-03-14-jack-hopkins…` @04:46). The same
+  pass added the 1996 date and the size of the force (*"the Iranians sent like 15 troops and they just
+  took them"*), and the 2026 reprise in which Emirati media speculated Trump would seize them back —
+  *"Make the Tunbs Sharjah again"* — against which Kiriakou argues from geography: nobody lives there,
+  *"you're going to liberate them. Okay, great. And then what?"*
+- **`moving-a-satellite-to-kuwait` gained its consequence.** The article had the six months; it did not
+  have what the six months cost. *"That's why we didn't liberate Kuwait until February of 1991. The
+  Iraqis had invaded August of 1990, cuz we had to move a satellite from over Moscow"*
+  (`2026-04-06-danny-jones…` @2:39:15). Same source widens the general figure to six-to-twelve months,
+  against the six the article already carried; both are now stated. And the reason the gap existed at
+  all, from `2026-02-26-bidoun-waraq…` @32:00: *"We didn't have any satellites looking at Kuwait
+  because we were friends with Kuwait."*
+- **`the-kurd-from-terre-haute`** had the man but not the place. Four uncited sources describe the
+  Terre Haute CMU itself: converted from the old federal death row after a new one was built, one of
+  only two in the system alongside Marion, justified by the blind sheikh and the last surviving Abu
+  Nidal hijacker, and in Kiriakou's judgement now used *"for political reasons to silence people"* —
+  naming Daniel Hale and Marty Gottesfeld, *"a hacktivist and never hurt anybody."*
+- **`fusha-and-the-gulf-dialect`** was a single 2025 interview and is now five sections. New: the
+  language-school pace (three students, next door to a Spanish class of six, still not finished with
+  the alphabet by Christmas, first dream in Arabic the following April), the Sesame-Street-to-Voice-of-
+  America method, why the dialects hold together at all (*"all of the movies are made in Damascus and
+  all the soap operas are made in Cairo"*), the hard J that marks khaleeji, and the Maghreb — *"No Arab
+  outside of Libya can understand a single word that the Libyans are"* saying.
+
+### Cut on attribution
+
+- **`peter-thiel`** (226 words, 5 fuel sources) — abandoned after the read. The one quotable line,
+  *"when Peter Thiel is running the show the only person that wins … is an ever-increasing surveillance
+  state"*, is followed in the same breath by *"when I pause dramatically like that, that's someone's
+  cue to hop in, John, you've been on before"* — it is the host's own monologue inviting Kiriakou in.
+  The remaining hits are a host naming Thiel as a fellow Stanford alum and Kiriakou replying *"That's
+  exactly right"*, and a panel list of tech billionaires with unreliable turn markers. Nothing to cite.
+- **`marble-framework`** (81 words, 4 fuel sources) — cut, and this one hurts, because the article is
+  tiny and the fuel looks perfect. Both real passages fail attribution the same way: the speaker in
+  `2022-09-20-the-dive-in-with-rattan` @1:07:12 says *"I won't talk much about it because I know it's
+  Ray's favorite topic"*, which rules out Ray McGovern and reads throughout as the panel's Vault 7
+  specialist rather than Kiriakou, and `2017-09-23-worldbeyondwar…` @29:31 is an unmarked Sam Adams
+  panel run. The impersonation detail — Marble laying out the CIA's method of disguising its hacks as
+  Chinese, Russian or North Korean — would have doubled the article.
+- **`afghan-war-logs`** (66 words) — left as the honest stub it already is. The article states outright
+  that no verified Kiriakou statement about the Afghan War Logs exists in the corpus, and this pass did
+  not overturn that. One passage does check out (`2020-02-25-london-report…` @07:47 — his guess that DOJ
+  is *"holding that information in reserve"* to charge Assange afresh if he were acquitted on the war
+  logs), but it is one distinct source, below the floor, and its sibling
+  `2020-02-25-cafe-weltschmerz…` is the same interview. The tempting second source,
+  `2019-04-18-scott-horton` @19:55 on the Iraq war logs defeating Obama's SOFA negotiation, sits in an
+  unmarked two-speaker stretch where Horton talks at length himself. Not assignable.
+- **`todd-blanch`** (69 words) — one good source, not two. `2025-12-27-the-deep-focus-show` @29:34 is
+  cleanly Kiriakou answering a question and is worth having (Maxwell's information to Blanche amounted
+  to Trump not being involved with Epstein, which is what bought her the minimum-security prison in
+  Texas; her appeal rested on the immunity the Southern District of Florida gave Epstein's
+  co-conspirators in 2007–08; and Kiriakou hopes Trump does not pardon her). The second candidate,
+  `2026-07-20-the-jk-report` @55:30 on Blanche being *"a smart guy"* who *"knows exactly what's going
+  on"*, is a long unmarked stretch on a two-host show and could be the co-host. Parked at one source.
+
+### Starving but unfuelled, or fuelled and unread — the shopping list
+
+- **`british-bases-in-cyprus`** (241 words) — FUELLED AND UNREAD, the clearest carryover for the next
+  run. `2026-02-18-deprogram…jordan-is-next` @44:56 has the Andreas Papandreou air base and *"a huge US
+  contingent in RAF Akrotiri"*, with *"the British have just sort of lopped off this giant chunk of
+  Cyprus and just won't give it back"*; `2026-03-01-deprogram…` @54:30 has a viewer asking outright why
+  the bases are still there and whether pressure to remove them will grow. The answer to that question
+  was not pulled before the budget ran out. Start here.
+- **`morocco-algeria-rivalry`** (177 words, 6 fuel sources) — mis-ranked, not starving. Every hit is
+  Kiriakou on North African *dialects* or on film locations, none on a rivalry. The dialect material was
+  taken into `fusha-and-the-gulf-dialect` where it belongs. The article needs a source where he is asked
+  about Morocco and Algeria as states, or it needs retitling.
+- **`the-booby-trapped-christmas-cards`** (224 words, 6 fuel sources) — one real source and five false
+  ones. `2019-08-08-david-gornoski-archives` @11:42 is on topic (trip wires, and *"they took Christmas
+  cards and in—"*); the other five are all Kiriakou exchanging Christmas cards with Pete Seeger or with
+  a recruited agent. Needs a second telling of the Afghanistan booby-trap story.
+- **`pacific-island-peacekeepers`** (160 words, 7 fuel sources) — token collision. The fuel is the Great
+  Pacific garbage patch and UN General Assembly votes where only Palau sides with the United States.
+  Neither is the article's subject.
+- **`mark-levin-iran-policy`** (122 words, 6 fuel sources) — every hit is the word "policy" beside the
+  word "Iran". Nothing on Levin. Unscorable in practice despite passing the token filter.
+
+### Method notes
+
+- **`plato-kacheris` ranked fifth-from-top and must never be offered again.** It is a deliberate
+  redirect stub, created by the 2026-08-15 duplicate-person merge, whose entire body is a pointer to
+  `plato-cacheris`. The ranker scored it as starving (107 words, 5 uncited sources) because the stub by
+  design cites almost nothing — while the real article is 1,820 words and already cites sixteen sources
+  including `2021-09-08-primary-sources…`, one of the five the ranker offered as fresh fuel. **Any
+  merge-redirect stub will do this.** Recommend the ranker skip articles whose body is under ~120 words
+  *and* contains a `/wiki/` link in a `See:` infobox row or the phrase "is a transcription variant",
+  which is the shape the merge tool leaves behind. This is a second, distinct ranker-corruption class
+  alongside the duplicate-upload one flagged yesterday.
+- **The duplicate-upload class flagged by the 2026-08-15 second pass is confirmed again, five more
+  instances, and it is still inflating the ranker.** `2019-12-23-one-tough-podcast-with-bo-dietl…` and
+  `2025-06-06-red-apple-podcast-network` are the same interview six years apart; `2025-03-14-jack-hopkins…`
+  and `2025-03-15-jack-hopkins…`; `2026-02-26-bidoun-waraq-invasion-kuwait-intelligence` and
+  `2026-02-26-bidoun-waraq-kuwait-invasion`; `2023-02-08-fortress-on-a-hill…` and `2024-01-16-fortress-on-a-hill-henri`;
+  `2026-06-05-theo-von-podcast-661` and `2026-07-08-voxera-production-official` (verbatim identical on the
+  Yemen jazz-radio passage). The 200-character-span audit recommended yesterday would have caught all
+  five in one pass and is still the highest-value cheap tool this routine could be given.
+- **The Bo Dietl interview is a speaker-boundary trap and should be treated as hostile.**
+  `2019-12-23-one-tough-podcast…` @06:36 contains no turn markers at all, and the paragraph slides from
+  Kiriakou answering *"Were you fluent in Arabic?"* straight into Dietl's own late-1970s Saudi
+  reminiscences mid-sentence — Kiriakou, born 1964, cannot be the one who was in Riyadh in the late
+  seventies. Only the first two sentences were taken. Anything cited from that source needs the
+  arithmetic checked against his age.
+- **Under target, and the reason is not dryness.** Six of the top forty-five candidates carried genuinely
+  rich, well-attributed fuel and all six were fattened hard — the mean gain was 665 words, and two
+  articles roughly tripled. The cost was concentrated in triage: eleven candidates were opened and read
+  to reach those six, four failed on attribution, five were token-collision artefacts, and one was a
+  redirect stub. Fixing the two ranker-corruption classes above is worth more to this routine's daily
+  count than any change to how the articles themselves are written.
