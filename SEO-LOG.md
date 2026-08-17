@@ -2474,3 +2474,96 @@ Nothing needed fixing. No file on the site was changed.
   rejected non-fast-forward, so this entry is committed locally only.
 - Backlinks remain the ceiling; Kiriakou sharing the site is still the single
   highest-value unlock. Bing Webmaster Tools and a Wikidata item still open.
+
+---
+
+## 2026-08-17 — deep pass (Monday rotation)
+
+Ran late: the 17:30 Saturday sweep did not fire, so this run started 09:20 Monday
+and took Monday's slot. Saturday's Garotas Virtuais deep pass and Sunday's Chabad
+slot were both missed and are not made up here — one real pass beats three rushed ones.
+
+Canonical host confirmed `www.kiripedia.org`. **Search Console now reads cleanly for
+the whole estate** — the account fix described in `tools/gsc/README.md` has been done,
+so the "GSC blocked" line that ran for weeks is retired.
+
+### The numbers, as Google gave them (28 days to 2026-08-15)
+
+- **17 clicks · 2,138 impressions · 0.8% CTR · 514 queries · 1,000 pages.**
+- Impressions are healthy and clicks are not. That gap is the whole story of this pass:
+  the corpus ranks on page one for a lot of things nobody clicks.
+
+### What was changed, and why
+
+Three pages carry ~1,300 impressions between them at 0.3–0.7% CTR. All three sit in
+striking distance (positions 7–12), so this is a snippet problem, not a ranking problem.
+In every case the article body already answers the query in its first sentence — the
+loss is entirely in what the search result says.
+
+**`heather-kiriakou` — 605 impressions, 2 clicks, position 7.8 (0.3% CTR).**
+The single biggest wasted queue on the estate. "heather kiriakou" alone is 532
+impressions at position 8.3. The old title — *Heather Kiriakou lost her CIA job for
+him* — never says who "him" is, so a cold searcher doing an identity lookup could not
+tell what the page was. Retitled to name her, her job and her husband, which also
+picks up "john kiriakou wife" (31 imp, pos 11.5) and "john kiriakou current wife"
+(10 imp, pos 9.3) that currently land here without a matching title.
+
+**`kiriakou-gastrectomy` — 551 impressions, 4 clicks, position 6.9 (0.7% CTR).**
+"does john kiriakou have a stomach" is 105 impressions at position 7.3 with **zero
+clicks**. The query is present tense and asks a yes/no question; the old title was
+past tense (*had his stomach removed*), which does not visibly answer it. Retitled to
+answer in the present tense — *has no stomach* — which also matches "john kiriakou no
+stomach" (45 imp) exactly. Deck now carries the 55 kilos, for "john kiriakou weight
+loss" (14 imp, pos 9.9).
+
+**`kiriakou-family-name` — 140 impressions, 1 click, position 12.**
+Ranked for "kiriakou name origin" (48 imp) and "kiriakou surname" (11 imp), neither of
+which appeared in the title. New title carries both terms and keeps the potato.
+
+Nothing was invented to make a title clickable. Every claim traces to the article's
+own sourced body: she was a senior CIA analyst and lost her job for being married to
+him; his stomach was removed in September 2022 and he lost 55 kilos; the family was
+Christodoulou before a Rhodes clerk wrote the patronymic down.
+
+### New finding — the corpus IS indexed twice, and now it is measured
+
+Previous sweeps checked internal links, found zero unslashed, and concluded the
+trailing-slash discipline held. That was true about internal links and **missed the
+actual problem**, which is only visible from Google's side:
+
+- **9 pages are in Google's index in both slashed and unslashed form** —
+  `abu-zubaydah`, `abolish-the-cia`, `doing-time-like-a-spy`, `legal-mail`,
+  `new-castle-pennsylvania`, `yemen-arrest`, `kiriakou-operational-eating`,
+  `category/procedures`, and one `sources/` page.
+- 27 unslashed URLs appear in the page rows overall, carrying **153 of 7,210
+  impressions (2.1%)**.
+
+**This is residual, not a live fault, and it should be left alone.** Verified over
+HTTP: the unslashed form 308s to the slashed form and the slashed form is 200, on all
+three spot-checks. The live sitemap is 2,123 URLs with **zero** unslashed entries.
+Nothing on the site emits the bad shape any more, so Google will consolidate on its
+own. Recorded so future sweeps can watch it decay rather than rediscover it — if the
+count grows instead of shrinking, something has started emitting unslashed URLs again.
+
+### Hygiene
+
+- **Fast audits pass:** frontmatter 2,101 files clean; wikilinks **0 bugs, 0 dead**
+  (2,266 suspicious, the usual growing standing item).
+- Live sitemap 2,123 URLs, unchanged from the last publisher run.
+- No unexplained `noindex`; robots unchanged.
+
+### Blocked — needs Pedro
+
+- **The publisher is broken, and it blocks everything above.** Its 03:30 run failed:
+  Astro's content-collection sync reproducibly drops the same 21 articles, through two
+  clean rebuilds with the cache wiped. **The three title rewrites in this entry are
+  committed but cannot reach production until that is fixed.** This is now the single
+  most expensive open item on the estate — every routine that writes KiriPedia is
+  writing into a queue that does not ship.
+- **`origin/main` divergence, still unresolved** — 227 local commits against 228
+  remote. `git push` is still rejected, so this entry and the three edits are committed
+  locally only. Needs a decision: merge the remote line forward, or abandon it.
+- **Backlinks remain the entire ceiling.** Kiriakou sharing the site himself is still
+  the single highest-value unlock available.
+- **Bing Webmaster Tools** signup (carried from 2026-07-09).
+- **A Wikidata item for KiriPedia** (carried from 2026-07-09).
