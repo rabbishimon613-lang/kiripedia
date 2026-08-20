@@ -1940,3 +1940,114 @@ before commit: frontmatter 2098 files clean, wikilinks 0 bugs / 0 dead.
   to reach those six, four failed on attribution, five were token-collision artefacts, and one was a
   redirect stub. Fixing the two ranker-corruption classes above is worth more to this routine's daily
   count than any change to how the articles themselves are written.
+
+## 2026-08-20 — 15/15 fattened
+
+Method note first, because it changed the run: the ranker's list was worked top-down, but the
+articles that actually paid were the ones whose subject is a **story John retells** rather than a
+topic he mentions. Retold stories are multi-source by construction, and the second telling almost
+always carries the detail the first one dropped — a name, a number, an object. Six candidates were
+opened and abandoned on attribution or token collision; the fifteen below all cleared the floor.
+
+| Article | Words before → after | New facts | Distinct new sources |
+|---|---|---|---|
+| `british-bases-in-cyprus` | 241 → 667 | 6 | 2 (+1 recovered) |
+| `greek-ambassador-dinner-encounter` | 252 → 949 | 6 | 4 |
+| `consulting-for-royal-families` | 239 → 777 | 5 | 2 |
+| `the-standard-operating-procedure-assignment` | 290 → 937 | 7 | 3 |
+| `united-food-and-commercial-workers` | 326 → 886 | 6 | 4 |
+| `this-desk-kills-fascism` | 340 → 870 | 6 | 3 |
+| `the-new-iraqi-flag` | 309 → 749 | 6 | 4 |
+| `phil-ochs` | 264 → 722 | 5 | 2 |
+| `the-conscientious-objectors-book` | 340 → 734 | 3 | 2 |
+| `nicholas-burns` | 274 → 748 | 5 | 3 |
+| `arianna-huffington` | 311 → 884 | 6 | 2 |
+| `diary-of-a-ceo-january-2026` | 311 → 928 | 7 | 2 |
+| `the-pentagon-and-the-pakistani-arsenal` | 334 → 848 | 5 | 2 |
+| `seventy-two-denied-motions` | 307 → 1013 | 8 | 3 |
+| `butler-rally-shooting` | 269 → 781 | 5 | 3 |
+
+Also enriched but **not counted**, because the fuel was one interview uploaded twice:
+`yemen-jazz-radio-plan` (320 → 798). `2026-06-05-theo-von-podcast-661` and
+`2026-07-08-voxera-production-official` are the same conversation, as yesterday's log flagged. The
+material is good — the attaché's "SCOP", the call-in show, "nobody did" — and the two tellings
+disagree on whether the station lasted two weeks or a year, which is now recorded.
+
+### The three finds worth reading
+
+- **The senator at the Greek ambassador's residence is Ron Wyden, and he was vice chairman of the
+  committee at the time.** The article had carried him as an unnamed Democrat. Three separate
+  tellings name him (`2025-09-02-yung-flamingo-club…` @04:39, `2025-01-25-kim-iversen…` @09:58,
+  `2026-02-19-american-conservative…` @40:12), one gives the size of the dinner (about thirty people)
+  and the year (2015), and one supplies the reason the identification sharpens rather than softens
+  the argument: Wyden is the member the press treats as willing to confront the agency, *"and God
+  bless him because he's the only one who will, but he'll never ever cross it."* A fourth source
+  (`2024-07-30-spartan-leadership-podcast` @45:45) records a **second** exchange at the same dinner,
+  with an unnamed member of the House who had refused help on the grounds that Kiriakou was too
+  controversial.
+- **The 72 denied motions were 72 motions to declassify, the count is sometimes 75, and the day they
+  were denied is the day he decided to fight.** `2017-06-06-disruption-network-lab` @1:09:10–1:10:15
+  carries the whole arc the article was missing: the in-camera meeting his attorneys were barred
+  from, Cacheris's reading that the government's willingness to come down in time meant they knew the
+  case was weak, the plea arithmetic (the government would not go below three and a half years until
+  Kiriakou said he would testify about war crimes he had witnessed, at which point it became 23
+  months), and the subway platform. He tells that last part deliberately and generalises it —
+  Drake, Binney, Sterling.
+- **The safe-house SOP was written on a legal pad, and the first line of it was the time.** He wanted
+  it dark and the occupants asleep, so he wrote 0200 at the top of the page and built outward
+  (`2016-04-25-fort-collins…` @06:16, `2022-05-23-danny-jones…` @34:00). The same sources give the
+  reason the job fell to an analyst rather than to Ground Branch — *"they only know how to kill
+  people,"* and the object here was to take people alive — and the first raid it produced: half a
+  dozen men, a battering ram at two in the morning, and a 19-year-old Tunisian crying for his mother.
+
+### Two corpus bugs found and one fixed
+
+- **`2026-03-11-unfiltered-with-s-a-m…` had 1,722 words of real interview buried in its `.sponsors`
+  sidecar** — 22 paragraphs, and `tools/unstrip-sponsors.mjs --dry-run` scored **zero** of them as
+  genuine ads. Recovered into canon with that tool. Among the buried material: the host asking
+  outright whether nuclear weapons are stored at the British bases, and Kiriakou refusing to claim
+  knowledge he does not have — *"as God is my witness, I don't know"* — while adding that he does not
+  even know where American nuclear weapons are based, and would guess probably yes. That passage is
+  now in the article. **There are 278 `.sponsors` sidecars in the corpus and this one was 18% of its
+  interview by weight. A full `--all --dry-run` sweep, reported per file, is the highest-value cheap
+  job available to any routine right now.**
+- **`british-bases-in-cyprus` was citing its host as if he were Kiriakou.** Two of its three original
+  claims — the bases covering 3% of Cyprus land, and the wartime evacuation of Akrotiri village —
+  are spoken by the Cypriot interviewer, not by Kiriakou; the second is in the same breath as *"John,
+  I wanted to ask you…"*. Both were removed. The citations were also malformed (`02:06:00` where the
+  transcript reads `02:06`), which is how they survived: `tools/verify-cites.mjs` had never been able
+  to check them. **`akrotiri-village-evacuation` almost certainly rests on the same host passage and
+  should be re-examined before it is cited again.**
+
+### Opened, read and abandoned — do not re-offer without new sources
+
+- **`the-blacked-out-grand-jury-minutes`** — token collision. Every hit is Assange/Manning grand-jury
+  material; nothing on the Epstein tranche. Needs `--tokens epstein,grand,jury` to be scorable.
+- **`peter-thiel`** — three corpus hits, and the two substantive ones are hosts talking. The only
+  Kiriakou line is his agreement that Palantir was founded by a fellow Stanford alum.
+- **`barrett-brown`** — every hit outside the cited source is a host mentioning him, usually as a
+  booking credit.
+- **`the-cia-barber-shop`** — five "barber shop" sources and four of them are the *Pentagon* barber
+  shop, run for decades by Kiriakou's relative Angelo. That is real material, but it belongs to a
+  family-history article, not this one.
+- **`marble-framework`** — the Vault 7 panel sources (`2022-09-20` ×2) are Suzie Dawson and Ray
+  McGovern speaking at length; the Scott Horton passage slides between host and guest mid-paragraph.
+  Not assignable.
+- **`kharg-island`** — one clean new source (`2026-03-31-the-deep-focus-show…` @04:45, taking Kharg
+  versus a land invasion), one unassignable. Below the floor at one source; hold it for the next run,
+  when one more telling will carry it.
+- **`the-macron-defamation-suit`**, **`alex-karp`**, **`bay-path-university`** — each has genuinely new
+  material behind exactly one distinct interview (the `2025-07-25`/`07-26` DeProgram pair, the
+  Dorey Vault 7 interview under two upload slugs, and the `2025-11-21` DeProgram pair respectively).
+  All three are one corroborating telling away from clearing the floor.
+
+### Editorial decisions taken alone, logged for review
+
+- Kept Kiriakou's own phrasing in `the-new-iraqi-flag` about the Iraq Operations Group director
+  (*"this is what happens when they put a Mexican guy in charge"*), quoted and attributed, because
+  doctrine rule 3 is to mirror him rather than tidy him.
+- Dropped, from `butler-rally-shooting`, his aside inferring MK-Ultra from the shooter's parents'
+  profession. It is speculation about identifiable private individuals and it carried no fact.
+- Recorded rather than resolved two contradictions: who stripped the desk bolts at Loretto (a
+  prisoner paid in tuna fish in 2020 and 2023; Kiriakou himself in 2026), and whether Seeger took the
+  Ochs call himself or left a message with the waitress.
