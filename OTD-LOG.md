@@ -422,3 +422,87 @@ in-progress articles were fixed in passing (`the-hall-of-states`, `dr-oz-and-the
 so the gate would pass; those files are not mine and were not staged.
 
 No build, no deploy — the 19:00 publisher owns both as of today.
+
+---
+
+## 2026-08-20 — run 4
+
+**Coverage: 205 → 318 distinct calendar days. Events: 258 → 371 day-precise.**
+113 added, every one a previously EMPTY day. 0 duplicates created, 0 existing entries rewritten.
+
+Baseline measured fresh at the start, as run 3 instructed: 258 events / 205 days / 161 empty —
+one day better than the 162 run 3 left. Closing measurement 371 / 318 / 48.
+
+### The prose vein is dry — this is a real finding
+
+Run 3 said to re-run the article prose sweep first every time because it is cheap and it pays.
+It was re-run mechanically over all 2,101 articles. **Three hits on empty days, and all three
+were prior rejections resurfacing**: 2017-05-30, 2025-08-22 (the Bolton raid, host-stated date)
+and 2001-11-25 (Spann). Not re-litigated.
+
+That vein produced 24 entries in run 3 and 0 in run 4. It should still be re-run — it is a
+few seconds of work and the enricher keeps writing dated articles — but it is no longer where
+the coverage comes from, and a future run should not budget time for it.
+
+### Lane 3 took the whole run
+
+Same method as run 3, unchanged and still the right one: for each empty day, take the source
+publishing on it with the most citations across the corpus, read the passages in the
+highest-citing article that carry a `<Cite>` to that exact source, and write the event from what
+he said *there*. The claim and the timestamp are already vetted canon; nothing was written from
+a date-index hit or from source metadata alone.
+
+113 entries came out this way, spread across 2015–2026. Every one is day-precise `YYYY-MM-DD`,
+in Kiriakou's own voice, past-tense, with at least one wikilink, hung off an article the
+appearance genuinely anchors.
+
+Where the top-ranked article for a day turned out not to carry the cite in its own prose (the
+paragraph filter matches the article, not the sentence), the next article down was used instead
+— that is how 05-12 went to `national-security-agency` rather than `afghan-heroin-policy`,
+05-23 to `abu-zubaydah` via the Danny Jones appearance, 09-03 to `enhanced-interrogation` and
+09-13 to `freedom-of-information-act`. Worth knowing: it happened on roughly one day in eight.
+
+### Rejected
+
+- **2015-01-09.** The aggregator re-upload, rejected for the third run running. It is the
+  highest-citation source on any remaining empty day (57) and it will keep sorting to the top of
+  the queue. **A future run should not re-derive this.** The material is Kiriakou speaking in
+  January 2013 about the Brennan nomination; the 2015 date is an upload, not an appearance.
+- **2025-10-14.** *Silenced*, a 2014 documentary re-posted in 2025. Same class as the above:
+  the date is a re-upload date. Rejected.
+- **2016-09-28.** The Sam Adams award ceremony. The cited passages are the presenters and the
+  narration, not Kiriakou. Rejected on single-source grounds.
+- **2025-09-30, first pass.** The highest-citing article for that day (`fort-gordon`) is almost
+  entirely Reality Winner speaking on Kiriakou's show. Filled instead from
+  `government-accountability-project`, which carries his own account of GAP taking his case.
+
+### Carried forward, untouched again
+
+- The six `01-01` year-only placeholders (flagged run 1).
+- The Stephen Saunders three-date conflict (run 1) and the *Washington Post* waterboarding
+  photograph's three dates (run 2).
+
+### Where the next run starts — the seam is genuinely close to dry
+
+**48 empty days remain, and only four of them have any cited source landing on them — all four
+rejected above.** The remaining 44 have no source in the corpus published on that calendar day
+at all. Lane 3 as practised for three runs cannot reach them.
+
+The next run therefore has to change method or accept the ceiling. The options, in order of
+what they cost:
+
+1. **Uncited sources.** Three empty days have a source that no article cites yet. Reading those
+   transcripts is real work but it is canon, and it would also feed the enricher.
+2. **Second and third appearances on days already covered.** Cheap, but it does not fill days —
+   it deepens them. Worth doing only if a full calendar stops being the goal.
+3. **Lane 2, the historical-anchor relaxation** proposed in `ON-THIS-DAY-PLAN.md` and never
+   approved. Still the only thing that reaches a full calendar. Still a doctrine call.
+
+`ON-THIS-DAY-PLAN.md` was rewritten this run — it had been stale since run 2 and was still
+quoting 38 events / 26 days.
+
+Two audits clean at exit: 0 bugs, 0 dead. No build, no deploy.
+
+Another routine was writing to the tree during this run (five articles and a source pair). Those
+files are not mine and were not staged. `src/data/article-dates.json` and `related.json` were
+already dirty when this run started; left alone for the same reason.
